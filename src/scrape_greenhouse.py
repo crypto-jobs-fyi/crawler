@@ -22,9 +22,9 @@ class ScrapeGreenhouse(ScrapeIt):
         iframe = driver.find_elements(By.TAG_NAME, 'iframe')
         if len(iframe) > 0:
             print(f'[{self.name}] iFrame detected..')
-            time.sleep(2)
+            time.sleep(3)
             driver.switch_to.frame(iframe[0])
-            time.sleep(2)
+            time.sleep(5)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="opening"]')
         print(f'[{self.name}] Found {len(group_elements)} jobs.')
         result = []

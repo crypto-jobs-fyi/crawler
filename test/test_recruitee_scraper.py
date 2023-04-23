@@ -4,7 +4,9 @@ from src.scrape_recruitee import ScrapeRecruitee
 
 
 companies = [
-    CompanyItem("ramp.network", "https://metrika.recruitee.com", ScrapeRecruitee, "https://ramp.network", "Payments")]
+    CompanyItem("ramp.network", "https://metrika.recruitee.com", ScrapeRecruitee, "https://ramp.network", "Payments"),
+    CompanyItem("tether", "https://tether.recruitee.com", ScrapeRecruitee, "https://tether.to/en", "Stable Coin")
+]
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
