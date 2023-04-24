@@ -12,7 +12,7 @@ If you find this project useful please donate ETH/ERC-20 to [0x589a0d87d600a6c6f
 - ...
 
 # how to use?
-Given that you have Python 3.5+ and pip instaleed just run pip install -r requirements.txt
+Given that you have Python 3.5+ and pip installed just run pip install -r requirements.txt
 Crawler uses just 1 none standard libs:
 - selenium 
 - `pip install -r requirements.txt`
