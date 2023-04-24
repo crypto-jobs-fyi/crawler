@@ -23,7 +23,7 @@ Next just run `crawler.py`
 - `docker run --rm -it -v ${PWD}:/data docker.io/library/scrap:latest`
 
 # UI staff
-Let's try GitHub pages here: https://yury-dubinin.github.io/crypto-jobs-crawler/
+Let's try GitHub pages here: https://crypto-jobs-fyi.github.io/web/
 Locally just run `python3 -m http.server 8000` and open `localhost:8000` in your browser.
 
 # What we will watch -> work in progress
