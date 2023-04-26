@@ -41,8 +41,6 @@ company_list = [CompanyItem('stellar', 'https://boards.greenhouse.io/stellar', S
                             "https://poap.xyz", "Protocol"),
                 CompanyItem("chainsafesystems", "https://boards.greenhouse.io/chainsafesystems", ScrapeGreenhouse,
                             "https://chainsafe.io", "Infra"),
-                CompanyItem("paxos", "https://paxos.com/careers/role", ScrapeGreenhouse, "https://paxos.com",
-                            "Stable Coin"),
                 CompanyItem("status", "https://jobs.status.im", ScrapeGreenhouse, "https://status.im", "Messanger"),
                 CompanyItem("digitalasset", "https://boards.greenhouse.io/digitalasset", ScrapeGreenhouse,
                             "https://www.digitalasset.com", "Custody"),

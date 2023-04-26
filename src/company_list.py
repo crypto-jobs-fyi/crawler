@@ -9,6 +9,7 @@ from src.scrape_consensys import ScrapeConsensys
 from src.scrape_ripple import ScrapeRipple
 from src.scrape_workable import ScrapeWorkable
 from src.scrape_ashbyhq import ScrapeAshbyhq
+from src.scrape_paxos import ScrapePaxos
 
 
 def get_company_list() -> []:
@@ -27,7 +28,7 @@ def get_company_list() -> []:
                         'Blockchain'),
             CompanyItem("tessera", "https://jobs.lever.co/ftc", ScrapeLever, "https://tessera.co", "NFT"),
             CompanyItem('axiomzen', 'https://jobs.lever.co/axiomzen', ScrapeLever, 'https://www.axiomzen.com', 'Web3'),
-            CompanyItem("paxos", "https://paxos.com/careers/role", ScrapeGreenhouse, "https://paxos.com",
+            CompanyItem("paxos", "https://paxos.com/job-posts/?_sft_department=compliance,engineering,finance-accounting,hr-talent,information-technology,legal,operations,product&_sft_office=us", ScrapePaxos, "https://paxos.com",
                         "Stable Coin"),
             CompanyItem("zora", "https://boards.greenhouse.io/zora", ScrapeGreenhouse, "https://zora.co", "NFT"),
             CompanyItem('fuellabs', 'https://jobs.lever.co/fuellabs', ScrapeLever, 'https://www.fuel.network',
