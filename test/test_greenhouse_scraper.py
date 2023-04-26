@@ -8,6 +8,7 @@ driver = webdriver.Chrome(options=options)
 
 company_list = [CompanyItem('stellar', 'https://boards.greenhouse.io/stellar', ScrapeGreenhouse, 'https://stellar.org',
                             'Blockchain'),
+                CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com', 'Web3'),
                 CompanyItem('mobilecoin', 'https://boards.greenhouse.io/mobilecoin', ScrapeGreenhouse,
                             'https://mobilecoin.com', 'Blockchain'),
                 CompanyItem('chia', 'https://www.chia.net/careers', ScrapeGreenhouse,
