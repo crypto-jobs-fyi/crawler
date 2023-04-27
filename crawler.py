@@ -40,6 +40,21 @@ def write_numbers():
         json.dump(current_jobs, file, indent=4)
 
 
+def write_companies():
+    result_list = []
+    for com in company_list:
+        company_item = {
+            "company_name": com.company_name,
+            "company_url": com.company_url,
+            "jobs_url": com.jobs_url,
+        }
+        result_list.append(company_item)
+    print(f'[CRAWLER] Number of Companies {len(result_list)}')
+    with open('companies.json', 'w') as f:
+        json_string = json.dumps(result_list)
+        f.write(json_string)
+
+
 for company in company_list:
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
     print_and_collect_numbers(company.company_name, len(jobs_data))
@@ -47,6 +62,7 @@ for company in company_list:
 driver.close()
 
 write_numbers()
+write_companies()
 
 
 def write_history(current_jobs_json: dict):
