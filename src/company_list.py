@@ -39,6 +39,7 @@ def get_company_list() -> []:
             CompanyItem("Bitgo", "https://boards.greenhouse.io/bitgo", ScrapeGreenhouse, "https://bitgo.com", "Exchange"),
             CompanyItem("Bitpanda", "https://boards.eu.greenhouse.io/bitpanda", ScrapeGreenhouse, "https://bitpanda.com", "Exchange"),
             CompanyItem("Uniswap Labs", "https://boards.greenhouse.io/uniswaplabs", ScrapeGreenhouse, "https://uniswap.org", "Exchange Protocol"),
+            CompanyItem('Osmosis', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse,'https://osmosis.zone','Exchange'),
             CompanyItem("Moonpay", "https://boards.greenhouse.io/moonpay", ScrapeGreenhouse, "https://www.moonpay.com", "Payments"),
             CompanyItem("Moonwalk", "https://boards.greenhouse.io/moonwalk", ScrapeGreenhouse, "https://www.moonwalk.com", "Platform"),
             CompanyItem("Blockdaemon", "https://boards.greenhouse.io/blockdaemon", ScrapeGreenhouse, "https://www.blockdaemon.com", "Staking & Infra"),
