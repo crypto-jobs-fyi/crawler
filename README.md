@@ -103,6 +103,9 @@ wip:
 - https://jobs.ashbyhq.com/center
 - https://careers.bitrefill.com/jobs/
 - https://bankless.pallet.com/jobs
+- https://boards.greenhouse.io/immunefi
+- https://www.certora.com/#careers
+- 
 
 not only crypto:
 
