@@ -127,5 +127,11 @@ def get_company_list() -> []:
             CompanyItem("Bitwise", 'https://jobs.lever.co/bitwiseinvestments', ScrapeLever, 'https://bitwiseinvestments.com', 'Asset Management'),
             CompanyItem("Crypto Finance", 'https://apply.workable.com/cryptofinance', ScrapeWorkable, 'https://www.crypto-finance.com', 'Exchange'),
             CompanyItem("Bitget", 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en', 'Exchange'),
+            CompanyItem("B2C2", "https://boards.greenhouse.io/b2c2", ScrapeGreenhouse, "http://b2c2.com/", "Exchange"),
+            CompanyItem("Bitski", "https://jobs.lever.co/Bitski", ScrapeLever, "https://www.bitski.com/", "Wallet"),
+            CompanyItem("Celo", "https://boards.greenhouse.io/celofoundation", ScrapeGreenhouse, "https://celo.org/", "Blockchain"),
+            CompanyItem("Ceramic Network", "https://jobs.lever.co/3box", ScrapeLever, "https://ceramic.network/", "Infra"),
+            CompanyItem("Certik", "https://jobs.lever.co/certik/", ScrapeLever, "https://www.certik.com/", "Auditing"),
+            CompanyItem("Conduit", "https://jobs.ashbyhq.com/Conduit", ScrapeAshbyhq, "https://conduit.xyz/", "L2"),
     ]
 
