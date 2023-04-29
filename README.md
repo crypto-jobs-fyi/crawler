@@ -97,6 +97,15 @@ wip:
 - https://careers.koinly.io/jobs
 - https://voltz.notion.site/Voltz-Labs-is-Hiring-f1a8857cb7b24d43968cfd735f52292a
 - https://hop.exchange/careers
+- https://jobs.lever.co/BlockSwap/
+- https://apply.workable.com/superfluid/#jobs
+- https://boards.greenhouse.io/serotonin
+- https://jobs.ashbyhq.com/center
+- https://careers.bitrefill.com/jobs/
+- https://bankless.pallet.com/jobs
+- https://boards.greenhouse.io/immunefi
+- https://www.certora.com/#careers
+- 
 
 not only crypto:
 
