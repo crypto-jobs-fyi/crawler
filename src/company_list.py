@@ -134,5 +134,23 @@ def get_company_list() -> []:
             CompanyItem("Ceramic Network", "https://jobs.lever.co/3box", ScrapeLever, "https://ceramic.network/", "Infra"),
             CompanyItem("Certik", "https://jobs.lever.co/certik/", ScrapeLever, "https://www.certik.com/", "Auditing"),
             CompanyItem("Conduit", "https://jobs.ashbyhq.com/Conduit", ScrapeAshbyhq, "https://conduit.xyz/", "L2"),
+            CompanyItem("Connext", "https://jobs.lever.co/connext-network", ScrapeLever, "https://www.connext.network/", "Infra"),
+            CompanyItem("Caldera", "https://jobs.ashbyhq.com/Caldera/", ScrapeAshbyhq, "https://caldera.xyz/", "L2"),
+            CompanyItem("Cow Protocol", "https://boards.greenhouse.io/cowswap", ScrapeGreenhouse, "https://cow.fi/", "DeFi"),
+            CompanyItem("Derahacks", "https://jobs.lever.co/DoraHacks", ScrapeLever, "https://dorahacks.io/", "Community"),
+            CompanyItem("dYdX", "https://boards.greenhouse.io/dydx", ScrapeGreenhouse, "https://dydx.exchange/", "DEX"),
+            CompanyItem("Elliptic", "https://apply.workable.com/elliptic/", ScrapeWorkable, "https://www.elliptic.co/", "Compliance"),
+            CompanyItem("Espresso Systems", "https://jobs.lever.co/Espresso", ScrapeLever, "https://www.espressosys.com/", "Infra"),
+            CompanyItem("FalconX", "https://boards.greenhouse.io/falconx", ScrapeGreenhouse, "https://falconx.io/", "Asset Management"),
+            CompanyItem("Foam", "https://jobs.lever.co/foam", ScrapeLever, "https://foam.space/", ""),
+            CompanyItem("Grafana", "https://boards.greenhouse.io/grafanalabs/", ScrapeGreenhouse, "https://grafana.com/", "Infra"),
+            CompanyItem("ImmuneFi", "https://boards.greenhouse.io/immunefi/", ScrapeGreenhouse, "https://immunefi.com/", "Auditing"),
+            CompanyItem("LIT Protocol", "https://jobs.lever.co/litprotocol", ScrapeLever, "https://litprotocol.com/", "Infra"),
+            CompanyItem("Windranger", "https://jobs.ashbyhq.com/windranger/", ScrapeAshbyhq, "https://www.mantle.xyz/", "L2"),
+            CompanyItem("Multiversx", "https://jobs.lever.co/multiversx/", ScrapeLever, "https://multiversx.com/", "Blockchain"),
+            CompanyItem("Nansen", "https://boards.greenhouse.io/nansen", ScrapeGreenhouse, "https://www.nansen.ai/", "Analytics"),
+            CompanyItem("Near Foundation", "https://boards.greenhouse.io/nearfoundation", ScrapeGreenhouse, "https://near.org/", "Blockchain"),
+            CompanyItem("Gemini", "https://boards.greenhouse.io/gemini", ScrapeGreenhouse, "https://www.gemini.com/", "Exchange"),
+
     ]
 
