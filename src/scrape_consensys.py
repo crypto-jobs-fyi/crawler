@@ -8,6 +8,7 @@ class ScrapeConsensys(ScrapeIt):
     def getJobs(self, driver, web_page, company='consensys') -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
+        driver.get(web_page)
         group_elements = driver.find_elements(By.XPATH, '//div[@id="careers"]//div[contains(@class, "careersSectionItem_itemOuter")]')
         print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
