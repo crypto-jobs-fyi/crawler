@@ -129,3 +129,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Tests and test files
+/test/jobs.json
+/test/companies.json
