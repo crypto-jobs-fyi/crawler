@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/dt/dt-1.10.22/datatables.min.css" />
+<script type="text/javascript" src="https://cdn.datatables.net/r/dt/dt-1.10.22/datatables.min.js"></script>
+<script>
+     $(document).ready(function () {
+          $('#jobs tfoot th').each(function () {
+               var title = $(this).text();
+               $(this).html('<input type="text" placeholder="Search ' + title + '" />');
+          });
+          getDataForDatatables();
+     });
+
+     function getDataForDatatables() {
+          var test = "./jobs.json";
+          var jd = $.getJSON(test, {
+               format: "json"
+          })
+               .done(function (jsonData) {
+                    setDataToTable(jsonData);
+               });
+     }
+
+     function setDataToTable(jsonData) {
+          $('#jobs').DataTable({
+               pagination: "bootstrap",
+               filter: true,
+               data: jsonData.data,
+               destroy: true,
+               lengthMenu: [50, 100, 250, 500],
+               pageLength: 50,
+               initComplete: function () {
+                    this.api()
+                         .columns()
+                         .every(function () {
+                              var that = this;
+
+                              $('input', this.footer()).on('keyup change clear', function () {
+                                   if (that.search() !== this.value) {
+                                        that.search(this.value).draw();
+                                   }
+                              });
+                         });
+               },
+               "columns": [
+                    { "data": "company" },
+                    { "data": "title" },
+                    { "data": "location" },
+                    { "data": "link" }
+               ]
+          });
+     }
+</script>
+<table id="jobs" class="display" cellspacing="0" width="100%">
+     <thead>
+          <tr>
+               <th>Company Name</th>
+               <th>Job Title</th>
+               <th>Location</th>
+               <th>Apply Link</th>
+          </tr>
+     </thead>
+     <tfoot>
+          <tr>
+               <th>Company Name</th>
+               <th>Job Title</th>
+               <th>Location</th>
+               <th>Apply Link</th>
+          </tr>
+     </tfoot>
+
+</table>
