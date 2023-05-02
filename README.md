@@ -105,7 +105,7 @@ wip:
 - https://bankless.pallet.com/jobs
 - https://boards.greenhouse.io/immunefi
 - https://www.certora.com/#careers
-- 
+- https://istari.vision/en/career/
 
 not only crypto:
 
