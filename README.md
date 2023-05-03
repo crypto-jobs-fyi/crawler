@@ -106,6 +106,8 @@ wip:
 - https://boards.greenhouse.io/immunefi
 - https://www.certora.com/#careers
 - https://istari.vision/en/career/
+- https://boards.greenhouse.io/immunefi
+- https://boards.greenhouse.io/o1labs
 
 not only crypto:
 
