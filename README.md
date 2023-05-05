@@ -105,7 +105,14 @@ wip:
 - https://bankless.pallet.com/jobs
 - https://boards.greenhouse.io/immunefi
 - https://www.certora.com/#careers
-- 
+- https://istari.vision/en/career/
+- https://boards.greenhouse.io/immunefi
+- https://boards.greenhouse.io/o1labs
+- https://boards.greenhouse.io/protocollabs
+- https://jobs.lever.co/3box
+- https://apply.workable.com/clockwork-labs
+- https://celestia.pallet.com/jobs
+- https://jobs.ashbyhq.com/Sui%20Foundation
 
 not only crypto:
 
