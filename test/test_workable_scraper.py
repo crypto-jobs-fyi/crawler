@@ -20,7 +20,7 @@ company_list = [CompanyItem('cryptofinance', 'https://apply.workable.com/cryptof
 
 for company in company_list:
     print(company.jobs_url)
-    data = company.scraper_type().getJobs(driver, company.jobs_url)
+    data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
     for entry in data:
         print(entry)
 

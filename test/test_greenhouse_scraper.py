@@ -9,6 +9,10 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('paradigm.co', 'https://boards.greenhouse.io/paradigm62', ScrapeGreenhouse, 'https://www.paradigm.co',
                 'Liquidity'),
+    CompanyItem('immunefi', 'https://boards.greenhouse.io/immunefi', ScrapeGreenhouse, 'https://immunefi.com',
+                'Bug bounty platform'),
+    CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse, 'https://protocol.ai/about',
+                'Web3 IPFS research platform'),
     CompanyItem('taxbit', 'https://boards.greenhouse.io/taxbit', ScrapeGreenhouse, 'https://taxbit.com', 'Accounting'),
     CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone',
                 'Exchange'),
