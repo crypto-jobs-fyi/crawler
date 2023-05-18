@@ -328,4 +328,8 @@ def get_company_list() -> []:
                     ScrapeWorkable, "https://yapglobal.com/", "Services"),
         CompanyItem("Zerion", "https://jobs.lever.co/zerion",
                     ScrapeLever, "https://zerion.io/", "Wallet"),
+        CompanyItem("NodeReal", "https://jobs.lever.co/nodereal",
+                    ScrapeLever, "https://nodereal.io/", "Gaming"),
+        CompanyItem("Foundation", "https://jobs.lever.co/with-foundation/",
+                    ScrapeLever, "https://nodereal.io/", "NFT"),
     ]
