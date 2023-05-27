@@ -171,6 +171,8 @@ def get_company_list() -> []:
                         "https://fil.org", "Blockchain"),
             CompanyItem('3boxlabs', 'https://jobs.lever.co/3box', ScrapeLever, 'https://3boxlabs.com',
                         'Infra'),
+            CompanyItem('foundrydigital', 'https://boards.greenhouse.io/foundrydigital', ScrapeGreenhouse,
+                        'https://foundrydigital.com', 'Web3 Infra'),
             CompanyItem('immunefi', 'https://boards.greenhouse.io/immunefi', ScrapeGreenhouse, 'https://immunefi.com',
                         'Bug bounty platform'),
             CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse,
