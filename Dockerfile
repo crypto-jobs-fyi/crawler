@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM --platform=linux/amd64 python:3.11
 
 RUN apt-get -y update
 RUN pip install --upgrade pip
