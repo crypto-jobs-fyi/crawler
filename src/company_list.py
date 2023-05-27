@@ -103,6 +103,8 @@ def get_company_list() -> []:
                         'https://stellar.org', 'Blockchain'),
             CompanyItem("parity", "https://boards.greenhouse.io/parity", ScrapeGreenhouse, "https://www.parity.io",
                         "Infra"),
+            CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi',
+                        'Staking & Infra'),
             CompanyItem("optimism", "https://boards.greenhouse.io/optimism", ScrapeGreenhouse,
                         "https://www.optimism.io", "L2 protocol"),
             CompanyItem('bebop', 'https://jobs.lever.co/Bebop', ScrapeLever, 'https://bebop.xyz', 'DeFi Exchange'),

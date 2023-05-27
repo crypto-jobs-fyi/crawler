@@ -30,14 +30,10 @@ Locally just run `python3 -m http.server 8000` and open `localhost:8000` in your
 
 wip:
 - https://jobs.paradigm.xyz/companies/blur-io
-- https://jobs.ashbyhq.com/Paradigm
 - https://gnosis.jobs.personio.com
 - https://nexusmutual.recruitee.com
 - https://metrika.recruitee.com
-- https://jobs.ashbyhq.com/dune
 - https://jobs.ashbyhq.com/cryptio
-- https://www.trmlabs.com/careers#open-roles
-- https://kiln.crew.work/jobs
 - https://ratedlabs.notion.site/Open-Roles-at-Rated
 - https://zenith-caboc-8a4.notion.site/Join-Llama-ad66be1cb28541f5b5346aa37d192b79
 - https://bullish.wd3.myworkdayjobs.com/Bullish
