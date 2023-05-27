@@ -1,5 +1,6 @@
 import json
 from src.company_list import get_company_list
+from src.company_list import get_company
 
 company_list = get_company_list()
 print(f'Number of companies: {len(company_list)}')
@@ -15,3 +16,5 @@ print(f'Number of companies in JSON: {len(result_list)}')
 with open('companies.json', 'w') as f:
     jsonString = json.dumps(result_list)
     f.write(jsonString)
+
+print(get_company('kraken'))

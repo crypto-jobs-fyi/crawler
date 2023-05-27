@@ -250,3 +250,9 @@ def get_company_list() -> []:
                         'https://www.crypto-finance.com', 'Exchange'),
             CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
                         'Exchange')]
+
+
+def get_company(name) -> CompanyItem:
+    company_list = get_company_list()
+    companies = list(filter(lambda jd: jd.company_name == name, company_list))
+    return companies[0]

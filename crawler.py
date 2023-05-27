@@ -2,6 +2,7 @@ from selenium import webdriver
 from datetime import datetime
 import json
 from src.company_list import get_company_list
+from src.company_list import get_company
 
 company_list = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
@@ -80,3 +81,12 @@ def write_history(current_jobs_json: dict):
 with open('current.json') as json_file:
     data = json.load(json_file)
     write_history(dict(data))
+
+
+print('--- No jobs found for following companies: ---')
+with open('current.json', 'r') as current_file:
+    current_jobs_data = json.load(current_file)
+
+for i in current_jobs_data:
+    if current_jobs_data[i] == 0:
+        print(f'Company: {i} Jobs board: {get_company(i).jobs_url}')
