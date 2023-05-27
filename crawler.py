@@ -51,9 +51,9 @@ def write_companies():
         }
         result_list.append(company_item)
     print(f'[CRAWLER] Number of Companies {len(result_list)}')
-    with open('companies.json', 'w') as f:
+    with open('companies.json', 'w') as companies_file:
         json_string = json.dumps(result_list)
-        f.write(json_string)
+        companies_file.write(json_string)
 
 
 for company in company_list:

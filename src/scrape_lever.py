@@ -40,6 +40,6 @@ class ScrapeLever(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[LEVER]  Scraped {len(result)} jobs from {web_page}')
+        print(f'[LEVER] Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
