@@ -99,6 +99,7 @@ wip:
 - https://apply.workable.com/clockwork-labs
 - https://celestia.pallet.com/jobs
 - https://jobs.ashbyhq.com/Sui%20Foundation
+- https://apply.workable.com/paraswap
 
 not only crypto:
 
