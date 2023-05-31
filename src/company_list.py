@@ -14,6 +14,8 @@ from src.scrape_paxos import ScrapePaxos
 
 def get_company_list() -> []:
     return [CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
+            CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
+                        'https://arbitrum.foundation', 'Layer 2'),
             CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLever, "https://chain.link",
                         "Blockchain"),
             CompanyItem("0x", "https://boards.greenhouse.io/0x", ScrapeGreenhouse, "https://0x.org",
