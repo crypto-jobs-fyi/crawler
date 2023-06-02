@@ -100,6 +100,19 @@ wip:
 - https://celestia.pallet.com/jobs
 - https://jobs.ashbyhq.com/Sui%20Foundation
 - https://apply.workable.com/paraswap
+- https://boards.greenhouse.io/magic
+- https://gamescoin.jobs.personio.de/
+- https://jobs.hiro.cash/
+- https://apply.workable.com/interlay/
+- https://boards.greenhouse.io/0x
+- https://composable-finance.jobs.personio.com/
+- https://jobs.ashbyhq.com/safe.global
+- https://jobs.lever.co/with-foundation/
+- https://www.karpatkey.com/jobs
+- https://boards.eu.greenhouse.io/evmos
+- https://boards.eu.greenhouse.io/outlierventures
+- https://jobs.outlierventures.io/jobs
+- https://coda.io/@josh-rosenblatt-co-create/careers-at-co-create
 
 not only crypto:
 
@@ -109,5 +122,6 @@ not yet crypto:
 
 - https://boards.greenhouse.io/papaya
 - https://boards.greenhouse.io/ramp
+- https://jobs.lever.co/Hume
 
 to be fixed:
