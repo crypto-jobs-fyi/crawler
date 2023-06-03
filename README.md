@@ -104,7 +104,6 @@ wip:
 - https://gamescoin.jobs.personio.de/
 - https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
-- https://boards.greenhouse.io/0x
 - https://composable-finance.jobs.personio.com/
 - https://jobs.ashbyhq.com/safe.global
 - https://jobs.lever.co/with-foundation/
