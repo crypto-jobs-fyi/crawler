@@ -7,6 +7,7 @@ with open('jobs.json', 'r') as f:
 
 with open('jobs_age.json', 'r') as age_file:
     age_data = json.load(age_file)
+    print(f'Number of jobs ages stored: {len(age_data)}')
 
 for job in jobs_data:
     link = job.get('link')
