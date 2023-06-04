@@ -1,8 +1,11 @@
-from selenium import webdriver
-from datetime import datetime
 import json
-from src.company_list import get_company_list
+import time
+from datetime import datetime
+
+from selenium import webdriver
+
 from src.company_list import get_company
+from src.company_list import get_company_list
 
 company_list = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
@@ -58,7 +61,9 @@ def write_companies():
 
 
 for company in company_list:
+    st = time.time()
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
+    print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
     print_and_collect_numbers(company.company_name, len(jobs_data))
 
 driver.close()
