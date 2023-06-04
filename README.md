@@ -62,7 +62,6 @@ wip:
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://www.openzeppelin.com/jobs
 - https://tusd.io/careers/#workwithus
-- https://apply.workable.com/walletconnect/
 - https://careers.chorus.one/
 - https://staking-facilities-gmbh.jobs.personio.com/
 - https://jobs.coinfund.io/jobs?page=2
@@ -100,7 +99,6 @@ wip:
 - https://celestia.pallet.com/jobs
 - https://jobs.ashbyhq.com/Sui%20Foundation
 - https://apply.workable.com/paraswap
-- https://boards.greenhouse.io/magic
 - https://gamescoin.jobs.personio.de/
 - https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
@@ -108,8 +106,6 @@ wip:
 - https://jobs.ashbyhq.com/safe.global
 - https://jobs.lever.co/with-foundation/
 - https://www.karpatkey.com/jobs
-- https://boards.eu.greenhouse.io/evmos
-- https://boards.eu.greenhouse.io/outlierventures
 - https://jobs.outlierventures.io/jobs
 - https://coda.io/@josh-rosenblatt-co-create/careers-at-co-create
 
