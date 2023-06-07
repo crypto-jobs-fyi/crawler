@@ -108,6 +108,14 @@ wip:
 - https://www.karpatkey.com/jobs
 - https://jobs.outlierventures.io/jobs
 - https://coda.io/@josh-rosenblatt-co-create/careers-at-co-create
+- https://boards.greenhouse.io/goldsky
+- https://jobs.settlemint.com/
+- https://interchain-gmbh.breezy.hr/
+- https://zondacrypto.softgarden.io/en/vacancies
+- https://lightcurve.jobs.personio.de/
+- https://apply.workable.com/interlay/
+- https://horizenlabs.io/careers/
+- https://jobs.lever.co/Hume/ - https://wearehume.com/
 
 not only crypto:
 
