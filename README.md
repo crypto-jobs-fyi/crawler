@@ -121,6 +121,8 @@ wip:
 - https://apply.workable.com/dydx-operations-trust/
 - https://github.com/tvl-labs/job-board/blob/main/engineering/protocol_engineer.md
 - https://jobs.lever.co/Hume/ - https://wearehume.com/
+- https://wellfound.com/company/redstonefinance/jobs
+- https://jobs.ashbyhq.com/RabbitHole
 
 not only crypto:
 
@@ -131,5 +133,6 @@ not yet crypto:
 - https://boards.greenhouse.io/papaya
 - https://boards.greenhouse.io/ramp
 - https://jobs.lever.co/Hume
+- https://jobs.lever.co/pigment
 
 to be fixed:
