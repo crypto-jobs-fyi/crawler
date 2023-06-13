@@ -123,6 +123,8 @@ wip:
 - https://jobs.lever.co/Hume/ - https://wearehume.com/
 - https://wellfound.com/company/redstonefinance/jobs
 - https://jobs.ashbyhq.com/RabbitHole
+- https://stake-capital-group.breezy.hr/
+- https://polygon.technology/ecosystem-jobs
 
 not only crypto:
 
