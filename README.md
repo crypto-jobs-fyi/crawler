@@ -125,6 +125,8 @@ wip:
 - https://jobs.ashbyhq.com/RabbitHole
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
+- https://boards.greenhouse.io/dragonflycapital
+- https://jobs.dragonfly.xyz/jobs
 
 not only crypto:
 
