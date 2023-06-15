@@ -26,7 +26,7 @@ def get_company_list() -> []:
                         'Community'),
             CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link',
                         'Web3 Wallets'),
-            CompanyItem("chainstack", "https://chainstack.bamboohr.com/jobs", ScrapeBamboohr,
+            CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
                         "https://chainstack.com", "Infra"),
             CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', ScrapeLever, 'https://multiversx.com',
                         'Blockchain'),

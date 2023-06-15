@@ -23,7 +23,7 @@ class ScrapeBamboohr(ScrapeIt):
         job_location_locator = 'div[itemprop="jobLocation"]'
         if len(group_elements) == 0:
             group_elements = driver.find_elements(By.XPATH, '//li/div/a/..')
-            job_location_locator = 'div[class="jss-c78"]'
+            job_location_locator = 'div[class="jss-e78"]'
         print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
