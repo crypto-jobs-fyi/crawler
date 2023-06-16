@@ -35,7 +35,6 @@ class ScrapeAshbyhqAsync(ScrapeIt):
             job_name = await asynchronous.get_text(*driver, job_name_elem)
             # location = location_elem.text
             location = await asynchronous.get_text(*driver, location_elem)
-            print("location", location)
             cleaned_location = location.replace('\n', ', ')
             job = {
                 "company": company,
