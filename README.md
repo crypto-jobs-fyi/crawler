@@ -127,6 +127,16 @@ wip:
 - https://polygon.technology/ecosystem-jobs
 - https://boards.greenhouse.io/dragonflycapital
 - https://jobs.dragonfly.xyz/jobs
+- https://jobs.lever.co/Metatheory
+- https://boards.greenhouse.io/coinmetrics  -https://coinmetrics.io/
+- https://boards.greenhouse.io/penumbralabs
+- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
+- https://www.ethswarm.org/jobs
+- https://jobs.ashbyhq.com/rain/
+- https://jobs.lever.co/ultra/
+- https://cash.app/careers
+- https://join.com/companies/peaq
+- https://strike.me/careers/
 
 not only crypto:
 
