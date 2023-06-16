@@ -2,6 +2,9 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 
+import time 
+start = time.time()
+
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
@@ -28,3 +31,6 @@ for company in companies:
         print(entry)
 
 driver.close()
+
+end = time.time()
+print(f"Time: {end-start:.2f} sec")
