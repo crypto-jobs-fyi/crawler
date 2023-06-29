@@ -96,3 +96,4 @@ with open('current.json', 'r') as current_file:
 for i in current_jobs_data:
     if current_jobs_data[i] == 0:
         print(f'Company: {i} Jobs board: {get_company(i).jobs_url}')
+print('^^^ No jobs found for the above companies: ^^^')
