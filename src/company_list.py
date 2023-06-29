@@ -304,5 +304,4 @@ def write_companies(file_name):
         result_list.append(company_item)
     print(f'[COMPANY_LIST] Number of Companies writen {len(result_list)}')
     with open(file_name, 'w') as companies_file:
-        json_string = json.dumps(result_list)
-        companies_file.write(json_string)
+        json.dump(result_list, companies_file, indent=4)

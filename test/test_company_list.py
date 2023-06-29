@@ -14,7 +14,6 @@ for company in company_list:
     result_list.append(company_item)
 print(f'Number of companies in JSON: {len(result_list)}')
 with open('companies.json', 'w') as f:
-    jsonString = json.dumps(result_list)
-    f.write(jsonString)
+    json.dump(result_list, f, indent=4)
 
 print(get_company('kraken'))
