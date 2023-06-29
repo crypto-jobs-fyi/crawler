@@ -125,7 +125,6 @@ wip:
 - https://jobs.ashbyhq.com/RabbitHole
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
-- https://boards.greenhouse.io/dragonflycapital
 - https://jobs.dragonfly.xyz/jobs
 - https://boards.greenhouse.io/coinmetrics  -https://coinmetrics.io/
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
