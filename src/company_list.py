@@ -1,3 +1,5 @@
+import json
+
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 from src.scrape_greenhouse import ScrapeGreenhouse
@@ -178,7 +180,8 @@ def get_company_list() -> []:
                         "https://subspace.network", "Blockchain Infra"),
             CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network",
                         "Blockchain"),
-            CompanyItem("aptoslabs", "https://boards.greenhouse.io/aptoslabs", ScrapeGreenhouse, "https://aptoslabs.com",
+            CompanyItem("aptoslabs", "https://boards.greenhouse.io/aptoslabs", ScrapeGreenhouse,
+                        "https://aptoslabs.com",
                         "Blockchain"),
             CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", ScrapeGreenhouse,
                         "https://fil.org", "Blockchain"),
@@ -288,3 +291,18 @@ def get_company(name) -> CompanyItem:
     company_list = get_company_list()
     companies = list(filter(lambda jd: jd.company_name == name, company_list))
     return companies[0]
+
+
+def write_companies(file_name):
+    result_list = []
+    for com in get_company_list():
+        company_item = {
+            "company_name": com.company_name,
+            "company_url": com.company_url,
+            "jobs_url": com.jobs_url,
+        }
+        result_list.append(company_item)
+    print(f'[COMPANY_LIST] Number of Companies writen {len(result_list)}')
+    with open(file_name, 'w') as companies_file:
+        json_string = json.dumps(result_list)
+        companies_file.write(json_string)

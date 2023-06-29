@@ -28,9 +28,9 @@ class ScrapeSmartrecruiters(ScrapeIt):
         driver.get(web_page)
         more_links = '//a[.="Show more jobs"]'
         show_more(driver, more_links)
-        group_elements = driver.find_elements(By.XPATH,
-                                              '//li[contains(@class,"opening-job") and not(contains(@class,"js-more-container"))]')
-        print(f'Found jobs: {len(group_elements)}')
+        elements_locator = '//li[contains(@class,"opening-job") and not(contains(@class,"js-more-container"))]'
+        group_elements = driver.find_elements(By.XPATH, elements_locator)
+        print(f'[SmartRecruiters] Found jobs: {len(group_elements)}')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -45,6 +45,6 @@ class ScrapeSmartrecruiters(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'Scraped {len(result)} jobs from {web_page}')
+        print(f'[SmartRecruiters] Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

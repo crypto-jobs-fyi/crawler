@@ -4,11 +4,12 @@ from datetime import datetime
 
 from selenium import webdriver
 
-from src.company_list import get_company
+from src.company_list import get_company, write_companies
 from src.company_list import get_company_list
 
 company_list = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
+write_companies('companies.json')
 
 with open('jobs.json', 'w') as f:
     f.write('{}')
@@ -45,21 +46,6 @@ def write_numbers():
         json.dump(current_jobs, file, indent=4)
 
 
-def write_companies():
-    result_list = []
-    for com in company_list:
-        company_item = {
-            "company_name": com.company_name,
-            "company_url": com.company_url,
-            "jobs_url": com.jobs_url,
-        }
-        result_list.append(company_item)
-    print(f'[CRAWLER] Number of Companies {len(result_list)}')
-    with open('companies.json', 'w') as companies_file:
-        json_string = json.dumps(result_list)
-        companies_file.write(json_string)
-
-
 for company in company_list:
     st = time.time()
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
@@ -69,7 +55,6 @@ for company in company_list:
 driver.close()
 
 write_numbers()
-write_companies()
 
 
 def write_history(current_jobs_json: dict):
@@ -87,7 +72,6 @@ def write_history(current_jobs_json: dict):
 with open('current.json') as json_file:
     data = json.load(json_file)
     write_history(dict(data))
-
 
 print('--- No jobs found for following companies: ---')
 with open('current.json', 'r') as current_file:
