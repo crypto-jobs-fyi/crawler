@@ -148,5 +148,6 @@ not yet crypto:
 - https://boards.greenhouse.io/ramp
 - https://jobs.lever.co/Hume
 - https://jobs.lever.co/pigment
+- https://jobs.lever.co/neednova
 
 to be fixed:
