@@ -130,14 +130,12 @@ wip:
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
 - https://www.ethswarm.org/jobs
 - https://jobs.ashbyhq.com/rain/
-- https://jobs.lever.co/ultra/
 - https://cash.app/careers
 - https://join.com/companies/peaq
 - https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
-- https://boards.greenhouse.io/yugalabs
+
 - https://careers.smartrecruiters.com/MicroStrategy1
-- https://boards.greenhouse.io/ankrnetwork https://www.ankr.com/
 
 not only crypto:
 
