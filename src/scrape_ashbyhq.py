@@ -4,10 +4,12 @@ from caqui import synchronous, asynchronous
 
 CSS_SELECTOR = "css"  # for ChromeDriver
 
+
 def clean_location(location):
     locations = list(filter(None, ([x.strip() for x in location.split('•')])))
     result = locations[1]
     return result.strip().title()
+
 
 class ScrapeAshbyhqAsync(ScrapeIt):
     name = 'ashbyhq'

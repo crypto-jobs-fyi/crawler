@@ -1,11 +1,13 @@
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhqAsync
+from src.scrape_lever import ScrapeLeverAsync
 import time
 from caqui import synchronous
 import asyncio
 
 MAX_CONCURRENCY = 5  # number of WebDriver instances
 sem = asyncio.Semaphore(MAX_CONCURRENCY)
+
 
 async def __schedule_tasks(companies):
     tasks = [asyncio.ensure_future(__collect_data(company)) for company in companies]
@@ -14,7 +16,7 @@ async def __schedule_tasks(companies):
 
 async def __collect_data(company):
     async with sem:
-        driver_url = "http://127.0.0.1:9999"
+        driver_url = "http://127.0.0.1:9515"
         capabilities = {
             "desiredCapabilities": {
                 "name": "webdriver",
@@ -34,7 +36,7 @@ async def __collect_data(company):
 
         synchronous.close_session(*driver)
 
-    
+
 async def __schedule_tasks():
     companies = [
         CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhqAsync, 'https://www.kiln.fi', 'Staking'),
@@ -50,7 +52,13 @@ async def __schedule_tasks():
                     'https://www.sygnum.com',
                     'Crypto bank'),
         CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', ScrapeAshbyhqAsync,
-                    'https://ellipsislabs.xyz', 'Trading Protocol')
+                    'https://ellipsislabs.xyz', 'Trading Protocol'),
+        CompanyItem('bebop', 'https://jobs.lever.co/Bebop', ScrapeLeverAsync, 'https://bebop.xyz', 'DeFi Exchange'),
+        CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLeverAsync, "https://kraken.com", "Exchange"),
+        CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLeverAsync,
+                    'https://arbitrum.foundation', 'Layer 2'),
+        CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLeverAsync, "https://chain.link",
+                    "Blockchain"),
     ]
     tasks = [asyncio.ensure_future(__collect_data(company)) for company in companies]
     await asyncio.gather(*tasks)
@@ -65,4 +73,4 @@ if __name__ == "__main__":
         loop.run_until_complete(loop.shutdown_asyncgens())
         loop.close()
         end = time.time()
-        print(f"Time: {end-start:.2f} sec")
+        print(f"Time: {end - start:.2f} sec")
