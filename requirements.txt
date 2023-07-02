@@ -2,3 +2,6 @@ jsonschema==3.2.0
 selenium==4.8.0
 urllib3==1.26.13
 userpath==1.8.0
+pytest
+pytest-asyncio
+caqui
