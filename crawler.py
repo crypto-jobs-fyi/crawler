@@ -46,11 +46,15 @@ def write_numbers():
         json.dump(current_jobs, file, indent=4)
 
 
+n = 1
+
 for company in company_list:
     st = time.time()
+    print(f'[CRAWLER] scrape {n} of {len(company_list)}')
+    n = n + 1
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-    print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
     print_and_collect_numbers(company.company_name, len(jobs_data))
+    print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
 
 driver.close()
 
