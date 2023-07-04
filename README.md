@@ -134,7 +134,7 @@ wip:
 - https://join.com/companies/peaq
 - https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
-
+- https://boards.greenhouse.io/grayscaleinvestments
 - https://careers.smartrecruiters.com/MicroStrategy1
 
 not only crypto:
