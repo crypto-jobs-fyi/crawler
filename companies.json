@@ -15,6 +15,11 @@
         "jobs_url": "https://jobs.lever.co/chainlink"
     },
     {
+        "company_name": "grayscaleinvestments",
+        "company_url": "https://grayscale.com",
+        "jobs_url": "https://boards.greenhouse.io/grayscaleinvestments"
+    },
+    {
         "company_name": "0x",
         "company_url": "https://0x.org",
         "jobs_url": "https://boards.greenhouse.io/0x"
@@ -82,7 +87,17 @@
     {
         "company_name": "paxos",
         "company_url": "https://paxos.com",
-        "jobs_url": "https://paxos.com/job-posts/?_sft_department=compliance,engineering,finance-accounting,hr-talent,information-technology,legal,operations,product&_sft_office=us"
+        "jobs_url": "https://paxos.com/job-posts/?_sft_department=engineering-data,finance-accounting,hr-talent,information-technology,legal,operations,product-management,risk-compliance&_sft_office=us"
+    },
+    {
+        "company_name": "dydxopsdao",
+        "company_url": "https://dydxopsdao.com",
+        "jobs_url": "https://apply.workable.com/dydx-operations-trust"
+    },
+    {
+        "company_name": "almanak",
+        "company_url": "https://almanak.co",
+        "jobs_url": "https://apply.workable.com/almanak-blockchain-labs-ag"
     },
     {
         "company_name": "zora",
