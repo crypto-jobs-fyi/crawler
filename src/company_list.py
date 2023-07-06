@@ -283,8 +283,6 @@ def get_company_list() -> []:
                         'https://yuga.com', 'NFT'),
             CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
                         'https://ultra.io', 'Web3 Gaming'),
-            CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
-                        'Stable Coin'),
             CompanyItem('bitwise', 'https://jobs.lever.co/bitwiseinvestments', ScrapeLever,
                         'https://bitwiseinvestments.com', 'Asset Management'),
             CompanyItem('cryptofinance', 'https://apply.workable.com/crypto-finance', ScrapeWorkable,
