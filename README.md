@@ -136,6 +136,8 @@ wip:
 - https://edxmarkets.com/about/careers/
 - https://boards.greenhouse.io/grayscaleinvestments
 - https://careers.smartrecruiters.com/MicroStrategy1
+- https://bloxstaking.breezy.hr/
+- https://trendspider.freshteam.com/jobs
 
 not only crypto:
 
