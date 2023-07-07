@@ -115,7 +115,6 @@ wip:
 - https://lightcurve.jobs.personio.de/
 - https://apply.workable.com/interlay/
 - https://horizenlabs.io/careers/
-- https://wirex.bamboohr.com/careers
 - https://l2beat.notion.site/We-are-hiring-Work-at-L2BEAT-e4e637265ae94c5db7dfa2de336b940f
 - https://bwarelabs.mingle.ro/en/apply
 - https://apply.workable.com/dydx-operations-trust/

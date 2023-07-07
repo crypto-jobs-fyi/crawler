@@ -6,6 +6,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 company_list = [
+    CompanyItem('wirex', 'https://wirex.bamboohr.com/careers', ScrapeBamboohr, 'https://wirexapp.com', 'Web3 card'),
     CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com',
                 'Crypto bank'),
     CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
