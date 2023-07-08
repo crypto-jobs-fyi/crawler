@@ -117,7 +117,6 @@ wip:
 - https://horizenlabs.io/careers/
 - https://l2beat.notion.site/We-are-hiring-Work-at-L2BEAT-e4e637265ae94c5db7dfa2de336b940f
 - https://bwarelabs.mingle.ro/en/apply
-- https://apply.workable.com/dydx-operations-trust/
 - https://github.com/tvl-labs/job-board/blob/main/engineering/protocol_engineer.md
 - https://jobs.lever.co/Hume/ - https://wearehume.com/
 - https://wellfound.com/company/redstonefinance/jobs
@@ -133,7 +132,6 @@ wip:
 - https://join.com/companies/peaq
 - https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
-- https://boards.greenhouse.io/grayscaleinvestments
 - https://careers.smartrecruiters.com/MicroStrategy1
 - https://bloxstaking.breezy.hr/
 - https://trendspider.freshteam.com/jobs
