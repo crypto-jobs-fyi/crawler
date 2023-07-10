@@ -123,8 +123,7 @@ wip:
 - https://jobs.ashbyhq.com/RabbitHole
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
-- https://jobs.dragonfly.xyz/jobs
-- https://boards.greenhouse.io/coinmetrics  -https://coinmetrics.io/
+- https://jobs.dragonfly.xyz/jobs 
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
 - https://www.ethswarm.org/jobs
 - https://jobs.ashbyhq.com/rain/
