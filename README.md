@@ -134,6 +134,10 @@ wip:
 - https://careers.smartrecruiters.com/MicroStrategy1
 - https://bloxstaking.breezy.hr/
 - https://trendspider.freshteam.com/jobs
+- https://careers.onetrading.com/jobs
+- https://jobs.ashbyhq.com/exponential
+- https://bitso.com/jobs
+- 
 
 not only crypto:
 
