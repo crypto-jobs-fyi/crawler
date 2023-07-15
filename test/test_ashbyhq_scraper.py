@@ -10,6 +10,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
     CompanyItem('flashbots', 'https://jobs.ashbyhq.com/flashbots.net', ScrapeAshbyhq, '', ''),
+    CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz', 'Web3 cards'),
+    CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi', 'DeFi'),
     CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi', 'Staking'),
     CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',
                 'Web3 data'),

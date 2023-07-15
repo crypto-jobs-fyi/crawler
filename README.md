@@ -126,7 +126,6 @@ wip:
 - https://jobs.dragonfly.xyz/jobs 
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
 - https://www.ethswarm.org/jobs
-- https://jobs.ashbyhq.com/rain/
 - https://cash.app/careers
 - https://join.com/companies/peaq
 - https://strike.me/careers/
@@ -135,7 +134,6 @@ wip:
 - https://bloxstaking.breezy.hr/
 - https://trendspider.freshteam.com/jobs
 - https://careers.onetrading.com/jobs
-- https://jobs.ashbyhq.com/exponential
 - https://bitso.com/jobs
 - 
 
