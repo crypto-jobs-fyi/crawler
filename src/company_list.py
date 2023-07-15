@@ -28,6 +28,8 @@ def get_company_list() -> []:
                         'https://eco.com', 'Web3 wallet'),
             CompanyItem('ethglobal', 'https://jobs.lever.co/ETHGlobal', ScrapeLever, 'https://ethglobal.com',
                         'Community'),
+            CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
+                        "https://www.bitcoin.com", 'Exchange'),
             CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link',
                         'Web3 Wallets'),
             CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
@@ -65,8 +67,6 @@ def get_company_list() -> []:
                         'Trading'),
             CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com',
                         'Web3'),
-            CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
-                        "https://www.bitcoin.com", 'Exchange'),
             CompanyItem("cexio", "https://cexio.bamboohr.com/jobs", ScrapeBamboohr, "https://cex.io", "Exchange"),
             CompanyItem("circle", "https://boards.greenhouse.io/circle", ScrapeGreenhouse, "https://circle.com",
                         "Stable Coin"),
@@ -298,6 +298,8 @@ def get_company_list() -> []:
 def get_company(name) -> CompanyItem:
     company_list = get_company_list()
     companies = list(filter(lambda jd: jd.company_name == name, company_list))
+    if len(companies) > 1:
+        raise NameError(f'Duplicated company name: {name}')
     return companies[0]
 
 
