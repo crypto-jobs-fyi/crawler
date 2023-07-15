@@ -154,3 +154,4 @@ if __name__ == "__main__":
         loop.close()
         end = time.time()
         print(f"Time: {end - start:.2f} sec")
+        # 66.46 sec for 56 company names
