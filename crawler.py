@@ -28,12 +28,11 @@ current_jobs = {}
 
 
 def write_numbers():
-    now = datetime.date(datetime.now())
     global total_number_of_jobs
-    print(f'[CRAWLER] In Total {total_number_of_jobs} of open positions on {now}')
+    print(f'[CRAWLER] In Total {total_number_of_jobs} of open positions on {datetime.date(datetime.now())}')
     global current_jobs
     current_jobs["Total Jobs"] = total_number_of_jobs
-    with open(f"current.json", "w") as file:
+    with open("current.json", "w") as file:
         json.dump(current_jobs, file, indent=4)
 
 
