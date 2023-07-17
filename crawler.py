@@ -27,15 +27,6 @@ total_number_of_jobs: int = 0
 current_jobs = {}
 
 
-def print_and_collect_numbers(company_name: str, total: int):
-    now = datetime.date(datetime.now())
-    print(f'[CRAWLER] Company {company_name} has {total} open positions on {now}')
-    global total_number_of_jobs
-    total_number_of_jobs = total_number_of_jobs + total
-    global current_jobs
-    current_jobs[company_name] = total
-
-
 def write_numbers():
     now = datetime.date(datetime.now())
     global total_number_of_jobs
@@ -49,11 +40,12 @@ def write_numbers():
 n = 1
 
 for company in company_list:
+    now = datetime.date(datetime.now())
     st = time.time()
     print(f'[CRAWLER] scrape {n} of {len(company_list)}')
     n = n + 1
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-    print_and_collect_numbers(company.company_name, len(jobs_data))
+    print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
     print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
 
 driver.close()

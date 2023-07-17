@@ -1,6 +1,7 @@
 import json
 
 from src.company_item import CompanyItem
+from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
 from src.scrape_workable import ScrapeWorkable
@@ -25,6 +26,8 @@ def get_company_list() -> []:
                     'https://avantgarde.finance', 'Asset Management'),
         CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
                     'Stable Coin'),
+        CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
+                    'https://dappradar.com', 'Exchange & NFT'),
     ]
 
 

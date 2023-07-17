@@ -271,8 +271,6 @@ def get_company_list() -> []:
                         ScrapeGreenhouse, "https://www.galaxy.com", 'Trading'),
             CompanyItem('web3', 'https://web3.bamboohr.com/jobs', ScrapeBamboohr, 'https://web3.foundation',
                         'web3'),
-            CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
-                        'https://dappradar.com', 'Exchange & NFT'),
             CompanyItem("solana", "https://boards.greenhouse.io/solana", ScrapeGreenhouse,
                         "https://solana.com", "Blockchain"),
             CompanyItem('mobilecoin', 'https://boards.greenhouse.io/mobilecoin', ScrapeGreenhouse,
