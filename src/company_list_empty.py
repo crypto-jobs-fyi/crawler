@@ -28,6 +28,8 @@ def get_company_list() -> []:
                     'Stable Coin'),
         CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
                     'https://dappradar.com', 'Exchange & NFT'),
+        CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
+                    'https://www.iofinnet.com', 'Custody'),
     ]
 
 

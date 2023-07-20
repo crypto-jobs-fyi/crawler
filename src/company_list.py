@@ -265,8 +265,6 @@ def get_company_list() -> []:
                         "https://www.eigenlayer.xyz", "Infra"),
             CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com',
                         'Crypto bank'),
-            CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
-                        'https://www.iofinnet.com', 'Custody'),
             CompanyItem("galaxydigitalservices", "https://boards.greenhouse.io/galaxydigitalservices",
                         ScrapeGreenhouse, "https://www.galaxy.com", 'Trading'),
             CompanyItem('web3', 'https://web3.bamboohr.com/jobs', ScrapeBamboohr, 'https://web3.foundation',

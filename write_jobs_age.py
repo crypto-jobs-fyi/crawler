@@ -43,13 +43,15 @@ def write_history(current_jobs_json: dict):
         json.dump(jobs_data_json, history_file, indent=4)
 
 
-print('--- No jobs found for following companies: ---')
 with open('current.json', 'r') as current_json_file:
     c_data = json.load(current_json_file)
     write_history(dict(c_data))
+with open('companies.json', 'r') as companies_file:
+    companies_file_data = json.load(companies_file)
+print('--- No jobs found for following companies: ---')
+for c in companies_file_data:
+    c_name = c.get('company_name')
+    if c_data.get(c_name, 0) == 0:
+        print(f'Company: {c_name} Jobs board: {c.get("jobs_url")}')
 
-for i in c_data:
-    print(i)
-    if c_data[i] == 0:
-        print(f'Company: {i} Jobs board: ')
 print('^^^ No jobs found for the above companies: ^^^')
