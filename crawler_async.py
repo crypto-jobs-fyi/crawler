@@ -1,6 +1,7 @@
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhqAsync
 from src.scrape_lever import ScrapeLeverAsync
+from src.scrape_greenhouse import ScrapeGreenhouseAsync
 import time
 from caqui import synchronous
 import asyncio
@@ -39,6 +40,16 @@ async def __collect_data(company):
 
 async def __schedule_tasks():
     companies = [
+        CompanyItem('evmos', 'https://boards.eu.greenhouse.io/evmos', ScrapeGreenhouseAsync, 'https://evmos.org',
+                    'Cross-Chain Connectivity'),
+        CompanyItem('orderlynetwork', 'https://boards.greenhouse.io/orderlynetwork', ScrapeGreenhouseAsync,
+                    'https://orderly.network', 'Exchange'),
+        CompanyItem("0x", "https://boards.greenhouse.io/0x", ScrapeGreenhouseAsync, "https://0x.org",
+                    "Blockchain"),
+        CompanyItem('econetwork', 'https://boards.greenhouse.io/econetwork', ScrapeGreenhouseAsync,
+                    'https://eco.com', 'Web3 wallet'),
+        CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouseAsync,
+                    "https://www.bitcoin.com", 'Exchange'),
         CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhqAsync, 'https://www.raincards.xyz',
                     'Web3 cards'),
         CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhqAsync, 'https://exponential.fi',
