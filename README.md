@@ -137,6 +137,9 @@ wip:
 - https://bitso.com/jobs
 - https://sologenic-development-foundation-limited.breezy.hr/
 - https://www.lightspark.com/careers
+- https://www.talos.com/working/open-roles
+- https://boards.greenhouse.io/xapo61
+- https://jobs.lever.co/ethenalabs
 
 not only crypto:
 
