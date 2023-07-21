@@ -135,7 +135,8 @@ wip:
 - https://trendspider.freshteam.com/jobs
 - https://careers.onetrading.com/jobs
 - https://bitso.com/jobs
-- 
+- https://sologenic-development-foundation-limited.breezy.hr/
+- https://www.lightspark.com/careers
 
 not only crypto:
 
