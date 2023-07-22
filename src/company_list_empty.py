@@ -30,6 +30,7 @@ def get_company_list() -> []:
                     'https://dappradar.com', 'Exchange & NFT'),
         CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
                     'https://www.iofinnet.com', 'Custody'),
+        CompanyItem("amun", "https://boards.greenhouse.io/amun", ScrapeGreenhouse, "https://amun.com", "DeFi"),
     ]
 
 

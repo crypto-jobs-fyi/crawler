@@ -3,8 +3,8 @@ from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 
 company_list = [
-    CompanyItem('Metatheory', 'https://jobs.lever.co/Metatheory', ScrapeLever,
-                'https://www.duskbreakers.gg', 'Web3 game'),
+    CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
+                'https://www.ethena.fi', 'Web3 bonds'),
     CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
                 'https://arbitrum.foundation', 'Layer 2'),
     CompanyItem('3boxlabs', 'https://jobs.lever.co/3box', ScrapeLever, 'https://3boxlabs.com',
