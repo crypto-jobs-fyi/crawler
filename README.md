@@ -138,7 +138,6 @@ wip:
 - https://sologenic-development-foundation-limited.breezy.hr/
 - https://www.lightspark.com/careers
 - https://www.talos.com/working/open-roles
-- https://boards.greenhouse.io/xapo61
 
 not only crypto:
 
