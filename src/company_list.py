@@ -205,6 +205,8 @@ def get_company_list() -> []:
                         'https://coinmetrics.io', 'Web3 Data'),
             CompanyItem("oplabs", "https://boards.greenhouse.io/oplabs", ScrapeGreenhouse, "https://www.oplabs.co",
                         "L2 protocol"),
+            CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', ScrapeGreenhouse,
+                        'https://goldsky.com', 'Web3 Data'),
             CompanyItem('outlierventures', 'https://boards.eu.greenhouse.io/outlierventures', ScrapeGreenhouse,
                         'https://outlierventures.io', 'Web3 Ventures'),
             CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
