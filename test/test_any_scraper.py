@@ -2,6 +2,7 @@ import unittest
 
 from selenium import webdriver
 from src.company_item import CompanyItem
+from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
 
 options = webdriver.ChromeOptions()
@@ -9,8 +10,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', ScrapeGreenhouse,
-                'https://goldsky.com', 'Web3 Data'),
+    CompanyItem('Blockworks', 'https://jobs.ashbyhq.com/Blockworks', ScrapeAshbyhq,
+                'https://blockworks.co', 'Web3 News'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
                 'https://www.21.co', 'Web3 DeFi ETP'),
     CompanyItem('xapo', 'https://boards.greenhouse.io/xapo61', ScrapeGreenhouse,

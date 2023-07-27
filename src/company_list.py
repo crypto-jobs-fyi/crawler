@@ -171,6 +171,8 @@ def get_company_list() -> []:
                         "https://solana.org", "Blockchain"),
             CompanyItem('syndica', 'https://jobs.ashbyhq.com/syndica', ScrapeAshbyhq, 'https://syndica.io',
                         'Infrastructure'),
+            CompanyItem('Blockworks', 'https://jobs.ashbyhq.com/Blockworks', ScrapeAshbyhq,
+                        'https://blockworks.co', 'Web3 News'),
             CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', ScrapeAshbyhq,
                         'https://ellipsislabs.xyz', 'Trading Protocol'),
             CompanyItem("quiknodeinc", "https://boards.greenhouse.io/quiknodeinc", ScrapeGreenhouse,
