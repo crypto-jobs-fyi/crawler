@@ -22,14 +22,14 @@ chrome_options.add_argument('--disable-extensions')
 driver = webdriver.Chrome(options=chrome_options)
 
 n = 1
-
+now = datetime.date(datetime.now())
+start_time = time.time()
 for company in company_list:
-    now = datetime.date(datetime.now())
     st = time.time()
     print(f'[CRAWLER] scrape {n} of {len(company_list)}')
     n = n + 1
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
     print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
     print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
-
+print('[CRAWLER] Execution time:', (time.time() - start_time)/60, 'minutes')
 driver.close()
