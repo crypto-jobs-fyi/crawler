@@ -4,18 +4,23 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
+from src.scrape_workable import ScrapeWorkable
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('Blockworks', 'https://jobs.ashbyhq.com/Blockworks', ScrapeAshbyhq,
-                'https://blockworks.co', 'Web3 News'),
+    CompanyItem('safe.global', 'https://jobs.ashbyhq.com/safe.global', ScrapeAshbyhq,
+                'https://safe.global', 'Web3 custody'),
+    CompanyItem('RabbitHole', 'https://jobs.ashbyhq.com/RabbitHole', ScrapeAshbyhq,
+                'https://rabbithole.gg', 'Web3 gaming'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
                 'https://www.21.co', 'Web3 DeFi ETP'),
-    CompanyItem('xapo', 'https://boards.greenhouse.io/xapo61', ScrapeGreenhouse,
-                'https://www.xapobank.com', 'Web3 bank')
+    CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
+                'https://prepo.io', 'Web3 pre-IPO trading'),
+    CompanyItem('clockwork-labs', 'https://apply.workable.com/clockwork-labs',
+                ScrapeWorkable, 'https://clockworklabs.io', 'Web3 gaming')
 ]
 
 for company in company_list:
