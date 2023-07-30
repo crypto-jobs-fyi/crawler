@@ -112,7 +112,6 @@ wip:
 - https://l2beat.notion.site/We-are-hiring-Work-at-L2BEAT-e4e637265ae94c5db7dfa2de336b940f
 - https://bwarelabs.mingle.ro/en/apply
 - https://github.com/tvl-labs/job-board/blob/main/engineering/protocol_engineer.md
-- https://jobs.lever.co/Hume/ - https://wearehume.com/
 - https://wellfound.com/company/redstonefinance/jobs
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
@@ -123,7 +122,6 @@ wip:
 - https://join.com/companies/peaq
 - https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
-- https://careers.smartrecruiters.com/MicroStrategy1
 - https://bloxstaking.breezy.hr/
 - https://trendspider.freshteam.com/jobs
 - https://careers.onetrading.com/jobs
@@ -135,12 +133,13 @@ wip:
 not only crypto:
 
 - https://boards.greenhouse.io/brave
+- https://careers.smartrecruiters.com/MicroStrategy1
+- https://jobs.lever.co/Hume - https://wearehume.com
 
 not yet crypto:
 
 - https://boards.greenhouse.io/papaya
 - https://boards.greenhouse.io/ramp
-- https://jobs.lever.co/Hume
 - https://jobs.lever.co/pigment
 - https://jobs.lever.co/neednova
 
