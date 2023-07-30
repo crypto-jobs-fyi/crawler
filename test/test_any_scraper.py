@@ -11,10 +11,10 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('safe.global', 'https://jobs.ashbyhq.com/safe.global', ScrapeAshbyhq,
-                'https://safe.global', 'Web3 custody'),
-    CompanyItem('RabbitHole', 'https://jobs.ashbyhq.com/RabbitHole', ScrapeAshbyhq,
-                'https://rabbithole.gg', 'Web3 gaming'),
+    CompanyItem('Keyrock', 'https://jobs.ashbyhq.com/Keyrock', ScrapeAshbyhq,
+                'https://keyrock.eu', 'Web3 market maker'),
+    CompanyItem('sound.xyz', 'https://jobs.ashbyhq.com/sound.xyz', ScrapeAshbyhq,
+                'https://www.sound.xyz', 'Web3 audio'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
                 'https://www.21.co', 'Web3 DeFi ETP'),
     CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
