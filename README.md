@@ -76,7 +76,6 @@ wip:
 - https://dydx.exchange/careers#roles
 - https://careers.lmax.com
 - https://livepeer.org/jobs
-- https://apply.workable.com/stakefish
 - https://jobs.lever.co/kava
 - https://www.blockchains.com/careers/#board
 - https://phantom.app/jobs
@@ -88,14 +87,11 @@ wip:
 - https://voltz.notion.site/Voltz-Labs-is-Hiring-f1a8857cb7b24d43968cfd735f52292a
 - https://hop.exchange/careers
 - https://apply.workable.com/superfluid/#jobs
-- https://jobs.ashbyhq.com/center
 - https://careers.bitrefill.com/jobs/
 - https://bankless.pallet.com/jobs
 - https://www.certora.com/#careers
 - https://istari.vision/en/career/
 - https://celestia.pallet.com/jobs
-- https://jobs.ashbyhq.com/Sui%20Foundation
-- https://apply.workable.com/paraswap
 - https://gamescoin.jobs.personio.de/
 - https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
@@ -142,5 +138,6 @@ not yet crypto:
 - https://boards.greenhouse.io/ramp
 - https://jobs.lever.co/pigment
 - https://jobs.lever.co/neednova
+- https://plaid.com/careers/openings
 
 to be fixed:

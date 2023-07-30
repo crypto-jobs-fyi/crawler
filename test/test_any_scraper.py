@@ -11,16 +11,16 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('Keyrock', 'https://jobs.ashbyhq.com/Keyrock', ScrapeAshbyhq,
-                'https://keyrock.eu', 'Web3 market maker'),
-    CompanyItem('sound.xyz', 'https://jobs.ashbyhq.com/sound.xyz', ScrapeAshbyhq,
-                'https://www.sound.xyz', 'Web3 audio'),
+    CompanyItem('center', 'https://jobs.ashbyhq.com/center', ScrapeAshbyhq,
+                'https://center.app', 'Web3 NFT Data'),
+    CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
+                'https://sui.io', 'Web3 blockchain'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
                 'https://www.21.co', 'Web3 DeFi ETP'),
-    CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
-                'https://prepo.io', 'Web3 pre-IPO trading'),
-    CompanyItem('clockwork-labs', 'https://apply.workable.com/clockwork-labs',
-                ScrapeWorkable, 'https://clockworklabs.io', 'Web3 gaming')
+    CompanyItem('paraswap', 'https://apply.workable.com/paraswap', ScrapeWorkable,
+                'https://www.paraswap.io', 'Web3 DeFi aggregator'),
+    CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
+                ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking')
 ]
 
 for company in company_list:
