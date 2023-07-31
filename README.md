@@ -125,6 +125,7 @@ wip:
 - https://sologenic-development-foundation-limited.breezy.hr/
 - https://www.lightspark.com/careers
 - https://www.talos.com/working/open-roles
+- https://jobs.ashbyhq.com/Artemisxyz
 
 not only crypto:
 
