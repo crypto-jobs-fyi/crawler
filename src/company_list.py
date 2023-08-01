@@ -121,8 +121,6 @@ def get_company_list() -> []:
                         "Stable Coin"),
             CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
                         'https://dydxopsdao.com', 'Web3 DAO'),
-            CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', ScrapeWorkable,
-                        'https://almanak.co', 'Web3 Simulator'),
             CompanyItem("zora", "https://boards.greenhouse.io/zora", ScrapeGreenhouse, "https://zora.co", "NFT"),
             CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com',
                         'Web3'),
@@ -153,6 +151,10 @@ def get_company_list() -> []:
                         "https://www.blockdaemon.com", "Staking & Infra"),
             CompanyItem("figment", "https://boards.greenhouse.io/figment", ScrapeGreenhouse,
                         "https://www.figment.io", "Staking & Infra"),
+            CompanyItem('center', 'https://jobs.ashbyhq.com/center', ScrapeAshbyhq,
+                        'https://center.app', 'Web3 NFT Data'),
+            CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
+                        'https://sui.io', 'Web3 blockchain'),
             CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz',
                         'Web3 cards'),
             CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi',
@@ -309,7 +311,12 @@ def get_company_list() -> []:
             CompanyItem('cryptofinance', 'https://apply.workable.com/crypto-finance', ScrapeWorkable,
                         'https://www.crypto-finance.com', 'Exchange'),
             CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
-                        'Exchange')]
+                        'Exchange'),
+            CompanyItem('paraswap', 'https://apply.workable.com/paraswap', ScrapeWorkable,
+                        'https://www.paraswap.io', 'Web3 DeFi aggregator'),
+            CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
+                        ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking')
+            ]
 
 
 def get_company(name) -> CompanyItem:

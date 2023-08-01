@@ -290,11 +290,6 @@
         "jobs_url": "https://apply.workable.com/dydx-operations-trust"
     },
     {
-        "company_name": "almanak",
-        "company_url": "https://almanak.co",
-        "jobs_url": "https://apply.workable.com/almanak-blockchain-labs-ag"
-    },
-    {
         "company_name": "zora",
         "company_url": "https://zora.co",
         "jobs_url": "https://boards.greenhouse.io/zora"
@@ -373,6 +368,16 @@
         "company_name": "figment",
         "company_url": "https://www.figment.io",
         "jobs_url": "https://boards.greenhouse.io/figment"
+    },
+    {
+        "company_name": "center",
+        "company_url": "https://center.app",
+        "jobs_url": "https://jobs.ashbyhq.com/center"
+    },
+    {
+        "company_name": "Sui.Foundation",
+        "company_url": "https://sui.io",
+        "jobs_url": "https://jobs.ashbyhq.com/Sui%20Foundation"
     },
     {
         "company_name": "rain",
@@ -758,5 +763,15 @@
         "company_name": "bitget",
         "company_url": "https://www.bitget.com/en",
         "jobs_url": "https://apply.workable.com/bitget"
+    },
+    {
+        "company_name": "paraswap",
+        "company_url": "https://www.paraswap.io",
+        "jobs_url": "https://apply.workable.com/paraswap"
+    },
+    {
+        "company_name": "stakefish",
+        "company_url": "https://stake.fish",
+        "jobs_url": "https://apply.workable.com/stakefish"
     }
 ]
