@@ -38,6 +38,8 @@ def get_company_list() -> []:
             CompanyItem('wintermute', 'https://jobs.lever.co/wintermute-trading', ScrapeLever,
                         'https://www.wintermute.com',
                         'Trading'),
+            CompanyItem('coinspaid', 'https://jobs.eu.lever.co/coinspaid', ScrapeLever,
+                        'https://coinspaid.com', 'Web3 Payments'),
             CompanyItem("kaiko", "https://jobs.eu.lever.co/kaiko", ScrapeLever, "https://www.kaiko.com", "Data"),
             CompanyItem('bebop', 'https://jobs.lever.co/Bebop', ScrapeLever, 'https://bebop.xyz', 'DeFi Exchange'),
             CompanyItem("Coinshift", "https://jobs.lever.co/Coinshift", ScrapeLever, "https://coinshift.xyz",

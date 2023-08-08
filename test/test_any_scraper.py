@@ -5,14 +5,15 @@ from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_workable import ScrapeWorkable
+from src.scrape_lever import ScrapeLever
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('center', 'https://jobs.ashbyhq.com/center', ScrapeAshbyhq,
-                'https://center.app', 'Web3 NFT Data'),
+    CompanyItem('coinspaid', 'https://jobs.eu.lever.co/coinspaid', ScrapeLever,
+                'https://coinspaid.com', 'Web3 Payments'),
     CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
                 'https://sui.io', 'Web3 blockchain'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
