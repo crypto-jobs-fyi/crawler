@@ -126,6 +126,7 @@ wip:
 - https://www.lightspark.com/careers
 - https://www.talos.com/working/open-roles
 - https://jobs.ashbyhq.com/Artemisxyz
+- https://www.coinomi.com/careers
 
 not only crypto:
 
