@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('coinspaid', 'https://jobs.eu.lever.co/coinspaid', ScrapeLever,
-                'https://coinspaid.com', 'Web3 Payments'),
+    CompanyItem('Notabene', 'https://jobs.lever.co/Notabene', ScrapeLever,
+                'https://notabene.id', 'Web3 Compliance'),
     CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
                 'https://sui.io', 'Web3 blockchain'),
     CompanyItem('21co', 'https://boards.greenhouse.io/21co', ScrapeGreenhouse,
