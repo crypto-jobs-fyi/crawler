@@ -25,7 +25,6 @@ class ScrapeBinance(ScrapeIt):
         wait = WebDriverWait(driver, 120)
         apply_buttons = wait.until(EC.presence_of_all_elements_located((By.XPATH, '//a[.="Apply"]')))
         group_elements = driver.find_elements(By.XPATH, '//div[contains(@class,"posting")]')
-        print(f'[BINANCE] Found {len(apply_buttons)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -40,6 +39,6 @@ class ScrapeBinance(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[BINANCE] Scraped {len(result)} jobs from {web_page}')
+        print(f'[BINANCE] Found {len(apply_buttons)} jobs and Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

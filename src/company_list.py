@@ -15,7 +15,9 @@ from src.scrape_paxos import ScrapePaxos
 
 
 def get_company_list() -> []:
-    return [CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
+    return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings", ScrapeBinance,
+                        "https://www.binance.com", "Exchange"),
+            CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
             CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
                         'https://arbitrum.foundation', 'Layer 2'),
             CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLever, "https://chain.link",
@@ -238,8 +240,6 @@ def get_company_list() -> []:
             CompanyItem('paradigm.co', 'https://boards.greenhouse.io/paradigm62', ScrapeGreenhouse,
                         'https://www.paradigm.co',
                         'Liquidity'),
-            CompanyItem("binance", "https://www.binance.com/en/careers/job-openings", ScrapeBinance,
-                        "https://www.binance.com", "Exchange"),
             CompanyItem("trustwallet", "https://careers.smartrecruiters.com/B6/trustwallet", ScrapeSmartrecruiters,
                         "https://trustwallet.com", "Wallet"),
             CompanyItem("Swissquote", "https://careers.smartrecruiters.com/Swissquote", ScrapeSmartrecruiters,

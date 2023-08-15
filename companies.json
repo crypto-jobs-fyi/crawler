@@ -1,5 +1,10 @@
 [
     {
+        "company_name": "binance",
+        "company_url": "https://www.binance.com",
+        "jobs_url": "https://www.binance.com/en/careers/job-openings"
+    },
+    {
         "company_name": "kraken",
         "company_url": "https://kraken.com",
         "jobs_url": "https://jobs.lever.co/kraken"
@@ -583,11 +588,6 @@
         "company_name": "paradigm.co",
         "company_url": "https://www.paradigm.co",
         "jobs_url": "https://boards.greenhouse.io/paradigm62"
-    },
-    {
-        "company_name": "binance",
-        "company_url": "https://www.binance.com",
-        "jobs_url": "https://www.binance.com/en/careers/job-openings"
     },
     {
         "company_name": "trustwallet",
