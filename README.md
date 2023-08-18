@@ -127,8 +127,7 @@ wip:
 - https://www.talos.com/working/open-roles
 - https://jobs.ashbyhq.com/Artemisxyz
 - https://www.coinomi.com/careers
-- https://jobs.lever.co/blox-route/
-- https://boards.greenhouse.io/shardeumfoundation
+- https://apply.workable.com/apollolabs  https://apollo.xyz/
 
 not only crypto:
 
