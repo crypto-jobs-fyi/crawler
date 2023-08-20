@@ -57,7 +57,6 @@ wip:
 - https://join.com/companies/taurusgroup
 - https://changenow.io/jobs
 - https://chainsafe.github.io/protocol
-- https://jobs.ashbyhq.com/StationLabs
 - https://www.sofi.com/careers
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://www.openzeppelin.com/jobs

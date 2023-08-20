@@ -24,7 +24,6 @@ class ScrapeBamboohr(ScrapeIt):
         if len(group_elements) == 0:
             group_elements = driver.find_elements(By.XPATH, '//li/div/a/..')
             job_location_locator = 'div[class="jss-f80"]'
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -41,6 +40,6 @@ class ScrapeBamboohr(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

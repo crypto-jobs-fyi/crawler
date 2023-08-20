@@ -43,7 +43,6 @@ class ScrapeWorkable(ScrapeIt):
             print(f'[{self.name}] Found 0 jobs on {web_page}')
             return result
         group_elements = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_root_locator)))
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         driver.implicitly_wait(5)
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -62,6 +61,6 @@ class ScrapeWorkable(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

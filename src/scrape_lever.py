@@ -20,7 +20,6 @@ class ScrapeLever(ScrapeIt):
         print(f'[LEVER] Scrap page: {web_page}')
         driver.get(web_page)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
-        print(f'[LEVER] Found {len(group_elements)} jobs.')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')
@@ -43,7 +42,7 @@ class ScrapeLever(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[LEVER] Scraped {len(result)} jobs from {web_page}')
+        print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
 
@@ -56,7 +55,6 @@ class ScrapeLeverAsync(ScrapeIt):
         await asynchronous.go_to_page(*driver, web_page)
         await asynchronous.set_timeouts(*driver, 5000)
         group_elements = await asynchronous.find_elements(*driver, CSS_SELECTOR, 'a[class="posting-title"]')
-        print(f'[LEVER] Found {len(group_elements)} jobs.')
         result = []
         for elem in group_elements:
             link_elem = await asynchronous.find_child_element(*driver, elem, CSS_SELECTOR, '[data-qa="posting-name"]')
@@ -80,6 +78,6 @@ class ScrapeLeverAsync(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[LEVER] Scraped {len(result)} jobs from {web_page}')
+        print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

@@ -10,7 +10,6 @@ class ScrapeConsensys(ScrapeIt):
         driver.get(web_page)
         driver.get(web_page)
         group_elements = driver.find_elements(By.XPATH, '//div[@id="careers"]//div[contains(@class, "careersSectionItem_itemOuter")]')
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -26,6 +25,6 @@ class ScrapeConsensys(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
