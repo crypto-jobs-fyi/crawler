@@ -28,7 +28,6 @@ class ScrapeGreenhouse(ScrapeIt):
             driver.switch_to.frame(iframe[0])
             time.sleep(5)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="opening"]')
-        print(f'[{self.name}] Found {len(group_elements)} jobs.')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
@@ -43,7 +42,7 @@ class ScrapeGreenhouse(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
 
@@ -62,7 +61,6 @@ class ScrapeGreenhouseAsync(ScrapeIt):
             await asynchronous.switch_to_frame(*driver, iframe[0])
             time.sleep(5)
         group_elements = await asynchronous.find_elements(*driver, CSS_SELECTOR, 'div [class="opening"]')
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = await asynchronous.find_child_element(*driver, elem, CSS_SELECTOR, 'a')
@@ -78,6 +76,6 @@ class ScrapeGreenhouseAsync(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

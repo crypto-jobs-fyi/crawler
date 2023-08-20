@@ -23,7 +23,6 @@ class ScrapeAshbyhqAsync(ScrapeIt):
         # group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
         group_elements = await asynchronous.find_elements(*driver, CSS_SELECTOR, 'a[class*="container_"]')
         job_location_locator = 'div p'
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem
@@ -45,7 +44,7 @@ class ScrapeAshbyhqAsync(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
 
@@ -59,7 +58,6 @@ class ScrapeAshbyhq(ScrapeIt):
         driver.implicitly_wait(5)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
         job_location_locator = 'div p'
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem
@@ -76,6 +74,6 @@ class ScrapeAshbyhq(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

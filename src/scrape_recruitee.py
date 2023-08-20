@@ -14,7 +14,6 @@ class ScrapeRecruitee(ScrapeIt):
         print(f'[RECRUITEE] Scrap page: {web_page}')
         driver.get(web_page)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job"]')
-        print(f'[RECRUITEE] Found {len(group_elements)} jobs.')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, '[class="job-title"] a')
@@ -29,6 +28,6 @@ class ScrapeRecruitee(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[RECRUITEE] Scraped {len(result)} jobs from {web_page}')
+        print(f'[RECRUITEE] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result

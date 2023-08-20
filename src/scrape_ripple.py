@@ -10,7 +10,6 @@ class ScrapeRipple(ScrapeIt):
         driver.get(web_page)
         # use reverse strategy from a link to a title
         group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@class, "body3")]')
-        print(f'[{self.name}] Found {len(group_elements)} jobs on {web_page}')
         result = []
         for elem in group_elements:
             link_elem = elem
@@ -26,6 +25,6 @@ class ScrapeRipple(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         write_jobs(result)
         return result
