@@ -164,6 +164,8 @@ def get_company_list() -> []:
                         'https://center.app', 'Web3 NFT Data'),
             CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
                         'https://sui.io', 'Web3 blockchain'),
+            CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
+                        'https://www.station.express', 'Web3 infra'),
             CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz',
                         'Web3 cards'),
             CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi',
