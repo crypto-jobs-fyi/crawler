@@ -95,7 +95,6 @@ wip:
 - https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
 - https://composable-finance.jobs.personio.com/
-- https://jobs.lever.co/with-foundation/
 - https://www.karpatkey.com/jobs
 - https://jobs.outlierventures.io/jobs
 - https://coda.io/@josh-rosenblatt-co-create/careers-at-co-create

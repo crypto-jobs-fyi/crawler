@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('blox-route', 'https://jobs.lever.co/blox-route', ScrapeLever,
-                'https://bloxroute.com', 'Web3 MEV DeFi infra'),
+    CompanyItem('with-foundation', 'https://jobs.lever.co/with-foundation', ScrapeLever,
+                'https://foundation.app', 'Web3 NFT'),
     CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
                 'https://www.station.express', 'Web3 infra'),
     CompanyItem('shardeum', 'https://boards.greenhouse.io/shardeumfoundation', ScrapeGreenhouse,
