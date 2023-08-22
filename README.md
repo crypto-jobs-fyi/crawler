@@ -127,6 +127,7 @@ wip:
 - https://jobs.ashbyhq.com/Artemisxyz
 - https://www.coinomi.com/careers
 - https://apply.workable.com/apollolabs  https://apollo.xyz/
+- https://cryptotaxcalculator.io/us/jobs/
 
 not only crypto:
 
