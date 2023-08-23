@@ -45,6 +45,11 @@
         "jobs_url": "https://jobs.lever.co/BlockSwap"
     },
     {
+        "company_name": "with-foundation",
+        "company_url": "https://foundation.app",
+        "jobs_url": "https://jobs.lever.co/with-foundation"
+    },
+    {
         "company_name": "Metatheory",
         "company_url": "https://www.duskbreakers.gg",
         "jobs_url": "https://jobs.lever.co/Metatheory"
@@ -98,11 +103,6 @@
         "company_name": "swissborg",
         "company_url": "https://swissborg.com",
         "jobs_url": "https://jobs.lever.co/swissborg"
-    },
-    {
-        "company_name": "OpenSea",
-        "company_url": "https://opensea.io",
-        "jobs_url": "https://jobs.lever.co/OpenSea"
     },
     {
         "company_name": "storyprotocol",
@@ -418,6 +418,11 @@
         "company_name": "exponential",
         "company_url": "https://exponential.fi",
         "jobs_url": "https://jobs.ashbyhq.com/exponential"
+    },
+    {
+        "company_name": "OpenSea",
+        "company_url": "https://opensea.io",
+        "jobs_url": "https://jobs.ashbyhq.com/OpenSea"
     },
     {
         "company_name": "conduit",

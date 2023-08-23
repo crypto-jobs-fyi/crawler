@@ -14,7 +14,7 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('with-foundation', 'https://jobs.lever.co/with-foundation', ScrapeLever,
                 'https://foundation.app', 'Web3 NFT'),
-    CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
+    CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
                 'https://www.station.express', 'Web3 infra'),
     CompanyItem('shardeum', 'https://boards.greenhouse.io/shardeumfoundation', ScrapeGreenhouse,
                 'https://shardeum.org', 'Web3 L1'),
