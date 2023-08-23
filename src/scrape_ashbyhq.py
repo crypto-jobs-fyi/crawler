@@ -55,7 +55,7 @@ class ScrapeAshbyhq(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(7)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
         job_location_locator = 'div p'
         result = []
