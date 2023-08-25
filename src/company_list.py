@@ -98,6 +98,8 @@ def get_company_list() -> []:
                         "Infra"),
             CompanyItem('matterlabs', 'https://jobs.eu.lever.co/matterlabs', ScrapeLever, 'https://matter-labs.io',
                         'Protocol'),
+            CompanyItem('toku', 'https://jobs.lever.co/toku', ScrapeLever,
+                        'https://www.toku.com', 'Web3 Tokens and Tax'),
             CompanyItem("hiro", "https://jobs.lever.co/hiro", ScrapeLever, "https://www.hiro.so", "Infra"),
             CompanyItem('AQX', 'https://jobs.lever.co/presto', ScrapeLever, 'https://aqx.com', 'Exchange and Web3'),
             CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,

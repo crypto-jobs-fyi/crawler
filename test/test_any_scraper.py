@@ -12,14 +12,14 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('with-foundation', 'https://jobs.lever.co/with-foundation', ScrapeLever,
-                'https://foundation.app', 'Web3 NFT'),
+    CompanyItem('toku', 'https://jobs.lever.co/toku', ScrapeLever,
+                'https://www.toku.com', 'Web3 Tokens and Tax'),
     CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
                 'https://www.station.express', 'Web3 infra'),
     CompanyItem('shardeum', 'https://boards.greenhouse.io/shardeumfoundation', ScrapeGreenhouse,
                 'https://shardeum.org', 'Web3 L1'),
-    CompanyItem('paraswap', 'https://apply.workable.com/paraswap', ScrapeWorkable,
-                'https://www.paraswap.io', 'Web3 DeFi aggregator')
+    CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
+                'https://www.thetie.io', 'Web3 DeFi Info')
 ]
 
 for company in company_list:
