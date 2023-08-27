@@ -127,6 +127,7 @@ wip:
 - https://apply.workable.com/apollolabs  https://apollo.xyz/
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
+- https://base.org/jobs
 
 not only crypto:
 

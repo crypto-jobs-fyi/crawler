@@ -12,12 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('connext-network', 'https://jobs.lever.co/connext-network', ScrapeLever,
-                'https://www.connext.network', 'Web3 Infra'),
-    CompanyItem('request.network', 'https://jobs.lever.co/request', ScrapeLever,
-                'https://www.connext.network', 'Web3 Payments'),
-    CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
-                'https://www.thetie.io', 'Web3 DeFi Info'),
+    CompanyItem('theblock', 'https://jobs.lever.co/theblockcrypto', ScrapeLever,
+                'https://www.theblock.co', 'Web3 Info'),
     CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
                 'https://www.superfluid.finance', 'Web3'),
     CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
