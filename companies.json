@@ -250,6 +250,16 @@
         "jobs_url": "https://jobs.lever.co/ultra"
     },
     {
+        "company_name": "connext-network",
+        "company_url": "https://www.connext.network",
+        "jobs_url": "https://jobs.lever.co/connext-network"
+    },
+    {
+        "company_name": "request.network",
+        "company_url": "https://www.connext.network",
+        "jobs_url": "https://jobs.lever.co/request"
+    },
+    {
         "company_name": "ethenalabs",
         "company_url": "https://www.ethena.fi",
         "jobs_url": "https://jobs.lever.co/ethenalabs"
@@ -290,6 +300,11 @@
         "jobs_url": "https://chainstack.bamboohr.com/careers"
     },
     {
+        "company_name": "dappradar",
+        "company_url": "https://dappradar.com",
+        "jobs_url": "https://dappradar.bamboohr.com/careers"
+    },
+    {
         "company_name": "coinmarketcap",
         "company_url": "https://coinmarketcap.com",
         "jobs_url": "https://careers.smartrecruiters.com/B6/coinmarketcap"
@@ -318,6 +333,16 @@
         "company_name": "dydxopsdao",
         "company_url": "https://dydxopsdao.com",
         "jobs_url": "https://apply.workable.com/dydx-operations-trust"
+    },
+    {
+        "company_name": "thetie",
+        "company_url": "https://www.thetie.io",
+        "jobs_url": "https://apply.workable.com/thetie"
+    },
+    {
+        "company_name": "superfluid",
+        "company_url": "https://www.superfluid.finance",
+        "jobs_url": "https://apply.workable.com/superfluid/#jobs"
     },
     {
         "company_name": "zora",
@@ -400,6 +425,11 @@
         "jobs_url": "https://boards.greenhouse.io/figment"
     },
     {
+        "company_name": "OpenSea",
+        "company_url": "https://opensea.io",
+        "jobs_url": "https://jobs.ashbyhq.com/OpenSea"
+    },
+    {
         "company_name": "center",
         "company_url": "https://center.app",
         "jobs_url": "https://jobs.ashbyhq.com/center"
@@ -423,11 +453,6 @@
         "company_name": "exponential",
         "company_url": "https://exponential.fi",
         "jobs_url": "https://jobs.ashbyhq.com/exponential"
-    },
-    {
-        "company_name": "OpenSea",
-        "company_url": "https://opensea.io",
-        "jobs_url": "https://jobs.ashbyhq.com/OpenSea"
     },
     {
         "company_name": "conduit",

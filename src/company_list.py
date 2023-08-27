@@ -14,7 +14,7 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_paxos import ScrapePaxos
 
 
-def get_company_list() -> []:
+def get_company_list() -> [CompanyItem]:
     return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings", ScrapeBinance,
                         "https://www.binance.com", "Exchange"),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
@@ -104,6 +104,10 @@ def get_company_list() -> []:
             CompanyItem('AQX', 'https://jobs.lever.co/presto', ScrapeLever, 'https://aqx.com', 'Exchange and Web3'),
             CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
                         'https://ultra.io', 'Web3 Gaming'),
+            CompanyItem('connext-network', 'https://jobs.lever.co/connext-network', ScrapeLever,
+                        'https://www.connext.network', 'Web3 Infra'),
+            CompanyItem('request.network', 'https://jobs.lever.co/request', ScrapeLever,
+                        'https://www.connext.network', 'Web3 Payments'),
             CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
                         'https://www.ethena.fi', 'Web3 bonds'),
             CompanyItem('bitwise', 'https://jobs.lever.co/bitwiseinvestments', ScrapeLever,
@@ -120,6 +124,8 @@ def get_company_list() -> []:
                         'Web3 Wallets'),
             CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
                         "https://chainstack.com", "Infra"),
+            CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
+                        'https://dappradar.com', 'Exchange & NFT'),
             CompanyItem("coinmarketcap", "https://careers.smartrecruiters.com/B6/coinmarketcap",
                         ScrapeSmartrecruiters, "https://coinmarketcap.com", "Information"),
             CompanyItem('evmos', 'https://boards.eu.greenhouse.io/evmos', ScrapeGreenhouse, 'https://evmos.org',
@@ -133,6 +139,10 @@ def get_company_list() -> []:
                         ScrapePaxos, "https://paxos.com", "Stable Coin"),
             CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
                         'https://dydxopsdao.com', 'Web3 DAO'),
+            CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
+                        'https://www.thetie.io', 'Web3 DeFi Info'),
+            CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
+                        'https://www.superfluid.finance', 'Web3'),
             CompanyItem("zora", "https://boards.greenhouse.io/zora", ScrapeGreenhouse, "https://zora.co", "NFT"),
             CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com',
                         'Web3'),
@@ -163,6 +173,7 @@ def get_company_list() -> []:
                         "https://www.blockdaemon.com", "Staking & Infra"),
             CompanyItem("figment", "https://boards.greenhouse.io/figment", ScrapeGreenhouse,
                         "https://www.figment.io", "Staking & Infra"),
+            CompanyItem("OpenSea", "https://jobs.ashbyhq.com/OpenSea", ScrapeAshbyhq, "https://opensea.io", "NFT"),
             CompanyItem('center', 'https://jobs.ashbyhq.com/center', ScrapeAshbyhq,
                         'https://center.app', 'Web3 NFT Data'),
             CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
@@ -173,7 +184,6 @@ def get_company_list() -> []:
                         'Web3 cards'),
             CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi',
                         'DeFi'),
-            CompanyItem("OpenSea", "https://jobs.ashbyhq.com/OpenSea", ScrapeLever, "https://opensea.io", "NFT"),
             CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhq, 'https://conduit.xyz',
                         'Infrastructure'),
             CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi',

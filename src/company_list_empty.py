@@ -26,8 +26,6 @@ def get_company_list() -> []:
                     'https://avantgarde.finance', 'Asset Management'),
         CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
                     'Stable Coin'),
-        CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
-                    'https://dappradar.com', 'Exchange & NFT'),
         CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
                     'https://www.iofinnet.com', 'Custody'),
         CompanyItem("amun", "https://boards.greenhouse.io/amun", ScrapeGreenhouse, "https://amun.com", "DeFi"),
