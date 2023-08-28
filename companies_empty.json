@@ -45,11 +45,6 @@
         "jobs_url": "https://apply.workable.com/stably"
     },
     {
-        "company_name": "dappradar",
-        "company_url": "https://dappradar.com",
-        "jobs_url": "https://dappradar.bamboohr.com/careers"
-    },
-    {
         "company_name": "iofinnet",
         "company_url": "https://www.iofinnet.com",
         "jobs_url": "https://iofinnethr.bamboohr.com/jobs/?source=bamboohr"
@@ -63,5 +58,10 @@
         "company_name": "almanak",
         "company_url": "https://almanak.co",
         "jobs_url": "https://apply.workable.com/almanak-blockchain-labs-ag"
+    },
+    {
+        "company_name": "dune",
+        "company_url": "https://dune.com",
+        "jobs_url": "https://jobs.ashbyhq.com/dune"
     }
 ]

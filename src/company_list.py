@@ -194,8 +194,6 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.flashbots.net", "ETH MEV"),
             CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', ScrapeAshbyhq, 'https://www.paradigm.xyz',
                         'Web3 financing'),
-            CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',
-                        'Web3 data'),
             CompanyItem("solanafoundation", "https://jobs.ashbyhq.com/Solana%20Foundation", ScrapeAshbyhq,
                         "https://solana.org", "Blockchain"),
             CompanyItem('syndica', 'https://jobs.ashbyhq.com/syndica', ScrapeAshbyhq, 'https://syndica.io',

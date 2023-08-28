@@ -1,6 +1,7 @@
 import json
 
 from src.company_item import CompanyItem
+from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
@@ -31,6 +32,8 @@ def get_company_list() -> []:
         CompanyItem("amun", "https://boards.greenhouse.io/amun", ScrapeGreenhouse, "https://amun.com", "DeFi"),
         CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', ScrapeWorkable,
                     'https://almanak.co', 'Web3 Simulator'),
+        CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',
+                    'Web3 data'),
     ]
 
 
