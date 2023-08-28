@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('theblock', 'https://jobs.lever.co/theblockcrypto', ScrapeLever,
                 'https://www.theblock.co', 'Web3 Info'),
-    CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
-                'https://www.superfluid.finance', 'Web3'),
+    CompanyItem('hextrust', 'https://apply.workable.com/hextrust', ScrapeWorkable,
+                'https://www.hextrust.com', 'Web3 Custody'),
     CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
                 'https://www.station.express', 'Web3 infra'),
     CompanyItem('shardeum', 'https://boards.greenhouse.io/shardeumfoundation', ScrapeGreenhouse,
