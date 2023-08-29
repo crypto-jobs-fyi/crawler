@@ -3,13 +3,13 @@ from src.company_list import get_company_list
 from src.company_list import get_company
 
 company_list = get_company_list()
-company_name_list = ['OpenSea']
+company_name_list = ['bitcoin']
 
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
-chrome_options.add_argument('--headless')
+# chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-extensions')
 driver = webdriver.Chrome(options=chrome_options)
 
