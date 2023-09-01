@@ -104,6 +104,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('AQX', 'https://jobs.lever.co/presto', ScrapeLever, 'https://aqx.com', 'Exchange and Web3'),
             CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
                         'https://ultra.io', 'Web3 Gaming'),
+            CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', ScrapeLever,
+                        'https://glassnode.com', 'Web3 Info'),
             CompanyItem('connext-network', 'https://jobs.lever.co/connext-network', ScrapeLever,
                         'https://www.connext.network', 'Web3 Infra'),
             CompanyItem('request.network', 'https://jobs.lever.co/request', ScrapeLever,
