@@ -21,6 +21,8 @@ class ScrapeGreenhouse(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
+        if company == 'bitcoin':
+            time.sleep(5)
         iframe = driver.find_elements(By.TAG_NAME, 'iframe')
         if len(iframe) > 0:
             print(f'[{self.name}] iFrame detected..')
