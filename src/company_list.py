@@ -122,8 +122,6 @@ def get_company_list() -> [CompanyItem]:
                         "Blockchain"),
             CompanyItem('econetwork', 'https://boards.greenhouse.io/econetwork', ScrapeGreenhouse,
                         'https://eco.com', 'Web3 wallet'),
-            CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
-                        "https://www.bitcoin.com", 'Exchange'),
             CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link',
                         'Web3 Wallets'),
             CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
@@ -342,7 +340,9 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('paraswap', 'https://apply.workable.com/paraswap', ScrapeWorkable,
                         'https://www.paraswap.io', 'Web3 DeFi aggregator'),
             CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
-                        ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking')
+                        ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking'),
+            CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
+                        "https://www.bitcoin.com", 'Exchange'),
             ]
 
 
