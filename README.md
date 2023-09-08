@@ -128,6 +128,10 @@ wip:
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
 - https://base.org/jobs
+- https://lavanet.applytojob.com/apply/
+- https://www.kamu.dev/jobs/
+- https://jobs.zama.ai/departments/tfhe-rs
+- 
 
 not only crypto:
 
