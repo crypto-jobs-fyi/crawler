@@ -131,7 +131,7 @@ wip:
 - https://lavanet.applytojob.com/apply/
 - https://www.kamu.dev/jobs/
 - https://jobs.zama.ai/departments/tfhe-rs
-- 
+- https://www.soliduslabs.com/careers#open-positions
 
 not only crypto:
 

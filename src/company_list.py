@@ -32,6 +32,8 @@ def get_company_list() -> [CompanyItem]:
                         'Web3 ID'),
             CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', ScrapeLever, 'https://www.blockswap.network',
                         'Infra'),
+            CompanyItem('impossiblecloud', 'https://jobs.lever.co/impossiblecloud', ScrapeLever,
+                        'https://www.impossiblecloud.com', 'Web3 Infra'),
             CompanyItem('with-foundation', 'https://jobs.lever.co/with-foundation', ScrapeLever,
                         'https://foundation.app', 'Web3 NFT'),
             CompanyItem('Metatheory', 'https://jobs.lever.co/Metatheory', ScrapeLever,
