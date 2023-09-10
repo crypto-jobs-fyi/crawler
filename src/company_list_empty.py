@@ -34,6 +34,12 @@ def get_company_list() -> []:
                     'https://almanak.co', 'Web3 Simulator'),
         CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',
                     'Web3 data'),
+        CompanyItem('outlierventures', 'https://boards.eu.greenhouse.io/outlierventures', ScrapeGreenhouse,
+                    'https://outlierventures.io', 'Web3 Ventures'),
+        CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
+                    'https://www.thetie.io', 'Web3 DeFi Info'),
+        CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
+                    'https://dydxopsdao.com', 'Web3 DAO')
     ]
 
 
