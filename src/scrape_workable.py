@@ -28,7 +28,13 @@ class ScrapeWorkable(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
-        driver.implicitly_wait(20)
+        clear_filters_locator = 'a[data-ui="clear-filters"]'
+        driver.implicitly_wait(5)
+        clear_filters = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
+        if len(clear_filters) > 0:
+            print(f'[{self.name}] Clear filters')
+            driver.execute_script("arguments[0].click();", clear_filters[0])
+        driver.implicitly_wait(15)
         wait = WebDriverWait(driver, 20)
         result = []
         show_more_locator = 'button[data-ui="load-more-button"]'
