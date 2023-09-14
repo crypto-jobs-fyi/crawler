@@ -56,6 +56,8 @@ def get_company_list() -> [CompanyItem]:
                         "Custody software"),
             CompanyItem("swissborg", "https://jobs.lever.co/swissborg", ScrapeLever, "https://swissborg.com",
                         "Exchange"),
+            CompanyItem('fortress', 'https://jobs.lever.co/fortress', ScrapeLever,
+                        'https://fortress.io', 'Web3 Custody'),
             CompanyItem("storyprotocol", "https://jobs.lever.co/storyprotocol", ScrapeLever,
                         "https://www.storyprotocol.xyz", "Protocol"),
             CompanyItem("ethereumfoundation", "https://jobs.lever.co/ethereumfoundation", ScrapeLever,

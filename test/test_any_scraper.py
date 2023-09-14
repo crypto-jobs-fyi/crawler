@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('impossiblecloud', 'https://jobs.lever.co/impossiblecloud', ScrapeLever,
-                'https://www.impossiblecloud.com', 'Web3 Infra'),
+    CompanyItem('fortress', 'https://jobs.lever.co/fortress', ScrapeLever,
+                'https://fortress.io', 'Web3 Custody'),
     CompanyItem('hextrust', 'https://apply.workable.com/hextrust', ScrapeWorkable,
                 'https://www.hextrust.com', 'Web3 Custody'),
     CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
