@@ -132,6 +132,7 @@ wip:
 - https://www.kamu.dev/jobs/
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
+- https://apply.workable.com/tatum/
 
 not only crypto:
 
