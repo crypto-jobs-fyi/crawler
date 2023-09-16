@@ -133,6 +133,7 @@ wip:
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
 - https://apply.workable.com/tatum/
+- https://www.ambergroup.io/people?location=All&jobType=All
 
 not only crypto:
 
