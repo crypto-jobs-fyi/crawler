@@ -148,6 +148,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem("zora", "https://boards.greenhouse.io/zora", ScrapeGreenhouse, "https://zora.co", "NFT"),
             CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com',
                         'Web3'),
+            CompanyItem('osl', 'https://boards.eu.greenhouse.io/osl', ScrapeGreenhouse,
+                        'https://shardeum.org', 'Web3 Custody Exchange'),
             CompanyItem("cexio", "https://cexio.bamboohr.com/jobs", ScrapeBamboohr, "https://cex.io", "Exchange"),
             CompanyItem("circle", "https://boards.greenhouse.io/circle", ScrapeGreenhouse, "https://circle.com",
                         "Stable Coin"),

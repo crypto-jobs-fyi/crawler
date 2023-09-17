@@ -18,8 +18,8 @@ company_list = [
                 'https://www.hextrust.com', 'Web3 Custody'),
     CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
                 'https://www.station.express', 'Web3 infra'),
-    CompanyItem('shardeum', 'https://boards.greenhouse.io/shardeumfoundation', ScrapeGreenhouse,
-                'https://shardeum.org', 'Web3 L1'),
+    CompanyItem('osl', 'https://boards.eu.greenhouse.io/osl', ScrapeGreenhouse,
+                'https://shardeum.org', 'Web3 Custody Exchange'),
 ]
 
 for company in company_list:
