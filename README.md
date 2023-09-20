@@ -134,6 +134,7 @@ wip:
 - https://www.soliduslabs.com/careers#open-positions
 - https://apply.workable.com/tatum/
 - https://www.ambergroup.io/people?location=All&jobType=All
+- https://apply.workable.com/zodia-custody/
 
 not only crypto:
 
