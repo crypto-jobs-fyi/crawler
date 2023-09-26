@@ -135,6 +135,7 @@ wip:
 - https://apply.workable.com/tatum/
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://apply.workable.com/zodia-custody/
+- https://jobs.ashbyhq.com/Bastion
 
 not only crypto:
 
