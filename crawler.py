@@ -31,8 +31,8 @@ for company in company_list:
     try:
         jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
-        print('[CRAWLER] Execution time:', (time.time() - st), 'seconds')
+        print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:
         print(f'Company {company.company_name} failed to process...')
-print('[CRAWLER] Execution time:', (time.time() - start_time)/60, 'minutes')
+print('[CRAWLER] Execution time:', round(time.time() - start_time)/60, 'minutes')
 driver.close()

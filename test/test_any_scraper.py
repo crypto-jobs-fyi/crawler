@@ -14,10 +14,10 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('fortress', 'https://jobs.lever.co/fortress', ScrapeLever,
                 'https://fortress.io', 'Web3 Custody'),
-    CompanyItem('hextrust', 'https://apply.workable.com/hextrust', ScrapeWorkable,
-                'https://www.hextrust.com', 'Web3 Custody'),
-    CompanyItem('OpenSea', 'https://jobs.ashbyhq.com/OpenSea', ScrapeAshbyhq,
-                'https://www.station.express', 'Web3 infra'),
+    CompanyItem('zodia-custody', 'https://apply.workable.com/zodia-custody', ScrapeWorkable,
+                'https://zodia.io', 'Web3 Custody'),
+    CompanyItem('Bastion', 'https://jobs.ashbyhq.com/Bastion', ScrapeAshbyhq,
+                'https://www.bastion.com', 'Web3 Infra and Wallet'),
     CompanyItem('osl', 'https://boards.eu.greenhouse.io/osl', ScrapeGreenhouse,
                 'https://shardeum.org', 'Web3 Custody Exchange'),
 ]
