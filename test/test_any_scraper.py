@@ -16,8 +16,10 @@ company_list = [
                 'https://fortress.io', 'Web3 Custody'),
     CompanyItem('zodia-custody', 'https://apply.workable.com/zodia-custody', ScrapeWorkable,
                 'https://zodia.io', 'Web3 Custody'),
-    CompanyItem('Bastion', 'https://jobs.ashbyhq.com/Bastion', ScrapeAshbyhq,
-                'https://www.bastion.com', 'Web3 Infra and Wallet'),
+    CompanyItem('cryptio', 'https://jobs.ashbyhq.com/cryptio', ScrapeAshbyhq,
+                'https://cryptio.co', 'Web3 Back Office'),
+    CompanyItem('Artemisxyz', 'https://jobs.ashbyhq.com/Artemisxyz', ScrapeAshbyhq,
+                'https://www.artemis.xyz', 'Web3 Data'),
     CompanyItem('osl', 'https://boards.eu.greenhouse.io/osl', ScrapeGreenhouse,
                 'https://shardeum.org', 'Web3 Custody Exchange'),
 ]

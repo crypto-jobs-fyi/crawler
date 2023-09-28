@@ -33,7 +33,6 @@ wip:
 - https://gnosis.jobs.personio.com
 - https://nexusmutual.recruitee.com
 - https://metrika.recruitee.com
-- https://jobs.ashbyhq.com/cryptio
 - https://ratedlabs.notion.site/Open-Roles-at-Rated
 - https://zenith-caboc-8a4.notion.site/Join-Llama-ad66be1cb28541f5b5346aa37d192b79
 - https://bullish.wd3.myworkdayjobs.com/Bullish
@@ -66,14 +65,13 @@ wip:
 - https://jobs.coinfund.io/jobs?page=2
 - https://join-incept.super.site/
 - https://rhino.fi/careers/
-- https://safe-global.breezy.hr/
 - https://nascent-xyz.breezy.hr/
 - https://angel.co/company/chainflip/jobs
 - https://coin98.bamboohr.com/careers
 - https://enjin.io/opportunities#positions
 - https://bitflyer.com/en-jp/recruit#positions
 - https://dydx.exchange/careers#roles
-- https://careers.lmax.com
+- https://careers.lmax.com/job-openings/
 - https://livepeer.org/jobs
 - https://jobs.lever.co/kava
 - https://www.blockchains.com/careers/#board
@@ -122,7 +120,6 @@ wip:
 - https://sologenic-development-foundation-limited.breezy.hr/
 - https://www.lightspark.com/careers
 - https://www.talos.com/working/open-roles
-- https://jobs.ashbyhq.com/Artemisxyz
 - https://www.coinomi.com/careers
 - https://apply.workable.com/apollolabs  https://apollo.xyz/
 - https://cryptotaxcalculator.io/us/jobs/
@@ -134,8 +131,7 @@ wip:
 - https://www.soliduslabs.com/careers#open-positions
 - https://apply.workable.com/tatum/
 - https://www.ambergroup.io/people?location=All&jobType=All
-- https://apply.workable.com/zodia-custody/
-- https://jobs.ashbyhq.com/Bastion
+
 
 not only crypto:
 
