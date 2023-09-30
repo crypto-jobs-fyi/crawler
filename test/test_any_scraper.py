@@ -18,8 +18,6 @@ company_list = [
                 'https://zodia.io', 'Web3 Custody'),
     CompanyItem('cryptio', 'https://jobs.ashbyhq.com/cryptio', ScrapeAshbyhq,
                 'https://cryptio.co', 'Web3 Back Office'),
-    CompanyItem('Artemisxyz', 'https://jobs.ashbyhq.com/Artemisxyz', ScrapeAshbyhq,
-                'https://www.artemis.xyz', 'Web3 Data'),
     CompanyItem('osl', 'https://boards.eu.greenhouse.io/osl', ScrapeGreenhouse,
                 'https://shardeum.org', 'Web3 Custody Exchange'),
 ]
