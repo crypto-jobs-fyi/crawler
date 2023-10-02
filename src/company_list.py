@@ -278,6 +278,8 @@ def get_company_list() -> [CompanyItem]:
                         "Blockchain"),
             CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
                         'https://www.iofinnet.com', 'Custody'),
+            CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com',
+                        'Web3 Fin Planning'),
             CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', ScrapeWorkable,
                         'https://almanak.co', 'Web3 Simulator'),
             CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',

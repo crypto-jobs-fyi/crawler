@@ -6,7 +6,8 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 company_list = [
-    CompanyItem('wirex', 'https://wirex.bamboohr.com/careers', ScrapeBamboohr, 'https://wirexapp.com', 'Web3 card'),
+    CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com',
+                'Web3 Fin Planning'),
     CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com',
                 'Crypto bank'),
     CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
@@ -14,10 +15,7 @@ company_list = [
     CompanyItem('web3', 'https://web3.bamboohr.com/jobs', ScrapeBamboohr, 'https://web3.foundation',
                 'web3'),
     CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
-                'https://dappradar.com', 'Exchange & NFT'),
-    CompanyItem("cexio", "https://cexio.bamboohr.com/jobs", ScrapeBamboohr, "https://cex.io", "Exchange"),
-    CompanyItem("chainstack", "https://chainstack.bamboohr.com/jobs", ScrapeBamboohr,
-                "https://chainstack.com", "Infra")
+                'https://dappradar.com', 'Exchange & NFT')
 ]
 
 for company in company_list:
