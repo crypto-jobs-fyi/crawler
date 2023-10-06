@@ -18,6 +18,8 @@ def get_company_list() -> [CompanyItem]:
     return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings", ScrapeBinance,
                         "https://www.binance.com", "Exchange"),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
+            CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
+                        'https://obol.tech', 'ETH Distributed Staking'),
             CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
                         'https://arbitrum.foundation', 'Layer 2'),
             CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLever, "https://chain.link",

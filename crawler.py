@@ -34,5 +34,5 @@ for company in company_list:
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:
         print(f'Company {company.company_name} failed to process...')
-print('[CRAWLER] Execution time:', round(time.time() - start_time)/60, 'minutes')
+print('[CRAWLER] Execution time:', round(time.time() - start_time/60), 'minutes')
 driver.close()
