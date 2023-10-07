@@ -15,7 +15,7 @@ from src.scrape_paxos import ScrapePaxos
 
 
 def get_company_list() -> [CompanyItem]:
-    return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings", ScrapeBinance,
+    return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings?team=All", ScrapeBinance,
                         "https://www.binance.com", "Exchange"),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
