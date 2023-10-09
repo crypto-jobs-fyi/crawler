@@ -1,130 +1,238 @@
 {
     "data": [
         {
-            "company": "axiomzen",
-            "title": "Senior Frontend Engineer I",
-            "location": "Us / Canada Remote",
-            "link": "<a href='https://jobs.lever.co/axiomzen/c8642154-19fb-4536-b518-73165f4b7205' target='_blank' >Apply</a>"
+            "company": "binance",
+            "title": "Macro Research Analyst",
+            "location": "Canada Toronto  Onsite or Remote",
+            "link": "<a href='https://www.binance.com/en/careers/job?id=3e832485-a09f-460d-9b4c-7e13252b7de6' target='_blank' >Apply</a>"
         },
         {
-            "company": "axiomzen",
-            "title": "Senior Mobile Engineer, iOS (Vancouver - Remote)",
-            "location": "Bc Vancouver Remote",
-            "link": "<a href='https://jobs.lever.co/axiomzen/967ace07-4e9c-4024-a4d7-daf7ddc6f53a' target='_blank' >Apply</a>"
+            "company": "binance",
+            "title": "Macro Research Analyst",
+            "location": "Eastern Europe  Onsite or Remote",
+            "link": "<a href='https://www.binance.com/en/careers/job?id=42e79544-8fe8-4465-a3ab-893dfda595c8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "Macro Research Analyst",
+            "location": "Asia  Onsite or Remote",
+            "link": "<a href='https://www.binance.com/en/careers/job?id=8bf9403f-a7ed-4355-8385-d45ea939756c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "Data Scientist",
+            "location": "Paris  Onsite or Remote France",
+            "link": "<a href='https://www.binance.com/en/careers/job?id=9df219de-4b75-4ae1-b9ce-56d601315fa2' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
+            "title": "DevSecOps Engineer",
+            "location": "Remote Anywhere",
+            "link": "<a href='https://jobs.lever.co/kraken/72cde85f-810b-4722-b36e-8a8938ffe48d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "impossiblecloud",
+            "title": "Sales & Marketing Intern",
+            "location": "Hamburg On-Site",
+            "link": "<a href='https://jobs.lever.co/impossiblecloud/ec8e76d4-7cc0-4279-934d-8f895ab23963' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Coinshift",
+            "title": "Growth Lead",
+            "location": "Remote",
+            "link": "<a href='https://jobs.lever.co/Coinshift/5d71132b-fab8-4f29-b000-908df29ef6da' target='_blank' >Apply</a>"
         },
         {
             "company": "swissborg",
-            "title": "Legal Counsel Regulatory Compliance",
-            "location": "Estonia Remote",
-            "link": "<a href='https://jobs.lever.co/swissborg/972999ff-a98f-439f-9071-2678297cbad5' target='_blank' >Apply</a>"
+            "title": "IT Security Manager",
+            "location": "Remote Lisbon",
+            "link": "<a href='https://jobs.lever.co/swissborg/af8c55a4-50b1-46c5-b39c-becf06c3da03' target='_blank' >Apply</a>"
         },
         {
-            "company": "risklabs",
-            "title": "Sales Engineer",
+            "company": "swissborg",
+            "title": "IT Security Manager",
+            "location": "Remote Warsaw",
+            "link": "<a href='https://jobs.lever.co/swissborg/844b84a8-4142-443c-8eb7-65472588b9b0' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ramp.network",
+            "title": "Junior Analyst",
+            "location": "Warsaw Hybrid",
+            "link": "<a href='https://jobs.lever.co/careers.ramp.network/68a8e39d-2c77-4eca-a70c-33a4896a6b75' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ledger",
+            "title": "Customer Success Specialist - Spanish speaking",
+            "location": "Portland United States Hybrid",
+            "link": "<a href='https://jobs.lever.co/ledger/06214d6c-d086-4d41-b372-c88e575feab0' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ledger",
+            "title": "Customer Success Specialist - German & English speaking",
+            "location": "France Paris Hybrid",
+            "link": "<a href='https://jobs.lever.co/ledger/91c482aa-1e23-4c26-a0db-caa71acec7dd' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Security Operations Engineer",
+            "location": "Remote Eu",
+            "link": "<a href='https://jobs.eu.lever.co/matterlabs/d9ec0f2f-772b-4f9e-9178-d19c25501e68' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Miami - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962665002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Washington D.C. - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962667002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Chicago - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962645002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Boston - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962642002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Atlanta - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962542002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Los Angeles - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962651002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Phoenix - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6961539002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "San Francisco - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6961527002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, ERM Programs Management",
+            "location": "Austin - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6957042002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Security Engineer, Detection and Response",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6814861002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "status",
+            "title": "Desktop QA Engineer",
+            "location": "Remote (Worldwide)",
+            "link": "<a href='https://jobs.status.im/?gh_jid=5419957' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "status",
+            "title": "Mobile QA Engineer",
+            "location": "Remote (Worldwide)",
+            "link": "<a href='https://jobs.status.im/?gh_jid=5420136' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "status",
+            "title": "Technical Business Development Lead [Waku]",
+            "location": "Remote (Worldwide)",
+            "link": "<a href='https://jobs.status.im/?gh_jid=5423094' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Compliance Manager",
+            "location": "Central Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5768587003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Customer Service Agent (Ukranian Speaker)",
+            "location": "Eastern Europe (Remote)",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5768753003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Product Marketing Lead, Growth",
+            "location": "Central Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5768514003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Operations Manager, Institutional",
+            "location": "Central Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5768543003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Relationship Manager U/HNWI & Institutional",
             "location": "Remote",
-            "link": "<a href='https://jobs.lever.co/risklabs/d0dc82ef-4694-4cf1-8249-69d3df61c606' target='_blank' >Apply</a>"
+            "link": "<a href='https://boards.eu.greenhouse.io/bitpanda/jobs/4230298101' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Compliance Manager, HK",
-            "location": "Hong Kong",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5767483003' target='_blank' >Apply</a>"
+            "company": "bitpanda",
+            "title": "Senior Associate, Treasury",
+            "location": "England London United Kingdom",
+            "link": "<a href='https://boards.eu.greenhouse.io/bitpanda/jobs/4229532101' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Senior Compliance Manager, HK",
-            "location": "Hong Kong",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5767462003' target='_blank' >Apply</a>"
+            "company": "bitpanda",
+            "title": "Senior Associate, Treasury",
+            "location": "Austria Vienna",
+            "link": "<a href='https://boards.eu.greenhouse.io/bitpanda/jobs/4225953101' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Senior Compliance Manager, International",
-            "location": "Hong Kong",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5767505003' target='_blank' >Apply</a>"
+            "company": "cryptio",
+            "title": "Customer Success Manager, Remote within The United Kingdom",
+            "location": "London, United Kingdom",
+            "link": "<a href='https://jobs.ashbyhq.com/cryptio/864e7d3b-0b29-4eba-bd40-fc68665708d9' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Senior Research Analyst, Token Listings",
-            "location": "California United States San Jose",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5767868003' target='_blank' >Apply</a>"
+            "company": "nethermind",
+            "title": "Head of Institutional Sales",
+            "location": "Remote",
+            "link": "<a href='https://boards.eu.greenhouse.io/nethermind/jobs/4229838101' target='_blank' >Apply</a>"
         },
         {
-            "company": "Bastion",
-            "title": "Compliance Lead",
-            "location": "New York City, San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/Bastion/da123826-7f18-4668-90df-728718d39d18' target='_blank' >Apply</a>"
+            "company": "bitfinex",
+            "title": "Compliance Risk Assessment and Internal Testing Analyst (Remote UK)",
+            "location": "REMOTE",
+            "link": "<a href='https://bitfinex.recruitee.com/o/compliance-risk-assessment-and-internal-testing-analyst-remote-pl-2' target='_blank' >Apply</a>"
         },
         {
-            "company": "safe.global",
-            "title": "Chief Operating Officer",
-            "location": "Switzerland",
-            "link": "<a href='https://jobs.ashbyhq.com/safe.global/d5de9a1d-7ab5-4fa4-a017-cdcfd40c9fe8' target='_blank' >Apply</a>"
+            "company": "trmlabs",
+            "title": "Data Scientist",
+            "location": "South America",
+            "link": "<a href='https://www.trmlabs.com/careers-list?gh_jid=4989560004' target='_blank' >Apply</a>"
         },
         {
-            "company": "stellar",
-            "title": "Marketing Analytic Strategist",
-            "location": "United States Brooklyn New York",
-            "link": "<a href='https://boards.greenhouse.io/stellar/jobs/4991423004' target='_blank' >Apply</a>"
+            "company": "consensys",
+            "title": "Content Designer",
+            "location": "CANADA - Remote, EMEA - Remote, LATAM - Remote, UNITED STATES - Remote",
+            "link": "<a href='https://consensys.io/open-roles/5357504' target='_blank' >Apply</a>"
         },
         {
-            "company": "stellar",
-            "title": "Marketing Analytic Strategist",
-            "location": "California United States San Francisco",
-            "link": "<a href='https://boards.greenhouse.io/stellar/jobs/4991422004' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "messari",
-            "title": "Social Media Manager",
-            "location": "Remote - US",
-            "link": "<a href='https://boards.greenhouse.io/messari/jobs/4325546005' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "digitalasset",
-            "title": "Client Experience Solutions Architect",
-            "location": "New York",
-            "link": "<a href='https://boards.greenhouse.io/digitalasset/jobs/5421044' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "okcoin",
-            "title": "Senior Research Analyst, Token Listings",
-            "location": "California United States San Jose",
-            "link": "<a href='https://boards.greenhouse.io/okcoin/jobs/5767869003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Software Engineer II",
-            "location": "Toronto, Canada",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/5416354/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Scala Developer",
-            "location": "Lausanne, Vaud, Switzerland",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/5372649/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Investor Relations Senior Manager",
-            "location": "London, UK",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/5421658/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Investor Relations Senior Manager",
-            "location": "New York, NY, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/5421650/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Investor Relations Senior Manager",
-            "location": "Miami, FL, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/5421660/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "sygnum",
-            "title": "(Senior) Legal Counsel (m/w) 100%",
-            "location": "Hybrid Zh (Hybrid) Zurich",
-            "link": "<a href='https://sygnum.bamboohr.com/careers/86' target='_blank' >Apply</a>"
+            "company": "consensys",
+            "title": "Data Analyst",
+            "location": "CANADA - Remote, EMEA - Remote, LATAM - Remote, UNITED STATES - Remote",
+            "link": "<a href='https://consensys.io/open-roles/5010808' target='_blank' >Apply</a>"
         }
     ]
 }

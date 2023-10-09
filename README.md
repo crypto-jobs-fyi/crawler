@@ -114,6 +114,7 @@ wip:
 - https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
 - https://bloxstaking.breezy.hr/
+- https://zero-hash.breezy.hr/
 - https://trendspider.freshteam.com/jobs
 - https://careers.onetrading.com/jobs
 - https://bitso.com/jobs
