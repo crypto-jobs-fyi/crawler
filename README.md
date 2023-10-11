@@ -132,6 +132,7 @@ wip:
 - https://www.soliduslabs.com/careers#open-positions
 - https://apply.workable.com/tatum/
 - https://www.ambergroup.io/people?location=All&jobType=All
+- https://apply.workable.com/io-global/#jobs
 
 
 not only crypto:
