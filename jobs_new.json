@@ -1,94 +1,430 @@
 {
     "data": [
         {
-            "company": "binance",
-            "title": "Procurement Specialist - Professional Services",
-            "location": "Asia  Onsite or Remote",
-            "link": "<a href='https://www.binance.com/en/careers/job?id=7487698f-fc3a-438f-ab3a-b10eea27f4bb' target='_blank' >Apply</a>"
+            "company": "kraken",
+            "title": "Compliance Marketing Analyst - Philippines",
+            "location": "Philippines Remote",
+            "link": "<a href='https://jobs.lever.co/kraken/7b8e3195-0762-4512-873c-66b154ba363d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
+            "title": "Compliance Marketing Analyst - Vietnam",
+            "location": "Vietnam Remote",
+            "link": "<a href='https://jobs.lever.co/kraken/a61586b8-0a12-4c70-8a8d-f7595e50783f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Tenderly",
+            "title": "Software Engineer BE",
+            "location": "On-Site Belgrade",
+            "link": "<a href='https://jobs.lever.co/Tenderly/3900c4cb-6df0-4350-a536-22d855336d53' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Tenderly",
+            "title": "General Application",
+            "location": "Hybrid  Or In-Office (Belgrade) Or Hybrid-Remote (San Francisco)",
+            "link": "<a href='https://jobs.lever.co/Tenderly/df0279f5-cd39-4d0c-87c0-62f70038925c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Tenderly",
+            "title": "Senior Growth Marketing Manager",
+            "location": "On-Site San Francisco",
+            "link": "<a href='https://jobs.lever.co/Tenderly/c54701b2-d9df-4889-8691-3ce1c39dde3e' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Tenderly",
+            "title": "Facility Specialist",
+            "location": "On-Site Belgrade",
+            "link": "<a href='https://jobs.lever.co/Tenderly/2bbdc1d5-82c1-4f15-a995-3ba57d537853' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Tenderly",
+            "title": "HR Business Partner",
+            "location": "On-Site Belgrade",
+            "link": "<a href='https://jobs.lever.co/Tenderly/9371d53c-ce35-4fc2-b0a7-316cce9b4c6f' target='_blank' >Apply</a>"
         },
         {
             "company": "swissborg",
-            "title": "Senior Scala Engineer",
-            "location": "Remote - Europe Timezone",
-            "link": "<a href='https://jobs.lever.co/swissborg/3ee017ae-ced2-42f8-b21a-6d9a17ef0d7c' target='_blank' >Apply</a>"
+            "title": "Senior Software Engineer (Backend)",
+            "location": "Lausanne Remote",
+            "link": "<a href='https://jobs.lever.co/swissborg/7335b915-8902-411b-a1e8-a08b5a226dbf' target='_blank' >Apply</a>"
         },
         {
-            "company": "Polygon",
-            "title": "Financial Analyst (Preference to CFA)",
+            "company": "swissborg",
+            "title": "General Risk Manager",
+            "location": "In Europe Remote",
+            "link": "<a href='https://jobs.lever.co/swissborg/9ab37eb3-c13a-46de-8e3e-f112cdf20dac' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "swissborg",
+            "title": "General Risk Manager",
+            "location": "London Remote",
+            "link": "<a href='https://jobs.lever.co/swissborg/f5ee9cd2-0ebf-43da-a5c5-92e828aec8b6' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "immutable",
+            "title": "VP of Growth",
+            "location": "Hybrid Australia",
+            "link": "<a href='https://jobs.lever.co/immutable/6109825a-fa67-42e2-872d-f207c71ac452' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "web3auth",
+            "title": "DevOps Engineer",
+            "location": "Hq Remote",
+            "link": "<a href='https://jobs.lever.co/TorusLabs/8c69ed17-5be2-4956-ac3b-7ba04d94e542' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Android Engineer",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6837657002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Security Engineer",
+            "location": "New York City or Remote (US)",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6689980002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Software Engineer - Backend",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/5151030002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Software Engineer - Frontend",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6889609002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Software Engineer - Backend",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/4139312002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Staff Backend Engineer - Security",
+            "location": "New York City or Remote (US)",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6426023002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Staff Software Engineer",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6296909002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "VP of Engineering",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6839617002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Research Associate",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6960056002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Legal Counsel / Assistant General Counsel",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6889610002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Workplace Experience Lead",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6768952002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dydx",
+            "title": "Senior Product Manager",
+            "location": "Ny New York",
+            "link": "<a href='https://boards.greenhouse.io/dydx/jobs/6852250002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "evmos",
+            "title": "Executive Assistant - Working Student",
+            "location": "Berlin",
+            "link": "<a href='https://boards.eu.greenhouse.io/evmos/jobs/4234248101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "evmos",
+            "title": "Operations Assistant - Working Student",
+            "location": "Berlin",
+            "link": "<a href='https://boards.eu.greenhouse.io/evmos/jobs/4234241101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cexio",
+            "title": "Guest Post Content Writer",
             "location": "Remote",
-            "link": "<a href='https://jobs.lever.co/Polygon/654e0372-9268-40ad-9902-17310c5e0c8f' target='_blank' >Apply</a>"
+            "link": "<a href='https://cexio.bamboohr.com/careers/292' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cexio",
+            "title": "Content Writer",
+            "location": "Remote",
+            "link": "<a href='https://cexio.bamboohr.com/careers/293' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Boston - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974349002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "San Francisco - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974381002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Seattle - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974379002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "New York City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974375002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Salt Lake City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974374002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Phoenix - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974370002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Washington D.C. - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974362002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Miami - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974358002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Los Angeles - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974357002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Chicago - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974350002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Austin - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6974348002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Risk Lifecycle Manager",
+            "location": "Atlanta - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6970844002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Accountant, EMEA",
+            "location": "Dublin - Ireland",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6959015002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Washington D.C. - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969222002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Salt Lake City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969233002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "New York City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969224002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Phoenix - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969232002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Atlanta - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969213002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Boston - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6962357002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Austin - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969217002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Chicago - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969218002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Los Angeles - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969219002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Seattle - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969227002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "Miami - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969220002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel",
+            "location": "San Francisco - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6969236002' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Senior Admin Manager",
+            "title": "Compliance Data Analyst Lead, CEO Office",
+            "location": "Singapore Central",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776843003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Director / Senior Manager, PR (Product)",
             "location": "Hong Kong",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776442003' target='_blank' >Apply</a>"
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776597003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Specialist, Learning & Development and Quality Assurance (LDQA) (Arabic Speaker)",
-            "location": "Middle East/Africa",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776526003' target='_blank' >Apply</a>"
+            "title": "Senior Manager, HRBP (Product & Engineering)",
+            "location": "Singapore Central",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5441071003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Specialist, Learning & Development and Quality Assurance (LDQA) (Hindi Speaker)",
-            "location": "Malaysia",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776516003' target='_blank' >Apply</a>"
+            "title": "Copywriter Specialist, CIS",
+            "location": "Eastern Europe (Remote)",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5778138003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Specialist, Learning & Development and Quality Assurance (LDQA) (Korean Speaker)",
-            "location": "Malaysia",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776517003' target='_blank' >Apply</a>"
+            "title": "Marketing Specialist, CIS",
+            "location": "Eastern Europe (Remote)",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5778131003' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Specialist, Learning & Development and Quality Assurance (LDQA) (Russian Speaker)",
-            "location": "Malaysia",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776489003' target='_blank' >Apply</a>"
+            "company": "bitmex",
+            "title": "Senior Sales Officer / Head of Sales",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/bitmex/jobs/6975941002' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Specialist, Learning & Development and Quality Assurance (LDQA) (Spanish & Portuguese Speaker)",
-            "location": "Malaysia",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776528003' target='_blank' >Apply</a>"
+            "company": "bitmex",
+            "title": "Senior Sales Officer / Head of Sales",
+            "location": "Hong Kong",
+            "link": "<a href='https://boards.greenhouse.io/bitmex/jobs/6975866002' target='_blank' >Apply</a>"
         },
         {
-            "company": "OKX",
-            "title": "Customer Service Agent (Arabic Speaker)",
-            "location": "Malaysia",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776462003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Customer Service Agent (Dutch Speaker)",
-            "location": "Amsterdam Netherlands North Holland",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776544003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Product Management Intern, Data",
-            "location": "Central Singapore",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5776530003' target='_blank' >Apply</a>"
+            "company": "bitmex",
+            "title": "Lead Detection & Response Engineer",
+            "location": "Hong Kong",
+            "link": "<a href='https://boards.greenhouse.io/bitmex/jobs/6975995002' target='_blank' >Apply</a>"
         },
         {
             "company": "bitgo",
-            "title": "Senior Engineering Manager",
-            "location": "Bengaluru India",
-            "link": "<a href='https://boards.greenhouse.io/bitgo/jobs/6973383002' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "bitgo",
-            "title": "Data Quality Analyst - Billing",
+            "title": "Principal Backend Engineer",
             "location": "Bangalore",
-            "link": "<a href='https://boards.greenhouse.io/bitgo/jobs/6973369002' target='_blank' >Apply</a>"
+            "link": "<a href='https://boards.greenhouse.io/bitgo/jobs/6973779002' target='_blank' >Apply</a>"
         },
         {
             "company": "bitgo",
-            "title": "Product Manager, HeightZero",
+            "title": "Senior Backend Engineer - Bitcoin",
             "location": "Bangalore",
-            "link": "<a href='https://boards.greenhouse.io/bitgo/jobs/6973412002' target='_blank' >Apply</a>"
+            "link": "<a href='https://boards.greenhouse.io/bitgo/jobs/6973720002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Specialist, Business Intelligence Analyst",
+            "location": "Vienna Austria",
+            "link": "<a href='https://boards.eu.greenhouse.io/bitpanda/jobs/4231481101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "figment",
+            "title": "Tax Manager",
+            "location": "Remote",
+            "link": "<a href='https://boards.greenhouse.io/figment/jobs/4996757004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "chainalysis",
+            "title": "Manager of Services, FP&A",
+            "location": "Ny | Usa- Remote New York",
+            "link": "<a href='https://boards.greenhouse.io/chainalysis/jobs/6860310002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "oplabs",
+            "title": "Data Analyst",
+            "location": "Remote",
+            "link": "<a href='https://boards.greenhouse.io/oplabs/jobs/4998457004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "aptoslabs",
+            "title": "Software Engineer, Partnerships Support, Korea",
+            "location": "Remote - Korea",
+            "link": "<a href='https://boards.greenhouse.io/aptoslabs/jobs/4329239005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Global Investigator",
+            "location": "Washington DC Metro Area",
+            "link": "<a href='https://www.trmlabs.com/careers-list?gh_jid=4982418004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "consensys",
+            "title": "Senior DevOps Engineer",
+            "location": "CANADA - Remote, EMEA - Remote, LATAM - Remote, UNITED STATES - Remote",
+            "link": "<a href='https://consensys.io/open-roles/5357579' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "zodia-custody",
+            "title": "HR Generalist",
+            "location": "United Kingdom England London",
+            "link": "<a href='https://apply.workable.com/zodia-custody/j/EE74C71031/' target='_blank' >Apply</a>"
         }
     ]
 }
