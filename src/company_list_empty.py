@@ -12,7 +12,6 @@ def get_company_list() -> []:
     return [
         CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com",
                     "Stable Coin"),
-        CompanyItem("tessera", "https://jobs.lever.co/ftc", ScrapeLever, "https://tessera.co", "NFT"),
         CompanyItem("moonwalk", "https://boards.greenhouse.io/moonwalk", ScrapeGreenhouse,
                     "https://www.moonwalk.com", "Platform"),
         CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network",
@@ -32,7 +31,9 @@ def get_company_list() -> []:
         CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
                     'https://www.thetie.io', 'Web3 DeFi Info'),
         CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
-                    'https://dydxopsdao.com', 'Web3 DAO')
+                    'https://dydxopsdao.com', 'Web3 DAO'),
+        CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
+                    'Exchange'),
     ]
 
 
