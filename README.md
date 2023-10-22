@@ -130,14 +130,12 @@ wip:
 - https://www.kamu.dev/jobs/
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
-- https://apply.workable.com/tatum/
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://apply.workable.com/io-global/#jobs
 
 
 not only crypto:
 
-- https://boards.greenhouse.io/brave
 - https://careers.smartrecruiters.com/MicroStrategy1
 - https://jobs.lever.co/Hume - https://wearehume.com
 

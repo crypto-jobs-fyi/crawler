@@ -15,12 +15,12 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('scroll', 'https://jobs.lever.co/ScrollFoundation', ScrapeLever,
                 'https://scroll.io', 'Web3 Infra'),
-    CompanyItem('zodia-custody', 'https://apply.workable.com/zodia-custody', ScrapeWorkable,
-                'https://zodia.io', 'Web3 Custody'),
+    CompanyItem('tatum', 'https://apply.workable.com/tatum', ScrapeWorkable,
+                'https://tatum.io', 'Web3 SDK'),
     CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
                 'https://www.cointracker.io', 'Web3 Back Office'),
-    CompanyItem('dydx', 'https://boards.greenhouse.io/dydx', ScrapeGreenhouse,
-                'https://dydx.exchange', 'Web3 Exchange'),
+    CompanyItem('brave', 'https://boards.greenhouse.io/brave', ScrapeGreenhouse,
+                'https://brave.com', 'Web3 browser'),
     CompanyItem('osl', 'https://bcgroup.bamboohr.com/careers', ScrapeBamboohr, '', '')
 ]
 
