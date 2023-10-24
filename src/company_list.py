@@ -47,6 +47,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('axiomzen', 'https://jobs.lever.co/axiomzen', ScrapeLever, 'https://www.axiomzen.com', 'Web3'),
             CompanyItem('fuellabs', 'https://jobs.lever.co/fuellabs', ScrapeLever, 'https://www.fuel.network',
                         'Blockchain'),
+            CompanyItem('HQxyz', 'https://jobs.lever.co/HQxyz', ScrapeLever,
+                        'https://www.hq.xyz', 'Web3 Back Office'),
             CompanyItem('Notabene', 'https://jobs.lever.co/Notabene', ScrapeLever,
                         'https://notabene.id', 'Web3 Compliance'),
             CompanyItem('harmony', 'https://jobs.lever.co/harmony', ScrapeLever, 'https://www.harmony.one',

@@ -13,8 +13,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('scroll', 'https://jobs.lever.co/ScrollFoundation', ScrapeLever,
-                'https://scroll.io', 'Web3 Infra'),
+    CompanyItem('HQxyz', 'https://jobs.lever.co/HQxyz', ScrapeLever,
+                'https://www.hq.xyz', 'Web3 Back Office'),
     CompanyItem('tatum', 'https://apply.workable.com/tatum', ScrapeWorkable,
                 'https://tatum.io', 'Web3 SDK'),
     CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
