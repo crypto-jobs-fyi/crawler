@@ -1,12 +1,12 @@
 import unittest
 
 from selenium import webdriver
+
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_greenhouse import ScrapeGreenhouse
-from src.scrape_workable import ScrapeWorkable
 from src.scrape_lever import ScrapeLever
-from src.scrape_bamboohr import ScrapeBamboohr
+from src.scrape_lmax import ScrapeLmax
+from src.scrape_workable import ScrapeWorkable
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -15,13 +15,12 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('HQxyz', 'https://jobs.lever.co/HQxyz', ScrapeLever,
                 'https://www.hq.xyz', 'Web3 Back Office'),
-    CompanyItem('tatum', 'https://apply.workable.com/tatum', ScrapeWorkable,
-                'https://tatum.io', 'Web3 SDK'),
+    CompanyItem('io-global', 'https://apply.workable.com/io-global/#jobs', ScrapeWorkable,
+                'https://iohk.io', 'Web3 Blockchain'),
     CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
                 'https://www.cointracker.io', 'Web3 Back Office'),
-    CompanyItem('brave', 'https://boards.greenhouse.io/brave', ScrapeGreenhouse,
-                'https://brave.com', 'Web3 browser'),
-    CompanyItem('osl', 'https://bcgroup.bamboohr.com/careers', ScrapeBamboohr, '', '')
+    CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
+                'https://www.lmax.com', 'Web3 browser'),
 ]
 
 for company in company_list:

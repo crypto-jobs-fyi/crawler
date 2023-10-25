@@ -70,14 +70,11 @@ wip:
 - https://coin98.bamboohr.com/careers
 - https://enjin.io/opportunities#positions
 - https://bitflyer.com/en-jp/recruit#positions
-- https://dydx.exchange/careers#roles
-- https://careers.lmax.com/job-openings/
 - https://livepeer.org/jobs
 - https://jobs.lever.co/kava
 - https://www.blockchains.com/careers/#board
 - https://phantom.app/jobs
 - https://fantom.foundation/careers
-- https://apply.workable.com/oasisapp
 - https://careers.smartrecruiters.com/Bitoasis
 - https://www.coincover.com/careers
 - https://careers.koinly.io/jobs
@@ -123,6 +120,7 @@ wip:
 - https://www.talos.com/working/open-roles
 - https://www.coinomi.com/careers
 - https://apply.workable.com/apollolabs  https://apollo.xyz/
+- https://apply.workable.com/summerfi/#jobs https://summer.fi/
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
 - https://base.org/jobs
@@ -131,7 +129,6 @@ wip:
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
 - https://www.ambergroup.io/people?location=All&jobType=All
-- https://apply.workable.com/io-global/#jobs
 
 
 not only crypto:
