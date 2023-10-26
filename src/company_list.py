@@ -3,6 +3,7 @@ import json
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 from src.scrape_greenhouse import ScrapeGreenhouse
+from src.scrape_lmax import ScrapeLmax
 from src.scrape_smartrecruiters import ScrapeSmartrecruiters
 from src.scrape_recruitee import ScrapeRecruitee
 from src.scrape_binance import ScrapeBinance
@@ -17,6 +18,8 @@ from src.scrape_paxos import ScrapePaxos
 def get_company_list() -> [CompanyItem]:
     return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings?team=All", ScrapeBinance,
                         "https://www.binance.com", "Exchange"),
+            CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
+                        'https://www.lmax.com', 'Web3 browser'),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
                         'https://obol.tech', 'ETH Distributed Staking'),
@@ -268,6 +271,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://walletconnect.com', 'Web3 Wallet Infra'),
             CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
                         'https://prepo.io', 'Web3 pre-IPO trading'),
+            CompanyItem('io-global', 'https://apply.workable.com/io-global/#jobs', ScrapeWorkable,
+                        'https://iohk.io', 'Web3 Blockchain'),
             CompanyItem('clockwork-labs', 'https://apply.workable.com/clockwork-labs',
                         ScrapeWorkable, 'https://clockworklabs.io', 'Web3 gaming'),
             CompanyItem("bitfinex", "https://bitfinex.recruitee.com", ScrapeRecruitee, "https://www.bitfinex.com",
