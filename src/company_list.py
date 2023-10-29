@@ -13,6 +13,8 @@ from src.scrape_ripple import ScrapeRipple
 from src.scrape_workable import ScrapeWorkable
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_paxos import ScrapePaxos
+from src.scrape_coinbase import ScrapeCoinbase
+from src.scrape_gemini import ScrapeGemini
 
 
 def get_company_list() -> [CompanyItem]:
@@ -20,6 +22,10 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.binance.com", "Exchange"),
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
+            CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
+                        'https://www.coinbase.com', 'Web3 Exchange'),
+            CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
+                        'https://www.gemini.com', 'Web3 Exchange'),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
                         'https://obol.tech', 'ETH Distributed Staking'),

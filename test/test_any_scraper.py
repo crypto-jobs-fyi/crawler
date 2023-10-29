@@ -5,22 +5,22 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_lever import ScrapeLever
-from src.scrape_lmax import ScrapeLmax
-from src.scrape_workable import ScrapeWorkable
+from src.scrape_coinbase import ScrapeCoinbase
+from src.scrape_gemini import ScrapeGemini
 
 options = webdriver.ChromeOptions()
-options.add_argument('--headless')
+#options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('HQxyz', 'https://jobs.lever.co/HQxyz', ScrapeLever,
-                'https://www.hq.xyz', 'Web3 Back Office'),
-    CompanyItem('io-global', 'https://apply.workable.com/io-global/#jobs', ScrapeWorkable,
-                'https://iohk.io', 'Web3 Blockchain'),
-    CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
-                'https://www.cointracker.io', 'Web3 Back Office'),
-    CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
-                'https://www.lmax.com', 'Web3 browser'),
+    CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
+                'https://www.coinbase.com', 'Web3 Exchange'),
+    CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
+                'https://www.gemini.com', 'Web3 Exchange'),
+    #CompanyItem('HQxyz', 'https://jobs.lever.co/HQxyz', ScrapeLever,
+    #            'https://www.hq.xyz', 'Web3 Back Office'),
+    #CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
+    #            'https://www.cointracker.io', 'Web3 Back Office'),
 ]
 
 for company in company_list:
