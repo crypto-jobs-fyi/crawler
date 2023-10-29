@@ -16,8 +16,6 @@ def get_company_list() -> []:
                     "https://www.moonwalk.com", "Platform"),
         CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network",
                     "Blockchain"),
-        CompanyItem("jumpcrypto", "https://boards.greenhouse.io/jumpcrypto", ScrapeGreenhouse,
-                    "https://jumpcrypto.com", "Infra"),
         CompanyItem("poap", "https://boards.greenhouse.io/poaptheproofofattendanceprotocol", ScrapeGreenhouse,
                     "https://poap.xyz", "Protocol"),
         CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
