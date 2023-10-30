@@ -121,7 +121,7 @@ def get_company_list() -> [CompanyItem]:
                         'Protocol'),
             CompanyItem('toku', 'https://jobs.lever.co/toku', ScrapeLever,
                         'https://www.toku.com', 'Web3 Tokens and Tax'),
-            CompanyItem("hiro", "https://jobs.lever.co/hiro", ScrapeLever, "https://www.hiro.so", "Infra"),
+            CompanyItem("hiro", "https://boards.greenhouse.io/hiro", ScrapeGreenhouse, "https://www.hiro.so", "Infra"),
             CompanyItem('AQX', 'https://jobs.lever.co/presto', ScrapeLever, 'https://aqx.com', 'Exchange and Web3'),
             CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
                         'https://ultra.io', 'Web3 Gaming'),
@@ -384,8 +384,6 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.paraswap.io', 'Web3 DeFi aggregator'),
             CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
                         ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking'),
-            CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
-                        "https://www.bitcoin.com", 'Exchange'),
             ]
 
 
