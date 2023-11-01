@@ -127,6 +127,8 @@ wip:
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
 - https://www.ambergroup.io/people?location=All&jobType=All
+- https://apply.workable.com/ferrum/
+- https://lightcurve.jobs.personio.de/?language=en
 
 
 not only crypto:
