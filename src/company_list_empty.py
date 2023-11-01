@@ -34,6 +34,8 @@ def get_company_list() -> []:
                     'Exchange'),
         CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
                     "https://www.bitcoin.com", 'Exchange'),
+        CompanyItem("moonpay", "https://boards.greenhouse.io/moonpay", ScrapeGreenhouse,
+                    "https://www.moonpay.com", "Payments"),
     ]
 
 
