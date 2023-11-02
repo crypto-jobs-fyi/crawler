@@ -22,8 +22,6 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.binance.com", "Exchange"),
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
-            CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
-                        'https://www.coinbase.com', 'Web3 Exchange'),
             CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
                         'https://www.gemini.com', 'Web3 Exchange'),
             CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
@@ -319,7 +317,7 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse,
                         'https://protocol.ai/about',
                         'Web3 IPFS research platform'),
-            CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', ScrapeGreenhouse,
+            CompanyItem('trmlabs', 'https://www.trmlabs.com/careers#open-roles', ScrapeGreenhouse,
                         'https://www.trmlabs.com', 'Web3 Information'),
             CompanyItem("messari", "https://boards.greenhouse.io/messari", ScrapeGreenhouse, "https://messari.io",
                         "Web3 Information"),
@@ -383,6 +381,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.paraswap.io', 'Web3 DeFi aggregator'),
             CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
                         ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking'),
+            CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
+                        'https://www.coinbase.com', 'Web3 Exchange'),
             ]
 
 
