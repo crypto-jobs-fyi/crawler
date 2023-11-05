@@ -3,8 +3,9 @@ import unittest
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_lever import ScrapeLever
+from src.scrape_tusd import ScrapeTusd
+from src.scrape_enjin import ScrapeEnjin
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -13,8 +14,10 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('swellnetwork', 'https://jobs.lever.co/swellnetwork.io', ScrapeLever,
                 'https://www.swellnetwork.io', 'Web3 ETH LST'),
-    #CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
-    #            'https://www.cointracker.io', 'Web3 Back Office'),
+    CompanyItem('tusd', 'https://tusd.io/about', ScrapeTusd,
+                'https://tusd.io', 'Web3 Stable-coin'),
+    CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
+                'https://enjin.io', 'Web3 Blockchain'),
 ]
 
 for company in company_list:
