@@ -1,8 +1,7 @@
 {
-    "Total Jobs": 2863,
+    "Total Jobs": 2864,
     "binance": 86,
     "lmax": 9,
-    "gemini": 54,
     "kraken": 51,
     "obol-tech": 9,
     "arbitrumfoundation": 19,
@@ -73,7 +72,7 @@
     "evmos": 8,
     "orderlynetwork": 14,
     "shardeum": 8,
-    "paxos": 26,
+    "paxos": 27,
     "zora": 9,
     "osl": 7,
     "circle": 316,
@@ -173,5 +172,6 @@
     "zodia-custody": 9,
     "paraswap": 1,
     "stakefish": 14,
-    "coinbase": 77
+    "coinbase": 76,
+    "gemini": 55
 }
