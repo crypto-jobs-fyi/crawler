@@ -1,6 +1,7 @@
 import json
 
 from src.company_item import CompanyItem
+from src.scrape_enjin import ScrapeEnjin
 from src.scrape_lever import ScrapeLever
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lmax import ScrapeLmax
@@ -10,6 +11,7 @@ from src.scrape_binance import ScrapeBinance
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_consensys import ScrapeConsensys
 from src.scrape_ripple import ScrapeRipple
+from src.scrape_tusd import ScrapeTusd
 from src.scrape_workable import ScrapeWorkable
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_paxos import ScrapePaxos
@@ -381,6 +383,10 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.paraswap.io', 'Web3 DeFi aggregator'),
             CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
                         ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking'),
+            CompanyItem('tusd', 'https://tusd.io/about', ScrapeTusd,
+                        'https://tusd.io', 'Web3 Stable-coin'),
+            CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
+                        'https://enjin.io', 'Web3 Blockchain'),
             CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
                         'https://www.coinbase.com', 'Web3 Exchange'),
             ]

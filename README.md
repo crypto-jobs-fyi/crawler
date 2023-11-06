@@ -57,7 +57,6 @@ wip:
 - https://www.sofi.com/careers
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://www.openzeppelin.com/jobs
-- https://tusd.io/careers/#workwithus
 - https://careers.chorus.one/
 - https://staking-facilities-gmbh.jobs.personio.com/
 - https://jobs.coinfund.io/jobs?page=2
@@ -66,7 +65,6 @@ wip:
 - https://nascent-xyz.breezy.hr/
 - https://angel.co/company/chainflip/jobs
 - https://coin98.bamboohr.com/careers
-- https://enjin.io/opportunities#positions
 - https://bitflyer.com/en-jp/recruit#positions
 - https://livepeer.org/jobs
 - https://jobs.lever.co/kava
