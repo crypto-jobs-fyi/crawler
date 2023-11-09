@@ -33,7 +33,7 @@ def get_company_list() -> [CompanyItem]:
                         "Blockchain"),
             CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', ScrapeLever,
                         'https://tenderly.co', 'Web3 Infra'),
-            CompanyItem('ethglobal', 'https://jobs.lever.co/ETHGlobal', ScrapeLever, 'https://ethglobal.com',
+            CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq, 'https://ethglobal.com',
                         'Community'),
             CompanyItem('blox-route', 'https://jobs.lever.co/blox-route', ScrapeLever,
                         'https://bloxroute.com', 'Web3 MEV DeFi infra'),
