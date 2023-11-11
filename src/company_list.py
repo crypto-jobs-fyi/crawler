@@ -24,7 +24,7 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.binance.com", "Exchange"),
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
-            CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com", "Exchange"),
+            CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com", "Exchange"),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
                         'https://obol.tech', 'ETH Distributed Staking'),
             CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,

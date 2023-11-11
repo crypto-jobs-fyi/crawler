@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 
 from src.scrape_it import ScrapeIt, write_jobs
@@ -9,6 +11,7 @@ class ScrapeGemini(ScrapeIt):
     def getJobs(self, driver, web_page, company='gemini') -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
+        time.sleep(5)
         driver.implicitly_wait(12)
         result = []
         view_button = driver.find_element(By.XPATH, '//button[.="View open roles"]')
