@@ -2,39 +2,327 @@
     "data": [
         {
             "company": "binance",
-            "title": "TEST Job - Multiloc",
+            "title": "Binance Accelerator Programme - Risk Analyst",
             "location": "Asia : Remote",
-            "link": "<a href='https://www.binance.com/en/careers/job?id=429793f6-cad3-435b-8035-34b5ed73fb73' target='_blank' >Apply</a>"
+            "link": "<a href='https://www.binance.com/en/careers/job?id=dd66ffa7-81b6-444e-bd65-e842405e75f4' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "Senior QA Engineer (Backend Auto Test)",
+            "location": "Singapore  Onsite or Remote",
+            "link": "<a href='https://www.binance.com/en/careers/job?id=45cb78aa-d487-4c4b-a1d2-377dbb971fe6' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
+            "title": "Brand Designer",
+            "location": "Europe - Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/kraken.com/fd74e672-37d4-4e79-888c-133771985cc6' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
+            "title": "Fraud Team Lead - EU",
+            "location": "Europe - Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/kraken.com/be0a19b6-0939-4b59-bf74-a1d36c43c1b3' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "chainlink",
+            "title": "Business Operations Senior Manager",
+            "location": "Ciudad De M\u00e9xico /  / Toronto / Remote Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/chainlink/2f09afeb-a8d0-4b5b-ad4f-0175c60912e5' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "blox-route",
+            "title": "Sales Engineer",
+            "location": "Singapore Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/blox-route/3b366519-e522-4179-85b4-a2b21e0a65e3' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "axiomzen",
+            "title": "Head of Compliance",
+            "location": "Us Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/axiomzen/ef303c33-3df5-48c9-9598-eba07cd4f404' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "axiomzen",
+            "title": "Senior Manager, People & Culture (North America)",
+            "location": "Us Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/axiomzen/5ad4db39-7ba7-423e-93fe-cd2daa191e56' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "axiomzen",
+            "title": "Senior Manager, People & Culture (Vancouver)",
+            "location": "Bc Vancouver Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/axiomzen/6ee4e126-c94f-4666-a647-610c125d9cde' target='_blank' >Apply</a>"
         },
         {
             "company": "crypto",
-            "title": "Real Time Analyst (Day shift), Bulgaria",
-            "location": "On-Site \u2014 Sofia Bulgaria",
-            "link": "<a href='https://jobs.lever.co/crypto/84e0ba03-807b-48e4-9c05-c02864e9ad5d' target='_blank' >Apply</a>"
+            "title": "Director, Trader",
+            "location": "Florida Miami Hybrid \u2014",
+            "link": "<a href='https://jobs.lever.co/crypto/7caaaa91-24f2-41b1-9f99-79e84860b733' target='_blank' >Apply</a>"
         },
         {
-            "company": "crypto",
-            "title": "Real Time Analyst (Night shift), Bulgaria",
-            "location": "On-Site \u2014 Sofia Bulgaria",
-            "link": "<a href='https://jobs.lever.co/crypto/827b231a-359d-4532-bdd6-8d31a748d87d' target='_blank' >Apply</a>"
+            "company": "Polygon",
+            "title": "Head of Solutions Engineering (Remote)",
+            "location": "New York Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/Polygon/d93f9d03-2057-4a11-a7f9-bfe12e032aae' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Polygon",
+            "title": "Senior Solutions Engineer (Remote)",
+            "location": "Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/Polygon/508034d7-f68e-4932-ab11-0d3f23fe7157' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ledger",
+            "title": "Hardware Security Engineer \u2013 Side Channel",
+            "location": "France Hybrid \u2014 Paris",
+            "link": "<a href='https://jobs.lever.co/ledger/ce82740a-d2dd-4fb8-b0f7-42c8931e23f5' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ledger",
+            "title": "DPO Legal Intern",
+            "location": "France On-Site \u2014 Paris",
+            "link": "<a href='https://jobs.lever.co/ledger/a6d7ba46-cd96-481d-b652-04f9696e7ff4' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "web3auth",
+            "title": "Business Development Associate (Japanese/Korean/Chinese)",
+            "location": "Hq Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/TorusLabs/f5d369fd-586e-4414-9ac4-205bd1f4c985' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "web3auth",
+            "title": "Business Development Associate (LATAM)",
+            "location": "Hq Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/TorusLabs/d7179252-6f0d-4272-b81f-2a6428687175' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "web3auth",
+            "title": "Developer Relations",
+            "location": "Hq Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/TorusLabs/ead07380-8821-4f0b-89a7-502bf90667ec' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "toku",
+            "title": "Director of Finance & Payroll",
+            "location": "Remote \u2014 United States / United Kingdom",
+            "link": "<a href='https://jobs.lever.co/toku/cf3262c8-04a5-4b4f-85f5-c81acca61e65' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "glassnode",
+            "title": "Senior Data Engineer - Data Platform Team (m/f/d). Remote",
+            "location": "Remote \u2014 Europe",
+            "link": "<a href='https://jobs.lever.co/glassnode/517c3f1e-c62e-4e6f-928c-bcc06bd240ee' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ethenalabs",
+            "title": "Quantitative Software Engineer",
+            "location": "\u2014 Globally Remote",
+            "link": "<a href='https://jobs.lever.co/ethenalabs/fbeec8b2-b081-4b7e-af9a-d0c2de9c457c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Salt Lake City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6996231002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Washington D.C. - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995982002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "New York City - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995984002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Atlanta - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995974002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Boston - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6989986002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Los Angeles - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995980002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "San Francisco - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995983002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Phoenix - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6996229002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Austin - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995976002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Seattle - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995986002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Miami - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995981002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "circle",
+            "title": "Business Strategy and Operations Lead, Internationalization",
+            "location": "Chicago - remote first in US",
+            "link": "<a href='https://boards.greenhouse.io/circle/jobs/6995979002' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Head of Trade Compliance",
+            "title": "Corporate Secretary",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5805237003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Analyst, Sanctions Advisory",
+            "location": "California United States San Jose",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5728325003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Head of Technology Governance and Compliance",
             "location": "Hong Kong",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5803735003' target='_blank' >Apply</a>"
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5805198003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Business Product Operations Manager (Turkey)",
-            "location": "T\u00fcrkiye Istanbul",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5803695003' target='_blank' >Apply</a>"
+            "title": "Principal Product Manager, Platform Asset",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5802246003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Campaign Operations Manager (Turkey)",
-            "location": "T\u00fcrkiye Istanbul",
-            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5803714003' target='_blank' >Apply</a>"
+            "title": "Principal Product Manager, Trading API (Institution)",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5805121003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Manager, Social Trading",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5805122003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Manager, Web3 Marketplace & Discover",
+            "location": "Singapore",
+            "link": "<a href='https://boards.greenhouse.io/okx/jobs/5805123003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "flashbots",
+            "title": "General Counsel",
+            "location": "Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/flashbots.net/ab7ff14f-bfca-44b9-957d-e6ad60df8860' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "flashbots",
+            "title": "Devconnect Candidates and Collaborators",
+            "location": ".",
+            "link": "<a href='https://jobs.ashbyhq.com/flashbots.net/6e265a1e-6cc9-4905-b6c0-852c33c6d9db' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "xapo",
+            "title": "VP of Marketing",
+            "location": "Gibraltar (Remote)",
+            "link": "<a href='https://boards.greenhouse.io/xapo61/jobs/5787631003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "oplabs",
+            "title": "Recruiter",
+            "location": "Remote",
+            "link": "<a href='https://boards.greenhouse.io/oplabs/jobs/5018358004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "trustwallet",
+            "title": "Trust Wallet Global Growth - Product Manager",
+            "location": "REMOTE",
+            "link": "<a href='https://jobs.smartrecruiters.com/B6/743999943945203-trust-wallet-global-growth-product-manager?trid=67e64dd2-62e4-4dd2-8fd3-bea8c2254c5a' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "foundrydigital",
+            "title": "Computer Technician",
+            "location": "Ne Minden",
+            "link": "<a href='https://boards.greenhouse.io/foundrydigital/jobs/5020381004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "copperco",
+            "title": "Software Engineer",
+            "location": "London",
+            "link": "<a href='https://boards.eu.greenhouse.io/copperco/jobs/4243269101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ripple",
+            "title": "Visual Experience Design Intern (Summer 2024)",
+            "location": "San Francisco, CA, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/5472664/' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Director, Global Total Rewards and HR Systems",
+            "location": "New York, NY, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/5437528/' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ripple",
+            "title": "Sales Director - RippleNet Latin America",
+            "location": "S\u00e3o Paulo, Brazil",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/5495145/' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "sygnum",
+            "title": "Senior Information Security Risk Manager",
+            "location": "Singapore Sg",
+            "link": "<a href='https://sygnum.bamboohr.com/careers/88' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "edgeandnode",
+            "title": "Product Engineer",
+            "location": " - North America Remote - South America Remote - Europe",
+            "link": "<a href='https://boards.greenhouse.io/edgeandnode/jobs/4327399005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "edgeandnode",
+            "title": "Senior Product Engineer",
+            "location": " - North America Remote - South America Remote - Europe",
+            "link": "<a href='https://boards.greenhouse.io/edgeandnode/jobs/4327395005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Analyst, Security Policy",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/5476588' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Analyst, Security Policy",
+            "location": "Remote - Canada",
+            "link": "<a href='https://www.coinbase.com/careers/positions/5495351' target='_blank' >Apply</a>"
         }
     ]
 }
