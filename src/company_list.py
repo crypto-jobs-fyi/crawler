@@ -17,6 +17,7 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_gemini import ScrapeGemini
+from src.scrape_status import ScrapeStatus
 
 
 def get_company_list() -> [CompanyItem]:
@@ -384,6 +385,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://tusd.io', 'Web3 Stable-coin'),
             CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
                         'https://enjin.io', 'Web3 Blockchain'),
+            CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
+                        'https://status.app', 'Web3 Messanger'),
             CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
                         'https://www.gemini.com', 'Web3 Exchange'),
             CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
