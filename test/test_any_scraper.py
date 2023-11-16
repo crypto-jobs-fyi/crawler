@@ -4,7 +4,7 @@ from selenium import webdriver
 
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_tusd import ScrapeTusd
+from src.scrape_status import ScrapeStatus
 from src.scrape_enjin import ScrapeEnjin
 
 options = webdriver.ChromeOptions()
@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq,
                 'wip', 'wip'),
-    CompanyItem('tusd', 'https://tusd.io/about', ScrapeTusd,
-                'https://tusd.io', 'Web3 Stable-coin'),
+    CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
+                'https://status.app', 'Web3 Messanger'),
     CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
                 'https://enjin.io', 'Web3 Blockchain'),
 ]
