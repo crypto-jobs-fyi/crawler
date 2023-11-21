@@ -23,7 +23,7 @@ class ScrapeBamboohr(ScrapeIt):
         job_location_locator = 'div[itemprop="jobLocation"]'
         if len(group_elements) == 0:
             group_elements = driver.find_elements(By.XPATH, '//li/div/a/..')
-            job_location_locator = 'div[class="jss-f80"]'
+            job_location_locator = 'div[class="jss-f69"]'
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
