@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq,
-                'wip', 'wip'),
+    CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', ScrapeAshbyhq,
+                'https://nomic.foundation', 'Web3 Infra'),
     CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
                 'https://status.app', 'Web3 Messanger'),
     CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
