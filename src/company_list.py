@@ -80,7 +80,7 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.storyprotocol.xyz", "Protocol"),
             CompanyItem("ethereumfoundation", "https://jobs.lever.co/ethereumfoundation", ScrapeLever,
                         "https://ethereum.org", "Blockchain"),
-            CompanyItem("aave", "https://jobs.eu.lever.co/aave", ScrapeLever, "https://aave.com", "Protocol"),
+            CompanyItem("aave", "https://jobs.eu.lever.co/avara", ScrapeLever, "https://avara.xyz", "Web3 Protocol"),
             CompanyItem("crypto", "https://jobs.lever.co/crypto", ScrapeLever, "https://crypto.com", "Exchange"),
             CompanyItem("Luxor", "https://jobs.lever.co/LuxorTechnology", ScrapeLever, "https://www.luxor.tech",
                         "Mining"),
