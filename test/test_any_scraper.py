@@ -5,7 +5,7 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_status import ScrapeStatus
-from src.scrape_enjin import ScrapeEnjin
+from src.scrape_workday import ScrapeWorkday
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -16,8 +16,8 @@ company_list = [
                 'https://nomic.foundation', 'Web3 Infra'),
     CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
                 'https://status.app', 'Web3 Messanger'),
-    CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
-                'https://enjin.io', 'Web3 Blockchain'),
+    CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
+                'https://www.moonpay.com', 'Web3 Payments'),
 ]
 
 for company in company_list:

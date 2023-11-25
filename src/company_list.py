@@ -18,6 +18,7 @@ from src.scrape_paxos import ScrapePaxos
 from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_gemini import ScrapeGemini
 from src.scrape_status import ScrapeStatus
+from src.scrape_workday import ScrapeWorkday
 
 
 def get_company_list() -> [CompanyItem]:
@@ -26,6 +27,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
             CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com", "Exchange"),
+            CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
+                        'https://www.moonpay.com', 'Web3 Payments'),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
                         'https://obol.tech', 'ETH Distributed Staking'),
             CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
@@ -154,6 +157,8 @@ def get_company_list() -> [CompanyItem]:
                         'Web3 Wallets'),
             CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
                         "https://chainstack.com", "Infra"),
+            CompanyItem('outlierventures', 'https://outlierventures.bamboohr.com/careers', ScrapeBamboohr,
+                        'https://outlierventures.io', 'Web3 Ventures'),
             CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
                         'https://dappradar.com', 'Exchange & NFT'),
             CompanyItem("coinmarketcap", "https://careers.smartrecruiters.com/B6/coinmarketcap",

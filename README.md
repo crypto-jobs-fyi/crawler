@@ -143,4 +143,3 @@ not yet crypto:
 - https://plaid.com/careers/openings
 
 to be fixed:
-- https://status.app/jobs

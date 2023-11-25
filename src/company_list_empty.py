@@ -24,8 +24,6 @@ def get_company_list() -> []:
                     'https://avantgarde.finance', 'Asset Management'),
         CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
                     'Stable Coin'),
-        CompanyItem('outlierventures', 'https://boards.eu.greenhouse.io/outlierventures', ScrapeGreenhouse,
-                    'https://outlierventures.io', 'Web3 Ventures'),
         CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
                     'https://www.thetie.io', 'Web3 DeFi Info'),
         CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
@@ -34,8 +32,6 @@ def get_company_list() -> []:
                     'Exchange'),
         CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
                     "https://www.bitcoin.com", 'Exchange'),
-        CompanyItem("moonpay", "https://boards.greenhouse.io/moonpay", ScrapeGreenhouse,
-                    "https://www.moonpay.com", "Payments"),
     ]
 
 
