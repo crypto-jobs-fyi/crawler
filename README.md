@@ -46,7 +46,7 @@ wip:
 - https://nexo.breezy.hr
 - https://careers.stacks.org
 - https://www.kucoin.com/careers/job-opening
-- https://careers.lido.fi/
+- https://opportunities.lido.fi/
 - https://www.seba.swiss/careers
 - https://www.rdx.works/careers#careers
 - https://horizenlabs.io/careers/#list-jobs
