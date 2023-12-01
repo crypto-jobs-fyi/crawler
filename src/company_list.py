@@ -257,7 +257,7 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.exodus.com", "Wallet"),
             CompanyItem("alchemy", "https://boards.greenhouse.io/alchemy", ScrapeGreenhouse,
                         "https://www.alchemy.com", "Dev & Infra"),
-            CompanyItem("chainalysis", "https://boards.greenhouse.io/chainalysis", ScrapeGreenhouse,
+            CompanyItem("chainalysis", "https://jobs.ashbyhq.com/chainalysis-careers", ScrapeAshbyhq,
                         "https://www.chainalysis.com", "Crypto Research"),
             CompanyItem("magiceden", "https://boards.greenhouse.io/magiceden", ScrapeGreenhouse,
                         "https://www.magiceden.io", "NFT"),
