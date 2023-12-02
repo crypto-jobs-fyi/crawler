@@ -4,7 +4,7 @@ from selenium import webdriver
 
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_status import ScrapeStatus
+from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_workday import ScrapeWorkday
 
 options = webdriver.ChromeOptions()
@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', ScrapeAshbyhq,
                 'https://nomic.foundation', 'Web3 Infra'),
-    CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
-                'https://status.app', 'Web3 Messanger'),
+    CompanyItem('near', 'https://boards.greenhouse.io/near', ScrapeGreenhouse,
+                'https://near.org', 'Web3 Protocol'),
     CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
                 'https://www.moonpay.com', 'Web3 Payments'),
 ]

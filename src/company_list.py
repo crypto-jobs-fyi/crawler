@@ -263,6 +263,8 @@ def get_company_list() -> [CompanyItem]:
                         "https://www.magiceden.io", "NFT"),
             CompanyItem("aztec", "https://boards.eu.greenhouse.io/aztec", ScrapeGreenhouse,
                         "https://aztec.network", "Protocol"),
+            CompanyItem('near', 'https://boards.greenhouse.io/near', ScrapeGreenhouse,
+                        'https://near.org', 'Web3 Protocol'),
             CompanyItem("nethermind", "https://boards.eu.greenhouse.io/nethermind", ScrapeGreenhouse,
                         "https://nethermind.io", "Crypto software"),
             CompanyItem("dfinity", "https://boards.greenhouse.io/dfinity", ScrapeGreenhouse, "https://dfinity.org",
