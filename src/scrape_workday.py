@@ -10,13 +10,14 @@ class ScrapeWorkday(ScrapeIt):
         driver.implicitly_wait(15)
         driver.get(web_page)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//a[@data-uxi-element-id]/../../../../..')
+        group_elements = driver.find_elements(By.XPATH, '//a[@data-uxi-element-id]')
         result = []
         for elem in group_elements:
-            job_name_elem = elem.find_element(By.XPATH, '//a[@data-uxi-element-id]')
-            location_elem = elem.find_element(By.XPATH, '//div[@data-automation-id="locations"]//dd')
-            job_url = job_name_elem.get_attribute('href')
+            job_name_elem = elem
             job_name = job_name_elem.text
+            locator = f"//li//a[.='{job_name}']/../../../../..//div[@data-automation-id='locations']//dd"
+            location_elem = driver.find_element(By.XPATH, locator)
+            job_url = job_name_elem.get_attribute('href')
             location = location_elem.text
             job = {
                 "company": company,
