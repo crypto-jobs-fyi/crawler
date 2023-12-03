@@ -1,5 +1,6 @@
 {
-    "Total Jobs": 2960,
+    "Total Jobs": 2986,
+    "base": 9,
     "binance": 106,
     "lmax": 4,
     "kraken": 60,
@@ -8,6 +9,7 @@
     "arbitrumfoundation": 20,
     "chainlink": 51,
     "Tenderly": 3,
+    "injectivelabs": 5,
     "nomic.foundation": 4,
     "ethglobal": 3,
     "blox-route": 9,
@@ -74,7 +76,7 @@
     "evmos": 9,
     "orderlynetwork": 14,
     "shardeum": 6,
-    "paxos": 22,
+    "paxos": 23,
     "zora": 1,
     "osl": 7,
     "circle": 307,
@@ -118,6 +120,7 @@
     "chainalysis": 26,
     "magiceden": 6,
     "aztec": 6,
+    "near": 10,
     "nethermind": 12,
     "dfinity": 3,
     "stellar": 20,
@@ -176,6 +179,6 @@
     "tusd": 2,
     "enjin": 3,
     "status": 1,
-    "gemini": 61,
+    "gemini": 62,
     "coinbase": 71
 }

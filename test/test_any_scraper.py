@@ -3,8 +3,8 @@ import unittest
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_greenhouse import ScrapeGreenhouse
+from src.scrape_lever import ScrapeLever
+from src.scrape_base import ScrapeBase
 from src.scrape_workday import ScrapeWorkday
 
 options = webdriver.ChromeOptions()
@@ -12,10 +12,10 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', ScrapeAshbyhq,
-                'https://nomic.foundation', 'Web3 Infra'),
-    CompanyItem('near', 'https://boards.greenhouse.io/near', ScrapeGreenhouse,
-                'https://near.org', 'Web3 Protocol'),
+    CompanyItem('base', 'https://base.org/jobs', ScrapeBase,
+                'https://base.org', 'Web3 Infra'),
+    CompanyItem('injectivelabs', 'https://jobs.lever.co/injectivelabs', ScrapeLever,
+                'https://injectivelabs.org', 'Web3 Infra'),
     CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
                 'https://www.moonpay.com', 'Web3 Payments'),
 ]

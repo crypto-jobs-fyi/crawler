@@ -19,10 +19,12 @@ from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_gemini import ScrapeGemini
 from src.scrape_status import ScrapeStatus
 from src.scrape_workday import ScrapeWorkday
+from src.scrape_base import ScrapeBase
 
 
 def get_company_list() -> [CompanyItem]:
-    return [CompanyItem("binance", "https://www.binance.com/en/careers/job-openings?team=All", ScrapeBinance,
+    return [CompanyItem('base', 'https://base.org/jobs', ScrapeBase, 'https://base.org', 'Web3 Infra'),
+            CompanyItem("binance", "https://www.binance.com/en/careers/job-openings?team=All", ScrapeBinance,
                         "https://www.binance.com", "Exchange"),
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
@@ -37,6 +39,8 @@ def get_company_list() -> [CompanyItem]:
                         "Blockchain"),
             CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', ScrapeLever,
                         'https://tenderly.co', 'Web3 Infra'),
+            CompanyItem('injectivelabs', 'https://jobs.lever.co/injectivelabs', ScrapeLever,
+                        'https://injectivelabs.org', 'Web3 Infra'),
             CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', ScrapeAshbyhq,
                         'https://nomic.foundation', 'Web3 Infra'),
             CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq, 'https://ethglobal.com',
