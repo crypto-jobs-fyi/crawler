@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('base', 'https://base.org/jobs', ScrapeBase,
                 'https://base.org', 'Web3 Infra'),
-    CompanyItem('injectivelabs', 'https://jobs.lever.co/injectivelabs', ScrapeLever,
-                'https://injectivelabs.org', 'Web3 Infra'),
+    CompanyItem('gate.io', 'https://jobs.lever.co/gate.io', ScrapeLever,
+                'https://gate.io', 'Web3 Exchange'),
     CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
                 'https://www.moonpay.com', 'Web3 Payments'),
 ]

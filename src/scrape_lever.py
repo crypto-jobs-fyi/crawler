@@ -12,7 +12,7 @@ def clean_location(location):
     joined = ' '.join(locations).lower()
     if joined.count('remote') > 1:
         return joined.replace('remote', '', 1).strip().lstrip('-').title()
-    return joined.strip().lstrip('-').title()
+    return joined.replace('\u2014', '').strip().lstrip('-').title()
 
 
 class ScrapeLever(ScrapeIt):

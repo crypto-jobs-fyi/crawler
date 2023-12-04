@@ -29,6 +29,9 @@ Locally just run `python3 -m http.server 8000` and open `localhost:8000` in your
 # What we will watch -> work in progress
 
 wip:
+- https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
+- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
+- https://www.pagoda.co/careers
 - https://jobs.paradigm.xyz/companies/blur-io
 - https://gnosis.jobs.personio.com
 - https://nexusmutual.recruitee.com
@@ -70,6 +73,7 @@ wip:
 - https://jobs.lever.co/kava
 - https://www.blockchains.com/careers/#board
 - https://phantom.app/jobs
+- https://join.com/companies/21-finance
 - https://fantom.foundation/careers
 - https://careers.smartrecruiters.com/Bitoasis
 - https://www.coincover.com/careers
