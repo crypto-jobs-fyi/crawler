@@ -119,6 +119,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('royal', 'https://jobs.lever.co/Royal', ScrapeLever, 'https://royal.io', 'Web3 + Music'),
             CompanyItem('gauntlet', 'https://jobs.lever.co/gauntlet', ScrapeLever, 'https://gauntlet.network',
                         'Web3 + Financial Modelling'),
+            CompanyItem('gate.io', 'https://jobs.lever.co/gate.io', ScrapeLever,
+                        'https://gate.io', 'Web3 Exchange'),
             CompanyItem("ledger", "https://jobs.lever.co/ledger", ScrapeLever, "https://www.ledger.com", "Wallet"),
             CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network",
                         "Payments"),
