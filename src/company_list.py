@@ -17,7 +17,6 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_gemini import ScrapeGemini
-from src.scrape_status import ScrapeStatus
 from src.scrape_workday import ScrapeWorkday
 from src.scrape_base import ScrapeBase
 
@@ -29,6 +28,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
             CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com", "Exchange"),
+            CompanyItem('lido', 'https://jobs.ashbyhq.com/PML', ScrapeAshbyhq,
+                        'https://lido.fi', 'Web3 Staking'),
             CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
                         'https://www.moonpay.com', 'Web3 Payments'),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
@@ -402,7 +403,7 @@ def get_company_list() -> [CompanyItem]:
                         'https://tusd.io', 'Web3 Stable-coin'),
             CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,
                         'https://enjin.io', 'Web3 Blockchain'),
-            CompanyItem('status', 'https://status.app/jobs', ScrapeStatus,
+            CompanyItem('status', 'https://boards.greenhouse.io/logos', ScrapeGreenhouse,
                         'https://status.app', 'Web3 Messanger'),
             CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
                         'https://www.gemini.com', 'Web3 Exchange'),

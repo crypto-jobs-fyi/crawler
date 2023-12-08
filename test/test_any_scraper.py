@@ -3,7 +3,7 @@ import unittest
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_lever import ScrapeLever
+from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_base import ScrapeBase
 from src.scrape_ashbyhq import ScrapeAshbyhq
 
@@ -14,10 +14,10 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('base', 'https://base.org/jobs', ScrapeBase,
                 'https://base.org', 'Web3 Infra'),
-    CompanyItem('gate.io', 'https://jobs.lever.co/gate.io', ScrapeLever,
+    CompanyItem('logos', 'https://boards.greenhouse.io/logos', ScrapeGreenhouse,
                 'https://gate.io', 'Web3 Exchange'),
-    CompanyItem('shadow', 'https://jobs.ashbyhq.com/shadow', ScrapeAshbyhq,
-                'https://www.shadow.xyz', 'Web3 Infra'),
+    CompanyItem('lido', 'https://jobs.ashbyhq.com/PML', ScrapeAshbyhq,
+                'https://lido.fi', 'Web3 Staking'),
 ]
 
 for company in company_list:
