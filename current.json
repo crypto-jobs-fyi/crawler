@@ -1,5 +1,5 @@
 {
-    "Total Jobs": 3013,
+    "Total Jobs": 3009,
     "base": 2,
     "binance": 105,
     "lmax": 4,
@@ -79,6 +79,7 @@
     "orderlynetwork": 14,
     "shardeum": 6,
     "paxos": 22,
+    "mina-foundation": 3,
     "osl": 7,
     "circle": 278,
     "OKX": 298,
@@ -130,11 +131,10 @@
     "coinmetrics": 5,
     "oplabs": 8,
     "goldsky": 4,
-    "walletconnect": 8,
     "prepo": 4,
     "io-global": 33,
     "clockwork-labs": 3,
-    "bitfinex": 20,
+    "bitfinex": 22,
     "o1labs": 2,
     "paradigm.co": 9,
     "trustwallet": 2,
@@ -181,6 +181,6 @@
     "tusd": 2,
     "enjin": 3,
     "status": 14,
-    "gemini": 60,
+    "gemini": 59,
     "coinbase": 67
 }

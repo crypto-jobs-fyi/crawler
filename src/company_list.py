@@ -181,6 +181,8 @@ def get_company_list() -> [CompanyItem]:
                         ScrapePaxos, "https://paxos.com", "Stable Coin"),
             CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
                         'https://www.superfluid.finance', 'Web3'),
+            CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
+                        'https://www.minafoundation.com', 'ZK blockchain'),
             CompanyItem("zora", "https://boards.greenhouse.io/zora", ScrapeGreenhouse, "https://zora.co", "NFT"),
             CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com',
                         'Web3'),
