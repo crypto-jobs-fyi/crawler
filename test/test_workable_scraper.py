@@ -12,8 +12,6 @@ company_list = [
                 'https://almanak.co', 'Web3 Simulator'),
     CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
                 'https://walletconnect.com', 'Web3 Wallet Infra'),
-    CompanyItem('cryptofinance', 'https://apply.workable.com/cryptofinance', ScrapeWorkable,
-                'https://www.crypto-finance.com', 'Exchange'),
     CompanyItem('bitstamp', 'https://apply.workable.com/bitstamp/#jobs', ScrapeWorkable,
                 'https://www.bitstamp.net', 'Exchange'),
     CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,

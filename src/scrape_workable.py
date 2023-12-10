@@ -54,7 +54,7 @@ class ScrapeWorkable(ScrapeIt):
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
             remote_elem = elem.find_elements(By.CSS_SELECTOR, '[data-ui="job-remote"]')
             job_name_elem = elem.find_element(By.CSS_SELECTOR, '[data-ui="job-title"],[data-id="job-item"]')
-            location_elem = elem.find_element(By.CSS_SELECTOR, 'span[data-ui="job-location"]')
+            location_elem = elem.find_element(By.CSS_SELECTOR, 'span[data-ui="job-location"],span[data-ui="job-workplace"]')
             job_url = link_elem.get_attribute('href')
             job_name = job_name_elem.text
             location = location_elem.text

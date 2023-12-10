@@ -49,9 +49,12 @@ with open('current.json', 'r') as current_json_file:
 with open('companies.json', 'r') as companies_file:
     companies_file_data = json.load(companies_file)
 print('--- No jobs found for following companies: ---')
+no_jobs_companies = []
 for c in companies_file_data:
     c_name = c.get('company_name')
     if c_data.get(c_name, 0) == 0:
+        no_jobs_companies.append(c_name)
         print(f'Company: {c_name} Jobs board: {c.get("jobs_url")}')
-
-print('^^^ No jobs found for the above companies: ^^^')
+with open('no_jobs.json', 'w') as no_jobs_file:
+    json.dump(no_jobs_companies, no_jobs_file, indent=4)
+print(f'^^^ No jobs found for the above {len(no_jobs_companies)} companies: ^^^')
