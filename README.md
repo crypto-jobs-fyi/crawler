@@ -72,7 +72,6 @@ wip:
 - https://livepeer.org/jobs
 - https://jobs.lever.co/kava
 - https://www.blockchains.com/careers/#board
-- https://phantom.app/jobs
 - https://join.com/companies/21-finance
 - https://fantom.foundation/careers
 - https://careers.smartrecruiters.com/Bitoasis

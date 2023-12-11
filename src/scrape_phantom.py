@@ -3,19 +3,19 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt, write_jobs
 
 
-class ScrapeStatus(ScrapeIt):
-    name = 'status'
+class ScrapePhantom(ScrapeIt):
+    name = 'phantom'
 
     def getJobs(self, driver, web_page, company='status') -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[class*="border"] div a[class*="items-center"]')
+        group_elements = driver.find_elements(By.CSS_SELECTOR, 'section ul li a[rel]')
         result = []
         for elem in group_elements:
             job_name_elem = elem
             job_url_elem = elem
             job_url = job_url_elem.get_attribute('href')
-            job_name = job_name_elem.text.split('\n')[0]
+            job_name = job_name_elem.text
             location = 'Remote'
             job = {
                 "company": company,
