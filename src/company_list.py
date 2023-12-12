@@ -19,6 +19,7 @@ from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_gemini import ScrapeGemini
 from src.scrape_workday import ScrapeWorkday
 from src.scrape_base import ScrapeBase
+from src.scrape_phantom import ScrapePhantom
 
 
 def get_company_list() -> [CompanyItem]:
@@ -32,6 +33,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://lido.fi', 'Web3 Staking'),
             CompanyItem('moonpay', 'https://moonpay.wd1.myworkdayjobs.com/en-US/GTI', ScrapeWorkday,
                         'https://www.moonpay.com', 'Web3 Payments'),
+            CompanyItem('phantom', 'https://phantom.app/jobs', ScrapePhantom,
+                        'https://gate.io', 'Web3 Exchange'),
             CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever,
                         'https://obol.tech', 'ETH Distributed Staking'),
             CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
