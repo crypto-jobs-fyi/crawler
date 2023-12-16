@@ -16,8 +16,8 @@ company_list = [
                 'https://www.xlabs.xyz', 'Web3 Infra'),
     CompanyItem('phantom', 'https://phantom.app/jobs', ScrapePhantom,
                 'https://gate.io', 'Web3 Exchange'),
-    CompanyItem('lido', 'https://jobs.ashbyhq.com/PML', ScrapeAshbyhq,
-                'https://lido.fi', 'Web3 Staking'),
+    CompanyItem('linera.io', 'https://jobs.ashbyhq.com/linera.io', ScrapeAshbyhq,
+                'https://linera.io', 'Layer-1 blockchain'),
 ]
 
 for company in company_list:

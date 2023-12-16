@@ -219,6 +219,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem("OpenSea", "https://jobs.ashbyhq.com/OpenSea", ScrapeAshbyhq, "https://opensea.io", "NFT"),
             CompanyItem('center', 'https://jobs.ashbyhq.com/center', ScrapeAshbyhq,
                         'https://center.app', 'Web3 NFT Data'),
+            CompanyItem('linera.io', 'https://jobs.ashbyhq.com/linera.io', ScrapeAshbyhq,
+                        'https://linera.io', 'Layer-1 blockchain'),
             CompanyItem('shadow', 'https://jobs.ashbyhq.com/shadow', ScrapeAshbyhq,
                         'https://www.shadow.xyz', 'Web3 Infra'),
             CompanyItem('cointracker', 'https://jobs.ashbyhq.com/cointracker', ScrapeAshbyhq,
