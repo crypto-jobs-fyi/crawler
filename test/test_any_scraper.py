@@ -4,7 +4,6 @@ from selenium import webdriver
 
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
-from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_ashbyhq import ScrapeAshbyhq
 
 options = webdriver.ChromeOptions()
@@ -12,12 +11,10 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('xlabs', 'https://boards.greenhouse.io/xlabs', ScrapeGreenhouse,
-                'https://www.xlabs.xyz', 'Web3 Infra'),
     CompanyItem('auroralabs', 'https://jobs.lever.co/aurora-dev', ScrapeLever,
                 'https://auroralabs.dev', 'EVM blockchain'),
-    CompanyItem('linera.io', 'https://jobs.ashbyhq.com/linera.io', ScrapeAshbyhq,
-                'https://linera.io', 'Layer-1 blockchain'),
+    CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq,
+                'https://li.fi', 'DeFi Liquidity'),
 ]
 
 for company in company_list:

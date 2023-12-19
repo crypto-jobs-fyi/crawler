@@ -49,6 +49,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://nomic.foundation', 'Web3 Infra'),
             CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq, 'https://ethglobal.com',
                         'Community'),
+            CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq,
+                        'https://li.fi', 'DeFi Liquidity'),
             CompanyItem('blox-route', 'https://jobs.lever.co/blox-route', ScrapeLever,
                         'https://bloxroute.com', 'Web3 MEV DeFi infra'),
             CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', ScrapeLever, 'https://multiversx.com',
