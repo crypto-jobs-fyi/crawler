@@ -340,6 +340,11 @@
         "jobs_url": "https://jobs.lever.co/glassnode"
     },
     {
+        "company_name": "coingecko",
+        "company_url": "https://www.coingecko.com",
+        "jobs_url": "https://jobs.lever.co/coingecko"
+    },
+    {
         "company_name": "connext-network",
         "company_url": "https://www.connext.network",
         "jobs_url": "https://jobs.lever.co/connext-network"
@@ -423,6 +428,11 @@
         "company_name": "evmos",
         "company_url": "https://evmos.org",
         "jobs_url": "https://boards.eu.greenhouse.io/evmos"
+    },
+    {
+        "company_name": "pyth",
+        "company_url": "https://pyth.network",
+        "jobs_url": "https://boards.greenhouse.io/pythdataassociation"
     },
     {
         "company_name": "orderlynetwork",
