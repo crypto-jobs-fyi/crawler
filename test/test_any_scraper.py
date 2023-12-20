@@ -11,8 +11,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('auroralabs', 'https://jobs.lever.co/aurora-dev', ScrapeLever,
-                'https://auroralabs.dev', 'EVM blockchain'),
+    CompanyItem('coingecko', 'https://jobs.lever.co/coingecko', ScrapeLever,
+                'https://www.coingecko.com', 'Web3 Info'),
     CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq,
                 'https://li.fi', 'DeFi Liquidity'),
 ]
