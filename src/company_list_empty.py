@@ -32,6 +32,10 @@ def get_company_list() -> []:
                     'Exchange'),
         CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
                     "https://www.bitcoin.com", 'Exchange'),
+        CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
+                    'https://www.superfluid.finance', 'Web3'),
+        CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
+                    'https://www.minafoundation.com', 'ZK blockchain'),
     ]
 
 
