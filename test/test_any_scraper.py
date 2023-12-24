@@ -13,8 +13,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('coingecko', 'https://jobs.lever.co/coingecko', ScrapeLever,
                 'https://www.coingecko.com', 'Web3 Info'),
-    CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq,
-                'https://li.fi', 'DeFi Liquidity'),
+    CompanyItem('Artemisxyz', 'https://jobs.ashbyhq.com/Artemisxyz', ScrapeAshbyhq,
+                'https://www.artemis.xyz', 'DeFi Data'),
 ]
 
 for company in company_list:
