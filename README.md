@@ -50,6 +50,7 @@ wip:
 - https://web3labs.jobs.personio.com
 - https://nexo.breezy.hr
 - https://koii-network.breezy.hr
+- https://transak-inc.breezy.hr
 - https://careers.stacks.org
 - https://www.kucoin.com/careers/job-opening
 - https://www.seba.swiss/careers

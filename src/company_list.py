@@ -415,6 +415,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.paraswap.io', 'Web3 DeFi aggregator'),
             CompanyItem('stakefish', 'https://apply.workable.com/stakefish',
                         ScrapeWorkable, 'https://stake.fish', 'Web3 ETH staking'),
+            CompanyItem('thetie', 'https://apply.workable.com/thetie/#jobs', ScrapeWorkable,
+                        'https://www.thetie.io', 'Web3 DeFi Info'),
             CompanyItem('tusd', 'https://tusd.io/about', ScrapeTusd,
                         'https://tusd.io', 'Web3 Stable-coin'),
             CompanyItem('enjin', 'https://enjin.io/opportunities#positions', ScrapeEnjin,

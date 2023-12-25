@@ -24,8 +24,6 @@ def get_company_list() -> []:
                     'https://avantgarde.finance', 'Asset Management'),
         CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
                     'Stable Coin'),
-        CompanyItem('thetie', 'https://apply.workable.com/thetie', ScrapeWorkable,
-                    'https://www.thetie.io', 'Web3 DeFi Info'),
         CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
                     'https://dydxopsdao.com', 'Web3 DAO'),
         CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
