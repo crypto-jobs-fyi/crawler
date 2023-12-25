@@ -5,16 +5,19 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 from src.scrape_ashbyhq import ScrapeAshbyhq
+from src.scrape_tether import ScrapeTether
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('coingecko', 'https://jobs.lever.co/coingecko', ScrapeLever,
-                'https://www.coingecko.com', 'Web3 Info'),
-    CompanyItem('Artemisxyz', 'https://jobs.ashbyhq.com/Artemisxyz', ScrapeAshbyhq,
-                'https://www.artemis.xyz', 'DeFi Data'),
+    CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
+                        "Stable Coin"),
+    CompanyItem('omni-network', 'https://jobs.lever.co/omni-network', ScrapeLever,
+                'https://omni.network', 'Web3 interchain'),
+    CompanyItem('windranger', 'https://jobs.ashbyhq.com/windranger', ScrapeAshbyhq,
+                'https://windranger.io', 'DeFi Development'),
 ]
 
 for company in company_list:

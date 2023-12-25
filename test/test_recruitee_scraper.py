@@ -4,7 +4,8 @@ from src.scrape_recruitee import ScrapeRecruitee
 
 
 companies = [
-    CompanyItem("tether", "https://tether.recruitee.com", ScrapeRecruitee, "https://tether.to/en", "Stable Coin")
+    CompanyItem("bitfinex", "https://bitfinex.recruitee.com", ScrapeRecruitee, "https://www.bitfinex.com",
+                "Exchange"),
 ]
 
 options = webdriver.ChromeOptions()
@@ -13,7 +14,7 @@ driver = webdriver.Chrome(options=options)
 
 for company in companies:
     print(company.jobs_url)
-    data = company.scraper_type().getJobs(driver, company.jobs_url)
+    data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
     for entry in data:
         print(entry)
 

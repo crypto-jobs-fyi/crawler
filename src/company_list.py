@@ -20,6 +20,7 @@ from src.scrape_gemini import ScrapeGemini
 from src.scrape_workday import ScrapeWorkday
 from src.scrape_base import ScrapeBase
 from src.scrape_phantom import ScrapePhantom
+from src.scrape_tether import ScrapeTether
 
 
 def get_company_list() -> [CompanyItem]:
@@ -41,6 +42,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://arbitrum.foundation', 'Layer 2'),
             CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLever, "https://chain.link",
                         "Blockchain"),
+            CompanyItem('omni-network', 'https://jobs.lever.co/omni-network', ScrapeLever,
+                        'https://omni.network', 'Web3 inter-chain'),
             CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', ScrapeLever,
                         'https://tenderly.co', 'Web3 Infra'),
             CompanyItem('injectivelabs', 'https://jobs.lever.co/injectivelabs', ScrapeLever,
@@ -335,6 +338,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://almanak.co', 'Web3 Simulator'),
             CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com',
                         'Web3 data'),
+            CompanyItem('windranger', 'https://jobs.ashbyhq.com/windranger', ScrapeAshbyhq,
+                        'https://windranger.io', 'DeFi Development'),
             CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", ScrapeGreenhouse,
                         "https://fil.org", "Blockchain"),
             CompanyItem('foundrydigital', 'https://boards.greenhouse.io/foundrydigital', ScrapeGreenhouse,
@@ -418,6 +423,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://status.app', 'Web3 Messanger'),
             CompanyItem('gemini', 'https://www.gemini.com/careers', ScrapeGemini,
                         'https://www.gemini.com', 'Web3 Exchange'),
+            CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
+                        "Stable Coin"),
             CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
                         'https://www.coinbase.com', 'Web3 Exchange'),
             ]
