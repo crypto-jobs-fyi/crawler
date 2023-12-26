@@ -234,6 +234,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.bastion.com', 'Web3 Infra and Wallet'),
             CompanyItem('Sui.Foundation', 'https://jobs.ashbyhq.com/Sui%20Foundation', ScrapeAshbyhq,
                         'https://sui.io', 'Web3 blockchain'),
+            CompanyItem('dourolabs', 'https://jobs.ashbyhq.com/dourolabs.xyz', ScrapeAshbyhq,
+                        'https://dourolabs.xyz', 'Web3 Data(Pyth)'),
             CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
                         'https://www.station.express', 'Web3 infra'),
             CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz',

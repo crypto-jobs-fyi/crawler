@@ -13,11 +13,11 @@ driver = webdriver.Chrome(options=options)
 
 company_list = [
     CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
-                        "Stable Coin"),
+                "Stable Coin"),
     CompanyItem('omni-network', 'https://jobs.lever.co/omni-network', ScrapeLever,
                 'https://omni.network', 'Web3 interchain'),
-    CompanyItem('windranger', 'https://jobs.ashbyhq.com/windranger', ScrapeAshbyhq,
-                'https://windranger.io', 'DeFi Development'),
+    CompanyItem('dourolabs', 'https://jobs.ashbyhq.com/dourolabs.xyz', ScrapeAshbyhq,
+                'https://dourolabs.xyz', 'Web3 Data(Pyth)'),
 ]
 
 for company in company_list:
