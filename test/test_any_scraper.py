@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
                 "Stable Coin"),
-    CompanyItem('emergentx', 'https://jobs.lever.co/emergentx', ScrapeLever,
-                'https://www.emergentx.org', 'Web3 tokenization'),
+    CompanyItem('animocabrands', 'https://jobs.lever.co/animocabrands', ScrapeLever,
+                'https://www.animocabrands.com', 'Web3 Gaming'),
     CompanyItem('mystenlabs', 'https://jobs.ashbyhq.com/mystenlabs', ScrapeAshbyhq,
                 'https://mystenlabs.com', 'Web3 Infra'),
 ]

@@ -142,6 +142,8 @@ def get_company_list() -> [CompanyItem]:
                         "Infra"),
             CompanyItem('matterlabs', 'https://jobs.eu.lever.co/matterlabs', ScrapeLever, 'https://matter-labs.io',
                         'Protocol'),
+            CompanyItem('animocabrands', 'https://jobs.lever.co/animocabrands', ScrapeLever,
+                        'https://www.animocabrands.com', 'Web3 Gaming'),
             CompanyItem('toku', 'https://jobs.lever.co/toku', ScrapeLever,
                         'https://www.toku.com', 'Web3 Tokens and Tax'),
             CompanyItem("hiro", "https://boards.greenhouse.io/hiro", ScrapeGreenhouse, "https://www.hiro.so", "Infra"),
