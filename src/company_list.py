@@ -115,7 +115,7 @@ def get_company_list() -> [CompanyItem]:
                         "https://subspace.network", "Blockchain Infra"),
             CompanyItem('3boxlabs', 'https://jobs.lever.co/3box', ScrapeLever, 'https://3boxlabs.com',
                         'Infra'),
-            CompanyItem("ramp.network", "https://jobs.lever.co/careers.ramp.network", ScrapeLever,
+            CompanyItem("ramp.network", "https://boards.eu.greenhouse.io/rampnetwork", ScrapeGreenhouse,
                         "https://ramp.network", "Payments"),
             CompanyItem('risklabs', 'https://jobs.lever.co/risklabs', ScrapeLever, 'https://risklabs.foundation',
                         'Protocol'),
