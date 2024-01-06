@@ -38,7 +38,9 @@ wip:
 - https://gnosis.jobs.personio.com
 - https://nexusmutual.recruitee.com
 - https://metrika.recruitee.com
+- https://careers.altlayer.io
 - https://ratedlabs.notion.site/Open-Roles-at-Rated
+- https://mantanetwork.notion.site/Careers-at-Manta-Ray-Labs-ee51d87f063447b197c5f201f69c9f1b
 - https://zenith-caboc-8a4.notion.site/Join-Llama-ad66be1cb28541f5b5346aa37d192b79
 - https://bullish.wd3.myworkdayjobs.com/Bullish
 - https://verum.capital/careers
