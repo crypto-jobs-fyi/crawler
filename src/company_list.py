@@ -42,6 +42,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://arbitrum.foundation', 'Layer 2'),
             CompanyItem("chainlink", "https://jobs.lever.co/chainlink", ScrapeLever, "https://chain.link",
                         "Blockchain"),
+            CompanyItem('aragon', 'https://jobs.lever.co/aragon', ScrapeLever,
+                        'https://aragon.org', 'Web3 DAO launcher'),
             CompanyItem('omni-network', 'https://jobs.lever.co/omni-network', ScrapeLever,
                         'https://omni.network', 'Web3 inter-chain'),
             CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', ScrapeLever,
