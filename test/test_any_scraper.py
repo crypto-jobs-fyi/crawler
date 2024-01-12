@@ -5,15 +5,15 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_tether import ScrapeTether
+from src.scrape_greenhouse import ScrapeGreenhouse
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
-                "Stable Coin"),
+    CompanyItem("coinlist", "https://boards.greenhouse.io/coinlist", ScrapeGreenhouse, "https://coinlist.co",
+                "Web3 Exchange Launchpad"),
     CompanyItem('aragon', 'https://jobs.lever.co/aragon', ScrapeLever,
                 'https://aragon.org', 'Web3 DAO launcher'),
     CompanyItem('mystenlabs', 'https://jobs.ashbyhq.com/mystenlabs', ScrapeAshbyhq,
