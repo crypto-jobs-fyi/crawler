@@ -14,9 +14,9 @@ for job in jobs:
     if jobs_age_json[link] < 2:
         recent_jobs.append(job)
 
-for i in recent_jobs:
-    print(i)
-print(len(recent_jobs))
+print(f"Found {len(recent_jobs)} new jobs.")
+for job in recent_jobs:
+    print(f"{job['title']} at {job['company']} -> {job['link']}")
 
 with open('jobs_new.json', 'w') as file:
     rj = {'data': recent_jobs}
