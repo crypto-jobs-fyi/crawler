@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem("coinlist", "https://boards.greenhouse.io/coinlist", ScrapeGreenhouse, "https://coinlist.co",
-                "Web3 Exchange Launchpad"),
+    CompanyItem("monad", "https://boards.greenhouse.io/monad", ScrapeGreenhouse, "https://www.monad.xyz",
+                "L1 EVM blockchain"),
     CompanyItem('aragon', 'https://jobs.lever.co/aragon', ScrapeLever,
                 'https://aragon.org', 'Web3 DAO launcher'),
     CompanyItem('mystenlabs', 'https://jobs.ashbyhq.com/mystenlabs', ScrapeAshbyhq,
