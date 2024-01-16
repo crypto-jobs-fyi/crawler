@@ -9,10 +9,10 @@ class ScrapeConsensys(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(7)
-        group_elements = driver.find_elements(By.XPATH, '//div[contains(@class, "card-job")]')
+        group_elements = driver.find_elements(By.XPATH, '//a[contains(@class, "card-job")]')
         result = []
         for elem in group_elements:
-            link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
+            link_elem = elem
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'h5')
             location_elem = elem.find_element(By.XPATH, '//div[contains(@class, "job-location")]')
             job_url = link_elem.get_attribute('href')
