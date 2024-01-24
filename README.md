@@ -51,6 +51,7 @@ wip:
 - https://jobs.bitvavo.com/en/jobs
 - https://web3labs.jobs.personio.com
 - https://nexo.breezy.hr
+- https://the-graph.breezy.hr
 - https://koii-network.breezy.hr
 - https://transak-inc.breezy.hr
 - https://careers.stacks.org
