@@ -383,8 +383,6 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.okcoin.com', 'Exchange'),
             CompanyItem("oasisnetwork", "https://boards.greenhouse.io/oasisnetwork", ScrapeGreenhouse,
                         "https://oasisprotocol.org", "Protocol"),
-            CompanyItem("consensys", "https://consensys.net/open-roles", ScrapeConsensys, "https://consensys.net",
-                        "Infra"),
             CompanyItem("ankr", "https://boards.greenhouse.io/ankrnetwork", ScrapeGreenhouse,
                         "https://www.ankr.com", "Web3 Staking Protocol"),
             CompanyItem("chainsafesystems", "https://boards.greenhouse.io/chainsafesystems", ScrapeGreenhouse,
@@ -443,6 +441,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.gemini.com', 'Web3 Exchange'),
             CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
                         "Stable Coin"),
+            CompanyItem("consensys", "https://consensys.net/open-roles", ScrapeConsensys, "https://consensys.net",
+                        "Infra"),
             CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
                         'https://www.coinbase.com', 'Web3 Exchange'),
             ]

@@ -925,11 +925,6 @@
         "jobs_url": "https://boards.greenhouse.io/oasisnetwork"
     },
     {
-        "company_name": "consensys",
-        "company_url": "https://consensys.net",
-        "jobs_url": "https://consensys.net/open-roles"
-    },
-    {
         "company_name": "ankr",
         "company_url": "https://www.ankr.com",
         "jobs_url": "https://boards.greenhouse.io/ankrnetwork"
@@ -1073,6 +1068,11 @@
         "company_name": "tether",
         "company_url": "https://tether.to/en",
         "jobs_url": "https://tether.recruitee.com"
+    },
+    {
+        "company_name": "consensys",
+        "company_url": "https://consensys.net",
+        "jobs_url": "https://consensys.net/open-roles"
     },
     {
         "company_name": "coinbase",
