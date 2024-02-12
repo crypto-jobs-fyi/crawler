@@ -7,7 +7,6 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lmax import ScrapeLmax
 from src.scrape_smartrecruiters import ScrapeSmartrecruiters
 from src.scrape_recruitee import ScrapeRecruitee
-from src.scrape_binance import ScrapeBinance
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_consensys import ScrapeConsensys
 from src.scrape_ripple import ScrapeRipple
@@ -25,8 +24,8 @@ from src.scrape_tether import ScrapeTether
 
 def get_company_list() -> [CompanyItem]:
     return [CompanyItem('base', 'https://base.org/jobs', ScrapeBase, 'https://base.org', 'Web3 Infra'),
-            CompanyItem("binance", "https://www.binance.com/en/careers/job-openings?team=All", ScrapeBinance,
-                        "https://www.binance.com", "Exchange"),
+            CompanyItem("binance", "https://jobs.lever.co/binance", ScrapeLever,
+                        "https://www.binance.com", "The Exchange"),
             CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax,
                         'https://www.lmax.com', 'Web3 browser'),
             CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com", "Exchange"),
@@ -441,6 +440,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.gemini.com', 'Web3 Exchange'),
             CompanyItem("tether", "https://tether.recruitee.com", ScrapeTether, "https://tether.to/en",
                         "Stable Coin"),
+            CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
+                        'https://www.minafoundation.com', 'ZK blockchain'),
             CompanyItem("consensys", "https://consensys.net/open-roles", ScrapeConsensys, "https://consensys.net",
                         "Infra"),
             CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase,
