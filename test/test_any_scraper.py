@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem("monad", "https://boards.greenhouse.io/monad", ScrapeGreenhouse, "https://www.monad.xyz",
                 "L1 EVM blockchain"),
-    CompanyItem('expopulus', 'https://jobs.lever.co/Expopulus', ScrapeLever,
-                'https://expopulus.com', 'Web3 game'),
+    CompanyItem('SeiLabs', 'https://jobs.lever.co/SeiLabs', ScrapeLever,
+                'https://www.sei.io', 'L1 EVM blockchain'),
     CompanyItem('mystenlabs', 'https://jobs.ashbyhq.com/mystenlabs', ScrapeAshbyhq,
                 'https://mystenlabs.com', 'Web3 Infra'),
 ]

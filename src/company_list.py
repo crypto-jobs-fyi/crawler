@@ -169,6 +169,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.connext.network', 'Web3 Payments'),
             CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
                         'https://www.ethena.fi', 'Web3 bonds'),
+            CompanyItem('SeiLabs', 'https://jobs.lever.co/SeiLabs', ScrapeLever,
+                        'https://www.sei.io', 'L1 EVM blockchain'),
             CompanyItem('theblock', 'https://jobs.lever.co/theblockcrypto', ScrapeLever,
                         'https://www.theblock.co', 'Web3 Info'),
             CompanyItem('bitwise', 'https://jobs.lever.co/bitwiseinvestments', ScrapeLever,
