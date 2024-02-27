@@ -147,7 +147,7 @@ def get_company_list() -> [CompanyItem]:
                         "L1 EVM blockchain"),
             CompanyItem('expopulus', 'https://jobs.lever.co/Expopulus', ScrapeLever,
                         'https://expopulus.com', 'Web3 game'),
-            CompanyItem("coinlist", "https://boards.greenhouse.io/coinlist", ScrapeGreenhouse, "https://coinlist.co",
+            CompanyItem("coinlist", "https://apply.workable.com/coinlist", ScrapeWorkable, "https://coinlist.co",
                         "Web3 Exchange Launchpad"),
             CompanyItem('animocabrands', 'https://jobs.lever.co/animocabrands', ScrapeLever,
                         'https://www.animocabrands.com', 'Web3 Gaming'),
