@@ -19,11 +19,8 @@ class ScrapeBamboohr(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(5)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[itemscope].row')
-        job_location_locator = 'div[itemprop="jobLocation"]'
-        if len(group_elements) == 0:
-            group_elements = driver.find_elements(By.XPATH, '//li/div/a/..')
-            job_location_locator = 'div[class="jss-f69"]'
+        group_elements = driver.find_elements(By.XPATH, '//ul//li//a/..')
+        job_location_locator = 'p'
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')

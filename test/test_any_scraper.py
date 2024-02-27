@@ -4,20 +4,21 @@ from selenium import webdriver
 
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
-from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_greenhouse import ScrapeGreenhouse
+from src.scrape_bamboohr import ScrapeBamboohr
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem("blockchain", "https://boards.greenhouse.io/blockchain", ScrapeGreenhouse, "https://www.blockchain.com",
-                "Exchange"),
-    CompanyItem('SeiLabs', 'https://jobs.lever.co/seilabs', ScrapeLever,
-                'https://www.sei.io', 'L1 EVM blockchain'),
-    CompanyItem('mystenlabs', 'https://jobs.ashbyhq.com/mystenlabs', ScrapeAshbyhq,
-                'https://mystenlabs.com', 'Web3 Infra'),
+    CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com',
+                'Web3 Fin Planning'),
+    CompanyItem('wirex', 'https://wirex.bamboohr.com/careers', ScrapeBamboohr, 'https://wirexapp.com',
+                'Web3 card'),
+    CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com',
+                'Crypto bank'),
+    CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
+                "https://chainstack.com", "Infra"),
 ]
 
 for company in company_list:

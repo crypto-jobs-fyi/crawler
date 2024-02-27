@@ -2,9 +2,8 @@ from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_bamboohr import ScrapeBamboohr
 
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+
+driver = webdriver.Chrome()
 company_list = [
     CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com',
                 'Web3 Fin Planning'),
