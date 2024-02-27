@@ -179,7 +179,7 @@ def get_company_list() -> [CompanyItem]:
                         'https://grayscale.com', 'Web3 Asset Manager'),
             CompanyItem('dydx', 'https://boards.greenhouse.io/dydx', ScrapeGreenhouse,
                         'https://dydx.exchange', 'Web3 Exchange'),
-            CompanyItem('xlabs', 'https://boards.greenhouse.io/xlabs', ScrapeGreenhouse,
+            CompanyItem('xlabs', 'https://jobs.ashbyhq.com/Xlabs', ScrapeAshbyhq,
                         'https://www.xlabs.xyz', 'Web3 Infra'),
             CompanyItem("jumpcrypto", "https://boards.greenhouse.io/jumpcrypto", ScrapeGreenhouse,
                         "https://jumpcrypto.com", "Web3 Infra"),
