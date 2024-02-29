@@ -11,14 +11,10 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com',
-                'Web3 Fin Planning'),
+    CompanyItem('ondofinance', 'https://jobs.lever.co/ondofinance', ScrapeLever, 'https://ondo.finance',
+                'Web3 yield'),
     CompanyItem('wirex', 'https://wirex.bamboohr.com/careers', ScrapeBamboohr, 'https://wirexapp.com',
                 'Web3 card'),
-    CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com',
-                'Crypto bank'),
-    CompanyItem("chainstack", "https://chainstack.bamboohr.com/careers", ScrapeBamboohr,
-                "https://chainstack.com", "Infra"),
 ]
 
 for company in company_list:
