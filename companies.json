@@ -305,11 +305,6 @@
         "jobs_url": "https://jobs.lever.co/ledger"
     },
     {
-        "company_name": "request",
-        "company_url": "https://request.network",
-        "jobs_url": "https://jobs.lever.co/request"
-    },
-    {
         "company_name": "immutable",
         "company_url": "https://www.immutable.com",
         "jobs_url": "https://jobs.lever.co/immutable"
@@ -868,6 +863,11 @@
         "company_name": "dune",
         "company_url": "https://dune.com",
         "jobs_url": "https://jobs.ashbyhq.com/dune"
+    },
+    {
+        "company_name": "blast",
+        "company_url": "https://blast.io",
+        "jobs_url": "https://jobs.ashbyhq.com/blast-io"
     },
     {
         "company_name": "windranger",

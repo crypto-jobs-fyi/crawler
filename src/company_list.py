@@ -165,8 +165,6 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.emergentx.org', 'Web3 tokenization'),
             CompanyItem('connext-network', 'https://jobs.lever.co/connext-network', ScrapeLever,
                         'https://www.connext.network', 'Web3 Infra'),
-            CompanyItem('request.network', 'https://jobs.lever.co/request', ScrapeLever,
-                        'https://www.connext.network', 'Web3 Payments'),
             CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
                         'https://www.ethena.fi', 'Web3 bonds'),
             CompanyItem('SeiLabs', 'https://jobs.lever.co/SeiLabs', ScrapeLever,
