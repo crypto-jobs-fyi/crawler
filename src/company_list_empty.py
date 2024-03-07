@@ -28,10 +28,10 @@ def get_company_list() -> []:
                     'https://dydxopsdao.com', 'Web3 DAO'),
         CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
                     'Exchange'),
-        CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
-                    "https://www.bitcoin.com", 'Exchange'),
         CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
                     'https://www.superfluid.finance', 'Web3'),
+        CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network",
+                    "Payments"),
     ]
 
 
