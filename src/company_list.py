@@ -57,6 +57,8 @@ def get_company_list() -> [CompanyItem]:
                         'Community'),
             CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq,
                         'https://li.fi', 'DeFi Liquidity'),
+            CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz',
+                        'L2 Rollups'),
             CompanyItem('blox-route', 'https://jobs.lever.co/blox-route', ScrapeLever,
                         'https://bloxroute.com', 'Web3 MEV DeFi infra'),
             CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', ScrapeLever, 'https://multiversx.com',

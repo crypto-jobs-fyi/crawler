@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('ondofinance', 'https://jobs.lever.co/ondofinance', ScrapeLever, 'https://ondo.finance',
                 'Web3 yield'),
-    CompanyItem('blast', 'https://jobs.ashbyhq.com/blast-io', ScrapeAshbyhq, 'https://blast.io',
-                'L2'),
+    CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz',
+                'L2 Rollups'),
     CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
                     "https://www.bitcoin.com", 'Exchange'),
 ]
