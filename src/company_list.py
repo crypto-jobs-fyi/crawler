@@ -187,6 +187,8 @@ def get_company_list() -> [CompanyItem]:
                         "https://jumpcrypto.com", "Web3 Infra"),
             CompanyItem("0x", "https://boards.greenhouse.io/0x", ScrapeGreenhouse, "https://0x.org",
                         "L2 Blockchain"),
+            CompanyItem("ritual", "https://boards.greenhouse.io/ritual", ScrapeGreenhouse,
+                        "https://ritual.net", 'WEB3 AI'),
             CompanyItem('econetwork', 'https://boards.greenhouse.io/econetwork', ScrapeGreenhouse,
                         'https://eco.com', 'Web3 wallet'),
             CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link',
