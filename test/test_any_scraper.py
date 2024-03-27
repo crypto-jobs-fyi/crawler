@@ -16,8 +16,8 @@ company_list = [
                 'Web3 yield'),
     CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz',
                 'L2 Rollups'),
-    CompanyItem("bitcoin", "https://www.bitcoin.com/jobs/#joblist", ScrapeGreenhouse,
-                    "https://www.bitcoin.com", 'Exchange'),
+    CompanyItem("ritual", "https://boards.greenhouse.io/ritual", ScrapeGreenhouse,
+                "https://ritual.net", 'WEB3 AI'),
 ]
 
 for company in company_list:
