@@ -31,6 +31,10 @@ Locally just run `python3 -m http.server 8000` and open `localhost:8000` in your
 wip:
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
+- https://apply.workable.com/re7-capital/
+- https://www.zetachain.com/careers
+- https://careers.persistence.one/jobs
+- https://www.eotlabs.io/about-us#Vacancy-Section
 - https://www.coinex.com/en/careers/department
 - https://careers.sandbox.game/
 - https://www.pagoda.co/careers

@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt, write_jobs
 
@@ -8,7 +10,8 @@ class ScrapeCoinbase(ScrapeIt):
     def getJobs(self, driver, web_page, company='coinbase') -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
-        driver.implicitly_wait(12)
+        driver.implicitly_wait(9)
+        time.sleep(5)
         # open all departments
         departments = driver.find_elements(By.CSS_SELECTOR, 'div[class*="Department__DepartmentHeader-"] svg')
         print(f'[{self.name}] Found {len(departments)} departments.')
