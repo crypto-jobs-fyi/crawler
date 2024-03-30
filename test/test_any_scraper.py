@@ -12,7 +12,7 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('ondofinance', 'https://jobs.lever.co/ondofinance', ScrapeLever, 'https://ondo.finance',
+    CompanyItem('centrifuge', 'https://jobs.lever.co/centrifuge', ScrapeLever, 'https://centrifuge.io',
                 'Web3 yield'),
     CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz',
                 'L2 Rollups'),

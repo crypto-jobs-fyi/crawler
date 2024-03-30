@@ -112,6 +112,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('enso', 'https://jobs.lever.co/Enso', ScrapeLever, 'https://www.enso.finance', 'DeFi'),
             CompanyItem("Polygon", "https://jobs.lever.co/Polygon", ScrapeLever, "https://polygon.technology",
                         "L2 Blockchain"),
+            CompanyItem('centrifuge', 'https://jobs.lever.co/centrifuge', ScrapeLever, 'https://centrifuge.io',
+                        'Web3 yield'),
             CompanyItem("tokenmetrics", "https://jobs.lever.co/tokenmetrics", ScrapeLever,
                         "https://www.tokenmetrics.com", "Information"),
             CompanyItem("offchainlabs", "https://jobs.lever.co/offchainlabs", ScrapeLever,
