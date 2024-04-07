@@ -13,6 +13,7 @@ class ScrapeCoinbase(ScrapeIt):
         driver.implicitly_wait(9)
         time.sleep(5)
         # open all departments
+        driver.find_element(By.XPATH, '//span[.="Accept all"]').click()
         departments = driver.find_elements(By.CSS_SELECTOR, 'div[class*="Department__DepartmentHeader-"] svg')
         print(f'[{self.name}] Found {len(departments)} departments.')
         for department in departments:
