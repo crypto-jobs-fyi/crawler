@@ -140,6 +140,7 @@ wip:
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://apply.workable.com/ferrum/
 - https://lightcurve.jobs.personio.de/?language=en
+- https://apply.workable.com/anza-xyz/
 
 
 not only crypto:

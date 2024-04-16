@@ -153,6 +153,8 @@ def get_company_list() -> [CompanyItem]:
                         'Protocol'),
             CompanyItem("monad", "https://boards.greenhouse.io/monad", ScrapeGreenhouse, "https://www.monad.xyz",
                         "L1 EVM blockchain"),
+            CompanyItem("wyndlabs", "https://boards.greenhouse.io/wyndlabs", ScrapeGreenhouse,
+                        "https://www.wyndlabs.ai", 'WEB3 AI'),
             CompanyItem('expopulus', 'https://jobs.lever.co/Expopulus', ScrapeLever,
                         'https://expopulus.com', 'Web3 game'),
             CompanyItem("coinlist", "https://apply.workable.com/coinlist", ScrapeWorkable, "https://coinlist.co",
