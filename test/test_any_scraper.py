@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('machinefilab', 'https://jobs.lever.co/machinefilab', ScrapeLever, 'https://machinefi.com/lab',
                 'Web3 yield'),
-    CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz',
-                'L2 Rollups'),
+    CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', ScrapeAshbyhq, 'https://movementlabs.xyz',
+                'Modular chain'),
     CompanyItem("wyndlabs", "https://boards.greenhouse.io/wyndlabs", ScrapeGreenhouse,
                 "https://www.wyndlabs.ai", 'WEB3 AI'),
 ]
