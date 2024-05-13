@@ -192,6 +192,8 @@ def get_company_list() -> [CompanyItem]:
             CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', ScrapeAshbyhq,
                         'https://movementlabs.xyz',
                         'Modular chain'),
+            CompanyItem('succinct', 'https://jobs.ashbyhq.com/succinct', ScrapeAshbyhq, 'https://succinct.xyz',
+                        'Zero-knowledge proofs'),
             CompanyItem("jumpcrypto", "https://boards.greenhouse.io/jumpcrypto", ScrapeGreenhouse,
                         "https://jumpcrypto.com", "Web3 Infra"),
             CompanyItem("0x", "https://boards.greenhouse.io/0x", ScrapeGreenhouse, "https://0x.org",
