@@ -139,6 +139,8 @@ def get_company_list() -> [CompanyItem]:
                         'Web3 + Financial Modelling'),
             CompanyItem('machinefilab', 'https://jobs.lever.co/machinefilab', ScrapeLever, 'https://machinefi.com/lab',
                         'Web3 yield'),
+            CompanyItem('clabs', 'https://jobs.lever.co/clabs', ScrapeLever, 'https://clabs.co',
+                        'Web3 Celo'),
             CompanyItem('gate.io', 'https://jobs.lever.co/gate.io', ScrapeLever,
                         'https://gate.io', 'Web3 Exchange'),
             CompanyItem('auroralabs', 'https://jobs.lever.co/aurora-dev', ScrapeLever,
