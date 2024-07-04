@@ -16,8 +16,8 @@ company_list = [
                 'Web3 exchange'),
     CompanyItem('succinct', 'https://jobs.ashbyhq.com/succinct', ScrapeAshbyhq, 'https://succinct.xyz',
                 'Zero-knowledge proofs'),
-    CompanyItem("wormholefoundation", "https://boards.greenhouse.io/iftother", ScrapeGreenhouse,
-                "https://wormhole.com", 'WEB3 Bridge'),
+    CompanyItem("scroll", "https://boards.greenhouse.io/scrollio", ScrapeGreenhouse,
+                "https://scroll.io", 'WEB3 Layer2'),
 ]
 
 for company in company_list:
