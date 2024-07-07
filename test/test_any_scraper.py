@@ -12,8 +12,8 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
-    CompanyItem('dydx-ops', 'https://jobs.lever.co/dydx-ops', ScrapeLever, 'https://www.dydxopsdao.com',
-                'Web3 exchange'),
+    CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi',
+                'Web3 L2'),
     CompanyItem('succinct', 'https://jobs.ashbyhq.com/succinct', ScrapeAshbyhq, 'https://succinct.xyz',
                 'Zero-knowledge proofs'),
     CompanyItem("scroll", "https://boards.greenhouse.io/scrollio", ScrapeGreenhouse,

@@ -73,6 +73,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://www.impossiblecloud.com', 'Web3 Infra'),
             CompanyItem('with-foundation', 'https://jobs.lever.co/with-foundation', ScrapeLever,
                         'https://foundation.app', 'Web3 NFT'),
+            CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi',
+                        'Web3 L2'),
             CompanyItem('Metatheory', 'https://jobs.lever.co/Metatheory', ScrapeLever,
                         'https://www.duskbreakers.gg', 'Web3 game'),
             CompanyItem('axiomzen', 'https://jobs.lever.co/axiomzen', ScrapeLever, 'https://www.axiomzen.com', 'Web3'),
