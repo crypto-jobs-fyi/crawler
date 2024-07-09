@@ -14,8 +14,8 @@ driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi',
                 'Web3 L2'),
-    CompanyItem('succinct', 'https://jobs.ashbyhq.com/succinct', ScrapeAshbyhq, 'https://succinct.xyz',
-                'Zero-knowledge proofs'),
+    CompanyItem('babylonchain', 'https://jobs.ashbyhq.com/babylonchain', ScrapeAshbyhq, 'https://babylonchain.io',
+                'Bitcoin L2'),
     CompanyItem("scroll", "https://boards.greenhouse.io/scrollio", ScrapeGreenhouse,
                 "https://scroll.io", 'WEB3 Layer2'),
 ]
