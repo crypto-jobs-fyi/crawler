@@ -3,15 +3,18 @@ import unittest
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_lever import ScrapeLever
-from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_ashbyhq import ScrapeAshbyhq
+from src.scrape_greenhouse import ScrapeGreenhouse
+from src.scrape_lever import ScrapeLever
+from src.scrape_workable import ScrapeWorkable
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 
 company_list = [
+    CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', ScrapeWorkable,
+                'https://www.gobob.xyz/', 'Bitcoin L2'),
     CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi',
                 'Web3 L2'),
     CompanyItem('babylonchain', 'https://jobs.ashbyhq.com/babylonchain', ScrapeAshbyhq, 'https://babylonchain.io',

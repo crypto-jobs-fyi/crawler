@@ -352,6 +352,8 @@ def get_company_list() -> [CompanyItem]:
                         'https://goldsky.com', 'Web3 Data'),
             CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
                         'https://walletconnect.com', 'Web3 Wallet Infra'),
+            CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', ScrapeWorkable,
+                        'https://www.gobob.xyz/', 'Bitcoin L2'),
             CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
                         'https://prepo.io', 'Web3 pre-IPO trading'),
             CompanyItem('io-global', 'https://apply.workable.com/io-global/#jobs', ScrapeWorkable,
