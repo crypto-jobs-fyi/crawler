@@ -29,11 +29,11 @@ class ScrapeGreenhouse(ScrapeIt):
             time.sleep(3)
             driver.switch_to.frame(iframe[0])
             time.sleep(5)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="opening"]')
+        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
-            location_elem = elem.find_element(By.CSS_SELECTOR, 'span')
+            location_elem = elem.find_element(By.XPATH, '//p[contains(@class,"metadata")]')
             job_url = link_elem.get_attribute('href')
             location = location_elem.text
             job_name = link_elem.text
