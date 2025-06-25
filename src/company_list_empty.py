@@ -12,16 +12,8 @@ from src.scrape_workable import ScrapeWorkable
 def get_company_list() -> list[CompanyItem | Any]:
     return [
         CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com"),
-        CompanyItem("moonwalk", "https://boards.greenhouse.io/moonwalk", ScrapeGreenhouse,
-                    "https://www.moonwalk.com"),
-        CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network"),
-        CompanyItem("poap", "https://boards.greenhouse.io/poaptheproofofattendanceprotocol", ScrapeGreenhouse,
-                    "https://poap.xyz"),
         CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
                     'https://smarttokenlabs.com'),
-        CompanyItem('avantgarde', 'https://apply.workable.com/avantgarde', ScrapeWorkable,
-                    'https://avantgarde.finance'),
-        CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io'),
         CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
                     'https://dydxopsdao.com'),
         CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en'),
