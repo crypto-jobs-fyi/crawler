@@ -48,6 +48,8 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("subspacelabs", "https://jobs.lever.co/autonomys", ScrapeLever,
                     "https://www.autonomys.xyz"),
         CompanyItem("biconomy", "https://jobs.lever.co/biconomy", ScrapeLever, "https://www.biconomy.io"),
+        CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
+                    'https://www.station.express'),
         CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
     ]
 
