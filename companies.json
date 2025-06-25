@@ -1,10 +1,5 @@
 [
     {
-        "company_name": "base",
-        "company_url": "https://base.org",
-        "jobs_url": "https://base.org/jobs"
-    },
-    {
         "company_name": "binance",
         "company_url": "https://www.binance.com",
         "jobs_url": "https://jobs.lever.co/binance"
@@ -20,19 +15,14 @@
         "jobs_url": "https://jobs.ashbyhq.com/kraken.com"
     },
     {
-        "company_name": "lido",
-        "company_url": "https://lido.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/PML"
-    },
-    {
         "company_name": "moonpay",
         "company_url": "https://www.moonpay.com",
-        "jobs_url": "https://moonpay.wd1.myworkdayjobs.com/en-US/GTI"
+        "jobs_url": "https://jobs.lever.co/moonpay"
     },
     {
         "company_name": "phantom",
-        "company_url": "https://gate.io",
-        "jobs_url": "https://phantom.app/jobs"
+        "company_url": "https://phantom.com",
+        "jobs_url": "https://jobs.ashbyhq.com/phantom"
     },
     {
         "company_name": "obol-tech",
@@ -43,11 +33,6 @@
         "company_name": "arbitrumfoundation",
         "company_url": "https://arbitrum.foundation",
         "jobs_url": "https://jobs.lever.co/arbitrumfoundation"
-    },
-    {
-        "company_name": "chainlink",
-        "company_url": "https://chain.link",
-        "jobs_url": "https://jobs.lever.co/chainlink"
     },
     {
         "company_name": "aragon",
@@ -62,7 +47,7 @@
     {
         "company_name": "omni-network",
         "company_url": "https://omni.network",
-        "jobs_url": "https://jobs.lever.co/omni-network"
+        "jobs_url": "https://job-boards.greenhouse.io/omnifdn"
     },
     {
         "company_name": "Tenderly",
@@ -72,7 +57,7 @@
     {
         "company_name": "injectivelabs",
         "company_url": "https://injectivelabs.org",
-        "jobs_url": "https://jobs.lever.co/injectivelabs"
+        "jobs_url": "https://injectivelabs.org/careers#open-roles"
     },
     {
         "company_name": "nomic.foundation",
@@ -110,11 +95,6 @@
         "jobs_url": "https://jobs.lever.co/sprucesystems"
     },
     {
-        "company_name": "BlockSwap",
-        "company_url": "https://www.blockswap.network",
-        "jobs_url": "https://jobs.lever.co/BlockSwap"
-    },
-    {
         "company_name": "scroll",
         "company_url": "https://scroll.io",
         "jobs_url": "https://job-boards.greenhouse.io/scrollio"
@@ -125,24 +105,9 @@
         "jobs_url": "https://jobs.lever.co/impossiblecloud"
     },
     {
-        "company_name": "with-foundation",
-        "company_url": "https://foundation.app",
-        "jobs_url": "https://jobs.lever.co/with-foundation"
-    },
-    {
         "company_name": "ether-fi",
         "company_url": "https://www.ether.fi",
-        "jobs_url": "https://jobs.lever.co/ether-fi"
-    },
-    {
-        "company_name": "Metatheory",
-        "company_url": "https://www.duskbreakers.gg",
-        "jobs_url": "https://jobs.lever.co/Metatheory"
-    },
-    {
-        "company_name": "axiomzen",
-        "company_url": "https://www.axiomzen.com",
-        "jobs_url": "https://jobs.lever.co/axiomzen"
+        "jobs_url": "https://jobs.ashbyhq.com/ether.fi"
     },
     {
         "company_name": "fuellabs",
@@ -150,14 +115,9 @@
         "jobs_url": "https://jobs.lever.co/fuellabs"
     },
     {
-        "company_name": "HQxyz",
-        "company_url": "https://www.hq.xyz",
-        "jobs_url": "https://jobs.lever.co/HQxyz"
-    },
-    {
         "company_name": "Notabene",
         "company_url": "https://notabene.id",
-        "jobs_url": "https://jobs.lever.co/Notabene"
+        "jobs_url": "https://notabene.id/careers"
     },
     {
         "company_name": "harmony",
@@ -235,14 +195,9 @@
         "jobs_url": "https://jobs.lever.co/biconomy"
     },
     {
-        "company_name": "enso",
-        "company_url": "https://www.enso.finance",
-        "jobs_url": "https://jobs.lever.co/Enso"
-    },
-    {
         "company_name": "Polygon",
         "company_url": "https://polygon.technology",
-        "jobs_url": "https://jobs.lever.co/Polygon"
+        "jobs_url": "https://jobs.ashbyhq.com/polygon-labs"
     },
     {
         "company_name": "centrifuge",
@@ -265,9 +220,9 @@
         "jobs_url": "https://jobs.lever.co/autonomys"
     },
     {
-        "company_name": "3boxlabs",
-        "company_url": "https://3boxlabs.com",
-        "jobs_url": "https://jobs.lever.co/3box"
+        "company_name": "recall",
+        "company_url": "https://recall.network",
+        "jobs_url": "https://job-boards.greenhouse.io/recall"
     },
     {
         "company_name": "ramp.network",
@@ -282,7 +237,7 @@
     {
         "company_name": "risklabs",
         "company_url": "https://risklabs.foundation",
-        "jobs_url": "https://jobs.lever.co/risklabs"
+        "jobs_url": "https://jobs.ashbyhq.com/risklabs"
     },
     {
         "company_name": "celestia",
@@ -395,29 +350,14 @@
         "jobs_url": "https://boards.greenhouse.io/hiro"
     },
     {
-        "company_name": "AQX",
-        "company_url": "https://aqx.com",
-        "jobs_url": "https://jobs.lever.co/presto"
-    },
-    {
-        "company_name": "ultra",
-        "company_url": "https://ultra.io",
-        "jobs_url": "https://jobs.lever.co/ultra"
-    },
-    {
-        "company_name": "glassnode",
-        "company_url": "https://glassnode.com",
-        "jobs_url": "https://jobs.lever.co/glassnode"
+        "company_name": "plume",
+        "company_url": "https://plume.org",
+        "jobs_url": "https://jobs.ashbyhq.com/plume-network"
     },
     {
         "company_name": "coingecko",
         "company_url": "https://www.coingecko.com",
         "jobs_url": "https://jobs.lever.co/coingecko"
-    },
-    {
-        "company_name": "emergentx",
-        "company_url": "https://www.emergentx.org",
-        "jobs_url": "https://jobs.lever.co/emergentx"
     },
     {
         "company_name": "connext-network",
@@ -440,11 +380,6 @@
         "jobs_url": "https://jobs.lever.co/theblockcrypto"
     },
     {
-        "company_name": "dydx-ops",
-        "company_url": "https://www.dydxopsdao.com",
-        "jobs_url": "https://jobs.lever.co/dydx-ops"
-    },
-    {
         "company_name": "bitwise",
         "company_url": "https://bitwiseinvestments.com",
         "jobs_url": "https://jobs.lever.co/bitwiseinvestments"
@@ -463,11 +398,6 @@
         "company_name": "xlabs",
         "company_url": "https://www.xlabs.xyz",
         "jobs_url": "https://jobs.ashbyhq.com/Xlabs"
-    },
-    {
-        "company_name": "babylonchain",
-        "company_url": "https://babylonchain.io",
-        "jobs_url": "https://jobs.ashbyhq.com/babylonchain"
     },
     {
         "company_name": "movementlabs",
@@ -505,39 +435,14 @@
         "jobs_url": "https://boards.greenhouse.io/magic"
     },
     {
-        "company_name": "chainstack",
-        "company_url": "https://chainstack.com",
-        "jobs_url": "https://chainstack.bamboohr.com/careers"
-    },
-    {
-        "company_name": "outlierventures",
-        "company_url": "https://outlierventures.io",
-        "jobs_url": "https://outlierventures.bamboohr.com/careers"
-    },
-    {
-        "company_name": "dappradar",
-        "company_url": "https://dappradar.com",
-        "jobs_url": "https://dappradar.bamboohr.com/careers"
-    },
-    {
         "company_name": "coinmarketcap",
         "company_url": "https://coinmarketcap.com",
-        "jobs_url": "https://careers.smartrecruiters.com/B6/coinmarketcap"
-    },
-    {
-        "company_name": "evmos",
-        "company_url": "https://evmos.org",
-        "jobs_url": "https://boards.eu.greenhouse.io/evmos"
-    },
-    {
-        "company_name": "pyth",
-        "company_url": "https://pyth.network",
-        "jobs_url": "https://boards.greenhouse.io/pythdataassociation"
+        "jobs_url": "https://jobs.lever.co/coinmarketcap"
     },
     {
         "company_name": "orderlynetwork",
         "company_url": "https://orderly.network",
-        "jobs_url": "https://boards.greenhouse.io/orderlynetwork"
+        "jobs_url": "https://job-boards.greenhouse.io/orderly"
     },
     {
         "company_name": "shardeum",
@@ -545,19 +450,9 @@
         "jobs_url": "https://boards.greenhouse.io/shardeumfoundation"
     },
     {
-        "company_name": "paxos",
-        "company_url": "https://paxos.com",
-        "jobs_url": "https://paxos.com/job-posts"
-    },
-    {
         "company_name": "zora",
         "company_url": "https://zora.co",
         "jobs_url": "https://boards.greenhouse.io/zora"
-    },
-    {
-        "company_name": "bitfury",
-        "company_url": "https://bitfury.com",
-        "jobs_url": "https://boards.greenhouse.io/bitfury"
     },
     {
         "company_name": "wormholefoundation",
@@ -568,21 +463,6 @@
         "company_name": "blockchain",
         "company_url": "https://www.blockchain.com",
         "jobs_url": "https://boards.greenhouse.io/blockchain"
-    },
-    {
-        "company_name": "osl",
-        "company_url": "https://osl.com",
-        "jobs_url": "https://bcgroup.bamboohr.com/careers"
-    },
-    {
-        "company_name": "cexio",
-        "company_url": "https://cex.io",
-        "jobs_url": "https://cexio.bamboohr.com/jobs"
-    },
-    {
-        "company_name": "circle",
-        "company_url": "https://circle.com",
-        "jobs_url": "https://boards.greenhouse.io/circle"
     },
     {
         "company_name": "OKX",
@@ -610,19 +490,9 @@
         "jobs_url": "https://boards.greenhouse.io/uniswaplabs"
     },
     {
-        "company_name": "osmosisdex",
-        "company_url": "https://osmosis.zone",
-        "jobs_url": "https://boards.greenhouse.io/osmosisdex"
-    },
-    {
         "company_name": "penumbralabs",
         "company_url": "https://eco.com",
         "jobs_url": "https://boards.greenhouse.io/penumbralabs"
-    },
-    {
-        "company_name": "blockdaemon",
-        "company_url": "https://www.blockdaemon.com",
-        "jobs_url": "https://boards.greenhouse.io/blockdaemon"
     },
     {
         "company_name": "figment",
@@ -685,11 +555,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/mystenlabs"
     },
     {
-        "company_name": "exponential",
-        "company_url": "https://exponential.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/exponential"
-    },
-    {
         "company_name": "conduit",
         "company_url": "https://conduit.xyz",
         "jobs_url": "https://jobs.ashbyhq.com/Conduit"
@@ -745,11 +610,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/Artemisxyz"
     },
     {
-        "company_name": "Boost",
-        "company_url": "https://Boost.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/Boost"
-    },
-    {
         "company_name": "Keyrock",
         "company_url": "https://keyrock.eu",
         "jobs_url": "https://jobs.ashbyhq.com/Keyrock"
@@ -762,12 +622,12 @@
     {
         "company_name": "quiknodeinc",
         "company_url": "https://www.quicknode.com",
-        "jobs_url": "https://boards.greenhouse.io/quiknodeinc"
+        "jobs_url": "https://jobs.ashbyhq.com/quicknode"
     },
     {
         "company_name": "21co",
         "company_url": "https://www.21.co",
-        "jobs_url": "https://boards.greenhouse.io/21co"
+        "jobs_url": "https://job-boards.greenhouse.io/21cotechnologies"
     },
     {
         "company_name": "xapo",
@@ -775,14 +635,9 @@
         "jobs_url": "https://boards.greenhouse.io/xapo61"
     },
     {
-        "company_name": "dragonflycapital",
-        "company_url": "https://www.dragonfly.xyz",
-        "jobs_url": "https://boards.greenhouse.io/dragonflycapital"
-    },
-    {
         "company_name": "exodus54",
         "company_url": "https://www.exodus.com",
-        "jobs_url": "https://boards.greenhouse.io/exodus54"
+        "jobs_url": "https://job-boards.greenhouse.io/exodus54"
     },
     {
         "company_name": "alchemy",
@@ -875,11 +730,6 @@
         "jobs_url": "https://apply.workable.com/clockwork-labs"
     },
     {
-        "company_name": "bitfinex",
-        "company_url": "https://www.bitfinex.com",
-        "jobs_url": "https://bitfinex.recruitee.com"
-    },
-    {
         "company_name": "o1labs",
         "company_url": "https://o1labs.org",
         "jobs_url": "https://boards.greenhouse.io/o1labs"
@@ -888,11 +738,6 @@
         "company_name": "paradigm.co",
         "company_url": "https://www.paradigm.co",
         "jobs_url": "https://boards.greenhouse.io/paradigm62"
-    },
-    {
-        "company_name": "trustwallet",
-        "company_url": "https://trustwallet.com",
-        "jobs_url": "https://careers.smartrecruiters.com/B6/trustwallet"
     },
     {
         "company_name": "Swissquote",
@@ -918,11 +763,6 @@
         "company_name": "iofinnet",
         "company_url": "https://www.iofinnet.com",
         "jobs_url": "https://iofinnethr.bamboohr.com/jobs/?source=bamboohr"
-    },
-    {
-        "company_name": "iyield",
-        "company_url": "https://iyield.com",
-        "jobs_url": "https://iyield.bamboohr.com/careers"
     },
     {
         "company_name": "almanak",
@@ -960,21 +800,6 @@
         "jobs_url": "https://boards.greenhouse.io/immunefi"
     },
     {
-        "company_name": "wirex",
-        "company_url": "https://wirexapp.com",
-        "jobs_url": "https://wirex.bamboohr.com/careers"
-    },
-    {
-        "company_name": "protocollabs",
-        "company_url": "https://protocol.ai/about",
-        "jobs_url": "https://boards.greenhouse.io/protocollabs"
-    },
-    {
-        "company_name": "trmlabs",
-        "company_url": "https://www.trmlabs.com",
-        "jobs_url": "https://www.trmlabs.com/careers#open-roles"
-    },
-    {
         "company_name": "messari",
         "company_url": "https://messari.io",
         "jobs_url": "https://boards.greenhouse.io/messari"
@@ -990,19 +815,9 @@
         "jobs_url": "https://boards.eu.greenhouse.io/copperco"
     },
     {
-        "company_name": "digitalasset",
-        "company_url": "https://www.digitalasset.com",
-        "jobs_url": "https://boards.greenhouse.io/digitalasset"
-    },
-    {
         "company_name": "layerzerolabs",
         "company_url": "https://layerzero.network",
         "jobs_url": "https://boards.greenhouse.io/layerzerolabs"
-    },
-    {
-        "company_name": "okcoin",
-        "company_url": "https://www.okcoin.com",
-        "jobs_url": "https://boards.greenhouse.io/okcoin"
     },
     {
         "company_name": "oasisnetwork",
@@ -1010,24 +825,9 @@
         "jobs_url": "https://boards.greenhouse.io/oasisnetwork"
     },
     {
-        "company_name": "ankr",
-        "company_url": "https://www.ankr.com",
-        "jobs_url": "https://boards.greenhouse.io/ankrnetwork"
-    },
-    {
-        "company_name": "chainsafesystems",
-        "company_url": "https://chainsafe.io",
-        "jobs_url": "https://boards.greenhouse.io/chainsafesystems"
-    },
-    {
         "company_name": "ripple",
         "company_url": "https://ripple.com",
         "jobs_url": "https://ripple.com/careers/all-jobs"
-    },
-    {
-        "company_name": "kadena",
-        "company_url": "https://kadena.io",
-        "jobs_url": "https://boards.greenhouse.io/kadenallc"
     },
     {
         "company_name": "eigenlabs",
@@ -1045,128 +845,18 @@
         "jobs_url": "https://boards.greenhouse.io/galaxydigitalservices"
     },
     {
-        "company_name": "web3",
-        "company_url": "https://web3.foundation",
-        "jobs_url": "https://web3.bamboohr.com/jobs"
-    },
-    {
         "company_name": "solana",
         "company_url": "https://solana.com",
         "jobs_url": "https://boards.greenhouse.io/solana"
     },
     {
-        "company_name": "mobilecoin",
-        "company_url": "https://mobilecoin.com",
-        "jobs_url": "https://boards.greenhouse.io/mobilecoin"
-    },
-    {
-        "company_name": "chia",
-        "company_url": "https://www.chia.net",
-        "jobs_url": "https://www.chia.net/careers"
-    },
-    {
-        "company_name": "worldcoin",
-        "company_url": "https://worldcoin.org",
-        "jobs_url": "https://boards.greenhouse.io/worldcoinorg"
-    },
-    {
-        "company_name": "edgeandnode",
-        "company_url": "https://edgeandnode.com",
-        "jobs_url": "https://boards.greenhouse.io/edgeandnode"
-    },
-    {
         "company_name": "clearmatics",
         "company_url": "https://www.clearmatics.com",
-        "jobs_url": "https://boards.greenhouse.io/clearmatics"
-    },
-    {
-        "company_name": "yugalabs",
-        "company_url": "https://yuga.com",
-        "jobs_url": "https://boards.greenhouse.io/yugalabs"
+        "jobs_url": "https://job-boards.greenhouse.io/clearmatics"
     },
     {
         "company_name": "brave",
         "company_url": "https://brave.com",
-        "jobs_url": "https://boards.greenhouse.io/brave"
-    },
-    {
-        "company_name": "bitstamp",
-        "company_url": "https://www.bitstamp.net",
-        "jobs_url": "https://apply.workable.com/bitstamp/#jobs"
-    },
-    {
-        "company_name": "tatum",
-        "company_url": "https://tatum.io",
-        "jobs_url": "https://apply.workable.com/tatum"
-    },
-    {
-        "company_name": "cryptofinance",
-        "company_url": "https://www.crypto-finance.com",
-        "jobs_url": "https://apply.workable.com/crypto-finance"
-    },
-    {
-        "company_name": "hextrust",
-        "company_url": "https://www.hextrust.com",
-        "jobs_url": "https://apply.workable.com/hextrust"
-    },
-    {
-        "company_name": "zodia-custody",
-        "company_url": "https://zodia.io",
-        "jobs_url": "https://apply.workable.com/zodia-custody"
-    },
-    {
-        "company_name": "paraswap",
-        "company_url": "https://www.paraswap.io",
-        "jobs_url": "https://apply.workable.com/paraswap"
-    },
-    {
-        "company_name": "stakefish",
-        "company_url": "https://stake.fish",
-        "jobs_url": "https://apply.workable.com/stakefish"
-    },
-    {
-        "company_name": "thetie",
-        "company_url": "https://www.thetie.io",
-        "jobs_url": "https://apply.workable.com/thetie/#jobs"
-    },
-    {
-        "company_name": "tusd",
-        "company_url": "https://tusd.io",
-        "jobs_url": "https://tusd.io/about"
-    },
-    {
-        "company_name": "enjin",
-        "company_url": "https://enjin.io",
-        "jobs_url": "https://enjin.io/opportunities#positions"
-    },
-    {
-        "company_name": "status",
-        "company_url": "https://status.app",
-        "jobs_url": "https://boards.greenhouse.io/logos"
-    },
-    {
-        "company_name": "gemini",
-        "company_url": "https://www.gemini.com",
-        "jobs_url": "https://www.gemini.com/careers"
-    },
-    {
-        "company_name": "tether",
-        "company_url": "https://tether.to/en",
-        "jobs_url": "https://tether.recruitee.com"
-    },
-    {
-        "company_name": "mina-foundation",
-        "company_url": "https://www.minafoundation.com",
-        "jobs_url": "https://apply.workable.com/mina-foundation"
-    },
-    {
-        "company_name": "consensys",
-        "company_url": "https://consensys.net",
-        "jobs_url": "https://consensys.net/open-roles"
-    },
-    {
-        "company_name": "coinbase",
-        "company_url": "https://www.coinbase.com",
-        "jobs_url": "https://www.coinbase.com/careers/positions"
+        "jobs_url": "https://job-boards.greenhouse.io/brave"
     }
 ]

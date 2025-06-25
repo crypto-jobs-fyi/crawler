@@ -2,6 +2,7 @@ import json
 from typing import Any
 
 from src.company_item import CompanyItem
+from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
@@ -30,12 +31,21 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
                     'https://www.minafoundation.com'),
         CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', ScrapeLever, 'https://www.blockswap.network'),
-        CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
-                    'https://ultra.io'),
-        CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', ScrapeLever,
-                    'https://glassnode.com'),
+        CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever, 'https://ultra.io'),
+        CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', ScrapeLever, 'https://glassnode.com'),
         CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
                     'https://dappradar.com'),
+        CompanyItem('web3', 'https://web3.bamboohr.com/jobs', ScrapeBamboohr, 'https://web3.foundation'),
+        CompanyItem("kadena", "https://boards.greenhouse.io/kadenallc", ScrapeGreenhouse, "https://kadena.io"),
+        CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse,
+                    'https://protocol.ai/about'),
+        CompanyItem('Boost', 'https://jobs.ashbyhq.com/Boost', ScrapeAshbyhq, 'https://Boost.xyz'),
+        CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi'),
+        CompanyItem('pyth', 'https://jobs.ashbyhq.com/pythnetwork', ScrapeGreenhouse,
+                    'https://pyth.network'),
+        CompanyItem('outlierventures', 'https://outlierventures.bamboohr.com/careers', ScrapeBamboohr,
+                    'https://outlierventures.io'),
+        CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
     ]
 
 
