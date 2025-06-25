@@ -1,6 +1,6 @@
 jsonschema==3.2.0
-selenium==4.14.0
-urllib3==1.26.13
+selenium==4.15.1
+urllib3==2.5.0
 userpath==1.8.0
 pytest
 pytest-asyncio

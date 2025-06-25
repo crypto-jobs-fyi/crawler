@@ -1,37 +1,41 @@
 import json
+from typing import Any
 
 from src.company_item import CompanyItem
-from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
 from src.scrape_workable import ScrapeWorkable
 
 
-def get_company_list() -> []:
+def get_company_list() -> list[CompanyItem | Any]:
     return [
-        CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com",
-                    "Stable Coin"),
+        CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com"),
         CompanyItem("moonwalk", "https://boards.greenhouse.io/moonwalk", ScrapeGreenhouse,
-                    "https://www.moonwalk.com", "Platform"),
-        CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network",
-                    "Blockchain"),
+                    "https://www.moonwalk.com"),
+        CompanyItem("tron", "https://boards.greenhouse.io/rainberry", ScrapeGreenhouse, "https://tron.network"),
         CompanyItem("poap", "https://boards.greenhouse.io/poaptheproofofattendanceprotocol", ScrapeGreenhouse,
-                    "https://poap.xyz", "Protocol"),
+                    "https://poap.xyz"),
         CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
-                    'https://smarttokenlabs.com', 'Web3 bridge'),
+                    'https://smarttokenlabs.com'),
         CompanyItem('avantgarde', 'https://apply.workable.com/avantgarde', ScrapeWorkable,
-                    'https://avantgarde.finance', 'Asset Management'),
-        CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
-                    'Stable Coin'),
+                    'https://avantgarde.finance'),
+        CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io'),
         CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
-                    'https://dydxopsdao.com', 'Web3 DAO'),
-        CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en',
-                    'Exchange'),
+                    'https://dydxopsdao.com'),
+        CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en'),
         CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
-                    'https://www.superfluid.finance', 'Web3'),
-        CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network",
-                    "Payments"),
+                    'https://www.superfluid.finance'),
+        CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network"),
+        CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
+                    'https://www.minafoundation.com'),
+        CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', ScrapeLever, 'https://www.blockswap.network'),
+        CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever,
+                    'https://ultra.io'),
+        CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', ScrapeLever,
+                    'https://glassnode.com'),
+        CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
+                    'https://dappradar.com'),
     ]
 
 

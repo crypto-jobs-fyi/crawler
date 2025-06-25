@@ -8,4 +8,3 @@ class CompanyItem:
     jobs_url: str
     scraper_type: ScrapeIt
     company_url: str
-    company_type: str
