@@ -42,6 +42,16 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("biconomy", "https://jobs.lever.co/biconomy", ScrapeLever, "https://www.biconomy.io"),
         CompanyItem('StationLabs', 'https://jobs.ashbyhq.com/StationLabs', ScrapeAshbyhq,
                     'https://www.station.express'),
+        CompanyItem('coinmetrics', 'https://boards.greenhouse.io/coinmetrics', ScrapeGreenhouse,
+                    'https://coinmetrics.io'),
+        CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', ScrapeGreenhouse,
+                    'https://goldsky.com'),
+        CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
+                    'https://www.iofinnet.com'),
+        CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", ScrapeGreenhouse,
+                    "https://fil.org"),
+        CompanyItem("solana", "https://job-boards.greenhouse.io/solana", ScrapeGreenhouse,
+                    "https://solana.com"),
         CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
     ]
 

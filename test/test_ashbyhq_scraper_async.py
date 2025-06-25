@@ -26,20 +26,15 @@ async def test_ashbyhq_async():
     driver = [driver_url, session]
 
     companies = [
-        CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhqAsync, 'https://www.kiln.fi', 'Staking'),
-        CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhqAsync, 'https://dune.com',
-                    'Web3 data'),
-        CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhqAsync, 'https://conduit.xyz',
-                    'Infrastructure'),
-        CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', ScrapeAshbyhqAsync, 'https://www.paradigm.xyz',
-                    'Web3 data'),
-        CompanyItem('syndica', 'https://jobs.ashbyhq.com/syndica', ScrapeAshbyhqAsync, 'https://www.sygnum.com',
-                    'Crypto bank'),
+        CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhqAsync, 'https://www.kiln.fi'),
+        CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhqAsync, 'https://dune.com'),
+        CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhqAsync, 'https://conduit.xyz'),
+        CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', ScrapeAshbyhqAsync, 'https://www.paradigm.xyz'),
+        CompanyItem('syndica', 'https://jobs.ashbyhq.com/syndica', ScrapeAshbyhqAsync, 'https://www.sygnum.com'),
         CompanyItem('solana-foundation', 'https://jobs.ashbyhq.com/Solana%20Foundation', ScrapeAshbyhqAsync,
-                    'https://www.sygnum.com',
-                    'Crypto bank'),
+                    'https://www.sygnum.com'),
         CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', ScrapeAshbyhqAsync,
-                    'https://ellipsislabs.xyz', 'Trading Protocol')
+                    'https://ellipsislabs.xyz')
     ]
 
     for company in companies:

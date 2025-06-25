@@ -3,10 +3,8 @@ from typing import Any
 
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
-from src.scrape_lmax import ScrapeLmax
 from src.scrape_ripple import ScrapeRipple
 from src.scrape_smartrecruiters import ScrapeSmartrecruiters
 from src.scrape_workable import ScrapeWorkable
@@ -15,7 +13,6 @@ from src.scrape_workable import ScrapeWorkable
 def get_company_list() -> list[CompanyItem | Any]:
     return [
         CompanyItem("binance", "https://jobs.lever.co/binance", ScrapeLever, "https://www.binance.com"),
-        CompanyItem('lmax', 'https://careers.lmax.com/job-openings', ScrapeLmax, 'https://www.lmax.com'),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com"),
         CompanyItem('moonpay', 'https://jobs.lever.co/moonpay', ScrapeLever, 'https://www.moonpay.com'),
         CompanyItem('phantom', 'https://jobs.ashbyhq.com/phantom', ScrapeAshbyhq, 'https://phantom.com'),
@@ -74,7 +71,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("ledger", "https://jobs.lever.co/ledger", ScrapeLever, "https://www.ledger.com"),
         CompanyItem("immutable", "https://jobs.lever.co/immutable", ScrapeLever, "https://www.immutable.com"),
         CompanyItem("cere-network", "https://jobs.lever.co/cere-network", ScrapeLever, "https://cere.network"),
-        CompanyItem('matterlabs', 'https://jobs.ashbyhq.com/matter-labs', ScrapeLever, 'https://matter-labs.io'),
+        CompanyItem('matterlabs', 'https://jobs.ashbyhq.com/matter-labs', ScrapeAshbyhq, 'https://matter-labs.io'),
         CompanyItem("iftother", "https://boards.greenhouse.io/iftother", ScrapeGreenhouse,
                     "https://free.technology"),
         CompanyItem("wyndlabs", "https://boards.greenhouse.io/wyndlabs", ScrapeGreenhouse,
@@ -200,13 +197,9 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('stellar', 'https://boards.greenhouse.io/stellar', ScrapeGreenhouse,
                     'https://stellar.org'),
         CompanyItem("parity", "https://jobs.ashbyhq.com/parity", ScrapeAshbyhq, "https://www.parity.io"),
-        CompanyItem('coinmetrics', 'https://boards.greenhouse.io/coinmetrics', ScrapeGreenhouse,
-                    'https://coinmetrics.io'),
         CompanyItem("oplabs", "https://jobs.ashbyhq.com/oplabs", ScrapeAshbyhq, "https://www.oplabs.co"),
-        CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', ScrapeGreenhouse,
-                    'https://goldsky.com'),
-        CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
-                    'https://walletconnect.com'),
+        CompanyItem('walletconnect', 'https://apply.workable.com/reown', ScrapeWorkable,
+                    'https://reown.com'),
         CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', ScrapeWorkable,
                     'https://www.gobob.xyz/'),
         CompanyItem('prepo', 'https://apply.workable.com/prepo', ScrapeWorkable,
@@ -225,16 +218,12 @@ def get_company_list() -> list[CompanyItem | Any]:
                     "https://www.avalabs.org"),
         CompanyItem("aptoslabs", "https://boards.greenhouse.io/aptoslabs", ScrapeGreenhouse,
                     "https://aptoslabs.com"),
-        CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
-                    'https://www.iofinnet.com'),
         CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', ScrapeWorkable,
                     'https://almanak.co'),
         CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com'),
         CompanyItem('blast', 'https://jobs.ashbyhq.com/blast-io', ScrapeAshbyhq, 'https://blast.io'),
         CompanyItem('windranger', 'https://jobs.ashbyhq.com/windranger', ScrapeAshbyhq,
                     'https://windranger.io'),
-        CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", ScrapeGreenhouse,
-                    "https://fil.org"),
         CompanyItem('foundrydigital', 'https://boards.greenhouse.io/foundrydigital', ScrapeGreenhouse,
                     'https://foundrydigital.com'),
         CompanyItem('immunefi', 'https://boards.greenhouse.io/immunefi', ScrapeGreenhouse, 'https://immunefi.com'),
@@ -247,12 +236,10 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("oasisnetwork", "https://boards.greenhouse.io/oasisnetwork", ScrapeGreenhouse,
                     "https://oasisprotocol.org"),
         CompanyItem("ripple", "https://ripple.com/careers/all-jobs", ScrapeRipple, "https://ripple.com"),
-        CompanyItem("eigenlabs", "https://jobs.ashbyhq.com/eigen-labs", ScrapeGreenhouse,
+        CompanyItem("eigenlabs", "https://jobs.ashbyhq.com/eigen-labs", ScrapeAshbyhq,
                     "https://www.eigencloud.xyz"),
         CompanyItem("galaxydigitalservices", "https://boards.greenhouse.io/galaxydigitalservices",
                     ScrapeGreenhouse, "https://www.galaxy.com"),
-        CompanyItem("solana", "https://boards.greenhouse.io/solana", ScrapeGreenhouse,
-                    "https://solana.com"),
         CompanyItem("clearmatics", "https://job-boards.greenhouse.io/clearmatics", ScrapeGreenhouse,
                     "https://www.clearmatics.com"),
         CompanyItem('brave', 'https://job-boards.greenhouse.io/brave', ScrapeGreenhouse,

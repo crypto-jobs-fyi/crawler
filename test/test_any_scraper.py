@@ -14,13 +14,11 @@ driver = webdriver.Chrome(options=options)
 
 company_list = [
     CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', ScrapeWorkable,
-                'https://www.gobob.xyz/', 'Bitcoin L2'),
-    CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi',
-                'Web3 L2'),
-    CompanyItem('babylonchain', 'https://jobs.ashbyhq.com/babylonchain', ScrapeAshbyhq, 'https://babylonchain.io',
-                'Bitcoin L2'),
+                'https://www.gobob.xyz/'),
+    CompanyItem('ether-fi', 'https://jobs.lever.co/ether-fi', ScrapeLever, 'https://www.ether.fi'),
+    CompanyItem('babylonchain', 'https://jobs.ashbyhq.com/babylonchain', ScrapeAshbyhq, 'https://babylonchain.io'),
     CompanyItem("scroll", "https://boards.greenhouse.io/scrollio", ScrapeGreenhouse,
-                "https://scroll.io", 'WEB3 Layer2'),
+                "https://scroll.io"),
 ]
 
 for company in company_list:

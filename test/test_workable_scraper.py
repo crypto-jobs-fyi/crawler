@@ -7,19 +7,18 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 company_list = [
     CompanyItem('dydxopsdao', 'https://apply.workable.com/dydx-operations-trust', ScrapeWorkable,
-                'https://dydxopsdao.com', 'Web3 DAO'),
+                'https://dydxopsdao.com'),
     CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', ScrapeWorkable,
-                'https://almanak.co', 'Web3 Simulator'),
+                'https://almanak.co'),
     CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
-                'https://walletconnect.com', 'Web3 Wallet Infra'),
+                'https://walletconnect.com'),
     CompanyItem('bitstamp', 'https://apply.workable.com/bitstamp/#jobs', ScrapeWorkable,
-                'https://www.bitstamp.net', 'Exchange'),
+                'https://www.bitstamp.net'),
     CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
-                'https://smarttokenlabs.com', 'Web3 bridge'),
+                'https://smarttokenlabs.com'),
     CompanyItem('avantgarde', 'https://apply.workable.com/avantgarde', ScrapeWorkable,
-                'https://avantgarde.finance', 'Asset Management'),
-    CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io',
-                'Stable Coin')
+                'https://avantgarde.finance'),
+    CompanyItem('stably', 'https://apply.workable.com/stably', ScrapeWorkable, 'https://stably.io')
 ]
 # company_list.append(CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en', 'Exchange'))
 
