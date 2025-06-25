@@ -3,7 +3,7 @@ from src.company_list import get_company_list
 from src.company_list import get_company
 
 company_list = get_company_list()
-company_name_list = ['coinbase']
+company_name_list = ['binance']
 
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()
