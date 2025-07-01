@@ -1,3 +1,5 @@
+import time
+
 from caqui import asynchronous
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt, write_jobs
@@ -19,6 +21,8 @@ class ScrapeLever(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[LEVER] Scrap page: {web_page}')
         driver.get(web_page)
+        if company in ['binance', 'crypto']:
+            time.sleep(5)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
         result = []
         for elem in group_elements:
