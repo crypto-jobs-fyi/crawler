@@ -181,6 +181,8 @@ def get_company_list() -> list[CompanyItem | Any]:
                     "https://www.quicknode.com"),
         CompanyItem('21co', 'https://job-boards.greenhouse.io/21cotechnologies', ScrapeGreenhouse,
                     'https://www.21.co'),
+        CompanyItem('mara', 'https://job-boards.greenhouse.io/mara', ScrapeGreenhouse,
+                    'https://www.mara.com'),
         CompanyItem('xapo', 'https://boards.greenhouse.io/xapo61', ScrapeGreenhouse,
                     'https://www.xapobank.com'),
         CompanyItem("exodus54", "https://job-boards.greenhouse.io/exodus54", ScrapeGreenhouse,
