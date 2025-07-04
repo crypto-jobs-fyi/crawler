@@ -32,6 +32,9 @@ jobs:
       - name: Run crawler.py
         run: touch test.txt
 
+      - name: Run write_jobs_age.py
+        run: touch test2.txt
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
