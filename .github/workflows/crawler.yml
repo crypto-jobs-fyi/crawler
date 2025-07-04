@@ -30,10 +30,13 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
       - name: Run crawler.py
-        run: touch test.txt
+        run: python crawler.py
 
       - name: Run write_jobs_age.py
-        run: touch test2.txt
+        run: python write_jobs_age.py
+
+      - name: Run get_new_jobs.py
+        run: python get_new_jobs.py
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
@@ -45,3 +48,4 @@ jobs:
           title: 'Automated update from crawler.py'
           body: 'This PR contains changes made by running crawler.py via GitHub Actions.'
           delete-branch: true
+          reviewers: yury-dubinin
