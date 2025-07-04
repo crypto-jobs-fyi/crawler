@@ -27,3 +27,12 @@ jobs:
 
       - name: Run crawler.py
         run: python crawler.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'chore: update data via crawler.py [automated]'
+          branch: 'auto/crawler-update'
+          title: 'Automated update from crawler.py'
+          body: 'This PR contains changes made by running crawler.py via GitHub Actions.'
+          delete-branch: true
