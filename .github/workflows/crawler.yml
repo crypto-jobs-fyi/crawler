@@ -1,13 +1,9 @@
 name: Run Crawler
 
 on:
+  schedule:
+    - cron: '0 8 * * *'
   workflow_dispatch:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
 
 permissions:
   contents: write
