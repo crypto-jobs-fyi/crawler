@@ -43,6 +43,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: update data via crawler.py [automated]'
+          base: main
           branch: 'auto/crawler-update'
           title: 'Automated update from crawler.py'
           body: 'This PR contains changes made by running crawler.py via GitHub Actions.'
