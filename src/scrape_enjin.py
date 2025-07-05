@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 
-from src.scrape_it import ScrapeIt, write_jobs
+from src.scrape_it import ScrapeIt
 
 
 class ScrapeEnjin(ScrapeIt):
@@ -25,5 +25,4 @@ class ScrapeEnjin(ScrapeIt):
             }
             result.append(job)
         print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
-        write_jobs(result)
         return result

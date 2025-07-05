@@ -2,7 +2,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from src.scrape_it import ScrapeIt, write_jobs
+from src.scrape_it import ScrapeIt
 
 
 class ScrapeGemini(ScrapeIt):
@@ -40,5 +40,4 @@ class ScrapeGemini(ScrapeIt):
                 result.append(job)
         filter_result = [item for item in result if item["location"] != ""]
         print(f'[{self.name}] Scraped {len(filter_result)} jobs from {web_page}')
-        write_jobs(filter_result)
         return result

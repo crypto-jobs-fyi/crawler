@@ -1,7 +1,7 @@
-jsonschema==3.2.0
-selenium==4.15.1
-urllib3==2.5.0
-userpath==1.8.0
-pytest
-pytest-asyncio
-caqui==1.18.0
+jsonschema==4.24.0
+selenium==4.34.0
+urllib3==2.4.0
+userpath==1.9.2
+pytest==8.4.1
+pytest-asyncio==1.0.0
+caqui==3.0.4

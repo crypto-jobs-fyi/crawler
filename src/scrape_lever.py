@@ -2,7 +2,7 @@ import time
 
 from caqui import asynchronous
 from selenium.webdriver.common.by import By
-from src.scrape_it import ScrapeIt, write_jobs
+from src.scrape_it import ScrapeIt
 
 CSS_SELECTOR = "css"  # for ChromeDriver
 
@@ -47,7 +47,6 @@ class ScrapeLever(ScrapeIt):
             }
             result.append(job)
         print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
-        write_jobs(result)
         return result
 
 
@@ -83,5 +82,4 @@ class ScrapeLeverAsync(ScrapeIt):
             }
             result.append(job)
         print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
-        write_jobs(result)
         return result

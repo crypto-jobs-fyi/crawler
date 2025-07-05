@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from src.scrape_it import ScrapeIt, write_jobs
+from src.scrape_it import ScrapeIt
 import time
 
 
@@ -45,5 +45,4 @@ class ScrapeSmartrecruiters(ScrapeIt):
             }
             result.append(job)
         print(f'[SmartRecruiters] Found jobs: {len(group_elements)}, Scraped {len(result)} jobs from {web_page}')
-        write_jobs(result)
         return result
