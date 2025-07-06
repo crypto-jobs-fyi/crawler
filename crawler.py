@@ -3,6 +3,7 @@ from datetime import datetime
 
 from selenium import webdriver
 
+from src.scrape_it import write_jobs
 from src.company_list import get_company_list
 from src.company_list import write_companies
 
@@ -30,6 +31,7 @@ for company in company_list:
     n = n + 1
     try:
         jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
+        write_jobs(jobs_data)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:
