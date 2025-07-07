@@ -32,7 +32,6 @@ wip:
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://apply.workable.com/re7-capital/
-- https://www.zetachain.com/careers
 - https://careers.persistence.one/jobs
 - https://www.eotlabs.io/about-us#Vacancy-Section
 - https://www.coinex.com/en/careers/department
@@ -49,7 +48,6 @@ wip:
 - https://bullish.wd3.myworkdayjobs.com/Bullish
 - https://verum.capital/careers
 - https://careers.aplo.io
-- https://jobs.coinmarketcap.com
 - https://www.abra.com/careers
 - https://changenow.io/jobs
 - https://jobs.bitvavo.com/en/jobs
@@ -80,7 +78,7 @@ wip:
 - https://coin98.bamboohr.com/careers
 - https://bitflyer.com/en-jp/recruit#positions
 - https://livepeer.org/jobs
-- https://jobs.lever.co/kava
+- https://jobs.lever.co/kavalabs
 - https://www.blockchains.com/careers/#board
 - https://join.com/companies/21-finance
 - https://fantom.foundation/careers
@@ -93,7 +91,6 @@ wip:
 - https://bankless.pallet.com/jobs
 - https://www.certora.com/#careers
 - https://istari.vision/en/career/
-- https://celestia.pallet.com/jobs
 - https://gamescoin.jobs.personio.de/
 - https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
