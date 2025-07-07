@@ -25,6 +25,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/cohere"
     },
     {
+        "company_name": "reka",
+        "company_url": "https://www.reka.ai",
+        "jobs_url": "https://jobs.ashbyhq.com/reka"
+    },
+    {
         "company_name": "everai",
         "company_url": "https://www.everai.ai",
         "jobs_url": "https://jobs.ashbyhq.com/everai"
@@ -38,5 +43,10 @@
         "company_name": "blackforestlabs",
         "company_url": "https://bfl.ai",
         "jobs_url": "https://job-boards.greenhouse.io/blackforestlabs"
+    },
+    {
+        "company_name": "mistral",
+        "company_url": "https://mistral.ai",
+        "jobs_url": "https://jobs.lever.co/mistral"
     }
 ]

@@ -1,6 +1,7 @@
 import json
 from typing import Any
 
+from src.scrape_lever import ScrapeLever
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
@@ -14,9 +15,11 @@ def get_company_list() -> list[CompanyItem | Any]:
                     "https://www.perplexity.ai"),
         CompanyItem('characterai', 'https://jobs.ashbyhq.com/character', ScrapeAshbyhq, 'https://character.ai'),
         CompanyItem("cohere", "https://jobs.ashbyhq.com/cohere", ScrapeAshbyhq, "https://cohere.com"),
+        CompanyItem("reka", "https://jobs.ashbyhq.com/reka", ScrapeAshbyhq, "https://www.reka.ai"),
         CompanyItem("everai", "https://jobs.ashbyhq.com/everai", ScrapeAshbyhq, "https://www.everai.ai"),
         CompanyItem('invisibletech', 'https://job-boards.eu.greenhouse.io/invisibletech', ScrapeGreenhouse, 'https://www.invisible.co'),
         CompanyItem('blackforestlabs', 'https://job-boards.greenhouse.io/blackforestlabs', ScrapeGreenhouse, 'https://bfl.ai'),
+        CompanyItem("mistral", "https://jobs.lever.co/mistral", ScrapeLever, "https://mistral.ai"),
     ]
 
 
