@@ -250,6 +250,8 @@ def get_company_list() -> list[CompanyItem | Any]:
                     "https://www.clearmatics.com"),
         CompanyItem('brave', 'https://job-boards.greenhouse.io/brave', ScrapeGreenhouse,
                     'https://brave.com'),
+        CompanyItem('zetachain', 'https://job-boards.greenhouse.io/zetachain', ScrapeGreenhouse,
+                    'https://www.zetachain.com'),
     ]
 
 
