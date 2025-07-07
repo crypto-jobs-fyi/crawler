@@ -17,9 +17,13 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("cohere", "https://jobs.ashbyhq.com/cohere", ScrapeAshbyhq, "https://cohere.com"),
         CompanyItem("reka", "https://jobs.ashbyhq.com/reka", ScrapeAshbyhq, "https://www.reka.ai"),
         CompanyItem("everai", "https://jobs.ashbyhq.com/everai", ScrapeAshbyhq, "https://www.everai.ai"),
+        CompanyItem("elevenlabs", "https://jobs.ashbyhq.com/elevenlabs", ScrapeAshbyhq, "https://elevenlabs.io"),
         CompanyItem('invisibletech', 'https://job-boards.eu.greenhouse.io/invisibletech', ScrapeGreenhouse, 'https://www.invisible.co'),
         CompanyItem('blackforestlabs', 'https://job-boards.greenhouse.io/blackforestlabs', ScrapeGreenhouse, 'https://bfl.ai'),
         CompanyItem("mistral", "https://jobs.lever.co/mistral", ScrapeLever, "https://mistral.ai"),
+        CompanyItem("lovable", "https://jobs.ashbyhq.com/lovable", ScrapeAshbyhq, "https://lovable.dev"),
+        CompanyItem("windsurf", "https://jobs.ashbyhq.com/windsurf", ScrapeAshbyhq, "https://windsurf.com"),
+        CompanyItem("eliseai", "https://jobs.ashbyhq.com/eliseai", ScrapeAshbyhq, "https://www.eliseai.com"),
     ]
 
 
