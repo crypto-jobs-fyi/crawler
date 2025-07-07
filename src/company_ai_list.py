@@ -14,6 +14,7 @@ def get_company_list() -> list[CompanyItem | Any]:
                     "https://www.perplexity.ai"),
         CompanyItem('characterai', 'https://jobs.ashbyhq.com/character', ScrapeAshbyhq, 'https://character.ai'),
         CompanyItem("cohere", "https://jobs.ashbyhq.com/cohere", ScrapeAshbyhq, "https://cohere.com"),
+        CompanyItem("everai", "https://jobs.ashbyhq.com/everai", ScrapeAshbyhq, "https://www.everai.ai"),
         CompanyItem('invisibletech', 'https://job-boards.eu.greenhouse.io/invisibletech', ScrapeGreenhouse, 'https://www.invisible.co'),
     ]
 
