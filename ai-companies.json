@@ -35,6 +35,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/everai"
     },
     {
+        "company_name": "elevenlabs",
+        "company_url": "https://elevenlabs.io",
+        "jobs_url": "https://jobs.ashbyhq.com/elevenlabs"
+    },
+    {
         "company_name": "invisibletech",
         "company_url": "https://www.invisible.co",
         "jobs_url": "https://job-boards.eu.greenhouse.io/invisibletech"
@@ -48,5 +53,25 @@
         "company_name": "mistral",
         "company_url": "https://mistral.ai",
         "jobs_url": "https://jobs.lever.co/mistral"
+    },
+    {
+        "company_name": "lovable",
+        "company_url": "https://lovable.dev",
+        "jobs_url": "https://jobs.ashbyhq.com/lovable"
+    },
+    {
+        "company_name": "windsurf",
+        "company_url": "https://windsurf.com",
+        "jobs_url": "https://jobs.ashbyhq.com/windsurf"
+    },
+    {
+        "company_name": "eliseai",
+        "company_url": "https://www.eliseai.com",
+        "jobs_url": "https://jobs.ashbyhq.com/eliseai"
+    },
+    {
+        "company_name": "deepmind",
+        "company_url": "https://deepmind.google",
+        "jobs_url": "https://job-boards.greenhouse.io/deepmind"
     }
 ]
