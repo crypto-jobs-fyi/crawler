@@ -9,12 +9,14 @@ from src.company_ai_list import write_companies
 
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
+jobs_file = 'ai_jobs.json'
+companies_file = 'ai_companies.json'
 
 company_list = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
-write_companies('ai-companies.json')
+write_companies(companies_file)
 
-with open('ai-jobs.json', 'w') as f:
+with open(jobs_file, 'w') as f:
     f.write('{}')
 
 # setup headless webdriver
@@ -34,7 +36,7 @@ for company in company_list:
     n = n + 1
     try:
         jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-        write_jobs(jobs_data, 'ai-jobs.json')
+        write_jobs(jobs_data, jobs_file)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception as e:

@@ -36,6 +36,14 @@ def get_jobs(driver, company):
 class ScrapeGreenhouse(ScrapeIt):
     name = 'GREENHOUSE'
 
+    def has_next_page(self, driver):
+        next_page = driver.find_elements(By.XPATH, '//button[@aria-label="Next page" and @aria-disabled="false"]')
+        if len(next_page) > 0:
+            print(f'[{self.name}] Next page found, click and scrape more jobs...')
+            driver.execute_script("arguments[0].click();", next_page[0])
+            time.sleep(2)
+        return len(next_page) > 0
+
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
@@ -47,12 +55,8 @@ class ScrapeGreenhouse(ScrapeIt):
             time.sleep(3)
             driver.switch_to.frame(iframe[0])
             time.sleep(5)
-        next_page = driver.find_elements(By.XPATH, '//button[@aria-label="Next page" and @aria-disabled="false"]')
         result = get_jobs(driver, company)
-        if len(next_page) > 0:
-            print('[GREENHOUSE] Next page found, scraping more jobs...')
-            driver.execute_script("arguments[0].click();", next_page[0])
-            time.sleep(2)
+        while self.has_next_page(driver):
             result += get_jobs(driver, company)
         print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
         return result
