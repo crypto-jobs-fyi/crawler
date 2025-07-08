@@ -20,7 +20,7 @@ def get_jobs(driver, company):
     print(f'[GREENHOUSE] Found {len(group_elements)} jobs. Scraping jobs...')
     for elem in group_elements:
         link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
-        location_elem = elem.find_element(By.XPATH, '//p[contains(@class,"metadata")]')
+        location_elem = elem.find_element(By.CSS_SELECTOR, 'p[class*="body--metadata"]')
         job_url = link_elem.get_attribute('href')
         location = location_elem.text
         job_name = link_elem.text
