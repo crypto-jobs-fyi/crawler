@@ -9,6 +9,7 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 
 def get_company_list() -> list[CompanyItem | Any]:
     return [
+        CompanyItem('anthropic', 'https://job-boards.greenhouse.io/anthropic', ScrapeGreenhouse, 'https://www.anthropic.com'),
         CompanyItem('groq', 'https://job-boards.greenhouse.io/groq', ScrapeGreenhouse, 'https://groq.com'),
         CompanyItem('GPTZero', 'https://jobs.ashbyhq.com/GPTZero', ScrapeAshbyhq, 'https://gptzero.me'),
         CompanyItem("perplexityai", "https://job-boards.greenhouse.io/perplexityai", ScrapeGreenhouse,
