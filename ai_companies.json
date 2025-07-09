@@ -30,6 +30,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/reka"
     },
     {
+        "company_name": "sesame",
+        "company_url": "https://www.sesame.com",
+        "jobs_url": "https://jobs.ashbyhq.com/sesame"
+    },
+    {
         "company_name": "everai",
         "company_url": "https://www.everai.ai",
         "jobs_url": "https://jobs.ashbyhq.com/everai"
@@ -78,5 +83,15 @@
         "company_name": "scaleai",
         "company_url": "https://scale.com",
         "jobs_url": "https://job-boards.greenhouse.io/scaleai"
+    },
+    {
+        "company_name": "arizeai",
+        "company_url": "https://arize.com",
+        "jobs_url": "https://job-boards.greenhouse.io/arizeai"
+    },
+    {
+        "company_name": "xai",
+        "company_url": "https://x.ai",
+        "jobs_url": "https://job-boards.greenhouse.io/xai"
     }
 ]
