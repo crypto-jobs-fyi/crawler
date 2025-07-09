@@ -1,5 +1,15 @@
 [
     {
+        "company_name": "anthropic",
+        "company_url": "https://www.anthropic.com",
+        "jobs_url": "https://job-boards.greenhouse.io/anthropic"
+    },
+    {
+        "company_name": "openai",
+        "company_url": "https://openai.com",
+        "jobs_url": "https://jobs.ashbyhq.com/openai"
+    },
+    {
         "company_name": "groq",
         "company_url": "https://groq.com",
         "jobs_url": "https://job-boards.greenhouse.io/groq"

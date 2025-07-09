@@ -41,11 +41,12 @@ class ScrapeGreenhouse(ScrapeIt):
         if len(next_page) > 0:
             print(f'[{self.name}] Next page found, click and scrape more jobs...')
             driver.execute_script("arguments[0].click();", next_page[0])
-            time.sleep(2)
+            time.sleep(3)
         return len(next_page) > 0
 
     def getJobs(self, driver, web_page, company) -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
+        driver.implicitly_wait(5)
         driver.get(web_page)
         if company == 'bitcoin':
             time.sleep(5)
