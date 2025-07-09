@@ -10,6 +10,7 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 def get_company_list() -> list[CompanyItem | Any]:
     return [
         CompanyItem('flex', 'https://job-boards.greenhouse.io/flex', ScrapeGreenhouse, 'https://getflex.com'),
+        CompanyItem('Box', 'https://job-boards.greenhouse.io/boxinc', ScrapeGreenhouse, 'https://www.box.com'),
         CompanyItem('Aven', 'https://jobs.ashbyhq.com/Aven', ScrapeAshbyhq, 'https://www.aven.com'),
         CompanyItem('Ivy', 'https://jobs.ashbyhq.com/get-ivy', ScrapeAshbyhq, 'https://www.getivy.io'),
         CompanyItem("moneybox", "https://jobs.lever.co/moneyboxapp", ScrapeLever, "https://www.moneyboxapp.com"),
