@@ -1,7 +1,7 @@
 import json
-jobs_file = 'jobs.json'
-jobs_age_file = 'jobs_age.json'
-jobs_new_file = 'jobs_new.json'
+jobs_file = 'ai_jobs.json'
+jobs_age_file = 'ai_jobs_age.json'
+jobs_new_file = 'ai_jobs_new.json'
 job_age_number = 3  # Number of days to consider a job as new
 
 with open(jobs_file, 'r') as jobs:
