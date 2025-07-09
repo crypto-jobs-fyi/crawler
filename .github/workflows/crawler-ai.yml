@@ -31,6 +31,9 @@ jobs:
       - name: Run write_ai_jobs_age.py
         run: python write_ai_jobs_age.py
 
+      - name: Run get_new_ai_jobs.py
+        run: python get_new_ai_jobs.py
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
