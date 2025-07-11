@@ -2,9 +2,21 @@
     "data": [
         {
             "company": "anthropic",
+            "title": "Capacity Engineer, ComputeNew\nSan Francisco, CA | New York City, NY | Seattle, WA",
+            "location": "Ca | New York City Wa Ny | Seattle San Francisco",
+            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4801218008' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anthropic",
             "title": "Corporate CounselNew\nSan Francisco, CA",
-            "location": "San Francisco Ca",
+            "location": "Ca San Francisco",
             "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4799651008' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anthropic",
+            "title": "Enterprise Account Executive, DOD/ICNew\nWashington, DC",
+            "location": "Dc Washington",
+            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4773944008' target='_blank' >Apply</a>"
         },
         {
             "company": "openai",
@@ -14,9 +26,45 @@
         },
         {
             "company": "openai",
+            "title": "Enterprise Product Manager, EPM & Consolidation Solutions",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/ac2e172b-faec-4111-b844-b0dc655b4cec' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Customer Success Manager, Gov - Washington, DC",
+            "location": "Washington, Dc",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/63f0b20f-b5a3-459f-b775-c53514304f7d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Engagement Manager - NYC",
+            "location": "New York City",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/4c662489-e494-45db-aa88-44d657864bae' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Forward Deployed Engineer - Dublin",
+            "location": "Dublin, Ireland",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/b40efa93-da3c-4593-bc98-03d203cd0488' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Forward Deployed Engineer - Munich",
+            "location": "Munich, Germany",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/05223b5a-5ff1-4fe7-9f97-4ef7fc68b8ef' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
             "title": "Market Researcher, Product Marketing",
             "location": "San Francisco",
             "link": "<a href='https://jobs.ashbyhq.com/openai/8278a46a-d528-4eb8-8b9c-4dac4cee7a66' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Sales Strategy & Operations, APAC",
+            "location": "Singapore",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/ad0b556a-422b-4f71-a972-8bda00593682' target='_blank' >Apply</a>"
         },
         {
             "company": "openai",
@@ -25,10 +73,28 @@
             "link": "<a href='https://jobs.ashbyhq.com/openai/61f0b6a2-92e6-4b75-9522-2590f0e76a28' target='_blank' >Apply</a>"
         },
         {
+            "company": "openai",
+            "title": "Design Execution Manager - Stargate",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/ac0b4e01-2c77-4de8-8d8a-ddaa0242cd33' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Technical Program Manager - People Innovation",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/4732bfae-2d44-4c52-887a-686c7263fdc9' target='_blank' >Apply</a>"
+        },
+        {
             "company": "groq",
             "title": "Staff Thermal Test Engineer - Data Center Cooling New\nPalo Alto, CA (Hybrid)",
-            "location": "Ca (Hybrid) Palo Alto",
+            "location": "Palo Alto Ca (Hybrid)",
             "link": "<a href='https://job-boards.greenhouse.io/groq/jobs/6644181003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cohere",
+            "title": "Engineering Program Manager, North",
+            "location": "United States; United Kingdom; Canada; London; Toronto; New York; Montreal",
+            "link": "<a href='https://jobs.ashbyhq.com/cohere/929b6c8e-a47c-4512-bb17-99fa9581f23e' target='_blank' >Apply</a>"
         },
         {
             "company": "everai",
@@ -43,16 +109,16 @@
             "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/5a4ff3e0-417d-4013-a78f-85849537f048' target='_blank' >Apply</a>"
         },
         {
-            "company": "mistral",
-            "title": "Account Manager - Public sector (Luxembourg)",
-            "location": "Luxembourg Remote",
-            "link": "<a href='https://jobs.lever.co/mistral/6c0a0223-5960-4273-b48d-0b7176a5dbdf' target='_blank' >Apply</a>"
+            "company": "elevenlabs",
+            "title": "Data Scientist",
+            "location": "Remote; New York",
+            "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/d06cb81a-e27d-424e-97b2-8fe0fb483343' target='_blank' >Apply</a>"
         },
         {
-            "company": "mistral",
-            "title": "AI Solution Architect - Luxembourg",
-            "location": "Luxembourg On-Site",
-            "link": "<a href='https://jobs.lever.co/mistral/2b90cbcf-6983-4948-bfe6-b2b3ba59fe7d' target='_blank' >Apply</a>"
+            "company": "invisibletech",
+            "title": "Staff Software EngineerNew\nUnited States - Remote",
+            "location": "United States - Remote",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/invisibletech/jobs/4634336101' target='_blank' >Apply</a>"
         },
         {
             "company": "eliseai",
@@ -68,15 +134,9 @@
         },
         {
             "company": "deepmind",
-            "title": "Analytics Engineer\nMountain View, California, US",
-            "location": "Us Mountain View California",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/6383777' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "deepmind",
-            "title": "Creative TechnologistNew\nLondon, UK",
+            "title": "Administrative Business PartnerNew\nLondon, UK",
             "location": "London Uk",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7055032' target='_blank' >Apply</a>"
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7013986' target='_blank' >Apply</a>"
         },
         {
             "company": "deepmind",
@@ -86,9 +146,33 @@
         },
         {
             "company": "deepmind",
-            "title": "Research Scientist, Gemini Data - Mountain ViewNew\nMountain View, California, US",
-            "location": "Us Mountain View California",
+            "title": "Research Engineer, Applied Robotics\nMountain View, California, US",
+            "location": "California Mountain View Us",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/6763910' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Software Engineer, Applied RoboticsNew\nMountain View, California, US",
+            "location": "California Mountain View Us",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/6763890' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Scientist, Gemini Data New\nMountain View, California, US",
+            "location": "California Mountain View Us",
             "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7018214' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Technical Program Manager, GenAINew\nMountain View, California, US",
+            "location": "California Mountain View Us",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7062564' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "scaleai",
+            "title": "ICML 2025 - Job ApplicationNew\nSan Francisco, CA; Seattle, WA; New York, NY",
+            "location": "Ny Ca; Seattle Wa; New York San Francisco",
+            "link": "<a href='https://job-boards.greenhouse.io/scaleai/jobs/4584835005' target='_blank' >Apply</a>"
         },
         {
             "company": "xai",
@@ -98,69 +182,15 @@
         },
         {
             "company": "xai",
-            "title": "React Frontend Engineer - grok.com & APINew\nLondon, UK",
-            "location": "London Uk",
+            "title": "React Frontend Engineer - grok.com & APINew\nLondon, UK; San Francisco & Palo Alto, CA",
+            "location": "London Ca Uk; San Francisco & Palo Alto",
             "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4784549007' target='_blank' >Apply</a>"
         },
         {
             "company": "xai",
-            "title": "Rust/C++ Backend Engineer - grok.com & APINew\nLondon, UK",
-            "location": "London Uk",
+            "title": "Rust/C++ Backend Engineer - grok.com & APINew\nLondon, UK & Palo Alto, CA",
+            "location": "London Ca Uk & Palo Alto",
             "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4784548007' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "xai",
-            "title": "Rust/C++ Backend Engineer - grok.com & APINew\nPalo Alto, CA",
-            "location": "Ca Palo Alto",
-            "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4784550007' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Staff Backend Software Engineer\nRemote in Europe",
-            "location": "Remote in Europe",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4251682101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Staff Frontend Software Engineer\nRemote in Europe",
-            "location": "Remote in Europe",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4250181101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Staff Python Software Engineer\nRemote in Europe",
-            "location": "Remote in Europe",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4533761101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Interim Chief Financial Officer\nRemote",
-            "location": "Remote",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4605762101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Senior Technical Recruiter\nRemote in Europe",
-            "location": "Remote in Europe",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4598940101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Technical Product Manager\nRemote in Europe",
-            "location": "Remote in Europe",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4422586101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Principal Solutions Architect\nUSA",
-            "location": "USA",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4465741101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "neptuneai",
-            "title": "Principal Solutions Architect\nCanada",
-            "location": "Canada",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/neptuneai/jobs/4541860101' target='_blank' >Apply</a>"
         },
         {
             "company": "n8n",
@@ -218,6 +248,18 @@
         },
         {
             "company": "n8n",
+            "title": "Enterprise Account Executive Northern Europe (Remote UKI/Netherlands/Nordics)",
+            "location": "London Office; Netherlands; Ireland; United Kingdom; Sweden; Finland; Denmark",
+            "link": "<a href='https://jobs.ashbyhq.com/n8n/8aef7ce8-c628-4974-86ce-dbbc9f127f95' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "n8n",
+            "title": "Mid-Market Account Executive (Hybrid NYC/Boston)",
+            "location": "New York; United States",
+            "link": "<a href='https://jobs.ashbyhq.com/n8n/08186999-147d-44d5-ac65-53018eb13d47' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "n8n",
             "title": "Sales Development Representative (London)",
             "location": "London Office; United Kingdom",
             "link": "<a href='https://jobs.ashbyhq.com/n8n/182e3bd6-8391-4d8b-9f1b-993491f38fa8' target='_blank' >Apply</a>"
@@ -229,15 +271,9 @@
             "link": "<a href='https://jobs.ashbyhq.com/n8n/dc979fea-0a44-411f-a49b-8f71ccfca627' target='_blank' >Apply</a>"
         },
         {
-            "company": "n8n",
-            "title": "Solutions Engineer (Hybrid NYC)",
-            "location": "New York; United States",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/919c1a10-3d6b-4719-9fc9-037c534800ff' target='_blank' >Apply</a>"
-        },
-        {
             "company": "palantir",
             "title": "Administrative Business Partner",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/3d315de7-b94f-4c29-bcbb-63d51b00325a' target='_blank' >Apply</a>"
         },
         {
@@ -249,25 +285,25 @@
         {
             "company": "palantir",
             "title": "Administrative Business Partner",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/ac978161-6f46-4f6b-ad9e-a258e642751c' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Administrative Business Partner",
-            "location": "Abu Dhabi Hybrid  United Arab Emirates",
+            "location": "Hybrid  Abu Dhabi United Arab Emirates",
             "link": "<a href='https://jobs.lever.co/palantir/e2dd3539-e1aa-4fc9-ab8b-f7dea997e51b' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Executive Team Assistant",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/e3d8dd16-5b86-470e-a5e9-7872627003ad' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Capture and Proposal Strategist - US Defense",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/4696ca2d-ddc7-4c58-9d74-6bc388d301a4' target='_blank' >Apply</a>"
         },
         {
@@ -279,13 +315,13 @@
         {
             "company": "palantir",
             "title": "Deal Team - Business Affairs",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/a7a77fc5-9f68-4ded-aad7-4814d96cb316' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deal Team - Business Affairs",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/2add8e90-c65a-4684-8c0d-6dfa7a541871' target='_blank' >Apply</a>"
         },
         {
@@ -297,13 +333,13 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Enablement Engineer - Customer Success",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/00c2c97b-8514-4617-9883-e53e486b6dcd' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Site Reliability Engineer - US Government",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/a194220b-684a-4b4e-b918-1f70154b464c' target='_blank' >Apply</a>"
         },
         {
@@ -315,7 +351,7 @@
         {
             "company": "palantir",
             "title": "International Commercial Sales Operations",
-            "location": "United Kingdom On-Site  London",
+            "location": "On-Site  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/5f46459b-7b4d-447b-9cf5-cbf6ba4e78c4' target='_blank' >Apply</a>"
         },
         {
@@ -327,7 +363,7 @@
         {
             "company": "palantir",
             "title": "Proposal Writer and Strategist - US Commercial",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/cc5263e6-56dd-4290-a45f-8499aaaac6ee' target='_blank' >Apply</a>"
         },
         {
@@ -339,7 +375,7 @@
         {
             "company": "palantir",
             "title": "Workplace Operations Analyst",
-            "location": "United Kingdom On-Site  London",
+            "location": "On-Site  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/a4d7e097-1e14-4ef5-bae8-38da88b68699' target='_blank' >Apply</a>"
         },
         {
@@ -363,13 +399,13 @@
         {
             "company": "palantir",
             "title": "Forward Deployed AI Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Engineer - Mixed Reality",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/96a0ce26-cf84-4fa8-934b-acc4363620b2' target='_blank' >Apply</a>"
         },
         {
@@ -381,31 +417,31 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Infrastructure Engineer - US Government",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Infrastructure Engineer - US Government",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/8fcae765-de9a-4990-ba84-e65b524d683b' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Australia Hybrid  Sydney",
+            "location": "Sydney Hybrid  Australia",
             "link": "<a href='https://jobs.lever.co/palantir/408f68f4-73a4-4c59-8937-93f5ca317864' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Hybrid  Norway Oslo",
+            "location": "Norway Hybrid  Oslo",
             "link": "<a href='https://jobs.lever.co/palantir/45c6c54f-c640-4fd1-9dc2-706ba1d79a06' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/5168e8fd-fec1-4fea-b7a1-81bdaea65850' target='_blank' >Apply</a>"
         },
         {
@@ -423,7 +459,7 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Netherlands Hybrid  Amsterdam",
+            "location": "Hybrid  Netherlands Amsterdam",
             "link": "<a href='https://jobs.lever.co/palantir/492a16bb-6b9f-457e-82c3-294e1a2c565d' target='_blank' >Apply</a>"
         },
         {
@@ -435,43 +471,37 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Denmark Hybrid  Copenhagen",
+            "location": "Hybrid  Denmark Copenhagen",
             "link": "<a href='https://jobs.lever.co/palantir/558f607f-79ef-4911-b2cf-6b05c3a61072' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Lithuania Vilnius On-Site",
+            "location": "On-Site  Lithuania Vilnius",
             "link": "<a href='https://jobs.lever.co/palantir/98b81271-9e15-40b7-8dce-0c62f24702f9' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Hybrid  Spain Madrid",
+            "location": "Spain Hybrid  Madrid",
             "link": "<a href='https://jobs.lever.co/palantir/cd62fd5c-31fd-488a-85be-25f2282ee9b7' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Hybrid  South Korea Seoul",
-            "link": "<a href='https://jobs.lever.co/palantir/1bb19522-3936-4adc-9ced-c3df8b5900b9' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "palantir",
-            "title": "Forward Deployed Software Engineer",
-            "location": "Chicago Hybrid  Il",
+            "location": "Il Hybrid  Chicago",
             "link": "<a href='https://jobs.lever.co/palantir/8c38feb7-7ca8-429e-9643-efffe2fe0428' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Abu Dhabi Hybrid  United Arab Emirates",
+            "location": "Hybrid  Abu Dhabi United Arab Emirates",
             "link": "<a href='https://jobs.lever.co/palantir/90aa8748-3fef-4e2b-9ea9-c4dc5f37f0d2' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer",
-            "location": "Dubai Hybrid  United Arab Emirates",
+            "location": "Hybrid  United Arab Emirates Dubai",
             "link": "<a href='https://jobs.lever.co/palantir/8148182c-6127-4689-b615-7815a94173bb' target='_blank' >Apply</a>"
         },
         {
@@ -483,25 +513,25 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer - Intel",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/34b3a697-6e22-4751-befd-0b7921abbd5f' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer - Japan Forward Deployed",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/8aba5995-653d-4805-96e8-24488e6abf37' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer - Korea Forward Deployed",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/a39bf84c-6648-4871-bd07-9b882d401c4c' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer - US Government",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/289ad049-7b4e-41e3-8a39-146fbeb6fb64' target='_blank' >Apply</a>"
         },
         {
@@ -519,7 +549,7 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer - US Government",
-            "location": "Nc Hybrid  Raleigh",
+            "location": "Hybrid  Raleigh Nc",
             "link": "<a href='https://jobs.lever.co/palantir/193438c8-5c25-40bb-a540-0c51ac7e9965' target='_blank' >Apply</a>"
         },
         {
@@ -537,7 +567,7 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer, Internship",
-            "location": "Australia Hybrid  Sydney",
+            "location": "Sydney Hybrid  Australia",
             "link": "<a href='https://jobs.lever.co/palantir/ffa836f8-1249-45c1-a3b4-d0597014ce66' target='_blank' >Apply</a>"
         },
         {
@@ -549,13 +579,13 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer, Internship - Defense Tech",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/cccfe1bd-f15b-4fe5-b044-c793e7961c1b' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer, Internship - US Government",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/e6ff8bf2-135e-474d-ad37-24f490ae1dd2' target='_blank' >Apply</a>"
         },
         {
@@ -579,7 +609,7 @@
         {
             "company": "palantir",
             "title": "Forward Deployed Software Engineer, New Grad - US Government",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/cbe90327-3e6e-451c-a54c-1d3cbcef5aeb' target='_blank' >Apply</a>"
         },
         {
@@ -591,19 +621,19 @@
         {
             "company": "palantir",
             "title": "Product Concept Designer - Defense",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/41523738-df52-450b-8e12-93b1470a5eaa' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Product Designer - US Government",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/dc02f308-bbcc-4163-b4fb-3f68efb2ce24' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Product Designer - US Government",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/010d1675-c88f-45db-8a65-27e92290bcbf' target='_blank' >Apply</a>"
         },
         {
@@ -627,13 +657,13 @@
         {
             "company": "palantir",
             "title": "3D Software Engineer - Application Development",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/5b38dcb4-f9e8-47fb-a9a1-1e13da2de23c' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Application Development",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/10dfc8bc-99ad-4ca2-ab76-853cb90a92c2' target='_blank' >Apply</a>"
         },
         {
@@ -645,13 +675,13 @@
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Defense",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/1345438c-ebfc-4fa5-b545-30c1414f317c' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Defense",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/a8174f9c-6f46-46b4-8e15-d1ff9e37c9eb' target='_blank' >Apply</a>"
         },
         {
@@ -669,25 +699,25 @@
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Infrastructure",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/f70cdff7-c62f-4b73-a136-909e5e3d1891' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Infrastructure",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/33bca75a-84d2-4023-afa2-7a9743f41d89' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Backend Software Engineer - Infrastructure",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/a6011eee-a903-4611-a5ff-78e4f9d9b8a4' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Embedded Software Engineer",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/49fb44ea-3621-4f78-9ccb-62317bc70703' target='_blank' >Apply</a>"
         },
         {
@@ -699,13 +729,13 @@
         {
             "company": "palantir",
             "title": "Full Stack Engineer - Mission Manager",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/8c7f921e-20d7-4a5f-b1ce-1c5bc45e43bc' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Full Stack Software Engineer - Apollo Platform",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/8b61f9fe-fadd-423f-9c69-60a9dd8b831f' target='_blank' >Apply</a>"
         },
         {
@@ -723,7 +753,7 @@
         {
             "company": "palantir",
             "title": "Full Stack Software Engineer - Application Development",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/c44510a1-9537-4c52-ae81-51546979fe47' target='_blank' >Apply</a>"
         },
         {
@@ -735,13 +765,13 @@
         {
             "company": "palantir",
             "title": "Senior Front End Software Engineer - Application Development",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/4e7d0732-f477-4c7a-aac9-abd62f8c9987' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Senior Software Engineer, Network Infrastructure",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/39c57909-ae76-4c86-9290-9fb50c689c4f' target='_blank' >Apply</a>"
         },
         {
@@ -753,7 +783,7 @@
         {
             "company": "palantir",
             "title": "Senior Software Engineer, Substrate",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/c38bb622-6f8e-43a1-8ae7-32291da328a8' target='_blank' >Apply</a>"
         },
         {
@@ -765,13 +795,13 @@
         {
             "company": "palantir",
             "title": "Senior Software Engineer, Substrate",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/b80d45be-7fe8-4a11-b159-65551320c61f' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer - Apollo Platform",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/afea07a8-2721-45e6-a9ca-6580f3f9783c' target='_blank' >Apply</a>"
         },
         {
@@ -783,7 +813,7 @@
         {
             "company": "palantir",
             "title": "Software Engineer - Developer Productivity",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/ba809804-6d03-4697-a8be-8704e99161b7' target='_blank' >Apply</a>"
         },
         {
@@ -801,13 +831,13 @@
         {
             "company": "palantir",
             "title": "Software Engineer - Environment Platform",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/cd2423c6-da68-430c-8be5-0ae7eea36497' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer - Frontline",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/07b5a214-2c83-4221-9d7c-397cabe527e2' target='_blank' >Apply</a>"
         },
         {
@@ -819,7 +849,7 @@
         {
             "company": "palantir",
             "title": "Software Engineer - Mission Manager",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/e168a922-a2f0-45d0-912c-678d66e15118' target='_blank' >Apply</a>"
         },
         {
@@ -837,19 +867,19 @@
         {
             "company": "palantir",
             "title": "Software Engineer, Internship",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer, Internship",
-            "location": "Seattle On-Site  Wa",
+            "location": "Seattle Wa On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/2fb19022-bb65-4af8-b6fa-31beb345c140' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer, Internship",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/bdcfb29f-4f27-42de-933f-7f83a359b9f0' target='_blank' >Apply</a>"
         },
         {
@@ -867,13 +897,13 @@
         {
             "company": "palantir",
             "title": "Software Engineer, Internship - Defense Tech",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/f17e98d0-046a-4e6e-9d65-ed0b12dd0ff7' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer, Internship - Defense Tech",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/a483f41b-0da9-42ea-8ed6-cbf6eb93cc6d' target='_blank' >Apply</a>"
         },
         {
@@ -897,7 +927,7 @@
         {
             "company": "palantir",
             "title": "Software Engineer, Internship - Production Infrastructure",
-            "location": "Seattle On-Site  Wa",
+            "location": "Seattle Wa On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/373367a9-3160-49d8-b7af-2efec062fad1' target='_blank' >Apply</a>"
         },
         {
@@ -909,7 +939,7 @@
         {
             "company": "palantir",
             "title": "Software Engineer, New Grad",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/dea9d3d5-75b2-4588-b7bd-585a47b79c8c' target='_blank' >Apply</a>"
         },
         {
@@ -927,13 +957,13 @@
         {
             "company": "palantir",
             "title": "Software Engineer, New Grad - Defense",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/f362d7aa-360d-4059-ab38-f482742693b3' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer, New Grad - Defense",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/18d901fc-93bb-4d18-9f04-c72031e20d79' target='_blank' >Apply</a>"
         },
         {
@@ -951,7 +981,7 @@
         {
             "company": "palantir",
             "title": "Software Engineer, New Grad - Production Infrastructure",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/4d5a144e-87ea-45e2-a68c-3fad590629af' target='_blank' >Apply</a>"
         },
         {
@@ -963,7 +993,7 @@
         {
             "company": "palantir",
             "title": "Web Application Developer - Defense",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/4255e21c-d0f2-4f57-b5db-1f65830d6425' target='_blank' >Apply</a>"
         },
         {
@@ -975,7 +1005,7 @@
         {
             "company": "palantir",
             "title": "Web Application Developer - Defense",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/96e4295f-3af7-48e5-a2c8-74622eaf5587' target='_blank' >Apply</a>"
         },
         {
@@ -987,25 +1017,25 @@
         {
             "company": "palantir",
             "title": "Deployment Strategist",
-            "location": "Australia Hybrid  Sydney",
+            "location": "Sydney Hybrid  Australia",
             "link": "<a href='https://jobs.lever.co/palantir/31d461a1-4327-4317-8555-04e2a2fe74b8' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deployment Strategist",
-            "location": "Hybrid  Spain Madrid",
+            "location": "Spain Hybrid  Madrid",
             "link": "<a href='https://jobs.lever.co/palantir/6a487cce-e5f9-4815-9748-8de7b5e2c990' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deployment Strategist",
-            "location": "Hybrid  South Korea Seoul",
+            "location": "South Korea Hybrid  Seoul",
             "link": "<a href='https://jobs.lever.co/palantir/2e193bdf-e668-49c1-ba32-66cc1aa131a4' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deployment Strategist",
-            "location": "Chicago Hybrid  Il",
+            "location": "Il Hybrid  Chicago",
             "link": "<a href='https://jobs.lever.co/palantir/bc087dba-1e41-49e0-83bd-36832122363d' target='_blank' >Apply</a>"
         },
         {
@@ -1023,7 +1053,7 @@
         {
             "company": "palantir",
             "title": "Deployment Strategist - Intel",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/e5b8c2f0-aa26-4615-ba92-f4b5c175c112' target='_blank' >Apply</a>"
         },
         {
@@ -1035,13 +1065,13 @@
         {
             "company": "palantir",
             "title": "Deployment Strategist - US Government",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/ead4e034-e6e1-4993-86d1-ad9b8e2933a5' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deployment Strategist - US Government",
-            "location": "Nc Hybrid  Raleigh",
+            "location": "Hybrid  Raleigh Nc",
             "link": "<a href='https://jobs.lever.co/palantir/101ebfbd-50a9-44ed-8bb8-e92a4e601289' target='_blank' >Apply</a>"
         },
         {
@@ -1059,7 +1089,7 @@
         {
             "company": "palantir",
             "title": "Deployment Strategist - Warp Speed",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/79e53261-1ebc-4fe3-919d-02e18e95276f' target='_blank' >Apply</a>"
         },
         {
@@ -1071,13 +1101,13 @@
         {
             "company": "palantir",
             "title": "Ceph Infrastructure Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/3900d827-5175-4453-be3b-e7fab0ed01f4' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Information System Security Engineer - US Government",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/77aeb882-b8cf-4e52-89ec-a64b3ae0ed87' target='_blank' >Apply</a>"
         },
         {
@@ -1089,19 +1119,19 @@
         {
             "company": "palantir",
             "title": "Site Reliability Engineer",
-            "location": "Hybrid  Spain Madrid",
+            "location": "Spain Hybrid  Madrid",
             "link": "<a href='https://jobs.lever.co/palantir/be8afb3f-af79-4e03-a4b5-6426ba6504b8' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Site Reliability Engineer - US Government",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Accounts Payable Manager",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/999e1910-d51d-459d-91c8-02e931605f98' target='_blank' >Apply</a>"
         },
         {
@@ -1113,13 +1143,13 @@
         {
             "company": "palantir",
             "title": "Accounts Receivable Collections Specialist",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/35bd82b7-9c79-4633-a8c1-f56fa5a93289' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Financial Analyst - Compensation",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/41c2ee44-4131-4a7e-9ea4-8514e4950e33' target='_blank' >Apply</a>"
         },
         {
@@ -1130,44 +1160,62 @@
         },
         {
             "company": "palantir",
+            "title": "Financial Reporting and Technical Accounting Senior Analyst",
+            "location": "Hybrid  Co Denver",
+            "link": "<a href='https://jobs.lever.co/palantir/11962315-bd6e-417a-9aa1-0ce67fdbb426' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
+            "title": "Financial Reporting and Technical Accounting Senior Analyst",
+            "location": "Ca Hybrid  Palo Alto",
+            "link": "<a href='https://jobs.lever.co/palantir/b8e18c8e-8d2d-48f4-ba45-520d127f4878' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
+            "title": "Financial Reporting and Technical Accounting Senior Analyst",
+            "location": "Seattle Hybrid  Wa",
+            "link": "<a href='https://jobs.lever.co/palantir/0167f5d1-37c6-413a-b331-c2f0154f2ddd' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
             "title": "Procurement Sourcing Specialist",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/0ad89060-50ef-475e-9dcf-040576a3ef94' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Procurement Sourcing Specialist",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/45c8e07f-e8ee-4df2-b58a-b102167e3935' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Procurement Sourcing Specialist",
-            "location": "Tx Hybrid  Austin",
+            "location": "Austin Hybrid  Tx",
             "link": "<a href='https://jobs.lever.co/palantir/18f32505-1c11-4741-93d7-0967762776c5' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Revenue Manager",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/de9cb53c-9085-4a8d-8089-43b9ea90b3d6' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Revenue Manager",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/9acfcd41-7a62-4e88-8542-fabc77bc5b30' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Senior Revenue Accountant",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/ee898794-f9cc-45f1-8a40-9a49e7db62bd' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Senior Revenue Accountant",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/5b4f55a5-e883-445e-853d-7e0d40eec055' target='_blank' >Apply</a>"
         },
         {
@@ -1179,13 +1227,13 @@
         {
             "company": "palantir",
             "title": "Application Security Engineer",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/86641a6e-5abb-40c5-8cc3-d481f70350d7' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Application Security Engineer",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/a5fdd5ec-d1f3-4837-83af-161b003931dd' target='_blank' >Apply</a>"
         },
         {
@@ -1197,13 +1245,13 @@
         {
             "company": "palantir",
             "title": "Application Security Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/205c3184-4272-41a9-a1e2-5352d4d00910' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Application Security Engineer",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/f8df815c-6a38-4d57-b75f-c4262b9311b4' target='_blank' >Apply</a>"
         },
         {
@@ -1215,19 +1263,19 @@
         {
             "company": "palantir",
             "title": "Compliance Analyst",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/4d3986f0-4c01-4327-a0e4-e7d9bc7bc0c3' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Compliance Analyst",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/6c462c5d-2e28-41ee-b77c-3a63bb9aee54' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Compliance Analyst",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/bd3ac9d8-6afb-4e9c-b513-a38cfa476550' target='_blank' >Apply</a>"
         },
         {
@@ -1239,7 +1287,7 @@
         {
             "company": "palantir",
             "title": "Federal Compliance Engineer",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/12de56f8-a233-4be2-a013-40896f3f3440' target='_blank' >Apply</a>"
         },
         {
@@ -1257,25 +1305,25 @@
         {
             "company": "palantir",
             "title": "Federal Compliance Manager",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/fcc7bc49-d9f0-480e-859e-67a10c371c22' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Federal Compliance Manager",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/a108d13c-4acd-47d8-bf41-828d26eaa2c1' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Frontend Software Engineer - Identity and Access Management",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/b2db3183-d403-4e10-98d1-6f9bdbbd1714' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Frontend Software Engineer - Identity and Access Management",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/aacb8c5a-c9df-445f-bda9-b0b0523b0a9c' target='_blank' >Apply</a>"
         },
         {
@@ -1293,43 +1341,43 @@
         {
             "company": "palantir",
             "title": "Information Security Engineer",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/1124402c-2088-40c6-b6aa-b9ef7777519b' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Information Security Engineer",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/36703f67-6fae-445c-9277-f946121faaa0' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Offensive Security Engineer",
-            "location": "Hybrid  Ca Palo Alto",
+            "location": "Ca Hybrid  Palo Alto",
             "link": "<a href='https://jobs.lever.co/palantir/81decd45-4b82-4201-a24f-25746b5d8caa' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Offensive Security Engineer",
-            "location": "Hybrid  Seattle Wa",
+            "location": "Seattle Hybrid  Wa",
             "link": "<a href='https://jobs.lever.co/palantir/c7f429e1-8732-4287-97bd-23d64cc4de3d' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Offensive Security Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/10bf4302-6fea-4ef8-89cb-ab032f642c48' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Principal Infrastructure Security Engineer - Platform",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/ee3bb5e5-4698-489f-91d4-3a72038f51fe' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Senior Software Engineer - Identity and Access Management",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/f05c61e4-217c-477d-97bb-f1d495971140' target='_blank' >Apply</a>"
         },
         {
@@ -1341,13 +1389,13 @@
         {
             "company": "palantir",
             "title": "Senior Software Engineer - Identity and Access Management",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/8bfd7f36-f006-4e2e-a093-47145f099b5f' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Deal Operations Administrator",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/8de3d5d0-8c0a-40ee-9f57-a75165c98689' target='_blank' >Apply</a>"
         },
         {
@@ -1365,19 +1413,37 @@
         {
             "company": "palantir",
             "title": "Deal Support Specialist",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/4b2e7103-1b1f-4eb4-b747-9d8cc55294b6' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
+            "title": "Legal Counsel",
+            "location": "D.C. Hybrid  Washington",
+            "link": "<a href='https://jobs.lever.co/palantir/07103705-6312-4bb5-b088-4aa853587277' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
+            "title": "Legal Counsel",
+            "location": "New York Ny Hybrid",
+            "link": "<a href='https://jobs.lever.co/palantir/c9e225fc-5497-4404-a7fc-b678ca3e630e' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
+            "title": "Legal Counsel",
+            "location": "Ca Hybrid  Palo Alto",
+            "link": "<a href='https://jobs.lever.co/palantir/697f0869-398c-464a-ac51-02cace820b3b' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "palantir",
             "title": "Legal Operations Assistant",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/f9d5d76c-2531-40c0-8511-bc9374571ad1' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Legal Operations Specialist",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/62be3272-0228-42c4-ae16-5f2daee0fb7f' target='_blank' >Apply</a>"
         },
         {
@@ -1389,7 +1455,7 @@
         {
             "company": "palantir",
             "title": "Procurement Contracts Manager",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/5fab038f-b8cf-4bcb-97e3-63d2b991cf6b' target='_blank' >Apply</a>"
         },
         {
@@ -1407,7 +1473,7 @@
         {
             "company": "palantir",
             "title": "Industrial Security Specialist",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/320bc538-d707-4976-9ad1-44568c0a8ab9' target='_blank' >Apply</a>"
         },
         {
@@ -1419,7 +1485,7 @@
         {
             "company": "palantir",
             "title": "Site Reliability Operations Analyst - US Government",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/38758e88-5884-4a11-98ac-d23cab51bc7a' target='_blank' >Apply</a>"
         },
         {
@@ -1431,7 +1497,7 @@
         {
             "company": "palantir",
             "title": "Support Engineer - US Government",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/ad443fe3-f1ae-4873-b2c3-09e8d39c3c2c' target='_blank' >Apply</a>"
         },
         {
@@ -1443,13 +1509,13 @@
         {
             "company": "palantir",
             "title": "Technical Program Manager (TPM) - Defense",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/bd16f7ad-3bee-48fd-9902-b3ee9698b608' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Global Mobility Specialist",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/20a15c18-8f49-4774-aa1b-a9fe66d54d39' target='_blank' >Apply</a>"
         },
         {
@@ -1461,13 +1527,13 @@
         {
             "company": "palantir",
             "title": "People Partner",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/99ab8dbd-fd69-4216-8c2a-09a202a1cb17' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "People Partner",
-            "location": "United Kingdom On-Site  London",
+            "location": "On-Site  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/63ebbea7-1899-4727-8a35-26488d8741d9' target='_blank' >Apply</a>"
         },
         {
@@ -1479,19 +1545,19 @@
         {
             "company": "palantir",
             "title": "Data Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/53b49bbe-6257-45cc-8929-96b11e462512' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Site Reliability Engineer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/f703609b-fc9d-4fd0-ba06-7ca8105b5380' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Software Engineer - Frontend Developer Productivity",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/c72c0f0f-7384-459c-adf3-293ef909c6c1' target='_blank' >Apply</a>"
         },
         {
@@ -1503,13 +1569,13 @@
         {
             "company": "palantir",
             "title": "Technical Writer",
-            "location": "United Kingdom Hybrid  London",
+            "location": "Hybrid  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/c9426c38-9c6f-44bc-acad-bb2e6ed315f6' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Incident Management Engineer",
-            "location": "Australia Hybrid  Sydney",
+            "location": "Sydney Hybrid  Australia",
             "link": "<a href='https://jobs.lever.co/palantir/a263703e-5875-4af5-9196-4c40808d2611' target='_blank' >Apply</a>"
         },
         {
@@ -1527,7 +1593,7 @@
         {
             "company": "palantir",
             "title": "Talent Strategist",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/ef824a5d-0932-4f96-9347-2e66cd5a7b83' target='_blank' >Apply</a>"
         },
         {
@@ -1545,13 +1611,13 @@
         {
             "company": "palantir",
             "title": "Account Executive",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/3358fc1e-57ce-4aea-92dc-f334ace89784' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Account Executive - Builders",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/a7f61abe-0436-4d5a-9316-057628259ab1' target='_blank' >Apply</a>"
         },
         {
@@ -1569,7 +1635,7 @@
         {
             "company": "palantir",
             "title": "Development Strategist",
-            "location": "Hybrid  D.C. Washington",
+            "location": "D.C. Hybrid  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/64602c2e-4581-46eb-822d-e2172ee85937' target='_blank' >Apply</a>"
         },
         {
@@ -1587,7 +1653,7 @@
         {
             "company": "palantir",
             "title": "Support Specialist",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/242321ea-cd7a-4240-bf23-2f995975ab5a' target='_blank' >Apply</a>"
         },
         {
@@ -1599,13 +1665,13 @@
         {
             "company": "palantir",
             "title": "Systems Engineer",
-            "location": "On-Site  Ca Palo Alto",
+            "location": "Ca Palo Alto On-Site",
             "link": "<a href='https://jobs.lever.co/palantir/e1d6117e-2ee0-4cf6-8040-256c3009389f' target='_blank' >Apply</a>"
         },
         {
             "company": "palantir",
             "title": "Systems Engineer",
-            "location": "On-Site  D.C. Washington",
+            "location": "D.C. On-Site  Washington",
             "link": "<a href='https://jobs.lever.co/palantir/da426d8b-5963-42e5-9b19-84649cb519cc' target='_blank' >Apply</a>"
         },
         {
@@ -1617,7 +1683,7 @@
         {
             "company": "palantir",
             "title": "Systems Engineer",
-            "location": "United Kingdom On-Site  London",
+            "location": "On-Site  United Kingdom London",
             "link": "<a href='https://jobs.lever.co/palantir/1ec0ff9f-3d9d-43bc-8aa0-005a887513d0' target='_blank' >Apply</a>"
         },
         {
