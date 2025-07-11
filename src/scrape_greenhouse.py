@@ -12,7 +12,7 @@ def clean_location(location):
     joined = ' '.join(locations).lower()
     if joined.count('remote') > 1:
         return joined.replace('remote', '', 1).title()
-    return joined.strip().strip('-').title()
+    return joined.strip().strip('-').title().replace('United States', 'US').replace('United Kingdom', 'UK').replace('Canada', 'CA').replace('Australia', 'AU').replace('Germany', 'DE').replace('France', 'FR').replace('India', 'IN').replace('Singapore', 'SG').replace('Spain', 'ES').replace('Netherlands', 'NL').replace('Sweden', 'SE')
 
 def get_jobs(driver, company):
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
