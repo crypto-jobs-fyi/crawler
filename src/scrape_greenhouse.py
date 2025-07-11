@@ -6,13 +6,8 @@ CSS_SELECTOR = "css"  # for ChromeDriver
 
 
 def clean_location(location):
-    locations = set(filter(None, ([x.strip() for x in location.split(',')])))
-    if len(locations) == 1:
-        return next(iter(locations))
-    joined = ' '.join(locations).lower()
-    if joined.count('remote') > 1:
-        return joined.replace('remote', '', 1).title()
-    return joined.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('Canada', 'CA').replace('Australia', 'AU').replace('Germany', 'DE').replace('France', 'FR').replace('Spain', 'ES').replace('Netherlands', 'NL').replace('Sweden', 'SE')
+    location = location.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('Canada', 'CA').replace('Australia', 'AU').replace('Germany', 'DE').replace('France', 'FR').replace('Spain', 'ES').replace('Netherlands', 'NL').replace('Sweden', 'SE')
+    return location
 
 def get_jobs(driver, company):
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
