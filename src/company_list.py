@@ -235,6 +235,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('immunefi', 'https://boards.greenhouse.io/immunefi', ScrapeGreenhouse, 'https://immunefi.com'),
         CompanyItem("messari", "https://boards.greenhouse.io/messari", ScrapeGreenhouse, "https://messari.io"),
         CompanyItem("serotonin", "https://jobs.lever.co/serotonin", ScrapeLever, "https://serotonin.co"),
+        CompanyItem("Decentraland", "https://jobs.lever.co/Decentraland", ScrapeLever, "https://decentraland.org"),
         CompanyItem("copperco", "https://boards.eu.greenhouse.io/copperco", ScrapeGreenhouse,
                     "https://copper.co"),
         CompanyItem("layerzerolabs", "https://boards.greenhouse.io/layerzerolabs", ScrapeGreenhouse,
