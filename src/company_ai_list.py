@@ -42,7 +42,10 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("leonardo.ai", "https://jobs.ashbyhq.com/leonardo.ai", ScrapeAshbyhq, "https://leonardo.ai"),
         CompanyItem("harvey", "https://jobs.ashbyhq.com/harvey", ScrapeAshbyhq, "https://www.harvey.ai"),
         CompanyItem("ambient.ai", "https://jobs.ashbyhq.com/ambient.ai", ScrapeAshbyhq, "https://www.ambient.ai"),
-        CompanyItem("shieldai", "https://jobs.lever.co/shieldai", ScrapeLever, "hhttps://shield.ai"),
+        CompanyItem("shieldai", "https://jobs.lever.co/shieldai", ScrapeLever, "https://shield.ai"),
+        CompanyItem('polyai', 'https://job-boards.greenhouse.io/polyai', ScrapeGreenhouse, 'https://www.poly.ai'),
+        CompanyItem('cleoai', 'https://job-boards.greenhouse.io/cleoai', ScrapeGreenhouse, 'https://web.meetcleo.com'),
+        CompanyItem('glean', 'https://job-boards.greenhouse.io/gleanwork', ScrapeGreenhouse, 'https://www.glean.com'),
     ]
 
 
