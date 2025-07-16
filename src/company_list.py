@@ -1,6 +1,7 @@
 import json
 from typing import Any
 
+from src.scrape_base import ScrapeBase
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
@@ -12,6 +13,7 @@ from src.scrape_workable import ScrapeWorkable
 
 def get_company_list() -> list[CompanyItem | Any]:
     return [
+        CompanyItem("base", "https://www.base.org/jobs", ScrapeBase, "https://www.base.org"),
         CompanyItem("binance", "https://jobs.lever.co/binance", ScrapeLever, "https://www.binance.com"),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com"),
         CompanyItem('moonpay', 'https://jobs.lever.co/moonpay', ScrapeLever, 'https://www.moonpay.com'),

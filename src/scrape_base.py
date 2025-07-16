@@ -5,19 +5,18 @@ from src.scrape_it import ScrapeIt
 class ScrapeBase(ScrapeIt):
     name = 'Base'
 
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company = 'base') -> []:
         print(f'[{self.name}] Scrap page: {web_page}')
-        driver.implicitly_wait(15)
+        driver.implicitly_wait(5)
         driver.get(web_page)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.CSS_SELECTOR, '[class*="font-display"] [class*="justify-between"]')
+        group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@href, "basejobs")]')
         result = []
         for elem in group_elements:
-            job_name_elem = elem.find_element(By.CSS_SELECTOR, 'div a[rel]')
+            job_name_elem = elem.find_element(By.XPATH, './/p')
             job_name = job_name_elem.text
-            location_elem = elem.find_element(By.CSS_SELECTOR, 'div>p[class="text-sm"]')
-            job_url = job_name_elem.get_attribute('href')
-            location = location_elem.text
+            job_url = elem.get_attribute('href')
+            location = 'US or Canada - Remote'
             job = {
                 "company": company,
                 "title": job_name,
