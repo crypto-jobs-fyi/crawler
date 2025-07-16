@@ -1,6 +1,7 @@
 import json
 from typing import Any
 
+from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_circle import ScrapeCircle
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_lever import ScrapeLever
@@ -20,6 +21,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("huspy", "https://job-boards.greenhouse.io/huspy", ScrapeGreenhouse, "https://www.huspy.com"),
         CompanyItem("paxos", "https://www.paxos.com/jobs", ScrapePaxos, "https://www.paxos.com"),
         CompanyItem("circle", "https://careers.circle.com/us/en/search-results", ScrapeCircle, "https://www.circle.com"),
+        CompanyItem("robinhood", "https://careers.robinhood.com", ScrapeRobinhood, "https://www.robinhood.com"),
     ]
 
 
