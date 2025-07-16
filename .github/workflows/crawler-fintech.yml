@@ -1,0 +1,44 @@
+name: Run Crawler FinTech
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run crawler_fin.py
+        run: python crawler_fin.py
+
+      - name: Run write_fin_jobs_age.py
+        run: python write_fin_jobs_age.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update data via crawler_ai.py [automated]'
+          base: main
+          branch: 'auto/crawler-ai-update'
+          title: 'Automated update from crawler_ai.py'
+          body: 'This PR contains changes made by running crawler_ai.py via GitHub Actions.'
+          delete-branch: true
+          reviewers: yury-dubinin
