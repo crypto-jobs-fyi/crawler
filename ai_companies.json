@@ -161,7 +161,22 @@
     },
     {
         "company_name": "shieldai",
-        "company_url": "hhttps://shield.ai",
+        "company_url": "https://shield.ai",
         "jobs_url": "https://jobs.lever.co/shieldai"
+    },
+    {
+        "company_name": "polyai",
+        "company_url": "https://www.poly.ai",
+        "jobs_url": "https://job-boards.greenhouse.io/polyai"
+    },
+    {
+        "company_name": "cleoai",
+        "company_url": "https://web.meetcleo.com",
+        "jobs_url": "https://job-boards.greenhouse.io/cleoai"
+    },
+    {
+        "company_name": "glean",
+        "company_url": "https://www.glean.com",
+        "jobs_url": "https://job-boards.greenhouse.io/gleanwork"
     }
 ]
