@@ -1,3 +1,4 @@
+import tempfile
 import time
 from datetime import datetime
 
@@ -8,6 +9,8 @@ from src.scrape_it import write_jobs
 from src.scrape_coinbase import ScrapeCoinbase
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
+
+user_data_dir = tempfile.mkdtemp()  # Creates a unique temp directory
 jobs_file = 'headed_jobs.json'
 
 with open(jobs_file, 'w') as f:
@@ -18,6 +21,8 @@ chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--disable-extensions')
+chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
+
 driver = webdriver.Chrome(options=chrome_options)
 
 company_list = [CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase, 'https://coinbase.com')]
