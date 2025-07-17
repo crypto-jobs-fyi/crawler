@@ -9,7 +9,7 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 
 def get_company_list() -> list[CompanyItem | Any]:
     return [
-        CompanyItem('anthropic', 'https://job-boards.greenhouse.io/anthropic', ScrapeGreenhouse, 'https://www.anthropic.com'),
+        CompanyItem('life360', 'https://job-boards.greenhouse.io/life360', ScrapeGreenhouse, 'https://www.life360.com'),
         CompanyItem('openai', 'https://jobs.ashbyhq.com/openai', ScrapeAshbyhq, 'https://openai.com'),
         CompanyItem('groq', 'https://job-boards.greenhouse.io/groq', ScrapeGreenhouse, 'https://groq.com'),
         CompanyItem('GPTZero', 'https://jobs.ashbyhq.com/GPTZero', ScrapeAshbyhq, 'https://gptzero.me'),
@@ -48,9 +48,6 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('glean', 'https://job-boards.greenhouse.io/gleanwork', ScrapeGreenhouse, 'https://www.glean.com'),
         CompanyItem("dust", "https://jobs.ashbyhq.com/dust", ScrapeAshbyhq, "https://dust.tt"),
         CompanyItem("console", "https://jobs.ashbyhq.com/console", ScrapeAshbyhq, "https://www.console.com"),
-        CompanyItem("rivr", "https://jobs.lever.co/rivr", ScrapeLever, "https://www.rivr.ai"),
-        CompanyItem("anybotics", "https://jobs.lever.co/anybotics", ScrapeLever, "https://www.anybotics.com"),
-        CompanyItem("harrison", "https://jobs.ashbyhq.com/Harrison.ai", ScrapeAshbyhq, "https://www.harrison.ai"),
     ]
 
 
