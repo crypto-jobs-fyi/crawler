@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 from src.scrape_it import ScrapeIt
 
-
+# https://www.gemini.com/careers#open-roles
 class ScrapeGemini(ScrapeIt):
     name = 'gemini'
 

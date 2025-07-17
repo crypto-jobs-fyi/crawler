@@ -14,8 +14,9 @@ from src.scrape_workable import ScrapeWorkable
 def get_company_list() -> list[CompanyItem | Any]:
     return [
         CompanyItem("base", "https://www.base.org/jobs", ScrapeBase, "https://www.base.org"),
-        CompanyItem("binance", "https://jobs.lever.co/binance", ScrapeLever, "https://www.binance.com"),
+        CompanyItem('Numeus', 'https://job-boards.eu.greenhouse.io/numus', ScrapeGreenhouse, 'https://classic.numeus.xyz'),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com"),
+        CompanyItem('fireblocks', 'https://job-boards.eu.greenhouse.io/fireblocks', ScrapeGreenhouse, 'https://www.fireblocks.com'),
         CompanyItem('moonpay', 'https://jobs.lever.co/moonpay', ScrapeLever, 'https://www.moonpay.com'),
         CompanyItem('phantom', 'https://jobs.ashbyhq.com/phantom', ScrapeAshbyhq, 'https://phantom.com'),
         CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever, 'https://obol.tech'),
@@ -27,6 +28,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', ScrapeLever, 'https://tenderly.co'),
         CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', ScrapeAshbyhq,
                     'https://nomic.foundation'),
+        CompanyItem("binance", "https://jobs.lever.co/binance", ScrapeLever, "https://www.binance.com"),
         CompanyItem('ethglobal', 'https://jobs.ashbyhq.com/ethglobal', ScrapeAshbyhq, 'https://ethglobal.com'),
         CompanyItem('li.fi', 'https://jobs.ashbyhq.com/li.fi', ScrapeAshbyhq, 'https://li.fi'),
         CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', ScrapeAshbyhq, 'https://www.caldera.xyz'),

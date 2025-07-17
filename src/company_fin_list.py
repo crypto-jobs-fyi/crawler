@@ -22,6 +22,8 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("paxos", "https://www.paxos.com/jobs", ScrapePaxos, "https://www.paxos.com"),
         CompanyItem("circle", "https://careers.circle.com/us/en/search-results", ScrapeCircle, "https://www.circle.com"),
         CompanyItem("robinhood", "https://careers.robinhood.com", ScrapeRobinhood, "https://www.robinhood.com"),
+        CompanyItem("qonto", "https://jobs.lever.co/qonto", ScrapeLever, "https://www.qonto.com"),
+        CompanyItem("ninjatrader", "https://job-boards.greenhouse.io/ninjatrader", ScrapeGreenhouse, "https://www.ninjatrader.com"),
     ]
 
 
