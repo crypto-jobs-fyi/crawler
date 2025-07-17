@@ -34,8 +34,11 @@ class ScrapeCircle(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
-        accept_cookies = driver.find_element(By.XPATH, '//button[@id="onetrust-accept-btn-handler"]')
-        accept_cookies.click()
+        time.sleep(3)
+        accept_cookies = driver.find_elements(By.XPATH, '//button[@id="onetrust-accept-btn-handler"]')
+        if len(accept_cookies) > 0:
+            print(f'[{self.name}] Accepting cookies...')
+            accept_cookies[0].click()
         # close_chat = driver.find_element(By.XPATH, '//button[@id="PhenomChatbotNotificationCloseButton"]')
         # close_chat.click()
         # //h3/a[@data-ph-at-id="job-link" and contains(@href, "circle")]
