@@ -35,10 +35,10 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler_ai.py [automated]'
+          commit-message: 'chore: update data via crawler_fin.py [automated]'
           base: main
-          branch: 'auto/crawler-ai-update'
-          title: 'Automated update from crawler_ai.py'
-          body: 'This PR contains changes made by running crawler_ai.py via GitHub Actions.'
+          branch: 'auto/crawler-fin-update'
+          title: 'Automated update from crawler_fin.py'
+          body: 'This PR contains changes made by running crawler_fin.py via GitHub Actions.'
           delete-branch: true
           reviewers: yury-dubinin
