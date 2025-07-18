@@ -5,14 +5,19 @@
         "jobs_url": "https://www.base.org/jobs"
     },
     {
-        "company_name": "binance",
-        "company_url": "https://www.binance.com",
-        "jobs_url": "https://jobs.lever.co/binance"
+        "company_name": "Numeus",
+        "company_url": "https://classic.numeus.xyz",
+        "jobs_url": "https://job-boards.eu.greenhouse.io/numus"
     },
     {
         "company_name": "kraken",
         "company_url": "https://kraken.com",
         "jobs_url": "https://jobs.ashbyhq.com/kraken.com"
+    },
+    {
+        "company_name": "fireblocks",
+        "company_url": "https://www.fireblocks.com",
+        "jobs_url": "https://job-boards.eu.greenhouse.io/fireblocks"
     },
     {
         "company_name": "moonpay",
@@ -53,6 +58,11 @@
         "company_name": "nomic.foundation",
         "company_url": "https://nomic.foundation",
         "jobs_url": "https://jobs.ashbyhq.com/nomic.foundation"
+    },
+    {
+        "company_name": "binance",
+        "company_url": "https://www.binance.com",
+        "jobs_url": "https://jobs.lever.co/binance"
     },
     {
         "company_name": "ethglobal",
@@ -233,6 +243,11 @@
         "company_name": "cere-network",
         "company_url": "https://cere.network",
         "jobs_url": "https://jobs.lever.co/cere-network"
+    },
+    {
+        "company_name": "cryptio",
+        "company_url": "https://cryptio.co",
+        "jobs_url": "https://jobs.ashbyhq.com/cryptio"
     },
     {
         "company_name": "matterlabs",
@@ -523,11 +538,6 @@
         "company_name": "safe.global",
         "company_url": "https://safe.global",
         "jobs_url": "https://jobs.ashbyhq.com/safe.global"
-    },
-    {
-        "company_name": "cryptio",
-        "company_url": "https://cryptio.co",
-        "jobs_url": "https://jobs.ashbyhq.com/cryptio"
     },
     {
         "company_name": "Artemisxyz",
