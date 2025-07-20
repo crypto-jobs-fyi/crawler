@@ -16,7 +16,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("base", "https://www.base.org/jobs", ScrapeBase, "https://www.base.org"),
         CompanyItem('Numeus', 'https://job-boards.eu.greenhouse.io/numus', ScrapeGreenhouse, 'https://classic.numeus.xyz'),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", ScrapeAshbyhq, "https://kraken.com"),
-        CompanyItem('fireblocks', 'https://job-boards.eu.greenhouse.io/fireblocks', ScrapeGreenhouse, 'https://www.fireblocks.com'),
+        CompanyItem('fireblocks', 'https://job-boards.greenhouse.io/fireblocks', ScrapeGreenhouse, 'https://www.fireblocks.com'),
         CompanyItem('moonpay', 'https://jobs.lever.co/moonpay', ScrapeLever, 'https://www.moonpay.com'),
         CompanyItem('phantom', 'https://jobs.ashbyhq.com/phantom', ScrapeAshbyhq, 'https://phantom.com'),
         CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever, 'https://obol.tech'),
