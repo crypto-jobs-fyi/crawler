@@ -70,7 +70,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem('celestia', 'https://jobs.lever.co/celestia', ScrapeLever, 'https://celestia.org'),
         CompanyItem('gauntlet', 'https://jobs.lever.co/gauntlet', ScrapeLever, 'https://gauntlet.network'),
         CompanyItem('machinefilab', 'https://jobs.lever.co/machinefilab', ScrapeLever, 'https://machinefi.com/lab'),
-        CompanyItem('gate.io', 'https://jobs.lever.co/gate.io', ScrapeLever, 'https://gate.io'),
+        CompanyItem('gate.io', 'https://jobs.lever.co/gate', ScrapeLever, 'https://gate.io'),
         CompanyItem('auroralabs', 'https://jobs.lever.co/aurora-dev', ScrapeLever, 'https://auroralabs.dev'),
         CompanyItem("ledger", "https://jobs.lever.co/ledger", ScrapeLever, "https://www.ledger.com"),
         CompanyItem("immutable", "https://jobs.lever.co/immutable", ScrapeLever, "https://www.immutable.com"),
