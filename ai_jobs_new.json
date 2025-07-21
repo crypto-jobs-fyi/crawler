@@ -1,238 +1,46 @@
 {
     "data": [
         {
-            "company": "anthropic",
-            "title": "Research Engineer, Pre-trainingNew\nRemote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-            "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
-            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4616971008' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "anthropic",
-            "title": "Engineering Manager, Research PrototypingNew\nSan Francisco, CA | New York City, NY",
-            "location": "San Francisco, CA | New York City, NY",
-            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4811414008' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "anthropic",
-            "title": "Head of International Recruiting\nDublin, IE",
-            "location": "Dublin, IE",
-            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4673790008' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "Front End Software Engineer, Marketing",
-            "location": "Remote - US; San Francisco; New York City",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/9474c7ba-cdaf-4d32-8484-b850d0e42d65' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "Software Engineer, Caching Infrastructure",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/a20b7fc6-6f01-4618-ba35-37b40083f93e' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "Software Engineer, Core Services",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/21bfde35-ffec-42d2-a2c6-8a03dad789d5' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "GTM Enablement Lead - Singapore",
-            "location": "Singapore",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/30479b2c-d6e4-4f9b-aa04-2089e11de1b4' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "Technical Program Manager, Hardware Chips",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/004ae8f4-245b-4aad-8903-9daabdb58bb9' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "cohere",
-            "title": "Machine Learning Manager - Applied ML (NYC)",
-            "location": "New York",
-            "link": "<a href='https://jobs.ashbyhq.com/cohere/eaa887ac-32c6-4820-b7e9-8cdb88e18f0f' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "cohere",
-            "title": "Machine Learning Manager - Applied ML (San Francisco)",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/cohere/8c61b748-d337-4fa3-8555-ade437dc8380' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "cohere",
-            "title": "MLOps Software Engineer",
-            "location": "London; UK",
-            "link": "<a href='https://jobs.ashbyhq.com/cohere/8f49656d-76d3-4eb0-92c4-3c0ee5c86464' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "cohere",
-            "title": "Solutions Architect (Canadian Public Sector)",
-            "location": "Ottawa",
-            "link": "<a href='https://jobs.ashbyhq.com/cohere/4c9845df-451c-48e4-8ea7-89efbafee793' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "elevenlabs",
-            "title": "Enterprise Customer Success - India",
-            "location": "India",
-            "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/a571b8e4-8176-4e31-aab6-2287ee810236' target='_blank' >Apply</a>"
-        },
-        {
             "company": "lovable",
             "title": "Community Lead",
             "location": "Stockholm",
             "link": "<a href='https://jobs.ashbyhq.com/lovable/ce6aa9ad-cc7e-4920-bd19-38888de179f8' target='_blank' >Apply</a>"
         },
         {
-            "company": "eliseai",
-            "title": "Documentation Specialist",
-            "location": "New York City",
-            "link": "<a href='https://jobs.ashbyhq.com/eliseai/300ca285-aa27-42fa-98c6-b3724cd64e04' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "eliseai",
-            "title": "Executive Assistant",
-            "location": "New York City",
-            "link": "<a href='https://jobs.ashbyhq.com/eliseai/7b30436e-37a2-463d-bd6a-be3ce9b506a9' target='_blank' >Apply</a>"
-        },
-        {
             "company": "deepmind",
-            "title": "Research Engineer/Scientist, Training AlgorithmsNew\nMountain View, California, US",
+            "title": "Research Scientist, VeoNew\nMountain View, California, US",
             "location": "Mountain View, California, US",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7087309' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "deepmind",
-            "title": "Research Scientist, Autonomous AssistantsNew\nLondon, UK",
-            "location": "London, UK",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7081281' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "deepmind",
-            "title": "Software Engineer, Full Stack - GeminiNew\nMountain View, California, US",
-            "location": "Mountain View, California, US",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7086851' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "deepmind",
-            "title": "Product Manager, Video Capabilities New\nMountain View, California, US; San Francisco, California, US",
-            "location": "Mountain View, California, US; San Francisco, California, US",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7085952' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "deepmind",
-            "title": "Technical Program Manager, World Simulator New\nMountain View, California, US",
-            "location": "Mountain View, California, US",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7079577' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "xai",
-            "title": "Network Development Engineer - Core & Backbone TeamsNew\nSan Francisco & Palo Alto, CA",
-            "location": "San Francisco & Palo Alto, CA",
-            "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4793028007' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "xai",
-            "title": "Backend Engineer - Product SafetyNew\nLondon, UK",
-            "location": "London, UK",
-            "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4793035007' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "xai",
-            "title": "Security Specialist\nMemphis, TN",
-            "location": "Memphis, TN",
-            "link": "<a href='https://job-boards.greenhouse.io/xai/jobs/4613280007' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "n8n",
-            "title": "Growth Analyst (Remote Europe)",
-            "location": "Berlin Office; ES; FR; NL; Portugal; DE; UK; Denmark; Finland; Norway; SE",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/48bc9f74-5ec3-41f9-bfdf-ade6b3be7ecc' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "n8n",
-            "title": "Sales Enablement Manager (Remote Europe)",
-            "location": "Berlin Office; ES; FR; NL; Portugal; DE; UK; Denmark; Finland; Norway; SE",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/b45f4511-fae8-4ea1-ae88-f17d26f13acb' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "n8n",
-            "title": "Junior Support Engineer (L1 Support)",
-            "location": "Berlin Office; ES; Portugal; Italy; Greece; Czech Republic; Croatia; Bulgaria; Estonia; Poland; Romania; Serbia; Slovakia; Slovenia; Ukraine; Denmark; Norway; SE; NL; Ireland; DE; FR; Austria; UK",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/49726418-ca77-4370-aa69-6e8d1eb42ddf' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "n8n",
-            "title": "Senior Support Engineer | Europe Remote",
-            "location": "Berlin Office; ES; Portugal; Italy; Greece; Czech Republic; Croatia; Bulgaria; Estonia; Poland; Romania; Serbia; Slovakia; Slovenia; Ukraine; Denmark; Norway; SE; NL; Ireland; DE; FR; Austria; UK",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/1d732234-b364-4c5c-b4fd-ae584e0b7992' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "n8n",
-            "title": "Partnerships Manager (Remote Europe)",
-            "location": "Berlin Office; ES; FR; NL; Portugal; DE; UK; Denmark; Finland; Norway; SE; Ireland",
-            "link": "<a href='https://jobs.ashbyhq.com/n8n/ab74826c-b35a-451f-91c5-ffa9b3db6319' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "harvey",
-            "title": "Engineering Manager, Document Processing",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/harvey/d0d847eb-bc21-4a73-b33b-ee5779f23d19' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "harvey",
-            "title": "Senior Technical Recruiter",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/harvey/c2541a2a-9ed0-4dcb-9243-49a35c888c37' target='_blank' >Apply</a>"
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7087288' target='_blank' >Apply</a>"
         },
         {
             "company": "ambient.ai",
-            "title": "Sales Operations Analyst",
+            "title": "Senior Sales Engineer - SLED",
             "location": "Redwood City",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/645d76de-0cf3-4aed-a901-dd222a079734' target='_blank' >Apply</a>"
+            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/880503b1-192e-48c2-acdc-d8a98f476842' target='_blank' >Apply</a>"
         },
         {
-            "company": "shieldai",
-            "title": "Facilities Technician (R3638)",
-            "location": "On-Site  Dallas Metro Area",
-            "link": "<a href='https://jobs.lever.co/shieldai/977f5ce1-3d68-4ee8-8ace-e78e611a7e9c' target='_blank' >Apply</a>"
+            "company": "ambient.ai",
+            "title": "Senior Sales Engineer - SLED",
+            "location": "Redwood City",
+            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/c0518cc1-6b34-4214-9512-bf5a8d353871' target='_blank' >Apply</a>"
         },
         {
-            "company": "shieldai",
-            "title": "Administrative Assistant - R3619",
-            "location": "Taipei Hybrid",
-            "link": "<a href='https://jobs.lever.co/shieldai/d3dbce44-82dd-496a-9b0d-8d9085f934bd' target='_blank' >Apply</a>"
+            "company": "ambient.ai",
+            "title": "Regional Sales Manager - SLED",
+            "location": "Redwood City",
+            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/cf2a1551-4e0e-4da9-9449-5e8daf626205' target='_blank' >Apply</a>"
         },
         {
-            "company": "shieldai",
-            "title": "Principal Systems Engineer, Cyber (R3683)",
-            "location": "On-Site  San Diego Metro Area",
-            "link": "<a href='https://jobs.lever.co/shieldai/af556cd3-f83c-4e5b-aa85-675d5a6edf50' target='_blank' >Apply</a>"
+            "company": "ambient.ai",
+            "title": "Regional Sales Manager - SLED",
+            "location": "New York City",
+            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/5d0ff57f-82d6-4a50-89b1-e47400fba4d1' target='_blank' >Apply</a>"
         },
         {
-            "company": "shieldai",
-            "title": "Staff Technical Writer (R3567)",
-            "location": "On-Site  San Diego Metro Area",
-            "link": "<a href='https://jobs.lever.co/shieldai/1a036ef6-24e6-4d02-a421-75b28060fa28' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "shieldai",
-            "title": "Associate Subcontracts Management",
-            "location": "On-Site  Dallas Metro Area",
-            "link": "<a href='https://jobs.lever.co/shieldai/75044da9-f20a-40d4-9ffb-cd3649cf3507' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "cleoai",
-            "title": "Growth Marketing Lead - DiversificationNew\nLondon, UK",
-            "location": "London, UK",
-            "link": "<a href='https://job-boards.greenhouse.io/cleoai/jobs/8061298002' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "anybotics",
-            "title": "Verification Engineering Internship",
-            "location": "Switzerland On-Site  Zurich",
-            "link": "<a href='https://jobs.lever.co/anybotics/a099a671-c59c-4228-9aac-cb728f5b56eb' target='_blank' >Apply</a>"
+            "company": "ambient.ai",
+            "title": "Regional Sales Manager - SLED",
+            "location": "Texas",
+            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/5f693b91-3292-4848-b635-acd42f4ccabe' target='_blank' >Apply</a>"
         }
     ]
 }
