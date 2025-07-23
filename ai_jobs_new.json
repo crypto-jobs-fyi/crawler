@@ -2,15 +2,21 @@
     "data": [
         {
             "company": "anthropic",
+            "title": "Applied AI, Public Sector (Civilian)New\nSan Francisco, CA | Washington, DC",
+            "location": "San Francisco, CA | Washington, DC",
+            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4816781008' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anthropic",
+            "title": "Applied AI, Public Sector (National Security)New\nSan Francisco, CA | Washington, DC",
+            "location": "San Francisco, CA | Washington, DC",
+            "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4788922008' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anthropic",
             "title": "IT Support EngineerNew\nSan Francisco, CA",
             "location": "San Francisco, CA",
             "link": "<a href='https://job-boards.greenhouse.io/anthropic/jobs/4802076008' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "openai",
-            "title": "Engineering Manager, Infrastructure",
-            "location": "San Francisco",
-            "link": "<a href='https://jobs.ashbyhq.com/openai/cb6b5d5d-ff48-4c02-afe7-db5d8467f689' target='_blank' >Apply</a>"
         },
         {
             "company": "openai",
@@ -20,9 +26,21 @@
         },
         {
             "company": "openai",
+            "title": "Software Engineer, Full Stack (People Innovation)",
+            "location": "Remote - US; San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
             "title": "Data Scientist, Product",
             "location": "San Francisco",
             "link": "<a href='https://jobs.ashbyhq.com/openai/e71cf565-4b21-4b0d-bf45-b22e58ca95eb' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Director of Accounting Operations",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/8fd21cb6-555f-400c-853f-74844ff41ada' target='_blank' >Apply</a>"
         },
         {
             "company": "openai",
@@ -32,9 +50,45 @@
         },
         {
             "company": "openai",
+            "title": "Strategic Sourcing Lead, Real Estate and Workplace Services",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/5beb6843-ead2-4629-bcf8-9b23d43f42b8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Infrastructure Policy & Partnerships Specialist",
+            "location": "Remote - US",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/70e62329-e2b3-4d33-916e-ef58ea7169fb' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Field Enablement - Technical Success",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/d65637be-88ac-4144-b070-168c86f8e2e2' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "GTM Growth Labs",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/16e8149f-0ef9-4efc-ae66-6eca9f90eff8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Partnerships Lead",
+            "location": "Remote - US",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/ea852a63-0a37-4db0-922c-7cbe0a46e321' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
             "title": "Workday Integrations Engineer",
             "location": "San Francisco; Remote - US",
             "link": "<a href='https://jobs.ashbyhq.com/openai/83fe8549-4c47-4241-a8cd-cb696463c43f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Privacy",
+            "location": "San Francisco",
+            "link": "<a href='https://jobs.ashbyhq.com/openai/8a1b804f-b070-4c61-bd3d-cdf39ef9d935' target='_blank' >Apply</a>"
         },
         {
             "company": "perplexityai",
@@ -61,10 +115,70 @@
             "link": "<a href='https://job-boards.greenhouse.io/perplexityai/jobs/4794548007' target='_blank' >Apply</a>"
         },
         {
+            "company": "perplexityai",
+            "title": "IT Systems Administrator (London, UK)New\nLondon",
+            "location": "London",
+            "link": "<a href='https://job-boards.greenhouse.io/perplexityai/jobs/4795925007' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "perplexityai",
+            "title": "Customer Success Engineer - API and Enterprise\nNew York City; San Francisco",
+            "location": "New York City; San Francisco",
+            "link": "<a href='https://job-boards.greenhouse.io/perplexityai/jobs/4674086007' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "perplexityai",
+            "title": "Senior Backend/Infrastructure Engineer - SearchNew\nBelgrade; London",
+            "location": "Belgrade; London",
+            "link": "<a href='https://job-boards.greenhouse.io/perplexityai/jobs/4796516007' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cohere",
+            "title": "Software Engineer - Applied ML (UK/EU)",
+            "location": "London; Paris",
+            "link": "<a href='https://jobs.ashbyhq.com/cohere/7c99e721-e32a-422c-8e35-2ad11e086f0c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cohere",
+            "title": "Software Engineer - Applied ML (US/CAN)",
+            "location": "San Francisco; Paris",
+            "link": "<a href='https://jobs.ashbyhq.com/cohere/9d571f44-369b-41be-854e-89c7e119c4d7' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "reka",
+            "title": "Member of Product Staff (Quality and Operations)",
+            "location": "US, UK, Singapore, Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/reka/062f331a-4c8e-4c7f-9800-863543a1bcbc' target='_blank' >Apply</a>"
+        },
+        {
             "company": "elevenlabs",
             "title": "AI Automations Engineer",
-            "location": "UK; DE; Poland",
+            "location": "UK; DE; Poland; Dublin; Sofia; Warsaw; SE; Italy; Amsterdam; Berlin",
             "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/a3097257-a07a-4a7e-b9fe-b8555c1a0fa7' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Enterprise Account Executive - Brazil",
+            "location": "Brazil",
+            "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/3aeb3178-e980-4885-a7e5-5dc752ad8edb' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Sales Development - Nordics",
+            "location": "SE",
+            "link": "<a href='https://jobs.ashbyhq.com/elevenlabs/2341791c-6ff6-4ee1-bf89-1e1b88d6f1b8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "invisibletech",
+            "title": "Senior Software Engineer - Forward DeployedNew\nNew York - Hybrid; San Francisco Bay Area - Hybrid",
+            "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/invisibletech/jobs/4639687101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "invisibletech",
+            "title": "Software Engineer - Forward DeployedNew\nNew York - Hybrid; San Francisco Bay Area - Hybrid",
+            "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/invisibletech/jobs/4639694101' target='_blank' >Apply</a>"
         },
         {
             "company": "invisibletech",
@@ -86,21 +200,57 @@
         },
         {
             "company": "deepmind",
+            "title": "AI Applications Engineer, Org AI InnovationNew\nLondon, UK",
+            "location": "London, UK",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7093323' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
             "title": "People Experience & Delivery PartnerNew\nBangalore, India",
             "location": "Bangalore, India",
             "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7090290' target='_blank' >Apply</a>"
         },
         {
             "company": "deepmind",
-            "title": "Research Engineer or Scientist, Veo New\nLondon, UK; Zurich, Switzerland",
-            "location": "London, UK; Zurich, Switzerland",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7084044' target='_blank' >Apply</a>"
+            "title": "Program ManagerNew\nLondon, UK",
+            "location": "London, UK",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7092916' target='_blank' >Apply</a>"
         },
         {
             "company": "deepmind",
-            "title": "Research Scientist, VeoNew\nMountain View, California, US",
-            "location": "Mountain View, California, US",
-            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7087288' target='_blank' >Apply</a>"
+            "title": "Program Manager, Responsibility New\nLondon, UK",
+            "location": "London, UK",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7092711' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineer, Foundational ResearchNew\nTokyo, Japan",
+            "location": "Tokyo, Japan",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7089903' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Scientist / Engineer, Open-Ended LearningNew\nLondon, UK",
+            "location": "London, UK",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7093349' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Scientist, Foundational ResearchNew\nBangalore, India",
+            "location": "Bangalore, India",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7089682' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Scientist, Foundational ResearchNew\nTokyo, Japan",
+            "location": "Tokyo, Japan",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7089543' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineer or Scientist, Veo New\nLondon, UK; Zurich, Switzerland",
+            "location": "London, UK; Zurich, Switzerland",
+            "link": "<a href='https://job-boards.greenhouse.io/deepmind/jobs/7084044' target='_blank' >Apply</a>"
         },
         {
             "company": "xai",
@@ -134,6 +284,12 @@
         },
         {
             "company": "n8n",
+            "title": "Sr Fullstack Growth Engineer (TS/Vue/NodeJS)",
+            "location": "Berlin Office; Bulgaria; Estonia; Kosovo; Lithuania; Montenegro; Moldova; Romania; Slovenia; Denmark; Norway; Italy; ES; UK; Belgium; DE; FR; Ireland; Albania; Croatia; Hungary; Latvia; Poland; Slovakia; Ukraine; Finland; SE; Greece; Portugal; London Office; Austria; NL; Bosnia; Czech Republic",
+            "link": "<a href='https://jobs.ashbyhq.com/n8n/02bccd0b-e766-4741-b7d8-b86fa342450d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "n8n",
             "title": "Senior Executive Assistant (Remote Europe)",
             "location": "UK; Berlin Office; ES; DE; FR; NL; Portugal; Belgium; Austria",
             "link": "<a href='https://jobs.ashbyhq.com/n8n/9ad9ea4e-4dce-47dc-ab70-bd251b521c94' target='_blank' >Apply</a>"
@@ -151,34 +307,34 @@
             "link": "<a href='https://jobs.ashbyhq.com/n8n/fe36b0c8-7cae-4725-8ae7-35f7c7a32855' target='_blank' >Apply</a>"
         },
         {
-            "company": "ambient.ai",
-            "title": "Senior Sales Engineer - SLED",
-            "location": "Redwood City",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/c0518cc1-6b34-4214-9512-bf5a8d353871' target='_blank' >Apply</a>"
+            "company": "n8n",
+            "title": "Senior Support Engineer | Europe Remote",
+            "location": "Berlin Office; ES; Portugal; Italy; Greece; Czech Republic; Croatia; Bulgaria; Estonia; Poland; Romania; Serbia; Slovakia; Slovenia; Ukraine; Denmark; Norway; SE; NL; Ireland; DE; FR; Austria; UK",
+            "link": "<a href='https://jobs.ashbyhq.com/n8n/bf08dcee-6827-4ead-b91d-7838ec0b1f50' target='_blank' >Apply</a>"
         },
         {
-            "company": "ambient.ai",
-            "title": "Senior Sales Engineer - SLED",
-            "location": "Redwood City",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/880503b1-192e-48c2-acdc-d8a98f476842' target='_blank' >Apply</a>"
+            "company": "n8n",
+            "title": "Sales Development Representative | German speaking | Berlin (Hybrid)",
+            "location": "Berlin Office; Austria; DE; NL; Hungary; Bulgaria; Czech Republic; Poland; Denmark; Finland; Norway; SE; UK; FR; Belgium; ES; Italy; Bosnia; Albania; Croatia; Estonia; Kosovo; Latvia; Lithuania; Moldova; Montenegro; Romania; Serbia; Slovakia; Slovenia; Ukraine; Greece; Portugal; Ireland",
+            "link": "<a href='https://jobs.ashbyhq.com/n8n/e9fc96b8-c280-4e38-a9fd-0253132e46b0' target='_blank' >Apply</a>"
         },
         {
-            "company": "ambient.ai",
-            "title": "Regional Sales Manager - SLED",
-            "location": "Texas",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/5f693b91-3292-4848-b635-acd42f4ccabe' target='_blank' >Apply</a>"
+            "company": "palantir",
+            "title": "Physical Security Analyst",
+            "location": "London United Kingdom On-Site",
+            "link": "<a href='https://jobs.lever.co/palantir/bdac6198-37ff-4246-9878-d91465c85218' target='_blank' >Apply</a>"
         },
         {
-            "company": "ambient.ai",
-            "title": "Regional Sales Manager - SLED",
-            "location": "New York City",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/5d0ff57f-82d6-4a50-89b1-e47400fba4d1' target='_blank' >Apply</a>"
+            "company": "palantir",
+            "title": "Physical Security Analyst",
+            "location": "On-Site  Denver Co",
+            "link": "<a href='https://jobs.lever.co/palantir/cf4e1a81-5d85-4ee8-b2a8-df16b50427d8' target='_blank' >Apply</a>"
         },
         {
-            "company": "ambient.ai",
-            "title": "Regional Sales Manager - SLED",
-            "location": "Redwood City",
-            "link": "<a href='https://jobs.ashbyhq.com/ambient.ai/cf2a1551-4e0e-4da9-9449-5e8daf626205' target='_blank' >Apply</a>"
+            "company": "palantir",
+            "title": "Talent Strategist",
+            "location": "London Hybrid  United Kingdom",
+            "link": "<a href='https://jobs.lever.co/palantir/484658a9-d6da-4d5f-9ab3-7c9f6ae3cd71' target='_blank' >Apply</a>"
         },
         {
             "company": "shieldai",
@@ -199,10 +355,112 @@
             "link": "<a href='https://job-boards.greenhouse.io/gleanwork/jobs/4588221005' target='_blank' >Apply</a>"
         },
         {
+            "company": "glean",
+            "title": "Solutions Engineer, Corporate\nNashville",
+            "location": "Nashville",
+            "link": "<a href='https://job-boards.greenhouse.io/gleanwork/jobs/4585243005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "glean",
+            "title": "Strategic Account Executive - TexasNew\nHouston",
+            "location": "Houston",
+            "link": "<a href='https://job-boards.greenhouse.io/gleanwork/jobs/4588653005' target='_blank' >Apply</a>"
+        },
+        {
             "company": "dust",
             "title": "Sales Operations",
             "location": "Paris",
             "link": "<a href='https://jobs.ashbyhq.com/dust/394e6e40-15c1-4fff-8eb8-8761c3a01f9d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Product Designer",
+            "location": "Foster City, CA - In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/dc5d7a26-29fe-44eb-9378-c1aace110aab' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Staff Product Designer",
+            "location": "Foster City, CA - In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/32468016-3602-43a3-8860-7ddb47827814' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Agent Platform Engineer",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/414d7eba-67b2-436f-826e-3a78a5ba303a' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "AI Chief of Staff",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/feb1753e-5dc4-45ab-a937-b051e64007d0' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Design Engineer",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/2f1de5f1-48c2-4104-a697-a51fe1620508' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Lead Security Engineer",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/736b83c5-a409-4ba6-9fb1-742ea2fb3302' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Senior Software Engineer, Money",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/0a71787b-1b86-4f86-be79-0a9723d75cc7' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Site Reliability Engineer",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/f6e6158e-eb89-4008-81ea-1b7512bc509d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Software Engineer, Distributed Systems",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/659a8e1e-69ba-44c0-a632-96665051a3e8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Software Engineer, Full Stack",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/2fa2d079-96a5-4d51-8718-04134ed39032' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Software Engineer, Mobile",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/8fbbe594-596a-4a4f-844b-dc00111e717f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Staff Software Engineer, Product",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/47235851-fadd-4bd7-9cc6-61f545059ac1' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Director of Strategic Finance",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/d91a4152-d6de-4685-976c-6142a97b1e78' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Senior Financial Analyst",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/0f27d6b1-0b6e-4fa9-a271-e3b3dcecb49c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "replit",
+            "title": "Staff Accountant",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "<a href='https://jobs.ashbyhq.com/replit/589e2d64-3e6c-4155-9ee6-445cfbfa9e3e' target='_blank' >Apply</a>"
         }
     ]
 }
