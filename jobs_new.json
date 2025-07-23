@@ -1,9 +1,15 @@
 {
     "data": [
         {
+            "company": "base",
+            "title": "Apply now",
+            "location": "US or Canada - Remote",
+            "link": "<a href='https://boards.greenhouse.io/embed/job_app?token=7088198&for=basejobs' target='_blank' >Apply</a>"
+        },
+        {
             "company": "kraken",
             "title": "Research Manager - Digital Asset Markets",
-            "location": "FR; DE",
+            "location": "FR; NL; Ireland",
             "link": "<a href='https://jobs.ashbyhq.com/kraken.com/89db9202-a29a-4883-b1ea-619fbdf31b36' target='_blank' >Apply</a>"
         },
         {
@@ -21,8 +27,20 @@
         {
             "company": "binance",
             "title": "Binance Accelerator Program - Data Scientist, Risk (Machine Learning and Algorithms)",
-            "location": "Wellington / Philippines Sydney / New Zealand Taipei / Australia Bangkok / Uae Abu Dhabi / Uae Auckland / New Zealand Manila / South East Asia / Thailand Dubai / Vietnam Ho Chi Minh Taiwan Brisbane / Australia Remote  Melbourne / Australia",
+            "location": "Taiwan Wellington / Philippines Melbourne / Australia Ho Chi Minh Manila / South East Asia / Thailand Remote  Brisbane / Australia Bangkok / Uae Taipei / Australia Dubai / Vietnam Sydney / New Zealand Abu Dhabi / Uae Auckland / New Zealand",
             "link": "<a href='https://jobs.lever.co/binance/c9ae6213-d5bd-4fcc-a73e-0304d049cecc' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "Data Scientist, Risk (Machine Learning & Fraud Detection)",
+            "location": "Taiwan Buenos Aires / Czech Republic Melbourne / Australia Budapest / New Zealand Hybrid  Sydney / Argentina Brisbane / Australia Bangkok / Australia Taipei / South East Asia / Thailand Prague / Hungary Colombo Auckland / New Zealand Wellington / Sri Lanka",
+            "link": "<a href='https://jobs.lever.co/binance/9cbf97bf-42ae-406f-8163-1bee5ac1b639' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "HR Operations Specialist",
+            "location": "Bucharest / Romania Remote  Ia\u0219i Romania",
+            "link": "<a href='https://jobs.lever.co/binance/574428bc-a6da-4f27-bedc-a977ce645071' target='_blank' >Apply</a>"
         },
         {
             "company": "binance",
@@ -31,28 +49,70 @@
             "link": "<a href='https://jobs.lever.co/binance/9e2aa7e6-771c-4621-b2b9-06c3ff36a747' target='_blank' >Apply</a>"
         },
         {
+            "company": "binance",
+            "title": "Binance Accelerator Program - MENA Community (Events & Engagement)",
+            "location": "Dubai On-Site  Uae",
+            "link": "<a href='https://jobs.lever.co/binance/0728aa9a-d545-44d6-8c2f-e1a1d056ee27' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - Product Manager, Cloud",
+            "location": "Taiwan Taipei / South East Asia Remote",
+            "link": "<a href='https://jobs.lever.co/binance/dd044474-cc3e-45d0-966e-ca3b07b3bb24' target='_blank' >Apply</a>"
+        },
+        {
             "company": "coinspaid",
             "title": "Frontend Engineer (Design core team)",
             "location": "Hybrid  Remote - European Region",
             "link": "<a href='https://jobs.eu.lever.co/coinspaid/98ee316a-1507-49fd-b550-75814e7022b8' target='_blank' >Apply</a>"
         },
         {
-            "company": "crypto",
-            "title": "Deputy Compliance Officer & DMLRO (Global Exchange)",
-            "location": "Remote  United States",
-            "link": "<a href='https://jobs.lever.co/crypto/245d892f-b93e-4843-ad13-3dd9220c0135' target='_blank' >Apply</a>"
+            "company": "kaiko",
+            "title": "Product Operations Analyst",
+            "location": "Hybrid  New York Ny",
+            "link": "<a href='https://jobs.eu.lever.co/kaiko/7e4e8976-133f-4f3c-b892-29f4258a267b' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "swissborg",
+            "title": "Head of Growth",
+            "location": " Europe Timezone / Berlin / Amsterdam / Paris / London Remote \u2014",
+            "link": "<a href='https://jobs.lever.co/swissborg/569bf9aa-ae45-4e47-a8bb-d7b8643703a6' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "aave",
+            "title": "Director, Business Development",
+            "location": "Hybrid  New York / London England",
+            "link": "<a href='https://jobs.eu.lever.co/avara/95ff337f-4cca-4113-8834-d32cb829189d' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "aave",
+            "title": "Senior Graphic Designer, Marketing",
+            "location": "Hybrid  England / Remote London Us",
+            "link": "<a href='https://jobs.eu.lever.co/avara/4b3daaf7-4673-47d8-b895-c28c36c43e93' target='_blank' >Apply</a>"
         },
         {
             "company": "crypto",
-            "title": "Deputy Compliance Officer & DMLRO (Global Exchange)",
-            "location": "Cayman Islands Remote  George Town",
-            "link": "<a href='https://jobs.lever.co/crypto/e65a07ec-262f-43e2-8148-34858893c43f' target='_blank' >Apply</a>"
+            "title": "Senior Compliance & FinCrime Manager (MLRO)",
+            "location": "Hybrid  Bahrain Manama",
+            "link": "<a href='https://jobs.lever.co/crypto/30e0d4fb-c000-4d67-8134-a071b3559cc7' target='_blank' >Apply</a>"
         },
         {
             "company": "crypto",
-            "title": "Senior UX Researcher",
-            "location": "Hybrid  Taiwan Taipei",
-            "link": "<a href='https://jobs.lever.co/crypto/3580dac3-d66c-468b-b542-b2b4a25eeae3' target='_blank' >Apply</a>"
+            "title": "Senior iOS Developer - Onchain Wallet",
+            "location": "Hybrid  China / Chengdu / Guangzhou / Hangzhou / Shanghai Shenzhen",
+            "link": "<a href='https://jobs.lever.co/crypto/a8c95688-9c96-4866-8031-b35becdb3073' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
+            "title": "Senior iOS Developer - Onchain Wallet",
+            "location": "Taiwan Hybrid  Taipei",
+            "link": "<a href='https://jobs.lever.co/crypto/25a6759a-82fb-47e9-bd34-f0ac3210b289' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
+            "title": "Senior iOS Developer - Onchain Wallet",
+            "location": "Hybrid  Hong Kong Hong Kong Sar",
+            "link": "<a href='https://jobs.lever.co/crypto/aefa7edd-48de-4955-bf85-85bebdacfaaf' target='_blank' >Apply</a>"
         },
         {
             "company": "offchainlabs",
@@ -69,7 +129,7 @@
         {
             "company": "gate.io",
             "title": "P2P Customer Service Representative\uff08CN-EN bilingual\uff09",
-            "location": "Apac-M2 Remote",
+            "location": "Remote  Apac-M2",
             "link": "<a href='https://jobs.lever.co/gate/af98fbac-d7ca-4c7e-a4c7-7d54b5406eee' target='_blank' >Apply</a>"
         },
         {
@@ -80,45 +140,9 @@
         },
         {
             "company": "OKX",
-            "title": "Growth Strategy Manager (Data Analysis) New\nHong Kong, Hong Kong SAR",
-            "location": "Hong Kong, Hong Kong SAR",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6655214003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Growth Strategy Manager (Risk Control) New\nHong Kong, Hong Kong SAR",
-            "location": "Hong Kong, Hong Kong SAR",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6655302003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Head of Government Affairs New\nS\u00e3o Paulo, Brazil",
-            "location": "S\u00e3o Paulo, Brazil",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656222003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Growth Strategy Manager (Data Analysis) New\nHong Kong, Hong Kong SAR",
-            "location": "Hong Kong, Hong Kong SAR",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6655214003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Growth Strategy Manager (Risk Control) New\nHong Kong, Hong Kong SAR",
-            "location": "Hong Kong, Hong Kong SAR",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6655302003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Head of Government Affairs New\nS\u00e3o Paulo, Brazil",
-            "location": "S\u00e3o Paulo, Brazil",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656222003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Operations Lead, Emerging MarketNew\nSingapore, Singapore",
-            "location": "Singapore, Singapore",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6655086003' target='_blank' >Apply</a>"
+            "title": "Chatbot Specialist New\nBudapest, Budapest, Hungary",
+            "location": "Budapest, Budapest, Hungary",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656574003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
@@ -128,13 +152,19 @@
         },
         {
             "company": "OKX",
-            "title": "Product Lead, VIP ProductsNew\nSingapore, Singapore",
+            "title": "Staff/Senior Design System DesignerNew\nSan Jose, California, United States",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6657732003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Product Director, VIP ProductsNew\nSingapore, Singapore",
             "location": "Singapore, Singapore",
             "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656276003' target='_blank' >Apply</a>"
         },
         {
             "company": "OKX",
-            "title": "Product Lead, VIP ProductsNew\nHong Kong, Hong Kong SAR",
+            "title": "Product Director, VIP ProductsNew\nHong Kong, Hong Kong SAR",
             "location": "Hong Kong, Hong Kong SAR",
             "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656277003' target='_blank' >Apply</a>"
         },
@@ -175,10 +205,88 @@
             "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6656279003' target='_blank' >Apply</a>"
         },
         {
+            "company": "bitmex",
+            "title": "Senior Software Engineer, Web (Full Stack)New\nRemote - APAC",
+            "location": "Remote - APAC",
+            "link": "<a href='https://job-boards.greenhouse.io/bitmex/jobs/8087704002' target='_blank' >Apply</a>"
+        },
+        {
             "company": "bitgo",
             "title": "Managing Director, Denmark ApS\nDenmark",
             "location": "Denmark",
             "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/7966601002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - GrowthNew\nSan Francisco, California, United States",
+            "location": "San Francisco, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087637002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - GrowthNew\nToronto, Ontario, Canada",
+            "location": "Toronto, Ontario, CA",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087638002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - GrowthNew\nNew York, United States",
+            "location": "New York, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087639002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New\nSan Francisco, California, United States",
+            "location": "San Francisco, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087640002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New\nToronto, Ontario, Canada",
+            "location": "Toronto, Ontario, CA",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087641002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New\nNew York, United States",
+            "location": "New York, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087642002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Mobile (React Native)New\nSan Francisco, California, United States",
+            "location": "San Francisco, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087646002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Mobile (React Native)New\nToronto, Ontario, Canada",
+            "location": "Toronto, Ontario, CA",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087647002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Mobile (React Native)New\nNew York, United States",
+            "location": "New York, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087648002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - OnboardingNew\nSan Francisco, California, United States",
+            "location": "San Francisco, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087651002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - OnboardingNew\nNew York, United States",
+            "location": "New York, US",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087652002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - OnboardingNew\nToronto, Ontario, Canada",
+            "location": "Toronto, Ontario, CA",
+            "link": "<a href='https://job-boards.greenhouse.io/bitgo/jobs/8087654002' target='_blank' >Apply</a>"
         },
         {
             "company": "bitgo",
@@ -200,9 +308,9 @@
         },
         {
             "company": "bitpanda",
-            "title": "Senior Art Director / Designer\nBerlin, Berlin, Germany",
-            "location": "Berlin, Berlin, DE",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4519372101' target='_blank' >Apply</a>"
+            "title": "Specialist, Global CRMNew\nVienna, Vienna, Austria",
+            "location": "Vienna, Vienna, Austria",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4640505101' target='_blank' >Apply</a>"
         },
         {
             "company": "bitpanda",
@@ -223,6 +331,12 @@
             "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4640253101' target='_blank' >Apply</a>"
         },
         {
+            "company": "uniswaplabs",
+            "title": "Paralegal, Legal & ComplianceNew\nNew York or US-based Remote",
+            "location": "New York or US-based Remote",
+            "link": "<a href='https://job-boards.greenhouse.io/uniswaplabs/jobs/4588789005' target='_blank' >Apply</a>"
+        },
+        {
             "company": "cointracker",
             "title": "Backend Engineer",
             "location": "US",
@@ -239,6 +353,12 @@
             "title": "Senior Backend Engineer",
             "location": "US",
             "link": "<a href='https://jobs.ashbyhq.com/cointracker/117da092-0201-4a36-87c2-1b1e0e0a1f9e' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "cointracker",
+            "title": "Staff Backend Engineer, Enterprise",
+            "location": "US",
+            "link": "<a href='https://jobs.ashbyhq.com/cointracker/a521621d-a509-4a5e-a1ab-f1cf65e4ed70' target='_blank' >Apply</a>"
         },
         {
             "company": "kiln",
@@ -265,10 +385,22 @@
             "link": "<a href='https://jobs.ashbyhq.com/Keyrock/42ec4f96-8d89-4dd4-8c5c-a974696df76b' target='_blank' >Apply</a>"
         },
         {
+            "company": "quiknodeinc",
+            "title": "Technical Operations Engineer, Solana",
+            "location": "Portugal; ES; Ireland; UK; Neherlands",
+            "link": "<a href='https://jobs.ashbyhq.com/quicknode/adaaf76d-ce8e-43bf-9f91-9b19cae082b1' target='_blank' >Apply</a>"
+        },
+        {
             "company": "chainalysis",
             "title": "Head Of North American Public Policy",
             "location": "D.C.; New York Office",
             "link": "<a href='https://jobs.ashbyhq.com/chainalysis-careers/b4ffe4f7-a71f-48f4-ab8e-19503a70263c' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "chainalysis",
+            "title": "Senior Data Engineer, Data Cloud",
+            "location": "CA; Ontario",
+            "link": "<a href='https://jobs.ashbyhq.com/chainalysis-careers/a5638d64-7b6f-4f44-a458-a466b8f12b7f' target='_blank' >Apply</a>"
         },
         {
             "company": "bitcoindepot",
@@ -296,15 +428,21 @@
         },
         {
             "company": "Swissquote",
-            "title": "Payment and Settlement Officer (3 months)",
-            "location": "St Julian's STJ Malta",
-            "link": "<a href='https://jobs.smartrecruiters.com/Swissquote/744000071744885-payment-and-settlement-officer-3-months-' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "Swissquote",
             "title": "CASS Associate",
             "location": "United Kingdom London",
             "link": "<a href='https://jobs.smartrecruiters.com/Swissquote/744000071757836-cass-associate' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "aptoslabs",
+            "title": "DeFi GTM/StrategistNew\nGlobal",
+            "location": "Global",
+            "link": "<a href='https://job-boards.greenhouse.io/aptoslabs/jobs/4588386005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "dune",
+            "title": "DuneCon Event Manager (Fixed Term Contract)",
+            "location": "Remote; Remote globally",
+            "link": "<a href='https://jobs.ashbyhq.com/dune/396a7793-9381-4eae-9528-44b30e62d12b' target='_blank' >Apply</a>"
         },
         {
             "company": "windranger",
@@ -319,28 +457,22 @@
             "link": "<a href='https://job-boards.greenhouse.io/foundrydigital/jobs/5349875004' target='_blank' >Apply</a>"
         },
         {
-            "company": "ripple",
-            "title": "Director, M&A Integration",
-            "location": "San Francisco, CA, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7089450/' target='_blank' >Apply</a>"
+            "company": "layerzerolabs",
+            "title": "Technical Project Manager\nVancouver, BC",
+            "location": "Vancouver, BC",
+            "link": "<a href='https://job-boards.greenhouse.io/layerzerolabs/jobs/5554604004' target='_blank' >Apply</a>"
         },
         {
             "company": "ripple",
-            "title": "Director, M&A Integration",
+            "title": "Director, Ecosystem Growth",
             "location": "New York, NY, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7089462/' target='_blank' >Apply</a>"
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/7084095/' target='_blank' >Apply</a>"
         },
         {
             "company": "ripple",
-            "title": "Director, M&A Integration",
-            "location": "San Francisco, CA, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7089450/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "ripple",
-            "title": "Director, M&A Integration",
+            "title": "Director, Ecosystem Growth",
             "location": "New York, NY, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7089462/' target='_blank' >Apply</a>"
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/7084095/' target='_blank' >Apply</a>"
         }
     ]
 }
