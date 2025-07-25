@@ -13,7 +13,7 @@ class ScrapeBase(ScrapeIt):
         group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@href, "basejobs")]')
         result = []
         for elem in group_elements:
-            job_name_elem = elem.find_element(By.XPATH, './/p')
+            job_name_elem = elem.find_element(By.XPATH, './/h6')
             job_name = job_name_elem.text
             job_url = elem.get_attribute('href')
             location = 'US or Canada - Remote'
