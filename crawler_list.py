@@ -1,9 +1,10 @@
 from selenium import webdriver
+from src.scrape_it import write_jobs
 from src.company_list import get_company_list
 from src.company_list import get_company
 
 company_list = get_company_list()
-company_name_list = ['crypto']
+company_name_list = ['base']
 
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()
@@ -16,5 +17,6 @@ driver = webdriver.Chrome(options=chrome_options)
 for company_name in company_name_list:
     company = get_company(company_name)
     jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company_name)
+    write_jobs(jobs_data)
 
 driver.close()
