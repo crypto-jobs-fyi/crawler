@@ -4,7 +4,7 @@ from src.company_list import get_company_list
 from src.company_list import get_company
 
 company_list = get_company_list()
-company_name_list = ['base']
+company_name_list = ['coinbase']
 
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()

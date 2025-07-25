@@ -1,6 +1,7 @@
 import json
 from typing import Any
 
+from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_base import ScrapeBase
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
@@ -255,6 +256,7 @@ def get_company_list() -> list[CompanyItem | Any]:
                     'https://brave.com'),
         CompanyItem('zetachain', 'https://job-boards.greenhouse.io/zetachain', ScrapeGreenhouse,
                     'https://www.zetachain.com'),
+        CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase, 'https://coinbase.com')
     ]
 
 
