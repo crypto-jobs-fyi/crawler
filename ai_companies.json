@@ -75,11 +75,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/lovable"
     },
     {
-        "company_name": "windsurf",
-        "company_url": "https://windsurf.com",
-        "jobs_url": "https://jobs.ashbyhq.com/windsurf"
-    },
-    {
         "company_name": "eliseai",
         "company_url": "https://www.eliseai.com",
         "jobs_url": "https://jobs.ashbyhq.com/eliseai"
@@ -218,5 +213,10 @@
         "company_name": "replit",
         "company_url": "https://www.replit.com",
         "jobs_url": "https://jobs.ashbyhq.com/replit"
+    },
+    {
+        "company_name": "multiverse",
+        "company_url": "https://www.multiverse.io",
+        "jobs_url": "https://jobs.ashbyhq.com/multiverse"
     }
 ]
