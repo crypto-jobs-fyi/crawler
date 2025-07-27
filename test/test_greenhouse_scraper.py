@@ -1,5 +1,8 @@
-from selenium import webdriver
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_greenhouse import ScrapeGreenhouse
 
@@ -18,7 +21,6 @@ company_list = [
                 'https://eco.com'),
     CompanyItem('outlierventures', 'https://boards.eu.greenhouse.io/outlierventures', ScrapeGreenhouse,
                 'https://outlierventures.io'),
-    CompanyItem('evmos', 'https://boards.eu.greenhouse.io/evmos', ScrapeGreenhouse, 'https://evmos.org'),
     CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link'),
     CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', ScrapeGreenhouse,
                 'https://www.trmlabs.com'),
@@ -50,7 +52,7 @@ company_list = [
     CompanyItem("aztec", "https://boards.eu.greenhouse.io/aztec", ScrapeGreenhouse, "https://aztec.network"),
     CompanyItem("avalabs", "https://boards.greenhouse.io/avalabs", ScrapeGreenhouse,
                 "https://www.avalabs.org"),
-    CompanyItem("galaxydigitalservices", "https://boards.greenhouse.io/galaxydigitalservices",
+    CompanyItem("galaxydigital", "https://boards.greenhouse.io/galaxydigitalservices",
                 ScrapeGreenhouse, "https://www.galaxy.com"),
     CompanyItem("bittrex", "https://boards.greenhouse.io/bittrex", ScrapeGreenhouse,
                 "https://global.bittrex.com"),

@@ -8,7 +8,7 @@ CSS_SELECTOR = "css"  # for ChromeDriver
 def clean_location(location):
     locations = list(filter(None, ([x.strip() for x in location.split('•')])))
     result = locations[1]
-    return result.strip().replace('United States', 'US').replace('United Kingdom', 'UK').replace('Canada', 'CA').replace('Australia', 'AU').replace('Germany', 'DE').replace('France', 'FR').replace('Spain', 'ES').replace('Netherlands', 'NL').replace('Sweden', 'SE')
+    return result.strip().replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
 
 
 class ScrapeAshbyhqAsync(ScrapeIt):

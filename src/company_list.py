@@ -248,7 +248,7 @@ def get_company_list() -> list[CompanyItem | Any]:
         CompanyItem("ripple", "https://ripple.com/careers/all-jobs", ScrapeRipple, "https://ripple.com"),
         CompanyItem("eigenlabs", "https://jobs.ashbyhq.com/eigen-labs", ScrapeAshbyhq,
                     "https://www.eigencloud.xyz"),
-        CompanyItem("galaxydigitalservices", "https://boards.greenhouse.io/galaxydigitalservices",
+        CompanyItem("galaxydigital", "https://boards.greenhouse.io/galaxydigitalservices",
                     ScrapeGreenhouse, "https://www.galaxy.com"),
         CompanyItem("clearmatics", "https://job-boards.greenhouse.io/clearmatics", ScrapeGreenhouse,
                     "https://www.clearmatics.com"),

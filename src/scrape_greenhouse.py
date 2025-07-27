@@ -6,7 +6,7 @@ CSS_SELECTOR = "css"  # for ChromeDriver
 
 
 def clean_location(location):
-    location = location.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('Canada', 'CA').replace('Australia', 'AU').replace('Germany', 'DE').replace('France', 'FR').replace('Spain', 'ES').replace('Netherlands', 'NL').replace('Sweden', 'SE')
+    location = location.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
     return location
 
 def get_jobs(driver, company):
@@ -18,7 +18,7 @@ def get_jobs(driver, company):
         location_elem = elem.find_element(By.CSS_SELECTOR, 'p[class*="body--metadata"]')
         job_url = link_elem.get_attribute('href')
         location = location_elem.text
-        job_name = link_elem.text
+        job_name = link_elem.find_element(By.CSS_SELECTOR, 'p[class*="body--medium"]').text
         job = {
             "company": company,
             "title": job_name,
