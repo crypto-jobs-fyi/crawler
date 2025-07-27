@@ -16,7 +16,7 @@ def read_jobs(file_name='jobs.json'):
         jobs_json = json.load(f)
     return jobs_json.get('data', [])
 
-job_json_list = ['headed_jobs.json', 'fin_jobs.json']
+job_json_list = ['headed_jobs.json']
 
 for job_json in job_json_list:
     jobs = read_jobs(file_name=job_json)
