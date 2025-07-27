@@ -34,6 +34,13 @@ jobs:
       - name: Run get_new_jobs.py
         run: python get_new_jobs.py
 
+      - name: Read current.json
+        id: read_current_json
+        run: |
+          echo "data<<EOF" >> $GITHUB_OUTPUT
+          cat current.json >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
@@ -42,6 +49,11 @@ jobs:
           base: main
           branch: 'auto/crawler-update'
           title: 'Automated update from crawler.py'
-          body: 'This PR contains changes made by running crawler.py via GitHub Actions.'
+          body: |
+            This PR contains changes made by running crawler.py via GitHub Actions.
+
+            ```json
+            {{ cat current.json }}
+            ```
           delete-branch: true
           reviewers: yury-dubinin
