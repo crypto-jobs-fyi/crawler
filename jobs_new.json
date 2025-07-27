@@ -1,196 +1,46 @@
 {
     "data": [
         {
-            "company": "kraken",
-            "title": "Payments Partnership Manager",
-            "location": "Europe; UK",
-            "link": "<a href='https://jobs.ashbyhq.com/kraken.com/64c8f6fb-59e4-49bc-b297-c2ca8ae8afd5' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "moonpay",
-            "title": "Frontend Engineer",
-            "location": "Remote  Lisbon / Barcelona / Bucharest / Cape Town / Krakow / London",
-            "link": "<a href='https://jobs.lever.co/moonpay/ff699372-c8ab-4d55-bd19-01c93a9b225b' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "binance",
-            "title": "Senior QA Engineer - AI/LLM",
-            "location": "Taipei Bangkok / Indonesia Jakarta / Taiwan Vietnam Remote  Ho Chi Minh / Thailand",
-            "link": "<a href='https://jobs.lever.co/binance/947f9876-13cc-4d0c-a9de-2cd8d60c22a9' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "binance",
-            "title": "Product Designer",
-            "location": "Ho Chi Minh Bangkok / Vietnam Remote  Taiwan Jakarta / Thailand Taipei / Indonesia",
-            "link": "<a href='https://jobs.lever.co/binance/3d64a370-c980-4176-bd52-676019db2ebe' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "binance",
-            "title": "Web3 Security Project Manager",
-            "location": "Taipei Remote  Taiwan",
-            "link": "<a href='https://jobs.lever.co/binance/270f32d6-f791-4c57-841f-2fc66b50fba0' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "li.fi",
-            "title": "Technical Support Engineer LATAM",
-            "location": "Remote LATAM; Remote AMER",
-            "link": "<a href='https://jobs.ashbyhq.com/li.fi/c9cfebda-3a71-442b-a6a0-465207451bf5' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "Hybrid  Bulgaria Sofia",
-            "link": "<a href='https://jobs.lever.co/crypto/1f01e3bc-94bc-4da4-8f27-c3e4a296f2ee' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "Hybrid  Saint Julian'S Malta",
-            "link": "<a href='https://jobs.lever.co/crypto/8a5908af-0436-4c12-b423-f79f55ad3986' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "United Kingdom Hybrid  London",
-            "link": "<a href='https://jobs.lever.co/crypto/88f06a53-d8cd-4b79-a1ae-810b01bdd2b0' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "Hybrid  Madrid Spain",
-            "link": "<a href='https://jobs.lever.co/crypto/f6264931-dffd-47b6-bfae-e02bff5124b1' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "Germany Hybrid  Berlin",
-            "link": "<a href='https://jobs.lever.co/crypto/02d97f1c-e67f-4ab1-9232-7a69eaad54b7' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Legal Counsel - Capital Markets - European Union (EU)",
-            "location": "France Hybrid  Paris",
-            "link": "<a href='https://jobs.lever.co/crypto/da3842eb-3319-49d9-9042-288ddb394f9f' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Client Services Analyst",
-            "location": "Bangalore Remote  India",
-            "link": "<a href='https://jobs.lever.co/crypto/18c14fb0-6414-477f-b19f-ccc70414ce5e' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "animocabrands",
-            "title": "Secretary",
-            "location": "Hong Kong On-Site",
-            "link": "<a href='https://jobs.lever.co/animocabrands/7e8b3e00-53ca-4e7a-8413-7770ec7cd687' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "blockchain",
-            "title": "Manager of Financial Intelligence Unit (FIU)New\nVilnius",
-            "location": "Vilnius",
-            "link": "<a href='https://job-boards.greenhouse.io/blockchain/jobs/7105818' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "blockchain",
-            "title": "Manager of Financial Intelligence Unit (FIU)New\nMalta",
-            "location": "Malta",
-            "link": "<a href='https://job-boards.greenhouse.io/blockchain/jobs/7105881' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Risk Manager, Technology & Resilience Risk, Hong KongNew\nHong Kong, Hong Kong SAR",
-            "location": "Hong Kong, Hong Kong SAR",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6660942003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior Associate - Risk Operation (P2P Risk)New\nKuala Lumpur, Malaysia",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6660876003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Executive AssistantNew\nVienna, Vienna, Austria",
-            "location": "Vienna, Vienna, Austria",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4644545101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Senior Art Director / Designer\nBerlin, Berlin, Germany",
-            "location": "Berlin, Berlin, DE",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4519372101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Treasury InternNew\nVienna, Vienna, Austria",
-            "location": "Vienna, Vienna, Austria",
-            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4641018101' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "uniswaplabs",
-            "title": "Senior Smart Contract Engineer\nNew York or US-based Remote",
-            "location": "New York or US-based Remote",
-            "link": "<a href='https://job-boards.greenhouse.io/uniswaplabs/jobs/4003103005' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "figment",
-            "title": "Sales Development Representative, LATAMNew\nLatin America",
-            "location": "Latin America",
-            "link": "<a href='https://job-boards.greenhouse.io/figment/jobs/5595302004' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "Bastion",
-            "title": "Senior Software Engineer",
-            "location": "New York City",
-            "link": "<a href='https://jobs.ashbyhq.com/Bastion/5b7e2bb5-bba3-40c4-bb44-5b2528f9dcc8' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "Blockworks",
-            "title": "Senior Protocol Strategist",
-            "location": "Remote",
-            "link": "<a href='https://jobs.ashbyhq.com/Blockworks/5eb89da7-8a69-41a4-a180-11f43680aa67' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "safe.global",
-            "title": "Senior Full Stack Engineer (Backend)",
-            "location": "Berlin",
-            "link": "<a href='https://jobs.ashbyhq.com/safe.global/1b578d6d-e9d0-4096-9717-f71d5801c6d8' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "bitcoindepot",
-            "title": "IT Cloud DevOps Engineer New\nRemote - USA",
+            "company": "aptoslabs",
+            "title": "Event Manager",
             "location": "Remote - USA",
-            "link": "<a href='https://job-boards.greenhouse.io/bitcoindepot/jobs/6661773003' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "io-global",
-            "title": "Software Engineer (Prototype) - Innovation R&D",
-            "location": "Remote",
-            "link": "<a href='https://apply.workable.com/io-global/j/EDCC2FC1BD/' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "taxbit",
-            "title": "Senior Marketing Manager | London New\nEurope",
-            "location": "Europe",
-            "link": "<a href='https://job-boards.greenhouse.io/taxbit/jobs/5598941004' target='_blank' >Apply</a>"
+            "link": "<a href='https://job-boards.greenhouse.io/aptoslabs/jobs/4538678005' target='_blank' >Apply</a>"
         },
         {
             "company": "ripple",
-            "title": "Senior Sales Development Representative (6 Months Contract)",
-            "location": "Singapore",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7105382/' target='_blank' >Apply</a>"
+            "title": "Senior Director of Global AML & Sanctions Programs",
+            "location": "New York, NY, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/6883388/' target='_blank' >Apply</a>"
         },
         {
             "company": "ripple",
-            "title": "Senior Sales Development Representative (6 Months Contract)",
-            "location": "Singapore",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7105382/' target='_blank' >Apply</a>"
+            "title": "Senior Director of Global AML & Sanctions Programs",
+            "location": "Miami, FL, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/6883386/' target='_blank' >Apply</a>"
         },
         {
-            "company": "galaxydigital",
-            "title": "Identity and Access Management (IAM) SpecialistNew\nRemote",
-            "location": "Remote",
-            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5596464004' target='_blank' >Apply</a>"
+            "company": "ripple",
+            "title": "Senior Director of Global AML & Sanctions Programs",
+            "location": "New York, NY, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/6883388/' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Director of Global AML & Sanctions Programs",
+            "location": "Miami, FL, United States",
+            "link": "<a href='https://ripple.com/careers/all-jobs/job/6883386/' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Compliance Lead Analyst",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/6759438' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior AML Investigations Trainer",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/6852375' target='_blank' >Apply</a>"
         }
     ]
 }
