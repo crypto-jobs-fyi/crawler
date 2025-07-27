@@ -28,6 +28,9 @@ jobs:
       - name: Run crawler.py
         run: python crawler.py
 
+      - name: Run merge_jobs.py
+        run: python merge_jobs.py
+
       - name: Run write_jobs_age.py
         run: python write_jobs_age.py
 
