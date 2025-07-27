@@ -31,6 +31,11 @@ jobs:
       - name: Run write_fin_jobs_age.py
         run: python write_fin_jobs_age.py
 
+      - name: set-output
+        if: failure() || success()
+        id: set-output
+        run: echo "current=$(jq -r '.' ai_current.json)" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
@@ -39,6 +44,11 @@ jobs:
           base: main
           branch: 'auto/crawler-fin-update'
           title: 'Automated update from crawler_fin.py'
-          body: 'This PR contains changes made by running crawler_fin.py via GitHub Actions.'
+          body: |
+            This PR contains changes made by running crawler_fin.py via GitHub Actions.
+
+            ```json
+            {{ steps.set-output.outputs.current }}
+            ```
           delete-branch: true
           reviewers: yury-dubinin
