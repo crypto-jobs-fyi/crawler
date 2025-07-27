@@ -1,6 +1,7 @@
 import time
 
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 
 from src.scrape_it import ScrapeIt
 
@@ -12,18 +13,20 @@ class ScrapeGemini(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         time.sleep(5)
-        driver.implicitly_wait(12)
-        result = []
-        view_button = driver.find_element(By.XPATH, '//button[.="View open roles"]')
-        view_button.click()
+        driver.implicitly_wait(9)
         accept = driver.find_elements(By.CSS_SELECTOR, 'section[id="cookiePolicyAgreement"] button')
         if len(accept) > 0:
             accept[0].click()
-        # open all departments
-        departments = driver.find_elements(By.CSS_SELECTOR, 'section div[data-testid="collapse-header"]')
+        result = []
+        
+        # open all departments 1 by 1
+        departments = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="team-dropdown"]')
         print(f'[{self.name}] Found {len(departments)} departments.')
         for department in departments:
+            driver.execute_script("arguments[0].scrollIntoView();", department)
+            time.sleep(2)
             department.click()
+            time.sleep(1)
             group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="job-element"]')
             for elem in group_elements:
                 job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')
