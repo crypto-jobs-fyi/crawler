@@ -50,7 +50,7 @@ jobs:
             This PR contains changes made by running crawler_fin.py via GitHub Actions.
 
             ```json
-            {{ steps.set-output.outputs.current }}
+            ${{ steps.set-output.outputs.current }}
             ```
           delete-branch: true
           reviewers: yury-dubinin
