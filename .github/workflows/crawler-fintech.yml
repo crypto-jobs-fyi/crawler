@@ -34,7 +34,7 @@ jobs:
       - name: set-output
         if: failure() || success()
         id: set-output
-        run: echo "current=$(jq -r '.' ai_current.json)" >> $GITHUB_OUTPUT
+        run: echo "current=$(jq -c '.' fin_current.json)" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

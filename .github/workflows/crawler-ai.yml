@@ -34,6 +34,11 @@ jobs:
       - name: Run get_new_ai_jobs.py
         run: python get_new_ai_jobs.py
 
+      - name: set-output
+        if: failure() || success()
+        id: set-output
+        run: echo "current=$(jq -c '.' ai_current.json)" >> $GITHUB_OUTPUT
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
@@ -42,6 +47,11 @@ jobs:
           base: main
           branch: 'auto/crawler-ai-update'
           title: 'Automated update from crawler_ai.py'
-          body: 'This PR contains changes made by running crawler_ai.py via GitHub Actions.'
+          body: |
+            This PR contains changes made by running crawler_ai.py via GitHub Actions.
+
+            ```json
+            {{ steps.set-output.outputs.current }}
+            ```
           delete-branch: true
           reviewers: yury-dubinin
