@@ -9,12 +9,12 @@ from src.scrape_it import ScrapeIt
 class ScrapeGemini(ScrapeIt):
     name = 'gemini'
 
-    def getJobs(self, driver, web_page, company='gemini') -> []:
+    def getJobs(self, driver, web_page, company='gemini') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         time.sleep(5)
         driver.implicitly_wait(9)
-        accept = driver.find_elements(By.CSS_SELECTOR, 'section[id="cookiePolicyAgreement"] button')
+        accept: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'section[id="cookiePolicyAgreement"] button')
         if len(accept) > 0:
             accept[0].click()
         result = []
