@@ -2,10 +2,11 @@ import time
 
 from selenium import webdriver
 
+from src.company_item import CompanyItem
 from src.company_list_empty import get_company_list
 from src.company_list_empty import write_companies
 
-company_list = get_company_list()
+company_list: list[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
 write_companies('companies_empty.json')
 

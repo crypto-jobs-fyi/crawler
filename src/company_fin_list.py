@@ -1,5 +1,4 @@
 import json
-from typing import Any
 
 from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_circle import ScrapeCircle
@@ -10,7 +9,7 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
 
 
-def get_company_list() -> list[CompanyItem | Any]:
+def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem('flex', 'https://job-boards.greenhouse.io/flex', ScrapeGreenhouse, 'https://getflex.com'),
         CompanyItem('Box', 'https://job-boards.greenhouse.io/boxinc', ScrapeGreenhouse, 'https://www.box.com'),

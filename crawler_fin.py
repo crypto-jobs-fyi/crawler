@@ -3,16 +3,15 @@ from datetime import datetime
 
 from selenium import webdriver
 
+from src.company_item import CompanyItem
 from src.scrape_it import write_jobs
 from src.company_fin_list import get_company_list
 from src.company_fin_list import write_companies
 
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
 jobs_file = 'fin_jobs.json'
 companies_file = 'fin_companies.json'
 
-company_list = get_company_list()
+company_list: list[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
 write_companies(companies_file)
 

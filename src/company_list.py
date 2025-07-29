@@ -1,5 +1,4 @@
 import json
-from typing import Any
 
 from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_base import ScrapeBase
@@ -12,7 +11,7 @@ from src.scrape_smartrecruiters import ScrapeSmartrecruiters
 from src.scrape_workable import ScrapeWorkable
 
 
-def get_company_list() -> list[CompanyItem | Any]:
+def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem("base", "https://www.base.org/jobs", ScrapeBase, "https://www.base.org"),
         CompanyItem('Numeus', 'https://job-boards.eu.greenhouse.io/numus', ScrapeGreenhouse, 'https://classic.numeus.xyz'),

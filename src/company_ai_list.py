@@ -1,5 +1,4 @@
 import json
-from typing import Any
 
 from src.scrape_lever import ScrapeLever
 from src.company_item import CompanyItem
@@ -7,7 +6,7 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_greenhouse import ScrapeGreenhouse
 
 
-def get_company_list() -> list[CompanyItem | Any]:
+def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem('anthropic', 'https://job-boards.greenhouse.io/anthropic', ScrapeGreenhouse, 'https://www.anthropic.com'),
         CompanyItem('openai', 'https://jobs.ashbyhq.com/openai', ScrapeAshbyhq, 'https://openai.com'),

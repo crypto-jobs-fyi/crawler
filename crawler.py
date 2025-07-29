@@ -3,11 +3,12 @@ from datetime import datetime
 
 from selenium import webdriver
 
+from src.company_item import CompanyItem
 from src.scrape_it import write_jobs
 from src.company_list import get_company_list
 from src.company_list import write_companies
 
-company_list = get_company_list()
+company_list: list[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
 write_companies('companies.json')
 

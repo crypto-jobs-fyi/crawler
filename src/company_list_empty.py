@@ -1,5 +1,4 @@
 import json
-from typing import Any
 
 from src.company_item import CompanyItem
 from src.scrape_ashbyhq import ScrapeAshbyhq
@@ -9,7 +8,7 @@ from src.scrape_lever import ScrapeLever
 from src.scrape_workable import ScrapeWorkable
 
 
-def get_company_list() -> list[CompanyItem | Any]:
+def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com"),
         CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
