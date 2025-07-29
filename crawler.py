@@ -3,14 +3,14 @@ from datetime import datetime
 
 from selenium import webdriver
 
+from src.companies import Companies
 from src.company_item import CompanyItem
-from src.scrape_it import write_jobs
+from src.scrape_it import ScrapeIt
 from src.company_list import get_company_list
-from src.company_list import write_companies
 
 company_list: list[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
-write_companies('companies.json')
+Companies.write_companies('companies.json', company_list)
 
 with open('jobs.json', 'w') as f:
     f.write('{}')
@@ -31,8 +31,9 @@ for company in company_list:
     print(f'[CRAWLER] scrape {n} of {len(company_list)}')
     n = n + 1
     try:
-        jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-        write_jobs(jobs_data)
+        crawler_type: ScrapeIt = company.scraper_type()
+        jobs_data = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
+        ScrapeIt.write_jobs(jobs_data)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:
