@@ -1,10 +1,8 @@
 import time
 
-from caqui import asynchronous
 from selenium.webdriver.common.by import By
+from selenium.webdriver.remote.webelement import WebElement
 from src.scrape_it import ScrapeIt
-
-CSS_SELECTOR = "css"  # for ChromeDriver
 
 
 def clean_location(location):
@@ -18,65 +16,30 @@ def clean_location(location):
 
 
 class ScrapeLever(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company) -> list:
         print(f'[LEVER] Scrap page: {web_page}')
         driver.get(web_page)
         if company in ['binance', 'crypto']:
             time.sleep(5)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
-        result = []
+        group_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
+        result: list = []
         for elem in group_elements:
-            link_elem = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')
-            location_elem = elem.find_elements(By.CSS_SELECTOR, '[class*="location"]')
-            workplace_elem = elem.find_elements(By.CSS_SELECTOR, '[class*="workplaceTypes"]')
-            job_url = elem.get_attribute('href')
+            link_elem: WebElement = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')
+            location_elem: list[WebElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="location"]')
+            workplace_elem: list[WebElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="workplaceTypes"]')
+            job_url: str = elem.get_attribute('href')
             if len(location_elem) > 0:
-                location = location_elem[0].text
+                location: str = location_elem[0].text
             else:
-                location = ''
+                location: str = ''
             if len(workplace_elem) > 0:
-                workplace = workplace_elem[0].text
-                merge_location = f'{location},{workplace}'
+                workplace: str = workplace_elem[0].text
+                merge_location: str = f'{location},{workplace}'
             else:
-                merge_location = location
+                merge_location: str = location
             job = {
                 "company": company,
                 "title": link_elem.text,
-                "location": clean_location(merge_location),
-                "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
-            }
-            result.append(job)
-        print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
-        return result
-
-
-class ScrapeLeverAsync(ScrapeIt):
-    name = 'Lever'
-
-    async def getJobs(self, driver, web_page, company) -> []:
-        print(f'[{self.name}] Scrap page: {web_page}')
-        await asynchronous.go_to_page(*driver, web_page)
-        await asynchronous.set_timeouts(*driver, 5000)
-        group_elements = await asynchronous.find_elements(*driver, CSS_SELECTOR, 'a[class="posting-title"]')
-        result = []
-        for elem in group_elements:
-            link_elem = await asynchronous.find_child_element(*driver, elem, CSS_SELECTOR, '[data-qa="posting-name"]')
-            location_elem = await asynchronous.find_children_elements(*driver, elem, CSS_SELECTOR, '[class*="location"]')
-            workplace_elem = await asynchronous.find_children_elements(*driver, elem, CSS_SELECTOR, '[class*="workplaceTypes"]')
-            job_url = await asynchronous.get_attribute(*driver, elem, "href")
-            title_text = await asynchronous.get_text(*driver, link_elem)
-            if len(location_elem) > 0:
-                location = await asynchronous.get_text(*driver, location_elem[0])
-            else:
-                location = ''
-            if len(workplace_elem) > 0:
-                workplace = await asynchronous.get_text(*driver, workplace_elem[0])
-                merge_location = f'{location},{workplace}'
-            else:
-                merge_location = location
-            job = {
-                "company": company,
-                "title": title_text,
                 "location": clean_location(merge_location),
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }

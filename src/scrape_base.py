@@ -5,7 +5,7 @@ from src.scrape_it import ScrapeIt
 class ScrapeBase(ScrapeIt):
     name = 'Base'
 
-    def getJobs(self, driver, web_page, company = 'base') -> []:
+    def getJobs(self, driver, web_page, company = 'base') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
