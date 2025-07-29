@@ -35,7 +35,7 @@ class ScrapeWorkable(ScrapeIt):
             print(f'[{self.name}] Clear filters')
             driver.execute_script("arguments[0].click();", clear_filters[0])
         driver.implicitly_wait(15)
-        wait = WebDriverWait(driver, 20)
+        wait = WebDriverWait(driver, 10)
         result = []
         show_more_locator = 'button[data-ui="load-more-button"]'
         job_root_locator = 'li[data-ui^="job"]'

@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-def to_records(driver, company) -> []:
+def to_records(driver, company) -> list:
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'h3 a[href]')
     result = []
     print(f'[CIRCLE] Found {len(group_elements)} jobs. Scraping jobs...')
@@ -30,7 +30,7 @@ class ScrapeCircle(ScrapeIt):
             time.sleep(3)
         return is_displayed
 
-    def getJobs(self, driver, web_page, company='circle') -> []:
+    def getJobs(self, driver, web_page, company='circle') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)

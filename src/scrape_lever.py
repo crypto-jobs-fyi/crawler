@@ -16,8 +16,10 @@ def clean_location(location):
 
 
 class ScrapeLever(ScrapeIt):
+    name = 'LEVER'
+
     def getJobs(self, driver, web_page, company) -> list:
-        print(f'[LEVER] Scrap page: {web_page}')
+        print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         if company in ['binance', 'crypto']:
             time.sleep(5)
@@ -44,5 +46,5 @@ class ScrapeLever(ScrapeIt):
                 "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
             }
             result.append(job)
-        print(f'[LEVER] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         return result

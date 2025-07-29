@@ -1,10 +1,10 @@
 from enum import Enum
 
-from scrape_base import ScrapeBase
-from scrape_coinbase import ScrapeCoinbase
-from scrape_ripple import ScrapeRipple
-from scrape_smartrecruiters import ScrapeSmartrecruiters
-from scrape_workable import ScrapeWorkable
+from src.scrape_base import ScrapeBase
+from src.scrape_coinbase import ScrapeCoinbase
+from src.scrape_ripple import ScrapeRipple
+from src.scrape_smartrecruiters import ScrapeSmartrecruiters
+from src.scrape_workable import ScrapeWorkable
 from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_circle import ScrapeCircle
 from src.scrape_greenhouse import ScrapeGreenhouse
