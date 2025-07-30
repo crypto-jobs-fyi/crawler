@@ -2,9 +2,21 @@
     "data": [
         {
             "company": "kraken",
+            "title": "Data Analyst - Product",
+            "location": "US",
+            "link": "<a href='https://jobs.ashbyhq.com/kraken.com/91bd357d-b135-4eef-a773-e23c0ea4219f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
             "title": "Technical Project Manager",
             "location": "US; Europe; Canada; UK",
             "link": "<a href='https://jobs.ashbyhq.com/kraken.com/b149783e-a39b-4c79-ba77-d72a5befdada' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr. Product Marketing Manager, Earn",
+            "location": "US; UK; Europe",
+            "link": "<a href='https://jobs.ashbyhq.com/kraken.com/c83db420-19c8-4004-a3a2-53cae116538b' target='_blank' >Apply</a>"
         },
         {
             "company": "fireblocks",
@@ -32,9 +44,15 @@
         },
         {
             "company": "binance",
-            "title": "Senior QA Engineer - SDET (RM)",
-            "location": "Taiwan Hybrid  Dubai / Thailand Bangkok Taipei / Uae",
-            "link": "<a href='https://jobs.lever.co/binance/da7ab85d-f832-4331-a669-03a141eb9307' target='_blank' >Apply</a>"
+            "title": "Senior C++/RUST Backend Engineer, Futures",
+            "location": "Auckland / Philippines Almaty / New Zealand Remote  Tokyo / Kazakhstan Manila / Saudi Arabia Jakarta / Japan Seoul / Australia Sydney / Hong Kong / Indonesia Riyadh Taipei / South East Asia / South Korea Taiwan",
+            "link": "<a href='https://jobs.lever.co/binance/2a331cff-ca19-4f14-9afb-d3d65b3b616f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "li.fi",
+            "title": "QA Engineer",
+            "location": "Remote EMEA",
+            "link": "<a href='https://jobs.ashbyhq.com/li.fi/e5f9d496-6bd7-44be-a38b-e8d06c1a3f59' target='_blank' >Apply</a>"
         },
         {
             "company": "ether-fi",
@@ -44,63 +62,93 @@
         },
         {
             "company": "crypto",
-            "title": "Language Quality Specialist",
-            "location": "Hybrid  Hong Kong Sar Hong Kong",
-            "link": "<a href='https://jobs.lever.co/crypto/4cbdede7-ebcc-489e-96bb-80d56c9e1658' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Language Quality Specialist",
-            "location": "Hybrid  Taiwan Taipei",
-            "link": "<a href='https://jobs.lever.co/crypto/ae446cfe-0f1a-4378-9214-d7ed8eaf7401' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Language Quality Specialist",
-            "location": "Hybrid  China Shenzhen",
-            "link": "<a href='https://jobs.lever.co/crypto/684f18cc-192d-499e-b4f3-793e06159fb7' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Language Quality Specialist",
-            "location": "Hybrid  Malaysia Kuala Lumpur",
-            "link": "<a href='https://jobs.lever.co/crypto/a53032cf-47ba-4c87-a274-2e3c73bdf3bb' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Language Quality Specialist",
-            "location": "Hybrid  Singapore",
-            "link": "<a href='https://jobs.lever.co/crypto/08df5083-e0f9-4c3a-b071-a796b5107f98' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
-            "title": "Director, Global Tax Compliance and Tax Accounting",
-            "location": "Hybrid  Singapore",
-            "link": "<a href='https://jobs.lever.co/crypto/b58fc659-a49a-49be-b7c0-e174860cdd77' target='_blank' >Apply</a>"
-        },
-        {
-            "company": "crypto",
             "title": "Customer Experience Associate with German and English (Phone Support), Bulgaria",
-            "location": "Bulgaria Sofia On-Site",
+            "location": "Bulgaria On-Site  Sofia",
             "link": "<a href='https://jobs.lever.co/crypto/d8f72282-c0f0-41e2-9a83-aebddd771e69' target='_blank' >Apply</a>"
         },
         {
             "company": "crypto",
+            "title": "Senior Quality Assurance Automation Engineer - Blockchain Team",
+            "location": "Singapore Hybrid",
+            "link": "<a href='https://jobs.lever.co/crypto/ab988413-44b9-4bef-a47d-89ca7b6f1382' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
+            "title": "Senior Quality Assurance Automation Engineer - Blockchain Team",
+            "location": "Shenzhen China / Shanghai / Hangzhou / Chengdu Hybrid",
+            "link": "<a href='https://jobs.lever.co/crypto/5ec00183-8516-42b9-9c23-4480aab92b6f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
             "title": "Backend Production Support Engineer",
-            "location": "Hybrid  Singapore",
+            "location": "Singapore Hybrid",
             "link": "<a href='https://jobs.lever.co/crypto/e31ff3d9-5d5e-4720-8c02-234ddea58ae9' target='_blank' >Apply</a>"
         },
         {
+            "company": "crypto",
+            "title": "3D Designer",
+            "location": "Hong Kong Sar Hong Kong Hybrid",
+            "link": "<a href='https://jobs.lever.co/crypto/194f5dd5-44cc-4cda-9b29-30c8eb7e134f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
+            "title": "3D Designer",
+            "location": "Singapore Hybrid",
+            "link": "<a href='https://jobs.lever.co/crypto/2cab62d5-09f9-40ae-9b0a-a6b6d8fe7b40' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "crypto",
+            "title": "3D Designer",
+            "location": "Hybrid  Taipei Taiwan",
+            "link": "<a href='https://jobs.lever.co/crypto/2205e0f0-3200-44f1-87a1-3ce5374620b2' target='_blank' >Apply</a>"
+        },
+        {
             "company": "anchorage",
-            "title": "Member of Trading Operations, Trading Ops",
-            "location": "Remote  United States / Portugal / Singapore",
-            "link": "<a href='https://jobs.lever.co/anchorage/0f13c760-a28f-4750-8b6f-2b6d5e5b10cf' target='_blank' >Apply</a>"
+            "title": "Engineering Manager, Core Experience",
+            "location": "Portugal Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/851f3634-d0c4-4972-a06f-19671529f119' target='_blank' >Apply</a>"
         },
         {
             "company": "anchorage",
             "title": "Member of Technical Staff, Internal Systems",
-            "location": "Remote  United States",
+            "location": "United States Remote",
             "link": "<a href='https://jobs.lever.co/anchorage/9dd147cf-03a0-4766-b230-ec8a7fe32262' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Trading Operations, Trading Ops",
+            "location": "United States / Portugal / Singapore Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/0f13c760-a28f-4750-8b6f-2b6d5e5b10cf' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Relationship Management",
+            "location": "United States Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/4259d073-ebd3-43f7-b8a5-9afc47caab74' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Growth Marketing Lead",
+            "location": "United States Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/f020139a-8259-49d1-8844-c766469f00e4' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Marketing, Growth",
+            "location": "United States Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/55fdb6b9-2a68-470e-8c45-7b3b7e18548f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Marketing, Growth Operations",
+            "location": "United States Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/71bcf12e-3b02-4845-81c0-204bde58c938' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "anchorage",
+            "title": "Product Marketing Lead",
+            "location": "United States Remote",
+            "link": "<a href='https://jobs.lever.co/anchorage/715ee69a-3e40-44de-a74e-74a111536659' target='_blank' >Apply</a>"
         },
         {
             "company": "centrifuge",
@@ -115,16 +163,58 @@
             "link": "<a href='https://jobs.ashbyhq.com/risklabs/e9326337-5a0c-4bb2-bc9a-cb3d1195bf8b' target='_blank' >Apply</a>"
         },
         {
+            "company": "immutable",
+            "title": "Corporate Finance Manager (9 month FTC)",
+            "location": "Sydney Hybrid",
+            "link": "<a href='https://jobs.lever.co/immutable/a1c4cc13-3296-41b4-8fb6-8a7bea825cb9' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "immutable",
+            "title": "Engineering Manager",
+            "location": "Sydney / Australia Hybrid",
+            "link": "<a href='https://jobs.lever.co/immutable/28fef5b8-da08-4eca-a8be-560f88eba913' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "iftother",
+            "title": "Senior Engineer (P2P & Rust)New",
+            "location": "Remote (Worldwide)",
+            "link": "<a href='https://job-boards.greenhouse.io/iftother/jobs/7116635' target='_blank' >Apply</a>"
+        },
+        {
             "company": "figure",
             "title": "Customer Success AssociateNew",
             "location": "Charlotte, NC",
             "link": "<a href='https://job-boards.greenhouse.io/figure/jobs/8094656002' target='_blank' >Apply</a>"
         },
         {
+            "company": "figure",
+            "title": "Licensed Customer Success AssociateNew",
+            "location": "St. Louis, MO",
+            "link": "<a href='https://job-boards.greenhouse.io/figure/jobs/8094662002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "figure",
+            "title": "Team ManagerNew",
+            "location": "Charlotte, NC",
+            "link": "<a href='https://job-boards.greenhouse.io/figure/jobs/8094646002' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "figure",
+            "title": "Third Party Account ManagerNew",
+            "location": "Charlotte, NC",
+            "link": "<a href='https://job-boards.greenhouse.io/figure/jobs/8095211002' target='_blank' >Apply</a>"
+        },
+        {
             "company": "coingecko",
             "title": "Account Executive (API)",
             "location": "Selangor / Singapore Remote",
             "link": "<a href='https://jobs.lever.co/coingecko/c6f71886-1356-42b9-b4d4-dcf1b1a5010b' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coingecko",
+            "title": "Revenue Operations Lead",
+            "location": "Selangor Remote",
+            "link": "<a href='https://jobs.lever.co/coingecko/4abf3b7b-c13e-4351-a4d8-2b96371a8dc9' target='_blank' >Apply</a>"
         },
         {
             "company": "coingecko",
@@ -135,26 +225,104 @@
         {
             "company": "bitwise",
             "title": "Research Analyst",
-            "location": "Ca San Francisco Hybrid  Ny / Los Angeles Ca / New York",
+            "location": "Ca Hybrid  San Francisco Ca / New York Ny / Los Angeles",
             "link": "<a href='https://jobs.lever.co/bitwiseinvestments/4cb02ded-e615-4eab-b1f4-b8427fdc4590' target='_blank' >Apply</a>"
         },
         {
             "company": "bitwise",
             "title": "Senior Index Specialist",
-            "location": "Hybrid  Ny Ca / New York San Francisco",
+            "location": "Hybrid  San Francisco Ca / New York Ny",
             "link": "<a href='https://jobs.lever.co/bitwiseinvestments/771bedc9-1601-432a-ba45-91831758b70a' target='_blank' >Apply</a>"
         },
         {
-            "company": "grayscaleinvestments",
-            "title": "Portfolio ConsultantNew",
-            "location": "Stamford, Connecticut, US",
-            "link": "<a href='https://job-boards.greenhouse.io/grayscaleinvestments/jobs/6662448003' target='_blank' >Apply</a>"
+            "company": "xlabs",
+            "title": "Senior / Staff Site Reliability Engineer (Infra)",
+            "location": "Europe; Argentina; Latam",
+            "link": "<a href='https://jobs.ashbyhq.com/Xlabs/a34a3b48-ccbe-4e2d-b761-bfb65e8f4158' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "orca",
+            "title": "Business Developer",
+            "location": "US | Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/orca/ea80dcb4-2d2d-41e3-ba6d-468f8cd60c46' target='_blank' >Apply</a>"
         },
         {
             "company": "orca",
             "title": "Product Analyst",
             "location": "US | Remote",
             "link": "<a href='https://jobs.ashbyhq.com/orca/565ee110-51a2-4d2f-a7b6-16bc9a9713ab' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "wormholefoundation",
+            "title": "Senior Engineer (P2P & Rust)New",
+            "location": "Remote (Worldwide)",
+            "link": "<a href='https://job-boards.greenhouse.io/iftother/jobs/7116635' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "(Senior/Principal) Product Manager_Web3 GrowthNew",
+            "location": "Singapore, Singapore",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6664673003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "(Senior/Principal) Product Manager_Web3 GrowthNew",
+            "location": "Hong Kong, Hong Kong SAR",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6664672003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Staff Software Engineer - Trading Service, Retail TradingNew",
+            "location": "Singapore, Singapore",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6664617003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Principal / Senior Trading Data AnalystNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665594003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Director, Data ScienceNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665543003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, AffiliateNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665564003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, Growth AI (LLM Applications)New",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665572003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, Onshore TradingNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665554003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, Performance MarketingNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665561003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, SEO & AI Search OptimisationNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665571003' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Director, User AcquisitionNew",
+            "location": "San Jose, California, US",
+            "link": "<a href='https://job-boards.greenhouse.io/okx/jobs/6665557003' target='_blank' >Apply</a>"
         },
         {
             "company": "bitmex",
@@ -176,6 +344,12 @@
         },
         {
             "company": "bitpanda",
+            "title": "Strategic Finance Specialist",
+            "location": "Vienna, Vienna, Austria",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4572530101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitpanda",
             "title": "Associate, Call ConciergeNew",
             "location": "Vienna, Vienna, Austria",
             "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4644941101' target='_blank' >Apply</a>"
@@ -185,6 +359,18 @@
             "title": "Associate, Payment & Risk OperationsNew",
             "location": "Vienna, Vienna, Austria",
             "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4643993101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Specialist, Payment & Risk OperationNew",
+            "location": "Vienna, Vienna, Austria",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4645853101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Software Engineer, Java",
+            "location": "Vienna, Vienna, Austria",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/bitpanda/jobs/4352593101' target='_blank' >Apply</a>"
         },
         {
             "company": "figment",
@@ -209,6 +395,36 @@
             "title": "Account Executive, Institutional",
             "location": "US",
             "link": "<a href='https://jobs.ashbyhq.com/cointracker/e4fea6f9-bc6c-4433-a703-d71340a3d18f' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "Bastion",
+            "title": "Finance Operations Lead",
+            "location": "US Remote",
+            "link": "<a href='https://jobs.ashbyhq.com/Bastion/8599db9d-d6c7-431d-aaf9-59bd02c05deb' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Executive Assistant / Personal Assistant",
+            "location": "Los Angeles",
+            "link": "<a href='https://jobs.ashbyhq.com/Solana%20Foundation/6a09defd-28a1-4a6f-9ff9-52c7d008e5e8' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "mara",
+            "title": "Facility Maintenance Specialist",
+            "location": "Hannibal, OH",
+            "link": "<a href='https://job-boards.greenhouse.io/mara/jobs/4567647005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "mara",
+            "title": "Facility Maintenance SpecialistNew",
+            "location": "Findlay, OH",
+            "link": "<a href='https://job-boards.greenhouse.io/mara/jobs/4586966005' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "magiceden",
+            "title": "QA Specialist",
+            "location": "Shanghai",
+            "link": "<a href='https://jobs.ashbyhq.com/magiceden/2e5eec0c-0607-43a6-a686-1f3c7818dc4a' target='_blank' >Apply</a>"
         },
         {
             "company": "parity",
@@ -247,22 +463,34 @@
             "link": "<a href='https://jobs.smartrecruiters.com/Swissquote/744000073053065-lawyer-inheritance-law' target='_blank' >Apply</a>"
         },
         {
+            "company": "Swissquote",
+            "title": "Private Sales Coordinator (temporary contract - 6 months)",
+            "location": "Z\u00fcrich Switzerland",
+            "link": "<a href='https://jobs.smartrecruiters.com/Swissquote/744000073337984-private-sales-coordinator-temporary-contract-6-months-' target='_blank' >Apply</a>"
+        },
+        {
             "company": "Decentraland",
             "title": "Full-stack Engineer",
-            "location": "Remote  Worldwide",
+            "location": "Worldwide Remote",
             "link": "<a href='https://jobs.lever.co/Decentraland/d38bea07-32ed-4793-9d48-7299c58f26ce' target='_blank' >Apply</a>"
         },
         {
-            "company": "ripple",
-            "title": "Staff Software Engineer",
-            "location": "San Francisco, CA, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7001478/' target='_blank' >Apply</a>"
+            "company": "copperco",
+            "title": "Associate Software EngineerNew",
+            "location": "London",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/copperco/jobs/4639292101' target='_blank' >Apply</a>"
         },
         {
-            "company": "ripple",
-            "title": "Staff Software Engineer",
-            "location": "San Francisco, CA, United States",
-            "link": "<a href='https://ripple.com/careers/all-jobs/job/7001478/' target='_blank' >Apply</a>"
+            "company": "copperco",
+            "title": "Software EngineerNew",
+            "location": "London",
+            "link": "<a href='https://job-boards.eu.greenhouse.io/copperco/jobs/4645474101' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "oasisnetwork",
+            "title": "Head of MarketingNew",
+            "location": "Europe",
+            "link": "<a href='https://job-boards.greenhouse.io/oasisnetwork/jobs/4591085005' target='_blank' >Apply</a>"
         },
         {
             "company": "galaxydigital",
@@ -272,9 +500,27 @@
         },
         {
             "company": "galaxydigital",
-            "title": "UI DeveloperNew",
-            "location": "New York, NY",
-            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5599761004' target='_blank' >Apply</a>"
+            "title": "Senior Backend Developer - BrokerageNew",
+            "location": "Remote",
+            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5601265004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "Senior Backend Developer - MortgageNew",
+            "location": "Remote",
+            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5601253004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "Site Reliability Engineer (SRE) New",
+            "location": "Hong Kong",
+            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5601337004' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "Associate Security Engineer (Vulnerability Management)New",
+            "location": "Remote",
+            "link": "<a href='https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5601034004' target='_blank' >Apply</a>"
         },
         {
             "company": "brave",
@@ -284,9 +530,57 @@
         },
         {
             "company": "coinbase",
+            "title": "Associate, Partnerships, Crypto Onramps & Growth",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/6451983' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Consumer Quality Assurance Analyst (CX & Operations)",
+            "location": "Remote - UK",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7028504' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
             "title": "Vendor Manager",
             "location": "Manila, Philippines",
             "link": "<a href='https://www.coinbase.com/careers/positions/7096536' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Staff Product Designer - Platform",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7112422' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineer, Blockchain Platform (Staking Validators)",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7114605' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Specialist, Treasury & Banking Operations",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7012162' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Specialist, Treasury & Banking Operations",
+            "location": "Remote - Ireland",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7012164' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Program Manager, HR M&A and International Expansion",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7099818' target='_blank' >Apply</a>"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Director, Physical Security",
+            "location": "Remote - USA",
+            "link": "<a href='https://www.coinbase.com/careers/positions/7113704' target='_blank' >Apply</a>"
         }
     ]
 }
