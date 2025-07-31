@@ -5,10 +5,9 @@ from datetime import datetime
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_it import write_jobs
+from src.scrape_it import ScrapeIt
 from src.scrape_coinbase import ScrapeCoinbase
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")
+
 
 user_data_dir = tempfile.mkdtemp()  # Creates a unique temp directory
 jobs_file = 'headed_jobs.json'
@@ -35,8 +34,9 @@ for company in company_list:
     print(f'[CRAWLER] scrape {n} of {len(company_list)}')
     n = n + 1
     try:
-        jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-        write_jobs(jobs_data, jobs_file)
+        crawler_type: ScrapeIt = company.scraper_type()
+        jobs_data = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
+        ScrapeIt.write_jobs(jobs_data, jobs_file)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception as e:
