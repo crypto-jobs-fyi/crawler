@@ -11,6 +11,7 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_robinhood import ScrapeRobinhood
+from src.scrape_bamboohr import ScrapeBamboohr
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -24,3 +25,4 @@ class Scrapers(Enum):
     COINBASE = ScrapeCoinbase
     BASE = ScrapeBase
     RIPPLE = ScrapeRipple
+    BAMBOOHR = ScrapeBamboohr

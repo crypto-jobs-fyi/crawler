@@ -15,17 +15,16 @@ def clean_location(location):
 class ScrapeBamboohr(ScrapeIt):
     name = 'bamboohr'
 
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company) -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(5)
         group_elements = driver.find_elements(By.XPATH, '//ul//li//a/..')
-        job_location_locator = 'p'
         result = []
         for elem in group_elements:
-            link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
-            job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')
-            location_elem = elem.find_element(By.CSS_SELECTOR, job_location_locator)
+            link_elem = elem.find_element(By.XPATH, './/a')
+            job_name_elem = elem.find_element(By.XPATH, './/a')
+            location_elem = elem.find_elements(By.XPATH, f'.//p')[0]
             job_url = link_elem.get_attribute('href')
             job_name = job_name_elem.text
             location = location_elem.text

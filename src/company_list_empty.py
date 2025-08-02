@@ -1,78 +1,52 @@
-import json
-
 from src.company_item import CompanyItem
-from src.scrape_ashbyhq import ScrapeAshbyhq
-from src.scrape_bamboohr import ScrapeBamboohr
-from src.scrape_greenhouse import ScrapeGreenhouse
-from src.scrape_lever import ScrapeLever
-from src.scrape_workable import ScrapeWorkable
+from src.scrapers import Scrapers
 
 
 def get_company_list() -> list[CompanyItem]:
     return [
-        CompanyItem("archblock", "https://jobs.lever.co/archblock", ScrapeLever, "https://www.archblock.com"),
-        CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', ScrapeWorkable,
+        CompanyItem("archblock", "https://jobs.lever.co/archblock", Scrapers.LEVER.value, "https://www.archblock.com"),
+        CompanyItem('smart-token-labs', 'https://apply.workable.com/smart-token-labs', Scrapers.WORKABLE.value,
                     'https://smarttokenlabs.com'),
-        CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', ScrapeWorkable,
+        CompanyItem('superfluid', 'https://apply.workable.com/superfluid/#jobs', Scrapers.WORKABLE.value,
                     'https://www.superfluid.finance'),
-        CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network"),
-        CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', ScrapeWorkable,
+        CompanyItem("request", "https://jobs.lever.co/request", Scrapers.LEVER.value, "https://request.network"),
+        CompanyItem('mina-foundation', 'https://apply.workable.com/mina-foundation', Scrapers.WORKABLE.value,
                     'https://www.minafoundation.com'),
-        CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', ScrapeLever, 'https://www.blockswap.network'),
-        CompanyItem('ultra', 'https://jobs.lever.co/ultra', ScrapeLever, 'https://ultra.io'),
-        CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', ScrapeLever, 'https://glassnode.com'),
-        CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', ScrapeBamboohr,
+        CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', Scrapers.LEVER.value, 'https://www.blockswap.network'),
+        CompanyItem('ultra', 'https://jobs.lever.co/ultra', Scrapers.LEVER.value, 'https://ultra.io'),
+        CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', Scrapers.LEVER.value, 'https://glassnode.com'),
+        CompanyItem('dappradar', 'https://dappradar.bamboohr.com/careers', Scrapers.BAMBOOHR.value,
                     'https://dappradar.com'),
-        CompanyItem('web3', 'https://web3.bamboohr.com/careers', ScrapeBamboohr, 'https://web3.foundation'),
-        CompanyItem("kadena", "https://boards.greenhouse.io/kadenallc", ScrapeGreenhouse, "https://kadena.io"),
-        CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse,
+        CompanyItem('web3', 'https://web3.bamboohr.com/careers', Scrapers.BAMBOOHR.value, 'https://web3.foundation'),
+        CompanyItem("kadena", "https://boards.greenhouse.io/kadenallc", Scrapers.GREENHOUSE.value, "https://kadena.io"),
+        CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', Scrapers.GREENHOUSE.value,
                     'https://protocol.ai/about'),
-        CompanyItem('Boost', 'https://jobs.ashbyhq.com/Boost', ScrapeAshbyhq, 'https://Boost.xyz'),
-        CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi'),
-        CompanyItem('pyth', 'https://jobs.ashbyhq.com/pythnetwork', ScrapeGreenhouse,
+        CompanyItem('Boost', 'https://jobs.ashbyhq.com/Boost', Scrapers.ASHBYHQ.value, 'https://Boost.xyz'),
+        CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', Scrapers.ASHBYHQ.value, 'https://exponential.fi'),
+        CompanyItem('pyth', 'https://jobs.ashbyhq.com/pythnetwork', Scrapers.GREENHOUSE.value,
                     'https://pyth.network'),
-        CompanyItem('outlierventures', 'https://outlierventures.bamboohr.com/careers', ScrapeBamboohr,
+        CompanyItem('outlierventures', 'https://outlierventures.bamboohr.com/careers', Scrapers.BAMBOOHR.value,
                     'https://outlierventures.io'),
-        CompanyItem("subspacelabs", "https://jobs.lever.co/autonomys", ScrapeLever,
+        CompanyItem("subspacelabs", "https://jobs.lever.co/autonomys", Scrapers.LEVER.value,
                     "https://www.autonomys.xyz"),
-        CompanyItem("biconomy", "https://jobs.lever.co/biconomy", ScrapeLever, "https://www.biconomy.io"),
-        CompanyItem('coinmetrics', 'https://boards.greenhouse.io/coinmetrics', ScrapeGreenhouse,
+        CompanyItem("biconomy", "https://jobs.lever.co/biconomy", Scrapers.LEVER.value, "https://www.biconomy.io"),
+        CompanyItem('coinmetrics', 'https://boards.greenhouse.io/coinmetrics', Scrapers.GREENHOUSE.value,
                     'https://coinmetrics.io'),
-        CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', ScrapeGreenhouse,
+        CompanyItem('goldsky', 'https://boards.greenhouse.io/goldsky', Scrapers.GREENHOUSE.value,
                     'https://goldsky.com'),
-        CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
+        CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', Scrapers.BAMBOOHR.value,
                     'https://www.iofinnet.com'),
-        CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", ScrapeGreenhouse,
+        CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", Scrapers.GREENHOUSE.value,
                     "https://fil.org"),
-        CompanyItem("solana", "https://job-boards.greenhouse.io/solana", ScrapeGreenhouse,
+        CompanyItem("solana", "https://job-boards.greenhouse.io/solana", Scrapers.GREENHOUSE.value,
                     "https://solana.com"),
-        CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
-        CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', ScrapeAshbyhq,
+        CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', Scrapers.GREENHOUSE.value, 'https://osmosis.zone'),
+        CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', Scrapers.ASHBYHQ.value,
                     'https://movementlabs.xyz'),
-        CompanyItem('magic', 'https://job-boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link'),
-        CompanyItem('econetwork', 'https://job-boards.greenhouse.io/ecoinc', ScrapeGreenhouse,
+        CompanyItem('magic', 'https://job-boards.greenhouse.io/magic', Scrapers.GREENHOUSE.value, 'https://magic.link'),
+        CompanyItem('econetwork', 'https://job-boards.greenhouse.io/ecoinc', Scrapers.GREENHOUSE.value,
                     'https://eco.com'),
-        CompanyItem("ramp.network", "https://job-boards.eu.greenhouse.io/rampnetwork", ScrapeGreenhouse,
+        CompanyItem("ramp.network", "https://job-boards.eu.greenhouse.io/rampnetwork", Scrapers.GREENHOUSE.value,
                     "https://ramp.network"),
-        CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever, 'https://obol.tech'),
+        CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', Scrapers.LEVER.value, 'https://obol.tech'),
     ]
-
-
-def get_company(name) -> CompanyItem:
-    company_list = get_company_list()
-    companies = list(filter(lambda jd: jd.company_name == name, company_list))
-    return companies[0]
-
-
-def write_companies(file_name):
-    result_list = []
-    for com in get_company_list():
-        company_item = {
-            "company_name": com.company_name,
-            "company_url": com.company_url,
-            "jobs_url": com.jobs_url,
-        }
-        result_list.append(company_item)
-    print(f'[COMPANY_LIST] Number of Companies writen {len(result_list)}')
-    with open(file_name, 'w') as companies_file:
-        json.dump(result_list, companies_file, indent=4)

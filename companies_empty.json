@@ -10,16 +10,6 @@
         "jobs_url": "https://apply.workable.com/smart-token-labs"
     },
     {
-        "company_name": "dydxopsdao",
-        "company_url": "https://dydxopsdao.com",
-        "jobs_url": "https://apply.workable.com/dydx-operations-trust"
-    },
-    {
-        "company_name": "bitget",
-        "company_url": "https://www.bitget.com/en",
-        "jobs_url": "https://apply.workable.com/bitget"
-    },
-    {
         "company_name": "superfluid",
         "company_url": "https://www.superfluid.finance",
         "jobs_url": "https://apply.workable.com/superfluid/#jobs"
@@ -57,7 +47,7 @@
     {
         "company_name": "web3",
         "company_url": "https://web3.foundation",
-        "jobs_url": "https://web3.bamboohr.com/jobs"
+        "jobs_url": "https://web3.bamboohr.com/careers"
     },
     {
         "company_name": "kadena",
@@ -100,11 +90,6 @@
         "jobs_url": "https://jobs.lever.co/biconomy"
     },
     {
-        "company_name": "StationLabs",
-        "company_url": "https://www.station.express",
-        "jobs_url": "https://jobs.ashbyhq.com/StationLabs"
-    },
-    {
         "company_name": "coinmetrics",
         "company_url": "https://coinmetrics.io",
         "jobs_url": "https://boards.greenhouse.io/coinmetrics"
@@ -133,5 +118,30 @@
         "company_name": "osmosisdex",
         "company_url": "https://osmosis.zone",
         "jobs_url": "https://boards.greenhouse.io/osmosisdex"
+    },
+    {
+        "company_name": "movementlabs",
+        "company_url": "https://movementlabs.xyz",
+        "jobs_url": "https://jobs.ashbyhq.com/movementlabs"
+    },
+    {
+        "company_name": "magic",
+        "company_url": "https://magic.link",
+        "jobs_url": "https://job-boards.greenhouse.io/magic"
+    },
+    {
+        "company_name": "econetwork",
+        "company_url": "https://eco.com",
+        "jobs_url": "https://job-boards.greenhouse.io/ecoinc"
+    },
+    {
+        "company_name": "ramp.network",
+        "company_url": "https://ramp.network",
+        "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork"
+    },
+    {
+        "company_name": "obol-tech",
+        "company_url": "https://obol.tech",
+        "jobs_url": "https://jobs.lever.co/obol-tech"
     }
 ]
