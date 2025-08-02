@@ -28,6 +28,11 @@ jobs:
       - name: Run crawler_empty.py
         run: python crawler_empty.py
 
+      - name: Print current jobs
+        run: |
+          echo "Current jobs:"
+          cat current_jobs_empty.json
+
       - name: set-output
         if: failure() || success()
         id: set-output
