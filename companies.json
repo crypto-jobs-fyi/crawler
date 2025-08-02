@@ -30,9 +30,24 @@
         "jobs_url": "https://jobs.ashbyhq.com/phantom"
     },
     {
-        "company_name": "obol-tech",
-        "company_url": "https://obol.tech",
-        "jobs_url": "https://jobs.lever.co/obol-tech"
+        "company_name": "paxos",
+        "company_url": "https://www.paxos.com",
+        "jobs_url": "https://www.paxos.com/jobs"
+    },
+    {
+        "company_name": "circle",
+        "company_url": "https://www.circle.com",
+        "jobs_url": "https://careers.circle.com/us/en/search-results"
+    },
+    {
+        "company_name": "robinhood",
+        "company_url": "https://www.robinhood.com",
+        "jobs_url": "https://careers.robinhood.com"
+    },
+    {
+        "company_name": "ninjatrader",
+        "company_url": "https://www.ninjatrader.com",
+        "jobs_url": "https://job-boards.greenhouse.io/ninjatrader"
     },
     {
         "company_name": "arbitrumfoundation",
@@ -190,11 +205,6 @@
         "jobs_url": "https://job-boards.greenhouse.io/recall"
     },
     {
-        "company_name": "ramp.network",
-        "company_url": "https://ramp.network",
-        "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork"
-    },
-    {
         "company_name": "eiger",
         "company_url": "https://www.eiger.co",
         "jobs_url": "https://boards.eu.greenhouse.io/eiger"
@@ -228,11 +238,6 @@
         "company_name": "auroralabs",
         "company_url": "https://auroralabs.dev",
         "jobs_url": "https://jobs.lever.co/aurora-dev"
-    },
-    {
-        "company_name": "ledger",
-        "company_url": "https://www.ledger.com",
-        "jobs_url": "https://jobs.lever.co/ledger"
     },
     {
         "company_name": "immutable",
@@ -368,16 +373,6 @@
         "company_name": "ritual",
         "company_url": "https://ritual.net",
         "jobs_url": "https://boards.greenhouse.io/ritual"
-    },
-    {
-        "company_name": "econetwork",
-        "company_url": "https://eco.com",
-        "jobs_url": "https://job-boards.greenhouse.io/ecoinc"
-    },
-    {
-        "company_name": "magic",
-        "company_url": "https://magic.link",
-        "jobs_url": "https://job-boards.greenhouse.io/magic"
     },
     {
         "company_name": "coinmarketcap",
