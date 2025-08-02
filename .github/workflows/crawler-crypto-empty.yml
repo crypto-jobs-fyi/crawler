@@ -39,7 +39,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler.py [automated]'
+          commit-message: 'chore: update data via crawler_empty.py [automated]'
           base: main
           branch: 'auto/crawler-empty-update'
           title: 'Automated update from crawler_empty.py'
