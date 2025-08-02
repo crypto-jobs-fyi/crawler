@@ -49,6 +49,12 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
         CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', ScrapeAshbyhq,
                     'https://movementlabs.xyz'),
+        CompanyItem('magic', 'https://job-boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link'),
+        CompanyItem('econetwork', 'https://job-boards.greenhouse.io/ecoinc', ScrapeGreenhouse,
+                    'https://eco.com'),
+        CompanyItem("ramp.network", "https://job-boards.eu.greenhouse.io/rampnetwork", ScrapeGreenhouse,
+                    "https://ramp.network"),
+        CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', ScrapeLever, 'https://obol.tech'),
     ]
 
 
