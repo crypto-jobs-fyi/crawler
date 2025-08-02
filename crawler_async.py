@@ -56,7 +56,7 @@ async def __schedule_tasks():
                     'DeFi'),
         CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhqAsync, 'https://conduit.xyz',
                     'Infrastructure'),
-        CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhqAsync, 'https://www.kiln.fi',
+        CompanyItem('kiln.fi', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhqAsync, 'https://www.kiln.fi',
                     'Staking & Infra'),
         CompanyItem("flashbots", "https://jobs.ashbyhq.com/flashbots.net", ScrapeAshbyhqAsync,
                     "https://www.flashbots.net", "ETH MEV"),

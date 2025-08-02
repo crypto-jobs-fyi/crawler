@@ -129,7 +129,6 @@ wip:
 - https://apply.workable.com/summerfi/#jobs https://summer.fi/
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
-- https://base.org/jobs
 - https://lavanet.applytojob.com/apply/
 - https://www.kamu.dev/jobs/
 - https://jobs.zama.ai/departments/tfhe-rs
@@ -148,9 +147,10 @@ not only crypto:
 not yet crypto:
 
 - https://boards.greenhouse.io/papaya
-- https://boards.greenhouse.io/ramp
 - https://jobs.lever.co/pigment
 - https://jobs.lever.co/neednova
 - https://plaid.com/careers/openings
 
 to be fixed:
+
+    CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER.value, "https://www.ledger.com"),
