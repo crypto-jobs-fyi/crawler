@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import time
 
 from selenium import webdriver
@@ -11,7 +15,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
-    CompanyItem('flashbots', 'https://jobs.ashbyhq.com/flashbots.net', ScrapeAshbyhq, ''),
+    CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', ScrapeAshbyhq, 'https://www.langchain.com'),
     CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz'),
     CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi'),
     CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi'),
