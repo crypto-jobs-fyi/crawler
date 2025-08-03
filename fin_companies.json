@@ -20,6 +20,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/get-ivy"
     },
     {
+        "company_name": "qonto",
+        "company_url": "https://www.qonto.com",
+        "jobs_url": "https://jobs.lever.co/qonto"
+    },
+    {
         "company_name": "moneybox",
         "company_url": "https://www.moneyboxapp.com",
         "jobs_url": "https://jobs.lever.co/moneyboxapp"
@@ -33,30 +38,5 @@
         "company_name": "huspy",
         "company_url": "https://www.huspy.com",
         "jobs_url": "https://job-boards.greenhouse.io/huspy"
-    },
-    {
-        "company_name": "paxos",
-        "company_url": "https://www.paxos.com",
-        "jobs_url": "https://www.paxos.com/jobs"
-    },
-    {
-        "company_name": "circle",
-        "company_url": "https://www.circle.com",
-        "jobs_url": "https://careers.circle.com/us/en/search-results"
-    },
-    {
-        "company_name": "robinhood",
-        "company_url": "https://www.robinhood.com",
-        "jobs_url": "https://careers.robinhood.com"
-    },
-    {
-        "company_name": "qonto",
-        "company_url": "https://www.qonto.com",
-        "jobs_url": "https://jobs.lever.co/qonto"
-    },
-    {
-        "company_name": "ninjatrader",
-        "company_url": "https://www.ninjatrader.com",
-        "jobs_url": "https://job-boards.greenhouse.io/ninjatrader"
     }
 ]
