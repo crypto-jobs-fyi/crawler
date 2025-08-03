@@ -1,10 +1,11 @@
 {
-    "Total Jobs": 2701,
+    "Total Jobs": 2519,
     "anthropic": 191,
-    "openai": 318,
+    "openai": 315,
     "groq": 38,
     "GPTZero": 11,
     "perplexityai": 79,
+    "langchain": 21,
     "Crusoe": 118,
     "characterai": 7,
     "cohere": 68,
@@ -20,9 +21,9 @@
     "deepmind": 80,
     "scaleai": 76,
     "arizeai": 17,
-    "xai": 267,
+    "xai": 168,
     "neptuneai": 8,
-    "n8n": 16,
+    "n8n": 15,
     "palantir": 226,
     "machinify": 20,
     "assemblyai": 3,
@@ -44,6 +45,6 @@
     "hoppr": 8,
     "replit": 20,
     "multiverse": 20,
-    "workato": 251,
+    "workato": 151,
     "enjins": 7
 }
