@@ -38,11 +38,11 @@ class ScrapeGreenhouse(ScrapeIt):
             time.sleep(3)
         return len(next_page) > 0
 
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company: str) -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
-        if company == 'bitcoin':
+        if company.lower() in ['bitcoin', 'okx']:
             time.sleep(5)
         iframe = driver.find_elements(By.TAG_NAME, 'iframe')
         if len(iframe) > 0:
