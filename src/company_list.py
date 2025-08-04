@@ -205,8 +205,6 @@ def get_company_list() -> list[CompanyItem]:
                     'https://prepo.io'),
         CompanyItem('io-global', 'https://apply.workable.com/io-global/#jobs', Scrapers.WORKABLE.value,
                     'https://iohk.io'),
-        CompanyItem('clockwork-labs', 'https://apply.workable.com/clockwork-labs',
-                    Scrapers.WORKABLE.value, 'https://clockworklabs.io'),
         CompanyItem('o1labs', 'https://boards.greenhouse.io/o1labs', Scrapers.GREENHOUSE.value, 'https://o1labs.org'),
         CompanyItem('paradigm.co', 'https://boards.greenhouse.io/paradigm62', Scrapers.GREENHOUSE.value,
                     'https://www.paradigm.co'),
