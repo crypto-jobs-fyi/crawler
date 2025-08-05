@@ -20,8 +20,9 @@ class ScrapeIt(ABC):
             json.dump(jobs_json, file, indent=4)
 
     @staticmethod
-    def write_current_jobs_number(company, number_of_jobs, file_name='current_jobs_empty.json'):
-
+    def write_current_jobs_number(company, number_of_jobs, file_name):
+        if file_name is None or file_name.strip() == '':
+            raise ValueError("File name cannot be None or empty.")
         if not os.path.exists(file_name):
             jobs_json = {}
         else:
