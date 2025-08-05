@@ -4,8 +4,8 @@ import time
 
 
 def clean_location(location):
-    location = location.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
-    return location
+    location = location.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE').replace('Tel Aviv-Yafo, Tel Aviv District', 'Tel Aviv').replace('Hong Kong, Hong Kong SAR', 'Hong Kong')
+    return location.strip().strip('-')
 
 def get_jobs(driver, company):
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
