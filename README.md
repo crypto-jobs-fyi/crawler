@@ -109,7 +109,6 @@ wip:
 - https://www.ethswarm.org/jobs
 - https://cash.app/careers
 - https://join.com/companies/peaq
-- https://strike.me/careers/
 - https://edxmarkets.com/about/careers/
 - https://bloxstaking.breezy.hr/
 - https://zero-hash.breezy.hr/
