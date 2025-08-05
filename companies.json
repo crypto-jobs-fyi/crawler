@@ -20,6 +20,16 @@
         "jobs_url": "https://job-boards.greenhouse.io/fireblocks"
     },
     {
+        "company_name": "blockstream",
+        "company_url": "https://www.blockstream.com",
+        "jobs_url": "https://job-boards.greenhouse.io/blockstream"
+    },
+    {
+        "company_name": "swanbitcoin",
+        "company_url": "https://www.swanbitcoin.com",
+        "jobs_url": "https://job-boards.greenhouse.io/swanbitcoin"
+    },
+    {
         "company_name": "moonpay",
         "company_url": "https://www.moonpay.com",
         "jobs_url": "https://jobs.lever.co/moonpay"
@@ -648,11 +658,6 @@
         "company_name": "io-global",
         "company_url": "https://iohk.io",
         "jobs_url": "https://apply.workable.com/io-global/#jobs"
-    },
-    {
-        "company_name": "clockwork-labs",
-        "company_url": "https://clockworklabs.io",
-        "jobs_url": "https://apply.workable.com/clockwork-labs"
     },
     {
         "company_name": "o1labs",
