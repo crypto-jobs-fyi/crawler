@@ -55,10 +55,8 @@ wip:
 - https://nexo.breezy.hr
 - https://the-graph.breezy.hr
 - https://koii-network.breezy.hr
-- https://transak-inc.breezy.hr
 - https://careers.stacks.org
-- https://www.kucoin.com/careers/job-opening
-- https://www.seba.swiss/careers
+- https://www.kucoin.com/careers
 - https://www.rdx.works/careers#careers
 - https://horizenlabs.io/careers/#list-jobs
 - https://careers.substrate.io/jobs
@@ -75,10 +73,8 @@ wip:
 - https://rhino.fi/careers/
 - https://nascent-xyz.breezy.hr/
 - https://angel.co/company/chainflip/jobs
-- https://coin98.bamboohr.com/careers
 - https://bitflyer.com/en-jp/recruit#positions
 - https://livepeer.org/jobs
-- https://jobs.lever.co/kavalabs
 - https://www.blockchains.com/careers/#board
 - https://join.com/companies/21-finance
 - https://fantom.foundation/careers
@@ -86,7 +82,6 @@ wip:
 - https://www.coincover.com/careers
 - https://careers.koinly.io/jobs
 - https://voltz.notion.site/Voltz-Labs-is-Hiring-f1a8857cb7b24d43968cfd735f52292a
-- https://hop.exchange/careers
 - https://careers.bitrefill.com/jobs/
 - https://bankless.pallet.com/jobs
 - https://www.certora.com/#careers
@@ -110,7 +105,7 @@ wip:
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
 - https://jobs.dragonfly.xyz/jobs 
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?department=[1110473]
+- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/
 - https://www.ethswarm.org/jobs
 - https://cash.app/careers
 - https://join.com/companies/peaq
@@ -129,12 +124,12 @@ wip:
 - https://apply.workable.com/summerfi/#jobs https://summer.fi/
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
+- https://transak-inc.breezy.hr
 - https://lavanet.applytojob.com/apply/
 - https://www.kamu.dev/jobs/
 - https://jobs.zama.ai/departments/tfhe-rs
 - https://www.soliduslabs.com/careers#open-positions
 - https://www.ambergroup.io/people?location=All&jobType=All
-- https://apply.workable.com/ferrum/
 - https://lightcurve.jobs.personio.de/?language=en
 - https://apply.workable.com/anza-xyz/
 
