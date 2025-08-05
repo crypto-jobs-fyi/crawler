@@ -39,12 +39,12 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler.py [automated]'
+          commit-message: 'chore: update data via crypto_crawler_lever.py [automated]'
           base: main
-          branch: 'auto/crawler-update'
-          title: 'Automated update from crawler.py'
+          branch: 'auto/crypto-crawler-lever-update'
+          title: 'Automated update from crypto_crawler_lever.py'
           body: |
-            This PR contains changes made by running crawler.py via GitHub Actions.
+            This PR contains changes made by running crypto_crawler_lever.py via GitHub Actions.
 
             ```json
             ${{ steps.set-output.outputs.current }}
