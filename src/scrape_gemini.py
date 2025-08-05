@@ -38,7 +38,7 @@ class ScrapeGemini(ScrapeIt):
                     "company": company,
                     "title": job_name,
                     "location": location,
-                    "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+                    "link": job_url
                 }
                 result.append(job)
         filter_result = [item for item in result if item["location"] != ""]

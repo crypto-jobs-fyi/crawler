@@ -5,6 +5,7 @@ from src.scrapers import Scrapers
 
 def get_company_list() -> list[CompanyItem]:
     return [
+        CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM.value, 'https://www.sygnum.com'),
         CompanyItem("base", "https://www.base.org/jobs", Scrapers.BASE.value, "https://www.base.org"),
         CompanyItem('Numeus', 'https://job-boards.eu.greenhouse.io/numus', Scrapers.GREENHOUSE.value, 'https://classic.numeus.xyz'),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", Scrapers.ASHBYHQ.value, "https://kraken.com"),

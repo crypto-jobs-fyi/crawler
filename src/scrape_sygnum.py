@@ -1,24 +1,27 @@
+import time
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
+# https://www.sygnum.com/careers-portal
 
+class ScrapeSygnum(ScrapeIt):
+    name = 'Sygnum'
 
-class ScrapeWorkday(ScrapeIt):
-    name = 'Workday'
-
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company = 'sygnum') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
-        driver.implicitly_wait(15)
+        driver.implicitly_wait(7)
         driver.get(web_page)
+        acceptCookies = driver.find_elements(By.XPATH, '//button[.="Essential only"]')
+        if len(acceptCookies) > 0:
+            acceptCookies[0].click()
+            time.sleep(3)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//a[@data-uxi-element-id]')
+        group_elements = driver.find_elements(By.XPATH, '//ul/li[@class="results-list__item result-item"]')
         result = []
         for elem in group_elements:
-            job_name_elem = elem
+            job_name_elem = elem.find_element(By.XPATH, './/h3/a')
             job_name = job_name_elem.text
-            locator = f"//li//a[.='{job_name}']/../../../../..//div[@data-automation-id='locations']//dd"
-            location_elem = driver.find_element(By.XPATH, locator)
             job_url = job_name_elem.get_attribute('href')
-            location = location_elem.text
+            location = elem.find_element(By.XPATH, './/p[@class="result-item__location"]').text
             job = {
                 "company": company,
                 "title": job_name,

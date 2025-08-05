@@ -21,7 +21,7 @@ def get_jobs(driver, company):
             "company": company,
             "title": job_name,
             "location": clean_location(location),
-            "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+            "link": job_url
         }
         result.append(job)
     return result

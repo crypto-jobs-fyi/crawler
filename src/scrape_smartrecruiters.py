@@ -41,7 +41,7 @@ class ScrapeSmartrecruiters(ScrapeIt):
                 "company": company,
                 "title": job_title,
                 "location": location,
-                "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+                "link": job_url
             }
             result.append(job)
         print(f'[SmartRecruiters] Found jobs: {len(group_elements)}, Scraped {len(result)} jobs from {web_page}')

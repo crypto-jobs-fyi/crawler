@@ -13,7 +13,7 @@ def to_records(driver, company) -> []:
             "company": company,
             "title": title,
             "location": elem.find_element(By.CSS_SELECTOR, 'h6[class="location"]').text,
-            "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+            "link": job_url
         }
         result.append(job)
     return result

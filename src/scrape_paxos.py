@@ -10,7 +10,7 @@ def to_records(group_elements, company) -> list:
             "company": company,
             "title": elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] h4').text,
             "location": elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] p').text,
-            "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+            "link": job_url
         }
         result.append(job)
     return result

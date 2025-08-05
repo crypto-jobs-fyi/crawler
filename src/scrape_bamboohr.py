@@ -33,7 +33,7 @@ class ScrapeBamboohr(ScrapeIt):
                 "company": company,
                 "title": job_name,
                 "location": clean_location(cleaned_location),
-                "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+                "link": job_url
             }
             result.append(job)
         print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')

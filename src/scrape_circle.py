@@ -13,7 +13,7 @@ def to_records(driver, company) -> list:
             "company": company,
             "title": elem.text,
             "location": 'US',
-            "link": f"<a href='{job_url}' target='_blank' >Apply</a>"
+            "link": job_url
         }
         result.append(job)
     return result
@@ -39,9 +39,6 @@ class ScrapeCircle(ScrapeIt):
         if len(accept_cookies) > 0:
             print(f'[{self.name}] Accepting cookies...')
             accept_cookies[0].click()
-        # close_chat = driver.find_element(By.XPATH, '//button[@id="PhenomChatbotNotificationCloseButton"]')
-        # close_chat.click()
-        # //h3/a[@data-ph-at-id="job-link" and contains(@href, "circle")]
         result = to_records(driver, company)
         while self.has_next_page(driver):
             result += to_records(driver, company)

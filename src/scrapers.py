@@ -12,11 +12,13 @@ from src.scrape_lever import ScrapeLever
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_bamboohr import ScrapeBamboohr
+from src.scrape_sygnum import ScrapeSygnum
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
     CIRCLE = ScrapeCircle
     PAXOS = ScrapePaxos
+    SYGNUM = ScrapeSygnum
     LEVER = ScrapeLever
     ASHBYHQ = ScrapeAshbyhq
     GREENHOUSE = ScrapeGreenhouse
