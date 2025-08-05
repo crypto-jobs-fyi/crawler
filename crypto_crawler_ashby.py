@@ -10,8 +10,7 @@ from src.scrape_it import ScrapeIt
 from src.company_list import get_company_list
 
 company_list: list[CompanyItem] = get_company_list()
-print(f'[CRAWLER] Number of companies: {len(company_list)}')
-jobs_file = 'crypto_jobs.json'
+jobs_file = 'crypto_jobs_ashby.json'
 with open(jobs_file, 'w') as f:
     f.write('{}')
 
@@ -22,9 +21,8 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-extensions')
 driver: webdriver.Chrome = webdriver.Chrome(options=chrome_options)
-first_filter = Companies.filter_companies_not(company_list, Scrapers.LEVER.value)
-second_filter = Companies.filter_companies_not(first_filter, Scrapers.ASHBYHQ.value)
-filtered_companies = Companies.filter_companies_not(second_filter, Scrapers.GREENHOUSE.value)
+
+filtered_companies = Companies.filter_companies(company_list, Scrapers.ASHBYHQ.value)
 n = 1
 now = datetime.date(datetime.now())
 start_time = time.time()
