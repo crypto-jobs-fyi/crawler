@@ -1,5 +1,11 @@
 import json
+from src.companies import Companies
+from src.company_item import CompanyItem
+from src.company_list import get_company_list
 
+company_list: list[CompanyItem] = get_company_list()
+print(f'[CRAWLER] Number of companies: {len(company_list)}')
+Companies.write_companies('companies.json', company_list)
 
 def write_jobs(jobs, file_name='jobs.json'):
     with open(file_name, 'r') as f:
@@ -16,7 +22,7 @@ def read_jobs(file_name='jobs.json'):
         jobs_json = json.load(f)
     return jobs_json.get('data', [])
 
-job_json_list = ['headed_jobs.json']
+job_json_list = ['headed_jobs.json', 'crypto_jobs.json', 'crypto_jobs_lever.json']
 
 for job_json in job_json_list:
     jobs = read_jobs(file_name=job_json)

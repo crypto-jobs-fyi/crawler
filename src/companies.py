@@ -25,3 +25,11 @@ class Companies:
         print(f'[COMPANY_LIST] Number of Companies writen {len(result_list)}')
         with open(file_name, 'w') as companies_file:
             json.dump(result_list, companies_file, indent=4)
+
+    @staticmethod
+    def filter_companies(company_list: list[CompanyItem], scraper_type) -> list[CompanyItem]:
+        return [company for company in company_list if getattr(company, 'scraper_type', None) == scraper_type]
+    
+    @staticmethod
+    def filter_companies_not(company_list: list[CompanyItem], scraper_type) -> list[CompanyItem]:
+        return [company for company in company_list if getattr(company, 'scraper_type', None) != scraper_type]

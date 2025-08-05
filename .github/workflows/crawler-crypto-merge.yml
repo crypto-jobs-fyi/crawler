@@ -1,8 +1,8 @@
-name: Run Crawler Crypto
+name: Run Crawler Crypto Merge Jobs
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:
@@ -25,8 +25,14 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run crypto_crawler.py
-        run: python crypto_crawler.py
+      - name: Run merge_jobs.py
+        run: python merge_jobs.py
+
+      - name: Run write_jobs_age.py
+        run: python write_jobs_age.py
+
+      - name: Run get_new_jobs.py
+        run: python get_new_jobs.py
 
       - name: set-output
         if: failure() || success()
@@ -39,12 +45,12 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler.py [automated]'
+          commit-message: 'chore: update data via merge_jobs.py [automated]'
           base: main
-          branch: 'auto/crawler-update'
-          title: 'Automated update from crawler.py'
+          branch: 'auto/crawler-merge_jobs-update'
+          title: 'Automated update from merge_jobs.py'
           body: |
-            This PR contains changes made by running crawler.py via GitHub Actions.
+            This PR contains changes made by running merge_jobs.py via GitHub Actions.
 
             ```json
             ${{ steps.set-output.outputs.current }}

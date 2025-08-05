@@ -1,10 +1,5 @@
 [
     {
-        "company_name": "sygnum",
-        "company_url": "https://www.sygnum.com",
-        "jobs_url": "https://www.sygnum.com/careers-portal"
-    },
-    {
         "company_name": "base",
         "company_url": "https://www.base.org",
         "jobs_url": "https://www.base.org/jobs"
@@ -788,5 +783,10 @@
         "company_name": "coinbase",
         "company_url": "https://coinbase.com",
         "jobs_url": "https://www.coinbase.com/careers/positions"
+    },
+    {
+        "company_name": "sygnum",
+        "company_url": "https://www.sygnum.com",
+        "jobs_url": "https://www.sygnum.com/careers-portal"
     }
 ]
