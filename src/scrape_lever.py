@@ -6,13 +6,8 @@ from src.scrape_it import ScrapeIt
 
 
 def clean_location(location):
-    locations = set(filter(None, ([x.strip() for x in location.split(',')])))
-    if len(locations) == 1:
-        return next(iter(locations)).strip().lstrip('-').title()
-    joined = ' '.join(locations).lower()
-    if joined.count('remote') > 1:
-        return joined.replace('remote', '', 1).strip().lstrip('-').title()
-    return joined.replace('\u2014', '').strip().lstrip('-').title()
+    location: str = location.strip().strip('-').replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
+    return location.replace('\u2014', '')
 
 
 class ScrapeLever(ScrapeIt):
