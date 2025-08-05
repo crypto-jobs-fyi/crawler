@@ -4,9 +4,9 @@ from datetime import datetime
 
 from selenium import webdriver
 
+from src.scrapers import Scrapers
 from src.company_item import CompanyItem
 from src.scrape_it import ScrapeIt
-from src.scrape_coinbase import ScrapeCoinbase
 
 
 user_data_dir = tempfile.mkdtemp()  # Creates a unique temp directory
@@ -24,7 +24,10 @@ chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 
 driver = webdriver.Chrome(options=chrome_options)
 
-company_list = [CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', ScrapeCoinbase, 'https://coinbase.com')]
+company_list = [
+    CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', Scrapers.COINBASE.value, 'https://coinbase.com'),
+    CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM.value, 'https://www.sygnum.com'),
+]
 
 n = 1
 now = datetime.date(datetime.now())
