@@ -54,8 +54,6 @@ company_list = [
                 "https://www.avalabs.org"),
     CompanyItem("galaxydigital", "https://boards.greenhouse.io/galaxydigitalservices",
                 ScrapeGreenhouse, "https://www.galaxy.com"),
-    CompanyItem("bittrex", "https://boards.greenhouse.io/bittrex", ScrapeGreenhouse,
-                "https://global.bittrex.com"),
     CompanyItem("EigenLabs", "https://boards.greenhouse.io/layrlabs", ScrapeGreenhouse,
                 "https://www.v1.eigenlayer.xyz"),
     CompanyItem("kadena", "https://boards.greenhouse.io/kadenallc", ScrapeGreenhouse, "https://kadena.io"),

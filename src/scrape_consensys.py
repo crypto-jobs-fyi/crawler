@@ -7,7 +7,7 @@ from src.scrape_it import ScrapeIt
 class ScrapeConsensys(ScrapeIt):
     name = 'CONSENSYS'
 
-    def getJobs(self, driver, web_page, company='consensys') -> []:
+    def getJobs(self, driver, web_page, company='consensys') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(9)

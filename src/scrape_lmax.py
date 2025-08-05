@@ -5,7 +5,7 @@ from src.scrape_it import ScrapeIt, write_jobs
 class ScrapeLmax(ScrapeIt):
     name = 'LMAX'
 
-    def getJobs(self, driver, web_page, company='lmax') -> []:
+    def getJobs(self, driver, web_page, company='lmax') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         # use reverse strategy from a link to a title

@@ -10,7 +10,7 @@ def clean_location(location):
 
 
 class ScrapeRecruitee(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company) -> list:
         print(f'[RECRUITEE] Scrap page: {web_page}')
         driver.get(web_page)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job"]')

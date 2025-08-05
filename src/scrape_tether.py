@@ -8,7 +8,7 @@ def clean_location(location):
 
 
 class ScrapeTether(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company) -> list:
         print(f'[RECRUITEE] Scrap page: {web_page}')
         driver.get(web_page)
         group_elements = driver.find_elements(By.CSS_SELECTOR, '[data-testid="offer-list-grid"] a:not([style])')

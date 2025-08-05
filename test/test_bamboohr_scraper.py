@@ -6,7 +6,6 @@ from src.scrape_bamboohr import ScrapeBamboohr
 driver = webdriver.Chrome()
 company_list = [
     CompanyItem('iyield', 'https://iyield.bamboohr.com/careers', ScrapeBamboohr, 'https://iyield.com'),
-    CompanyItem('sygnum', 'https://sygnum.bamboohr.com/careers', ScrapeBamboohr, 'https://www.sygnum.com'),
     CompanyItem('iofinnet', 'https://iofinnethr.bamboohr.com/jobs/?source=bamboohr', ScrapeBamboohr,
                 'https://www.iofinnet.com'),
     CompanyItem('web3', 'https://web3.bamboohr.com/jobs', ScrapeBamboohr, 'https://web3.foundation'),

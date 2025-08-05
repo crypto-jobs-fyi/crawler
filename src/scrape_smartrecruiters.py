@@ -23,7 +23,7 @@ def show_more(driver, locator):
 
 
 class ScrapeSmartrecruiters(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> []:
+    def getJobs(self, driver, web_page, company) -> list:
         print(f'[SmartRecruiters] Scrap page: {web_page}')
         driver.get(web_page)
         more_links = '//a[.="Show more jobs"]'

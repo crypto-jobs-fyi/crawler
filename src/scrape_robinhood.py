@@ -7,7 +7,7 @@ from src.scrape_it import ScrapeIt
 class ScrapeRobinhood(ScrapeIt):
     name = 'robinhood'
 
-    def getJobs(self, driver, web_page, company='robinhood') -> []:
+    def getJobs(self, driver, web_page, company='robinhood') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(5)

@@ -22,7 +22,7 @@ def to_records(driver, company) -> []:
 class ScrapeC3(ScrapeIt):
     name = 'c3.ai'
 
-    def getJobs(self, driver, web_page, company='c3.ai') -> []:
+    def getJobs(self, driver, web_page, company='c3.ai') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)

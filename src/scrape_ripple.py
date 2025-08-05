@@ -5,7 +5,7 @@ from src.scrape_it import ScrapeIt
 class ScrapeRipple(ScrapeIt):
     name = 'RIPPLE'
 
-    def getJobs(self, driver, web_page, company='ripple') -> []:
+    def getJobs(self, driver, web_page, company='ripple') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         # use reverse strategy from a link to a title

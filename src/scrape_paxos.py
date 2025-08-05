@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-def to_records(group_elements, company) -> []:
+def to_records(group_elements, company) -> list:
     result = []
     for elem in group_elements:
         job_url = elem.get_attribute('href')
@@ -19,7 +19,7 @@ def to_records(group_elements, company) -> []:
 class ScrapePaxos(ScrapeIt):
     name = 'PAXOS'
 
-    def getJobs(self, driver, web_page, company='paxos') -> []:
+    def getJobs(self, driver, web_page, company='paxos') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
