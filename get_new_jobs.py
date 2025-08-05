@@ -20,7 +20,7 @@ for job in jobs:
 
 print(f"Found {len(recent_jobs)} new jobs.")
 for job in recent_jobs:
-    print(f"{job['title']} @ {job['company'].capitalize()} -> {job['link'].split('href=')[1].split('target=')[0]}")
+    print(f"{job['title']} @ {job['company'].capitalize()} -> {job['link']}")
 
 with open(jobs_new_file, 'w') as file:
     rj = {'data': recent_jobs}
