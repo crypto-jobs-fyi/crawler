@@ -47,7 +47,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: 'chore: update data via merge_jobs.py [automated]'
           base: main
-          branch: 'auto/crawler-merge_jobs-update'
+          branch: 'auto/crawler-merge-jobs-update'
           title: 'Automated update from merge_jobs.py'
           body: |
             This PR contains changes made by running merge_jobs.py via GitHub Actions.
