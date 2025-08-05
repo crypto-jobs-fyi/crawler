@@ -1,0 +1,53 @@
+name: Run Crawler Crypto Ashby
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run crypto_crawler_ashby.py
+        run: python crypto_crawler_ashby.py
+
+      - name: set-output
+        if: failure() || success()
+        id: set-output
+        run: |
+          ls -l
+          echo "current=$(jq -c . current.json)" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update data via crypto_crawler_ashby.py [automated]'
+          base: main
+          branch: 'auto/crypto-crawler-ashby-update'
+          title: 'Automated update from crypto_crawler_ashby.py'
+          body: |
+            This PR contains changes made by running crypto_crawler_ashby.py via GitHub Actions.
+
+            ```json
+            ${{ steps.set-output.outputs.current }}
+            ```
+          delete-branch: true
+          reviewers: yury-dubinin
