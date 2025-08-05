@@ -1,9 +1,16 @@
-FROM --platform=linux/amd64 python:3.11
+FROM python:3.12-slim
 
-RUN apt-get -y update
+RUN apt-get -y update && \
+	apt-get -y upgrade && \
+	apt-get install -y --no-install-recommends \
+	wget \
+	gnupg \
+	ca-certificates \
+	zip \
+	unzip && \
+	rm -rf /var/lib/apt/lists/*
+
 RUN pip install --upgrade pip
-RUN apt-get install zip -y
-RUN apt-get install unzip -y
 
 # Install chrome broswer
 RUN wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | apt-key add -
@@ -12,6 +19,8 @@ RUN apt-get -y update
 RUN apt-get -y install google-chrome-stable
 
 ENV DISPLAY=:99
+
+RUN pip install --upgrade pip
 
 # Install chromedriver
 RUN wget -N https://chromedriver.storage.googleapis.com/114.0.5735.16/chromedriver_linux64.zip -P ~/
