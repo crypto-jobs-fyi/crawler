@@ -20,12 +20,6 @@
         },
         {
             "company": "kraken",
-            "title": "Payments Partnership Manager",
-            "location": "Europe; UK",
-            "link": "https://jobs.ashbyhq.com/kraken.com/64c8f6fb-59e4-49bc-b297-c2ca8ae8afd5"
-        },
-        {
-            "company": "kraken",
             "title": "Head of Compliance & Risk, UAE",
             "location": "UAE",
             "link": "https://jobs.ashbyhq.com/kraken.com/8892a6c0-5267-47a1-bdd6-5c3dabba15d5"
@@ -152,12 +146,6 @@
         },
         {
             "company": "kraken",
-            "title": "Internal Audit Lead",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/7f31c930-b1d2-4a46-9f47-f0ce20336a56"
-        },
-        {
-            "company": "kraken",
             "title": "Sr. Financial Analyst - Corporate Finance",
             "location": "US; Canada",
             "link": "https://jobs.ashbyhq.com/kraken.com/2285ddca-93a1-46ba-a69f-2cd3406a0226"
@@ -179,6 +167,12 @@
             "title": "Sr. Treasury Analyst - ALM",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/19d44f29-71e3-4ab0-a609-9db048d2db94"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr. Treasury Ops Analyst - EMEA",
+            "location": "Europe",
+            "link": "https://jobs.ashbyhq.com/kraken.com/c94d6425-246b-4e88-af19-b3e1e066d2aa"
         },
         {
             "company": "kraken",
@@ -299,6 +293,12 @@
             "title": "Chief Operating Officer, Canada",
             "location": "Canada; US",
             "link": "https://jobs.ashbyhq.com/kraken.com/182c96c3-cd7b-438b-b23f-080aa237c057"
+        },
+        {
+            "company": "kraken",
+            "title": "Internal Audit Lead",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/7f31c930-b1d2-4a46-9f47-f0ce20336a56"
         },
         {
             "company": "kraken",
@@ -1137,7 +1137,7 @@
         {
             "company": "OpenSea",
             "title": "Staff Android Engineer",
-            "location": "Remote US",
+            "location": "Remote US; Remote EU",
             "link": "https://jobs.ashbyhq.com/OpenSea/67c67893-f7f7-44e9-8a94-976c4a5f2a86"
         },
         {
@@ -1149,7 +1149,7 @@
         {
             "company": "OpenSea",
             "title": "Staff Data Engineer",
-            "location": "Remote US",
+            "location": "Remote US; Remote EU",
             "link": "https://jobs.ashbyhq.com/OpenSea/d7331acd-347c-4c64-8858-6c092bed484b"
         },
         {
@@ -1361,6 +1361,18 @@
             "title": "Frontend Engineer",
             "location": "NYC Hybrid; New York City",
             "link": "https://jobs.ashbyhq.com/Bastion/c6241f33-2383-411f-a331-e5976473e3b1"
+        },
+        {
+            "company": "Bastion",
+            "title": "Security Engineer, Application",
+            "location": "New York City; US Remote; NYC Hybrid",
+            "link": "https://jobs.ashbyhq.com/Bastion/0330e780-84bd-451d-8450-8d455b5169e1"
+        },
+        {
+            "company": "Bastion",
+            "title": "Security Engineer, Detection & Response",
+            "location": "New York City; US Remote; NYC Hybrid",
+            "link": "https://jobs.ashbyhq.com/Bastion/4c22675a-9604-4425-a5b7-bc41786ec0e9"
         },
         {
             "company": "Bastion",
@@ -1587,7 +1599,7 @@
         {
             "company": "rain",
             "title": "Solution Architect",
-            "location": "New York, NY; Remote",
+            "location": "New York, NY",
             "link": "https://jobs.ashbyhq.com/rain/be54cc49-706c-46c5-a7c5-20619a9c49fd"
         },
         {
@@ -1829,6 +1841,12 @@
             "title": "GTM Lead",
             "location": "San Francisco, CA; New York, NY",
             "link": "https://jobs.ashbyhq.com/paradigm/8920e2ac-4bc7-4daf-b540-117ab4801b4a"
+        },
+        {
+            "company": "paradigm.xyz",
+            "title": "Head of Business Operations",
+            "location": "San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/paradigm/5c4a2029-b878-407f-8a6a-79a5cff88362"
         },
         {
             "company": "paradigm.xyz",
@@ -2312,9 +2330,21 @@
         },
         {
             "company": "quiknodeinc",
+            "title": "Senior Software Engineer (Rust/Golang)",
+            "location": "USA; Canada; Portugal",
+            "link": "https://jobs.ashbyhq.com/quicknode/75c47596-bf23-403f-b430-52fbeb2d802a"
+        },
+        {
+            "company": "quiknodeinc",
             "title": "Solana Technical Writer",
             "location": "Portugal; USA",
             "link": "https://jobs.ashbyhq.com/quicknode/ee7edab2-d4f9-403a-8dae-a27ef78a038e"
+        },
+        {
+            "company": "quiknodeinc",
+            "title": "Technical Operations Engineer, Core",
+            "location": "Canada; USA; Chile; Costa Rica; Peru",
+            "link": "https://jobs.ashbyhq.com/quicknode/a334294c-a969-47dd-9686-3c36992b2397"
         },
         {
             "company": "quiknodeinc",
@@ -2339,6 +2369,18 @@
             "title": "Business Development Representative, Web3",
             "location": "Portugal",
             "link": "https://jobs.ashbyhq.com/quicknode/ae4ddd36-4eb5-40a5-997e-0ccdf1132ec0"
+        },
+        {
+            "company": "quiknodeinc",
+            "title": "Customer Success Manager",
+            "location": "USA; Portugal",
+            "link": "https://jobs.ashbyhq.com/quicknode/e0286236-15f7-4073-b4d0-845e7a774539"
+        },
+        {
+            "company": "quiknodeinc",
+            "title": "Director of Marketing",
+            "location": "USA",
+            "link": "https://jobs.ashbyhq.com/quicknode/ca011c32-deac-4d9e-9b53-965d7e39592b"
         },
         {
             "company": "quiknodeinc",
@@ -3009,7 +3051,7 @@
         {
             "company": "eigenlabs",
             "title": "Senior Accountant",
-            "location": "Seattle",
+            "location": "North America",
             "link": "https://jobs.ashbyhq.com/eigen-labs/555aa727-9756-47ef-bd3d-61401c2bc86b"
         },
         {
