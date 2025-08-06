@@ -1,9 +1,14 @@
 from selenium.webdriver.common.by import By
-from src.scrape_it import ScrapeIt, write_jobs
+from src.scrape_it import ScrapeIt
 
 
 class ScrapeLmax(ScrapeIt):
     name = 'LMAX'
+
+    @staticmethod
+    def clean_location(loc: str) -> str:
+        loc = loc.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
+        return loc.strip()
 
     def getJobs(self, driver, web_page, company='lmax') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
@@ -16,7 +21,7 @@ class ScrapeLmax(ScrapeIt):
             location_elem = elem.find_element(By.CSS_SELECTOR, 'div[class="Location"]')
             job_url = job_name_elem.get_attribute('href')
             job_name = job_name_elem.text
-            location = location_elem.text
+            location: str = self.clean_location(location_elem.text)
             job = {
                 "company": company,
                 "title": job_name,
@@ -25,5 +30,4 @@ class ScrapeLmax(ScrapeIt):
             }
             result.append(job)
         print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
-        write_jobs(result)
         return result
