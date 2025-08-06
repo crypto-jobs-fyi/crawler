@@ -249,4 +249,8 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', Scrapers.COINBASE.value, 'https://coinbase.com'),
         CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM.value, 'https://www.sygnum.com'),
         CompanyItem('lmax', 'https://careers.lmax.com/job-openings', Scrapers.LMAX.value, 'https://www.lmax.com'),
+        CompanyItem("Saharaai", "https://jobs.ashbyhq.com/Sahara", Scrapers.ASHBYHQ.value,
+                    "https://saharaai.com"),
+        CompanyItem("symbiotic.fi", "https://jobs.ashbyhq.com/Symbiotic", Scrapers.ASHBYHQ.value,
+                    "https://symbiotic.fi"),
     ]
