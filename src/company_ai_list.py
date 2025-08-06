@@ -55,4 +55,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('enjins', 'https://apply.workable.com/enjins/#jobs', Scrapers.WORKABLE.value, 'https://www.enjins.com'),
         CompanyItem('cerebras.ai', 'https://job-boards.greenhouse.io/cerebrassystems', Scrapers.GREENHOUSE.value, 'https://www.cerebras.ai'),
         CompanyItem("limitless.ai", "https://jobs.ashbyhq.com/limitless", Scrapers.ASHBYHQ.value, "https://limitless.ai"),
+        CompanyItem("openrouter.ai", "https://jobs.ashbyhq.com/openrouter", Scrapers.ASHBYHQ.value, "https://openrouter.ai"),
     ]
