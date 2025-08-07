@@ -34,7 +34,7 @@ for company in filtered_companies:
         crawler_type: ScrapeIt = company.scraper_type()
         jobs_data = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
         ScrapeIt.write_jobs(jobs_data, jobs_file)
-        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), 'crypto_current_jobs.json')
+        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), 'crypto_current_ashby.json')
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:

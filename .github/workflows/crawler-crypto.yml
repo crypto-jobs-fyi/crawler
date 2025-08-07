@@ -33,7 +33,7 @@ jobs:
         id: set-output
         run: |
           ls -l
-          echo "current=$(jq -c . current.json)" >> $GITHUB_OUTPUT
+          echo "current=$(jq -c . crypto_current_jobs.json)" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
