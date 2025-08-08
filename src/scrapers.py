@@ -14,6 +14,7 @@ from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_sygnum import ScrapeSygnum
 from src.scrape_lmax import ScrapeLmax
+from src.scrape_nebius import ScrapeNebius
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -30,3 +31,4 @@ class Scrapers(Enum):
     RIPPLE = ScrapeRipple
     BAMBOOHR = ScrapeBamboohr
     LMAX = ScrapeLmax
+    NEBIUS = ScrapeNebius
