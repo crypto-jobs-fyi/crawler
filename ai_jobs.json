@@ -458,12 +458,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Corporate Accountant, Payroll",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4781700008"
-        },
-        {
-            "company": "anthropic",
             "title": "Finance Analytics & BI, Accounting",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4785805008"
@@ -473,12 +467,6 @@
             "title": "Finance Analytics & BI, Finance & Strategy",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4802502008"
-        },
-        {
-            "company": "anthropic",
-            "title": "Finance & Strategy, Compute",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4679137008"
         },
         {
             "company": "anthropic",
@@ -512,7 +500,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Finance Systems EngineerNew",
+            "title": "Finance Systems Engineer",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4825724008"
         },
@@ -1094,12 +1082,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Senior / Staff Software Engineer, Inference",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4753256008"
-        },
-        {
-            "company": "anthropic",
             "title": "Software Engineer, Core Infrastructure",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4666624008"
@@ -1353,6 +1335,12 @@
         {
             "company": "openai",
             "title": "Software Engineer, Full Stack",
+            "location": "Seattle",
+            "link": "https://jobs.ashbyhq.com/openai/7ba9e2a1-c5a0-4a9d-899e-c5c0be93e260"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Full Stack",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/openai/bdd0cd5b-91bf-4a3b-987e-ea4c8ed31f16"
         },
@@ -1361,12 +1349,6 @@
             "title": "Software Engineer, Full Stack",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/a705dd16-efdb-4304-9a20-075f23f5aeb7"
-        },
-        {
-            "company": "openai",
-            "title": "Software Engineer, Full Stack",
-            "location": "Seattle",
-            "link": "https://jobs.ashbyhq.com/openai/7ba9e2a1-c5a0-4a9d-899e-c5c0be93e260"
         },
         {
             "company": "openai",
@@ -1526,6 +1508,12 @@
         },
         {
             "company": "openai",
+            "title": "Motor Controls Hardware Test",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/6c37d4e6-0456-4e0e-ad2e-3fb0e7841652"
+        },
+        {
+            "company": "openai",
             "title": "Packaging Design Engineer",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/efcae59d-595f-4d03-b125-96fcdeb252b1"
@@ -1682,6 +1670,12 @@
         },
         {
             "company": "openai",
+            "title": "Manager, IT Risk",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/b8a6700c-a7ba-4800-b942-cfa36e3dfcef"
+        },
+        {
+            "company": "openai",
             "title": "Procurement Center of Excellence Leader",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/c246949f-7373-46ad-8a06-5c5baaa8c33d"
@@ -1779,20 +1773,14 @@
         {
             "company": "openai",
             "title": "Account Director, Large Enterprise",
-            "location": "Munich, Germany",
-            "link": "https://jobs.ashbyhq.com/openai/acf02839-8949-4047-a906-83a780449773"
-        },
-        {
-            "company": "openai",
-            "title": "Account Director, Large Enterprise",
             "location": "Seoul, South Korea",
             "link": "https://jobs.ashbyhq.com/openai/e7eda598-0efd-41be-907c-617caef3529c"
         },
         {
             "company": "openai",
-            "title": "Account Director, Strategics",
-            "location": "Seoul, South Korea",
-            "link": "https://jobs.ashbyhq.com/openai/0c8f438b-990a-4a2e-9712-58bd62b0c199"
+            "title": "Account Director, Large Enterprise",
+            "location": "Munich, Germany",
+            "link": "https://jobs.ashbyhq.com/openai/acf02839-8949-4047-a906-83a780449773"
         },
         {
             "company": "openai",
@@ -1802,9 +1790,15 @@
         },
         {
             "company": "openai",
+            "title": "Account Director, Strategics",
+            "location": "Seoul, South Korea",
+            "link": "https://jobs.ashbyhq.com/openai/0c8f438b-990a-4a2e-9712-58bd62b0c199"
+        },
+        {
+            "company": "openai",
             "title": "AI Technical Support Specialist",
-            "location": "Tokyo, Japan",
-            "link": "https://jobs.ashbyhq.com/openai/82b994f8-0c9c-46ea-8a95-d78c28467209"
+            "location": "Dublin, Ireland",
+            "link": "https://jobs.ashbyhq.com/openai/b212cc07-0a62-4165-9bc7-b6d5c198a0e3"
         },
         {
             "company": "openai",
@@ -1815,8 +1809,8 @@
         {
             "company": "openai",
             "title": "AI Technical Support Specialist",
-            "location": "Dublin, Ireland",
-            "link": "https://jobs.ashbyhq.com/openai/b212cc07-0a62-4165-9bc7-b6d5c198a0e3"
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/82b994f8-0c9c-46ea-8a95-d78c28467209"
         },
         {
             "company": "openai",
@@ -1865,12 +1859,6 @@
             "title": "Data Engineer Lead, Business",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/c20f1136-314d-444a-b5d0-58c3e974b39f"
-        },
-        {
-            "company": "openai",
-            "title": "Data Science Lead - Marketing",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/dfe385dc-fc4e-4074-bc4c-04a1185fdec2"
         },
         {
             "company": "openai",
@@ -2169,8 +2157,14 @@
         {
             "company": "openai",
             "title": "Enterprise Security Engineer",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/4fb47557-86d2-47c3-9c6a-909aeb561329"
+            "location": "Seattle",
+            "link": "https://jobs.ashbyhq.com/openai/28c34712-6818-47fb-a4de-de9201ddc86f"
+        },
+        {
+            "company": "openai",
+            "title": "Enterprise Security Engineer",
+            "location": "Remote - US",
+            "link": "https://jobs.ashbyhq.com/openai/47048627-427e-4566-b349-847e52a5def1"
         },
         {
             "company": "openai",
@@ -2181,14 +2175,8 @@
         {
             "company": "openai",
             "title": "Enterprise Security Engineer",
-            "location": "Seattle",
-            "link": "https://jobs.ashbyhq.com/openai/28c34712-6818-47fb-a4de-de9201ddc86f"
-        },
-        {
-            "company": "openai",
-            "title": "Enterprise Security Engineer",
-            "location": "Remote - US",
-            "link": "https://jobs.ashbyhq.com/openai/47048627-427e-4566-b349-847e52a5def1"
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/4fb47557-86d2-47c3-9c6a-909aeb561329"
         },
         {
             "company": "openai",
@@ -2297,6 +2285,12 @@
             "title": "Senior HRBP, Engineering & Product",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/b74e4d51-aff0-41d6-8637-209774bb2ce5"
+        },
+        {
+            "company": "openai",
+            "title": "Senior Recruiter, Business & Go To Market (Tokyo)",
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/97a41c4f-7dda-4dab-961d-2378d3f31229"
         },
         {
             "company": "openai",
@@ -2925,8 +2919,8 @@
         {
             "company": "openai",
             "title": "Security Engineer, Application Security",
-            "location": "Seattle",
-            "link": "https://jobs.ashbyhq.com/openai/1e110226-448a-4c0b-b0e4-d0f5df579fbf"
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25"
         },
         {
             "company": "openai",
@@ -2937,14 +2931,14 @@
         {
             "company": "openai",
             "title": "Security Engineer, Application Security",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25"
+            "location": "Seattle",
+            "link": "https://jobs.ashbyhq.com/openai/1e110226-448a-4c0b-b0e4-d0f5df579fbf"
         },
         {
             "company": "openai",
             "title": "Security Engineer, Cloud Security",
-            "location": "Remote - US",
-            "link": "https://jobs.ashbyhq.com/openai/1705c3b2-7f3a-42bf-99a9-c23ba161a90d"
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/openai/55380551-c462-4acd-9e53-d295b09b5633"
         },
         {
             "company": "openai",
@@ -2961,20 +2955,20 @@
         {
             "company": "openai",
             "title": "Security Engineer, Cloud Security",
-            "location": "New York City",
-            "link": "https://jobs.ashbyhq.com/openai/55380551-c462-4acd-9e53-d295b09b5633"
-        },
-        {
-            "company": "openai",
-            "title": "Security Engineer, Detection and Response",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/f956b77c-3cc5-4fdd-9463-2a6e5047e57c"
+            "location": "Remote - US",
+            "link": "https://jobs.ashbyhq.com/openai/1705c3b2-7f3a-42bf-99a9-c23ba161a90d"
         },
         {
             "company": "openai",
             "title": "Security Engineer, Detection and Response",
             "location": "London, UK",
             "link": "https://jobs.ashbyhq.com/openai/2d8b30c7-afa3-42ca-b315-ead35e8457ab"
+        },
+        {
+            "company": "openai",
+            "title": "Security Engineer, Detection and Response",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/f956b77c-3cc5-4fdd-9463-2a6e5047e57c"
         },
         {
             "company": "openai",
@@ -3003,14 +2997,20 @@
         {
             "company": "openai",
             "title": "Software Engineer, Privacy",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/8a1b804f-b070-4c61-bd3d-cdf39ef9d935"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Privacy",
             "location": "Dublin, Ireland",
             "link": "https://jobs.ashbyhq.com/openai/fb5862cc-244c-410b-b287-47df89ad1e43"
         },
         {
             "company": "openai",
-            "title": "Software Engineer, Privacy",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/8a1b804f-b070-4c61-bd3d-cdf39ef9d935"
+            "title": "Software Engineer, Security Observability",
+            "location": "Remote - US",
+            "link": "https://jobs.ashbyhq.com/openai/92bf4ff3-7acf-4e49-8e09-47e4e8bd1f83"
         },
         {
             "company": "openai",
@@ -3029,12 +3029,6 @@
             "title": "Software Engineer, Security Observability",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/3e254907-5101-438d-8708-f6f34e5c75ea"
-        },
-        {
-            "company": "openai",
-            "title": "Software Engineer, Security Observability",
-            "location": "Remote - US",
-            "link": "https://jobs.ashbyhq.com/openai/92bf4ff3-7acf-4e49-8e09-47e4e8bd1f83"
         },
         {
             "company": "openai",
@@ -3099,7 +3093,7 @@
         {
             "company": "groq",
             "title": "Director, Technical Program Management",
-            "location": "Palo Alto, CA",
+            "location": "San Jose, CA (Remote)",
             "link": "https://job-boards.greenhouse.io/groq/jobs/6583435003"
         },
         {
@@ -3219,7 +3213,7 @@
         {
             "company": "groq",
             "title": "Senior Staff Software Engineer, High Performance Inference System",
-            "location": "Toronto, Canada | Palo Alto, CA |",
+            "location": "Toronto, Canada | Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/groq/jobs/6010437003"
         },
         {
@@ -3879,14 +3873,14 @@
         {
             "company": "langchain",
             "title": "Platform Engineer - Reliability & Scale",
-            "location": "Europe",
-            "link": "https://jobs.ashbyhq.com/langchain/5ef9bc51-f970-49f9-9475-fc065157cd18"
+            "location": "San Francisco, CA; New York, NY",
+            "link": "https://jobs.ashbyhq.com/langchain/9cca512f-3c53-4961-9ddb-72d281e7381e"
         },
         {
             "company": "langchain",
             "title": "Platform Engineer - Reliability & Scale",
-            "location": "San Francisco, CA; New York, NY",
-            "link": "https://jobs.ashbyhq.com/langchain/9cca512f-3c53-4961-9ddb-72d281e7381e"
+            "location": "Europe",
+            "link": "https://jobs.ashbyhq.com/langchain/5ef9bc51-f970-49f9-9475-fc065157cd18"
         },
         {
             "company": "langchain",
@@ -3944,15 +3938,15 @@
         },
         {
             "company": "langchain",
-            "title": "Senior Technical Support Engineer",
+            "title": "Senior Customer Engineer",
             "location": "US",
-            "link": "https://jobs.ashbyhq.com/langchain/8aa63e71-b431-49d7-ab4a-bf4b3630d8e6"
+            "link": "https://jobs.ashbyhq.com/langchain/541d5ca5-bfe5-4ffd-9ce7-6d26df934042"
         },
         {
             "company": "langchain",
-            "title": "Sr Customer Engineer",
+            "title": "Senior Technical Support Engineer",
             "location": "US",
-            "link": "https://jobs.ashbyhq.com/langchain/541d5ca5-bfe5-4ffd-9ce7-6d26df934042"
+            "link": "https://jobs.ashbyhq.com/langchain/8aa63e71-b431-49d7-ab4a-bf4b3630d8e6"
         },
         {
             "company": "langchain",
@@ -4748,6 +4742,12 @@
         },
         {
             "company": "cohere",
+            "title": "Research Scholar",
+            "location": "Canada; US; UK; Europe; Latin America; Africa; Middle East; APAC",
+            "link": "https://jobs.ashbyhq.com/cohere/a77c6864-5a43-44c1-81dc-a66e23bdd9a6"
+        },
+        {
+            "company": "cohere",
             "title": "Member of Technical Staff, Search",
             "location": "US; Canada; Europe; UK; Toronto; London; San Francisco; Montreal; New York",
             "link": "https://jobs.ashbyhq.com/cohere/d5cc437c-2397-4c1a-9d12-3a2bf64d98ea"
@@ -5507,12 +5507,6 @@
             "title": "Customer Success - DACH",
             "location": "Germany; Dublin; Sofia; Warsaw; Italy; Madrid; Amsterdam; Berlin",
             "link": "https://jobs.ashbyhq.com/elevenlabs/b8ae53d9-2a87-48a0-b192-bd0874f5a604"
-        },
-        {
-            "company": "elevenlabs",
-            "title": "Customer Success - Korea",
-            "location": "Korea",
-            "link": "https://jobs.ashbyhq.com/elevenlabs/495f9be5-9c10-49ca-a10b-4453cebb0e23"
         },
         {
             "company": "elevenlabs",
@@ -6320,6 +6314,12 @@
         },
         {
             "company": "lovable",
+            "title": "AI Engineer",
+            "location": "Stockholm",
+            "link": "https://jobs.ashbyhq.com/lovable/9f4963e7-be14-4dd9-99ce-05df2f06e22d"
+        },
+        {
+            "company": "lovable",
             "title": "Product Engineer",
             "location": "Stockholm",
             "link": "https://jobs.ashbyhq.com/lovable/aea04bde-dc94-401c-9a37-3130d404031a"
@@ -6335,12 +6335,6 @@
             "title": "Security Engineer",
             "location": "Stockholm",
             "link": "https://jobs.ashbyhq.com/lovable/6f1ecf7f-ce04-48a7-a4a6-7b3f656cbf5f"
-        },
-        {
-            "company": "lovable",
-            "title": "Senior ML Engineer",
-            "location": "Stockholm",
-            "link": "https://jobs.ashbyhq.com/lovable/9f4963e7-be14-4dd9-99ce-05df2f06e22d"
         },
         {
             "company": "lovable",
@@ -6626,12 +6620,6 @@
         },
         {
             "company": "eliseai",
-            "title": "Strategy and Operations Associate | Healthcare",
-            "location": "New York City",
-            "link": "https://jobs.ashbyhq.com/eliseai/7893a621-612e-4f59-b3f5-3df62a8d3455"
-        },
-        {
-            "company": "eliseai",
             "title": "Strategy and Operations Manager | Healthcare",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/eliseai/39653b5a-226b-4cb3-93db-7791d965ecee"
@@ -6860,12 +6848,6 @@
         },
         {
             "company": "deepmind",
-            "title": "Climate Action Lead - 12 Month Fixed Term Contract",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7106673"
-        },
-        {
-            "company": "deepmind",
             "title": "Director, Google DeepMind Impact Accelerator New",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7126983"
@@ -7065,19 +7047,19 @@
         {
             "company": "deepmind",
             "title": "Research Scientist, APAC Languages and Speech",
-            "location": "Bangalore, India",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7089682"
-        },
-        {
-            "company": "deepmind",
-            "title": "Research Scientist, APAC Languages and Speech",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7089543"
         },
         {
             "company": "deepmind",
+            "title": "Research Scientist, Languages and Multimodality",
+            "location": "Bangalore, India",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7089682"
+        },
+        {
+            "company": "deepmind",
             "title": "Research Scientist Lead, Singapore New",
-            "location": "APAC; Singapore",
+            "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7130318"
         },
         {
@@ -7217,12 +7199,6 @@
             "title": "Multimodal Generation Model Launch TPgMNew",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7141319"
-        },
-        {
-            "company": "deepmind",
-            "title": "Product Manager, World Modeling",
-            "location": "Mountain View, California, US",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7107070"
         },
         {
             "company": "deepmind",
@@ -8937,6 +8913,12 @@
         {
             "company": "xai",
             "title": "Commercial Counsel",
+            "location": "Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4598392007"
+        },
+        {
+            "company": "xai",
+            "title": "Commercial Counsel",
             "location": "Memphis, TN, Palo Alto, CA & Remote",
             "link": "https://job-boards.greenhouse.io/xai/jobs/4777268007"
         },
@@ -9128,21 +9110,15 @@
         },
         {
             "company": "n8n",
+            "title": "Senior Fullstack AI Engineer (Europe remote)",
+            "location": "Berlin Office; Albania; Bosnia; Bulgaria; Croatia; Czech Republic; Estonia; Hungary; Kosovo; Latvia; Lithuania; Moldova; Montenegro; Poland; Serbia; Romania; Slovakia; Slovenia; Ukraine; Denmark; Norway; Finland; Sweden; Greece; Italy; Portugal; Spain; London Office; UK; Austria; Belgium; France; Ireland; Netherlands",
+            "link": "https://jobs.ashbyhq.com/n8n/5d501d74-cb30-4c14-8ff9-508f647b34a9"
+        },
+        {
+            "company": "n8n",
             "title": "Senior Fullstack Engineer (Enterprise features)",
             "location": "Berlin Office; Albania; Bulgaria; Bosnia; Croatia; Czech Republic; Estonia; Hungary; Kosovo; Latvia; Lithuania; Moldova; Montenegro; Poland; Romania; Serbia; Slovakia; Slovenia; Ukraine; Denmark; Finland; Norway; Sweden; Greece; Italy; Portugal; Spain; London Office; UK; Austria; Belgium; France; Germany; Ireland; Netherlands",
             "link": "https://jobs.ashbyhq.com/n8n/4c4c0e54-fa8d-44b1-bd53-3b78991126ae"
-        },
-        {
-            "company": "n8n",
-            "title": "Senior Software Engineer - AI team (TS / NodeJS - Europe Remote)",
-            "location": "Berlin Office; Albania; Bosnia; Bulgaria; Croatia; Czech Republic; Estonia; Hungary; Kosovo; Latvia; Lithuania; Moldova; Montenegro; Poland; Serbia; Romania; Slovakia; Slovenia; Ukraine; Denmark; Norway; Finland; Sweden; Greece; Italy; Portugal; Spain; London Office; UK; Austria; Belgium; France; Ireland; Netherlands",
-            "link": "https://jobs.ashbyhq.com/n8n/a33ac288-e264-4137-a92e-0804b08f3aa3"
-        },
-        {
-            "company": "n8n",
-            "title": "Senior Software Engineer (Backend leaning - TS/NodeJS)",
-            "location": "Berlin Office; Bulgaria; Estonia; Kosovo; Lithuania; Montenegro; Moldova; Romania; Slovenia; Denmark; Norway; Italy; Spain; UK; Belgium; Germany; France; Ireland; Albania; Croatia; Hungary; Latvia; Poland; Slovakia; Serbia; Ukraine; Finland; Sweden; Greece; Portugal; London Office; Austria; Netherlands; Bosnia; Czech Republic",
-            "link": "https://jobs.ashbyhq.com/n8n/7c74220b-8a7f-453a-a4dd-79896ea732a9"
         },
         {
             "company": "n8n",
@@ -9167,12 +9143,6 @@
             "title": "Accountant",
             "location": "Germany; Austria; Netherlands; Spain; UK; France; Norway; Sweden; Denmark; Berlin Office; London Office",
             "link": "https://jobs.ashbyhq.com/n8n/c7af31cb-9701-4748-a49b-04d3fbcccb3c"
-        },
-        {
-            "company": "n8n",
-            "title": "Data Analyst PLG (Remote Europe)",
-            "location": "Berlin Office; Spain; France; Netherlands; Portugal; Germany; UK; Denmark; Finland; Norway; Sweden",
-            "link": "https://jobs.ashbyhq.com/n8n/48bc9f74-5ec3-41f9-bfdf-ade6b3be7ecc"
         },
         {
             "company": "n8n",
@@ -13718,12 +13688,6 @@
         },
         {
             "company": "glean",
-            "title": "Majors Account Executive- UKNew",
-            "location": "UK- Remote",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4594768005"
-        },
-        {
-            "company": "glean",
             "title": "Partner Manager, Japan",
             "location": "Japan",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4439470005"
@@ -14492,12 +14456,6 @@
         },
         {
             "company": "replit",
-            "title": "Staff Accountant",
-            "location": "Foster City, CA (Hybrid) In office M,W,F",
-            "link": "https://jobs.ashbyhq.com/replit/589e2d64-3e6c-4155-9ee6-445cfbfa9e3e"
-        },
-        {
-            "company": "replit",
             "title": "Support Engineering Manager",
             "location": "Foster City, CA (Hybrid) In office M,W,F",
             "link": "https://jobs.ashbyhq.com/replit/4927bcdc-a737-40c5-b450-258d746418c2"
@@ -14561,6 +14519,12 @@
             "title": "VP Security, Compliance & IT (CISO)",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/multiverse/55e6c4ca-5531-4a3a-88f2-0a41d130a017"
+        },
+        {
+            "company": "multiverse",
+            "title": "Finance Manager",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/multiverse/35594f7f-590c-4ed5-8feb-e49281cdcc56"
         },
         {
             "company": "multiverse",
@@ -14660,21 +14624,9 @@
         },
         {
             "company": "workato",
-            "title": "Senior Business Systems Analyst (Salesforce)",
-            "location": "Palo Alto, California",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8081643002"
-        },
-        {
-            "company": "workato",
             "title": "Systems Engineer, Business Technology",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/workato/jobs/7967811002"
-        },
-        {
-            "company": "workato",
-            "title": "Associate Customer Success Manager, Scale",
-            "location": "Bangalore, India",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8038072002"
         },
         {
             "company": "workato",
@@ -15435,20 +15387,302 @@
         {
             "company": "workato",
             "title": "Senior Software Engineer (Rust)",
-            "location": "Athens, Greece",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/7807126002"
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7807130002"
         },
         {
             "company": "workato",
             "title": "Senior Software Engineer (Rust)",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7807133002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer (Rust)",
+            "location": "Yerevan, Armenia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7807136002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer (Rust)",
+            "location": "Tbilisi, Georgia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7807137002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Technical Instructor",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7981096002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior UX Designer (Builder Experience)",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8029743002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior UX Designer (Builder Experience)",
+            "location": "New York, New York",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8033752002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior UX Designer (Builder Experience)",
+            "location": "Vancouver, Canada",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8033759002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior UX Designer (Builder Experience)",
+            "location": "Toronto, Canada",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8033758002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior UX Designer (Builder Experience)",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8036918002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Product Manager (Agent Framework)",
+            "location": "Singapore",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7865068002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Product Manager (Agent Framework)",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7885682002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Product Manager (Agent Frameworks)",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7885809002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Product Manager, Lifecycle & OperationsNew",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8101944002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Software Engineer (Core team)",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7955435002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Software Engineer (Core team)",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8055938002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Software Engineer (Core team)",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8055940002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Software Engineer (Core team)",
+            "location": "Tbilisi, Georgia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8055942002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Frontend Engineer (Angular)",
+            "location": "Yerevan, Armenia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8063949002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7979881002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7980103002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8057474002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8057475002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (ML/AI)",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8068866002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
             "location": "Warsaw, Poland",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/7807127002"
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8023326002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7979981002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7980134002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7981223002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7981225002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (OpenSearch)",
+            "location": "Bangalore, India; Chennai, India; Hyderabad, India",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7984378002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Java Engineer",
+            "location": "Chennai, India",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8079536002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Platform Engineer / Senior Infrastructure Engineer",
+            "location": "Bangalore, India; Chennai, India; Hyderabad, India",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7983026002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Product Marketing Manager, Agents and AI Products",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8077434002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services)",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8033263002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services)New",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109336002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services)New",
+            "location": "Tbilisi, Georgia; Yerevan, Armenia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109342002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services) New",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109332002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services) New",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109333002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Python Engineer (ML/AI services) New",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109334002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Security Engineer",
+            "location": "Barcelona, Spain; Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7919745002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7925676002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7925689002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer \u2013 Developer Products (AI)New",
+            "location": "Palo Alto, California; San Francisco, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8112245002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8106817002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109964002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Yerevan, Armenia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109969002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Tbilisi, Georgia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109971002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8109975002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, GOlang (API gateway)New",
+            "location": "Belgrade, Serbia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8112112002"
         },
         {
             "company": "workato",
             "title": "Senior Software Engineer (Rust)",
-            "location": "Belgrade, Serbia",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/7807129002"
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/7801661002"
         },
         {
             "company": "workato",
@@ -15473,42 +15707,6 @@
             "title": "Senior Software Engineer (Rust)",
             "location": "Tbilisi, Georgia",
             "link": "https://job-boards.greenhouse.io/workato/jobs/7807137002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)",
-            "location": "Berlin, Germany; Munich, Germany",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8063760002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)New",
-            "location": "Amsterdam, Netherlands",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8109585002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)New",
-            "location": "Dublin, Ireland",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8109587002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)New",
-            "location": "Stockholm, Sweden",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8109591002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)New",
-            "location": "Luxembourg",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8109597002"
-        },
-        {
-            "company": "workato",
-            "title": "Senior Software Engineer (Rust)New",
-            "location": "Helsinki, Finland",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8109599002"
         },
         {
             "company": "workato",
@@ -15620,7 +15818,7 @@
         },
         {
             "company": "workato",
-            "title": "Account ExecutiveNew",
+            "title": "Account Executive",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/workato/jobs/8051777002"
         },
@@ -15686,7 +15884,7 @@
         },
         {
             "company": "workato",
-            "title": "Intern, Sales Development RepresentativeNew",
+            "title": "Intern, Sales Development Representative",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/workato/jobs/7964527002"
         },
@@ -16202,6 +16400,12 @@
         },
         {
             "company": "fanvue.com",
+            "title": "Social Media Strategist / Community Manager",
+            "location": "Hybrid (UK)",
+            "link": "https://jobs.ashbyhq.com/fanvue.com/a48099d7-33b1-4a70-80f7-3f34d9620e7d"
+        },
+        {
+            "company": "fanvue.com",
             "title": "Data Analyst (Growth Hacking)",
             "location": "Remote",
             "link": "https://jobs.ashbyhq.com/fanvue.com/0641f01d-59fb-48ac-9806-08ca7e7cc186"
@@ -16214,9 +16418,21 @@
         },
         {
             "company": "fanvue.com",
+            "title": "AI Engineer (Productivity)",
+            "location": "Hybrid (UK); Remote",
+            "link": "https://jobs.ashbyhq.com/fanvue.com/b808ec60-ab70-4d90-92ec-0a59f20d8c89"
+        },
+        {
+            "company": "fanvue.com",
             "title": "Full Stack Engineer",
             "location": "Remote; Hybrid (UK)",
             "link": "https://jobs.ashbyhq.com/fanvue.com/35dafa0e-a116-4ccc-a015-ae2de789da1e"
+        },
+        {
+            "company": "fanvue.com",
+            "title": "Senior Full Stack Engineer (Checkout & Payouts)",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/fanvue.com/a865aeea-e198-4605-9ff5-89e0d1cf7956"
         },
         {
             "company": "fanvue.com",
