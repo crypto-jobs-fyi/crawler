@@ -197,7 +197,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('bitcoindepot', 'https://job-boards.greenhouse.io/bitcoindepot', Scrapers.GREENHOUSE.value, 'https://bitcoindepot.com'),
         CompanyItem("parity.io", "https://jobs.ashbyhq.com/parity", Scrapers.ASHBYHQ.value, "https://www.parity.io"),
         CompanyItem("oplabs", "https://jobs.ashbyhq.com/oplabs", Scrapers.ASHBYHQ.value, "https://www.oplabs.co"),
-        CompanyItem('walletconnect', 'https://apply.workable.com/reown', Scrapers.WORKABLE.value,
+        CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', Scrapers.WORKABLE.value,
                     'https://reown.com'),
         CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', Scrapers.WORKABLE.value,
                     'https://www.gobob.xyz/'),
