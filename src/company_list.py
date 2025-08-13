@@ -22,7 +22,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('aragon', 'https://jobs.lever.co/aragon', Scrapers.LEVER.value, 'https://aragon.org'),
         CompanyItem('omni-network', 'https://job-boards.greenhouse.io/omnifdn', Scrapers.GREENHOUSE.value,
                     'https://omni.network'),
-        CompanyItem('Tenderly', 'https://jobs.lever.co/Tenderly', Scrapers.LEVER.value, 'https://tenderly.co'),
         CompanyItem('nomic.foundation', 'https://jobs.ashbyhq.com/nomic.foundation', Scrapers.ASHBYHQ.value,
                     'https://nomic.foundation'),
         CompanyItem("binance", "https://jobs.lever.co/binance", Scrapers.LEVER.value, "https://www.binance.com"),

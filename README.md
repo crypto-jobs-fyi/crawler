@@ -148,3 +148,4 @@ not yet crypto:
 to be fixed:
 
     CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER.value, "https://www.ledger.com"),
+        CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),
