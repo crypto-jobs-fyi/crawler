@@ -16,7 +16,7 @@ options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
     CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', ScrapeAshbyhq, 'https://www.langchain.com'),
-    CompanyItem('rain', 'https://jobs.ashbyhq.com/rain', ScrapeAshbyhq, 'https://www.raincards.xyz'),
+    CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', ScrapeAshbyhq, 'https://www.llamaindex.ai'),
     CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi'),
     CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi'),
     CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com'),
