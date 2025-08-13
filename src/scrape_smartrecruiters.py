@@ -8,7 +8,7 @@ def clean_location(location):
         return "REMOTE"
     locations = set(([x.strip() for x in location.split(',')]))
     joined = ' '.join(locations)
-    return joined
+    return joined.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
 
 
 def show_more(driver, locator):

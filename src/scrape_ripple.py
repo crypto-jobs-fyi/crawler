@@ -17,11 +17,11 @@ class ScrapeRipple(ScrapeIt):
             location_elem = elem
             job_url = link_elem.get_attribute('href')
             job_name = job_name_elem.text
-            location = location_elem.text
+            location_text : str = location_elem.text
             job = {
                 "company": company,
                 "title": job_name,
-                "location": location,
+                "location": location_text.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE'),
                 "link": job_url
             }
             result.append(job)

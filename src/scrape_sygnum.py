@@ -21,11 +21,11 @@ class ScrapeSygnum(ScrapeIt):
             job_name_elem = elem.find_element(By.XPATH, './/h3/a')
             job_name = job_name_elem.text
             job_url = job_name_elem.get_attribute('href')
-            location = elem.find_element(By.XPATH, './/p[@class="result-item__location"]').text
+            location_text : str = elem.find_element(By.XPATH, './/p[@class="result-item__location"]').text
             job = {
                 "company": company,
                 "title": job_name,
-                "location": location,
+                "location": location_text.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE'),
                 "link": job_url
             }
             result.append(job)

@@ -2,14 +2,16 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-def to_records(group_elements, company) -> list:
+def to_records(group_elements, company):
     result = []
     for elem in group_elements:
         job_url = elem.get_attribute('href')
+        location_elem = elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] p')
+        location_text : str = location_elem.text.strip()
         job = {
             "company": company,
             "title": elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] h4').text,
-            "location": elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] p').text,
+            "location": location_text.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE'),
             "link": job_url
         }
         result.append(job)
@@ -19,7 +21,7 @@ def to_records(group_elements, company) -> list:
 class ScrapePaxos(ScrapeIt):
     name = 'PAXOS'
 
-    def getJobs(self, driver, web_page, company='paxos') -> list:
+    def getJobs(self, driver, web_page, company='paxos'):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
