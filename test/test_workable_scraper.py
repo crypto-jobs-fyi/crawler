@@ -1,10 +1,12 @@
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import time
 from selenium import webdriver
 from src.company_item import CompanyItem
 from src.scrape_workable import ScrapeWorkable
 
+start = time.time()
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
@@ -25,3 +27,6 @@ for company in company_list:
         print(entry)
 
 driver.close()
+
+end = time.time()
+print(f"Time: {end - start:.2f} sec")
