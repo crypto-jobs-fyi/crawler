@@ -69,4 +69,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("encord.com", "https://jobs.lever.co/CordTechnologies", Scrapers.LEVER.value, "https://encord.com"),
         CompanyItem("applied_intuition", "https://www.appliedintuition.com/careers#job-listings", Scrapers.APPLIED_INTUITION.value, "https://www.appliedintuition.com"),
         CompanyItem("oxylabs", "https://jobs.lever.co/oxylabs", Scrapers.LEVER.value, "https://www.oxylabs.io"),
+        CompanyItem('browserbase', 'https://jobs.ashbyhq.com/browserbase', Scrapers.ASHBYHQ.value, 'https://browserbase.com'),
     ]
