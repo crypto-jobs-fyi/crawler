@@ -254,4 +254,6 @@ def get_company_list() -> list[CompanyItem]:
                     "https://symbiotic.fi"),
         CompanyItem('noble', 'https://job-boards.greenhouse.io/noble', Scrapers.GREENHOUSE.value,
                     'https://www.noble.xyz'),
+        CompanyItem('bitstamp', 'https://apply.workable.com/bitstamp/#jobs', Scrapers.WORKABLE.value,
+                'https://www.bitstamp.net'),
     ]
