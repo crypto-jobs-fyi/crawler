@@ -17,7 +17,7 @@ driver = webdriver.Chrome(options=options)
 companies = [
     CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', ScrapeAshbyhq, 'https://www.langchain.com'),
     CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', ScrapeAshbyhq, 'https://www.llamaindex.ai'),
-    CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', ScrapeAshbyhq, 'https://exponential.fi'),
+    CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', ScrapeAshbyhq, 'https://coderabbit.ai'),
     CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi'),
     CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com'),
     CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhq, 'https://conduit.xyz'),
