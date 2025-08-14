@@ -1,15 +1,18 @@
+
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from selenium import webdriver
 
 from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
 
 company_list = [
+    CompanyItem("oxylabs", "https://jobs.lever.co/oxylabs", ScrapeLever, "https://www.oxylabs.io"),
     CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
                 'https://www.ethena.fi'),
     CompanyItem('arbitrumfoundation', 'https://jobs.lever.co/arbitrumfoundation', ScrapeLever,
                 'https://arbitrum.foundation'),
-    CompanyItem('3boxlabs', 'https://jobs.lever.co/3box', ScrapeLever, 'https://3boxlabs.com'),
-    CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', ScrapeLever, 'https://www.blockswap.network'),
     CompanyItem('wintermute', 'https://jobs.lever.co/wintermute-trading', ScrapeLever, 'https://www.wintermute.com'),
     CompanyItem('sprucesystems', 'https://jobs.lever.co/sprucesystems', ScrapeLever, 'https://spruceid.com'),
     CompanyItem('royal', 'https://jobs.lever.co/Royal', ScrapeLever, 'https://royal.io'),
@@ -19,7 +22,6 @@ company_list = [
     CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', ScrapeLever, 'https://multiversx.com'),
     CompanyItem('matterlabs', 'https://jobs.eu.lever.co/matterlabs', ScrapeLever, 'https://matter-labs.io'),
     CompanyItem('fuellabs', 'https://jobs.lever.co/fuellabs', ScrapeLever, 'https://www.fuel.network'),
-    CompanyItem("Luxor", "https://jobs.lever.co/LuxorTechnology", ScrapeLever, "https://www.luxor.tech"),
     CompanyItem("anchorage", "https://jobs.lever.co/anchorage", ScrapeLever, "https://www.anchorage.com"),
     CompanyItem("biconomy", "https://jobs.lever.co/biconomy", ScrapeLever, "https://www.biconomy.io"),
     CompanyItem("kraken", "https://jobs.lever.co/kraken", ScrapeLever, "https://kraken.com"),
@@ -30,9 +32,7 @@ company_list = [
     CompanyItem("cere-network", "https://jobs.lever.co/cere-network", ScrapeLever, "https://cere.network"),
     CompanyItem("ramp.network", "https://jobs.lever.co/careers.ramp.network", ScrapeLever, "https://ramp.network"),
     CompanyItem("ledger", "https://jobs.lever.co/ledger", ScrapeLever, "https://www.ledger.com"),
-    CompanyItem("request", "https://jobs.lever.co/request", ScrapeLever, "https://request.network"),
-    CompanyItem("immutable", "https://jobs.lever.co/immutable", ScrapeLever, "https://www.immutable.com"),
-    CompanyItem("web3auth", "https://jobs.lever.co/TorusLabs", ScrapeLever, "https://web3auth.io")]
+]
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
