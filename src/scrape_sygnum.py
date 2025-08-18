@@ -10,6 +10,11 @@ class ScrapeSygnum(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(7)
         driver.get(web_page)
+        acceptGeo = driver.find_elements(By.XPATH, '//a[.="CONTINUE"]')
+        if len(acceptGeo) > 0:
+            acceptGeo[0].click()
+            time.sleep(2)
+        # accept cookies
         acceptCookies = driver.find_elements(By.XPATH, '//button[.="Essential only"]')
         if len(acceptCookies) > 0:
             acceptCookies[0].click()
