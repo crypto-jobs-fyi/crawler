@@ -38,12 +38,6 @@
         },
         {
             "company": "fireblocks",
-            "title": "Partnerships Operations Manager",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4575818006"
-        },
-        {
-            "company": "fireblocks",
             "title": "Customer Success Manager, Scale Americas",
             "location": "New York",
             "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4589253006"
@@ -53,12 +47,6 @@
             "title": "Project Manager, APAC",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4591567006"
-        },
-        {
-            "company": "fireblocks",
-            "title": "Senior Renewals Manager",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4585200006"
         },
         {
             "company": "fireblocks",
@@ -155,6 +143,12 @@
             "title": "Senior Full Stack Engineer, Assets Team",
             "location": "Belgrade, Belgrade, Serbia",
             "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4436879006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "Senior Full-Stack Engineer, Security & Trust UnitNew",
+            "location": "Tel Aviv, Israel",
+            "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4594592006"
         },
         {
             "company": "fireblocks",
@@ -272,7 +266,7 @@
         },
         {
             "company": "fireblocks",
-            "title": "Sales Director, DACHNew",
+            "title": "Sales Director, DACH",
             "location": "Berlin, Berlin, Germany",
             "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4593916006"
         },
@@ -368,13 +362,7 @@
         },
         {
             "company": "fireblocks",
-            "title": "Product Manager - PaymentsNew",
-            "location": "Tel Aviv, Israel",
-            "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4582159006"
-        },
-        {
-            "company": "fireblocks",
-            "title": "Senior DevRel Engineer",
+            "title": "Senior Developer Relations Engineer",
             "location": "Tel Aviv, Israel",
             "link": "https://job-boards.greenhouse.io/fireblocks/jobs/4588705006"
         },
@@ -806,7 +794,7 @@
         },
         {
             "company": "figure",
-            "title": "Head of Investor RelationsNew",
+            "title": "Head of Investor Relations",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/figure/jobs/8122244002"
         },
@@ -1610,6 +1598,12 @@
         },
         {
             "company": "blockchain",
+            "title": "Executive Assistant to CFO & Head of LegalNew",
+            "location": "Buenos Aires",
+            "link": "https://job-boards.greenhouse.io/blockchain/jobs/7190978"
+        },
+        {
+            "company": "blockchain",
             "title": "Product Manager, Blockchain Explorer",
             "location": "Buenos Aires",
             "link": "https://job-boards.greenhouse.io/blockchain/jobs/7048528"
@@ -1802,27 +1796,9 @@
         },
         {
             "company": "OKX",
-            "title": "Specialist, Learning Development & Quality Assurance (Compliance Operations)",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6547847003"
-        },
-        {
-            "company": "OKX",
-            "title": "Specialist, Quality Assurance (Compliance Operations)",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6318608003"
-        },
-        {
-            "company": "OKX",
             "title": "Team Lead, Sanction Operations",
             "location": "Budapest, Budapest, Hungary",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6576787003"
-        },
-        {
-            "company": "OKX",
-            "title": "AML Operations Specialist",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/5452538003"
         },
         {
             "company": "OKX",
@@ -1850,12 +1826,6 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Associate, Sanction Operations",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/5762590003"
-        },
-        {
-            "company": "OKX",
             "title": "Senior Compliance Analyst, Quality AssuranceNew",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6686555003"
@@ -1871,6 +1841,36 @@
             "title": "Senior Compliance Manager, AML Investigations New",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6686534003"
+        },
+        {
+            "company": "OKX",
+            "title": "AML Operations Specialist",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/5452538003"
+        },
+        {
+            "company": "OKX",
+            "title": "Compliance Specialist, CDD OperationsNew",
+            "location": "Bahamas, New Providence, Bahamas",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6688713003"
+        },
+        {
+            "company": "OKX",
+            "title": "Operational Excellence (OpEx) Specialist (Compliance Operations)",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6639140003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Associate, Sanction Operations",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/5762590003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Manager, Operational Excellence (OpEx) (Compliance Operations)",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6639145003"
         },
         {
             "company": "OKX",
@@ -1892,9 +1892,15 @@
         },
         {
             "company": "OKX",
-            "title": "Specialist, Legal Operations",
+            "title": "Specialist, Learning Development & Quality Assurance (Compliance Operations)",
             "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/5452539003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6547847003"
+        },
+        {
+            "company": "OKX",
+            "title": "Specialist, Quality Assurance (Compliance Operations)",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6318608003"
         },
         {
             "company": "OKX",
@@ -1907,24 +1913,6 @@
             "title": "Team Lead, Customer Due Diligence",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.greenhouse.io/okx/jobs/5467940003"
-        },
-        {
-            "company": "OKX",
-            "title": "Compliance Specialist, CDD OperationsNew",
-            "location": "Bahamas, New Providence, Bahamas",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6688713003"
-        },
-        {
-            "company": "OKX",
-            "title": "Operational Excellence (OpEx) Specialist (Compliance Operations)",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6639140003"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior Manager, Operational Excellence (OpEx) (Compliance Operations)",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6639145003"
         },
         {
             "company": "OKX",
@@ -1961,18 +1949,6 @@
             "title": "Director, Talent Acquisition",
             "location": "Dubai, UAE",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6626688003"
-        },
-        {
-            "company": "OKX",
-            "title": "Legal Response Lead, Global",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/5597296003"
-        },
-        {
-            "company": "OKX",
-            "title": "Legal Response Manager, Global",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6682643003"
         },
         {
             "company": "OKX",
@@ -2084,7 +2060,7 @@
         },
         {
             "company": "OKX",
-            "title": "FIAT Operation Senior Manager New",
+            "title": "FIAT Operation Senior Manager",
             "location": "Budapest, Budapest, Hungary",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6656550003"
         },
@@ -2312,9 +2288,27 @@
         },
         {
             "company": "OKX",
+            "title": "Legal Response Lead, Global",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/5597296003"
+        },
+        {
+            "company": "OKX",
+            "title": "Legal Response Manager, Global",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6682643003"
+        },
+        {
+            "company": "OKX",
             "title": "Manager, Legal Response Team",
             "location": "Budapest, Budapest, Hungary",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6627011003"
+        },
+        {
+            "company": "OKX",
+            "title": "Specialist, Legal Operations",
+            "location": "Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/5452539003"
         },
         {
             "company": "OKX",
@@ -2327,24 +2321,6 @@
             "title": "Associate General Counsel, EEA",
             "location": "Sliema, Malta",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6627331003"
-        },
-        {
-            "company": "OKX",
-            "title": "Associate General Counsel, Marketing Practice Group",
-            "location": "San Francisco, California, US; San Jose, California, US",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6551701003"
-        },
-        {
-            "company": "OKX",
-            "title": "Associate General Counsel, Marketing Practice Group",
-            "location": "San Francisco, California, US; San Jose, California, US",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6552015003"
-        },
-        {
-            "company": "OKX",
-            "title": "Associate General Counsel, Marketing Practice Group",
-            "location": "New York, US; San Francisco, California, US; San Jose, California, US",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6655729003"
         },
         {
             "company": "OKX",
@@ -2612,7 +2588,7 @@
         },
         {
             "company": "OKX",
-            "title": "Graduate Hire 2026 - Product ManagerNew",
+            "title": "Graduate Hire 2026 - Product Manager",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6685273003"
         },
@@ -2726,12 +2702,6 @@
         },
         {
             "company": "OKX",
-            "title": "Strategy Manager (Legal / Risk Business Partner)",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6655302003"
-        },
-        {
-            "company": "OKX",
             "title": "Web3 Growth Manager",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6602135003"
@@ -2765,12 +2735,6 @@
             "title": "Senior Business Development Manager, OKX DEX (Solana Ecosystem)",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6335737003"
-        },
-        {
-            "company": "OKX",
-            "title": "Business Operations Manager- Dubai UAE",
-            "location": "Dubai, UAE",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6616238003"
         },
         {
             "company": "OKX",
@@ -2858,6 +2822,12 @@
         },
         {
             "company": "OKX",
+            "title": "Senior Relationship ManagerNew",
+            "location": "Argentina (Remote); Colombia (Remote); Mexico (Remote)",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6689663003"
+        },
+        {
+            "company": "OKX",
             "title": "Senior Technical Account Manager, UAE",
             "location": "Dubai, UAE",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6683365003"
@@ -2942,6 +2912,12 @@
         },
         {
             "company": "OKX",
+            "title": "Business Development Manager - TradingNew",
+            "location": "Sydney, New South Wales, Australia",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6704684003"
+        },
+        {
+            "company": "OKX",
             "title": "Campaign Operations Manager",
             "location": "Istanbul, T\u00fcrkiye",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6531461003"
@@ -2969,12 +2945,6 @@
             "title": "Director, Merchant Operations (Greater China)",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6582212003"
-        },
-        {
-            "company": "OKX",
-            "title": "Growth Lead - Lifecycle & Retention",
-            "location": "Sydney, New South Wales, Australia",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6650842003"
         },
         {
             "company": "OKX",
@@ -3224,6 +3194,12 @@
         },
         {
             "company": "OKX",
+            "title": "Principal Engineer, OKX Pay",
+            "location": "San Jose, California, US",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6351826003"
+        },
+        {
+            "company": "OKX",
             "title": "Principal/Senior Engineer - Core - Platform Tool (Java)",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/5828265003"
@@ -3410,6 +3386,18 @@
         },
         {
             "company": "OKX",
+            "title": "Software Engineer Mobile - Android",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6318790003"
+        },
+        {
+            "company": "OKX",
+            "title": "Software Engineer Mobile - iOS",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6260502003"
+        },
+        {
+            "company": "OKX",
             "title": "Staff AI Engineer, Anti-Fraud",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6683415003"
@@ -3443,12 +3431,6 @@
             "title": "Vice President of Artificial Intelligence",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6651116003"
-        },
-        {
-            "company": "OKX",
-            "title": "Web3 Security Engineer (Wallet Security)",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6484008003"
         },
         {
             "company": "OKX",
@@ -3506,12 +3488,6 @@
         },
         {
             "company": "OKX",
-            "title": "Mid-Senior Visual Designer",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6624741003"
-        },
-        {
-            "company": "OKX",
             "title": "Product Design Lead, Design Systems",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6649298003"
@@ -3539,12 +3515,6 @@
             "title": "Senior Design System Designer",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6264884003"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior Design Systems Designer",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6246532003"
         },
         {
             "company": "OKX",
@@ -3641,12 +3611,6 @@
             "title": "Staff/Senior Design System Designer",
             "location": "San Jose, California, US",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6657732003"
-        },
-        {
-            "company": "OKX",
-            "title": "Visual Designer (3D)",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6574247003"
         },
         {
             "company": "OKX",
@@ -3800,12 +3764,6 @@
         },
         {
             "company": "OKX",
-            "title": "Product Manager Director, Compliance",
-            "location": "San Jose, California, US",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6586545003"
-        },
-        {
-            "company": "OKX",
             "title": "Senior Data Scientist, Web3New",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6691995003"
@@ -3825,14 +3783,14 @@
         {
             "company": "OKX",
             "title": "Senior Director of Affiliate",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6628004003"
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6628003003"
         },
         {
             "company": "OKX",
             "title": "Senior Director of Affiliate",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6628003003"
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6628004003"
         },
         {
             "company": "OKX",
@@ -3872,7 +3830,7 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Infra Product Manager (Web3)New",
+            "title": "Senior Infra Product Manager (Web3)",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6686184003"
         },
@@ -3880,7 +3838,7 @@
             "company": "OKX",
             "title": "Senior Infra Product Manager (Web3)New",
             "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6686185003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6692297003"
         },
         {
             "company": "OKX",
@@ -3909,14 +3867,14 @@
         {
             "company": "OKX",
             "title": "(Senior) Product Director, Compliance",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6481233003"
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6481232003"
         },
         {
             "company": "OKX",
             "title": "(Senior) Product Director, Compliance",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6481232003"
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6481233003"
         },
         {
             "company": "OKX",
@@ -4035,14 +3993,14 @@
         {
             "company": "OKX",
             "title": "Senior Product Manager, Options Trading",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6569138003"
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6569139003"
         },
         {
             "company": "OKX",
             "title": "Senior Product Manager, Options Trading",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6569139003"
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6569138003"
         },
         {
             "company": "OKX",
@@ -4256,9 +4214,21 @@
         },
         {
             "company": "bitmex",
-            "title": "Senior Front-End Engineer, Client Onboarding (Compliance)",
+            "title": "Senior Front-End Engineer, Client Onboarding (Compliance)New",
             "location": "Remote - Asia",
-            "link": "https://job-boards.greenhouse.io/bitmex/jobs/7806861002"
+            "link": "https://job-boards.greenhouse.io/bitmex/jobs/8135512002"
+        },
+        {
+            "company": "bitmex",
+            "title": "Senior Front-End Engineer, Client Onboarding (Compliance)New",
+            "location": "Singapore",
+            "link": "https://job-boards.greenhouse.io/bitmex/jobs/8135513002"
+        },
+        {
+            "company": "bitmex",
+            "title": "Senior Front-End Engineer, Client Onboarding (Compliance)New",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/bitmex/jobs/8135530002"
         },
         {
             "company": "bitmex",
@@ -4295,6 +4265,30 @@
             "title": "Managing Director, Denmark ApS",
             "location": "Denmark",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/7966601002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Operations Specialist New",
+            "location": "Frankfurt am Main, Hesse, Germany",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136364002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Operations Specialist New",
+            "location": "Frankfurt, Germany",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136365002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Operations Specialist (Part time)New",
+            "location": "Frankfurt am Main, Hesse, Germany",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136370002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Operations Specialist (Part time)New",
+            "location": "Frankfurt, Germany",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136371002"
         },
         {
             "company": "bitgo",
@@ -4373,6 +4367,12 @@
             "title": "Senior Customer Success Manager - Ecosystem",
             "location": "New York, US",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/7964156002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Data Scientist",
+            "location": "India",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/6319680002"
         },
         {
             "company": "bitgo",
@@ -4514,21 +4514,39 @@
         },
         {
             "company": "bitgo",
-            "title": "Senior Software Engineer - Mobile (React Native)",
+            "title": "Senior Software Engineer - Mobile BackendNew",
             "location": "San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120160002"
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136679002"
         },
         {
             "company": "bitgo",
-            "title": "Senior Software Engineer - Mobile (React Native)",
-            "location": "Toronto, Ontario, Canada",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120161002"
-        },
-        {
-            "company": "bitgo",
-            "title": "Senior Software Engineer - Mobile (React Native)",
+            "title": "Senior Software Engineer - Mobile BackendNew",
             "location": "New York, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120162002"
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136705002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile BackendNew",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136721002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136947002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136950002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Senior Software Engineer - Mobile (React Native)New",
+            "location": "New York, US",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136951002"
         },
         {
             "company": "bitgo",
@@ -4598,21 +4616,21 @@
         },
         {
             "company": "bitgo",
-            "title": "Software Engineer - Mobile (React Native)",
+            "title": "Software Engineer - Mobile (React Native)New",
             "location": "San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120154002"
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136939002"
         },
         {
             "company": "bitgo",
-            "title": "Software Engineer - Mobile (React Native)",
+            "title": "Software Engineer - Mobile (React Native)New",
             "location": "Toronto, Ontario, Canada",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120155002"
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136942002"
         },
         {
             "company": "bitgo",
-            "title": "Software Engineer - Mobile (React Native)",
+            "title": "Software Engineer - Mobile (React Native)New",
             "location": "New York, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8120157002"
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136945002"
         },
         {
             "company": "bitgo",
@@ -4718,6 +4736,12 @@
         },
         {
             "company": "bitgo",
+            "title": "Office Manager, TorontoNew",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8136972002"
+        },
+        {
+            "company": "bitgo",
             "title": "Product Operations Analyst",
             "location": "India",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/7264407002"
@@ -4733,18 +4757,6 @@
             "title": "Trading Operations AssociateNew",
             "location": "New York, US",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/8130661002"
-        },
-        {
-            "company": "bitgo",
-            "title": "Director of Product Management, Prime Sevices",
-            "location": "San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8085235002"
-        },
-        {
-            "company": "bitgo",
-            "title": "Director of Product Management, Prime Sevices",
-            "location": "New York, US",
-            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8085237002"
         },
         {
             "company": "bitgo",
@@ -4922,7 +4934,7 @@
         },
         {
             "company": "bitpanda",
-            "title": "Business Analyst, Automation DeliveryNew",
+            "title": "Business Analyst, Automation Delivery",
             "location": "Barcelona, Spain",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4654388101"
         },
@@ -4949,18 +4961,6 @@
             "title": "Intern, QA Engineering",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4648260101"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Intern, Talent Acquisition CoordinatorNew",
-            "location": "Berlin, Berlin, Germany",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4656780101"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Intern, Talent Acquisition CoordinatorNew",
-            "location": "Vienna, Vienna, Austria",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4655777101"
         },
         {
             "company": "bitpanda",
@@ -5144,7 +5144,7 @@
         },
         {
             "company": "bitpanda",
-            "title": "Software Engineer, Typescript (Trust Vault)New",
+            "title": "Software Engineer, Typescript (Trust Vault)",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4656559101"
         },
@@ -5264,9 +5264,21 @@
         },
         {
             "company": "figment",
+            "title": "Crypto and Finance AnalystNew",
+            "location": "North America",
+            "link": "https://job-boards.greenhouse.io/figment/jobs/5631327004"
+        },
+        {
+            "company": "figment",
             "title": "Director of Product Marketing - Sales Enablement",
             "location": "Remote",
             "link": "https://job-boards.greenhouse.io/figment/jobs/5567363004"
+        },
+        {
+            "company": "figment",
+            "title": "GTM RecruiterNew",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/figment/jobs/5627281004"
         },
         {
             "company": "figment",
@@ -5336,7 +5348,7 @@
         },
         {
             "company": "mara",
-            "title": "Vice President of Content Marketing New",
+            "title": "Vice President of Content Marketing",
             "location": "Miami Florida, US",
             "link": "https://job-boards.greenhouse.io/mara/jobs/4598660005"
         },
@@ -5953,12 +5965,6 @@
             "link": "https://job-boards.greenhouse.io/aptoslabs/jobs/4575979005"
         },
         {
-            "company": "aptoslabs",
-            "title": "Product Manager, Watchee",
-            "location": "NYC or Palo Alto",
-            "link": "https://job-boards.greenhouse.io/aptoslabs/jobs/4575981005"
-        },
-        {
             "company": "foundrydigital",
             "title": "Legal & Compliance Counsel",
             "location": "Remote",
@@ -6224,12 +6230,6 @@
         },
         {
             "company": "layerzerolabs",
-            "title": "Partner Marketing Manager",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5622042004"
-        },
-        {
-            "company": "layerzerolabs",
             "title": "Social Media Manager",
             "location": "Vancouver, BC",
             "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554631004"
@@ -6452,15 +6452,27 @@
         },
         {
             "company": "galaxydigital",
-            "title": "VP/Director, Quantitative Developer - Risk EngineeringNew",
+            "title": "VP/Director, Quantitative Developer - Risk Engineering (Crypto)New",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5628882004"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "VP/Director, Quantitative Developer - Risk Engineering (Crypto)New",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5630837004"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "VP/Director, Quantitative Developer - Risk Engineering (TradFi)New",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5628870004"
         },
         {
             "company": "galaxydigital",
-            "title": "VP/Director, Quantitative Developer - Risk Engineering (Defi)New",
-            "location": "New York, NY",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5628882004"
+            "title": "VP/Director, Quantitative Developer - Risk Engineering (TradFi)New",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5630844004"
         },
         {
             "company": "galaxydigital",
@@ -6608,12 +6620,6 @@
         },
         {
             "company": "galaxydigital",
-            "title": "Marketing Associate - Lifecycle, Partnerships, and Operations",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5601493004"
-        },
-        {
-            "company": "galaxydigital",
             "title": "Associate, Insurance and Vendor Management",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5609793004"
@@ -6677,6 +6683,18 @@
             "title": "US Listed Equities & Options Trader",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5563860004"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "Vice President, Product ManagerNew",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5631026004"
+        },
+        {
+            "company": "galaxydigital",
+            "title": "Vice President, Product ManagerNew",
+            "location": "Dallas, TX",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5631031004"
         },
         {
             "company": "galaxydigital",
