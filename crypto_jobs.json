@@ -74,12 +74,6 @@
         },
         {
             "company": "paxos",
-            "title": "Corporate Paralegal",
-            "location": "Remote - US",
-            "link": "https://www.paxos.com/jobs/job-details?job=corporate-paralegal"
-        },
-        {
-            "company": "paxos",
             "title": "Director of Engineering, Brokerage",
             "location": "Remote - US",
             "link": "https://www.paxos.com/jobs/job-details?job=director-of-engineering-brokerage"
@@ -224,12 +218,6 @@
         },
         {
             "company": "paxos",
-            "title": "Senior Software Engineer, Brokerage",
-            "location": "Remote - US",
-            "link": "https://www.paxos.com/jobs/job-details?job=senior-software-engineer-brokerage"
-        },
-        {
-            "company": "paxos",
             "title": "Senior Software Engineer, Dashboard",
             "location": "Remote - US",
             "link": "https://www.paxos.com/jobs/job-details?job=senior-software-engineer-dashboard"
@@ -281,12 +269,6 @@
             "title": "Staff Software Engineer, Asset Movement",
             "location": "Remote - US",
             "link": "https://www.paxos.com/jobs/job-details?job=staff-software-engineer-asset-movement"
-        },
-        {
-            "company": "paxos",
-            "title": "Staff Software Engineer, Brokerage",
-            "location": "Remote - US",
-            "link": "https://www.paxos.com/jobs/job-details?job=staff-software-engineer-brokerage"
         },
         {
             "company": "paxos",
@@ -758,6 +740,12 @@
         },
         {
             "company": "robinhood",
+            "title": "Corporate Security Manager",
+            "location": "Toronto, ON",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7169946?gh_src=NaN&gh_jid=7169946"
+        },
+        {
+            "company": "robinhood",
             "title": "Engineering Manager, Cloud Networking",
             "location": "Toronto, ON",
             "link": "https://boards.greenhouse.io/robinhood/jobs/6900136?gh_src=NaN&gh_jid=6900136"
@@ -1130,12 +1118,6 @@
         },
         {
             "company": "robinhood",
-            "title": "International Government Affairs Strategist",
-            "location": "London, UK",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6494479?gh_src=NaN&gh_jid=6494479"
-        },
-        {
-            "company": "robinhood",
             "title": "Senior Counsel, Corporate and M&A",
             "location": "Menlo Park, CA; New York, NY; Washington, DC",
             "link": "https://boards.greenhouse.io/robinhood/jobs/6838211?gh_src=NaN&gh_jid=6838211"
@@ -1226,6 +1208,12 @@
         },
         {
             "company": "coinlist",
+            "title": "Crypto Funds Attorney",
+            "location": "Remote",
+            "link": "https://apply.workable.com/coinlist/j/C9879DE724/"
+        },
+        {
+            "company": "coinlist",
             "title": "Token Sale Lead",
             "location": "Remote",
             "link": "https://apply.workable.com/coinlist/j/7724B2C580/"
@@ -1289,6 +1277,18 @@
             "title": "Web3 Business Development (Marketing) - Expression of Interest",
             "location": "Remote",
             "link": "https://apply.workable.com/prepo/j/5C473C6BA6/"
+        },
+        {
+            "company": "io-global",
+            "title": "LLM Engineer - Technical Intelligence",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/CDF8DA6B15/"
+        },
+        {
+            "company": "io-global",
+            "title": "Event Social Media Strategist",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/AC50C0EDC8/"
         },
         {
             "company": "io-global",
@@ -1427,12 +1427,6 @@
             "title": "Software Engineer (Prototype) - Creative Engineering",
             "location": "Remote",
             "link": "https://apply.workable.com/io-global/j/EDCC2FC1BD/"
-        },
-        {
-            "company": "io-global",
-            "title": "People Advisor - FTC (September 2025 - March 2026)",
-            "location": "Remote",
-            "link": "https://apply.workable.com/io-global/j/439973B50C/"
         },
         {
             "company": "io-global",
@@ -1605,7 +1599,7 @@
         {
             "company": "Swissquote",
             "title": "Payment & Settlement Officer",
-            "location": "St Julian's Malta",
+            "location": "Malta St Julian's",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000076571915-payment-settlement-officer"
         },
         {
@@ -1653,7 +1647,7 @@
         {
             "company": "Swissquote",
             "title": "Back Office Operations Associate",
-            "location": "Malta St Julian's STJ 1901",
+            "location": "St Julian's STJ 1901 Malta",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000027909195-back-office-operations-associate"
         },
         {
@@ -1664,8 +1658,14 @@
         },
         {
             "company": "Swissquote",
+            "title": "Fachmann/-frau Kundendialog EFZ (E-Profil / M-Profil)",
+            "location": "D\u00fcbendorf Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000078100753-fachmann-frau-kundendialog-efz-e-profil-m-profil-"
+        },
+        {
+            "company": "Swissquote",
             "title": "Client Service Representative Intern",
-            "location": "Switzerland D\u00fcbendorf",
+            "location": "D\u00fcbendorf Switzerland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075819775-client-service-representative-intern"
         },
         {
@@ -1780,24 +1780,24 @@
             "company": "Swissquote",
             "title": "Senior FX Sales \u2013 Institutional Clients (FX Settlement Specialist)",
             "location": "Switzerland Z\u00fcrich",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000077962041-senior-fx-sales-institutional-clients-fx-settlement-specialist-"
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000078107309-senior-fx-sales-institutional-clients-fx-settlement-specialist-"
         },
         {
             "company": "Swissquote",
             "title": "Relationship Manager Forex",
-            "location": "Downtown UAE",
+            "location": "UAE Downtown",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000076111154-relationship-manager-forex"
         },
         {
             "company": "Swissquote",
             "title": "Sales Support Officer",
-            "location": "DIFC UAE",
+            "location": "UAE DIFC",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075485415-sales-support-officer"
         },
         {
             "company": "Swissquote",
             "title": "Relationship Manager Private Clients",
-            "location": "DIFC UAE",
+            "location": "UAE DIFC",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075483545-relationship-manager-private-clients"
         },
         {
@@ -1940,12 +1940,6 @@
         },
         {
             "company": "ripple",
-            "title": "Business Development Manager",
-            "location": "Singapore",
-            "link": "https://ripple.com/careers/all-jobs/job/6866885/"
-        },
-        {
-            "company": "ripple",
             "title": "VP of Partnerships - RippleX (Institutional DeFi)",
             "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/7053974/"
@@ -1973,6 +1967,12 @@
             "title": "Director of Security Operations",
             "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/6142672/"
+        },
+        {
+            "company": "ripple",
+            "title": "Engineering Manager, Fiat Connectivity - Finance Primitives",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/7078546/"
         },
         {
             "company": "ripple",
@@ -2007,8 +2007,26 @@
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7183888/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Software Engineer",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/6996920/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Software Engineer",
             "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/6861314/"
+            "link": "https://ripple.com/careers/all-jobs/job/7003419/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Software Engineer",
+            "location": "Reykjav\u00edk, Reykjav\u00edk, Iceland",
+            "link": "https://ripple.com/careers/all-jobs/job/7003425/"
         },
         {
             "company": "ripple",
@@ -2019,8 +2037,8 @@
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6996920/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/6861314/"
         },
         {
             "company": "ripple",
@@ -2103,14 +2121,14 @@
         {
             "company": "ripple",
             "title": "Staff Software Engineer",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/6861281/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/6648042/"
         },
         {
             "company": "ripple",
             "title": "Staff Software Engineer",
             "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6648042/"
+            "link": "https://ripple.com/careers/all-jobs/job/7001478/"
         },
         {
             "company": "ripple",
@@ -2121,8 +2139,8 @@
         {
             "company": "ripple",
             "title": "Staff Software Engineer",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7001478/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/6861281/"
         },
         {
             "company": "ripple",
@@ -2133,14 +2151,14 @@
         {
             "company": "ripple",
             "title": "Staff Software Engineer, C++",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6437479/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/6437475/"
         },
         {
             "company": "ripple",
             "title": "Staff Software Engineer, C++",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/6437475/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/6437479/"
         },
         {
             "company": "ripple",
@@ -2189,12 +2207,6 @@
             "title": "Director, Financial Services",
             "location": "London, UK",
             "link": "https://ripple.com/careers/all-jobs/job/7009802/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Finance Integrations Developer",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7075549/"
         },
         {
             "company": "ripple",
@@ -2258,18 +2270,6 @@
         },
         {
             "company": "ripple",
-            "title": "Growth Marketing Manager, RLUSD",
-            "location": "Singapore",
-            "link": "https://ripple.com/careers/all-jobs/job/6997188/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Manager, Total Rewards",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7009740/"
-        },
-        {
-            "company": "ripple",
             "title": "Global Corporate Technical Security Manager",
             "location": "San Francisco, CA, US",
             "link": "https://ripple.com/careers/all-jobs/job/7179979/"
@@ -2307,14 +2307,14 @@
         {
             "company": "ripple",
             "title": "Lead Product Manager, Institutional DeFi",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7001285/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7001273/"
         },
         {
             "company": "ripple",
             "title": "Lead Product Manager, Institutional DeFi",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7001273/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7001285/"
         },
         {
             "company": "ripple",
@@ -2409,14 +2409,14 @@
         {
             "company": "ripple",
             "title": "Director, M&A Integration",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7089462/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7089450/"
         },
         {
             "company": "ripple",
             "title": "Director, M&A Integration",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7089450/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7089462/"
         },
         {
             "company": "ripple",
