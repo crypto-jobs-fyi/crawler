@@ -3272,6 +3272,12 @@
         },
         {
             "company": "perplexityai",
+            "title": "Recruiting Coordinator (Contract)",
+            "location": "San Francisco",
+            "link": "https://job-boards.greenhouse.io/perplexityai/jobs/4559108007"
+        },
+        {
+            "company": "perplexityai",
             "title": "Customer Success Engineer - API and Enterprise",
             "location": "New York City; San Francisco",
             "link": "https://job-boards.greenhouse.io/perplexityai/jobs/4674086007"
@@ -5471,12 +5477,6 @@
             "title": "SVP of Sales, Enterprise Technology - Insurance",
             "location": "New York - Remote; US - Remote",
             "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4639006101"
-        },
-        {
-            "company": "invisibletech",
-            "title": "Data Scientist",
-            "location": "New York; San Francisco",
-            "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4643870101"
         },
         {
             "company": "invisibletech",
@@ -13076,18 +13076,6 @@
         },
         {
             "company": "polyai",
-            "title": "Dialogue Designer (must be based in US)",
-            "location": "US",
-            "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4653911101"
-        },
-        {
-            "company": "polyai",
-            "title": "Dialogue Designer (must be UK based)",
-            "location": "UK",
-            "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4653809101"
-        },
-        {
-            "company": "polyai",
             "title": "Engineering Manager (must be based in NY)",
             "location": "New York City, Remote - East Coast - US",
             "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4599634101"
@@ -13202,21 +13190,9 @@
         },
         {
             "company": "Cleo",
-            "title": "Senior People Partner",
-            "location": "Office: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-people-partner-e1eed8c8-1992-4bc8-8dd9-3b099aa380c5"
-        },
-        {
-            "company": "Cleo",
             "title": "Conversational AI Designer",
             "location": "Remote: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/conversational-ai-designer-116a0433-a039-4829-8ef5-5b08258a2eab"
-        },
-        {
-            "company": "Cleo",
-            "title": "Motion Design Lead",
-            "location": "Remote: US",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/motion-design-lead-bcdaea05-8892-4969-a2b6-529458a9faf6"
         },
         {
             "company": "Cleo",
@@ -13229,6 +13205,18 @@
             "title": "Product Engineer - React | Poland",
             "location": "Remote: Poland",
             "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-react-poland-2127bc38-9293-4dd5-943b-fd353fd75a62"
+        },
+        {
+            "company": "Cleo",
+            "title": "Senior People Partner",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-people-partner-e1eed8c8-1992-4bc8-8dd9-3b099aa380c5"
+        },
+        {
+            "company": "Cleo",
+            "title": "Motion Design Lead",
+            "location": "Remote: US",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/motion-design-lead-bcdaea05-8892-4969-a2b6-529458a9faf6"
         },
         {
             "company": "Cleo",
@@ -13256,6 +13244,18 @@
         },
         {
             "company": "Cleo",
+            "title": "Senior Engineering Manager | Poland",
+            "location": "Remote: Poland",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-poland-603824a1-f759-466e-8147-43a52cec1026"
+        },
+        {
+            "company": "Cleo",
+            "title": "Payments Analytics Manager",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/payments-analytics-manager-33b642a4-ed09-4bd4-a381-9b6045fa28e2"
+        },
+        {
+            "company": "Cleo",
             "title": "Technical Talent Partner",
             "location": "Remote: Portugal | Spain",
             "link": "https://revolutpeople.com/cleo/public/careers/position/technical-talent-partner-939effc5-e459-4920-965c-c9d14d1e4903"
@@ -13274,15 +13274,27 @@
         },
         {
             "company": "Cleo",
+            "title": "Senior Machine Learning Engineer (Credit Risk)",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-machine-learning-engineer-credit-risk-09212360-9dc8-4dfa-a3c0-1cd0c48688e0"
+        },
+        {
+            "company": "Cleo",
             "title": "Payroll & Equity Associate",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/payroll-equity-associate-eb51959e-5b2d-4513-a6af-5a017bfb6b98"
         },
         {
             "company": "Cleo",
-            "title": "Senior Machine Learning Engineer (Credit Risk)",
-            "location": "Remote: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-machine-learning-engineer-credit-risk-09212360-9dc8-4dfa-a3c0-1cd0c48688e0"
+            "title": "Senior Engineering Manager | Portugal",
+            "location": "Remote: Portugal",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-portugal-2e999f6c-69aa-4642-836f-27865e73fb01"
+        },
+        {
+            "company": "Cleo",
+            "title": "Senior Web Developer - Contractor",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-web-developer-contractor-67e5bfc3-928a-4df7-8c68-6dd19fa00fd3"
         },
         {
             "company": "Cleo",
@@ -13292,9 +13304,9 @@
         },
         {
             "company": "Cleo",
-            "title": "Employee Relations Specialist",
-            "location": "Office: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/employee-relations-specialist-65314560-c96e-4c90-9d5e-fef1ddfb7d37"
+            "title": "Senior Compliance Analyst",
+            "location": "Remote: US",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-compliance-analyst-5e264991-3e78-4bb9-aeec-dbbff9df3b59"
         },
         {
             "company": "Cleo",
@@ -13304,9 +13316,9 @@
         },
         {
             "company": "Cleo",
-            "title": "Senior Compliance Analyst",
-            "location": "Remote: US",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-compliance-analyst-5e264991-3e78-4bb9-aeec-dbbff9df3b59"
+            "title": "Employee Relations Specialist",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/employee-relations-specialist-65314560-c96e-4c90-9d5e-fef1ddfb7d37"
         },
         {
             "company": "Cleo",
@@ -13316,15 +13328,21 @@
         },
         {
             "company": "Cleo",
+            "title": "Fraud Data Analyst",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/fraud-data-analyst-440f75d9-a1cd-483f-bdc8-f2d92e25c8b8"
+        },
+        {
+            "company": "Cleo",
             "title": "Lead / Staff Product Analyst - AI Assistant",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/lead-staff-product-analyst-ai-assistant-38eaea4b-0e4a-477c-9f7b-c54b69d6b720"
         },
         {
             "company": "Cleo",
-            "title": "Fraud Data Analyst",
+            "title": "Chief of Staff to VP of Product",
             "location": "Office: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/fraud-data-analyst-440f75d9-a1cd-483f-bdc8-f2d92e25c8b8"
+            "link": "https://revolutpeople.com/cleo/public/careers/position/chief-of-staff-to-vp-of-product-cab1673b-870a-425d-b6a3-f29e44e77be1"
         },
         {
             "company": "Cleo",
@@ -13343,12 +13361,6 @@
             "title": "Product Engineer - React | Spain",
             "location": "Remote: Spain",
             "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-react-spain-07e2a76c-e15b-4ad4-8084-908700e0c3a0"
-        },
-        {
-            "company": "Cleo",
-            "title": "Chief of Staff to VP of Product",
-            "location": "Office: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/chief-of-staff-to-vp-of-product-cab1673b-870a-425d-b6a3-f29e44e77be1"
         },
         {
             "company": "Cleo",
@@ -13460,27 +13472,15 @@
         },
         {
             "company": "Cleo",
-            "title": "Product Engineer - React | Portugal",
-            "location": "Remote: Portugal",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-react-portugal-e5ad891d-8f21-4358-82b2-a8d93fbee309"
-        },
-        {
-            "company": "Cleo",
-            "title": "Senior Web Developer - Contractor",
-            "location": "Office: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-web-developer-contractor-67e5bfc3-928a-4df7-8c68-6dd19fa00fd3"
-        },
-        {
-            "company": "Cleo",
-            "title": "Senior Engineering Manager | Portugal",
-            "location": "Remote: Portugal",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-portugal-2e999f6c-69aa-4642-836f-27865e73fb01"
-        },
-        {
-            "company": "Cleo",
             "title": "Fraud Strategy & Analytics Manager",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/fraud-strategy-analytics-manager-4d7da2b2-1f32-4a9c-a441-f900141a2494"
+        },
+        {
+            "company": "Cleo",
+            "title": "Product Engineer - React | Portugal",
+            "location": "Remote: Portugal",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-react-portugal-e5ad891d-8f21-4358-82b2-a8d93fbee309"
         },
         {
             "company": "Cleo",
@@ -13496,33 +13496,21 @@
         },
         {
             "company": "Cleo",
-            "title": "Compliance Manager",
-            "location": "Remote: US",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/compliance-manager-e184db0b-2d45-4d62-91f5-d4f94fa823b4"
-        },
-        {
-            "company": "Cleo",
             "title": "Senior Engineering Manager | Spain",
             "location": "Remote: Spain",
             "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-spain-b6ddc3c1-dc81-47a6-a718-212d8574ed50"
         },
         {
             "company": "Cleo",
-            "title": "Senior Engineering Manager | Poland",
-            "location": "Remote: Poland",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-poland-603824a1-f759-466e-8147-43a52cec1026"
+            "title": "Compliance Manager",
+            "location": "Remote: US",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/compliance-manager-e184db0b-2d45-4d62-91f5-d4f94fa823b4"
         },
         {
             "company": "Cleo",
             "title": "Marketing Analytics Manager",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/marketing-analytics-manager-615f850c-1875-4a30-bf6f-098132d91289"
-        },
-        {
-            "company": "Cleo",
-            "title": "Senior Engineering Manager | UK",
-            "location": "Remote: UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-uk-467fcbd4-799b-4150-b78b-c3e87fee7f5e"
         },
         {
             "company": "Cleo",
@@ -13535,6 +13523,12 @@
             "title": "Machine Learning Engineer (Marketing)",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/machine-learning-engineer-marketing-966afce1-437c-419c-855e-37ac51a375c2"
+        },
+        {
+            "company": "Cleo",
+            "title": "Senior Engineering Manager | UK",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-engineering-manager-uk-467fcbd4-799b-4150-b78b-c3e87fee7f5e"
         },
         {
             "company": "Cleo",
@@ -13574,15 +13568,15 @@
         },
         {
             "company": "Cleo",
-            "title": "Product Engineer - Ruby | Portugal",
-            "location": "Remote: Portugal",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-ruby-portugal-5109900f-2a76-4dd0-a06b-563428bf1795"
-        },
-        {
-            "company": "Cleo",
             "title": "Product Engineer - Ruby | UK",
             "location": "Office: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-ruby-uk-4d1555c0-5da7-48cd-a976-bb72c0445a75"
+        },
+        {
+            "company": "Cleo",
+            "title": "Product Engineer - Ruby | Portugal",
+            "location": "Remote: Portugal",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/product-engineer-ruby-portugal-5109900f-2a76-4dd0-a06b-563428bf1795"
         },
         {
             "company": "Cleo",
@@ -16971,8 +16965,8 @@
         {
             "company": "nebius",
             "title": "Account Executive - AI Studio",
-            "location": "London",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4572182101?gh_jid=4572182101"
+            "location": "Remote - US",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4633971101?gh_jid=4633971101"
         },
         {
             "company": "nebius",
@@ -16983,8 +16977,26 @@
         {
             "company": "nebius",
             "title": "Account Executive - AI Studio",
-            "location": "Remote - US",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4633971101?gh_jid=4633971101"
+            "location": "London",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4572182101?gh_jid=4572182101"
+        },
+        {
+            "company": "nebius",
+            "title": "Account Executive - DACH",
+            "location": "Remote",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4660811101?gh_jid=4660811101"
+        },
+        {
+            "company": "nebius",
+            "title": "Account Executive - Nordics",
+            "location": "Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4660808101?gh_jid=4660808101"
+        },
+        {
+            "company": "nebius",
+            "title": "Account Executive - UK&I",
+            "location": "London",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4660806101?gh_jid=4660806101"
         },
         {
             "company": "nebius",
@@ -17181,14 +17193,14 @@
         {
             "company": "nebius",
             "title": "GPU Cluster Architect",
-            "location": "Remote - US",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4657940101?gh_jid=4657940101"
+            "location": "Amsterdam",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4652711101?gh_jid=4652711101"
         },
         {
             "company": "nebius",
             "title": "GPU Cluster Architect",
-            "location": "Amsterdam",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4652711101?gh_jid=4652711101"
+            "location": "Remote - US",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4657940101?gh_jid=4657940101"
         },
         {
             "company": "nebius",
@@ -17217,14 +17229,14 @@
         {
             "company": "nebius",
             "title": "GTM Lead - Retail & Commerce AI",
-            "location": "Remote - US",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4643012101?gh_jid=4643012101"
+            "location": "Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4580244101?gh_jid=4580244101"
         },
         {
             "company": "nebius",
             "title": "GTM Lead - Retail & Commerce AI",
-            "location": "Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4580244101?gh_jid=4580244101"
+            "location": "Remote - US",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4643012101?gh_jid=4643012101"
         },
         {
             "company": "nebius",
@@ -17291,12 +17303,6 @@
             "title": "Investor Relations Manager",
             "location": "Amsterdam \u00b7 Remote - US",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4604546101?gh_jid=4604546101"
-        },
-        {
-            "company": "nebius",
-            "title": "ISV & VAR Partner Account Executive",
-            "location": "Remote - US \u00b7 US",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4505673101?gh_jid=4505673101"
         },
         {
             "company": "nebius",
@@ -17475,26 +17481,26 @@
         {
             "company": "nebius",
             "title": "Senior HPC Cluster Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558237101?gh_jid=4558237101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior HPC Cluster Engineer",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4383057101?gh_jid=4383057101"
         },
         {
             "company": "nebius",
-            "title": "Senior Hypervisor Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4383058101?gh_jid=4383058101"
+            "title": "Senior HPC Cluster Engineer",
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558237101?gh_jid=4558237101"
         },
         {
             "company": "nebius",
             "title": "Senior Hypervisor Engineer",
             "location": "Prague \u00b7 Remote - Europe",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558238101?gh_jid=4558238101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Hypervisor Engineer",
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4383058101?gh_jid=4383058101"
         },
         {
             "company": "nebius",
@@ -17517,14 +17523,14 @@
         {
             "company": "nebius",
             "title": "Senior Network Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4528416101?gh_jid=4528416101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558240101?gh_jid=4558240101"
         },
         {
             "company": "nebius",
             "title": "Senior Network Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558240101?gh_jid=4558240101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4528416101?gh_jid=4528416101"
         },
         {
             "company": "nebius",
@@ -17559,6 +17565,12 @@
         {
             "company": "nebius",
             "title": "Senior Site Reliability Engineer",
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558244101?gh_jid=4558244101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Site Reliability Engineer",
             "location": "Berlin \u00b7 Remote - Europe",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558243101?gh_jid=4558243101"
         },
@@ -17567,12 +17579,6 @@
             "title": "Senior Site Reliability Engineer",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4376374101?gh_jid=4376374101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior Site Reliability Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4558244101?gh_jid=4558244101"
         },
         {
             "company": "nebius",
@@ -17643,14 +17649,14 @@
         {
             "company": "nebius",
             "title": "Support Engineer L2",
-            "location": "Remote - Europe",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4613805101?gh_jid=4613805101"
+            "location": "US",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4613808101?gh_jid=4613808101"
         },
         {
             "company": "nebius",
             "title": "Support Engineer L2",
-            "location": "US",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4613808101?gh_jid=4613808101"
+            "location": "Remote - Europe",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4613805101?gh_jid=4613805101"
         },
         {
             "company": "nebius",
@@ -18950,12 +18956,6 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Data Scientist - Autonomy Systems",
-            "location": "Fort Walton Beach, Florida, US; Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4525970005?gh_jid=4525970005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Decision Autonomy Engineer",
             "location": "Ann Arbor, Michigan, US; Fort Walton Beach, Florida, US; Mountain View, California, US; San Diego, California, US; Washington, District of Columbia, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4550926005?gh_jid=4550926005"
@@ -19898,7 +19898,7 @@
         },
         {
             "company": "oxylabs",
-            "title": "Sales Executive (Outbound)",
+            "title": "Sales Executive",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/d395c9db-27a8-4b46-b699-b64ee4b35064"
         },
@@ -20277,14 +20277,14 @@
         {
             "company": "c3.ai",
             "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
-            "location": "New York City, NY",
-            "link": "https://c3.ai/job-description/?gh_jid=8043691002"
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
         },
         {
             "company": "c3.ai",
             "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
-            "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
+            "location": "New York City, NY",
+            "link": "https://c3.ai/job-description/?gh_jid=8043691002"
         },
         {
             "company": "c3.ai",
@@ -20295,14 +20295,14 @@
         {
             "company": "c3.ai",
             "title": "AI Solution Manager/Senior AI Solution Manager",
-            "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=6889513002"
+            "location": "New York City, New York",
+            "link": "https://c3.ai/job-description/?gh_jid=8117068002"
         },
         {
             "company": "c3.ai",
             "title": "AI Solution Manager/Senior AI Solution Manager",
-            "location": "New York City, New York",
-            "link": "https://c3.ai/job-description/?gh_jid=8117068002"
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=6889513002"
         },
         {
             "company": "c3.ai",
@@ -20409,14 +20409,14 @@
         {
             "company": "c3.ai",
             "title": "Director/Senior Director, Strategic Solutions",
-            "location": "London, UK",
-            "link": "https://c3.ai/job-description/?gh_jid=7307827002"
+            "location": "Munich, Germany",
+            "link": "https://c3.ai/job-description/?gh_jid=7452556002"
         },
         {
             "company": "c3.ai",
             "title": "Director/Senior Director, Strategic Solutions",
-            "location": "Munich, Germany",
-            "link": "https://c3.ai/job-description/?gh_jid=7452556002"
+            "location": "London, UK",
+            "link": "https://c3.ai/job-description/?gh_jid=7307827002"
         },
         {
             "company": "c3.ai",
@@ -20559,14 +20559,14 @@
         {
             "company": "c3.ai",
             "title": "Pre-Sales AI Director \u2013 Generative AI",
-            "location": "Atlanta, Georgia",
-            "link": "https://c3.ai/job-description/?gh_jid=8014968002"
+            "location": "New York, New York",
+            "link": "https://c3.ai/job-description/?gh_jid=8014869002"
         },
         {
             "company": "c3.ai",
             "title": "Pre-Sales AI Director \u2013 Generative AI",
-            "location": "New York, New York",
-            "link": "https://c3.ai/job-description/?gh_jid=8014869002"
+            "location": "Atlanta, Georgia",
+            "link": "https://c3.ai/job-description/?gh_jid=8014968002"
         },
         {
             "company": "c3.ai",
@@ -20811,26 +20811,20 @@
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Paris, FR",
-            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "Solution Engineer",
             "location": "Redwood City, CA",
             "link": "https://c3.ai/job-description/?gh_jid=7715372002"
         },
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Chicago, IL; Houston, TX; Minneapolis, MN",
-            "link": "https://c3.ai/job-description/?gh_jid=7461370002"
+            "location": "Paris, FR",
+            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
         },
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Amsterdam, NL",
-            "link": "https://c3.ai/job-description/?gh_jid=7906045002"
+            "location": "Chicago, IL; Houston, TX; Minneapolis, MN",
+            "link": "https://c3.ai/job-description/?gh_jid=7461370002"
         },
         {
             "company": "c3.ai",
@@ -20843,6 +20837,12 @@
             "title": "Solution Engineer",
             "location": "New York, New York",
             "link": "https://c3.ai/job-description/?gh_jid=8074875002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Solution Engineer",
+            "location": "Amsterdam, NL",
+            "link": "https://c3.ai/job-description/?gh_jid=7906045002"
         },
         {
             "company": "c3.ai",
