@@ -17,6 +17,7 @@ from src.scrape_lmax import ScrapeLmax
 from src.scrape_nebius import ScrapeNebius
 from src.scrape_applied_intuition import ScrapeAppliedIntuition
 from src.scrape_cleo import ScrapeCleo
+from src.scrape_c3 import ScrapeC3
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -36,3 +37,4 @@ class Scrapers(Enum):
     NEBIUS = ScrapeNebius
     APPLIED_INTUITION = ScrapeAppliedIntuition
     CLEO = ScrapeCleo
+    C3 = ScrapeC3

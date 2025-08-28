@@ -2,20 +2,22 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-def to_records(driver, company) -> []:
+def to_records(driver, company) -> list:
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-dept_id] > a[href*="c3"]')
     result = []
     print(f'[{company}] Found {len(group_elements)} jobs. Scraping jobs...')
     for elem in group_elements:
         job_url = elem.get_attribute('href')
         title = elem.find_element(By.CSS_SELECTOR, 'h4[class="title"]').text
-        job = {
+        location = elem.find_element(By.CSS_SELECTOR, 'h6[class="location"]').text
+        if title != '':
+            job = {
             "company": company,
             "title": title,
-            "location": elem.find_element(By.CSS_SELECTOR, 'h6[class="location"]').text,
+            "location": location,
             "link": job_url
-        }
-        result.append(job)
+            }
+            result.append(job)
     return result
 
 

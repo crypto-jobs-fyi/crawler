@@ -73,4 +73,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('PrimeIntellect', 'https://jobs.ashbyhq.com/primeintellect', Scrapers.ASHBYHQ.value, 'https://primeintellect.ai'),
         CompanyItem('exa.ai', 'https://jobs.ashbyhq.com/exa', Scrapers.ASHBYHQ.value, 'https://exa.ai'),
         CompanyItem('jua.ai', 'https://job-boards.eu.greenhouse.io/juaai', Scrapers.GREENHOUSE.value, 'https://jua.ai'),
+        CompanyItem('c3.ai', 'https://c3.ai/careers', Scrapers.C3.value, 'https://c3.ai'),
     ]
