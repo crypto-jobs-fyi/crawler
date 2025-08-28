@@ -22,7 +22,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-extensions')
 driver: webdriver.Chrome = webdriver.Chrome(options=chrome_options)
-exclude = [Scrapers.GREENHOUSE.value, Scrapers.LEVER.value, Scrapers.ASHBYHQ.value, Scrapers.COINBASE.value]
+exclude = [Scrapers.GREENHOUSE.value, Scrapers.LEVER.value, Scrapers.ASHBYHQ.value, Scrapers.COINBASE.value, Scrapers.SYGNUM.value]
 filtered_companies = Companies.filter_companies_not(company_list, exclude)
 n = 1
 now = datetime.date(datetime.now())
