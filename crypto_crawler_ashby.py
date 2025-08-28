@@ -11,6 +11,7 @@ from src.company_list import get_company_list
 
 company_list: list[CompanyItem] = get_company_list()
 jobs_file = 'crypto_jobs_ashby.json'
+current_jobs_file = 'crypto_current_ashby.json'
 with open(jobs_file, 'w') as f:
     f.write('{}')
 
@@ -34,7 +35,7 @@ for company in filtered_companies:
         crawler_type: ScrapeIt = company.scraper_type()
         jobs_data = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
         ScrapeIt.write_jobs(jobs_data, jobs_file)
-        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), 'crypto_current_ashby.json')
+        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), current_jobs_file)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception:
