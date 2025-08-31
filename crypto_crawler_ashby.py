@@ -15,6 +15,9 @@ current_jobs_file = 'crypto_current_ashby.json'
 with open(jobs_file, 'w') as f:
     f.write('{}')
 
+with open(current_jobs_file, 'w') as cf:
+    cf.write('{}')
+
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
