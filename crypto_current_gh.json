@@ -1,12 +1,12 @@
 {
     "Numeus": 4,
-    "total_jobs": 1145,
+    "total_jobs": 1150,
     "fireblocks": 64,
     "blockstream": 11,
     "swanbitcoin": 9,
     "ninjatrader": 20,
     "omni-network": 2,
-    "scroll": 3,
+    "scroll": 2,
     "recall": 5,
     "eiger": 3,
     "iftother": 3,
@@ -23,10 +23,10 @@
     "zora": 4,
     "wormholefoundation": 3,
     "blockchain": 52,
-    "OKX": 414,
+    "OKX": 417,
     "bitmex": 24,
     "bitgo": 90,
-    "bitpanda": 56,
+    "bitpanda": 55,
     "uniswaplabs": 15,
     "penumbralabs": 1,
     "figment": 8,
@@ -55,5 +55,6 @@
     "clearmatics": 5,
     "brave": 7,
     "zetachain": 7,
-    "noble": 3
+    "noble": 3,
+    "ramp.network": 4
 }
