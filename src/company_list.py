@@ -258,4 +258,6 @@ def get_company_list() -> list[CompanyItem]:
                 'https://www.bitstamp.net'),
         CompanyItem("ramp.network", "https://job-boards.eu.greenhouse.io/rampnetwork", Scrapers.GREENHOUSE.value,
                     "https://ramp.network"),
+        CompanyItem("RWA.xyz", "https://jobs.ashbyhq.com/RWA.xyz", Scrapers.ASHBYHQ.value,
+                    "https://rwa.xyz"),
     ]
