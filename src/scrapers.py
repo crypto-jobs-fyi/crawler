@@ -20,6 +20,7 @@ from src.scrape_cleo import ScrapeCleo
 from src.scrape_c3 import ScrapeC3
 from src.scrape_groq import ScrapeGrog
 from src.scrape_gem import ScrapeGem
+from src.scrape_bitcoinsuisse import ScrapeBitcoinSuisse
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -42,3 +43,4 @@ class Scrapers(Enum):
     C3 = ScrapeC3
     GROQ = ScrapeGrog
     GEM = ScrapeGem
+    BITCOINSUISSE = ScrapeBitcoinSuisse
