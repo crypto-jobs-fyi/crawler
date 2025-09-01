@@ -6,7 +6,7 @@ def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem('anthropic', 'https://job-boards.greenhouse.io/anthropic', Scrapers.GREENHOUSE.value, 'https://www.anthropic.com'),
         CompanyItem('openai', 'https://jobs.ashbyhq.com/openai', Scrapers.ASHBYHQ.value, 'https://openai.com'),
-        CompanyItem('groq', 'https://groq.com/careers', Scrapers.GROQ.value, 'https://groq.com'),
+        CompanyItem('groq', 'https://jobs.gem.com/groq', Scrapers.GEM.value, 'https://groq.com'),
         CompanyItem('GPTZero', 'https://jobs.ashbyhq.com/GPTZero', Scrapers.ASHBYHQ.value, 'https://gptzero.me'),
         CompanyItem("perplexityai", "https://job-boards.greenhouse.io/perplexityai", Scrapers.GREENHOUSE.value,
                     "https://www.perplexity.ai"),
@@ -75,4 +75,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('jua.ai', 'https://job-boards.eu.greenhouse.io/juaai', Scrapers.GREENHOUSE.value, 'https://jua.ai'),
         CompanyItem('c3.ai', 'https://c3.ai/careers', Scrapers.C3.value, 'https://c3.ai'),
         CompanyItem('snorkelai', 'https://job-boards.greenhouse.io/snorkelai', Scrapers.GREENHOUSE.value, 'https://snorkel.ai'),
+        CompanyItem('soundhound', 'https://jobs.gem.com/soundhound', Scrapers.GEM.value, 'https://soundhound.com'),
     ]

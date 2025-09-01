@@ -19,6 +19,7 @@ from src.scrape_applied_intuition import ScrapeAppliedIntuition
 from src.scrape_cleo import ScrapeCleo
 from src.scrape_c3 import ScrapeC3
 from src.scrape_groq import ScrapeGrog
+from src.scrape_gem import ScrapeGem
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -40,3 +41,4 @@ class Scrapers(Enum):
     CLEO = ScrapeCleo
     C3 = ScrapeC3
     GROQ = ScrapeGrog
+    GEM = ScrapeGem
