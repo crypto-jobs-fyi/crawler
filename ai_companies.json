@@ -12,7 +12,7 @@
     {
         "company_name": "groq",
         "company_url": "https://groq.com",
-        "jobs_url": "https://groq.com/careers"
+        "jobs_url": "https://jobs.gem.com/groq"
     },
     {
         "company_name": "GPTZero",
@@ -343,5 +343,15 @@
         "company_name": "c3.ai",
         "company_url": "https://c3.ai",
         "jobs_url": "https://c3.ai/careers"
+    },
+    {
+        "company_name": "snorkelai",
+        "company_url": "https://snorkel.ai",
+        "jobs_url": "https://job-boards.greenhouse.io/snorkelai"
+    },
+    {
+        "company_name": "soundhound",
+        "company_url": "https://soundhound.com",
+        "jobs_url": "https://jobs.gem.com/soundhound"
     }
 ]
