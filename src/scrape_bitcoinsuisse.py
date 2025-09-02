@@ -14,7 +14,7 @@ class ScrapeBitcoinSuisse(ScrapeIt):
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, '[class="job-title"] a')
             job_name = job_name_elem.text
-            job_url = elem.get_attribute('href')
+            job_url = job_name_elem.get_attribute('href')
             location = elem.find_element(By.CSS_SELECTOR, '[class="cell-table col-sm-6 col-xs-8"]').text
             job = {
                 "company": company,
