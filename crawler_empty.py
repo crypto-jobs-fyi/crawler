@@ -14,9 +14,12 @@ jobs_file: str = 'crypto_jobs_empty.json'
 company_list: List[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
 Companies.write_companies('companies_empty.json', company_list)
-
+current_jobs_file = 'current_jobs_empty.json'
 with open(jobs_file, 'w') as f:
     f.write('{}')
+
+with open(current_jobs_file, 'w') as cf:
+    cf.write('{}')
 
 # setup headless webdriver
 chrome_options: webdriver.ChromeOptions = webdriver.ChromeOptions()
@@ -38,7 +41,7 @@ for company in company_list:
         crawler_type: ScrapeIt = company.scraper_type()
         jobs_data: List[Dict[str, Any]] = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
         ScrapeIt.write_jobs(jobs_data, jobs_file)
-        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), file_name='current_jobs_empty.json')
+        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), file_name=current_jobs_file)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception as e:
