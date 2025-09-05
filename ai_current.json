@@ -1,7 +1,7 @@
 {
-    "Total Jobs": 3561,
+    "Total Jobs": 3656,
     "anthropic": 168,
-    "openai": 314,
+    "openai": 312,
     "groq": 40,
     "GPTZero": 11,
     "perplexityai": 75,
@@ -36,8 +36,8 @@
     "ambient.ai": 25,
     "shieldai": 193,
     "polyai": 20,
-    "Cleo": 68,
-    "glean": 127,
+    "Cleo": 69,
+    "glean": 125,
     "dust": 14,
     "console": 4,
     "rivr": 26,
@@ -71,5 +71,7 @@
     "jua.ai": 9,
     "c3.ai": 103,
     "snorkelai": 15,
-    "soundhound": 22
+    "soundhound": 22,
+    "Lambda": 51,
+    "constructor": 47
 }
