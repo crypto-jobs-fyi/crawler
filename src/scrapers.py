@@ -21,11 +21,13 @@ from src.scrape_c3 import ScrapeC3
 from src.scrape_groq import ScrapeGrog
 from src.scrape_gem import ScrapeGem
 from src.scrape_bitcoinsuisse import ScrapeBitcoinSuisse
+from src.scrape_gemini import ScrapeGemini
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
     CIRCLE = ScrapeCircle
     PAXOS = ScrapePaxos
+    GEMINI = ScrapeGemini
     SYGNUM = ScrapeSygnum
     LEVER = ScrapeLever
     ASHBYHQ = ScrapeAshbyhq

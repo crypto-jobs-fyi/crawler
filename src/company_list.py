@@ -262,4 +262,5 @@ def get_company_list() -> list[CompanyItem]:
                     "https://rwa.xyz"),
         CompanyItem("BitcoinSuisse", "https://bitcoin-suisse.onlyfy.jobs", Scrapers.BITCOINSUISSE.value,
                     "https://bitcoinsuisse.com"),
+        CompanyItem("gemini", "https://www.gemini.com/careers", Scrapers.GEMINI.value, "https://www.gemini.com"),
     ]
