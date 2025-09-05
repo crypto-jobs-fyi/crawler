@@ -5,6 +5,10 @@ from selenium.webdriver.remote.webelement import WebElement
 
 from src.scrape_it import ScrapeIt
 
+def clean_location(location):
+    location = location.replace('United States', 'US').replace('United Kingdom', 'UK').replace('Singapore, Singapore', 'Singapore').replace('New York, New York', 'New York')
+    return location.strip()
+
 # https://www.gemini.com/careers#open-roles
 class ScrapeGemini(ScrapeIt):
     name = 'gemini'
@@ -27,7 +31,7 @@ class ScrapeGemini(ScrapeIt):
             time.sleep(2)
             department.click()
             time.sleep(1)
-            group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="job-element"]')
+            group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[aria-expanded="true"] div[data-testid="job-element"]')
             for elem in group_elements:
                 job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')
                 location_elem = elem.find_element(By.CSS_SELECTOR, 'p[color="secondary"]')
@@ -37,7 +41,7 @@ class ScrapeGemini(ScrapeIt):
                 job = {
                     "company": company,
                     "title": job_name,
-                    "location": location,
+                    "location": clean_location(location),
                     "link": job_url
                 }
                 result.append(job)
