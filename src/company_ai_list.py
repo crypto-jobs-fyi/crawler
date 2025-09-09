@@ -79,4 +79,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('soundhound', 'https://jobs.gem.com/soundhound', Scrapers.GEM.value, 'https://soundhound.com'),
         CompanyItem('Lambda', 'https://jobs.ashbyhq.com/Lambda', Scrapers.ASHBYHQ.value, 'https://Lambda.ai'),
         CompanyItem('constructor', 'https://apply.workable.com/constructor-1', Scrapers.WORKABLE.value, 'https://constructor.com'),
+        CompanyItem('motion', 'https://jobs.ashbyhq.com/motion', Scrapers.ASHBYHQ.value, 'https://www.usemotion.com'),
+        CompanyItem('you.com', 'https://job-boards.greenhouse.io/youcom', Scrapers.GREENHOUSE.value, 'https://you.com/home'),
     ]
