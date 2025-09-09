@@ -23,6 +23,7 @@ from src.scrape_gem import ScrapeGem
 from src.scrape_bitcoinsuisse import ScrapeBitcoinSuisse
 from src.scrape_gemini import ScrapeGemini
 from src.scrape_kula import ScrapeKula
+from src.scrape_world import ScrapeWorld
 
 class Scrapers(Enum):
     ROBINHOOD = ScrapeRobinhood
@@ -48,3 +49,4 @@ class Scrapers(Enum):
     GEM = ScrapeGem
     BITCOINSUISSE = ScrapeBitcoinSuisse
     KULA = ScrapeKula
+    WORLDCOIN = ScrapeWorld
