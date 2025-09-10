@@ -1,19 +1,20 @@
 {
     "base": 14,
-    "total_jobs": 494,
-    "paxos": 32,
-    "circle": 57,
-    "robinhood": 104,
+    "total_jobs": 570,
+    "paxos": 31,
+    "circle": 60,
+    "robinhood": 101,
     "coinlist": 3,
     "walletconnect": 1,
     "distributedcrafts": 2,
     "prepo": 5,
-    "io-global": 50,
+    "io-global": 52,
     "Swissquote": 53,
     "almanak": 2,
-    "ripple": 82,
+    "ripple": 85,
     "lmax": 14,
     "bitstamp": 18,
-    "BitcoinSuisse": 9,
-    "gemini": 48
+    "BitcoinSuisse": 13,
+    "gemini": 47,
+    "worldcoin": 69
 }
