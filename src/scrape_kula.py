@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
-
+import time
 
 def clean_location(location):
     location = location.replace('United States', 'US').replace('United Kingdom', 'UK').replace('Singapore, Singapore', 'Singapore').replace('New York, New York', 'New York')
@@ -14,6 +14,7 @@ class ScrapeKula(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(5)
         driver.get(web_page)
+        time.sleep(3)
         # use reverse strategy from a link to a title
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[class*="chakra-card"]')
         result = []
