@@ -15,6 +15,7 @@ class ScrapeLever(ScrapeIt):
 
     def getJobs(self, driver, web_page, company) -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
+        driver.implicitly_wait(7)
         driver.get(web_page)
         if company in ['binance', 'crypto']:
             time.sleep(5)
