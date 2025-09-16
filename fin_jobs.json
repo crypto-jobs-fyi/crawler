@@ -56,13 +56,13 @@
         },
         {
             "company": "flex",
-            "title": "Escalations Manager, Customer SuccessNew",
+            "title": "Escalations Manager, Customer Success",
             "location": "San Francisco, California, US",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606198005"
         },
         {
             "company": "flex",
-            "title": "Sr. Staff AI/Machine Learning EngineerNew",
+            "title": "Sr. Staff AI/Machine Learning Engineer",
             "location": "Remote (U.S.)",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606030005"
         },
@@ -92,7 +92,7 @@
         },
         {
             "company": "flex",
-            "title": "Senior Staff Machine Learning EngineerNew",
+            "title": "Senior Staff Machine Learning Engineer",
             "location": "Remote (U.S.)",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606522005"
         },
@@ -128,7 +128,7 @@
         },
         {
             "company": "flex",
-            "title": "Staff Data EngineerNew",
+            "title": "Staff Data Engineer",
             "location": "Remote (U.S.)",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606049005"
         },
@@ -230,9 +230,15 @@
         },
         {
             "company": "flex",
-            "title": "Senior Manager, Lifecycle MarketingNew",
+            "title": "Senior Manager, Lifecycle Marketing",
             "location": "New York, New York, US; San Francisco, California, US",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606567005"
+        },
+        {
+            "company": "flex",
+            "title": "Principal Talent Acquisition PartnerNew",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4608475005"
         },
         {
             "company": "flex",
@@ -266,13 +272,7 @@
         },
         {
             "company": "flex",
-            "title": "Lead Product Manager, Growth/Martech Platform",
-            "location": "New York, New York, US",
-            "link": "https://job-boards.greenhouse.io/flex/jobs/4563360005"
-        },
-        {
-            "company": "flex",
-            "title": "Lead Product Manager, RentNew",
+            "title": "Lead Product Manager, Rent",
             "location": "New York, New York, US",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4606391005"
         },
@@ -281,12 +281,6 @@
             "title": "Senior Director of Product, Rent",
             "location": "New York, New York, US",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4589491005"
-        },
-        {
-            "company": "flex",
-            "title": "Senior Product Manager, Money Movement",
-            "location": "New York, New York, US",
-            "link": "https://job-boards.greenhouse.io/flex/jobs/4590218005"
         },
         {
             "company": "flex",
@@ -332,7 +326,7 @@
         },
         {
             "company": "Box",
-            "title": "Backend Software Engineer III (RWC, CA)",
+            "title": "Backend Software Engineer III, Pooled",
             "location": "Redwood City, CA, US",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6842074"
         },
@@ -356,7 +350,19 @@
         },
         {
             "company": "Box",
-            "title": "Backend Software Engineer III, Relay PlatformNew",
+            "title": "Software Engineer III, Identity and Security Foundation",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6895130"
+        },
+        {
+            "company": "Box",
+            "title": "Software Engineer III, OmniNew",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7250271"
+        },
+        {
+            "company": "Box",
+            "title": "Backend Software Engineer III, Relay Platform",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7178212"
         },
@@ -380,7 +386,7 @@
         },
         {
             "company": "Box",
-            "title": "Fullstack Software Engineer III, Relay PlatformNew",
+            "title": "Fullstack Software Engineer III, Relay Platform",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7178201"
         },
@@ -389,12 +395,6 @@
             "title": "Senior Staff Software Engineer, Core Experiences",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6970369"
-        },
-        {
-            "company": "Box",
-            "title": "Software Engineer III, Box Sign",
-            "location": "Netherlands",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7093462"
         },
         {
             "company": "Box",
@@ -422,7 +422,7 @@
         },
         {
             "company": "Box",
-            "title": "Engineering Manager II, AI Model FoundationsNew",
+            "title": "Engineering Manager II, AI Model Foundations",
             "location": "Redwood City, CA, US",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7166910"
         },
@@ -443,6 +443,12 @@
             "title": "Engineering Manager II, Search Platform",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6643523"
+        },
+        {
+            "company": "Box",
+            "title": "Engineering Manager II, Storage ClientsNew",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7178205"
         },
         {
             "company": "Box",
@@ -488,12 +494,6 @@
         },
         {
             "company": "Box",
-            "title": "Staff Software Engineer, Search & Query InfraNew",
-            "location": "Redwood City, CA",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7228389"
-        },
-        {
-            "company": "Box",
             "title": "Team Manager II, Program Manager",
             "location": "Redwood City, CA",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6898970"
@@ -515,12 +515,6 @@
             "title": "Engineering Manager II, Activity Management",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6735870"
-        },
-        {
-            "company": "Box",
-            "title": "Senior Software Engineer, Device Security",
-            "location": "Warsaw, Poland",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6956607"
         },
         {
             "company": "Box",
@@ -557,18 +551,6 @@
             "title": "Senior Product Manager - AI Platform, Voice & Mobile",
             "location": "Redwood City, CA",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7053890"
-        },
-        {
-            "company": "Box",
-            "title": "Senior Product Manager, Identity Platform",
-            "location": "Redwood City, CA",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6851539"
-        },
-        {
-            "company": "Box",
-            "title": "Senior Product Manager, Partner Integrations",
-            "location": "Redwood City, CA, US",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6886325"
         },
         {
             "company": "Box",
@@ -656,7 +638,7 @@
         },
         {
             "company": "Box",
-            "title": "Sr. Team Manager, ComplianceNew",
+            "title": "Sr. Team Manager, Compliance",
             "location": "Redwood City, CA",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7235629"
         },
@@ -752,7 +734,7 @@
         },
         {
             "company": "Box",
-            "title": "Customer Success ManagerNew",
+            "title": "Customer Success Manager",
             "location": "Japan",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7234248"
         },
@@ -806,7 +788,7 @@
         },
         {
             "company": "Box",
-            "title": "Deal Desk ManagerNew",
+            "title": "Deal Desk Manager",
             "location": "Japan",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7234377"
         },
@@ -815,6 +797,12 @@
             "title": "Senior Sales Development Representative, French Speaker",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7174558"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Sales Development Representative, French SpeakerNew",
+            "location": "Paris",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7250557"
         },
         {
             "company": "Box",
@@ -878,9 +866,309 @@
         },
         {
             "company": "Box",
-            "title": "Mid-Market Account Executive (New York, NY)",
-            "location": "New York, NY, US",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7138171"
+            "title": "Mid-Market Account Executive (San Francisco, CA)New",
+            "location": "San Francisco, CA, US, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7231867"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Account Executive",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7128260"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Solutions Engineer",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6849853"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Solutions Engineer",
+            "location": "Chicago, Illinois, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7180917"
+        },
+        {
+            "company": "Box",
+            "title": "Manager, Enterprise Solutions Engineering",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6651338"
+        },
+        {
+            "company": "Box",
+            "title": "Manager, Field Solutions Engineering",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6822376"
+        },
+        {
+            "company": "Box",
+            "title": "Manager, Field Solutions Engineering",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6824070"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Solutions Engineer, Public Sector",
+            "location": "Washington, D.C.",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6872121"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Solutions Engineer, Public Sector",
+            "location": "New York City, New York",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6873790"
+        },
+        {
+            "company": "Box",
+            "title": "Solutions Engineer (Public Sec.)",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7100699"
+        },
+        {
+            "company": "Box",
+            "title": "Security and Compliance Manager (Third Party Risk)",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6804949"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Security and Compliance Analyst (Third Party Risk)",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6804940"
+        },
+        {
+            "company": "Box",
+            "title": "Sr. Team Manager, Compliance",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7235629"
+        },
+        {
+            "company": "Box",
+            "title": "Director, Japan Legal",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7069579"
+        },
+        {
+            "company": "Box",
+            "title": "EMEA Senior Manager Compliance (Certifications)",
+            "location": "London, England, UK",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6637745"
+        },
+        {
+            "company": "Box",
+            "title": "Senior People Intelligence & Rewards Manager",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7223314"
+        },
+        {
+            "company": "Box",
+            "title": "Technical Recruiter II",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7167619"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Manager, Security Assurance Engineering",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7106451"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Staff Security Engineer, AI Security",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7106459"
+        },
+        {
+            "company": "Box",
+            "title": "Staff Offensive Security Engineer",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6813156"
+        },
+        {
+            "company": "Box",
+            "title": "Staff Security Engineer",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7106455"
+        },
+        {
+            "company": "Box",
+            "title": "Staff Security Engineer (AI Security)",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6637723"
+        },
+        {
+            "company": "Box",
+            "title": "Implementation ConsultantNew",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6999566"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Solutions Consultant (East - Enterprise)",
+            "location": "New York City, NY",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6937250"
+        },
+        {
+            "company": "Box",
+            "title": "Technical Consultant",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6896094"
+        },
+        {
+            "company": "Box",
+            "title": "Technical Consultant",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7114145"
+        },
+        {
+            "company": "Box",
+            "title": "Customer Success Manager",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7121942"
+        },
+        {
+            "company": "Box",
+            "title": "Customer Success Manager",
+            "location": "New York City, New York",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7123585"
+        },
+        {
+            "company": "Box",
+            "title": "Customer Success Manager",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7234248"
+        },
+        {
+            "company": "Box",
+            "title": "Customer Success Manager",
+            "location": "Chicago, Illinois",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7172709"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Team Manager, Customer Success",
+            "location": "New York City, NY",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7229798"
+        },
+        {
+            "company": "Box",
+            "title": "Billing Support Specialist",
+            "location": "Austin, Texas",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7230315"
+        },
+        {
+            "company": "Box",
+            "title": "Content Marketing Manager",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7090564"
+        },
+        {
+            "company": "Box",
+            "title": "Editorial Lead",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7090046"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Manager, Educational Content & Programs",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7084732"
+        },
+        {
+            "company": "Box",
+            "title": "Staff Product Marketing Manager, Security & Compliance",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6495662"
+        },
+        {
+            "company": "Box",
+            "title": "Staff Product Marketing Manager, Workflows",
+            "location": "Redwood City, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7124548"
+        },
+        {
+            "company": "Box",
+            "title": "Deal Desk Manager",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7234377"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Sales Development Representative, French Speaker",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7174558"
+        },
+        {
+            "company": "Box",
+            "title": "Senior Sales Development Representative, French SpeakerNew",
+            "location": "Paris",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7250557"
+        },
+        {
+            "company": "Box",
+            "title": "Commercial Account Executive",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6602267"
+        },
+        {
+            "company": "Box",
+            "title": "Enteprise Account Executive",
+            "location": "Sydney, Australia",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7186598"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Account Executive, State and Local Government",
+            "location": "Austin, TX, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7163732"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Account Executive, State and Local Government",
+            "location": "Dallas, TX, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7169097"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Account Executive (Toronto, Ontario, Canada)",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7181032"
+        },
+        {
+            "company": "Box",
+            "title": "Enterprise Account Executive\uff08West\uff09",
+            "location": "Osaka",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7025151"
+        },
+        {
+            "company": "Box",
+            "title": "Large Enterprise Account Executive (New York, NY)",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6824228"
+        },
+        {
+            "company": "Box",
+            "title": "Large Enterprise Account Executive (Redwood City, CA)",
+            "location": "Redwood City, CA, US, San Francisco, CA, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7165156"
+        },
+        {
+            "company": "Box",
+            "title": "Team Manager, Mid-Market Sales\uff08\u5927\u962a\u52e4\u52d9\uff09",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6572411"
+        },
+        {
+            "company": "Box",
+            "title": "Mid-Market Account Executive, Media & Entertainment (Los Angeles, CA)",
+            "location": "Los Angeles, California",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/6940861"
+        },
+        {
+            "company": "Box",
+            "title": "Mid-Market Account Executive (San Francisco, CA)New",
+            "location": "San Francisco, CA, US, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7231867"
         },
         {
             "company": "Box",
@@ -1010,12 +1298,6 @@
         },
         {
             "company": "Aven",
-            "title": "Digital Banking Product Operations Manager",
-            "location": "Campbell, California | Bay Area",
-            "link": "https://jobs.ashbyhq.com/Aven/14ecd5c0-80a5-4510-adfe-39e92b87547b"
-        },
-        {
-            "company": "Aven",
             "title": "Executive Assistant",
             "location": "Campbell, California | Bay Area",
             "link": "https://jobs.ashbyhq.com/Aven/ef418ae1-de4c-47c4-9818-088c76c14eed"
@@ -1028,9 +1310,9 @@
         },
         {
             "company": "Ivy",
-            "title": "People & Talent Internship (m/f/d)",
+            "title": "Working Student People & Org (m/f/d)",
             "location": "Berlin Office (HQ)",
-            "link": "https://jobs.ashbyhq.com/get-ivy/6d64611e-4169-487c-a854-bb1de508f459"
+            "link": "https://jobs.ashbyhq.com/get-ivy/8dbc1024-a70a-4578-8005-522089568ecf"
         },
         {
             "company": "Ivy",
@@ -1118,7 +1400,7 @@
         },
         {
             "company": "qonto",
-            "title": "SAP S/4 Hana - Functional Expert /Administrator",
+            "title": "SAP S/4 Hana - Functional Expert/Administrator",
             "location": "PARIS,HYBRID",
             "link": "https://jobs.lever.co/qonto/1fbe25c4-4340-4a30-b4b9-36882b35a31f"
         },
@@ -1127,12 +1409,6 @@
             "title": "Risk Director",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/qonto/b68cb41e-c18f-4e4c-8e44-ef8e05f44682"
-        },
-        {
-            "company": "qonto",
-            "title": "ESG Intern",
-            "location": "PARIS,ON-SITE",
-            "link": "https://jobs.lever.co/qonto/7fc6335f-bd34-47ff-85b6-78f6e60db1bb"
         },
         {
             "company": "qonto",
@@ -1160,7 +1436,7 @@
         },
         {
             "company": "qonto",
-            "title": "Media Manager (Fixed-term contract)",
+            "title": "Media Buyer & Planner - Offline & Online (Fixed-term contract)",
             "location": "PARIS,HYBRID",
             "link": "https://jobs.lever.co/qonto/ba88ee30-aeb5-4ab0-ac2a-2f9d8362fe87"
         },
@@ -1184,9 +1460,15 @@
         },
         {
             "company": "qonto",
-            "title": "Inbound Sales Representative (m/w/d) - Deutschland",
+            "title": "Inbound Sales Manager (m/w/d) - Deutschland",
             "location": "BARCELONA,HYBRID",
             "link": "https://jobs.lever.co/qonto/8f7d9510-49ca-498a-a762-c0d3c58ebc56"
+        },
+        {
+            "company": "qonto",
+            "title": "Inbound Sales Manager (NL)",
+            "location": "BARCELONA,HYBRID",
+            "link": "https://jobs.lever.co/qonto/940c68da-67ea-4233-a872-6c08a174fc1c"
         },
         {
             "company": "qonto",
@@ -1279,6 +1561,18 @@
             "link": "https://jobs.lever.co/qonto/e97346dd-7496-448d-9bbb-38a560760c82"
         },
         {
+            "company": "qonto",
+            "title": "Staff Site Reliability Engineer (Platform Reliability)",
+            "location": "PARIS / BARCELONA / BELGRADE / MILAN,ON-SITE",
+            "link": "https://jobs.lever.co/qonto/eb025d85-73d3-497e-af7d-d5de2164f883"
+        },
+        {
+            "company": "qonto",
+            "title": "Senior Frontend Engineer (React) - Remote Friendly",
+            "location": "PARIS / BARCELONA / BERLIN / MILAN / LISBON,REMOTE",
+            "link": "https://jobs.lever.co/qonto/a3830956-2107-4cc5-a647-a6f30f1987b4"
+        },
+        {
             "company": "moneybox",
             "title": "Investment Operations Manager",
             "location": "LONDON OFFICE,HYBRID",
@@ -1292,9 +1586,39 @@
         },
         {
             "company": "moneybox",
+            "title": "Customer Care Executive",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/b7aa03b2-34d6-4aca-ab59-d9ad64908356"
+        },
+        {
+            "company": "moneybox",
+            "title": "Customer Care Executive - Maternity Cover",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/895fd77c-161b-41f0-afe5-153940b925a7"
+        },
+        {
+            "company": "moneybox",
+            "title": "Customer Operations Executive",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/b2fa2369-a8f9-4312-b927-2c51ca36eff7"
+        },
+        {
+            "company": "moneybox",
             "title": "Head of Customer Operations",
             "location": "LONDON OFFICE,HYBRID",
             "link": "https://jobs.lever.co/moneyboxapp/0be6273a-0dc0-4c94-b089-cf3a0737bbf9"
+        },
+        {
+            "company": "moneybox",
+            "title": "Support Team Executive",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/53daa8d0-6058-4084-b937-70e3a61a11ad"
+        },
+        {
+            "company": "moneybox",
+            "title": "Support Team Phone Executive",
+            "location": "LONDON,REMOTE",
+            "link": "https://jobs.lever.co/moneyboxapp/60877d36-c8b3-4af0-8b3c-df4cbf9d25d9"
         },
         {
             "company": "moneybox",
@@ -1394,7 +1718,7 @@
         },
         {
             "company": "affirm",
-            "title": "Manager, Software EngineeringNew",
+            "title": "Manager, Software Engineering",
             "location": "Remote Poland",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6892430003"
         },
@@ -1466,9 +1790,21 @@
         },
         {
             "company": "affirm",
-            "title": "Software Engineer IINew",
+            "title": "Software Engineer INew",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7142377003"
+        },
+        {
+            "company": "affirm",
+            "title": "Software Engineer II",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6781882003"
+        },
+        {
+            "company": "affirm",
+            "title": "Software Engineer IINew",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7142373003"
         },
         {
             "company": "affirm",
@@ -1538,13 +1874,25 @@
         },
         {
             "company": "affirm",
-            "title": "Senior Software Engineer, Backend (Banking Foundations)",
+            "title": "Senior Software Engineer, Backend (Card Platform)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6684368003"
         },
         {
             "company": "affirm",
-            "title": "Senior Staff Software Engineer, Backend (Search & Discovery)",
+            "title": "Senior Software Engineer, Backend (Comms Platform)",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6642236003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Backend (Comms Platform)",
+            "location": "Remote Spain",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6642238003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Staff Software Engineer, Backend (Consumer Growth)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6494232003"
         },
@@ -1598,7 +1946,7 @@
         },
         {
             "company": "affirm",
-            "title": "Manager, Software Engineering (Consumer Payments)New",
+            "title": "Manager, Software Engineering (Consumer Payments)",
             "location": "Remote UK",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6984283003"
         },
@@ -1631,6 +1979,18 @@
             "title": "Senior Software Engineer, Backend (Consumer Payments)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6652994003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Backend (Financial Platforms)New",
+            "location": "Remote Spain",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7118739003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Backend (Financial Platforms)New",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7118737003"
         },
         {
             "company": "affirm",
@@ -1670,18 +2030,6 @@
         },
         {
             "company": "affirm",
-            "title": "Senior Software Engineer (Comms Platform)",
-            "location": "Remote Poland",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6577612003"
-        },
-        {
-            "company": "affirm",
-            "title": "Senior Software Engineer (Comms Platform)",
-            "location": "Remote Spain",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6577614003"
-        },
-        {
-            "company": "affirm",
             "title": "Senior Software engineer (Furnishing Platform)",
             "location": "Remote Poland",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6922638003"
@@ -1709,6 +2057,18 @@
             "title": "Software Engineer II, Back-end (Financial Platform)",
             "location": "Remote Poland",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6652027003"
+        },
+        {
+            "company": "affirm",
+            "title": "Software Engineer II, Backend (Financial Platforms)New",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7119444003"
+        },
+        {
+            "company": "affirm",
+            "title": "Software Engineer II, Backend (Financial Platforms)New",
+            "location": "Remote Spain",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7119446003"
         },
         {
             "company": "affirm",
@@ -1778,21 +2138,15 @@
         },
         {
             "company": "affirm",
+            "title": "Manager, Release Engineering (Developer Productivity, CI/CD)",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6644302003"
+        },
+        {
+            "company": "affirm",
             "title": "Manager, Software Engineering (Storage and Replication)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6594455003"
-        },
-        {
-            "company": "affirm",
-            "title": "Principal Software Engineer, Developer Productivity",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6482569003"
-        },
-        {
-            "company": "affirm",
-            "title": "Principal Software Engineer, Developer Productivity",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6482567003"
         },
         {
             "company": "affirm",
@@ -1862,18 +2216,6 @@
         },
         {
             "company": "affirm",
-            "title": "Software Engineer I, Back-end (Fraud)",
-            "location": "Remote Spain",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6668521003"
-        },
-        {
-            "company": "affirm",
-            "title": "Software Engineer I, Back-end (Fraud Ops)",
-            "location": "Remote Poland",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6607582003"
-        },
-        {
-            "company": "affirm",
             "title": "Software Engineer II, Backend (Developer Environments)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6661800003"
@@ -1904,6 +2246,18 @@
         },
         {
             "company": "affirm",
+            "title": "Staff Software Engineer, Backend (Streaming) New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7000578003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer, Backend (Streaming) New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7000580003"
+        },
+        {
+            "company": "affirm",
             "title": "Staff Software Engineer (Cloud Compute)",
             "location": "Remote Spain",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6558385003"
@@ -1913,6 +2267,12 @@
             "title": "Staff Software Engineer (Cloud Compute)",
             "location": "Remote Poland",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6687995003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer - SRE, Backend (Reliability Engineering)New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6533275003"
         },
         {
             "company": "affirm",
@@ -1964,31 +2324,19 @@
         },
         {
             "company": "affirm",
-            "title": "Strategic Finance Analyst II (Business Partnership)New",
+            "title": "Strategic Finance Analyst II (Business Partnership)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6688869003"
         },
         {
             "company": "affirm",
-            "title": "Strategic Finance Analyst II (Cloud Spend)New",
+            "title": "Strategic Finance Analyst II (Cloud Spend)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6688863003"
         },
         {
             "company": "affirm",
-            "title": "Strategic Finance Analyst II (Cloud Spend)New",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6688865003"
-        },
-        {
-            "company": "affirm",
-            "title": "Vice President, Strategic Finance",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6557818003"
-        },
-        {
-            "company": "affirm",
-            "title": "Analyst I, Full StackNew",
+            "title": "Analyst I, Full Stack",
             "location": "Remote Spain",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6786782003"
         },
@@ -2048,6 +2396,12 @@
         },
         {
             "company": "affirm",
+            "title": "Senior Counsel, Ethics & EmploymentNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7239490003"
+        },
+        {
+            "company": "affirm",
             "title": "Partner Marketing Manager",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6668786003"
@@ -2066,18 +2420,6 @@
         },
         {
             "company": "affirm",
-            "title": "Operations Risk Lead",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6655842003"
-        },
-        {
-            "company": "affirm",
-            "title": "Operations Risk Lead",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6655840003"
-        },
-        {
-            "company": "affirm",
             "title": "Operations Risk Specialist II",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6689978003"
@@ -2090,6 +2432,18 @@
         },
         {
             "company": "affirm",
+            "title": "Process Excellence LeadNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7141651003"
+        },
+        {
+            "company": "affirm",
+            "title": "Process Excellence LeadNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7141653003"
+        },
+        {
+            "company": "affirm",
             "title": "Senior Operations Risk Manager",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6681947003"
@@ -2099,6 +2453,18 @@
             "title": "Senior Operations Risk Manager",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6681949003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Technical Program ManagerNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7210563003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Technical Program ManagerNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7210565003"
         },
         {
             "company": "affirm",
@@ -2186,6 +2552,30 @@
         },
         {
             "company": "affirm",
+            "title": "Senior Program Manager, LocalizationNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6993973003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Program Manager, LocalizationNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6993975003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Product DesignerNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7179456003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Product DesignerNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7179458003"
+        },
+        {
+            "company": "affirm",
             "title": "Visual Designer (Brand)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6653009003"
@@ -2195,12 +2585,6 @@
             "title": "Visual Designer (Brand)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6653007003"
-        },
-        {
-            "company": "affirm",
-            "title": "Accounts Management Manager",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6663859003"
         },
         {
             "company": "affirm",
@@ -2264,12 +2648,6 @@
         },
         {
             "company": "affirm",
-            "title": "Business Development Associate",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/6662388003"
-        },
-        {
-            "company": "affirm",
             "title": "Director, Partner Business Development",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6604155003"
@@ -2279,6 +2657,12 @@
             "title": "Key Accounts Account Executive II",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/6614682003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Business Development Associate",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/6662388003"
         },
         {
             "company": "affirm",
@@ -2300,60 +2684,6 @@
         },
         {
             "company": "huspy",
-            "title": "City Manager Alicante",
-            "location": "Alicante, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4610857101"
-        },
-        {
-            "company": "huspy",
-            "title": "Office Manager",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4591848101"
-        },
-        {
-            "company": "huspy",
-            "title": "Payroll Specialist & People Ops",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4666821101"
-        },
-        {
-            "company": "huspy",
-            "title": "Talent Acquisition Partner (Spanish speaker)",
-            "location": "Dubai, UAE",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4634296101"
-        },
-        {
-            "company": "huspy",
-            "title": "Talent Acquisition Partner (Spanish speaker)",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4636283101"
-        },
-        {
-            "company": "huspy",
-            "title": "Talent Acquisition Partner (Spanish speaker) - relocation to Dubai",
-            "location": "Dubai, UAE",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4658280101"
-        },
-        {
-            "company": "huspy",
-            "title": "Asociado Jr de Captaci\u00f3n de Propiedades - Alicante",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4645377101"
-        },
-        {
-            "company": "huspy",
-            "title": "Asociado Jr de Captaci\u00f3n de Propiedades - Madrid",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4645360101"
-        },
-        {
-            "company": "huspy",
-            "title": "Business Development Manager \u2013 Obra Nueva",
-            "location": "Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4600817101"
-        },
-        {
-            "company": "huspy",
             "title": "Business Operations AnalystNew",
             "location": "Madrid, Spain",
             "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4671171101"
@@ -2366,87 +2696,9 @@
         },
         {
             "company": "huspy",
-            "title": "Full-cycle Account Executive D\u00e9nia",
-            "location": "Valencia, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4568229101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Operations SupportNew",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4671182101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - Alicante",
-            "location": "Alicante, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4641749101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - Carabanchel",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4535380101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - M\u00e1laga",
-            "location": "Madrid, Spain; M\u00e1laga, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597155101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - Mallorca",
-            "location": "Mallorca, Balearic Islands, Spain; Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597203101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - Marbella",
-            "location": "Marbella, Spain; Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597210101"
-        },
-        {
-            "company": "huspy",
-            "title": "Junior Sales Account Executive - Sevilla",
-            "location": "Sevilla, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4520857101"
-        },
-        {
-            "company": "huspy",
             "title": "Property Consultant",
             "location": "Dubai, UAE",
             "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4663242101"
-        },
-        {
-            "company": "huspy",
-            "title": "Real Estate Key Account Manager - Field Expansion",
-            "location": "Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4640249101"
-        },
-        {
-            "company": "huspy",
-            "title": "Real Estate Key Account Manager - Madrid CentroNew",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4671139101"
-        },
-        {
-            "company": "huspy",
-            "title": "Real Estate Key Account Manager - Mallorca",
-            "location": "Mallorca, Balearic Islands, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597402101"
-        },
-        {
-            "company": "huspy",
-            "title": "Real Estate Key Account Manager - Marbella",
-            "location": "Marbella, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597400101"
-        },
-        {
-            "company": "huspy",
-            "title": "Real Estate Key Account Manager - Sevilla",
-            "location": "Sevilla, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597404101"
         },
         {
             "company": "huspy",
@@ -2480,60 +2732,6 @@
         },
         {
             "company": "huspy",
-            "title": "Sales Account Executive - Field Expansion",
-            "location": "Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4640234101"
-        },
-        {
-            "company": "huspy",
-            "title": "Sales Account Executive - Oficinas de Madrid Sur",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4524853101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Sales Account Executive - Alicante",
-            "location": "Alicante, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4657310101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Sales Account Executive - M\u00e1laga",
-            "location": "M\u00e1laga, Spain; Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597189101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Sales Account Executive - Mallorca",
-            "location": "Mallorca, Balearic Islands, Spain; Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597206101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Sales Account Executive - Marbella",
-            "location": "Marbella, Spain; Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597213101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Sales Account Executive - Sevilla",
-            "location": "Sevilla, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4597216101"
-        },
-        {
-            "company": "huspy",
-            "title": "Senior Strategic Scale-Up Lead",
-            "location": "Madrid, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4662611101"
-        },
-        {
-            "company": "huspy",
-            "title": "Technical Key Account Manager - Mallorca",
-            "location": "Mallorca, Balearic Islands, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4598528101"
-        },
-        {
-            "company": "huspy",
             "title": "Technical Key Account Manager - Marbella",
             "location": "Marbella, Spain",
             "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4598530101"
@@ -2543,6 +2741,12 @@
             "title": "Technical Key Account Manager - Sevilla",
             "location": "Sevilla, Spain",
             "link": "https://job-boards.eu.greenhouse.io/huspy/jobs/4598532101"
+        },
+        {
+            "company": "momentmarkets",
+            "title": "Design Engineer",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/momentmarkets/jobs/4773871007"
         },
         {
             "company": "momentmarkets",
@@ -2729,6 +2933,12 @@
             "title": "Senior Product Designer",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/9fin/1237e2c4-8b45-4388-a0bb-9d0945275cde"
+        },
+        {
+            "company": "9fin",
+            "title": "Senior AI Product Manager",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/df66fa60-7566-45f3-ac8f-95c8aaa95f60"
         },
         {
             "company": "9fin",
