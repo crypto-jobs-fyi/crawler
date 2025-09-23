@@ -38,8 +38,6 @@ def get_company_list() -> list[CompanyItem]:
                     'https://www.iofinnet.com'),
         CompanyItem("filecoinfoundation", "https://boards.greenhouse.io/filecoinfoundation", Scrapers.GREENHOUSE.value,
                     "https://fil.org"),
-        CompanyItem("solana", "https://job-boards.greenhouse.io/solana", Scrapers.GREENHOUSE.value,
-                    "https://solana.com"),
         CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', Scrapers.ASHBYHQ.value,
                     'https://movementlabs.xyz'),
         CompanyItem('magic', 'https://job-boards.greenhouse.io/magic', Scrapers.GREENHOUSE.value, 'https://magic.link'),
