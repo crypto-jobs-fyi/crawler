@@ -2,6 +2,12 @@
     "data": [
         {
             "company": "base",
+            "title": "Associate, Base Ecosystem",
+            "location": "US or Canada - Remote",
+            "link": "https://boards.greenhouse.io/embed/job_app?token=7280775&for=basejobs"
+        },
+        {
+            "company": "base",
             "title": "Base Ads Marketing Operations Manager, US",
             "location": "US or Canada - Remote",
             "link": "https://boards.greenhouse.io/embed/job_app?token=7232431&for=basejobs"
@@ -65,12 +71,6 @@
             "title": "Staff Developer Advocate",
             "location": "US or Canada - Remote",
             "link": "https://boards.greenhouse.io/embed/job_app?token=7020973&for=basejobs"
-        },
-        {
-            "company": "base",
-            "title": "Staff Machine Learning Engineer",
-            "location": "US or Canada - Remote",
-            "link": "https://boards.greenhouse.io/embed/job_app?token=6816032&for=basejobs"
         },
         {
             "company": "base",
@@ -290,21 +290,9 @@
         },
         {
             "company": "circle",
-            "title": "Principal Product Manager, Circle Impact",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100447/Principal-Product-Manager-Circle-Impact"
-        },
-        {
-            "company": "circle",
             "title": "Manager, Software Engineering",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR100015-EG/Manager-Software-Engineering"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Internal Auditor - Technology",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100421/Senior-Internal-Auditor-Technology"
         },
         {
             "company": "circle",
@@ -365,12 +353,6 @@
             "title": "Senior Analyst, Eligibility & Onboarding",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR100498/Senior-Analyst-Eligibility-Onboarding"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Counsel, Transactions, EMEA",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100531/Senior-Counsel-Transactions-EMEA"
         },
         {
             "company": "circle",
@@ -455,12 +437,6 @@
             "title": "Manager, Data Engineering",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR100577/Manager-Data-Engineering"
-        },
-        {
-            "company": "circle",
-            "title": "Lead, Monetization",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100554/Lead-Monetization"
         },
         {
             "company": "circle",
@@ -619,6 +595,30 @@
             "link": "https://careers.circle.com/us/en/job/JR100611/Senior-Executive-Assistant"
         },
         {
+            "company": "circle",
+            "title": "Senior Internal Auditor - Technology",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100421/Senior-Internal-Auditor-Technology"
+        },
+        {
+            "company": "circle",
+            "title": "Lead Product Marketing Manager",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100608/Lead-Product-Marketing-Manager"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Business Development Director, Americas",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100622/Senior-Business-Development-Director-Americas"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Manager, Business Development, Exchanges, Europe",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100263/Senior-Manager-Business-Development-Exchanges-Europe"
+        },
+        {
             "company": "robinhood",
             "title": "Business Development Partner",
             "location": "Westlake, TX",
@@ -638,9 +638,9 @@
         },
         {
             "company": "robinhood",
-            "title": "Risk & Compliance (AML) Associate",
-            "location": "London, UK",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7069621?gh_src=NaN&gh_jid=7069621"
+            "title": "Communications with the Public Senior Specialist",
+            "location": "Chicago, IL; Denver, CO; Lake Mary, FL; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7277060?gh_src=NaN&gh_jid=7277060"
         },
         {
             "company": "robinhood",
@@ -704,6 +704,12 @@
         },
         {
             "company": "robinhood",
+            "title": "Senior Visual Designer",
+            "location": "Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7258330?gh_src=NaN&gh_jid=7258330"
+        },
+        {
+            "company": "robinhood",
             "title": "Staff Motion Designer, Product Creative",
             "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
             "link": "https://boards.greenhouse.io/robinhood/jobs/7272718?gh_src=NaN&gh_jid=7272718"
@@ -748,13 +754,13 @@
             "company": "robinhood",
             "title": "Finance and Strategy Intern (Summer 2026)",
             "location": "Menlo Park, CA; New York, NY",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7144689?gh_src=NaN&gh_jid=7144689"
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7155930?gh_src=NaN&gh_jid=7155930"
         },
         {
             "company": "robinhood",
             "title": "Finance and Strategy Intern (Summer 2026)",
             "location": "Menlo Park, CA; New York, NY",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7155930?gh_src=NaN&gh_jid=7155930"
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7144689?gh_src=NaN&gh_jid=7144689"
         },
         {
             "company": "robinhood",
@@ -927,14 +933,14 @@
         {
             "company": "robinhood",
             "title": "Engineering Manager, Security",
-            "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6600398?gh_src=NaN&gh_jid=6600398"
+            "location": "Bellevue, WA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/6600396?gh_src=NaN&gh_jid=6600396"
         },
         {
             "company": "robinhood",
             "title": "Engineering Manager, Security",
-            "location": "Bellevue, WA",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6600396?gh_src=NaN&gh_jid=6600396"
+            "location": "Toronto, ON",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/6600398?gh_src=NaN&gh_jid=6600398"
         },
         {
             "company": "robinhood",
@@ -1029,14 +1035,14 @@
         {
             "company": "robinhood",
             "title": "Senior Data Scientist, Product",
-            "location": "Menlo Park, CA",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6782878?gh_src=NaN&gh_jid=6782878"
+            "location": "New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7248840?gh_src=NaN&gh_jid=7248840"
         },
         {
             "company": "robinhood",
             "title": "Senior Data Scientist, Product",
-            "location": "New York, NY",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7248840?gh_src=NaN&gh_jid=7248840"
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/6782878?gh_src=NaN&gh_jid=6782878"
         },
         {
             "company": "robinhood",
@@ -1052,15 +1058,21 @@
         },
         {
             "company": "robinhood",
-            "title": "Senior Operations Engineer",
-            "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7012319?gh_src=NaN&gh_jid=7012319"
+            "title": "Senior Offensive Security Engineer",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7279870?gh_src=NaN&gh_jid=7279870"
         },
         {
             "company": "robinhood",
-            "title": "Senior Quality Engineer",
+            "title": "Senior Offensive Security Engineer",
             "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6866607?gh_src=NaN&gh_jid=6866607"
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7279872?gh_src=NaN&gh_jid=7279872"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Operations Engineer",
+            "location": "Toronto, ON",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7012319?gh_src=NaN&gh_jid=7012319"
         },
         {
             "company": "robinhood",
@@ -1070,15 +1082,21 @@
         },
         {
             "company": "robinhood",
-            "title": "Senior Security Policy Management Lead",
+            "title": "Senior Quality Engineer",
             "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6983094?gh_src=NaN&gh_jid=6983094"
+            "link": "https://boards.greenhouse.io/robinhood/jobs/6866607?gh_src=NaN&gh_jid=6866607"
         },
         {
             "company": "robinhood",
             "title": "Senior Security Policy Management Lead",
             "location": "New York, NY",
             "link": "https://boards.greenhouse.io/robinhood/jobs/7255733?gh_src=NaN&gh_jid=7255733"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Security Policy Management Lead",
+            "location": "Toronto, ON",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/6983094?gh_src=NaN&gh_jid=6983094"
         },
         {
             "company": "robinhood",
@@ -1097,6 +1115,12 @@
             "title": "Senior Software Developer, Technical Assurance Platform",
             "location": "Toronto, ON",
             "link": "https://boards.greenhouse.io/robinhood/jobs/7161067?gh_src=NaN&gh_jid=7161067"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Software Engineer, Backend",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7264931?gh_src=NaN&gh_jid=7264931"
         },
         {
             "company": "robinhood",
@@ -1136,15 +1160,15 @@
         },
         {
             "company": "robinhood",
-            "title": "Software Developer, Backend",
-            "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/6087178?gh_src=NaN&gh_jid=6087178"
-        },
-        {
-            "company": "robinhood",
             "title": "Software Developer, Cloud Networking",
             "location": "Toronto, ON",
             "link": "https://boards.greenhouse.io/robinhood/jobs/7022476?gh_src=NaN&gh_jid=7022476"
+        },
+        {
+            "company": "robinhood",
+            "title": "Software Engineer, Backend",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7263592?gh_src=NaN&gh_jid=7263592"
         },
         {
             "company": "robinhood",
@@ -1215,14 +1239,14 @@
         {
             "company": "robinhood",
             "title": "Vulnerability Management Intern (Summer 2026)",
-            "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7161069?gh_src=NaN&gh_jid=7161069"
+            "location": "Toronto, ON",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7161070?gh_src=NaN&gh_jid=7161070"
         },
         {
             "company": "robinhood",
             "title": "Vulnerability Management Intern (Summer 2026)",
-            "location": "Toronto, ON",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7161070?gh_src=NaN&gh_jid=7161070"
+            "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7161069?gh_src=NaN&gh_jid=7161069"
         },
         {
             "company": "robinhood",
@@ -1329,8 +1353,8 @@
         {
             "company": "robinhood",
             "title": "Account Maintenance Associate",
-            "location": "Clearwater, FL",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7255785?gh_src=NaN&gh_jid=7255785"
+            "location": "Clearwater, FL; Gainesville, FL",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7279982?gh_src=NaN&gh_jid=7279982"
         },
         {
             "company": "robinhood",
@@ -1342,7 +1366,7 @@
             "company": "robinhood",
             "title": "Cashiering Support Associate",
             "location": "Clearwater, FL",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7254690?gh_src=NaN&gh_jid=7254690"
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7279983?gh_src=NaN&gh_jid=7279983"
         },
         {
             "company": "robinhood",
@@ -1447,12 +1471,6 @@
             "link": "https://apply.workable.com/distributedcrafts/j/2DC09466F2/"
         },
         {
-            "company": "distributedcrafts",
-            "title": "Senior DeFi BD",
-            "location": "Remote",
-            "link": "https://apply.workable.com/distributedcrafts/j/03ABDCC5B3/"
-        },
-        {
             "company": "prepo",
             "title": "Web3 Marketing Manager - Expression of Interest",
             "location": "Remote",
@@ -1469,6 +1487,36 @@
             "title": "Web3 Business Development (Marketing) - Expression of Interest",
             "location": "Remote",
             "link": "https://apply.workable.com/prepo/j/5C473C6BA6/"
+        },
+        {
+            "company": "io-global",
+            "title": "Senior Site Reliability Engineer - Midnight",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/16B84655D0/"
+        },
+        {
+            "company": "io-global",
+            "title": "Senior Software Engineer (Rust) - Bitcoin DeFi",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/117F3E3669/"
+        },
+        {
+            "company": "io-global",
+            "title": "Senior Software Engineer (Bitcoin Core & Rust) - Bitcoin DeFi",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/DFB5D44A7D/"
+        },
+        {
+            "company": "io-global",
+            "title": "Full Stack Software Engineer - Bitcoin DeFi",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/0CF51A1386/"
+        },
+        {
+            "company": "io-global",
+            "title": "Senior Software Test Engineer - Bitcoin DeFi",
+            "location": "Remote",
+            "link": "https://apply.workable.com/io-global/j/D897F25B0A/"
         },
         {
             "company": "io-global",
@@ -1622,12 +1670,6 @@
         },
         {
             "company": "io-global",
-            "title": "Research Software Engineer",
-            "location": "Remote",
-            "link": "https://apply.workable.com/io-global/j/A711FC23BA/"
-        },
-        {
-            "company": "io-global",
             "title": "Social Media and Communications Strategist - Catalyst",
             "location": "Remote",
             "link": "https://apply.workable.com/io-global/j/D97610975A/"
@@ -1677,7 +1719,7 @@
         {
             "company": "Swissquote",
             "title": "Apprentissage Employ\u00e9/e de commerce, Service & Administration",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082198725-apprentissage-employe-e-de-commerce-service-administration"
         },
         {
@@ -1695,43 +1737,37 @@
         {
             "company": "Swissquote",
             "title": "Apprentissage Employ\u00e9/e de commerce, Banque",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082194076-apprentissage-employe-e-de-commerce-banque"
         },
         {
             "company": "Swissquote",
             "title": "Regulatory Transaction Reporting Specialist",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000080976344-regulatory-transaction-reporting-specialist-"
         },
         {
             "company": "Swissquote",
-            "title": "Institutional Operations Services Manager",
-            "location": "Gland Switzerland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000080753290-institutional-operations-services-manager"
-        },
-        {
-            "company": "Swissquote",
             "title": "Settlement Officer - Retail team",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000077955230-settlement-officer-retail-team-"
         },
         {
             "company": "Swissquote",
             "title": "Tax Officer",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075569638-tax-officer-"
         },
         {
             "company": "Swissquote",
             "title": "Responsible Payments Retail Team \u2013 Associated-Director",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000074708525-responsible-payments-retail-team-associated-director"
         },
         {
             "company": "Swissquote",
             "title": "Payments Operations Specialist",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000074363724-payments-operations-specialist-"
         },
         {
@@ -1749,7 +1785,7 @@
         {
             "company": "Swissquote",
             "title": "Fraud Threat and Forensics Expert",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000068786345-fraud-threat-and-forensics-expert"
         },
         {
@@ -1761,7 +1797,7 @@
         {
             "company": "Swissquote",
             "title": "Head Risk Monitoring - Market and Credit Risks",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000063100010-head-risk-monitoring-market-and-credit-risks-"
         },
         {
@@ -1790,92 +1826,98 @@
         },
         {
             "company": "Swissquote",
+            "title": "Financial Reporting and Consolidation Expert",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000084195705-financial-reporting-and-consolidation-expert"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Legal Officer (fix term contract)",
+            "location": "Luxembourg",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000084202490-legal-officer-fix-term-contract-"
+        },
+        {
+            "company": "Swissquote",
             "title": "Compliance Officer \u2013 Advisory and Controls",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000084137250-compliance-officer-advisory-and-controls"
         },
         {
             "company": "Swissquote",
             "title": "Administrative Assistant - German Speaker 50-60% (6 months)",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000083874046-administrative-assistant-german-speaker-50-60-6-months-"
         },
         {
             "company": "Swissquote",
             "title": "Legal Operations Officer - German Speaker",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000080209966-legal-operations-officer-german-speaker"
         },
         {
             "company": "Swissquote",
             "title": "Legal Officer",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000074517565-legal-officer"
         },
         {
             "company": "Swissquote",
             "title": "Compliance Officer - Onboarding Private",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000074317625-compliance-officer-onboarding-private-"
         },
         {
             "company": "Swissquote",
             "title": "Compliance Officer - Investigations",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000072254605-compliance-officer-investigations"
         },
         {
             "company": "Swissquote",
             "title": "Administrative Assistant - German Speaker (6 months )",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000071533176-administrative-assistant-german-speaker-6-months-"
         },
         {
             "company": "Swissquote",
             "title": "Compliance Automation Officer - Data Steward",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000071301090-compliance-automation-officer-data-steward"
         },
         {
             "company": "Swissquote",
-            "title": "Compliance Officer - Review Team",
-            "location": "Gland Switzerland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000069351149-compliance-officer-review-team"
-        },
-        {
-            "company": "Swissquote",
             "title": "Compliance Manager - Onboarding Private",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000067186123-compliance-manager-onboarding-private-"
         },
         {
             "company": "Swissquote",
-            "title": "Compliance Officer - Review Team",
-            "location": "Gland Switzerland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000065705583-compliance-officer-review-team"
-        },
-        {
-            "company": "Swissquote",
             "title": "Compliance Operating Head - Vice-Director",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000058985384-compliance-operating-head-vice-director"
         },
         {
             "company": "Swissquote",
             "title": "Brand Manager Forex & Institutional",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082705961-brand-manager-forex-institutional-"
         },
         {
             "company": "Swissquote",
             "title": "Marketing Manager",
-            "location": "Boulevard Plaza UAE",
+            "location": "UAE Boulevard Plaza",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000081585695-marketing-manager"
         },
         {
             "company": "Swissquote",
+            "title": "Relationship Manager Assistant - South Africa Desk",
+            "location": "Switzerland Z\u00fcrich",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000084158365-relationship-manager-assistant-south-africa-desk"
+        },
+        {
+            "company": "Swissquote",
             "title": "Client Relationship Manager",
-            "location": "Cyprus Emerald House",
+            "location": "Emerald House Cyprus",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000081989352-client-relationship-manager-"
         },
         {
@@ -1887,13 +1929,13 @@
         {
             "company": "Swissquote",
             "title": "Business Risk Officer",
-            "location": "Z\u00fcrich Switzerland",
+            "location": "Switzerland Z\u00fcrich",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000078752986-business-risk-officer-"
         },
         {
             "company": "Swissquote",
             "title": "Senior FX Sales \u2013 Institutional Clients (FX Settlement Specialist)",
-            "location": "Z\u00fcrich Switzerland",
+            "location": "Switzerland Z\u00fcrich",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000078107309-senior-fx-sales-institutional-clients-fx-settlement-specialist-"
         },
         {
@@ -1905,67 +1947,67 @@
         {
             "company": "Swissquote",
             "title": "Sales Support Officer",
-            "location": "DIFC UAE",
+            "location": "UAE DIFC",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075485415-sales-support-officer"
         },
         {
             "company": "Swissquote",
             "title": "Relationship Manager Private Clients",
-            "location": "DIFC UAE",
+            "location": "UAE DIFC",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000075483545-relationship-manager-private-clients"
         },
         {
             "company": "Swissquote",
             "title": "Responsible Private Relationship Management - Associated Director",
-            "location": "Z\u00fcrich Switzerland",
+            "location": "Switzerland Z\u00fcrich",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000070484775-responsible-private-relationship-management-associated-director-"
         },
         {
             "company": "Swissquote",
             "title": "Systems Engineer \u2013 M365 & On-Premise",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082387506-systems-engineer-m365-on-premise"
         },
         {
             "company": "Swissquote",
             "title": "Apprentissage Informaticien/ne D\u00e9veloppement d'applications",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082229555-apprentissage-informaticien-ne-developpement-d-applications"
         },
         {
             "company": "Swissquote",
             "title": "Apprentissage Informaticien/ne Exploitation et R\u00e9seau",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000082226362-apprentissage-informaticien-ne-exploitation-et-reseau"
         },
         {
             "company": "Swissquote",
             "title": "SOC Manager",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000079738521-soc-manager"
         },
         {
             "company": "Swissquote",
             "title": "Senior Security Engineer",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000079341606-senior-security-engineer"
         },
         {
             "company": "Swissquote",
             "title": "Service Desk Specialist",
-            "location": "Z\u00fcrich Switzerland",
+            "location": "Switzerland Z\u00fcrich",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000078994915-service-desk-specialist"
         },
         {
             "company": "Swissquote",
             "title": "Senior Business Analyst - Digital assets",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000071530815-senior-business-analyst-digital-assets"
         },
         {
             "company": "Swissquote",
             "title": "Senior Microsoft Dynamics 365 Software Engineer",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000071305755-senior-microsoft-dynamics-365-software-engineer"
         },
         {
@@ -1977,7 +2019,7 @@
         {
             "company": "Swissquote",
             "title": ".NET Developer",
-            "location": "Gland Switzerland",
+            "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000068183269--net-developer"
         },
         {
@@ -1995,7 +2037,7 @@
         {
             "company": "Swissquote",
             "title": "Sous-chef/Sous-Chefin 100%",
-            "location": "Z\u00fcrich Switzerland",
+            "location": "Switzerland Z\u00fcrich",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000083909995-sous-chef-sous-chefin-100-"
         },
         {
@@ -2097,14 +2139,14 @@
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/6861347/"
+            "location": "Geneva, Switzerland",
+            "link": "https://ripple.com/careers/all-jobs/job/7228842/"
         },
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "Reykjav\u00edk, Reykjav\u00edk, Iceland",
-            "link": "https://ripple.com/careers/all-jobs/job/7003425/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/6861347/"
         },
         {
             "company": "ripple",
@@ -2115,14 +2157,14 @@
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "Geneva, Switzerland",
-            "link": "https://ripple.com/careers/all-jobs/job/7228842/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7183888/"
         },
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7183888/"
+            "location": "Reykjav\u00edk, Reykjav\u00edk, Iceland",
+            "link": "https://ripple.com/careers/all-jobs/job/7003425/"
         },
         {
             "company": "ripple",
@@ -2163,14 +2205,14 @@
         {
             "company": "ripple",
             "title": "Software Engineer II",
-            "location": "Toronto, Canada",
-            "link": "https://ripple.com/careers/all-jobs/job/7258488/"
+            "location": "Geneva, Switzerland",
+            "link": "https://ripple.com/careers/all-jobs/job/7134182/"
         },
         {
             "company": "ripple",
             "title": "Software Engineer II",
-            "location": "Geneva, Switzerland",
-            "link": "https://ripple.com/careers/all-jobs/job/7134182/"
+            "location": "Toronto, Canada",
+            "link": "https://ripple.com/careers/all-jobs/job/7258488/"
         },
         {
             "company": "ripple",
@@ -2206,13 +2248,13 @@
             "company": "ripple",
             "title": "Staff Software Engineer",
             "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7001478/"
+            "link": "https://ripple.com/careers/all-jobs/job/6648042/"
         },
         {
             "company": "ripple",
             "title": "Staff Software Engineer",
             "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6648042/"
+            "link": "https://ripple.com/careers/all-jobs/job/7001478/"
         },
         {
             "company": "ripple",
@@ -2223,14 +2265,14 @@
         {
             "company": "ripple",
             "title": "Staff Software Engineer, C++",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6437479/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/6437475/"
         },
         {
             "company": "ripple",
             "title": "Staff Software Engineer, C++",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/6437475/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/6437479/"
         },
         {
             "company": "ripple",
@@ -2249,12 +2291,6 @@
             "title": "Americas Controller (Senior Director)",
             "location": "San Francisco, CA, US",
             "link": "https://ripple.com/careers/all-jobs/job/7007885/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Finance Integration Manager",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7139384/"
         },
         {
             "company": "ripple",
@@ -2301,14 +2337,14 @@
         {
             "company": "ripple",
             "title": "Senior Manager, Workplace Project Management",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7215483/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7215471/"
         },
         {
             "company": "ripple",
             "title": "Senior Manager, Workplace Project Management",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7215471/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7215483/"
         },
         {
             "company": "ripple",
@@ -2331,14 +2367,14 @@
         {
             "company": "ripple",
             "title": "Employment Counsel",
-            "location": "Washington, D.C., US",
-            "link": "https://ripple.com/careers/all-jobs/job/6974357/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/6974345/"
         },
         {
             "company": "ripple",
             "title": "Employment Counsel",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/6974345/"
+            "location": "Washington, D.C., US",
+            "link": "https://ripple.com/careers/all-jobs/job/6974357/"
         },
         {
             "company": "ripple",
@@ -2355,14 +2391,14 @@
         {
             "company": "ripple",
             "title": "Regulatory Compliance Director",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7139445/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7139433/"
         },
         {
             "company": "ripple",
             "title": "Regulatory Compliance Director",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7139433/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7139445/"
         },
         {
             "company": "ripple",
@@ -2384,6 +2420,12 @@
         },
         {
             "company": "ripple",
+            "title": "Marketing Operations Manager",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7278648/"
+        },
+        {
+            "company": "ripple",
             "title": "HR Business Partner Manager",
             "location": "Singapore",
             "link": "https://ripple.com/careers/all-jobs/job/7250538/"
@@ -2391,14 +2433,14 @@
         {
             "company": "ripple",
             "title": "Lead Product Manager, Payments Network",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7060220/"
+            "location": "Toronto, Canada",
+            "link": "https://ripple.com/careers/all-jobs/job/7060230/"
         },
         {
             "company": "ripple",
             "title": "Lead Product Manager, Payments Network",
-            "location": "Toronto, Canada",
-            "link": "https://ripple.com/careers/all-jobs/job/7060230/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7060220/"
         },
         {
             "company": "ripple",
@@ -2463,14 +2505,14 @@
         {
             "company": "ripple",
             "title": "Principal Developer Relations",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7072398/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7072386/"
         },
         {
             "company": "ripple",
             "title": "Principal Developer Relations",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7072386/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7072398/"
         },
         {
             "company": "ripple",
@@ -2541,14 +2583,14 @@
         {
             "company": "ripple",
             "title": "Director, M&A Integration",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7089450/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7089462/"
         },
         {
             "company": "ripple",
             "title": "Director, M&A Integration",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7089462/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7089450/"
         },
         {
             "company": "ripple",
@@ -2768,6 +2810,12 @@
         },
         {
             "company": "BitcoinSuisse",
+            "title": "Senior Python Developer",
+            "location": "Bratislava",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/job/4wcdi9hnmjoor5r6rrmklm1vv7t0uv7"
+        },
+        {
+            "company": "BitcoinSuisse",
             "title": "Legal Counsel for Corporate Secretary & Corporate Law",
             "location": "Zug",
             "link": "https://bitcoin-suisse.onlyfy.jobs/job/1k5eat1q00d5qg3wnmeuhvglxk5jsd5"
@@ -2821,24 +2869,6 @@
             "link": "https://bitcoin-suisse.onlyfy.jobs/job/3y0qcpljg4er3szs2tf3jze9gqzopxn"
         },
         {
-            "company": "BitcoinSuisse",
-            "title": "Systems Engineer in Test",
-            "location": "Bratislava",
-            "link": "https://bitcoin-suisse.onlyfy.jobs/job/0r80zw0uafty3n5no6f87p7shupimxv"
-        },
-        {
-            "company": "BitcoinSuisse",
-            "title": "Senior Software Engineer",
-            "location": "Bratislava",
-            "link": "https://bitcoin-suisse.onlyfy.jobs/job/zbamr6gdiik4knq4eifsawyicu3cwsq"
-        },
-        {
-            "company": "gemini",
-            "title": "Lead, Project Manager",
-            "location": "Miami, Florida; New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7103176"
-        },
-        {
             "company": "gemini",
             "title": "Associate, Customer Support",
             "location": "Singapore",
@@ -2885,6 +2915,12 @@
             "title": "Senior Product Designer",
             "location": "New York; Seattle, Washington; San Francisco, California",
             "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=6745921"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Accountant",
+            "location": "New York; Seattle, Washington; Miami, Florida",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7117577"
         },
         {
             "company": "gemini",
@@ -3128,6 +3164,12 @@
         },
         {
             "company": "worldcoin",
+            "title": "Senior Camera Systems Validation Engineer",
+            "location": "San Francisco",
+            "link": "https://world.org/job/b4a132c2-d0f5-4ebd-982b-6d821198d62d"
+        },
+        {
+            "company": "worldcoin",
             "title": "Senior Electrical Engineer, Concept Engineering",
             "location": "San Francisco",
             "link": "https://world.org/job/ba189695-ac42-465d-8e18-84c19f69473d"
@@ -3326,6 +3368,42 @@
         },
         {
             "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "Miami",
+            "link": "https://world.org/job/61f82417-dc9b-4a7a-9657-4a8ae78fa6db"
+        },
+        {
+            "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "Los Angeles",
+            "link": "https://world.org/job/d6ae4a3b-0615-45eb-a223-0b3376c14e41"
+        },
+        {
+            "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "Philidelphia",
+            "link": "https://world.org/job/56df3c46-ca9b-47d8-b6f7-083200dd865a"
+        },
+        {
+            "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "San Francisco",
+            "link": "https://world.org/job/e6ab6c4c-5e15-4a5e-8c48-4a0d17c53638"
+        },
+        {
+            "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "Austin",
+            "link": "https://world.org/job/bab6906b-3e96-4f33-8796-1465e95f0e39"
+        },
+        {
+            "company": "worldcoin",
+            "title": "Account Executive",
+            "location": "New York",
+            "link": "https://world.org/job/0b554e18-80dd-450d-907c-3c6c7c2fa1b0"
+        },
+        {
+            "company": "worldcoin",
             "title": "Central Operations Lead",
             "location": "Munich",
             "link": "https://world.org/job/013cc590-b4af-4392-bb35-c8d2a4f70b2c"
@@ -3353,36 +3431,6 @@
             "title": "Localization Manager",
             "location": "San Francisco",
             "link": "https://world.org/job/837ca1b6-b6dd-4971-85c1-2761240658b6"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Sales Lead",
-            "location": "San Francisco",
-            "link": "https://world.org/job/e6ab6c4c-5e15-4a5e-8c48-4a0d17c53638"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Sales Lead",
-            "location": "Miami",
-            "link": "https://world.org/job/61f82417-dc9b-4a7a-9657-4a8ae78fa6db"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Sales Lead",
-            "location": "Philidelphia",
-            "link": "https://world.org/job/56df3c46-ca9b-47d8-b6f7-083200dd865a"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Sales Lead",
-            "location": "Los Angeles",
-            "link": "https://world.org/job/d6ae4a3b-0615-45eb-a223-0b3376c14e41"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Sales Lead",
-            "location": "Austin",
-            "link": "https://world.org/job/bab6906b-3e96-4f33-8796-1465e95f0e39"
         },
         {
             "company": "worldcoin",
@@ -3417,14 +3465,14 @@
         {
             "company": "worldcoin",
             "title": "World Spaces Manager",
-            "location": "Miami",
-            "link": "https://world.org/job/ef9d4dfc-ea4f-4965-9469-546ea4df467c"
+            "location": "Atlanta",
+            "link": "https://world.org/job/1358c175-3049-4faf-aa88-73781512dfaf"
         },
         {
             "company": "worldcoin",
             "title": "World Spaces Manager",
-            "location": "Atlanta",
-            "link": "https://world.org/job/1358c175-3049-4faf-aa88-73781512dfaf"
+            "location": "Miami",
+            "link": "https://world.org/job/ef9d4dfc-ea4f-4965-9469-546ea4df467c"
         },
         {
             "company": "worldcoin",
@@ -3494,21 +3542,9 @@
         },
         {
             "company": "worldcoin",
-            "title": "Embedded Security Engineer, Device",
-            "location": "San Francisco",
-            "link": "https://world.org/job/e21437bb-b9ec-42b2-b13c-9153d99bb780"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Offensive Security Engineer, Device",
-            "location": "San Francisco",
-            "link": "https://world.org/job/c0db6380-01f1-4aae-9173-f50c0d3c7ebd"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Security Service Engineer, Device",
-            "location": "San Francisco",
-            "link": "https://world.org/job/34fd3abf-8a37-418d-b8e2-41ac0ee9d1e9"
+            "title": "Senior Device Security Engineer",
+            "location": "Munich",
+            "link": "https://world.org/job/ff7acfaf-015c-45d8-9727-f14452c3cb29"
         },
         {
             "company": "worldcoin",
@@ -3518,21 +3554,15 @@
         },
         {
             "company": "worldcoin",
-            "title": "Senior Device Security Engineer",
-            "location": "Munich",
-            "link": "https://world.org/job/ff7acfaf-015c-45d8-9727-f14452c3cb29"
+            "title": "Senior Product Security Engineer",
+            "location": "San Francisco",
+            "link": "https://world.org/job/075918dc-57c0-4a73-ba3c-a6caafee9412"
         },
         {
             "company": "worldcoin",
             "title": "Senior Product Security Engineer",
             "location": "Munich",
             "link": "https://world.org/job/aa8e9d73-0209-4109-9116-649ee7f78ab3"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Senior Product Security Engineer",
-            "location": "San Francisco",
-            "link": "https://world.org/job/075918dc-57c0-4a73-ba3c-a6caafee9412"
         },
         {
             "company": "worldcoin",
