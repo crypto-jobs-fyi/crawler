@@ -25,14 +25,8 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run crawler.py
+      - name: Run crawler_ai.py
         run: python crawler_ai.py
-
-      - name: Run write_ai_jobs_age.py
-        run: python write_ai_jobs_age.py
-
-      - name: Run get_new_ai_jobs.py
-        run: python get_new_ai_jobs.py
 
       - name: set-output
         if: failure() || success()
