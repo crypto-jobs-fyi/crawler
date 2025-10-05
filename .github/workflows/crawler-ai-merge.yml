@@ -1,0 +1,57 @@
+name: Run Crawler AI Merge Jobs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run merge_ai_jobs.py
+        run: python merge_ai_jobs.py
+
+      - name: Run write_ai_jobs_age.py
+        run: python write_ai_jobs_age.py
+
+      - name: Run get_new_ai_jobs.py
+        run: python get_new_ai_jobs.py
+
+      - name: set-output
+        if: failure() || success()
+        id: set-output
+        run: |
+          ls -l
+          echo "current=$(jq -c . current.json)" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update data via merge_ai_jobs.py [automated]'
+          base: main
+          branch: 'auto/crawler-merge-ai-jobs-update'
+          title: 'Automated update from merge_ai_jobs.py'
+          body: |
+            This PR contains changes made by running merge_ai_jobs.py via GitHub Actions.
+
+            ```json
+            ${{ steps.set-output.outputs.current }}
+            ```
+          delete-branch: true
+          reviewers: yury-dubinin
