@@ -19,6 +19,11 @@ class ScrapeCleo(ScrapeIt):
         driver.implicitly_wait(5)
         driver.get(web_page)
         time.sleep(3)
+        cookie_banners = driver.find_elements(By.XPATH, '//button/span[text()="Allow all cookies"]')
+        if len(cookie_banners) > 0:
+            print(f'[{self.name}] Accept cookies')
+            cookie_banners[0].click()
+            time.sleep(2)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[aria-label="position-link"]')
         result = []
         for elem in group_elements:
