@@ -1,20 +1,22 @@
 {
     "base": 16,
-    "total_jobs": 571,
+    "total_jobs": 596,
     "paxos": 32,
     "circle": 56,
-    "robinhood": 116,
+    "robinhood": 113,
     "coinlist": 1,
     "walletconnect": 0,
     "distributedcrafts": 0,
     "prepo": 3,
     "io-global": 37,
-    "Swissquote": 58,
+    "Swissquote": 59,
     "almanak": 4,
-    "ripple": 92,
+    "ripple": 93,
     "lmax": 11,
     "bitstamp": 11,
     "BitcoinSuisse": 10,
     "gemini": 49,
-    "worldcoin": 75
+    "worldcoin": 76,
+    "ondo-finance": 17,
+    "trojan-trading": 8
 }
