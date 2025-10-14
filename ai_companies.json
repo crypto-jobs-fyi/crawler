@@ -15,6 +15,11 @@
         "jobs_url": "https://jobs.gem.com/groq"
     },
     {
+        "company_name": "quo.com",
+        "company_url": "https://quo.com",
+        "jobs_url": "https://jobs.gem.com/quo"
+    },
+    {
         "company_name": "GPTZero",
         "company_url": "https://gptzero.me",
         "jobs_url": "https://jobs.ashbyhq.com/GPTZero"
@@ -393,5 +398,15 @@
         "company_name": "reflection.ai",
         "company_url": "https://reflection.ai",
         "jobs_url": "https://jobs.ashbyhq.com/reflectionai"
+    },
+    {
+        "company_name": "graphcore.io",
+        "company_url": "https://graphcore.ai",
+        "jobs_url": "https://job-boards.greenhouse.io/graphcore"
+    },
+    {
+        "company_name": "hightouch",
+        "company_url": "https://hightouch.com",
+        "jobs_url": "https://job-boards.greenhouse.io/hightouch"
     }
 ]
