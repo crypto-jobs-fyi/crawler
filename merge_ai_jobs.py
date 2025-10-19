@@ -18,7 +18,7 @@ def read_jobs(file_name=jobs_file):
     print(f'[CRAWLER] Number of jobs in {file_name}: {len(jobs_json.get("data", []))}')
     return jobs_json.get('data', [])
 
-job_json_list = ['headed_ai_jobs.json', 'ai_jobs.json']
+job_json_list = ['headed_ai_jobs.json', 'ai_jobs.json', 'ai_jobs_ashby.json']
 
 def read_jobs_from_files(file_list):
     all_jobs = []
