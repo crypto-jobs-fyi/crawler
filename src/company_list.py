@@ -267,4 +267,5 @@ def get_company_list() -> list[CompanyItem]:
                     "https://solana.com"),
         CompanyItem('ondo-finance', 'https://jobs.gem.com/ondo-finance', Scrapers.GEM.value, 'https://ondo.finance'),
         CompanyItem('trojan-trading', 'https://jobs.gem.com/trojan-trading', Scrapers.GEM.value, 'https://trojan.com'),
+        CompanyItem('cow-dao', 'https://jobs.ashbyhq.com/cow-dao', Scrapers.ASHBYHQ.value, 'https://cow.fi')
     ]
