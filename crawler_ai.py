@@ -10,6 +10,7 @@ from src.companies import Companies
 
 
 jobs_file = 'ai_jobs.json'
+current_jobs_file = 'ai_current_jobs.json'
 companies_file = 'ai_companies.json'
 
 company_list: list[CompanyItem] = get_company_list()
@@ -18,6 +19,9 @@ Companies.write_companies(companies_file, company_list)
 
 with open(jobs_file, 'w') as f:
     f.write('{}')
+
+with open(current_jobs_file, 'w') as cf:
+    cf.write('{}')
 
 # setup headless webdriver
 chrome_options = webdriver.ChromeOptions()
@@ -38,6 +42,7 @@ for company in company_list:
         crawler_type: ScrapeIt = company.scraper_type()
         jobs_data = crawler_type.getJobs(driver, company.jobs_url, company.company_name)
         ScrapeIt.write_jobs(jobs_data, jobs_file)
+        ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), current_jobs_file)
         print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
         print('[CRAWLER] Execution time:', round(time.time() - st), 'seconds')
     except Exception as e:
