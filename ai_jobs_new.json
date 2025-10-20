@@ -2,9 +2,39 @@
     "data": [
         {
             "company": "Cleo",
+            "title": "Head of Product - Discovery",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/head-of-product-discovery-88ef93d4-c4f5-4ca7-879c-7c5ef1195ef5"
+        },
+        {
+            "company": "Cleo",
+            "title": "Senior Compliance Analyst",
+            "location": "Remote: US",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-compliance-analyst-75faa03f-daba-44e8-b1f5-0de75fee1c68"
+        },
+        {
+            "company": "Cleo",
+            "title": "Growth Marketing Manager - Conversion",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/growth-marketing-manager-conversion-d3355200-106d-4b75-bdfc-c20b27fe7892"
+        },
+        {
+            "company": "Cleo",
             "title": "Risk Analyst",
             "location": "Remote: UK",
             "link": "https://revolutpeople.com/cleo/public/careers/position/risk-analyst-14feef68-9000-4296-814b-aa1699065c7c"
+        },
+        {
+            "company": "anthropic",
+            "title": "Data Engineer, Economic ResearchNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4958056008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Federal Affairs ManagerNew",
+            "location": "Washington, DC",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4958027008"
         },
         {
             "company": "anthropic",
@@ -20,9 +50,33 @@
         },
         {
             "company": "anthropic",
+            "title": "Senior Human-AI Collaboration Research Engineer, Education LabsNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4957323008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Creative Director, EnterpriseNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4955715008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Analytics Data EngineerNew",
+            "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4956672008"
+        },
+        {
+            "company": "anthropic",
             "title": "Engineering Manager, Agent PlatformNew",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4940766008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Engineering Manager, GrowthNew",
+            "location": "San Francisco, CA | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4955665008"
         },
         {
             "company": "anthropic",
@@ -32,9 +86,21 @@
         },
         {
             "company": "anthropic",
-            "title": "Administrative Business Partner, New YorkNew",
-            "location": "New York City, NY",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4951793008"
+            "title": "Contracts Manager, ProcurementNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4955791008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Manager, Recruiting CoordinationNew",
+            "location": "Dublin, IE",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4957620008"
+        },
+        {
+            "company": "anthropic",
+            "title": "People Analytics Data EngineerNew",
+            "location": "San Francisco, CA | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4956333008"
         },
         {
             "company": "anthropic",
@@ -49,64 +115,22 @@
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4951844008"
         },
         {
-            "company": "openai",
-            "title": "Software Engineer, Infrastructure Reliability",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8"
+            "company": "anthropic",
+            "title": "Protective Intelligence Specialist New",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4955730008"
         },
         {
-            "company": "openai",
-            "title": "Software Engineer, Integrity",
-            "location": "London, UK",
-            "link": "https://jobs.ashbyhq.com/openai/46703db4-6023-4ac6-93a8-22dc95009945"
+            "company": "groq",
+            "title": "Commercial Sales Representative",
+            "location": "Remote, US \u2022 Remote, Remote",
+            "link": "https://jobs.gem.com/groq/6324722003"
         },
         {
-            "company": "openai",
-            "title": "ML Evals Engineer",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/7b826c9c-bd82-4cfa-985c-5c18e8c2dd3e"
-        },
-        {
-            "company": "openai",
-            "title": "Software Acceleration Engineer, Consumer Products",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/36811989-d6ce-4a33-8d50-f65e38e5d2b6"
-        },
-        {
-            "company": "openai",
-            "title": "Director, Data Engineering Finance",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/e84e7b7e-a82e-411e-929a-615dc3080280"
-        },
-        {
-            "company": "openai",
-            "title": "Director, Property Tax",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/40b8d614-1b23-417a-ab40-166e3348af6b"
-        },
-        {
-            "company": "openai",
-            "title": "Solutions Architect, ChatGPT Ecosystem",
-            "location": "New York City",
-            "link": "https://jobs.ashbyhq.com/openai/716a7537-fe77-4c8a-b137-877db50027e2"
-        },
-        {
-            "company": "openai",
-            "title": "Solutions Architect, ChatGPT Ecosystem",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/openai/c9acc73a-b118-4802-bb51-87f3d57df883"
-        },
-        {
-            "company": "openai",
-            "title": "Child Safety Enforcement Specialist",
-            "location": "Tokyo, Japan",
-            "link": "https://jobs.ashbyhq.com/openai/169352c1-9a58-4015-8194-cbb243631bbb"
-        },
-        {
-            "company": "openai",
-            "title": "Emerging Talent - Project Manager, Recruiting Operations",
-            "location": "San Francisco; Seattle",
-            "link": "https://jobs.ashbyhq.com/openai/978f24c3-6980-44e8-90ab-2c04f06d7e7b"
+            "company": "groq",
+            "title": "Senior Enterprise Account Executive",
+            "location": "New York City Area \u2022 Remote",
+            "link": "https://jobs.gem.com/groq/6305523003"
         },
         {
             "company": "groq",
@@ -115,154 +139,40 @@
             "link": "https://jobs.gem.com/groq/am9icG9zdDpjFyiB1kCRMkjkbTDqEE_8"
         },
         {
-            "company": "quo.com",
-            "title": "iOS Engineer, KMP",
-            "location": "Remote - Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDo9GXU3ZIaI6nFDcXqMeNiO"
+            "company": "groq",
+            "title": "AI Application Engineering Intern",
+            "location": "Palo Alto, CA, Toronto \u2022 Hybrid",
+            "link": "https://jobs.gem.com/groq/am9icG9zdDpmT9XIAh-TQrOyEt7QL4jb"
         },
         {
-            "company": "quo.com",
-            "title": "QA Engineer",
-            "location": "Remote - Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDrN-h_YgZOh7Lozr0a-JAJO"
-        },
-        {
-            "company": "quo.com",
-            "title": "Senior Backend Engineer",
-            "location": "Remote - Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/4570741006"
-        },
-        {
-            "company": "quo.com",
-            "title": "Staff Backend Engineer",
-            "location": "Remote - Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDp7Wa9a8qp9k9sbpQqz6-e_"
-        },
-        {
-            "company": "quo.com",
-            "title": "Senior Offline Media Manager",
-            "location": "Remote - US & Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDrrC0SsT5FkLky1kD72D3qR"
-        },
-        {
-            "company": "quo.com",
-            "title": "Staff Analytics Engineer",
-            "location": "Remote - US & Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/4592696006"
-        },
-        {
-            "company": "quo.com",
-            "title": "Sales Associate, SMB Inbound",
-            "location": "Remote - US & Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDpBsSlFf0zEPGM8ZLXV_niT"
-        },
-        {
-            "company": "quo.com",
-            "title": "Sales Manager, SMB Inbound",
-            "location": "Remote - US & Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDr2vH3B8TQgG_PG75v2Rpir"
-        },
-        {
-            "company": "quo.com",
-            "title": "Senior Manager, Revenue Operations",
-            "location": "Remote - US \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDp1teGQ-oC8MJUKLbLSHt1q"
-        },
-        {
-            "company": "GPTZero",
-            "title": "Machine Learning Engineer (GenAI)",
-            "location": "New York HQ; Toronto Hybrid",
-            "link": "https://jobs.ashbyhq.com/GPTZero/9e23e2df-d15d-4bf5-a841-ced573fb8511"
-        },
-        {
-            "company": "llamaindex",
-            "title": "Lead Product Manager",
+            "company": "perplexityai",
+            "title": "Localization Program ManagerNew",
             "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/llamaindex/0d746429-0038-4ab1-950e-321f09084d4b"
+            "link": "https://job-boards.greenhouse.io/perplexityai/jobs/4946571007"
         },
         {
-            "company": "Crusoe",
-            "title": "Construction Cost Estimator",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/dbe63539-a926-4cdc-a522-009a8a8bc90e"
+            "company": "perplexityai",
+            "title": "Desktop Browser Product Manager New",
+            "location": "Belgrade; London; Remote",
+            "link": "https://job-boards.greenhouse.io/perplexityai/jobs/4948563007"
         },
         {
-            "company": "Crusoe",
-            "title": "Pre-Construction Manager",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/76dded42-6d3a-4c4d-a3f4-15f635d93af5"
+            "company": "invisibletech",
+            "title": "Staff Software EngineerNew",
+            "location": "Worldwide - Remote",
+            "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4689510101"
         },
         {
-            "company": "Crusoe",
-            "title": "Senior Pre-Construction Manager",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/fc6f322a-8945-43c4-a5c8-76887b100bbb"
+            "company": "blackforestlabs",
+            "title": "Member of Technical Staff - Data Engineering",
+            "location": "Freiburg (Germany), San Francisco (USA)",
+            "link": "https://job-boards.greenhouse.io/blackforestlabs/jobs/4132218008"
         },
         {
-            "company": "Crusoe",
-            "title": "Construction Contracts Manager",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/b321a43e-6035-4111-a7fc-02c0bbe806d6"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Construction Counsel",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/54cf140f-8d61-47bb-b452-6f426d3d622b"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Global Risk & Compliance Counsel",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/ddf0a20a-bb6d-44f8-a16d-c136439849f7"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Director, People Analytics & Insights",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/1dffbe5e-a386-4d8b-b0a5-44205a576d2a"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Category Manager, Corporate",
-            "location": "Denver, CO - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/48c88e6b-efdc-41b3-8c8f-ea1b95f2d629"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Category Manager, Corporate",
-            "location": "Seattle, WA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/e191e851-50c6-497a-8da3-1aa1832544ab"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Category Manager, Data Center Equipment",
-            "location": "Seattle, WA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/bf39a75d-e697-4277-b9cd-fbed5d3ca212"
-        },
-        {
-            "company": "Crusoe",
-            "title": "Senior Category Manager, Networking Procurement",
-            "location": "Seattle, WA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/f129522f-1189-45e5-aa06-6c14b3c3d551"
-        },
-        {
-            "company": "cohere",
-            "title": "Country Manager - France",
-            "location": "Paris",
-            "link": "https://jobs.ashbyhq.com/cohere/440bdfe2-a19d-4b9d-bb84-e7edc46b6b22"
-        },
-        {
-            "company": "elevenlabs",
-            "title": "Strategic Partnerships",
-            "location": "US; New York; San Francisco",
-            "link": "https://jobs.ashbyhq.com/elevenlabs/92122a09-93d2-471a-8824-d74e97f4f566"
-        },
-        {
-            "company": "mistral",
-            "title": "Account Executive - Enterprise (ANZ)",
-            "location": "SYDNEY,HYBRID",
-            "link": "https://jobs.lever.co/mistral/7abbb0ea-1df4-4fbf-854d-4e084d09e969"
+            "company": "blackforestlabs",
+            "title": "Member of Technical Staff - 3DNew",
+            "location": "Freiburg (Germany)",
+            "link": "https://job-boards.greenhouse.io/blackforestlabs/jobs/4955843008"
         },
         {
             "company": "mistral",
@@ -272,9 +182,9 @@
         },
         {
             "company": "mistral",
-            "title": "Business Development Manager - Tech Partners",
-            "location": "PARIS,ON-SITE",
-            "link": "https://jobs.lever.co/mistral/b551de18-b9ae-493e-beb1-629fe9e88381"
+            "title": "Legal Counsel, Copyright Attorney",
+            "location": "PARIS / LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/mistral/0a274090-e9f9-4ed4-a6e0-aac5acdf4248"
         },
         {
             "company": "mistral",
@@ -284,27 +194,81 @@
         },
         {
             "company": "mistral",
+            "title": "Machine Learning Engineer, Open-Source Software - Paris/London",
+            "location": "PARIS / LONDON,HYBRID",
+            "link": "https://jobs.lever.co/mistral/ef4c26fc-3fdb-4dd2-a64e-95264ee769dd"
+        },
+        {
+            "company": "mistral",
+            "title": "AI Scientist - Robotics",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/mistral/60f9dc5b-6d1c-4236-be38-be7233669f00"
+        },
+        {
+            "company": "mistral",
+            "title": "Technical Program Manager, Model Releases - Paris",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/mistral/db94de2e-834a-4dd3-a683-d4f3aa759108"
+        },
+        {
+            "company": "mistral",
+            "title": "Technical Program Manager, Science Operations - Paris",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/mistral/f86250cf-1241-4b25-b7bc-4990c358ea1a"
+        },
+        {
+            "company": "mistral",
             "title": "AI Deployment Strategist - Palo Alto",
             "location": "PALO ALTO,HYBRID",
             "link": "https://jobs.lever.co/mistral/1abe543d-4e31-4510-9782-ddab360080aa"
         },
         {
             "company": "deepmind",
-            "title": "Business and Corporate Development Manager, Science Partnerships, Google DeepMindNew",
-            "location": "Singapore",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7290598"
-        },
-        {
-            "company": "deepmind",
-            "title": "Operational Ethics & Safety ManagerNew",
+            "title": "Communications Manager, Frontier AI ResearchNew",
             "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7324087"
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7339737"
         },
         {
             "company": "deepmind",
-            "title": "Systems Integration Architect, Gemini RoboticsNew",
+            "title": "Data Scientist, Responsible Development and InnovationNew",
+            "location": "New York City, New York, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7336872"
+        },
+        {
+            "company": "deepmind",
+            "title": "Nuclear Engineer (2 year Fixed Term Contract)New",
             "location": "Mountain View, California, US",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7324924"
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7339193"
+        },
+        {
+            "company": "deepmind",
+            "title": "Red Teaming Lead, ResponsibilityNew",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7336899"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineer, CBRNNew",
+            "location": "New York City, New York, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7339898"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineer, CBRNNew",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7341408"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineering Manager New",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7339901"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Scientist New",
+            "location": "New York City, New York, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7341608"
         },
         {
             "company": "deepmind",
@@ -320,45 +284,51 @@
         },
         {
             "company": "deepmind",
-            "title": "Research Scientist, Planning, Reasoning, Inference & Structured models (PRISM)New",
+            "title": "Research Scientist, Gemini Audio, UKNew",
             "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7317616"
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7335581"
         },
         {
             "company": "deepmind",
-            "title": "Senior Technical Program Manager, Gemini EvalsNew",
-            "location": "Mountain View, California, US; New York City, New York, US",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7325285"
+            "title": "Research Scientist, Generative Media",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/6192747"
         },
         {
             "company": "scaleai",
-            "title": "Instructional Designer New",
+            "title": "Head of ProcurementNew",
             "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4617977005"
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619431005"
         },
         {
             "company": "scaleai",
-            "title": "Engagement Manager (Cyber), Public SectorNew",
-            "location": "Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619284005"
+            "title": "Trust and Safety Product ManagerNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619868005"
         },
         {
             "company": "scaleai",
-            "title": "IT Systems Engineer New",
-            "location": "Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4618763005"
+            "title": "Machine Learning Research Lead, Security & Policy Research LabNew",
+            "location": "San Francisco, CA; New York, NY",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4620629005"
         },
         {
             "company": "scaleai",
-            "title": "Engagement Manager (Cyber), Public SectorNew",
-            "location": "Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619284005"
+            "title": "Information System Security Manager (ISSM), Public SectorNew",
+            "location": "St. Louis, MO; Washington, DC",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619630005"
         },
         {
             "company": "scaleai",
-            "title": "IT Systems Engineer New",
-            "location": "Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4618763005"
+            "title": "Security Engineer, Federal AssuranceNew",
+            "location": "San Francisco, CA; Seattle, WA; New York, NY; Washington, DC",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4619486005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Software Engineer, Cloud EfficiencyNew",
+            "location": "San Francisco, CA; New York, NY",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4620378005"
         },
         {
             "company": "scaleai",
@@ -367,28 +337,64 @@
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4612403005"
         },
         {
-            "company": "xai",
-            "title": "Machine Learning Engineer, Safety New",
-            "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4944324007"
+            "company": "scaleai",
+            "title": "Finance Fellow - Human Frontier CollectiveNew",
+            "location": "UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4613327005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Legal Fellow - Human Frontier CollectiveNew",
+            "location": "UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4613333005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Medical Fellow - Human Frontier CollectiveNew",
+            "location": "UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4612329005"
+        },
+        {
+            "company": "scaleai",
+            "title": "STEM Fellow - Human Frontier CollectiveNew",
+            "location": "UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4620719005"
         },
         {
             "company": "xai",
-            "title": "Software Engineer, SafetyNew",
+            "title": "AI/HPC Network Development Engineer - NetworkingNew",
             "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4944314007"
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4946691007"
         },
         {
             "company": "xai",
-            "title": "Safety Agent IINew",
+            "title": "Member of Technical Staff - Macrohard / Computer Control - Applied AINew",
             "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4940368007"
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4947211007"
         },
         {
             "company": "xai",
-            "title": "FP&A ManagerNew",
-            "location": "New York City, NY or London, UK",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4944210007"
+            "title": "Member of Technical Staff - Multimodal Interactions Post-trainingNew",
+            "location": "San Francisco & Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4949014007"
+        },
+        {
+            "company": "xai",
+            "title": "Product Engineer - Desktop Apps LeadNew",
+            "location": "Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4946704007"
+        },
+        {
+            "company": "xai",
+            "title": "Technical WriterNew",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4949122007"
+        },
+        {
+            "company": "xai",
+            "title": "Software Engineer - Networking Software and ServicesNew",
+            "location": "Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4946696007"
         },
         {
             "company": "xai",
@@ -399,50 +405,50 @@
         {
             "company": "xai",
             "title": "Revenue Financial Analyst, APINew",
-            "location": "New York City, NY",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4944227007"
-        },
-        {
-            "company": "n8n",
-            "title": "Director of Engineering",
-            "location": "Berlin Office; Albania; Bulgaria; Bosnia; Croatia; Czech Republic; Estonia; Hungary; Kosovo; Latvia; Lithuania; Moldova; Montenegro; Poland; Romania; Serbia; Slovakia; Slovenia; Ukraine; Denmark; Finland; Norway; Sweden; Greece; Italy; Portugal; Spain; London Office; UK; Austria; Belgium; France; Germany; Ireland; Netherlands",
-            "link": "https://jobs.ashbyhq.com/n8n/7fd4d501-ce75-4c2c-9eb6-76854e973a6f"
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4948954007"
         },
         {
             "company": "palantir",
-            "title": "Information Systems Security Manager",
+            "title": "Forward Deployed Enablement Engineer - Customer Success",
             "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/palantir/7e29b1cc-7f0d-4b12-b66c-4a2e56738d7e"
+            "link": "https://jobs.lever.co/palantir/4cba9c95-d16f-440d-83e7-2352480f689f"
         },
         {
-            "company": "harvey",
-            "title": "Applied AI Engineer",
-            "location": "New York",
-            "link": "https://jobs.ashbyhq.com/harvey/5299647b-d367-47aa-8618-18bf6a35613a"
+            "company": "palantir",
+            "title": "Forward Deployed Enablement Engineer - Customer Success",
+            "location": "DENVER, CO,ON-SITE",
+            "link": "https://jobs.lever.co/palantir/8d9c0349-45a4-4012-bc33-5a988c6c23f9"
         },
         {
-            "company": "harvey",
-            "title": "Compensation Business Partner, Engineering, Product & Design",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/harvey/0e2820d5-e3b6-44f1-a889-d401a04fa1ca"
+            "company": "palantir",
+            "title": "Forward Deployed Enablement Engineer - Customer Success",
+            "location": "WASHINGTON, D.C.,ON-SITE",
+            "link": "https://jobs.lever.co/palantir/a90eb029-19cc-413c-bd51-b8411053d7d4"
         },
         {
-            "company": "harvey",
-            "title": "Procurement Counsel",
-            "location": "New York; San Francisco",
-            "link": "https://jobs.ashbyhq.com/harvey/304337da-645e-4b54-be41-29d791350eeb"
+            "company": "palantir",
+            "title": "Forward Deployed Enablement Engineer - Customer Success",
+            "location": "PALO ALTO, CA,ON-SITE",
+            "link": "https://jobs.lever.co/palantir/f4410b36-29d4-4264-94d1-9d827e0cb38a"
         },
         {
-            "company": "harvey",
-            "title": "Product Marketing, Customer Intelligence Lead",
-            "location": "New York; San Francisco",
-            "link": "https://jobs.ashbyhq.com/harvey/bda665b5-70f9-4a66-b4e5-b488f4d0bb09"
+            "company": "palantir",
+            "title": "Legal Counsel",
+            "location": "ABU DHABI, UAE,HYBRID",
+            "link": "https://jobs.lever.co/palantir/917e356a-dafa-49d2-a2ef-70768dc480b4"
         },
         {
-            "company": "harvey",
-            "title": "Content Specialist, Customer Education",
-            "location": "San Francisco; Remote",
-            "link": "https://jobs.ashbyhq.com/harvey/e1ebbade-f728-40d4-b4b3-3d22b8b27674"
+            "company": "palantir",
+            "title": "Legal Counsel",
+            "location": "DUBAI, UAE,HYBRID",
+            "link": "https://jobs.lever.co/palantir/467cae95-b064-465c-8f66-3cb3fdfefcef"
+        },
+        {
+            "company": "isomorphiclabs",
+            "title": "Technical Program Coordinator New",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5677628004"
         },
         {
             "company": "shieldai",
@@ -452,21 +458,27 @@
         },
         {
             "company": "shieldai",
-            "title": "Hardware Test Engineering Co-op (Electrical)",
-            "location": "DALLAS METRO AREA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/1e518847-3017-4098-9a77-f2e035509af3"
+            "title": "Senior Engineer, Embedded (R3933)",
+            "location": "BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/07dac6da-6e7b-46da-9661-99892e7e5141"
         },
         {
             "company": "shieldai",
-            "title": "Hardware Test Engineering Co-op (Mechanical)",
+            "title": "Hardware Test Engineering Fall Co-op (Electrical) (June 2026)",
             "location": "DALLAS METRO AREA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/6f76c494-b48b-46ae-8a5e-a9b042809cdd"
+            "link": "https://jobs.lever.co/shieldai/24ed3cdd-2430-4014-83fa-78bca90dacaa"
         },
         {
             "company": "shieldai",
-            "title": "Hardware Test Engineering Co-op (Software)",
+            "title": "Hardware Test Engineering Fall Co-op (Mechanical) (June 2026)",
             "location": "DALLAS METRO AREA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/b2a6ca52-7e6d-44d1-9849-5927ef3ff3df"
+            "link": "https://jobs.lever.co/shieldai/b3e9f8bb-42dc-4daa-80ae-c5cefd9855c7"
+        },
+        {
+            "company": "shieldai",
+            "title": "Hardware Test Engineering Fall Co-op (Software) (June 2026)",
+            "location": "DALLAS METRO AREA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/1c1a805c-7e26-4442-9698-a55a57bcd4e0"
         },
         {
             "company": "shieldai",
@@ -476,9 +488,15 @@
         },
         {
             "company": "shieldai",
-            "title": "Principal Fuel Systems Engineer (R3300)",
+            "title": "Principal Fuel Systems Engineer (R3300) (Remote)",
             "location": "DALLAS METRO AREA / US / BOSTON, MA / SAN DIEGO METRO AREA,REMOTE",
             "link": "https://jobs.lever.co/shieldai/0036466f-7c47-42ac-9df4-3485ad0f75e2"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Fluid Systems (R3818)",
+            "location": "DALLAS METRO AREA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/81d75a1f-1d16-4568-a1db-ecb4a88e2e9f"
         },
         {
             "company": "shieldai",
@@ -491,6 +509,12 @@
             "title": "Senior Staff Propulsion Design Engineer (R3300)",
             "location": "DALLAS METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6d970989-a9cf-449b-9b95-067bcaccc7d5"
+        },
+        {
+            "company": "polyai",
+            "title": "Enterprise Account ExecutiveNew",
+            "location": "London, UK",
+            "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4693281101"
         },
         {
             "company": "glean",
@@ -517,12 +541,6 @@
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4618982005"
         },
         {
-            "company": "harrison",
-            "title": "Project Manager | EU",
-            "location": "Europe",
-            "link": "https://jobs.ashbyhq.com/Harrison.ai/2120cd41-9cb3-43a3-98ba-42a0f393adf6"
-        },
-        {
             "company": "aperaai",
             "title": "Senior Manager, Field Application EngineeringNew",
             "location": "Detroit",
@@ -535,20 +553,20 @@
             "link": "https://job-boards.greenhouse.io/aperaaiinc/jobs/4945796007"
         },
         {
-            "company": "replit",
-            "title": "Finance Data Engineer",
-            "location": "Foster City, CA (Hybrid) In office M,W,F",
-            "link": "https://jobs.ashbyhq.com/replit/745f54e3-fe07-4cc3-a94b-a71578c609b4"
-        },
-        {
-            "company": "replit",
-            "title": "Head of Growth Marketing",
-            "location": "Foster City, CA (Hybrid) In office M,W,F",
-            "link": "https://jobs.ashbyhq.com/replit/44aa218e-4282-4e59-97b6-394d2fee5a25"
+            "company": "workato",
+            "title": "Senior Solutions ArchitectNew",
+            "location": "New York, New York",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8171910002"
         },
         {
             "company": "workato",
-            "title": "Senior Solutions ConsultantNew",
+            "title": "Senior Solutions ArchitectNew",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8217081002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Solutions Consultant",
             "location": "New York, New York",
             "link": "https://job-boards.greenhouse.io/workato/jobs/8204054002"
         },
@@ -578,21 +596,45 @@
         },
         {
             "company": "workato",
-            "title": "Software Development Engineer in TestNew",
-            "location": "Chennai, India",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8202644002"
-        },
-        {
-            "company": "workato",
-            "title": "UX Designer, AI Agents",
+            "title": "Senior Sales Compensation AnalystNew",
             "location": "Palo Alto, California",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8183309002"
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8188303002"
         },
         {
             "company": "workato",
-            "title": "UX Designer, AI Agents",
-            "location": "Vancouver, Canada",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8191746002"
+            "title": "Senior Infrastructure Engineer (Core Infra \u2013 Security & Networks)New",
+            "location": "Barcelona, Spain; Madrid, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8213410002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (Core Infra \u2013 Security & Networks)New",
+            "location": "Lisbon, Portugal; Porto, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8213411002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (Core Infra \u2013 Security & Networks)New",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8213413002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Infrastructure Engineer (Core Infra \u2013 Security & Networks)New",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8213414002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Product Manager (Connectors & Connectivity)New",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8212242002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Product Manager (API lifecycle)New",
+            "location": "Palo Alto, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8202447002"
         },
         {
             "company": "workato",
@@ -625,22 +667,22 @@
             "link": "https://job-boards.greenhouse.io/cerebrassystems/jobs/7497712003"
         },
         {
-            "company": "cradle.bio",
-            "title": "Engagement Manager",
-            "location": "Remote - US East Coast",
-            "link": "https://jobs.ashbyhq.com/cradlebio/d57784d7-dfc2-4db3-ae8e-2b80a71cbc7f"
+            "company": "nebius",
+            "title": "Benchmark Engineer",
+            "location": "Amsterdam",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4694823101?gh_jid=4694823101"
+        },
+        {
+            "company": "nebius",
+            "title": "Data Center Security Specialist",
+            "location": "New Jersey",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4686907101?gh_jid=4686907101"
         },
         {
             "company": "nebius",
             "title": "Executive Recruiter",
             "location": "Amsterdam \u00b7 London",
             "link": "https://boards.eu.greenhouse.io/nebius/jobs/4690642101?gh_jid=4690642101"
-        },
-        {
-            "company": "nebius",
-            "title": "IT Asset Manager",
-            "location": "New Jersey",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4687215101?gh_jid=4687215101"
         },
         {
             "company": "nebius",
@@ -656,21 +698,15 @@
         },
         {
             "company": "nebius",
-            "title": "Logistics Back Office Specialist",
-            "location": "New Jersey",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4686630101?gh_jid=4686630101"
+            "title": "Operations Specialist",
+            "location": "Tel Aviv",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4690329101?gh_jid=4690329101"
         },
         {
             "company": "nebius",
-            "title": "Logistics Team Lead",
-            "location": "New Jersey",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4686618101?gh_jid=4686618101"
-        },
-        {
-            "company": "nebius",
-            "title": "Product Manager Template (Nebius)",
-            "location": "Amsterdam",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4686295101?gh_jid=4686295101"
+            "title": "Partnership Manager - AI Studio",
+            "location": "Remote - US",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4691318101?gh_jid=4691318101"
         },
         {
             "company": "nebius",
@@ -680,9 +716,33 @@
         },
         {
             "company": "nebius",
-            "title": "Senior Treasury Manager",
-            "location": "Amsterdam",
-            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4689076101?gh_jid=4689076101"
+            "title": "Talent Sourcer (US Data Centers)",
+            "location": "Remote",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4687183101?gh_jid=4687183101"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior GTM Talent Partner",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/d9c45d2b-2a12-411b-a46a-21eb5623d0d1"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Software Engineer - (Graduate)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/8c1f2a94-c28a-4ecd-8051-eb6f8fdb5fcb"
+        },
+        {
+            "company": "encord.com",
+            "title": "Technical Deployment Strategist",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/3966e4d9-a9af-4296-8a8c-7db2d61f4727"
+        },
+        {
+            "company": "encord.com",
+            "title": "Content Marketing Lead",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/3683c630-f48b-4b59-a273-aa90e513883e"
         },
         {
             "company": "encord.com",
@@ -692,15 +752,39 @@
         },
         {
             "company": "applied_intuition",
-            "title": "ICCV 2025 - Apply Here!",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4618321005?gh_jid=4618321005"
+            "title": "Defense Ground - Business Development Lead",
+            "location": "Ann Arbor, Michigan, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4045279005?gh_jid=4045279005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Defense Ground - Business Development Lead",
+            "location": "Washington, District of Columbia, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4620624005?gh_jid=4620624005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Supply Chain Lead",
+            "location": "Mountain View, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605177005?gh_jid=4605177005"
         },
         {
             "company": "oxylabs",
-            "title": "Technical Customer Support Specialist (Night Shift)",
+            "title": "Senior PHP Developer (Payment & Risk squad)",
+            "location": "VILNIUS/KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/be2f3988-5e54-4c84-b3e3-107cc8a3084c"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Site Reliability Engineer",
             "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/99f233dc-c505-48a6-93ef-b18d7e920dfa"
+            "link": "https://jobs.lever.co/oxylabs/c8d210a1-068a-4299-b4c2-1775a79c634a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "PPC Manager (Mid/Senior)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/15bf9338-0ea1-4c04-acef-f124d5ae4962"
         },
         {
             "company": "oxylabs",
@@ -709,10 +793,808 @@
             "link": "https://jobs.lever.co/oxylabs/192faf9e-c5a7-4dc4-97cf-e0cbdaa6d288"
         },
         {
-            "company": "PrimeIntellect",
-            "title": "Head of Growth",
+            "company": "oxylabs",
+            "title": "Sales Development Representative",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/55d5b238-3757-4185-85a6-a011a3967f08"
+        },
+        {
+            "company": "jua.ai",
+            "title": "Member of the technical staff (Frontend Engineer)New",
+            "location": "Z\u00fcrich, Z\u00fcrich, Switzerland",
+            "link": "https://job-boards.eu.greenhouse.io/juaai/jobs/4694868101"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Lead Product Designer",
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=8218224002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Principal Product Designer",
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=8218210002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Senior Software Engineer - Generative AI",
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=7087440002"
+        },
+        {
+            "company": "snorkelai",
+            "title": "Manager, Delivery Operations",
+            "location": "Mexico (Remote)",
+            "link": "https://job-boards.greenhouse.io/snorkelai/jobs/5669686004"
+        },
+        {
+            "company": "snorkelai",
+            "title": "Manager, Technical Delivery",
+            "location": "Mexico (Remote)",
+            "link": "https://job-boards.greenhouse.io/snorkelai/jobs/5669697004"
+        },
+        {
+            "company": "snorkelai",
+            "title": "Senior Manager, Growth \u2013 Expert Contributor ExperienceNew",
+            "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid); US (Remote)",
+            "link": "https://job-boards.greenhouse.io/snorkelai/jobs/5678388004"
+        },
+        {
+            "company": "soundhound",
+            "title": "Partner Engineer, Voice AI (Automotive+)",
+            "location": "Beijing \u2022 In office",
+            "link": "https://jobs.gem.com/soundhound/am9icG9zdDqUtxuKirJmQcV9HL2kRBEC"
+        },
+        {
+            "company": "soundhound",
+            "title": "Technical Program Manager, Automotive+",
+            "location": "Beijing \u2022 In office",
+            "link": "https://jobs.gem.com/soundhound/8081583002"
+        },
+        {
+            "company": "fireworks.ai",
+            "title": "RecruiterNew",
+            "location": "Redwood City, CA",
+            "link": "https://job-boards.greenhouse.io/fireworksai/jobs/4038829009"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "DFT EngineerNew",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8212138002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Bring-up & Characterisation EngineerNew",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8215151002"
+        },
+        {
+            "company": "openai",
+            "title": "Full-Stack Software Engineer, Social Products",
             "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/primeintellect/4c6ccfd6-6512-4905-979a-6dcc6d64a935"
+            "link": "https://jobs.ashbyhq.com/openai/548fb239-b14d-4ab6-af38-05a84ac0914e"
+        },
+        {
+            "company": "openai",
+            "title": "Privacy Engineer - Online Storage",
+            "location": "Seattle",
+            "link": "https://jobs.ashbyhq.com/openai/23b158fe-709e-4bf5-856c-d10953d32f60"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Codex Enterprise",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/3c68a3f1-7501-4f72-a6a5-84458e7b6704"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Codex Enterprise",
+            "location": "London, UK",
+            "link": "https://jobs.ashbyhq.com/openai/c1c8b058-2f0d-4192-8a9e-c21d0f24952c"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Infrastructure Reliability",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/621bb104-9daa-4c9e-949a-03d5730334e8"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Integrity",
+            "location": "London, UK",
+            "link": "https://jobs.ashbyhq.com/openai/46703db4-6023-4ac6-93a8-22dc95009945"
+        },
+        {
+            "company": "openai",
+            "title": "Media Relations, Safety Comms",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/0867dab4-ed8e-46d5-92ce-a769ebda7c03"
+        },
+        {
+            "company": "openai",
+            "title": "ML Evals Engineer",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/7b826c9c-bd82-4cfa-985c-5c18e8c2dd3e"
+        },
+        {
+            "company": "openai",
+            "title": "Software Acceleration Engineer, Consumer Products",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/36811989-d6ce-4a33-8d50-f65e38e5d2b6"
+        },
+        {
+            "company": "openai",
+            "title": "Physical Security Systems Engineer",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/7f26b8bb-aa2a-43f3-a13c-9337de89dd26"
+        },
+        {
+            "company": "openai",
+            "title": "Applied Data Science & Machine Learning Leader - Global Forecasting",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/5d856b70-b7b9-4f03-8a29-748b3d9dc61f"
+        },
+        {
+            "company": "openai",
+            "title": "Director, Data Engineering Finance",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/e84e7b7e-a82e-411e-929a-615dc3080280"
+        },
+        {
+            "company": "openai",
+            "title": "Director, Property Tax",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/40b8d614-1b23-417a-ab40-166e3348af6b"
+        },
+        {
+            "company": "openai",
+            "title": "Ireland & Northern Europe Policy & Partnerships Lead",
+            "location": "Dublin, Ireland; London, UK; Paris, France; Remote - Brussels",
+            "link": "https://jobs.ashbyhq.com/openai/326438d5-41db-4f98-a0e6-c68f5f516a79"
+        },
+        {
+            "company": "openai",
+            "title": "Account Director - Tokyo",
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/18f58952-c242-4562-8732-073a0ae8029e"
+        },
+        {
+            "company": "openai",
+            "title": "AI Deployment Manager - Sydney",
+            "location": "Sydney, Australia",
+            "link": "https://jobs.ashbyhq.com/openai/4a8e32c9-df57-4ed3-b05e-d0a03a069ca6"
+        },
+        {
+            "company": "openai",
+            "title": "Product Marketing Manager, Developer Platform",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/f79d25cb-585c-4b58-b81d-bbc66ca97de2"
+        },
+        {
+            "company": "openai",
+            "title": "Quote to Cash Systems Engineer",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/4adb7fb8-2272-45c5-97a3-4de6be7f665e"
+        },
+        {
+            "company": "openai",
+            "title": "Solutions Architect - Tokyo",
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/0a1d9e45-0548-4fda-b72b-0125be76a371"
+        },
+        {
+            "company": "openai",
+            "title": "Solutions Architect, ChatGPT Ecosystem",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/c9acc73a-b118-4802-bb51-87f3d57df883"
+        },
+        {
+            "company": "openai",
+            "title": "Solutions Architect, ChatGPT Ecosystem",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/openai/716a7537-fe77-4c8a-b137-877db50027e2"
+        },
+        {
+            "company": "openai",
+            "title": "Solutions Engineer - Tokyo",
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/57cfe1d3-27b6-4761-909c-fec7829e9227"
+        },
+        {
+            "company": "openai",
+            "title": "Child Safety Enforcement Specialist",
+            "location": "Tokyo, Japan",
+            "link": "https://jobs.ashbyhq.com/openai/169352c1-9a58-4015-8194-cbb243631bbb"
+        },
+        {
+            "company": "openai",
+            "title": "Manager, Protection Scientist Engineer, Intelligence and Investigations",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/336f3864-ccbf-44eb-bfc9-8090432a8e6f"
+        },
+        {
+            "company": "openai",
+            "title": "Paralegal, Litigation",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/885bb7a6-5228-469d-bd22-a5d581e71074"
+        },
+        {
+            "company": "openai",
+            "title": "Senior Legal Counsel, Patents",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/9c387387-da22-4b39-a018-db45498d95e3"
+        },
+        {
+            "company": "openai",
+            "title": "Sr. Counsel, AI Policy / Regulation",
+            "location": "Remote - US",
+            "link": "https://jobs.ashbyhq.com/openai/df1b2dab-a4a2-45c4-9e40-8ce62c7d95cf"
+        },
+        {
+            "company": "openai",
+            "title": "Backend Software Engineer, Leverage Engineering",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/fb159caf-5df4-4691-84a3-6eb97b471907"
+        },
+        {
+            "company": "openai",
+            "title": "Product Designer, Growth",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/ef88aaa6-f7e1-4afe-ab69-a13f2aa94eae"
+        },
+        {
+            "company": "openai",
+            "title": "Compute Infrastructure Deployment Lead",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/1c00f5bb-151e-4a49-af4b-56b68f0d580d"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Distributed Systems",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/9a3883c3-5b2d-402f-aac0-f32810032072"
+        },
+        {
+            "company": "openai",
+            "title": "Training Performance Engineer",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/6eb386ac-9056-4795-aa79-a27e105faf5c"
+        },
+        {
+            "company": "openai",
+            "title": "Strategy & Operations Launch Programs",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/d2e1f1e6-e1dd-4dc3-9a8d-73bce0114a28"
+        },
+        {
+            "company": "openai",
+            "title": "Technical Program Manager, Foundation Data",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/9feab8ad-8050-445e-ba74-63adbe29531e"
+        },
+        {
+            "company": "GPTZero",
+            "title": "Machine Learning Engineer (GenAI)",
+            "location": "New York HQ; Toronto Hybrid",
+            "link": "https://jobs.ashbyhq.com/GPTZero/9e23e2df-d15d-4bf5-a841-ced573fb8511"
+        },
+        {
+            "company": "llamaindex",
+            "title": "Developer Relations Engineer",
+            "location": "San Francisco; Remote",
+            "link": "https://jobs.ashbyhq.com/llamaindex/d7a97e89-7ae5-4ea1-ac75-7eb901b606fc"
+        },
+        {
+            "company": "llamaindex",
+            "title": "Product Marketing Manager",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/llamaindex/2688f24c-0516-423f-a908-2e665d19060d"
+        },
+        {
+            "company": "langchain",
+            "title": "Account Executive, Europe",
+            "location": "Amsterdam; London",
+            "link": "https://jobs.ashbyhq.com/langchain/b74b7b5a-4679-48cc-ae96-1b282dc5fe18"
+        },
+        {
+            "company": "langchain",
+            "title": "Commercial Account Executive",
+            "location": "San Francisco, CA; New York, NY",
+            "link": "https://jobs.ashbyhq.com/langchain/0b99bf12-92c2-44b3-95c4-cb4ef4bd2684"
+        },
+        {
+            "company": "langchain",
+            "title": "Commercial Account Executive, Europe",
+            "location": "Amsterdam",
+            "link": "https://jobs.ashbyhq.com/langchain/bcf1a071-8d73-4684-ae82-2e5fd0238377"
+        },
+        {
+            "company": "langchain",
+            "title": "Demand Generation Lead",
+            "location": "San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/langchain/31b70f43-5d60-4b0d-a26b-b930c29c4df1"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Software Engineer II, SDN Networking",
+            "location": "San Francisco, CA - US; Sunnyvale, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/0414bb7b-5ca4-41cd-bac0-f0b8c488dc89"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Staff Site Reliability Engineer, Network",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/fc8f3a37-419d-4b77-ac0a-0e7fc4385512"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Director, Cloud Site Operations",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/4f8eaa48-c8cc-460f-ac48-7900ac38bf93"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Commissioning Manager - Electrical",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/637bc8fe-a6e1-4562-80e9-e9276b0a5f36"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Construction Manager, Base Building",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/c1f41cf3-41ae-420b-9141-e2127b5a3dff"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Construction Manager, MEP - Electrical Expert",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/af31c5bd-6fa0-40d1-a410-1f64212c0158"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Construction Project Specialist",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/ff0986d9-cb59-4028-a7a2-f5ec2f87ee52"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Director, Site Selection",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/7d777a56-dde2-4802-ba19-52e035ab4d3f"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Manager, Instrument and Controls - Ignition /UI",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/387e551f-aa29-409c-acc6-c57c4be84a54"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Project Executive",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/a5750456-0777-42b7-97d2-bb6a60301353"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Construction Manager, MEP - Mechanical Expert",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/8561ad31-c9a8-4ae8-8f04-6c795220178a"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Construction Manager, Tenant Improvement",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/9cbb5bcb-01eb-4ba4-afc8-60221ac2fa94"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Manager, Cost Controls",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/2bc03f38-0d28-440d-b8e7-d69774233a2b"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Sr Instrumentation & Controls Engineer - BMS",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/9425daaa-b054-49a2-aef1-7bde20489a56"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Sr Instrumentation & Controls Engineer - PLC/SCADA",
+            "location": "Cheyenne, WY - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/2799c20f-7b51-4540-b39d-0f775f677bf0"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Commercial Energy Development Associate",
+            "location": "Denver, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/b925f942-c72f-4e38-af14-4329c4a6bb34"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Construction Contracts Manager",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/b321a43e-6035-4111-a7fc-02c0bbe806d6"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Construction Counsel",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/54cf140f-8d61-47bb-b452-6f426d3d622b"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Global Risk & Compliance Counsel",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/ddf0a20a-bb6d-44f8-a16d-c136439849f7"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Legal Counsel, Real Estate Development and Data Centers",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/4dcefb3e-edcc-4d6c-a178-e79c29801c99"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Legal Counsel, Real Estate Finance and Data Centers",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/120f2987-3ad2-4a5c-a484-26d730eb4e54"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Electrical Assembly Lead",
+            "location": "Arvada, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/ac76b7c2-d685-45e2-8f00-43921b7bec6c"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Master Scheduler",
+            "location": "Tulsa, OK - US (1); Arvada, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/62339f49-1e3e-4267-aab4-1f1c3bb52710"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Procurement Specialist",
+            "location": "Ponchatoula, LA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/8b60f181-62b6-4c4f-be23-56f999b4a9a7"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Procurement Specialist",
+            "location": "Arvada, CO - US; Denver, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/99f0d882-2859-4511-a754-20c27f8ec300"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Director, Experiential Marketing",
+            "location": "San Francisco, CA - US; Seattle, WA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/d546a29b-93fd-4873-bef0-fde08ca98043"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Director, People Analytics & Insights",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/1dffbe5e-a386-4d8b-b0a5-44205a576d2a"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Manufacturing Sourcer",
+            "location": "Denver, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/bb4bfd8d-15da-46a2-b6d4-4cedfa342d5f"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Sr. Workplace Coordinator",
+            "location": "Tulsa, OK - US (2)",
+            "link": "https://jobs.ashbyhq.com/Crusoe/4412b770-3e42-47dc-b2cc-38f7be15f8fe"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager - Mechanical",
+            "location": "San Francisco, CA - US; Sunnyvale, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/84fa10bf-b1d1-4fc5-a5ac-de9d0e5fb59f"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager - Mechanical",
+            "location": "Seattle, WA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/b31b8ce7-9858-4271-a0b4-1317866f12bd"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager - Mechanical",
+            "location": "Denver, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/aadcdf7d-ee01-454e-9e34-73e2c51b2b03"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager, Data Center Equipment",
+            "location": "Seattle, WA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/bf39a75d-e697-4277-b9cd-fbed5d3ca212"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager, Electrical",
+            "location": "San Francisco, CA - US; Sunnyvale, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/d7706e84-373f-466c-aa7f-11c2db7e6adc"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Category Manager, Electrical",
+            "location": "Seattle, WA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/51a3c723-9a50-49da-96e6-dd924bf3bc9e"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Senior Category Manager, Networking Procurement",
+            "location": "Seattle, WA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/f129522f-1189-45e5-aa06-6c14b3c3d551"
+        },
+        {
+            "company": "cohere",
+            "title": "Software Engineer, Product",
+            "location": "London; UK; Paris",
+            "link": "https://jobs.ashbyhq.com/cohere/76d1e059-9684-40b9-8634-d2a9c76d0b69"
+        },
+        {
+            "company": "cohere",
+            "title": "Safety Operations Lead",
+            "location": "Toronto; New York; London; Paris; Montreal",
+            "link": "https://jobs.ashbyhq.com/cohere/fa027414-645e-4776-af59-988c91524f31"
+        },
+        {
+            "company": "cohere",
+            "title": "Country Manager - France",
+            "location": "Paris",
+            "link": "https://jobs.ashbyhq.com/cohere/440bdfe2-a19d-4b9d-bb84-e7edc46b6b22"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Website Engineering",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/ca6a4c1e-cdc3-495a-bc72-c69a797f9fa6"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Account Executive - Government and Public Sector - Central Europe",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/b5bfca17-6983-42d3-9eb6-11f4cdc942ee"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Account Executive - Government and Public Sector - Nordics",
+            "location": "Sweden",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/a02e38ad-95a2-4479-b596-2b33f010258c"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Account Executive - Government and Public Sector - Southern Europe",
+            "location": "Spain; Portugal; Italy",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/9270b8ce-9c6f-496a-bf24-f8a4b4f57070"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Account Executive - Government and Public Sector - UK/I",
+            "location": "UK; Dublin",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/b7561e12-3d28-4e33-af6e-066bc4d78e84"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Account Executive - Government and Public Sector - Western Europe",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/722cfd59-39ee-4c79-a96f-d0da74a1d1fd"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Customer Success - APAC Scale",
+            "location": "Singapore; Australia",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/141b7716-a738-4eec-8d06-2f6983e4a9ed"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Customer Success - Middle East",
+            "location": "UAE",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/4cc259dd-9788-4ca5-927a-761542bbef0a"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Enterprise Account Executive - Creative Platform",
+            "location": "US; Los Angeles",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/bf65678d-7416-40c7-bd3b-78b48530f875"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Strategic Partnerships",
+            "location": "US; New York; San Francisco",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/92122a09-93d2-471a-8824-d74e97f4f566"
+        },
+        {
+            "company": "lovable",
+            "title": "Privacy and Compliance Engineer",
+            "location": "Stockholm",
+            "link": "https://jobs.ashbyhq.com/lovable/ba3a63dd-74ce-410c-9872-a307baf442eb"
+        },
+        {
+            "company": "lovable",
+            "title": "Data Scientist",
+            "location": "Stockholm",
+            "link": "https://jobs.ashbyhq.com/lovable/22169279-acc3-4133-96ab-6f525b16fc8e"
+        },
+        {
+            "company": "lovable",
+            "title": "AI PM-in-Residence",
+            "location": "Boston",
+            "link": "https://jobs.ashbyhq.com/lovable/d49bcbbf-5005-47f1-b2fb-9c0b574fb401"
+        },
+        {
+            "company": "lovable",
+            "title": "Customer Success Manager",
+            "location": "Boston",
+            "link": "https://jobs.ashbyhq.com/lovable/3e1b49f4-5e07-4a41-8478-89b7a2e84610"
+        },
+        {
+            "company": "eliseai",
+            "title": "Customer Education Specialist | Housing",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/eliseai/814b3781-a2ad-49f8-9b8f-eaaf8e54abb5"
+        },
+        {
+            "company": "eliseai",
+            "title": "Director of Talent",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/eliseai/0e368ef3-b272-429d-a85e-e558df1493de"
+        },
+        {
+            "company": "n8n",
+            "title": "Head of Data",
+            "location": "Berlin Office; UK; Spain; Belgium; France; Sweden; Finland; Netherlands; Hungary; Italy; Slovenia; Portugal; Denmark; Ireland; Austria; Romania; Switzerland; Estonia; Bulgaria",
+            "link": "https://jobs.ashbyhq.com/n8n/0c78f102-f55d-449a-b202-05ca0a606cd9"
+        },
+        {
+            "company": "machinify",
+            "title": "Medical Director, DRG Audit & AI Innovation",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/machinify/7e2c725d-96f1-4e7d-aa03-650d8fc6a09c"
+        },
+        {
+            "company": "leonardo.ai",
+            "title": "Senior Copywriter",
+            "location": "Australia (Remote)",
+            "link": "https://jobs.ashbyhq.com/leonardo.ai/3fb1d2db-47c8-4319-bcf7-a91a4f3862f7"
+        },
+        {
+            "company": "harvey",
+            "title": "Enterprise Customer Success Manager, Mexico",
+            "location": "Mexico",
+            "link": "https://jobs.ashbyhq.com/harvey/a01c42fc-fdbf-46c7-a736-618240b3d25c"
+        },
+        {
+            "company": "harvey",
+            "title": "Engineering Manager, AI Quality",
+            "location": "San Francisco; New York",
+            "link": "https://jobs.ashbyhq.com/harvey/6d71c205-1127-4c96-96fc-8eae3f4690e4"
+        },
+        {
+            "company": "harvey",
+            "title": "Forward Deployed Engineer",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/harvey/24f97125-c406-4ae3-9f94-07dd1310e511"
+        },
+        {
+            "company": "harvey",
+            "title": "Senior Applied AI Engineer",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/harvey/14bc0927-4e68-45ad-809e-d44fc860dbe0"
+        },
+        {
+            "company": "harvey",
+            "title": "Staff Applied AI Engineer",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/harvey/5299647b-d367-47aa-8618-18bf6a35613a"
+        },
+        {
+            "company": "harvey",
+            "title": "Compensation Business Partner, Engineering, Product & Design",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/harvey/0e2820d5-e3b6-44f1-a889-d401a04fa1ca"
+        },
+        {
+            "company": "harvey",
+            "title": "Go to Market Systems Administrator",
+            "location": "New York; San Francisco",
+            "link": "https://jobs.ashbyhq.com/harvey/e9aca945-e1ed-47f9-b8e7-09ee034cdc39"
+        },
+        {
+            "company": "harvey",
+            "title": "Procurement Counsel",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/harvey/304337da-645e-4b54-be41-29d791350eeb"
+        },
+        {
+            "company": "harvey",
+            "title": "Product Marketing, Customer Intelligence Lead",
+            "location": "New York; San Francisco",
+            "link": "https://jobs.ashbyhq.com/harvey/bda665b5-70f9-4a66-b4e5-b488f4d0bb09"
+        },
+        {
+            "company": "harvey",
+            "title": "Video Content Creator, Customer Education",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/harvey/3474fd69-6a8d-4c0d-bc4d-23de63dcd023"
+        },
+        {
+            "company": "harvey",
+            "title": "Business Recruiter, EMEA",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/harvey/33123b0d-67e5-4036-9471-f262ac952b3d"
+        },
+        {
+            "company": "harvey",
+            "title": "Mid Market Sales Manager",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/harvey/44c1150c-daaf-4c63-b3f8-07bef4a8cae6"
+        },
+        {
+            "company": "harvey",
+            "title": "Strategic Engagement Manager",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/harvey/809c9719-39a4-4310-a144-0a916c239ad0"
+        },
+        {
+            "company": "harrison",
+            "title": "Project Manager | EU",
+            "location": "Europe",
+            "link": "https://jobs.ashbyhq.com/Harrison.ai/2120cd41-9cb3-43a3-98ba-42a0f393adf6"
+        },
+        {
+            "company": "replit",
+            "title": "Finance Data Engineer",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "https://jobs.ashbyhq.com/replit/745f54e3-fe07-4cc3-a94b-a71578c609b4"
+        },
+        {
+            "company": "replit",
+            "title": "Head of Growth Marketing",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "https://jobs.ashbyhq.com/replit/44aa218e-4282-4e59-97b6-394d2fee5a25"
+        },
+        {
+            "company": "replit",
+            "title": "Mid-Market Account Executive",
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "https://jobs.ashbyhq.com/replit/a0ad29c9-0e9a-437c-82b3-94d4d8383eb5"
+        },
+        {
+            "company": "multiverse",
+            "title": "AI Learning Architect",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/multiverse/d7d2269b-e4ff-473f-98c6-d194f9252d7a"
+        },
+        {
+            "company": "multiverse",
+            "title": "Senior Learning Programme Designer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/multiverse/56dac28d-e44f-4d6a-880d-dbe1e8f004fb"
+        },
+        {
+            "company": "multiverse",
+            "title": "Safeguarding & Additional Learning Needs (ALN) Manager",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/multiverse/b0040040-c6cc-4f42-ab50-d2f32bc7bb8f"
+        },
+        {
+            "company": "multiverse",
+            "title": "Support Specialist",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/multiverse/b45c158c-6681-44c5-994a-9f39b47e97f6"
+        },
+        {
+            "company": "cradle.bio",
+            "title": "Engagement Manager",
+            "location": "Remote - US East Coast",
+            "link": "https://jobs.ashbyhq.com/cradlebio/d57784d7-dfc2-4db3-ae8e-2b80a71cbc7f"
         },
         {
             "company": "exa.ai",
@@ -727,10 +1609,16 @@
             "link": "https://jobs.ashbyhq.com/exa/9c45a74e-d507-482a-bc0e-da2f464c9767"
         },
         {
-            "company": "c3.ai",
-            "title": "Senior Director, Strategic Solutions \u2013 U.S. Space Force (USSF)",
-            "location": "Huntsville, Alabama",
-            "link": "https://c3.ai/job-description/?gh_jid=8206587002"
+            "company": "Lambda",
+            "title": "Senior Data Analyst",
+            "location": "San Francisco Office; San Jose Office",
+            "link": "https://jobs.ashbyhq.com/Lambda/c9da11c4-dc19-49c2-b531-e610ced85062"
+        },
+        {
+            "company": "Lambda",
+            "title": "Senior Salesforce Developer",
+            "location": "San Francisco Office; San Jose Office",
+            "link": "https://jobs.ashbyhq.com/Lambda/36e23394-a966-4bdc-996a-051e8be2ae0e"
         },
         {
             "company": "Lambda",
@@ -740,15 +1628,33 @@
         },
         {
             "company": "Lambda",
-            "title": "Manager, Super Intelligence HPC Support",
-            "location": "Remote, USA; San Francisco Office; San Jose Office",
-            "link": "https://jobs.ashbyhq.com/Lambda/2d9aae5f-b301-420e-ba63-0ad37b0cd5fd"
+            "title": "Advanced Cooling Facilities Manager",
+            "location": "Remote, USA",
+            "link": "https://jobs.ashbyhq.com/Lambda/bb8d0d2f-ac1f-4bf4-850f-fcfd380e2213"
         },
         {
             "company": "Lambda",
-            "title": "Super Intelligence HPC Support Engineer",
+            "title": "Data Center Implementation Project Manager",
             "location": "Remote, USA",
-            "link": "https://jobs.ashbyhq.com/Lambda/ff068f51-d7e6-451b-bacb-7792024aaba0"
+            "link": "https://jobs.ashbyhq.com/Lambda/5a123686-0008-4ead-8083-ea84ee55a4e3"
+        },
+        {
+            "company": "Lambda",
+            "title": "Hardware QA Engineer",
+            "location": "San Jose Office",
+            "link": "https://jobs.ashbyhq.com/Lambda/5c749ef1-3bdb-4ff1-8c6a-0de431f9f048"
+        },
+        {
+            "company": "Lambda",
+            "title": "Knowledge Management & Process Strategy Lead",
+            "location": "Seattle, WA; Remote, USA",
+            "link": "https://jobs.ashbyhq.com/Lambda/6a659cb1-095f-4a9b-863e-d2d1ca80516d"
+        },
+        {
+            "company": "Lambda",
+            "title": "Senior CAD Design Engineer",
+            "location": "San Jose Office",
+            "link": "https://jobs.ashbyhq.com/Lambda/b17c2aab-0157-4b15-80e2-df0aa17c5634"
         },
         {
             "company": "Lambda",
@@ -757,580 +1663,16 @@
             "link": "https://jobs.ashbyhq.com/Lambda/98f1c179-8b0f-4837-9a6b-3f1ca6ee4c9e"
         },
         {
-            "company": "fireworks.ai",
-            "title": "Software Engineer, Cloud Infrastructure [Early Career]New",
-            "location": "New York, NY; Redwood City, CA",
-            "link": "https://job-boards.greenhouse.io/fireworksai/jobs/4036755009"
-        },
-        {
-            "company": "fireworks.ai",
-            "title": "RecruiterNew",
-            "location": "Redwood City, CA",
-            "link": "https://job-boards.greenhouse.io/fireworksai/jobs/4038829009"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8105984002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8105986002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8105987002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer (Large Systems)",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7733527002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer (Large Systems)",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7733489002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Machine Learning Engineer (Large Systems)",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7733525002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior PCB CAD Design Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8157025002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Signal Integrity Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8157023002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Test Development Engineer - Electronics Hardware",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8080249002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Test Technician",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8080226002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Board Manufacturing Test Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7777980002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Manufacturing Manager",
-            "location": "Hsinchu City, Hsinchu City, Taiwan",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8183760002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Back End DFT Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8171514002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Board Manufacturing Test Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7918637002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Board Manufacturing Test Engineer",
-            "location": "Hsinchu City, Hsinchu City, Taiwan",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8025398002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior ISO Auditor",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8156992002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Cloud Systems Test Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7885440002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior DevOps Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8185464002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Staff Engineer",
-            "location": "Bristol, UK; Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8164488002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Staff Engineer - Platform QA",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7675187002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Staff Engineer - Platform QA",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7817018002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Post-Silicon Validation Engineer - Bengaluru, multiple vacancies New",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8204048002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Bring-Up and Characterisation Engineer - Bengaluru, Multiple VacanciesNew",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8204022002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Technical Program Manager, Post Silicon Validation and Bring-Up - BengaluruNew",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8204085002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Logical Design Engineer - Bengaluru, Multiple VacanciesNew",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8198730002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Physical Design Engineer - Bengaluru, Multiple VacanciesNew",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203935002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Verification Engineer - Bengaluru, Multiple Vacancies New",
-            "location": "Bengaluru, India",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203969002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Logical Design Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7681216002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Logical Design Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8111667002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Physical Design Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7681136002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Physical Design Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7685346002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Verification Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7681052002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Silicon Verification Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7681099002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8132917002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161619002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161633002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161643002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161658002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software EngineerNew",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203311002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Engineer in TestNew",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203287002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Debugger - Senior Staff Engineer",
-            "location": "Bristol, UK; Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8147793002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Engineer - Pytorch",
-            "location": "Bristol, UK; Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8195293002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Engineer - Triton",
-            "location": "Bristol, UK; Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7882364002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Software Engineer",
-            "location": "Bristol, UK; Cambridge, UK; London, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8147797002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Software Infrastructure Engineer",
-            "location": "Bristol, UK; Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8147778002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Staff BMC Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8129959002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Systems Software Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8028332002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Systems Software Engineer",
-            "location": "Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8028373002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Systems Software Engineer",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8028378002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Group Reporting Manager- 15 months Fixed Term Contract",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8185608002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Network Engineer",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8195796002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Windows Administrator",
-            "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8195831002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "2026 Early Careers Opportunities",
-            "location": "Bristol, UK; Cambridge, UK; London, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8183600002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "VP Manufacturing Operations",
-            "location": "Bristol, UK; Cambridge, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8197267002"
-        },
-        {
-            "company": "hightouch",
-            "title": "AI Strategy Consultant",
-            "location": "New York, NY/ San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5618829004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Manager, Technical Account Management",
-            "location": "Remote, East",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5597121004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Technical Account Manager",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5379537004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Technical Account Manager - EMEA",
-            "location": "London, UK/ Paris, France/ Remote (EMEA Region)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5466160004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Technical Account Manager - MENA",
-            "location": "Remote (MENA Region)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5537184004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Machine Learning Engineer, AI Decisioning",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5155115004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Senior Full Stack Engineer",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/4620430004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Software Engineer, Control Plane",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5426891004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Software Engineer, Customer Studio Backend",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/4782625004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Software Engineer, Distributed Systems",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/4782632004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Director, Sales Operations",
-            "location": "Remote, North America",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5661654004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Sales Compensation Manager",
-            "location": "Remote, North America",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5658048004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Field Marketing Manager",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5630226004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Marketing Manager - Customer Advocacy",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5610930004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Performance Marketing ManagerNew",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5675245004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Cloud Alliance Lead- Google Cloud Platform",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5620382004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Cloud Alliances Lead - Databricks",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5632783004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Founding Technical ISV Alliance Lead",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5358473004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Technology Partnerships Manager",
-            "location": "London, U.K",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5620397004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Executive Assistant",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5619299004"
-        },
-        {
-            "company": "hightouch",
-            "title": "People Operations Lead",
-            "location": "New York, New York",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5660527004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Product Manager, Enterprise",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5545593004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Account Executive, East",
-            "location": "New York, NY / East Coast",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5379538004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Account Executive, EMEA",
-            "location": "London / Remote",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5609790004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Account Executive, West",
-            "location": "San Francisco",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5146297004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Solutions Engineer - EAST",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5134194004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Solutions Engineer- WEST",
-            "location": "Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5530769004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Head of Solutions Engineering, EMEA",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5554043004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Jr. Account Development Manager",
-            "location": "New York, NY / Denver, CO / San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5206751004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Mid-Market Account Executive, East",
-            "location": "New York, NY",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5478842004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Mid-Market Account Executive, EMEA",
-            "location": "London, U.K",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5468567004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Mid-Market Account Executive, West",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5363099004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Regional Mid-Market Sales Leader",
-            "location": "New York, NY/ San Francisco, CA/ Denver, CO",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5624319004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Regional Vice President of Sales- APAC",
-            "location": "Remote APAC",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5558468004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Regional VP of Enterprise Sales",
-            "location": "East/ Central",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5503796004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Revenue Enablement Program Specialist",
-            "location": "New York City, New York",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5637015004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Solutions Engineer, EMEA",
-            "location": "Remote Europe",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5400290004"
-        },
-        {
-            "company": "hightouch",
-            "title": "VP of Sales, AI Decisioning",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5659171004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Customer Success Engineer - Australia",
-            "location": "Remote (Australia)",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5485523004"
-        },
-        {
-            "company": "hightouch",
-            "title": "Enterprise Customer Success Engineer",
-            "location": "Remote (EST",
-            "link": "https://job-boards.greenhouse.io/hightouch/jobs/5610941004"
+            "company": "motion",
+            "title": "Senior Electron App Engineer",
+            "location": "US; Canada",
+            "link": "https://jobs.ashbyhq.com/motion/b2894f03-0d40-4ac6-a6a3-bf3f1a1fde8b"
+        },
+        {
+            "company": "motion",
+            "title": "Senior Staff Front End Engineer",
+            "location": "US; Canada",
+            "link": "https://jobs.ashbyhq.com/motion/715d9646-27d4-44f6-9229-61eb0380ae39"
         }
     ]
 }
