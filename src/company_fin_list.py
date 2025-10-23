@@ -5,7 +5,6 @@ from src.company_item import CompanyItem
 def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem('flex', 'https://job-boards.greenhouse.io/flex', Scrapers.GREENHOUSE.value, 'https://getflex.com'),
-        CompanyItem('Box', 'https://job-boards.greenhouse.io/boxinc', Scrapers.GREENHOUSE.value, 'https://www.box.com'),
         CompanyItem('Aven', 'https://jobs.ashbyhq.com/Aven', Scrapers.ASHBYHQ.value, 'https://www.aven.com'),
         CompanyItem('Ivy', 'https://jobs.ashbyhq.com/get-ivy', Scrapers.ASHBYHQ.value, 'https://www.getivy.io'),
         CompanyItem("qonto", "https://jobs.lever.co/qonto", Scrapers.LEVER.value, "https://www.qonto.com"),
