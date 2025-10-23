@@ -20,6 +20,11 @@
         "jobs_url": "https://jobs.gem.com/quo"
     },
     {
+        "company_name": "lumalabs.ai",
+        "company_url": "https://lumalabs.ai",
+        "jobs_url": "https://jobs.gem.com/lumalabs-ai"
+    },
+    {
         "company_name": "GPTZero",
         "company_url": "https://gptzero.me",
         "jobs_url": "https://jobs.ashbyhq.com/GPTZero"
@@ -380,11 +385,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/motion"
     },
     {
-        "company_name": "you.com",
-        "company_url": "https://you.com/home",
-        "jobs_url": "https://job-boards.greenhouse.io/youcom"
-    },
-    {
         "company_name": "recall.ai",
         "company_url": "https://www.recall.ai",
         "jobs_url": "https://jobs.ashbyhq.com/recall"
@@ -415,8 +415,18 @@
         "jobs_url": "https://job-boards.greenhouse.io/youcom"
     },
     {
+        "company_name": "Box",
+        "company_url": "https://www.box.com",
+        "jobs_url": "https://job-boards.greenhouse.io/boxinc"
+    },
+    {
         "company_name": "fyxer.ai",
         "company_url": "https://www.fyxer.ai",
         "jobs_url": "https://jobs.ashbyhq.com/fyxer"
+    },
+    {
+        "company_name": "meilisearch",
+        "company_url": "https://www.meilisearch.com",
+        "jobs_url": "https://jobs.lever.co/meili"
     }
 ]
