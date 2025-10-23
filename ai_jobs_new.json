@@ -20,8 +20,8 @@
         },
         {
             "company": "groq",
-            "title": "Supply Chain - Risk Management Manager (Copy)",
-            "location": "Remote \u2022 Remote",
+            "title": "Supply Chain - Risk Management Manager",
+            "location": "Remote, US \u2022 Remote, Remote",
             "link": "https://jobs.gem.com/groq/am9icG9zdDrjxepjMLATYZTyBwzts30h"
         },
         {
@@ -35,6 +35,48 @@
             "title": "Partner Marketing Lead",
             "location": "Remote - US & Canada \u2022 Remote",
             "link": "https://jobs.gem.com/quo/am9icG9zdDovu1UqovPUhXOyjvsCNt0W"
+        },
+        {
+            "company": "mistral",
+            "title": "Software Engineer, Compute Infrastructure",
+            "location": "PARIS / LONDON / BERLIN/MUNICH/FRANKFURT / BARCELONA/MADRID / AMSTERDAM / MADRID / MUNICH / BRUSSELS,REMOTE",
+            "link": "https://jobs.lever.co/mistral/a101cf11-ff62-446d-b697-dc9e57eb3a79"
+        },
+        {
+            "company": "mistral",
+            "title": "Applied Scientist / Research Engineer - Cybersecurity - EMEA",
+            "location": "PARIS / MARSEILLE / LUXEMBOURG / LONDON,HYBRID",
+            "link": "https://jobs.lever.co/mistral/80793253-8b3a-472c-a8f2-b64d7c27edc3"
+        },
+        {
+            "company": "mistral",
+            "title": "Applied Scientist / Research Engineer - Edge Devices and Quantization - EMEA",
+            "location": "PARIS / LONDON / LUXEMBOURG / MARSEILLE,HYBRID",
+            "link": "https://jobs.lever.co/mistral/21666a99-e038-45d6-9581-6e73f6eae8ff"
+        },
+        {
+            "company": "mistral",
+            "title": "Applied Scientist / Research Engineer - Multimodal - EMEA",
+            "location": "PARIS / LONDON / MARSEILLE / LUXEMBOURG,HYBRID",
+            "link": "https://jobs.lever.co/mistral/e96d1991-da76-4049-a29a-de5d09c14597"
+        },
+        {
+            "company": "mistral",
+            "title": "Applied Scientist / Research Engineer - Time Series - EMEA",
+            "location": "PARIS / LONDON / LUXEMBOURG / MARSEILLE,HYBRID",
+            "link": "https://jobs.lever.co/mistral/b33a0472-dee6-42d1-bff2-bbc289f9655d"
+        },
+        {
+            "company": "palantir",
+            "title": "Forward Deployed Software Engineer",
+            "location": "SEOUL, SOUTH KOREA,HYBRID",
+            "link": "https://jobs.lever.co/palantir/1bb19522-3936-4adc-9ced-c3df8b5900b9"
+        },
+        {
+            "company": "palantir",
+            "title": "Software Engineer, New Grad",
+            "location": "SINGAPORE, SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/palantir/2458ba08-de79-4e8f-b553-060f9568727e"
         },
         {
             "company": "palantir",
@@ -62,7 +104,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Principal Mission System Engineer",
+            "title": "Principal Mission Systems Engineer (R3941)",
             "location": "DALLAS METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/1a2aa3ca-7742-4da0-bc9a-a804a70c8e7a"
         },
@@ -116,6 +158,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Staff Weapons Integration Engineer (R3929)",
+            "location": "US,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/2530479d-d4d4-430b-8cf8-ced2aad2ae1a"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Technical Writer (R3810)",
             "location": "DALLAS METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/880305bc-3c32-4771-a144-92320b19a2fe"
@@ -140,7 +188,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Ground Control Software (GCS) Engineer",
+            "title": "Ground Control Station (GCS) Software Engineer",
             "location": "DALLAS METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/cf148e69-2ca0-4bfd-a4cc-af214bfcce8a"
         },
@@ -183,7 +231,7 @@
         {
             "company": "shieldai",
             "title": "Principal Flight Test Engineer, Next Gen Aircraft (R4004)",
-            "location": "DALLAS METRO AREA,ON-SITE",
+            "location": "WICHITA METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/379b704a-82e6-4386-934a-5d99a9560792"
         },
         {
@@ -217,6 +265,18 @@
             "link": "https://jobs.lever.co/anybotics/8b2afea7-2445-4912-a95d-18cb3abc9df6"
         },
         {
+            "company": "anybotics",
+            "title": "Senior Software Engineer, AI/ML",
+            "location": "BARCELONA, CATALONIA,REMOTE",
+            "link": "https://jobs.lever.co/anybotics/1fd07123-e98d-458a-bdd3-fd1162f374e1"
+        },
+        {
+            "company": "nebius",
+            "title": "IT Infrastructure Engineer",
+            "location": "Kansas City, Missouri",
+            "link": "https://boards.eu.greenhouse.io/nebius/jobs/4635973101?gh_jid=4635973101"
+        },
+        {
             "company": "nebius",
             "title": "Product Manager - Quota & Capacity Management",
             "location": "Amsterdam \u00b7 Prague \u00b7 Remote - Europe",
@@ -242,6 +302,12 @@
         },
         {
             "company": "applied_intuition",
+            "title": "Machine Learning Software Engineer - Perception",
+            "location": "Stuttgart, Baden-W\u00fcrttemberg, Germany",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4532553005?gh_jid=4532553005"
+        },
+        {
+            "company": "applied_intuition",
             "title": "Legal Operations Manager",
             "location": "Mountain View, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4617494005?gh_jid=4617494005"
@@ -254,9 +320,21 @@
         },
         {
             "company": "oxylabs",
-            "title": "Web Scraping Engineer - Python",
+            "title": "Staff Engineer",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/eb7fc205-8010-4c98-9c1c-650550f2dd32"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Web Scraping Engineer - Python",
+            "location": "POLAND,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/14130cca-bfa8-4eb6-83b8-bd3686b52914"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Talent Sourcer",
             "location": "VILNIUS/KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/d8a52ea9-d85f-45e5-b23a-eaf94254c121"
+            "link": "https://jobs.lever.co/oxylabs/736ef009-0f31-4638-b580-0433aae6d0bd"
         },
         {
             "company": "oxylabs",
@@ -269,6 +347,12 @@
             "title": "Head of Marketing",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/247ac098-dae9-43f4-94c8-2fba685c3cd8"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Executive Assistant / Office Manager",
+            "location": "New York, New York",
+            "link": "https://c3.ai/job-description/?gh_jid=8222689002"
         },
         {
             "company": "c3.ai",
@@ -290,15 +374,39 @@
         },
         {
             "company": "constructor",
+            "title": "Full-Stack Engineer: Sponsored Listings (Remote)",
+            "location": "Remote",
+            "link": "https://apply.workable.com/constructor-1/j/3FE8A02F61/"
+        },
+        {
+            "company": "constructor",
             "title": "MLOps: ML Recall team (Remote)",
             "location": "Remote",
             "link": "https://apply.workable.com/constructor-1/j/2D42D22849/"
         },
         {
             "company": "openai",
+            "title": "Engineering Manager, Developer Infrastructure",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/d49971b2-f00b-43c8-a866-01d1b92bccce"
+        },
+        {
+            "company": "openai",
             "title": "Engineering Manager, Youth Well-Being",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/c2477792-a6e1-4aef-aaea-998c9d4e5041"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, Atlas",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/a8651d9d-2ba7-4d8f-8e27-93c77e7a8526"
+        },
+        {
+            "company": "openai",
+            "title": "Software Engineer, ChatGPT for Work",
+            "location": "Seattle",
+            "link": "https://jobs.ashbyhq.com/openai/d8cbc2b8-9530-433b-ba18-6622bb79990e"
         },
         {
             "company": "openai",
@@ -311,6 +419,12 @@
             "title": "Data Scientist, Safety Systems",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/1906c058-7610-4cf2-b5ed-ae7f4b6a16ca"
+        },
+        {
+            "company": "openai",
+            "title": "Senior Manager, International Indirect Tax",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/eb19d8b3-a2f2-400c-bd95-89842698233a"
         },
         {
             "company": "openai",
@@ -338,9 +452,27 @@
         },
         {
             "company": "openai",
+            "title": "Senior Support Engineer",
+            "location": "Singapore",
+            "link": "https://jobs.ashbyhq.com/openai/b3e5fcf7-50ad-4765-ac03-ac71e8b20cb8"
+        },
+        {
+            "company": "openai",
+            "title": "Enterprise Security Lead",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/a125e02a-7afe-422a-bf8c-bcc96e29e723"
+        },
+        {
+            "company": "openai",
             "title": "Global Benefits Analyst",
-            "location": "London, UK",
+            "location": "London, UK; Dublin, Ireland",
             "link": "https://jobs.ashbyhq.com/openai/5c9f3b36-b302-4387-9ba9-34118e7a8332"
+        },
+        {
+            "company": "openai",
+            "title": "M&A Recruiter, People",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/bd4fc611-9a30-4055-9eb1-7b9499fe1cc9"
         },
         {
             "company": "openai",
@@ -353,6 +485,12 @@
             "title": "Chief of Staff, ChatGPT",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/ec4e3a06-81da-4d80-92b6-e55ca6107afb"
+        },
+        {
+            "company": "openai",
+            "title": "Research Engineer, Human Data",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/5a9e36ba-64bc-4a60-aca5-263c0f3a6e4d"
         },
         {
             "company": "openai",
@@ -373,14 +511,8 @@
             "link": "https://jobs.ashbyhq.com/openai/0981e580-8e64-4b41-b130-d148412f6433"
         },
         {
-            "company": "langchain",
-            "title": "SDK Engineer, Platform",
-            "location": "San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/langchain/7534915c-672f-4866-8482-06420c9ace3c"
-        },
-        {
             "company": "Crusoe",
-            "title": "Director of Customer Success Operations",
+            "title": "Director of Customer Operations",
             "location": "San Francisco, CA - US",
             "link": "https://jobs.ashbyhq.com/Crusoe/852c0da5-4ab6-4422-bff1-9a27c3f627c3"
         },
@@ -392,9 +524,9 @@
         },
         {
             "company": "Crusoe",
-            "title": "Director of Stock Administration",
-            "location": "San Francisco, CA - US",
-            "link": "https://jobs.ashbyhq.com/Crusoe/ce8a6870-546a-41f3-8e0b-405f644057e5"
+            "title": "Welder",
+            "location": "Arvada, CO - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/5f36fd00-133e-4df2-98b7-49aba8f84a16"
         },
         {
             "company": "Crusoe",
@@ -404,15 +536,27 @@
         },
         {
             "company": "Crusoe",
+            "title": "Director of Stock Administration",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/ce8a6870-546a-41f3-8e0b-405f644057e5"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Sr. Business Sourcer",
+            "location": "San Francisco, CA - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/5d5a2c07-e90d-4bf4-a061-89742d2ddb6a"
+        },
+        {
+            "company": "Crusoe",
             "title": "Project Controls Manager",
             "location": "Denver, CO - US",
             "link": "https://jobs.ashbyhq.com/Crusoe/17524be4-68bf-422e-a565-cffae19a21d5"
         },
         {
             "company": "cohere",
-            "title": "Software Engineer, Collect",
-            "location": "Toronto",
-            "link": "https://jobs.ashbyhq.com/cohere/2786dc50-5662-461a-9946-a821ad42816f"
+            "title": "Senior Research Scientist, Model Evaluation",
+            "location": "Toronto; New York; Seattle; San Francisco; London; US; Canada",
+            "link": "https://jobs.ashbyhq.com/cohere/830c613b-d4bf-4673-ab33-46ccc12cc415"
         },
         {
             "company": "sesame",
@@ -425,6 +569,18 @@
             "title": "Technical Recruiter",
             "location": "Bellevue",
             "link": "https://jobs.ashbyhq.com/sesame/a5794a11-3161-4327-90ad-f1a8b1a536a1"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Growth Engineering - Mobile",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/bed47ac1-9c5c-44ae-8965-3a4312706328"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "iOS Developer",
+            "location": "London; Krakow; Barcelona; Warsaw; Dublin; Berlin",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/39631124-d10a-41b9-b539-b8055cd68985"
         },
         {
             "company": "lovable",
@@ -440,9 +596,21 @@
         },
         {
             "company": "harvey",
-            "title": "SF Standard Job Posting",
+            "title": "Senior Software Engineer, Frontend",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/harvey/7c9f7fe7-3541-4e10-8a6b-9142430571bf"
+        },
+        {
+            "company": "harvey",
+            "title": "Senior Accountant",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/harvey/5a85e2d8-e1bb-4782-ad02-514371e7150e"
+        },
+        {
+            "company": "harvey",
+            "title": "Senior Revenue Accountant",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/harvey/aa3cebfc-b1cc-4302-a3c5-4172e33e9477"
         },
         {
             "company": "harvey",
@@ -451,16 +619,16 @@
             "link": "https://jobs.ashbyhq.com/harvey/7e3f0e13-88f5-4bde-852f-a02ea3d1d532"
         },
         {
-            "company": "harvey",
-            "title": "Recruiting Coordinator (6-month Contract)",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/harvey/45d27138-8f23-40aa-ad69-51d61ccf4e23"
-        },
-        {
             "company": "ambient.ai",
             "title": "Applied Research Scientist - Foundation Models",
             "location": "Redwood City",
             "link": "https://jobs.ashbyhq.com/ambient.ai/3b633524-ef8a-400b-90c6-a122d43aad18"
+        },
+        {
+            "company": "ambient.ai",
+            "title": "Growth Marketing Manager",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/ambient.ai/664886b8-b781-4c47-97dd-37821cae4a97"
         },
         {
             "company": "ambient.ai",
@@ -488,9 +656,21 @@
         },
         {
             "company": "harrison",
-            "title": "Customer Success Manager",
+            "title": "Account Executive | Victoria",
             "location": "Melbourne",
-            "link": "https://jobs.ashbyhq.com/Harrison.ai/8c8bacc6-ad15-4153-94b6-5e1154a4555a"
+            "link": "https://jobs.ashbyhq.com/Harrison.ai/5a49c8da-45e2-4330-9c17-f4a101009ee9"
+        },
+        {
+            "company": "harrison",
+            "title": "Salesforce Developer",
+            "location": "India",
+            "link": "https://jobs.ashbyhq.com/Harrison.ai/07e2c078-d93b-483e-a45a-0c1a55b47eb7"
+        },
+        {
+            "company": "multiverse",
+            "title": "Data Instructor",
+            "location": "London; Remote (UK)",
+            "link": "https://jobs.ashbyhq.com/multiverse/53e92ccb-dbff-4dac-9eb6-2fad81532137"
         },
         {
             "company": "FundamentalLabs",
@@ -505,10 +685,10 @@
             "link": "https://jobs.ashbyhq.com/fundamentalresearchlabs/a6edadca-dd13-4a61-b4df-78452428d7fb"
         },
         {
-            "company": "Lambda",
-            "title": "Account CTO",
-            "location": "San Francisco Office",
-            "link": "https://jobs.ashbyhq.com/Lambda/b94a7596-3517-4b7e-9871-bfdff98215d6"
+            "company": "exa.ai",
+            "title": "Chief of Staff to the CEO",
+            "location": "San Francisco, California",
+            "link": "https://jobs.ashbyhq.com/exa/d5722c09-6102-4587-8077-47f4aa2b437e"
         },
         {
             "company": "Lambda",
@@ -518,9 +698,9 @@
         },
         {
             "company": "Lambda",
-            "title": "Senior Site Reliability Engineer - Named Accounts",
-            "location": "Seattle, WA",
-            "link": "https://jobs.ashbyhq.com/Lambda/edf27274-786e-488c-9e8a-0ded1aad1974"
+            "title": "Senior Recruiter - Operations",
+            "location": "San Francisco Office; San Jose Office",
+            "link": "https://jobs.ashbyhq.com/Lambda/f04faea7-11d8-4ab4-b288-915fa0e182ca"
         },
         {
             "company": "Lambda",
@@ -572,12 +752,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Applied AI, Partner Solution ArchitectNew",
-            "location": "New York City, NY; San Francisco, CA | New York City, NY; Seattle, WA",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4950664008"
-        },
-        {
-            "company": "anthropic",
             "title": "Security GRC Specialist, Public SectorNew",
             "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/4960248008"
@@ -626,9 +800,27 @@
         },
         {
             "company": "deepmind",
+            "title": "AI Ethics and Safety Policy ResearcherNew",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7349530"
+        },
+        {
+            "company": "deepmind",
+            "title": "Operations Manager, Impact Accelerator, Google DeepMindNew",
+            "location": "Singapore",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7294496"
+        },
+        {
+            "company": "deepmind",
             "title": "Senior Psychologist New",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7343014"
+        },
+        {
+            "company": "deepmind",
+            "title": "Senior Research Engineer, Responsibility New",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7349809"
         },
         {
             "company": "deepmind",
@@ -641,6 +833,12 @@
             "title": "Privacy Program ManagerNew",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4621361005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Engineering Manager, Pay & Incentives",
+            "location": "San Francisco, CA; New York, NY",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4494647005"
         },
         {
             "company": "scaleai",
@@ -722,21 +920,21 @@
         },
         {
             "company": "polyai",
+            "title": "Lead Software Engineer (London Based 2-3x week)New",
+            "location": "UK",
+            "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4684420101"
+        },
+        {
+            "company": "polyai",
             "title": "Demand Generation Marketing ManagerNew",
             "location": "US",
             "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4694401101"
         },
         {
             "company": "glean",
-            "title": "Head of Partnerships - EMEANew",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4619527005"
-        },
-        {
-            "company": "glean",
-            "title": "Head of Partnerships - EMEANew",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4619527005"
+            "title": "Delivery Excellence Manager (East Coast / EMEA hours)New",
+            "location": "Bangalore",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4617109005"
         },
         {
             "company": "glean",
@@ -758,6 +956,12 @@
         },
         {
             "company": "workato",
+            "title": "Inbound Sales Development RepresentativeNew",
+            "location": "Denver, Colorado",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8172929002"
+        },
+        {
+            "company": "workato",
             "title": "Senior Sales Compensation AnalystNew",
             "location": "Boston, Massachusetts; Charlotte, North Carolina; Dallas, Texas; New York, New York",
             "link": "https://job-boards.greenhouse.io/workato/jobs/8219535002"
@@ -767,6 +971,60 @@
             "title": "Intern, Analytics EngineeringNew",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/workato/jobs/8181704002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8190498002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Sofia, Bulgaria",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222780002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Nicosia, Cyprus",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222781002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Belgrade, Serbia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222789002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Tbilisi, Georgia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222792002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Yerevan, Armenia",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222795002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Lisbon, Portugal",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222798002"
+        },
+        {
+            "company": "workato",
+            "title": "Senior Software Engineer, Ruby/RoR (Low-Code Apps)New",
+            "location": "Athens, Greece",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8222801002"
+        },
+        {
+            "company": "workato",
+            "title": "Staff Infrastructure Engineer (Core Infra)",
+            "location": "Austin, Texas; Boston, Massachusetts; Charlotte, North Carolina; Dallas, Texas; Denver, Colorado; New York, New York; Palo Alto, California; Portland, Oregon; Provo, Utah; San Francisco, California",
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8202721002"
         },
         {
             "company": "workato",
@@ -787,10 +1045,28 @@
             "link": "https://job-boards.greenhouse.io/snorkelai/jobs/5682085004"
         },
         {
+            "company": "you.com",
+            "title": "Contract Technical RecruiterNew",
+            "location": "San Francisco, CA (Remote)",
+            "link": "https://job-boards.greenhouse.io/youcom/jobs/4963092008"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff Engineer - ObservabilityNew",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8222244002"
+        },
+        {
             "company": "graphcore.io",
             "title": "Staff Engineer - Cloud DevelopmentNew",
-            "location": "Bristol, UK",
+            "location": "Bristol, UK; London, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8220314002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Logical Design EngineerNew",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8222160002"
         },
         {
             "company": "graphcore.io",
@@ -809,6 +1085,12 @@
             "title": "Supply Chain Data AnalystNew",
             "location": "Hsinchu City, Hsinchu City, Taiwan",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8219021002"
+        },
+        {
+            "company": "you.com",
+            "title": "Contract Technical RecruiterNew",
+            "location": "San Francisco, CA (Remote)",
+            "link": "https://job-boards.greenhouse.io/youcom/jobs/4963092008"
         }
     ]
 }
