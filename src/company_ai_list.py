@@ -8,6 +8,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('openai', 'https://jobs.ashbyhq.com/openai', Scrapers.ASHBYHQ.value, 'https://openai.com'),
         CompanyItem('groq', 'https://jobs.gem.com/groq', Scrapers.GEM.value, 'https://groq.com'),
         CompanyItem('quo.com', 'https://jobs.gem.com/quo', Scrapers.GEM.value, 'https://quo.com'),
+        CompanyItem('lumalabs.ai', 'https://jobs.gem.com/lumalabs-ai', Scrapers.GEM.value, 'https://lumalabs.ai'),
         CompanyItem('GPTZero', 'https://jobs.ashbyhq.com/GPTZero', Scrapers.ASHBYHQ.value, 'https://gptzero.me'),
         CompanyItem("perplexityai", "https://job-boards.greenhouse.io/perplexityai", Scrapers.GREENHOUSE.value,
                     "https://www.perplexity.ai"),
@@ -89,4 +90,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('you.com', 'https://job-boards.greenhouse.io/youcom', Scrapers.GREENHOUSE.value, 'https://you.com/home'),
         CompanyItem('Box', 'https://job-boards.greenhouse.io/boxinc', Scrapers.GREENHOUSE.value, 'https://www.box.com'),
         CompanyItem('fyxer.ai', 'https://jobs.ashbyhq.com/fyxer', Scrapers.ASHBYHQ.value, 'https://www.fyxer.ai'),
+        CompanyItem("meilisearch", "https://jobs.lever.co/meili", Scrapers.LEVER.value, "https://www.meilisearch.com"),
+        
     ]
