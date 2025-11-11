@@ -9,7 +9,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('Numeus', 'https://job-boards.eu.greenhouse.io/numus', Scrapers.GREENHOUSE.value, 'https://classic.numeus.xyz'),
         CompanyItem("kraken", "https://jobs.ashbyhq.com/kraken.com", Scrapers.ASHBYHQ.value, "https://kraken.com"),
         CompanyItem('fireblocks', 'https://job-boards.greenhouse.io/fireblocks', Scrapers.GREENHOUSE.value, 'https://www.fireblocks.com'),
-        CompanyItem('blockstream', 'https://job-boards.greenhouse.io/blockstream', Scrapers.GREENHOUSE.value, 'https://www.blockstream.com'),
+        CompanyItem('blockstream', 'https://jobs.ashbyhq.com/blockstream', Scrapers.ASHBYHQ.value, 'https://www.blockstream.com'),
         CompanyItem('swanbitcoin', 'https://job-boards.greenhouse.io/swanbitcoin', Scrapers.GREENHOUSE.value, 'https://www.swanbitcoin.com'),
         CompanyItem('moonpay', 'https://jobs.lever.co/moonpay', Scrapers.LEVER.value, 'https://www.moonpay.com'),
         CompanyItem('phantom', 'https://jobs.ashbyhq.com/phantom', Scrapers.ASHBYHQ.value, 'https://phantom.com'),
