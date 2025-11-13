@@ -47,7 +47,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("swissborg", "https://jobs.lever.co/swissborg", Scrapers.LEVER.value, "https://swissborg.com"),
         CompanyItem("ethereumfoundation", "https://jobs.lever.co/ethereumfoundation", Scrapers.LEVER.value,
                     "https://ethereum.org"),
-        CompanyItem("aave", "https://jobs.eu.lever.co/avara", Scrapers.LEVER.value, "https://avara.xyz"),
+        CompanyItem("avara", "https://avara.xyz/careers", Scrapers.AVARA.value, "https://avara.xyz"),
         CompanyItem("crypto", "https://jobs.lever.co/crypto", Scrapers.LEVER.value, "https://crypto.com"),
         CompanyItem("Luxor", "https://jobs.ashbyhq.com/luxor", Scrapers.ASHBYHQ.value, "https://www.luxor.tech"),
         CompanyItem("anchorage", "https://jobs.lever.co/anchorage", Scrapers.LEVER.value, "https://www.anchorage.com"),
