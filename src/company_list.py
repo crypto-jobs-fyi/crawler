@@ -274,4 +274,6 @@ def get_company_list() -> list[CompanyItem]:
                     "https://bvnk.com"),
         CompanyItem("meshpay", "https://job-boards.greenhouse.io/mesh", Scrapers.GREENHOUSE.value,
                     "https://meshpay.com"),
+        CompanyItem("aPriori", "https://job-boards.greenhouse.io/apr", Scrapers.GREENHOUSE.value,
+                    "https://www.apr.io"),
     ]
