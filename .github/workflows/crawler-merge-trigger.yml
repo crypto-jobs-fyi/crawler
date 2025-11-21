@@ -1,0 +1,35 @@
+name: Trigger Merge Workflows
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trigger-merge-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Crypto Merge Workflow
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'crawler-crypto-merge.yml',
+              ref: 'main'
+            })
+
+      - name: Trigger AI Merge Workflow
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'crawler-ai-merge.yml',
+              ref: 'main'
+            })

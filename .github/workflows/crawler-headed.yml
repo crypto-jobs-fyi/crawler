@@ -1,8 +1,6 @@
 name: Run Headed Crawler
 
 on:
-  schedule:
-    - cron: '0 8 * * 2,4'
   workflow_dispatch:
 
 permissions:
