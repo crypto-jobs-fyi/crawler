@@ -97,4 +97,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('sentry.io', 'https://jobs.ashbyhq.com/sentry', Scrapers.ASHBYHQ.value, 'https://sentry.io'),
         CompanyItem('nooks.ai', 'https://jobs.ashbyhq.com/nooks', Scrapers.ASHBYHQ.value, 'https://nooks.ai'),
         CompanyItem('anrok.com', 'https://jobs.ashbyhq.com/anrok', Scrapers.ASHBYHQ.value, 'https://anrok.com'),
+        CompanyItem('harmattan-ai', 'https://jobs.ashbyhq.com/harmattan-ai', Scrapers.ASHBYHQ.value, 'https://harmattan.ai'),
     ]
