@@ -7,7 +7,7 @@ import time
 from selenium import webdriver
 
 from src.company_item import CompanyItem
-from src.scrape_ashbyhq import ScrapeAshbyhq
+from src.scrapers import Scrapers
 
 start = time.time()
 
@@ -15,14 +15,15 @@ options = webdriver.ChromeOptions()
 options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
-    CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', ScrapeAshbyhq, 'https://www.langchain.com'),
-    CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', ScrapeAshbyhq, 'https://www.llamaindex.ai'),
-    CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', ScrapeAshbyhq, 'https://coderabbit.ai'),
-    CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', ScrapeAshbyhq, 'https://www.kiln.fi'),
-    CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', ScrapeAshbyhq, 'https://dune.com'),
-    CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', ScrapeAshbyhq, 'https://conduit.xyz'),
-    CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', ScrapeAshbyhq, 'https://www.paradigm.xyz'),
-    CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', ScrapeAshbyhq,
+    CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', Scrapers.ASHBYHQ.value, 'https://www.langchain.com'),
+    CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
+    CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', Scrapers.ASHBYHQ.value, 'https://www.llamaindex.ai'),
+    CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', Scrapers.ASHBYHQ.value, 'https://coderabbit.ai'),
+    CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', Scrapers.ASHBYHQ.value, 'https://www.kiln.fi'),
+    CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', Scrapers.ASHBYHQ.value, 'https://dune.com'),
+    CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', Scrapers.ASHBYHQ.value, 'https://conduit.xyz'),
+    CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', Scrapers.ASHBYHQ.value, 'https://www.paradigm.xyz'),
+    CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', Scrapers.ASHBYHQ.value,
                 'https://ellipsislabs.xyz')
 ]
 

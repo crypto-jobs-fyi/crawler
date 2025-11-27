@@ -277,4 +277,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("aPriori", "https://job-boards.greenhouse.io/apr", Scrapers.GREENHOUSE.value,
                     "https://www.apr.io"),
         CompanyItem('blockdaemon', 'https://jobs.ashbyhq.com/blockdaemon', Scrapers.ASHBYHQ.value, 'https://blockdaemon.com'),
+        CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
     ]
