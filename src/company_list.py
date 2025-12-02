@@ -278,4 +278,5 @@ def get_company_list() -> list[CompanyItem]:
                     "https://www.apr.io"),
         CompanyItem('blockdaemon', 'https://jobs.ashbyhq.com/blockdaemon', Scrapers.ASHBYHQ.value, 'https://blockdaemon.com'),
         CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
+        CompanyItem('block-labs', 'https://jobs.ashbyhq.com/block-labs', Scrapers.ASHBYHQ.value, 'https://www.blocklabs.io'),
     ]
