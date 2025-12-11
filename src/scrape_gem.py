@@ -12,9 +12,9 @@ class ScrapeGem(ScrapeIt):
 
     def getJobs(self, driver, web_page, company) -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
-        driver.implicitly_wait(7)
+        driver.implicitly_wait(9)
         driver.get(web_page)
-        time.sleep(3)
+        time.sleep(5)
         group_elements = len(driver.find_elements(By.CSS_SELECTOR, 'li[class*=jobPosting]'))
         result = []
         for i in range(group_elements):
