@@ -51,4 +51,9 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("nimbus", "https://job-boards.greenhouse.io/nimbus", Scrapers.GREENHOUSE.value,
                     "https://free.technology/nimbus"),
         CompanyItem("messari", "https://boards.greenhouse.io/messari", Scrapers.GREENHOUSE.value, "https://messari.io"),
+        CompanyItem('shadow', 'https://jobs.ashbyhq.com/shadow', Scrapers.ASHBYHQ.value,
+                    'https://www.shadow.xyz'),
+        CompanyItem('flipsidecrypto', 'https://jobs.ashbyhq.com/flipsidecrypto', Scrapers.ASHBYHQ.value, 'https://flipsidecrypto.xyz'),
+        CompanyItem('blast', 'https://jobs.ashbyhq.com/blast-io', Scrapers.ASHBYHQ.value, 'https://blast.io'),
+
     ]
