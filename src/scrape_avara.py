@@ -7,7 +7,7 @@ class ScrapeAvara(ScrapeIt):
 
     def getJobs(self, driver, web_page, company = 'avara') -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
-        driver.implicitly_wait(5)
+        driver.implicitly_wait(9)
         driver.get(web_page)
         # use reverse strategy from a link to a title
         group_elements = driver.find_elements(By.XPATH, '//li/a[contains(@href, "careers")]')

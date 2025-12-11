@@ -43,4 +43,9 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('econetwork', 'https://job-boards.greenhouse.io/ecoinc', Scrapers.GREENHOUSE.value,
                     'https://eco.com'),
         CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', Scrapers.LEVER.value, 'https://obol.tech'),
+        CompanyItem("coinlist", "https://apply.workable.com/coinlist", Scrapers.WORKABLE.value, "https://coinlist.co"),
+        CompanyItem('distributedcrafts', 'https://apply.workable.com/distributedcrafts', Scrapers.WORKABLE.value,
+                    'https://www.gobob.xyz/'),
+        CompanyItem('prepo', 'https://apply.workable.com/prepo', Scrapers.WORKABLE.value,
+                    'https://prepo.io'),
     ]
