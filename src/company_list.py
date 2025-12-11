@@ -63,7 +63,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('risklabs', 'https://jobs.ashbyhq.com/risklabs', Scrapers.ASHBYHQ.value, 'https://risklabs.foundation'),
         CompanyItem('celestia', 'https://jobs.lever.co/celestia', Scrapers.LEVER.value, 'https://celestia.org'),
         CompanyItem('gauntlet', 'https://jobs.lever.co/gauntlet', Scrapers.LEVER.value, 'https://gauntlet.network'),
-        CompanyItem('machinefilab', 'https://jobs.lever.co/machinefilab', Scrapers.LEVER.value, 'https://machinefi.com/lab'),
         CompanyItem('gate.io', 'https://jobs.lever.co/gate', Scrapers.LEVER.value, 'https://gate.io'),
         CompanyItem('auroralabs', 'https://jobs.lever.co/aurora-dev', Scrapers.LEVER.value, 'https://auroralabs.dev'),
         CompanyItem("immutable", "https://jobs.lever.co/immutable", Scrapers.LEVER.value, "https://www.immutable.com"),
