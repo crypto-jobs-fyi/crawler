@@ -15,19 +15,14 @@ class ScrapeGem(ScrapeIt):
         driver.implicitly_wait(9)
         driver.get(web_page)
         time.sleep(5)
-        group_elements = len(driver.find_elements(By.CSS_SELECTOR, 'li[class*=jobPosting]'))
+        group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*=jobPostingLink]')
         result = []
-        for i in range(group_elements):
-            elem = driver.find_elements(By.CSS_SELECTOR, 'li[class*=jobPosting]')[i]
+        for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'div[class*=jobTitle]')
             job_name: str = job_name_elem.text
             location = elem.find_element(By.CSS_SELECTOR, 'div[class*=jobAttributes]')
             location_text: str = self.clean_location(location.text)
-            job_name_elem.click()
-            time.sleep(3)
-            job_url: str = driver.current_url
-            driver.find_element(By.CSS_SELECTOR, 'a[class*=linkButton]').click()
-
+            job_url = elem.get_attribute('href')
             job = {
                 "company": company,
                 "title": job_name,
@@ -35,5 +30,5 @@ class ScrapeGem(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {group_elements} jobs, Scraped {len(result)} jobs from {web_page}')
+        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
         return result
