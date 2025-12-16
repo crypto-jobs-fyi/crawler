@@ -50,11 +50,6 @@
         "jobs_url": "https://web3.bamboohr.com/careers"
     },
     {
-        "company_name": "kadena",
-        "company_url": "https://kadena.io",
-        "jobs_url": "https://boards.greenhouse.io/kadenallc"
-    },
-    {
         "company_name": "protocollabs",
         "company_url": "https://protocol.ai/about",
         "jobs_url": "https://boards.greenhouse.io/protocollabs"
@@ -123,5 +118,45 @@
         "company_name": "obol-tech",
         "company_url": "https://obol.tech",
         "jobs_url": "https://jobs.lever.co/obol-tech"
+    },
+    {
+        "company_name": "coinlist",
+        "company_url": "https://coinlist.co",
+        "jobs_url": "https://apply.workable.com/coinlist"
+    },
+    {
+        "company_name": "distributedcrafts",
+        "company_url": "https://www.gobob.xyz/",
+        "jobs_url": "https://apply.workable.com/distributedcrafts"
+    },
+    {
+        "company_name": "prepo",
+        "company_url": "https://prepo.io",
+        "jobs_url": "https://apply.workable.com/prepo"
+    },
+    {
+        "company_name": "nimbus",
+        "company_url": "https://free.technology/nimbus",
+        "jobs_url": "https://job-boards.greenhouse.io/nimbus"
+    },
+    {
+        "company_name": "messari",
+        "company_url": "https://messari.io",
+        "jobs_url": "https://boards.greenhouse.io/messari"
+    },
+    {
+        "company_name": "shadow",
+        "company_url": "https://www.shadow.xyz",
+        "jobs_url": "https://jobs.ashbyhq.com/shadow"
+    },
+    {
+        "company_name": "flipsidecrypto",
+        "company_url": "https://flipsidecrypto.xyz",
+        "jobs_url": "https://jobs.ashbyhq.com/flipsidecrypto"
+    },
+    {
+        "company_name": "blast",
+        "company_url": "https://blast.io",
+        "jobs_url": "https://jobs.ashbyhq.com/blast-io"
     }
 ]
