@@ -775,11 +775,6 @@
         "jobs_url": "https://job-boards.greenhouse.io/noble"
     },
     {
-        "company_name": "bitstamp",
-        "company_url": "https://www.bitstamp.net",
-        "jobs_url": "https://apply.workable.com/bitstamp/#jobs"
-    },
-    {
         "company_name": "ramp.network",
         "company_url": "https://ramp.network",
         "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork"
@@ -853,5 +848,15 @@
         "company_name": "block-labs",
         "company_url": "https://www.blocklabs.io",
         "jobs_url": "https://jobs.ashbyhq.com/block-labs"
+    },
+    {
+        "company_name": "asterdex",
+        "company_url": "https://www.asterdex.com/en",
+        "jobs_url": "https://jobs.lever.co/pioneer-services"
+    },
+    {
+        "company_name": "freedx",
+        "company_url": "https://www.exchange.freedx.com/en",
+        "jobs_url": "https://apply.workable.com/freedx/#jobs"
     }
 ]
