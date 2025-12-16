@@ -15,8 +15,6 @@ company_list = [
                 'https://almanak.co'),
     CompanyItem('walletconnect', 'https://apply.workable.com/walletconnect', ScrapeWorkable,
                 'https://walletconnect.com'),
-    CompanyItem('bitstamp', 'https://apply.workable.com/bitstamp/#jobs', ScrapeWorkable,
-                'https://www.bitstamp.net'),
 ]
 # company_list.append(CompanyItem('bitget', 'https://apply.workable.com/bitget', ScrapeWorkable, 'https://www.bitget.com/en', 'Exchange'))
 
