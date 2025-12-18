@@ -12,10 +12,10 @@ from src.scrapers import Scrapers
 start = time.time()
 
 options = webdriver.ChromeOptions()
-options.add_argument('--headless')
+#options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
-    CompanyItem('langchain', 'https://jobs.ashbyhq.com/langchain', Scrapers.ASHBYHQ.value, 'https://www.langchain.com'),
+    CompanyItem('nethermind', 'https://jobs.ashbyhq.com/nethermind', Scrapers.ASHBYHQ.value, 'https://www.nethermind.io'),
     CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
     CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', Scrapers.ASHBYHQ.value, 'https://www.llamaindex.ai'),
     CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', Scrapers.ASHBYHQ.value, 'https://coderabbit.ai'),

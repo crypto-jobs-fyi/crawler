@@ -6,6 +6,8 @@ from src.scrape_it import ScrapeIt
 
 def clean_location(location: str) -> str:
     locations: list[str] = list(filter(None, ([x.strip() for x in location.split('•')])))
+    if len(locations) < 2:
+        return "Remote"
     result: str = locations[1]
     return result.strip().replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
 
@@ -18,7 +20,8 @@ class ScrapeAshbyhq(ScrapeIt):
         driver.get(web_page)
         driver.implicitly_wait(7)
         group_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
-        job_location_locator: str = 'div p'
+        print(f'[{self.name}] Found {len(group_elements)} job elements')
+        job_location_locator: str = 'div[class*="details_"] p'
         result: list = []
         for elem in group_elements:
             link_elem: WebElement = elem
