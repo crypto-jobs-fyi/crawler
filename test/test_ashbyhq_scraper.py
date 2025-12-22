@@ -16,6 +16,7 @@ options = webdriver.ChromeOptions()
 driver = webdriver.Chrome(options=options)
 companies = [
     CompanyItem('nethermind', 'https://jobs.ashbyhq.com/nethermind', Scrapers.ASHBYHQ.value, 'https://www.nethermind.io'),
+    CompanyItem('uipath', 'https://jobs.ashbyhq.com/uipath', Scrapers.ASHBYHQ.value, 'https://www.uipath.com'),
     CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
     CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', Scrapers.ASHBYHQ.value, 'https://www.llamaindex.ai'),
     CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', Scrapers.ASHBYHQ.value, 'https://coderabbit.ai'),
