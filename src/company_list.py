@@ -265,4 +265,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("asterdex", "https://jobs.lever.co/pioneer-services", Scrapers.LEVER.value, "https://www.asterdex.com/en"),
         CompanyItem('freedx', 'https://apply.workable.com/freedx/#jobs', Scrapers.WORKABLE.value,
                 'https://www.exchange.freedx.com/en'),
+        CompanyItem('trust-wallet', 'https://jobs.ashbyhq.com/trust-wallet', Scrapers.ASHBYHQ.value, 'https://trustwallet.com'),
     ]
