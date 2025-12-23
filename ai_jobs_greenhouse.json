@@ -2456,12 +2456,6 @@
         },
         {
             "company": "deepmind",
-            "title": "Manager, Applied AI Engineering",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7106323"
-        },
-        {
-            "company": "deepmind",
             "title": "Principal Research Engineer, Gemini Evals",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7171455"
@@ -2471,6 +2465,12 @@
             "title": "Research Engineer - ACE",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7264985"
+        },
+        {
+            "company": "deepmind",
+            "title": "Research Engineer, Frontier Safety Risk AssessmentNew",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7493360"
         },
         {
             "company": "deepmind",
@@ -2609,12 +2609,6 @@
             "title": "Research Scientist, Agentic Safety",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7334511"
-        },
-        {
-            "company": "deepmind",
-            "title": "Senior Software Engineer, Medical AI, Google DeepMind",
-            "location": "Singapore",
-            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7276590"
         },
         {
             "company": "scaleai",
@@ -5414,7 +5408,7 @@
         },
         {
             "company": "isomorphiclabs",
-            "title": "Toxicology Lead, London, LausanneNew",
+            "title": "Toxicology Lead, London, Lausanne",
             "location": "Lausanne; London",
             "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5737991004"
         },
@@ -5900,7 +5894,7 @@
         },
         {
             "company": "glean",
-            "title": "Director of AccountingNew",
+            "title": "Director of Accounting",
             "location": "Bangalore",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4640647005"
         },
@@ -7400,15 +7394,15 @@
         },
         {
             "company": "workato",
-            "title": "Staff Product Manager (Builder Experience)",
+            "title": "Staff Product Manager (Build Experience - Agentic)New",
             "location": "Palo Alto, California",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8154474002"
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8326092002"
         },
         {
             "company": "workato",
-            "title": "Staff Product Manager (Build Experience)New",
+            "title": "Staff Product Manager (Build Experience - Platform)",
             "location": "Palo Alto, California",
-            "link": "https://job-boards.greenhouse.io/workato/jobs/8326092002"
+            "link": "https://job-boards.greenhouse.io/workato/jobs/8154474002"
         },
         {
             "company": "workato",
@@ -8305,6 +8299,624 @@
             "link": "https://job-boards.greenhouse.io/fireworksai/jobs/4008626009"
         },
         {
+            "company": "graphcore.io",
+            "title": "Senior Machine Learning Engineer (Large Systems)",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8315158002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Machine Learning Engineer (Large Systems)",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8337818002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Machine Learning Engineer (Large Systems)",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8337829002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Embedded SW/FW Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8311682002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Post Silicon Validation Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331057002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Embedded SW/FW Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314206002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Post Silicon Validation Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331061002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Embedded SW/FW Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8295040002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Post Silicon Validation Engineer (Bringup)",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331063002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Hardware Development Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8309274002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Hardware Development Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8309137002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "PCB CAD Design Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8313915002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior PCB CAD Design Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8309445002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Signal Integrity Engineer",
+            "location": "Bristol, UK; Cambridge, UK; London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8243739002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Test Development Engineer - Electronic Hardware",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8318154002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Test Development Engineer - Electronics Hardware",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8080249002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Thermal Development Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8313945002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Board Manufacturing Test Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7777980002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Component Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8215495002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Manufacturing Manager",
+            "location": "Hsinchu City, Hsinchu City, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8183760002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Board Test EngineerNew",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8351001002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior ATE Engineer New",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8351019002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Back End DFT Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8171514002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Board Manufacturing Test Engineer",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7918637002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Board Manufacturing Test Engineer",
+            "location": "Hsinchu City, Hsinchu City, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8025398002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Supply Chain Manager",
+            "location": "\u81fa\u5317\u5e02, Taipei, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8323380002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Thermal Engineer",
+            "location": "Hsinchu City, Hsinchu City, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314336002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Supply Chain Data Analyst",
+            "location": "Hsinchu City, Hsinchu City, Taiwan; \u81fa\u5317\u5e02, Taipei, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8219021002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "System Test Operations EngineerNew",
+            "location": "Hsinchu City, Hsinchu City, Taiwan; \u81fa\u5317\u5e02, Taipei, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8351030002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Cloud Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8236286002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Cloud Systems Test Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7885440002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "QA Test Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8243696002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "QA Test EngineerNew",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8343302002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Cloud Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8236243002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Kubernetes Software Engineer (Go)New",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8345184002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff Engineer - Observability",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8222244002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff Engineer - Platform QA",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7817018002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Engineer - Cloud DevelopmentNew",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8346616002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Technical Program Manager, Post Silicon Validation and Bring-Up",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8323789002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Technical Project Manager",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8325798002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "DFT Engineer",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8212138002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Director / Senior Principal AI SoC Validation (Bring-up lead)",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8286166002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Director, Silicon Verification",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331005002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Bring-Up and Characterisation Engineer",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8310686002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Embedded SW/FW Engineer (Bringup) - Bengaluru, multiple vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8221993002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Silicon Physical Design Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8286991002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Silicon Verification Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8288720002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Bring-Up and Characterisation Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8287098002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Bring-Up and Characterisation Engineer - Bengaluru, Multiple Vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8204022002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Bring-Up and Characterisation Engineer - Bengaluru, Multiple Vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8221943002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Embedded SW/FW Engineer (Bringup) - Bengaluru, multiple vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8288830002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Embedded SW/FW Engineer (Bringup), Bengaluru, multiple vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8204048002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Silicon Physical Design Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8286971002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Silicon Verification Engineer",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203969002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Silicon Logical Design Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8288832002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Silicon Physical Design Engineer - Bengaluru, Multiple Vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203935002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Bring-Up and Characterisation Engineer",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314723002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Bring-Up and Characterisation Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8287095002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Embedded SW/FW Engineer (Bringup) - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8288728002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Silicon Logical Design Engineer - Bengaluru, Multiple Vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8221170002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Silicon Physical Design Engineer - Bengaluru",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8286990002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Silicon Verification Engineer - Bengaluru, Multiple Vacancies",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8221995002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Logical Design Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8222160002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Logical Design Engineer",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8238561002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Silicon Physical Design Engineer",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8223622002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "AI SoC Validation / Bring-up Lead",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8231827002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Post Silicon Validation Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8223577002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Silicon Verification Engineer",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8223890002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "ML Application Simulator Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331156002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161619002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8331138002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161633002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff BMC EngineerNew",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8346644002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff Firmware Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314101002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff System Software Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8289211002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff System Software Engineer",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8289251002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Staff System Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8289256002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161643002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8161658002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineer \u2013 ML Kernels & Runtime",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8203287002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Release Manager",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8327623002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineer - Pytorch",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8195293002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineer - Triton",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/7882364002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer",
+            "location": "Bristol, UK; Cambridge, UK; London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8147797002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Office Manager - Taipei",
+            "location": "\u81fa\u5317\u5e02, Taipei, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8243703002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Finance Manager - USNew",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8349791002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Data Centre Operations EngineerNew",
+            "location": "Newport, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8343349002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Desktop and Engineering Support Engineer",
+            "location": "\u81fa\u5317\u5e02, Taipei, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314115002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Desktop and Engineering Support Engineer",
+            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314137002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Linux Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314008002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Security Information & Event Management (SIEM) Specialist - Incident Response Lead",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314051002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Storage Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314025002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Vulnerability Manager",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314054002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "2026 Research Intern",
+            "location": "Bristol, UK; Cambridge, UK; London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8287389002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Bring-up & Characterisation Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8215151002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Principal Bring-Up and Characterisation Engineer",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8307250002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Bring-Up and Characterisation Engineer",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8307216002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Bring-Up and Characterisation Engineer",
+            "location": "Austin, Texas, US",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8307242002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Head of Quality",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8341539002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Manufacturing & NPI Buyer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8219079002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Research Scientist (Embodied AI & World Models)",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8292119002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Research Scientist (Embodied AI & World Models)",
+            "location": "Bristol, UK; Cambridge, UK; London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8292133002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Research Scientist (Embodied AI & World Models)",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8292135002"
+        },
+        {
             "company": "hightouch",
             "title": "AI Strategy Consultant",
             "location": "Remote (North America)",
@@ -9009,12 +9621,6 @@
         {
             "company": "Box",
             "title": "Customer Success Manager",
-            "location": "New York City, NY",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7339934"
-        },
-        {
-            "company": "Box",
-            "title": "Customer Success Manager",
             "location": "Japan",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7234249"
         },
@@ -9029,6 +9635,12 @@
             "title": "Customer Success Manager INew",
             "location": "Redwood City, CA, US, San Francisco, CA, US",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7485194"
+        },
+        {
+            "company": "Box",
+            "title": "Customer Success Manager IINew",
+            "location": "New York, NY, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7360291"
         },
         {
             "company": "Box",
