@@ -21,4 +21,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("yuno", "https://jobs.lever.co/yuno", Scrapers.LEVER.value, "https://y.uno"),
         CompanyItem("capital", "https://jobs.lever.co/capital", Scrapers.LEVER.value, "https://www.capital.com"),
         CompanyItem("smartasset", "https://job-boards.greenhouse.io/smartasset", Scrapers.GREENHOUSE.value, "https://www.smartasset.com"),
+        CompanyItem("earnin", "https://job-boards.greenhouse.io/earnin", Scrapers.GREENHOUSE.value, "https://www.earnin.com"),
+        CompanyItem("getrecharge.com", "https://job-boards.greenhouse.io/recharge", Scrapers.GREENHOUSE.value, "https://getrecharge.com"),
     ]
