@@ -94,8 +94,6 @@ def get_company_list() -> list[CompanyItem]:
                     'https://bitwiseinvestments.com'),
         CompanyItem('grayscaleinvestments', 'https://boards.greenhouse.io/grayscaleinvestments', Scrapers.GREENHOUSE.value,
                     'https://grayscale.com'),
-        CompanyItem('dydx', 'https://boards.greenhouse.io/dydx', Scrapers.GREENHOUSE.value,
-                    'https://dydx.exchange'),
         CompanyItem('ssv.network', 'https://boards.greenhouse.io/bloxstaking', Scrapers.GREENHOUSE.value,
                     'https://ssv.network'),
         CompanyItem('xlabs', 'https://jobs.ashbyhq.com/Xlabs', Scrapers.ASHBYHQ.value,

@@ -37,8 +37,6 @@ def get_company_list() -> list[CompanyItem]:
                     'https://www.iofinnet.com'),
         CompanyItem('filecoinfoundation', "https://boards.greenhouse.io/filecoinfoundation", Scrapers.GREENHOUSE.value,
                     "https://fil.org"),
-        CompanyItem('movementlabs', 'https://jobs.ashbyhq.com/movementlabs', Scrapers.ASHBYHQ.value,
-                    'https://movementlabs.xyz'),
         CompanyItem('econetwork', 'https://job-boards.greenhouse.io/ecoinc', Scrapers.GREENHOUSE.value,
                     'https://eco.com'),
         CompanyItem('obol-tech', 'https://jobs.lever.co/obol-tech', Scrapers.LEVER.value, 'https://obol.tech'),
@@ -54,5 +52,6 @@ def get_company_list() -> list[CompanyItem]:
                     'https://www.shadow.xyz'),
         CompanyItem('flipsidecrypto', 'https://jobs.ashbyhq.com/flipsidecrypto', Scrapers.ASHBYHQ.value, 'https://flipsidecrypto.xyz'),
         CompanyItem('blast', 'https://jobs.ashbyhq.com/blast-io', Scrapers.ASHBYHQ.value, 'https://blast.io'),
-
+        CompanyItem('dydx', 'https://boards.greenhouse.io/dydx', Scrapers.GREENHOUSE.value,
+                    'https://dydx.exchange'),
     ]
