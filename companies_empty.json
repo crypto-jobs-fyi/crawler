@@ -105,11 +105,6 @@
         "jobs_url": "https://boards.greenhouse.io/filecoinfoundation"
     },
     {
-        "company_name": "movementlabs",
-        "company_url": "https://movementlabs.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/movementlabs"
-    },
-    {
         "company_name": "econetwork",
         "company_url": "https://eco.com",
         "jobs_url": "https://job-boards.greenhouse.io/ecoinc"
@@ -158,5 +153,10 @@
         "company_name": "blast",
         "company_url": "https://blast.io",
         "jobs_url": "https://jobs.ashbyhq.com/blast-io"
+    },
+    {
+        "company_name": "dydx",
+        "company_url": "https://dydx.exchange",
+        "jobs_url": "https://boards.greenhouse.io/dydx"
     }
 ]
