@@ -102,4 +102,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('inworld-ai', 'https://jobs.ashbyhq.com/inworld-ai', Scrapers.ASHBYHQ.value, 'https://www.inworld.ai'),
         CompanyItem('uipath', 'https://jobs.ashbyhq.com/uipath', Scrapers.ASHBYHQ.value, 'https://www.uipath.com'),
         CompanyItem("RadicalAI", "https://jobs.lever.co/RadicalAI", Scrapers.LEVER.value, "https://www.radical-ai.com"),
+        CompanyItem("zushealth", "https://jobs.lever.co/zushealth", Scrapers.LEVER.value, "https://www.zushealth.com"),
+        CompanyItem('retellai', 'https://jobs.ashbyhq.com/retell-ai', Scrapers.ASHBYHQ.value, 'https://www.retellai.com'),
+        CompanyItem('airgarage', 'https://jobs.ashbyhq.com/airgarage', Scrapers.ASHBYHQ.value, 'https://www.airgarage.com'),
     ]
