@@ -344,7 +344,7 @@
         },
         {
             "company": "mistral",
-            "title": "Lead Software Engineer, Enterprise Systems",
+            "title": "Lead Software Engineer, Enterprise Agents",
             "location": "PARIS,HYBRID",
             "link": "https://jobs.lever.co/mistral/3eef7a1f-cd9d-430e-ac67-9d52534c346a"
         },
@@ -431,6 +431,18 @@
             "title": "Software Engineer, Mistral Vibe",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/mistral/108dd647-59bd-4077-a840-2a0036404f58"
+        },
+        {
+            "company": "mistral",
+            "title": "Software Engineer, New Grad",
+            "location": "PARIS,ON-SITE",
+            "link": "https://jobs.lever.co/mistral/cf4616fc-977a-475c-bb2e-eb46a2c4a94f"
+        },
+        {
+            "company": "mistral",
+            "title": "Software Engineer, QA",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/mistral/03918386-cb56-4e4d-afa8-1f8b7676a4a6"
         },
         {
             "company": "mistral",
@@ -3194,12 +3206,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Perception Software Engineer (C++) (R3554)",
-            "location": "US / SAN DIEGO, CALIFORNIA / BOSTON, MA / WASHINGTON, DC,REMOTE",
-            "link": "https://jobs.lever.co/shieldai/99d89eb7-4c3c-4cff-b870-ead4d15823d5"
-        },
-        {
-            "company": "shieldai",
             "title": "Sr. Engineering Manager, Discrete Planning for Autonomy (R4318)",
             "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/f10c0aed-f100-4f74-a56c-b1346e14d1f0"
@@ -3209,12 +3215,6 @@
             "title": "Staff Engineer, Full Stack Software - Autonomy Tooling & Visualization (R4350)",
             "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/78f39483-2390-4de0-9417-2f51c6e47985"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Reinforcement Learning (R3639)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/e5c95f48-8178-4322-87f7-067e7f75258d"
         },
         {
             "company": "shieldai",
@@ -3548,9 +3548,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Contracts Administrator (R3799)",
-            "location": "WASHINGTON, DC,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/e49c179d-24e2-4767-a744-a469aff56399"
+            "title": "Contracts Administrator (R3799)",
+            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/95a57d98-1825-4dc2-a45e-cb91e31c71e5"
         },
         {
             "company": "shieldai",
@@ -3566,7 +3566,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Curriculum Manager, Next Gen Aircraft (R4178)",
+            "title": "Curriculum Manager (R4178)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/08c7814f-16aa-4606-88fc-4da9fa19198a"
         },
@@ -4683,7 +4683,7 @@
         {
             "company": "netomi",
             "title": "Senior Accountant - Accounting Operations & Reporting (SaaS)",
-            "location": "US (REMOTE),REMOTE",
+            "location": "NEW YORK CITY,REMOTE",
             "link": "https://jobs.lever.co/netomi/6e6e95a2-c7a8-4b92-9635-e199fb457e36"
         },
         {
@@ -4895,6 +4895,60 @@
             "title": "DevOps Engineer",
             "location": "NEW YORK, NY,ON-SITE",
             "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
+        },
+        {
+            "company": "zushealth",
+            "title": "Account Executive",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/e6e4ed71-5ffb-43fe-a995-d11fddcee471"
+        },
+        {
+            "company": "zushealth",
+            "title": "Implementation Engineer",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/56d72ba0-639d-4660-be2e-deb3f8ebe10b"
+        },
+        {
+            "company": "zushealth",
+            "title": "Enterprise Sales Director",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/40396261-5a35-4e16-8291-44b4065d232d"
+        },
+        {
+            "company": "zushealth",
+            "title": "Manager, Data Acquisition Team",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/6d077b2e-4192-4ef4-8add-4aa95265dc7d"
+        },
+        {
+            "company": "zushealth",
+            "title": "Senior Software Engineer, Data Acquisition Team",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/0daade07-7ad0-47f5-9e08-d81503983a88"
+        },
+        {
+            "company": "zushealth",
+            "title": "Software Engineer, Data Acquisition Team",
+            "location": "BOSTON, MA,HYBRID",
+            "link": "https://jobs.lever.co/zushealth/7b2662db-7de9-46e3-9c16-6fbd9e8d1a96"
+        },
+        {
+            "company": "zushealth",
+            "title": "Staff Software Engineer, Data Acquisition Team",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/503baccf-89ff-4204-b83c-b9039eded54a"
+        },
+        {
+            "company": "zushealth",
+            "title": "Future Zusers",
+            "location": "BOSTON, MA,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/5663a4bd-c398-4df3-9f95-65dc37454750"
+        },
+        {
+            "company": "zushealth",
+            "title": "People Operations Intern",
+            "location": "BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/zushealth/c371fafc-bc58-4133-a2d5-c90c5cd818ff"
         }
     ]
 }
