@@ -13,7 +13,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("huspy", "https://job-boards.greenhouse.io/huspy", Scrapers.GREENHOUSE, "https://www.huspy.com"),
         CompanyItem("momentmarkets", "https://job-boards.greenhouse.io/momentmarkets", Scrapers.GREENHOUSE, "https://www.moment.com"),
         CompanyItem('9fin', 'https://jobs.ashbyhq.com/9fin', Scrapers.ASHBYHQ, 'https://www.9fin.com'),
-        CompanyItem('grape-health', 'https://jobs.lever.co/grape-health', Scrapers.LEVER, 'https://www.grapehealth.ch'),
+        CompanyItem('grape-health', 'https://jobs.eu.lever.co/grape-health', Scrapers.LEVER, 'https://www.grapehealth.ch'),
         CompanyItem('cmgx', 'https://jobs.lever.co/cmgx', Scrapers.LEVER, 'https://www.cmgx.io'),
         CompanyItem("addepar", "https://job-boards.greenhouse.io/addepar1", Scrapers.GREENHOUSE, "https://addepar.com"),
         CompanyItem("clearstreet", "https://job-boards.greenhouse.io/clearstreet", Scrapers.GREENHOUSE, "https://clearstreet.io"),
