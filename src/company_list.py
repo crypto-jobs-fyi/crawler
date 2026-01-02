@@ -264,4 +264,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('freedx', 'https://apply.workable.com/freedx/#jobs', Scrapers.WORKABLE,
                 'https://www.exchange.freedx.com/en'),
         CompanyItem('trust-wallet', 'https://jobs.ashbyhq.com/trust-wallet', Scrapers.ASHBYHQ, 'https://trustwallet.com'),
+        CompanyItem("cosmoslabs", "https://job-boards.greenhouse.io/cosmoslabs", Scrapers.GREENHOUSE,
+                    "https://www.cosmoslabs.io"),
     ]

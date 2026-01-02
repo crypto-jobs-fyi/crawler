@@ -1,0 +1,33 @@
+name: Trigger All Crawler AI Workflows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-workflows:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Trigger Crawler AI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-ai.yml
+
+      - name: Trigger Crawler AI Ashby
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-ai-ashby.yml
+
+      - name: Trigger Crawler AI Greenhouse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-ai-greenhouse.yml
+
+      - name: Trigger Crawler AI Lever
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-ai-lever.yml
