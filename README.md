@@ -1,34 +1,81 @@
 # crypto-jobs-crawler
-The idea is to build a dashboard with crypto jobs plus some index number to track industry health. Plus you can search for a job as well :)
 
-# support the project
-If you find this project useful please donate ETH/ERC-20 to [0x589a0d87d600a6c6faa34c491c9e779f434bc51d](https://etherscan.io/address/0x589a0d87d600a6c6faa34c491c9e779f434bc51d)
+A Python-based web crawler designed to scrape job listings from various crypto, AI, and Fintech company websites and Applicant Tracking Systems (ATS).
 
-# roadmap
-- automate scraping positions from most popular HR platforms
-- enable simple way of displaying these positions in browser
-- enable storage of data as it needed for index calculations
-- build better UI with simple search feature
-- ...
+The goal is to build a dashboard with industry jobs and track industry health through index calculations.
 
-# how to use?
-Given that you have Python 3.5+ and pip installed just run pip install -r requirements.txt
-Crawler uses just 1 none standard libs:
-- selenium 
-- `pip install -r requirements.txt`
-Next just run `crawler.py`
+## Supported Platforms (ATS)
+The crawler supports major HR platforms including:
+- **Greenhouse**
+- **Ashby**
+- **Lever**
+- **Workable**
+- **SmartRecruiters**
+- **BambooHR**
+- **Gem**
+- And many custom company-specific scrapers (Coinbase, Ripple, Gemini, etc.)
 
-## Docker
+## Architecture
+
+- **Orchestration**: Entry points like `crawler_ai.py`, `crypto_crawler.py`, and `crawler_tech.py` manage the scraping process.
+- **Scrapers**: Modular scraper classes in `src/` inheriting from `ScrapeIt`.
+- **Data Models**: `CompanyItem` defines the target company, its jobs URL, and the scraper to use.
+- **Automation**: GitHub Actions workflows automate periodic scraping and data updates via Pull Requests.
+
+## How to use?
+
+### Local Setup
+1.  **Environment**: Python 3.12+ is recommended.
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+2.  **Run Crawler**:
+    ```bash
+    python crawler_ai.py
+    ```
+    *Note: Crawlers run in headless mode by default. To debug visually, disable headless mode in the crawler script.*
+
+### Docker
 - `docker build --tag scrap:latest .`
-- `docker run --rm -it -v ${PWD}:/data docker.io/library/scrap:latest`
+- `docker run --rm -it -v ${PWD}:/data scrap:latest`
 
-# UI staff
-Let's try GitHub pages here: https://crypto-jobs-fyi.github.io/web/
-Locally just run `python3 -m http.server 8000` and open `localhost:8000` in your browser.
+## UI
+The scraped data is displayed on GitHub Pages: [crypto-jobs-fyi.github.io/web/](https://crypto-jobs-fyi.github.io/web/)
+Locally, you can view it by running:
+```bash
+python3 -m http.server 8000
+```
 
-# What we will watch -> work in progress
+## Development
 
-wip:
+### Adding a New Company
+1.  Identify the ATS used by the company.
+2.  Add a `CompanyItem` to the relevant list in `src/company_*_list.py`:
+    ```python
+    CompanyItem('CompanyName', 'https://jobs.url', Scrapers.GREENHOUSE, 'https://company.url')
+    ```
+
+### Creating a Custom Scraper
+1.  Create `src/scrape_<name>.py` inheriting from `ScrapeIt`.
+2.  Implement `getJobs(self, driver, web_page, company)`.
+3.  Register the new scraper in `src/scrapers.py`.
+
+## Roadmap
+- [x] Automate scraping from popular HR platforms
+- [x] Enable storage of data for index calculations
+- [ ] Build better UI with advanced search features
+- [ ] Expand coverage to more niche crypto companies
+
+## Support the project
+If you find this project useful, please donate ETH/ERC-20 to:
+`0x589a0d87d600a6c6faa34c491c9e779f434bc51d`
+
+---
+
+# Work in Progress (WIP) Links
+The following companies are targeted for future integration:
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://apply.workable.com/re7-capital/
@@ -76,7 +123,7 @@ wip:
 - https://bitflyer.com/en-jp/recruit#positions
 - https://livepeer.org/jobs
 - https://www.blockchains.com/careers/#board
-- https://join.com/companies/21-finance
+- https://21x.eu/careers/
 - https://fantom.foundation/careers
 - https://careers.smartrecruiters.com/Bitoasis
 - https://www.coincover.com/careers
@@ -87,7 +134,6 @@ wip:
 - https://www.certora.com/#careers
 - https://istari.vision/en/career/
 - https://gamescoin.jobs.personio.de/
-- https://jobs.hiro.cash/
 - https://apply.workable.com/interlay/
 - https://composable-finance.jobs.personio.com/
 - https://www.karpatkey.com/jobs
@@ -98,7 +144,6 @@ wip:
 - https://zondacrypto.softgarden.io/en/vacancies
 - https://lightcurve.jobs.personio.de/
 - https://horizenlabs.io/careers/
-- https://l2beat.notion.site/We-are-hiring-Work-at-L2BEAT-e4e637265ae94c5db7dfa2de336b940f
 - https://bwarelabs.mingle.ro/en/apply
 - https://github.com/tvl-labs/job-board/blob/main/engineering/protocol_engineer.md
 - https://wellfound.com/company/redstonefinance/jobs
@@ -108,7 +153,6 @@ wip:
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/
 - https://www.ethswarm.org/jobs
 - https://cash.app/careers
-- https://join.com/companies/peaq
 - https://edxmarkets.com/about/careers/
 - https://bloxstaking.breezy.hr/
 - https://zero-hash.breezy.hr/
@@ -119,7 +163,6 @@ wip:
 - https://www.lightspark.com/careers
 - https://www.talos.com/working/open-roles
 - https://www.coinomi.com/careers
-- https://apply.workable.com/apollolabs  https://apollo.xyz/
 - https://apply.workable.com/summerfi/#jobs https://summer.fi/
 - https://cryptotaxcalculator.io/us/jobs/
 - https://careers.transak.com/
@@ -131,21 +174,3 @@ wip:
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://lightcurve.jobs.personio.de/?language=en
 - https://apply.workable.com/anza-xyz/
-
-
-not only crypto:
-
-- https://careers.smartrecruiters.com/MicroStrategy1
-- https://jobs.lever.co/Hume - https://wearehume.com
-
-not yet crypto:
-
-- https://boards.greenhouse.io/papaya
-- https://jobs.lever.co/pigment
-- https://jobs.lever.co/neednova
-- https://plaid.com/careers/openings
-
-to be fixed:
-
-    CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER, "https://www.ledger.com"),
-        CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),

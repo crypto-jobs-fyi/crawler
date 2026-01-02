@@ -69,8 +69,9 @@ Tests are located in the `test/` directory and use `pytest`.
 1.  Import the scraper class in the appropriate list file (e.g., `src/company_ai_list.py`).
 2.  Add a `CompanyItem` to the list:
     ```python
-    CompanyItem('CompanyName', 'https://jobs.url', ScrapeMyATS, 'https://company.url')
+    CompanyItem('CompanyName', 'https://jobs.url', Scrapers.MY_ATS, 'https://company.url')
     ```
+    *Note: Use `Scrapers.NAME` directly (not `.value`).*
 
 ### Error Handling
 - Scrapers should be robust. If a specific company fails, the main loop in `crawler_*.py` catches the exception and continues to the next company.
