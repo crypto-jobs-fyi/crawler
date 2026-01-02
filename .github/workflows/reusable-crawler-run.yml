@@ -1,0 +1,64 @@
+name: Reusable Crawler Run
+
+on:
+  workflow_call:
+    inputs:
+      script_name:
+        required: true
+        type: string
+      output_json:
+        required: true
+        type: string
+      branch_name:
+        required: true
+        type: string
+      pr_title:
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run crawler script
+        run: python ${{ inputs.script_name }}
+
+      - name: set-output
+        if: failure() || success()
+        id: set-output
+        run: |
+          ls -l
+          echo "current=$(jq -c . ${{ inputs.output_json }})" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update data via ${{ inputs.script_name }} [automated]'
+          base: main
+          branch: ${{ inputs.branch_name }}
+          title: ${{ inputs.pr_title }}
+          body: |
+            This PR contains changes made by running ${{ inputs.script_name }} via GitHub Actions.
+
+            ```json
+            ${{ steps.set-output.outputs.current }}
+            ```
+          delete-branch: true
+          reviewers: yury-dubinin
