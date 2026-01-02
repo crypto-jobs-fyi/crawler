@@ -14,4 +14,3 @@ Companies.write_companies(companies_file, company_list)
 
 runner = CrawlerRunner(jobs_file, current_jobs_file)
 runner.run(company_list)
-

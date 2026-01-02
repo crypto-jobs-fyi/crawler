@@ -1,13 +1,5 @@
 import tempfile
-import time
-from datetime import datetime
 
-from selenium import webdriver
-
-import tempfile
-from src.scrapers import Scrapers
-from src.company_item import CompanyItem
-from src.scrape_it import ScrapeIt
 from src.companies import Companies
 from src.company_list import get_company_list
 from src.crawler_runner import CrawlerRunner
