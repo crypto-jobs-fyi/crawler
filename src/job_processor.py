@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 
 def get_new_jobs(jobs_file: str, jobs_age_file: str, jobs_new_file: str, job_age_number: int = 3):
     with open(jobs_file, 'r') as jobs:
@@ -9,11 +10,21 @@ def get_new_jobs(jobs_file: str, jobs_age_file: str, jobs_new_file: str, job_age
         jobs_age_json = json.load(age)
 
     recent_jobs = []
+    now = datetime.date(datetime.now())
 
     for job in jobs_data:
         link = job['link']
-        if link in jobs_age_json and jobs_age_json[link] < job_age_number:
-            recent_jobs.append(job)
+        if link in jobs_age_json:
+            added_val = jobs_age_json[link]
+            
+            # Handle date strings (new format)
+            if isinstance(added_val, str):
+                try:
+                    added_date = datetime.strptime(added_val, '%Y-%m-%d').date()
+                    if (now - added_date).days < job_age_number:
+                        recent_jobs.append(job)
+                except ValueError:
+                    pass
 
     print(f"Found {len(recent_jobs)} new jobs.")
     for job in recent_jobs:

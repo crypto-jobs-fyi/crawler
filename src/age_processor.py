@@ -24,13 +24,11 @@ def update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file):
     with open(current_json_file, "w") as file:
         json.dump(current_jobs, file, indent=4)
 
+    now_str = f'{datetime.date(datetime.now())}'
     for job in jobs_data:
         link = job.get('link')
-        num = age_data.get(link, 0)
-        if num != 0:
-            age_data[link] = num + 1
-        else:
-            age_data[link] = 1
+        if link not in age_data:
+            age_data[link] = now_str
 
     print(f'Number of jobs processed: {len(age_data)}')
     with open(jobs_age_file, 'w') as file:

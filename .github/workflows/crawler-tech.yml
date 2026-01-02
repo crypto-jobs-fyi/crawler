@@ -28,6 +28,12 @@ jobs:
       - name: Run crawler_tech.py
         run: python crawler_tech.py
 
+      - name: Run write_tech_jobs_age.py
+        run: python write_tech_jobs_age.py
+
+      - name: Run get_new_tech_jobs.py
+        run: python get_new_tech_jobs.py
+      
       - name: set-output
         if: failure() || success()
         id: set-output
