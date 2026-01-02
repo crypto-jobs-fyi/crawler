@@ -18,7 +18,6 @@ from src.scrape_nebius import ScrapeNebius
 from src.scrape_applied_intuition import ScrapeAppliedIntuition
 from src.scrape_cleo import ScrapeCleo
 from src.scrape_c3 import ScrapeC3
-from src.scrape_groq import ScrapeGrog
 from src.scrape_gem import ScrapeGem
 from src.scrape_bitcoinsuisse import ScrapeBitcoinSuisse
 from src.scrape_gemini import ScrapeGemini
