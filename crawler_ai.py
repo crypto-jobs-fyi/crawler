@@ -6,15 +6,12 @@ from src.crawler_runner import CrawlerRunner
 
 jobs_file = 'ai_jobs.json'
 current_jobs_file = 'ai_current_jobs.json'
-companies_file = 'ai_companies.json'
 
 company_list: list[CompanyItem] = get_company_list()
 print(f'[CRAWLER] Number of companies: {len(company_list)}')
-Companies.write_companies(companies_file, company_list)
 
 exclude = [Scrapers.ASHBYHQ, Scrapers.GREENHOUSE, Scrapers.LEVER]
 filtered_companies = Companies.filter_companies_not(company_list, exclude)
 
 runner = CrawlerRunner(jobs_file, current_jobs_file)
 runner.run(filtered_companies)
-
