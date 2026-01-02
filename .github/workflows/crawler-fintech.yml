@@ -31,6 +31,9 @@ jobs:
       - name: Run write_fin_jobs_age.py
         run: python write_fin_jobs_age.py
 
+      - name: Run get_new_fin_jobs.py
+        run: python get_new_fin_jobs.py
+
       - name: set-output
         if: failure() || success()
         id: set-output
