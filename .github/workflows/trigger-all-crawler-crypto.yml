@@ -1,0 +1,38 @@
+name: Trigger All Crawler Crypto Workflows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trigger-workflows:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Trigger Crawler Crypto
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-crypto.yml
+
+      - name: Trigger Crawler Crypto Ashby
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-crypto-ashby.yml
+
+      - name: Trigger Crawler Crypto Greenhouse
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-crypto-greenhouse.yml
+
+      - name: Trigger Crawler Crypto Lever
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-crypto-lever.yml
+
+      - name: Trigger Crawler Crypto Empty
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run crawler-crypto-empty.yml
