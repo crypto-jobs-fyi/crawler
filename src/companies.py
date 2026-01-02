@@ -33,3 +33,7 @@ class Companies:
     @staticmethod
     def filter_companies_not(company_list: list[CompanyItem], scraper_types: list) -> list[CompanyItem]:
         return [company for company in company_list if getattr(company, 'scraper_type', None) not in scraper_types]
+
+    @staticmethod
+    def filter_companies_by_name(company_list: list[CompanyItem], company_names: list[str]) -> list[CompanyItem]:
+        return [company for company in company_list if company.company_name in company_names]
