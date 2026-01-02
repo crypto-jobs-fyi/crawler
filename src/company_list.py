@@ -266,4 +266,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('trust-wallet', 'https://jobs.ashbyhq.com/trust-wallet', Scrapers.ASHBYHQ, 'https://trustwallet.com'),
         CompanyItem("cosmoslabs", "https://job-boards.greenhouse.io/cosmoslabs", Scrapers.GREENHOUSE,
                     "https://www.cosmoslabs.io"),
+        CompanyItem("consensys", "https://consensys.io/open-roles", Scrapers.CONSENSYS,
+                    "https://consensys.io"),
     ]

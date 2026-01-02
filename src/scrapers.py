@@ -1,5 +1,6 @@
 from enum import Enum
 
+from src.scrape_consensys import ScrapeConsensys
 from src.scrape_base import ScrapeBase
 from src.scrape_coinbase import ScrapeCoinbase
 from src.scrape_ripple import ScrapeRipple
@@ -50,3 +51,4 @@ class Scrapers:
     KULA = ScrapeKula
     WORLDCOIN = ScrapeWorld
     AVARA = ScrapeAvara
+    CONSENSYS = ScrapeConsensys

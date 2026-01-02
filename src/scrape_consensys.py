@@ -11,18 +11,21 @@ class ScrapeConsensys(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(9)
-        time.sleep(5)
+        time.sleep(2)
+        # scroll to bottom to load all jobs
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(3)
         group_elements = driver.find_elements(By.XPATH, '//a[contains(@class, "card-job")]')
         result = []
         for elem in group_elements:
             link_elem = elem
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'h5')
             job_url = link_elem.get_attribute('href')
-            job_name = job_name_elem.text
+            location_elem = elem.find_element(By.XPATH, './/div[contains(@class, "job-location")]')
             job = {
                 "company": company,
-                "title": job_name,
-                "location": 'USA - Remote',
+                "title": job_name_elem.text,
+                "location": location_elem.text.replace('UNITED STATES', 'US'),
                 "link": job_url
             }
             result.append(job)
