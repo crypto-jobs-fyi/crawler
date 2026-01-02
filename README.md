@@ -76,6 +76,7 @@ If you find this project useful, please donate ETH/ERC-20 to:
 
 # Work in Progress (WIP) Links
 The following companies are targeted for future integration:
+- https://careers.smartrecruiters.com/MicroStrategy1
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
 - https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://apply.workable.com/re7-capital/
@@ -174,3 +175,11 @@ The following companies are targeted for future integration:
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://lightcurve.jobs.personio.de/?language=en
 - https://apply.workable.com/anza-xyz/
+- https://jobs.lever.co/pigment
+- https://jobs.lever.co/neednova
+- https://plaid.com/careers/openings
+
+to be fixed:
+
+CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER, "https://www.ledger.com"),
+CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),
