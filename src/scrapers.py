@@ -45,7 +45,6 @@ class Scrapers(Enum):
     APPLIED_INTUITION = ScrapeAppliedIntuition
     CLEO = ScrapeCleo
     C3 = ScrapeC3
-    GROQ = ScrapeGrog
     GEM = ScrapeGem
     BITCOINSUISSE = ScrapeBitcoinSuisse
     KULA = ScrapeKula
