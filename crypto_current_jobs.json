@@ -1,20 +1,21 @@
 {
     "base": 21,
-    "total_jobs": 623,
+    "total_jobs": 648,
     "paxos": 41,
     "circle": 66,
-    "robinhood": 91,
+    "robinhood": 92,
     "avara": 0,
     "walletconnect": 3,
     "io-global": 47,
-    "Swissquote": 65,
+    "Swissquote": 67,
     "almanak": 4,
     "ripple": 102,
     "lmax": 11,
-    "BitcoinSuisse": 16,
-    "gemini": 72,
+    "BitcoinSuisse": 10,
+    "gemini": 71,
     "worldcoin": 59,
     "ondo-finance": 12,
     "trojan-trading": 8,
-    "freedx": 5
+    "freedx": 5,
+    "consensys": 29
 }
