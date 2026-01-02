@@ -6,7 +6,6 @@ def get_company_list() -> list[CompanyItem]:
     return [
         CompanyItem('anthropic', 'https://job-boards.greenhouse.io/anthropic', Scrapers.GREENHOUSE, 'https://www.anthropic.com'),
         CompanyItem('openai', 'https://jobs.ashbyhq.com/openai', Scrapers.ASHBYHQ, 'https://openai.com'),
-        CompanyItem('groq', 'https://jobs.gem.com/groq', Scrapers.GEM, 'https://groq.com'),
         CompanyItem('quo.com', 'https://jobs.gem.com/quo', Scrapers.GEM, 'https://quo.com'),
         CompanyItem('lumalabs.ai', 'https://jobs.gem.com/lumalabs-ai', Scrapers.GEM, 'https://lumalabs.ai'),
         CompanyItem('GPTZero', 'https://jobs.ashbyhq.com/GPTZero', Scrapers.ASHBYHQ, 'https://gptzero.me'),
