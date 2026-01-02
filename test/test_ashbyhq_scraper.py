@@ -15,16 +15,16 @@ options = webdriver.ChromeOptions()
 #options.add_argument('--headless')
 driver = webdriver.Chrome(options=options)
 companies = [
-    CompanyItem('nethermind', 'https://jobs.ashbyhq.com/nethermind', Scrapers.ASHBYHQ.value, 'https://www.nethermind.io'),
-    CompanyItem('uipath', 'https://jobs.ashbyhq.com/uipath', Scrapers.ASHBYHQ.value, 'https://www.uipath.com'),
-    CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ.value, 'https://chainlinklabs.com'),
-    CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', Scrapers.ASHBYHQ.value, 'https://www.llamaindex.ai'),
-    CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', Scrapers.ASHBYHQ.value, 'https://coderabbit.ai'),
-    CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', Scrapers.ASHBYHQ.value, 'https://www.kiln.fi'),
-    CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', Scrapers.ASHBYHQ.value, 'https://dune.com'),
-    CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', Scrapers.ASHBYHQ.value, 'https://conduit.xyz'),
-    CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', Scrapers.ASHBYHQ.value, 'https://www.paradigm.xyz'),
-    CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', Scrapers.ASHBYHQ.value,
+    CompanyItem('nethermind', 'https://jobs.ashbyhq.com/nethermind', Scrapers.ASHBYHQ, 'https://www.nethermind.io'),
+    CompanyItem('uipath', 'https://jobs.ashbyhq.com/uipath', Scrapers.ASHBYHQ, 'https://www.uipath.com'),
+    CompanyItem('chainlink-labs', 'https://jobs.ashbyhq.com/chainlink-labs', Scrapers.ASHBYHQ, 'https://chainlinklabs.com'),
+    CompanyItem('llamaindex', 'https://jobs.ashbyhq.com/llamaindex', Scrapers.ASHBYHQ, 'https://www.llamaindex.ai'),
+    CompanyItem('coderabbit', 'https://jobs.ashbyhq.com/coderabbit', Scrapers.ASHBYHQ, 'https://coderabbit.ai'),
+    CompanyItem('kiln', 'https://jobs.ashbyhq.com/kiln.fi', Scrapers.ASHBYHQ, 'https://www.kiln.fi'),
+    CompanyItem('dune', 'https://jobs.ashbyhq.com/dune', Scrapers.ASHBYHQ, 'https://dune.com'),
+    CompanyItem('conduit', 'https://jobs.ashbyhq.com/Conduit', Scrapers.ASHBYHQ, 'https://conduit.xyz'),
+    CompanyItem('paradigm.xyz', 'https://jobs.ashbyhq.com/paradigm', Scrapers.ASHBYHQ, 'https://www.paradigm.xyz'),
+    CompanyItem('ellipsislabs', 'https://jobs.ashbyhq.com/ellipsislabs', Scrapers.ASHBYHQ,
                 'https://ellipsislabs.xyz')
 ]
 

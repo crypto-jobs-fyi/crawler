@@ -6,5 +6,5 @@ from src.scrape_it import ScrapeIt
 class CompanyItem:
     company_name: str
     jobs_url: str
-    scraper_type: ScrapeIt
+    scraper_type: type[ScrapeIt]
     company_url: str

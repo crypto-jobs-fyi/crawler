@@ -25,7 +25,7 @@ from src.scrape_kula import ScrapeKula
 from src.scrape_world import ScrapeWorld
 from src.scrape_avara import ScrapeAvara
 
-class Scrapers(Enum):
+class Scrapers:
     ROBINHOOD = ScrapeRobinhood
     CIRCLE = ScrapeCircle
     PAXOS = ScrapePaxos

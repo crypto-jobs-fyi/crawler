@@ -30,7 +30,7 @@ chrome_options.add_argument('--disable-extensions')
 driver: WebDriver = webdriver.Chrome(options=chrome_options)
 
 n: int = 1
-now: datetime.date = datetime.date(datetime.now())
+now = datetime.date(datetime.now())
 start_time: float = time.time()
 jobs_data: List[Dict[str, Any]] = []
 for company in company_list:

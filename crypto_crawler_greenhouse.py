@@ -26,7 +26,7 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--disable-extensions')
 driver: webdriver.Chrome = webdriver.Chrome(options=chrome_options)
 
-filtered_companies = Companies.filter_companies(company_list, Scrapers.GREENHOUSE.value)
+filtered_companies = Companies.filter_companies(company_list, Scrapers.GREENHOUSE)
 n = 1
 now = datetime.date(datetime.now())
 start_time = time.time()

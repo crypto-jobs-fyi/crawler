@@ -28,10 +28,10 @@ chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 driver = webdriver.Chrome(options=chrome_options)
 
 company_list = [
-    CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', Scrapers.COINBASE.value, 'https://coinbase.com'),
-    CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM.value, 'https://www.sygnum.com'),
-    CompanyItem('paradigm.co', 'https://careers.kula.ai/paradigm', Scrapers.KULA.value, 'https://www.paradigm.co'),
-    CompanyItem("avara", "https://avara.xyz/careers", Scrapers.AVARA.value, "https://avara.xyz"),
+    CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', Scrapers.COINBASE, 'https://coinbase.com'),
+    CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM, 'https://www.sygnum.com'),
+    CompanyItem('paradigm.co', 'https://careers.kula.ai/paradigm', Scrapers.KULA, 'https://www.paradigm.co'),
+    CompanyItem("avara", "https://avara.xyz/careers", Scrapers.AVARA, "https://avara.xyz"),
 ]
 
 n = 1

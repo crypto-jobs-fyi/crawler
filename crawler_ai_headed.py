@@ -28,7 +28,7 @@ chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
 driver = webdriver.Chrome(options=chrome_options)
 
 company_list = [
-    CompanyItem('Cleo', 'https://revolutpeople.com/cleo/public/careers', Scrapers.CLEO.value, 'https://web.meetcleo.com'),
+    CompanyItem('Cleo', 'https://revolutpeople.com/cleo/public/careers', Scrapers.CLEO, 'https://web.meetcleo.com'),
 ]
 
 n = 1
