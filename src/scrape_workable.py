@@ -29,8 +29,13 @@ class ScrapeWorkable(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> list:
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
-        clear_filters_locator: str = 'a[data-ui="clear-filters"]'
         driver.implicitly_wait(5)
+        time.sleep(4)
+        acceptAll = driver.find_elements(By.XPATH, '//*[contains(text(), "Accept")]')
+        if len(acceptAll) > 0:
+            acceptAll[0].click()
+            time.sleep(3)
+        clear_filters_locator: str = 'a[data-ui="clear-filters"]'
         clear_filters: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
         if len(clear_filters) > 0:
             print(f'[{self.name}] Clear filters')
