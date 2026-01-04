@@ -12,7 +12,6 @@ from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
 from src.scrape_paxos import ScrapePaxos
 from src.scrape_robinhood import ScrapeRobinhood
-from src.scrape_bamboohr import ScrapeBamboohr
 from src.scrape_sygnum import ScrapeSygnum
 from src.scrape_lmax import ScrapeLmax
 from src.scrape_nebius import ScrapeNebius
@@ -40,7 +39,6 @@ class Scrapers:
     COINBASE = ScrapeCoinbase
     BASE = ScrapeBase
     RIPPLE = ScrapeRipple
-    BAMBOOHR = ScrapeBamboohr
     LMAX = ScrapeLmax
     NEBIUS = ScrapeNebius
     APPLIED_INTUITION = ScrapeAppliedIntuition
