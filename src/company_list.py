@@ -30,7 +30,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('Caldera', 'https://jobs.ashbyhq.com/Caldera', Scrapers.ASHBYHQ, 'https://www.caldera.xyz'),
         CompanyItem('blox-route', 'https://jobs.lever.co/blox-route', Scrapers.LEVER,
                     'https://bloxroute.com'),
-        CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', Scrapers.LEVER, 'https://multiversx.com'),
         CompanyItem('sprucesystems', 'https://jobs.lever.co/sprucesystems', Scrapers.LEVER, 'https://spruceid.com'),
         CompanyItem("scroll", "https://job-boards.greenhouse.io/scrollio", Scrapers.GREENHOUSE,
                     "https://scroll.io"),

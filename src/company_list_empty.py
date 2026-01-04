@@ -54,4 +54,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('blast', 'https://jobs.ashbyhq.com/blast-io', Scrapers.ASHBYHQ, 'https://blast.io'),
         CompanyItem('dydx', 'https://boards.greenhouse.io/dydx', Scrapers.GREENHOUSE,
                     'https://dydx.exchange'),
+        CompanyItem('multiversx', 'https://jobs.lever.co/multiversx', Scrapers.LEVER, 'https://multiversx.com'),
     ]
