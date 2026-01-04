@@ -1,25 +1,53 @@
 
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import pytest
 from selenium import webdriver
-
-from src.company_item import CompanyItem
 from src.scrape_lever import ScrapeLever
+from src.company_item import CompanyItem
+from src.scrapers import Scrapers
 
-company_list = [
-    CompanyItem("oxylabs", "https://jobs.lever.co/oxylabs", ScrapeLever, "https://www.oxylabs.io"),
-    CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', ScrapeLever,
-                'https://www.ethena.fi'),
-]
 
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
+@pytest.fixture
+def driver():
+    """Fixture to create and tear down a Chrome WebDriver."""
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-extensions')
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    yield driver
+    driver.quit()
 
-for company in company_list:
-    data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-    for entry in data:
-        print(entry)
 
-driver.close()
+@pytest.fixture
+def scraper():
+    """Fixture to create a ScrapeLever instance."""
+    return ScrapeLever()
+
+
+@pytest.fixture
+def company():
+    """Fixture to create an Oxylabs CompanyItem."""
+    return CompanyItem("oxylabs", "https://jobs.lever.co/oxylabs", Scrapers.LEVER, "https://www.oxylabs.io")
+
+
+def test_lever_scraper(driver, scraper, company):
+    """Test Lever scraper with Oxylabs to verify job extraction."""
+    # Act
+    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    
+    # Assert
+    assert isinstance(jobs, list), "getJobs should return a list"
+    assert len(jobs) > 0, f"Expected jobs for {company.company_name}, but got none"
+    
+    # Verify structure of each job
+    for job in jobs:
+        assert "company" in job, "Job missing 'company' field"
+        assert "title" in job, "Job missing 'title' field"
+        assert "link" in job, "Job missing 'link' field"
+        assert "location" in job, "Job missing 'location' field"
+        
+        assert job["company"] == company.company_name, f"Company name mismatch"
+        assert isinstance(job["title"], str) and len(job["title"]) > 0, "Job title should be non-empty string"
+        assert job["link"].startswith("http"), "Job link should be a valid URL"
+        assert isinstance(job["location"], str) and len(job["location"]) > 0, "Location should be non-empty string"
