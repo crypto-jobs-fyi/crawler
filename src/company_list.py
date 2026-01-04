@@ -269,4 +269,5 @@ def get_company_list() -> list[CompanyItem]:
                     "https://www.cosmoslabs.io"),
         CompanyItem("consensys", "https://consensys.io/open-roles", Scrapers.CONSENSYS,
                     "https://consensys.io"),
+        CompanyItem("bitfinex", "https://bitfinex.recruitee.com", Scrapers.RECRUITEE, "https://www.bitfinex.com"),
     ]

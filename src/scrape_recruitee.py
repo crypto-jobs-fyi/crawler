@@ -1,3 +1,4 @@
+import time
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
@@ -13,18 +14,17 @@ class ScrapeRecruitee(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> list:
         print(f'[RECRUITEE] Scrap page: {web_page}')
         driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job"]')
+        driver.implicitly_wait(5)
+        time.sleep(3)
+        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [data-testid="offer-list-cards-desktop-display"] a[class*="-1"]')
         result = []
         for elem in group_elements:
-            link_elem = elem.find_element(By.CSS_SELECTOR, '[class="job-title"] a')
-            location_elem = elem.find_element(By.CSS_SELECTOR, '[class="job-location"]')
-            job_url = link_elem.get_attribute('href')
-            location = clean_location(location_elem.text)
-            job_name = link_elem.text
+            job_url = elem.get_attribute('href')
+            job_name = elem.text
             job = {
                 "company": company,
                 "title": job_name,
-                "location": location,
+                "location": "REMOTE",
                 "link": job_url
             }
             result.append(job)

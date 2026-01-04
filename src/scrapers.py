@@ -24,6 +24,7 @@ from src.scrape_gemini import ScrapeGemini
 from src.scrape_kula import ScrapeKula
 from src.scrape_world import ScrapeWorld
 from src.scrape_avara import ScrapeAvara
+from src.scrape_recruitee import ScrapeRecruitee
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -50,3 +51,4 @@ class Scrapers:
     WORLDCOIN = ScrapeWorld
     AVARA = ScrapeAvara
     CONSENSYS = ScrapeConsensys
+    RECRUITEE = ScrapeRecruitee
