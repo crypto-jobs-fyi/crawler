@@ -48,6 +48,11 @@ Locally, you can view it by running:
 python3 -m http.server 8000
 ```
 
+## Testing
+
+Tests are located in the `test/` directory and use `pytest`.
+
+
 ## Development
 
 ### Adding a New Company
@@ -183,3 +188,4 @@ to be fixed:
 
 CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER, "https://www.ledger.com"),
 CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),
+CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', Scrapers.GREENHOUSE, 'https://www.trmlabs.com')

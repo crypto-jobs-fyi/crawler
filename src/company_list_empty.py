@@ -15,8 +15,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('BlockSwap', 'https://jobs.lever.co/BlockSwap', Scrapers.LEVER, 'https://www.blockswap.network'),
         CompanyItem('ultra', 'https://jobs.lever.co/ultra', Scrapers.LEVER, 'https://ultra.io'),
         CompanyItem('glassnode', 'https://jobs.lever.co/glassnode', Scrapers.LEVER, 'https://glassnode.com'),
-        CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', Scrapers.GREENHOUSE,
-                    'https://protocol.ai/about'),
         CompanyItem('Boost', 'https://jobs.ashbyhq.com/Boost', Scrapers.ASHBYHQ, 'https://Boost.xyz'),
         CompanyItem('exponential', 'https://jobs.ashbyhq.com/exponential', Scrapers.ASHBYHQ, 'https://exponential.fi'),
         CompanyItem('pyth', 'https://jobs.ashbyhq.com/pythnetwork', Scrapers.GREENHOUSE,

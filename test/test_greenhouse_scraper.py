@@ -1,82 +1,55 @@
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-
+import pytest
 from selenium import webdriver
-from src.company_item import CompanyItem
 from src.scrape_greenhouse import ScrapeGreenhouse
+from src.company_item import CompanyItem
+from src.scrapers import Scrapers
 
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
 
-company_list = [
-    CompanyItem('grayscaleinvestments', 'https://boards.greenhouse.io/grayscaleinvestments', ScrapeGreenhouse,
-                'https://grayscale.com'),
-    CompanyItem('dragonflycapital', 'https://boards.greenhouse.io/dragonflycapital', ScrapeGreenhouse,
-                'https://www.dragonfly.xyz'),
-    CompanyItem('penumbralabs', 'https://boards.greenhouse.io/penumbralabs', ScrapeGreenhouse,
-                'https://eco.com'),
-    CompanyItem('econetwork', 'https://boards.greenhouse.io/econetwork', ScrapeGreenhouse,
-                'https://eco.com'),
-    CompanyItem('outlierventures', 'https://boards.eu.greenhouse.io/outlierventures', ScrapeGreenhouse,
-                'https://outlierventures.io'),
-    CompanyItem('magic', 'https://boards.greenhouse.io/magic', ScrapeGreenhouse, 'https://magic.link'),
-    CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', ScrapeGreenhouse,
-                'https://www.trmlabs.com'),
-    CompanyItem('foundrydigital', 'https://boards.greenhouse.io/foundrydigital', ScrapeGreenhouse,
-                'https://foundrydigital.com'),
-    CompanyItem('o1labs', 'https://boards.greenhouse.io/o1labs', ScrapeGreenhouse, 'https://o1labs.org'),
-    CompanyItem('orderlynetwork', 'https://boards.greenhouse.io/orderlynetwork', ScrapeGreenhouse,
-                'https://orderly.network'),
-    CompanyItem('paradigm.co', 'https://boards.greenhouse.io/paradigm62', ScrapeGreenhouse, 'https://www.paradigm.co'),
-    CompanyItem('immunefi', 'https://boards.greenhouse.io/immunefi', ScrapeGreenhouse, 'https://immunefi.com'),
-    CompanyItem('protocollabs', 'https://boards.greenhouse.io/protocollabs', ScrapeGreenhouse,
-                'https://protocol.ai/about'),
-    CompanyItem('taxbit', 'https://boards.greenhouse.io/taxbit', ScrapeGreenhouse, 'https://taxbit.com'),
-    CompanyItem('osmosisdex', 'https://boards.greenhouse.io/osmosisdex', ScrapeGreenhouse, 'https://osmosis.zone'),
-    CompanyItem('stellar', 'https://boards.greenhouse.io/stellar', ScrapeGreenhouse, 'https://stellar.org'),
-    CompanyItem('bitfury', 'https://boards.greenhouse.io/bitfury', ScrapeGreenhouse, 'https://bitfury.com'),
-    CompanyItem('mobilecoin', 'https://boards.greenhouse.io/mobilecoin', ScrapeGreenhouse,
-                'https://mobilecoin.com'),
-    CompanyItem('chia', 'https://www.chia.net/careers', ScrapeGreenhouse,
-                'https://www.chia.net'),
-    CompanyItem("solanafoundation", "https://boards.greenhouse.io/solanafoundation", ScrapeGreenhouse,
-                "https://solana.org"),
-    CompanyItem("worldcoinorg", "https://boards.greenhouse.io/worldcoinorg", ScrapeGreenhouse,
-                "https://worldcoin.org"),
-    CompanyItem("edgeandnode", "https://boards.greenhouse.io/edgeandnode", ScrapeGreenhouse,
-                "https://edgeandnode.com"),
-    CompanyItem("clearmatics", "https://boards.greenhouse.io/clearmatics", ScrapeGreenhouse,
-                "https://www.clearmatics.com"),
-    CompanyItem("aztec", "https://boards.eu.greenhouse.io/aztec", ScrapeGreenhouse, "https://aztec.network"),
-    CompanyItem("avalabs", "https://boards.greenhouse.io/avalabs", ScrapeGreenhouse,
-                "https://www.avalabs.org"),
-    CompanyItem("galaxydigital", "https://boards.greenhouse.io/galaxydigitalservices",
-                ScrapeGreenhouse, "https://www.galaxy.com"),
-    CompanyItem("EigenLabs", "https://boards.greenhouse.io/layrlabs", ScrapeGreenhouse,
-                "https://www.v1.eigenlayer.xyz"),
-    CompanyItem("kadena", "https://boards.greenhouse.io/kadenallc", ScrapeGreenhouse, "https://kadena.io"),
-    CompanyItem("poap", "https://boards.greenhouse.io/poaptheproofofattendanceprotocol", ScrapeGreenhouse,
-                "https://poap.xyz"),
-    CompanyItem("chainsafesystems", "https://boards.greenhouse.io/chainsafesystems", ScrapeGreenhouse,
-                "https://chainsafe.io"),
-    CompanyItem("status", "https://jobs.status.im", ScrapeGreenhouse, "https://status.im"),
-    CompanyItem("digitalasset", "https://boards.greenhouse.io/digitalasset", ScrapeGreenhouse,
-                "https://www.digitalasset.com"),
-    CompanyItem("copperco", "https://boards.eu.greenhouse.io/copperco", ScrapeGreenhouse,
-                "https://copper.co"),
-    CompanyItem("messari", "https://boards.greenhouse.io/messari", ScrapeGreenhouse, "https://messari.io"),
-    CompanyItem("layerzerolabs", "https://boards.greenhouse.io/layerzerolabs", ScrapeGreenhouse,
-                "https://layerzero.network"),
-    CompanyItem("jumpcrypto", "https://boards.greenhouse.io/jumpcrypto", ScrapeGreenhouse,
-                "https://jumpcrypto.com"),
-    CompanyItem("oasisnetwork", "https://boards.greenhouse.io/oasisnetwork", ScrapeGreenhouse,
-                "https://oasisprotocol.org")]
+@pytest.fixture
+def driver():
+    """Fixture to create and tear down a Chrome WebDriver."""
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--disable-extensions')
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    yield driver
+    driver.quit()
 
-for company in company_list:
-    jobs_data = company.scraper_type().getJobs(driver, company.jobs_url, company.company_name)
-    for entry in jobs_data:
-        print(entry)
 
-driver.close()
+@pytest.fixture
+def scraper():
+    """Fixture to create a ScrapeGreenhouse instance."""
+    return ScrapeGreenhouse()
+
+
+@pytest.fixture
+def company():
+    """Fixture to create a TRM Labs CompanyItem."""
+    return CompanyItem("layerzerolabs", "https://boards.greenhouse.io/layerzerolabs", Scrapers.GREENHOUSE,
+                    "https://layerzero.network")
+
+def test_greenhouse_scraper(driver, scraper, company):
+    """Test Greenhouse scraper with TRM Labs to verify job extraction."""
+    # Act
+    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    
+    # Assert
+    assert isinstance(jobs, list), "getJobs should return a list"
+    assert len(jobs) > 0, f"Expected jobs for {company.company_name}, but got none"
+    
+    # Verify structure of each job
+    for job in jobs:
+        assert "company" in job, "Job missing 'company' field"
+        assert "title" in job, "Job missing 'title' field"
+        assert "link" in job, "Job missing 'link' field"
+        assert "location" in job, "Job missing 'location' field"
+        
+        assert job["company"] == company.company_name, f"Company name mismatch"
+        assert isinstance(job["title"], str) and len(job["title"]) > 0, "Job title should be non-empty string"
+        assert job["link"].startswith("http"), "Job link should be a valid URL"
+        assert isinstance(job["location"], str) and len(job["location"]) > 0, "Location should be non-empty string"
+        
+        # Verify location cleaning worked (should not contain newlines)
+        assert "\n" not in job["location"], "Location should not contain newlines"
