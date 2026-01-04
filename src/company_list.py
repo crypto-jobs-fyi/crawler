@@ -86,7 +86,7 @@ def get_company_list() -> list[CompanyItem]:
                     'https://www.connext.network'),
         CompanyItem('ethenalabs', 'https://jobs.lever.co/ethenalabs', Scrapers.LEVER,
                     'https://www.ethena.fi'),
-        CompanyItem('SeiLabs', 'https://jobs.lever.co/SeiLabs', Scrapers.LEVER,
+        CompanyItem('SeiLabs', 'https://jobs.ashbyhq.com/sei-labs', Scrapers.ASHBYHQ,
                     'https://www.sei.io'),
         CompanyItem('theblock', 'https://jobs.lever.co/theblockcrypto', Scrapers.LEVER,
                     'https://www.theblock.co'),
