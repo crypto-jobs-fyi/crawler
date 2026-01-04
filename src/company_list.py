@@ -241,6 +241,8 @@ def get_company_list() -> list[CompanyItem]:
                     "https://ramp.network"),
         CompanyItem("RWA.xyz", "https://jobs.ashbyhq.com/RWA.xyz", Scrapers.ASHBYHQ,
                     "https://rwa.xyz"),
+        CompanyItem('dragonflycapital', 'https://jobs.gem.com/dragonfly-careers', Scrapers.GEM,
+                'https://www.dragonfly.xyz'),
         CompanyItem("BitcoinSuisse", "https://bitcoin-suisse.onlyfy.jobs", Scrapers.BITCOINSUISSE,
                     "https://bitcoinsuisse.com"),
         CompanyItem("gemini", "https://www.gemini.com/careers", Scrapers.GEMINI, "https://www.gemini.com"),

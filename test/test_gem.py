@@ -11,7 +11,7 @@ def driver():
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--headless')
+    #chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-extensions')
     
     driver = webdriver.Chrome(options=chrome_options)
@@ -28,7 +28,8 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create a Soundhound CompanyItem."""
-    return CompanyItem('soundhound', 'https://jobs.gem.com/soundhound', Scrapers.GEM, 'https://soundhound.com')
+    return CompanyItem('dragonflycapital', 'https://jobs.gem.com/dragonfly-careers', Scrapers.GEM,
+                'https://www.dragonfly.xyz')
 
 
 def test_gem_scraper(driver, scraper, company):
