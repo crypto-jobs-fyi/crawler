@@ -11,9 +11,9 @@ class ScrapeCoinbase(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.get(web_page)
         driver.implicitly_wait(9)
-        time.sleep(5)
+        time.sleep(4)
         # open all departments
-        acceptAll = driver.find_elements(By.XPATH, '//span[.="Accept all"]')
+        acceptAll = driver.find_elements(By.XPATH, '//*[contains(text(), "Accept")]')
         if len(acceptAll) > 0:
             acceptAll[0].click()
             time.sleep(3)

@@ -1,25 +1,56 @@
-import os
-import sys
-import unittest
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import pytest
 from selenium import webdriver
 from src.scrape_consensys import ScrapeConsensys
-
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-driver = webdriver.Chrome(options=options)
-
-jobs_data = ScrapeConsensys().getJobs(driver, "https://consensys.io/open-roles")
-for entry in jobs_data:
-    print(entry)
-
-driver.close()
+from src.company_item import CompanyItem
+from src.scrapers import Scrapers
 
 
-class TestScraper(unittest.TestCase):
-    def test_upper(self):
-        self.assertGreater(len(jobs_data), 1)
+@pytest.fixture
+def driver():
+    """Fixture to create and tear down a Chrome WebDriver."""
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--disable-extensions')
+    
+    driver = webdriver.Chrome(options=chrome_options)
+    yield driver
+    driver.quit()
 
 
-if __name__ == '__main__':
-    unittest.main()
+@pytest.fixture
+def scraper():
+    """Fixture to create a ScrapeConsensys instance."""
+    return ScrapeConsensys()
+
+
+@pytest.fixture
+def company():
+    """Fixture to create a Consensys CompanyItem."""
+    return CompanyItem("consensys", "https://consensys.io/open-roles", Scrapers.CONSENSYS, "https://consensys.io")
+
+
+def test_consensys_scraper(driver, scraper, company):
+    """Test Consensys scraper to verify job extraction."""
+    # Act
+    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    
+    # Assert
+    assert isinstance(jobs, list), "getJobs should return a list"
+    assert len(jobs) > 0, f"Expected jobs for {company.company_name}, but got none"
+    
+    # Verify structure of each job
+    for job in jobs:
+        assert "company" in job, "Job missing 'company' field"
+        assert "title" in job, "Job missing 'title' field"
+        assert "link" in job, "Job missing 'link' field"
+        assert "location" in job, "Job missing 'location' field"
+        
+        assert job["company"] == company.company_name, f"Company name mismatch"
+        assert isinstance(job["title"], str) and len(job["title"]) > 0, "Job title should be non-empty string"
+        assert job["link"].startswith("http"), "Job link should be a valid URL"
+        assert isinstance(job["location"], str) and len(job["location"]) > 0, "Location should be non-empty string"
+        
+        # Verify location cleaning worked (should not contain newlines)
+        assert "\n" not in job["location"], "Location should not contain newlines"
