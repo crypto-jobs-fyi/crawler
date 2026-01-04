@@ -1,5 +1,6 @@
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
+import time
 
 
 class ScrapeAvara(ScrapeIt):
@@ -9,6 +10,7 @@ class ScrapeAvara(ScrapeIt):
         print(f'[{self.name}] Scrap page: {web_page}')
         driver.implicitly_wait(9)
         driver.get(web_page)
+        time.sleep(3)
         # use reverse strategy from a link to a title
         group_elements = driver.find_elements(By.XPATH, '//li/a[contains(@href, "careers")]')
         result = []

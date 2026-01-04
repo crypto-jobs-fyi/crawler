@@ -1,19 +1,30 @@
-import json
+import pytest
 from src.company_list import get_company_list
-from src.company_list import get_company
+from src.companies import Companies
+from src.company_item import CompanyItem
 
-company_list = get_company_list()
-print(f'Number of companies: {len(company_list)}')
-result_list = []
-for company in company_list:
-    company_item = {
-        "company_name": company.company_name,
-        "company_url": company.company_url,
-        "jobs_url": company.jobs_url,
-    }
-    result_list.append(company_item)
-print(f'Number of companies in JSON: {len(result_list)}')
-with open('companies.json', 'w') as f:
-    json.dump(result_list, f, indent=4)
+def test_get_company_list():
+    """Test that get_company_list returns a non-empty list of CompanyItem objects."""
+    companies = get_company_list()
+    assert isinstance(companies, list)
+    assert len(companies) > 0
+    for company in companies:
+        assert isinstance(company, CompanyItem)
+        assert company.company_name
+        assert company.jobs_url
+        assert company.scraper_type
+        assert company.company_url
 
-print(get_company('kraken'))
+def test_get_company_found():
+    """Test that Companies.get_company can find a company by name in the list."""
+    companies = get_company_list()
+    # 'kraken' is known to be in the list
+    company = Companies.get_company('kraken', companies)
+    assert company.company_name == 'kraken'
+    assert 'kraken.com' in company.jobs_url
+
+def test_get_company_not_found():
+    """Test that Companies.get_company raises IndexError when company is not found."""
+    companies = get_company_list()
+    with pytest.raises(IndexError):
+        Companies.get_company('non_existent_company_xyz', companies)
