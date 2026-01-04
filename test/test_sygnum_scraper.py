@@ -41,6 +41,7 @@ def test_sygnum_scraper(driver, scraper, company):
     
     # Verify structure of each job
     for job in jobs:
+        print(job)
         assert "company" in job, "Job missing 'company' field"
         assert "title" in job, "Job missing 'title' field"
         assert "link" in job, "Job missing 'link' field"
