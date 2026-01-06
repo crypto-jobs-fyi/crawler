@@ -105,11 +105,6 @@
         "jobs_url": "https://jobs.lever.co/blox-route"
     },
     {
-        "company_name": "multiversx",
-        "company_url": "https://multiversx.com",
-        "jobs_url": "https://jobs.lever.co/multiversx"
-    },
-    {
         "company_name": "sprucesystems",
         "company_url": "https://spruceid.com",
         "jobs_url": "https://jobs.lever.co/sprucesystems"
@@ -780,6 +775,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/RWA.xyz"
     },
     {
+        "company_name": "dragonflycapital",
+        "company_url": "https://www.dragonfly.xyz",
+        "jobs_url": "https://jobs.gem.com/dragonfly-careers"
+    },
+    {
         "company_name": "BitcoinSuisse",
         "company_url": "https://bitcoinsuisse.com",
         "jobs_url": "https://bitcoin-suisse.onlyfy.jobs"
@@ -868,5 +868,10 @@
         "company_name": "consensys",
         "company_url": "https://consensys.io",
         "jobs_url": "https://consensys.io/open-roles"
+    },
+    {
+        "company_name": "bitfinex",
+        "company_url": "https://www.bitfinex.com",
+        "jobs_url": "https://bitfinex.recruitee.com"
     }
 ]
