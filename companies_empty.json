@@ -40,21 +40,6 @@
         "jobs_url": "https://jobs.lever.co/glassnode"
     },
     {
-        "company_name": "dappradar",
-        "company_url": "https://dappradar.com",
-        "jobs_url": "https://dappradar.bamboohr.com/careers"
-    },
-    {
-        "company_name": "web3",
-        "company_url": "https://web3.foundation",
-        "jobs_url": "https://web3.bamboohr.com/careers"
-    },
-    {
-        "company_name": "protocollabs",
-        "company_url": "https://protocol.ai/about",
-        "jobs_url": "https://boards.greenhouse.io/protocollabs"
-    },
-    {
         "company_name": "Boost",
         "company_url": "https://Boost.xyz",
         "jobs_url": "https://jobs.ashbyhq.com/Boost"
@@ -68,11 +53,6 @@
         "company_name": "pyth",
         "company_url": "https://pyth.network",
         "jobs_url": "https://jobs.ashbyhq.com/pythnetwork"
-    },
-    {
-        "company_name": "outlierventures",
-        "company_url": "https://outlierventures.io",
-        "jobs_url": "https://outlierventures.bamboohr.com/careers"
     },
     {
         "company_name": "subspacelabs",
@@ -93,11 +73,6 @@
         "company_name": "goldsky",
         "company_url": "https://goldsky.com",
         "jobs_url": "https://boards.greenhouse.io/goldsky"
-    },
-    {
-        "company_name": "iofinnet",
-        "company_url": "https://www.iofinnet.com",
-        "jobs_url": "https://iofinnethr.bamboohr.com/jobs/?source=bamboohr"
     },
     {
         "company_name": "filecoinfoundation",
@@ -158,5 +133,10 @@
         "company_name": "dydx",
         "company_url": "https://dydx.exchange",
         "jobs_url": "https://boards.greenhouse.io/dydx"
+    },
+    {
+        "company_name": "multiversx",
+        "company_url": "https://multiversx.com",
+        "jobs_url": "https://jobs.lever.co/multiversx"
     }
 ]
