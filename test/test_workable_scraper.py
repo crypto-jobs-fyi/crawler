@@ -27,7 +27,7 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create an Almanak CompanyItem."""
-    return CompanyItem('almanak', 'https://apply.workable.com/almanak-blockchain-labs-ag', Scrapers.WORKABLE, 'https://almanak.co')
+    return CompanyItem('crypto-finance', 'https://apply.workable.com/crypto-finance', Scrapers.WORKABLE, 'https://www.crypto-finance.com')
 
 
 def test_workable_scraper(driver, scraper, company):
