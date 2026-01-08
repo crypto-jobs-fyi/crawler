@@ -11,4 +11,5 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem('tenable', 'https://job-boards.greenhouse.io/tenableinc', Scrapers.GREENHOUSE, 'https://www.tenable.com'),
         CompanyItem('veeam', 'https://job-boards.eu.greenhouse.io/veeamsoftware', Scrapers.GREENHOUSE, 'https://www.veeam.com'),
         CompanyItem('vercel', 'https://job-boards.greenhouse.io/vercel', Scrapers.GREENHOUSE, 'https://vercel.com'),
+        CompanyItem("frontify", "https://jobs.lever.co/frontify", Scrapers.LEVER, "https://www.frontify.com"),
     ]
