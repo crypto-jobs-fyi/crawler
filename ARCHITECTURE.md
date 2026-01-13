@@ -5,11 +5,11 @@
 **Purpose**: Web scraping system for crypto/fintech job listings from multiple ATS platforms (Ashby, Greenhouse, Lever, etc.)
 
 **Scale**: 
-- 39 scraper modules
-- 177+ companies tracked
-- Multiple vertical-specific crawlers (AI, crypto, fintech, tech)
+- 27+ scraper modules
+- 300+ companies tracked (Centralized in `companies.json`)
+- Multiple vertical-specific crawlers (AI, Crypto, Fintech, Tech)
 - Parallel processing with threading
-- GitHub Actions CI/CD integration
+- GitHub Actions CI/CD integration with automated merging
 
 ---
 
@@ -317,29 +317,36 @@ Input: companies.json (300+ items)
    └─ Filter by category (AI, Crypto, Tech, Fintech)
    ↓
 [CrawlerRunner]
-   ├─ Filter out headed-only companies (if run in headless mode)
-   ├─ Queue companies
+   ├─ Context: Headless (CI) vs Headed (Local/Manual)
+   ├─ Headless mode automatically skips companies where headless: false
+   ├─ Queue enabled companies
    ├─ Spawn N worker threads
-   │  ├─ Get WebDriver
+   │  ├─ Get WebDriver (Chrome)
    │  └─ For each company:
    │      ├─ Load scraper class
    │      ├─ Call getJobs()
    │      ├─ Retry logic (max 2)
-   │      ├─ Thread-safe write to crypto_jobs.json
-   │      └─ Update crypto_current.json
+   │      ├─ Write to partial JSON (e.g., ai_jobs_ashby.json)
+   │      └─ Update current count per company
    └─ Join threads, close drivers
    ↓
-[AgeProcessor]
-   ├─ Deduplicate jobs by link
+[Merging Utility] (merge_*_jobs.py)
+   ├─ Collect partial JSONs (headed, ashby, greenhouse, lever, etc.)
+   ├─ Global deduplication by job link
+   └─ Output single master vertical file (e.g., crypto_jobs.json)
+   ↓
+[AgeProcessor] (write_*_jobs_age.py)
+   ├─ Load master vertical file
+   ├─ Link-based age tracking (first_seen date)
    ├─ Calculate age (days old)
    ├─ Aggregate statistics
-   └─ Save history
+   └─ Append snapshot to history.json
    ↓
-Output Files:
-   ├─ crypto_jobs.json (all jobs)
-   ├─ crypto_current.json (per-company count)
-   ├─ crypto_jobs_age.json (age tracking)
-   └─ crypto_history.json (trends)
+Output Data:
+   ├─ {vertical}_jobs.json (all active jobs)
+   ├─ {vertical}_current.json (per-company count)
+   ├─ {vertical}_jobs_age.json (detailed age mapping)
+   └─ {vertical}_history.json (time-series trends)
 ```
 
 ---
@@ -738,17 +745,19 @@ def test_scraper_integration(scraper_class, company_name, url):
 ## 9. IMPLEMENTATION ROADMAP
 
 ```
-PHASE 1: Quick Wins (Weeks 1-2)
+PHASE 1: Quick Wins (Weeks 1-2) (✅ COMPLETED)
 ├─ Structured logging (all components)
 ├─ Explicit waits (all scrapers)
 └─ Adaptive retries (CrawlerRunner)
 
-PHASE 2: Configuration (Weeks 3-4)
-├─ YAML company config
+PHASE 2: Configuration (Weeks 3-4) (✅ COMPLETED)
+├─ Centralized JSON company registry
 ├─ Scraper selector config
-└─ Runtime loading + filtering
+└─ Runtime loading + vertical-specific filtering
 
-PHASE 3: Reliability (Weeks 5-7)
+PHASE 3: Reliability & Data Integrity (Weeks 5-7) (IN PROGRESS)
+├─ Vertical-specific merge utilities with deduplication
+├─ Headless/Headed environmental awareness 
 ├─ Dead-letter queue
 ├─ Health checks
 ├─ Rate limiting + proxy support
