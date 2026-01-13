@@ -8,7 +8,11 @@ class ScrapeCoinbase(ScrapeIt):
     name = 'Coinbase'
 
     def getJobs(self, driver, web_page, company='coinbase') -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.get(web_page)
         driver.implicitly_wait(9)
         time.sleep(4)
@@ -18,7 +22,12 @@ class ScrapeCoinbase(ScrapeIt):
             acceptAll[0].click()
             time.sleep(3)
         departments = driver.find_elements(By.XPATH, '//div[@data-testid="positions-department"]')
-        print(f'[{self.name}] Found {len(departments)} departments.')
+        self.log_info(
+            "Departments found",
+            company=company,
+            department_count=len(departments),
+            web_page=web_page,
+        )
         for department in departments:
             department.click()
             time.sleep(3)
@@ -37,5 +46,11 @@ class ScrapeCoinbase(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

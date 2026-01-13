@@ -1,6 +1,9 @@
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 import time
+from src.logging_utils import get_logger
+
+module_logger = get_logger(__name__)
 
 
 def clean_location(location):
@@ -12,7 +15,10 @@ def clean_location(location):
 
 
 def show_more(driver, locator):
-    print(f'[SmartRecruiters] Show more jobs..')
+    module_logger.info(
+        "SmartRecruiters show more",
+        extra={"locator": locator},
+    )
     show_more_button = driver.find_elements(By.XPATH, locator)
     if len(show_more_button) > 0:
         driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
@@ -24,7 +30,11 @@ def show_more(driver, locator):
 
 class ScrapeSmartrecruiters(ScrapeIt):
     def getJobs(self, driver, web_page, company) -> list:
-        print(f'[SmartRecruiters] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.get(web_page)
         more_links = '//a[.="Show more jobs"]'
         show_more(driver, more_links)
@@ -44,5 +54,11 @@ class ScrapeSmartrecruiters(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[SmartRecruiters] Found jobs: {len(group_elements)}, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

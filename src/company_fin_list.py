@@ -10,7 +10,7 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("qonto", "https://jobs.lever.co/qonto", Scrapers.LEVER, "https://www.qonto.com"),
         CompanyItem("moneybox", "https://jobs.lever.co/moneyboxapp", Scrapers.LEVER, "https://www.moneyboxapp.com"),
         CompanyItem("affirm", "https://job-boards.greenhouse.io/affirm", Scrapers.GREENHOUSE, "https://www.affirm.com"),
-        CompanyItem("huspy", "https://job-boards.greenhouse.io/huspy", Scrapers.GREENHOUSE, "https://www.huspy.com"),
+        CompanyItem("huspy", "https://revolutpeople.com/huspy/public/careers", Scrapers.CLEO, "https://www.huspy.com"),
         CompanyItem("momentmarkets", "https://job-boards.greenhouse.io/momentmarkets", Scrapers.GREENHOUSE, "https://www.moment.com"),
         CompanyItem('9fin', 'https://jobs.ashbyhq.com/9fin', Scrapers.ASHBYHQ, 'https://www.9fin.com'),
         CompanyItem('grape-health', 'https://jobs.eu.lever.co/grape-health', Scrapers.LEVER, 'https://www.grapehealth.ch'),

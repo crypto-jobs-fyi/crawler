@@ -7,6 +7,9 @@ import sys
 from src.company_list import get_company_list as get_crypto_companies
 from src.company_ai_list import get_company_list as get_ai_companies
 from src.company_fin_list import get_company_list as get_fin_companies
+from src.logging_utils import get_logger
+
+logger = get_logger(__name__)
 
 
 def cleanup_history(history_file: str, company_list: list, label: str) -> tuple[int, int]:
@@ -25,12 +28,25 @@ def cleanup_history(history_file: str, company_list: list, label: str) -> tuple[
     companies_to_remove = (history_companies - active_companies) - {"Total Jobs"}
     
     if not companies_to_remove:
-        print(f"✓ All companies in {history_file} are in {label} list")
+        logger.info(
+            "History validation",
+            extra={"history_file": history_file, "label": label, "message": "No removals"},
+        )
         return 0, len(history)
     
-    print(f"Found {len(companies_to_remove)} companies to remove from {label}:")
+    logger.info(
+        "History removals identified",
+        extra={
+            "history_file": history_file,
+            "label": label,
+            "removal_count": len(companies_to_remove),
+        },
+    )
     for company in sorted(companies_to_remove):
-        print(f"  - {company}")
+        logger.info(
+            "History removal candidate",
+            extra={"history_file": history_file, "label": label, "company": company},
+        )
     
     # Remove the companies
     for company in companies_to_remove:
@@ -61,22 +77,42 @@ def main():
     
     for history_file, company_list, label in files_to_clean:
         try:
-            print(f"\nCleaning {label} history ({history_file})...")
+            logger.info(
+                "History cleanup start",
+                extra={"history_file": history_file, "label": label},
+            )
             removed, remaining = cleanup_history(history_file, company_list, label)
             total_removed += removed
-            print(f"  ✓ Removed {removed} companies")
-            print(f"  ✓ Remaining companies: {remaining}")
+            logger.info(
+                "History cleanup summary",
+                extra={
+                    "history_file": history_file,
+                    "label": label,
+                    "removed": removed,
+                    "remaining": remaining,
+                },
+            )
         except FileNotFoundError:
-            print(f"  ✗ File not found: {history_file}")
+            logger.error(
+                "History file missing",
+                extra={"history_file": history_file, "label": label},
+            )
         except Exception as e:
-            print(f"  ✗ Error: {e}", file=sys.stderr)
-    
-    print(f"\n✓ Total removed: {total_removed} invalid company entries")
+            logger.error(
+                "History cleanup error",
+                extra={"history_file": history_file, "label": label},
+                exc_info=True,
+            )
+
+    logger.info(
+        "History cleanup complete",
+        extra={"total_removed": total_removed},
+    )
 
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+        logger.error("Cleanup failure", extra={"error": str(e)}, exc_info=True)
         sys.exit(1)

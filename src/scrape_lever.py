@@ -14,7 +14,11 @@ class ScrapeLever(ScrapeIt):
     name = 'LEVER'
 
     def getJobs(self, driver, web_page, company) -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(7)
         driver.get(web_page)
         if company in ['binance', 'crypto']:
@@ -42,5 +46,11 @@ class ScrapeLever(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

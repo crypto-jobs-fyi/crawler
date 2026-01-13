@@ -1,12 +1,18 @@
 import json
 from datetime import datetime
 import os
+from src.logging_utils import get_logger
+
+logger = get_logger(__name__)
 
 def update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file):
     with open(jobs_file, 'r') as f:
         jobs_json = json.load(f)
         jobs_data = jobs_json.get('data', [])
-        print(f'Number of jobs: {len(jobs_data)}')
+        logger.info(
+            "Job records loaded",
+            extra={"jobs_file": jobs_file, "job_count": len(jobs_data)},
+        )
 
     if not os.path.exists(jobs_age_file):
         with open(jobs_age_file, 'w') as file:
@@ -14,7 +20,10 @@ def update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file):
 
     with open(jobs_age_file, 'r') as age_file:
         age_data = json.load(age_file)
-        print(f'Number of jobs ages stored: {len(age_data)}')
+        logger.info(
+            "Existing age records",
+            extra={"jobs_age_file": jobs_age_file, "age_record_count": len(age_data)},
+        )
 
     current_jobs = {"Total Jobs": len(jobs_data)}
     for j in jobs_data:
@@ -30,7 +39,10 @@ def update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file):
         if link not in age_data:
             age_data[link] = now_str
 
-    print(f'Number of jobs processed: {len(age_data)}')
+    logger.info(
+        "Job ages processed",
+        extra={"jobs_age_file": jobs_age_file, "age_record_count": len(age_data)},
+    )
     with open(jobs_age_file, 'w') as file:
         json.dump(age_data, file, indent=4)
 

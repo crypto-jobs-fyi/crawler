@@ -5,6 +5,9 @@ Script to remove job links from jobs age files that are not in the jobs.json fil
 import json
 import sys
 import re
+from src.logging_utils import get_logger
+
+logger = get_logger(__name__)
 
 
 def extract_url_from_html_link(html_link: str) -> str:
@@ -26,7 +29,10 @@ def get_job_links_from_json(jobs_file: str) -> set[str]:
                     links.add(job["link"])
         return links
     except FileNotFoundError:
-        print(f"  ✗ File not found: {jobs_file}")
+        logger.error(
+            "Jobs file missing",
+            extra={"jobs_file": jobs_file},
+        )
         return set()
 
 
@@ -81,25 +87,48 @@ def main():
     
     for age_file, valid_links, label in files_to_clean:
         try:
-            print(f"\nCleaning {label} jobs age ({age_file})...")
+            logger.info(
+                "Jobs age cleanup start",
+                extra={"label": label, "age_file": age_file},
+            )
             if not valid_links:
-                print(f"  ✗ No valid links found for {label}")
+                logger.warning(
+                    "No valid links",
+                    extra={"label": label, "age_file": age_file},
+                )
                 continue
             removed, remaining = cleanup_jobs_age(age_file, valid_links)
             total_removed += removed
-            print(f"  ✓ Removed {removed} job links not in {label} jobs")
-            print(f"  ✓ Remaining: {remaining} job links")
+            logger.info(
+                "Jobs age cleanup summary",
+                extra={
+                    "label": label,
+                    "age_file": age_file,
+                    "removed": removed,
+                    "remaining": remaining,
+                },
+            )
         except FileNotFoundError:
-            print(f"  ✗ File not found: {age_file}")
+            logger.error(
+                "Age file missing",
+                extra={"age_file": age_file},
+            )
         except Exception as e:
-            print(f"  ✗ Error: {e}", file=sys.stderr)
-    
-    print(f"\n✓ Total removed: {total_removed} invalid job links")
+            logger.error(
+                "Age cleanup error",
+                extra={"age_file": age_file, "label": label},
+                exc_info=True,
+            )
+
+    logger.info(
+        "Jobs age cleanup complete",
+        extra={"total_removed": total_removed},
+    )
 
 
 if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print(f"Error: {e}", file=sys.stderr)
+        logger.error("Cleanup failure", extra={"error": str(e)}, exc_info=True)
         sys.exit(1)

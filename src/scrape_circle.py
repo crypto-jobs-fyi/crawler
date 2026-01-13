@@ -1,12 +1,18 @@
 import time
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
+from src.logging_utils import get_logger
+
+module_logger = get_logger(__name__)
 
 
 def to_records(driver, company) -> list:
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'h3 a[href]')
     result = []
-    print(f'[CIRCLE] Found {len(group_elements)} jobs. Scraping jobs...')
+    module_logger.info(
+        "Circle jobs found",
+        extra={"company": company, "jobs_found": len(group_elements)},
+    )
     for elem in group_elements:
         job_url = elem.get_attribute('href')
         job = {
@@ -25,23 +31,38 @@ class ScrapeCircle(ScrapeIt):
         next_page = driver.find_element(By.XPATH, '//a[@aria-label="Next"]')
         is_displayed = next_page.is_displayed()
         if is_displayed:
-            print(f'[{self.name}] Next page found, click and scrape more jobs...')
+            self.log_info(
+                "Pagination next",
+                company=self.name,
+            )
             driver.execute_script("arguments[0].click();", next_page)
             time.sleep(3)
         return is_displayed
 
     def getJobs(self, driver, web_page, company='circle') -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         time.sleep(3)
         accept_cookies = driver.find_elements(By.XPATH, '//button[@id="onetrust-accept-btn-handler"]')
         if len(accept_cookies) > 0:
-            print(f'[{self.name}] Accepting cookies...')
+            self.log_info(
+                "Accept cookies",
+                company=company,
+                web_page=web_page,
+            )
             accept_cookies[0].click()
         result = to_records(driver, company)
         while self.has_next_page(driver):
             result += to_records(driver, company)
-
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_scraped=len(result),
+        )
         return result

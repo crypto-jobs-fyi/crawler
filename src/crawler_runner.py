@@ -5,6 +5,7 @@ from datetime import datetime
 from selenium import webdriver
 from src.scrape_it import ScrapeIt
 from src.company_item import CompanyItem
+from src.logging_utils import get_logger
 
 class CrawlerRunner:
     def __init__(self, jobs_file: str, current_jobs_file: str, headless: bool = True, max_workers: int = 2):
@@ -14,6 +15,7 @@ class CrawlerRunner:
         self.max_workers = max_workers
         self._initialize_files()
         self.file_lock = threading.Lock()
+        self.logger = get_logger(self.__class__.__name__)
 
     def _initialize_files(self):
         with open(self.jobs_file, 'w') as f:
@@ -32,7 +34,7 @@ class CrawlerRunner:
 
     def _scrape_company(self, driver: webdriver.Chrome, company: CompanyItem, progress_info: str):
         st = time.time()
-        print(f'[CRAWLER] {progress_info}')
+        self.logger.info("Scrape start", extra={"progress": progress_info, "company": company.company_name})
         
         jobs_data = []
         max_retries = 2
@@ -46,13 +48,35 @@ class CrawlerRunner:
                     break
                 
                 if attempt < max_retries:
-                    print(f'[CRAWLER] Company {company.company_name} returned 0 jobs. Retrying ({attempt + 1}/{max_retries})...')
+                    self.logger.warning(
+                        "No jobs returned",
+                        extra={
+                            "company": company.company_name,
+                            "attempt": attempt + 1,
+                            "max_attempts": max_retries + 1,
+                        },
+                    )
                     time.sleep(2)
                     
             except Exception as e:
-                print(f'[CRAWLER] Error processing {company.company_name}: {str(e)}')
+                self.logger.error(
+                    "Scrape error",
+                    exc_info=True,
+                    extra={
+                        "company": company.company_name,
+                        "attempt": attempt + 1,
+                        "max_attempts": max_retries + 1,
+                    },
+                )
                 if attempt < max_retries:
-                    print(f'[CRAWLER] Retrying ({attempt + 1}/{max_retries})...')
+                    self.logger.info(
+                        "Retrying scrape",
+                        extra={
+                            "company": company.company_name,
+                            "attempt": attempt + 1,
+                            "max_attempts": max_retries + 1,
+                        },
+                    )
                     time.sleep(2)
         
         now = datetime.date(datetime.now())
@@ -60,11 +84,30 @@ class CrawlerRunner:
             with self.file_lock:
                 ScrapeIt.write_jobs(jobs_data, self.jobs_file)
                 ScrapeIt.write_current_jobs_number(company.company_name, len(jobs_data), self.current_jobs_file)
-            print(f'[CRAWLER] Company {company.company_name} has {len(jobs_data)} open positions on {now}')
+            self.logger.info(
+                "Scrape success",
+                extra={
+                    "company": company.company_name,
+                    "job_count": len(jobs_data),
+                    "date": str(now),
+                },
+            )
         else:
-            print(f'[CRAWLER] Company {company.company_name} failed to process or has 0 jobs after retries...')
-        
-        print(f'[CRAWLER] {company.company_name} Execution time:', round(time.time() - st), 'seconds')
+            self.logger.error(
+                "Scrape failed",
+                extra={
+                    "company": company.company_name,
+                    "attempts": max_retries + 1,
+                },
+            )
+
+        self.logger.info(
+            "Scrape complete",
+            extra={
+                "company": company.company_name,
+                "duration_seconds": round(time.time() - st, 2),
+            },
+        )
 
     def _worker(self, q: Queue, total_companies: int):
         driver = self._get_driver()
@@ -84,7 +127,10 @@ class CrawlerRunner:
 
     def run(self, companies: list[CompanyItem]):
         start_time = time.time()
-        print(f'[CRAWLER] Starting scrape for {len(companies)} companies')
+        self.logger.info(
+            "Crawler run start",
+            extra={"company_count": len(companies), "headless": self.headless, "max_workers": self.max_workers},
+        )
 
         if self.headless and self.max_workers > 1:
             q = Queue()
@@ -93,7 +139,10 @@ class CrawlerRunner:
             
             threads = []
             num_workers = min(self.max_workers, len(companies))
-            print(f'[CRAWLER] Running in parallel with {num_workers} workers')
+            self.logger.info(
+                "Parallel execution",
+                extra={"workers": num_workers, "headless": self.headless},
+            )
             
             for _ in range(num_workers):
                 t = threading.Thread(target=self._worker, args=(q, len(companies)))
@@ -113,4 +162,7 @@ class CrawlerRunner:
             finally:
                 driver.close()
 
-        print('[CRAWLER] Total execution time:', round((time.time() - start_time)/60), 'minutes')
+        self.logger.info(
+            "Crawler run complete",
+            extra={"duration_minutes": round((time.time() - start_time) / 60, 2)},
+        )

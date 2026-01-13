@@ -12,7 +12,11 @@ class ScrapeSygnum(ScrapeIt):
             if len(acceptCookies) > 0:
                 acceptCookies[0].click()
         except Exception as e:
-            print(f'[{self.name}] Error accepting cookies: {e}')
+            self.log_error(
+                "Accept cookies failed",
+                error=str(e),
+                exc_info=True,
+            )
         return
     
     def tryAcceptGeo(self, driver):
@@ -21,11 +25,19 @@ class ScrapeSygnum(ScrapeIt):
             if len(acceptGeo) > 0:
                 acceptGeo[0].click()
         except Exception as e:
-            print(f'[{self.name}] Error accepting geo: {e}')
+            self.log_error(
+                "Geolocation acceptance failed",
+                error=str(e),
+                exc_info=True,
+            )
         return
 
     def getJobs(self, driver, web_page, company = 'sygnum') -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         self.tryAcceptCookies(driver)
@@ -45,5 +57,11 @@ class ScrapeSygnum(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

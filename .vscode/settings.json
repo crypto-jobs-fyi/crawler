@@ -3,5 +3,8 @@
         "test"
     ],
     "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.pytestEnabled": true,
+    "chat.tools.terminal.autoApprove": {
+        "/Users/ydubinin/Documents/GitHub/crawler/venv/bin/python": true
+    }
 }

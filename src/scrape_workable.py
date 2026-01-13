@@ -6,10 +6,16 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.remote.webelement import WebElement
 
 from src.scrape_it import ScrapeIt
+from src.logging_utils import get_logger
+
+module_logger = get_logger(__name__)
 
 
 def show_more(driver, locator: str) -> None:
-    print(f'[workable] Show more jobs..')
+    module_logger.info(
+        "Workable show more",
+        extra={"locator": locator},
+    )
     show_more_button: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, locator)
     if len(show_more_button) > 0:
         driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
@@ -27,7 +33,11 @@ class ScrapeWorkable(ScrapeIt):
     name = 'workable'.upper()
 
     def getJobs(self, driver, web_page, company) -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.get(web_page)
         driver.implicitly_wait(5)
         time.sleep(4)
@@ -38,7 +48,11 @@ class ScrapeWorkable(ScrapeIt):
         clear_filters_locator: str = 'a[data-ui="clear-filters"]'
         clear_filters: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
         if len(clear_filters) > 0:
-            print(f'[{self.name}] Clear filters')
+            self.log_info(
+                "Clear filters",
+                company=company,
+                web_page=web_page,
+            )
             driver.execute_script("arguments[0].click();", clear_filters[0])
         driver.implicitly_wait(15)
         wait: WebDriverWait = WebDriverWait(driver, 10)
@@ -47,12 +61,20 @@ class ScrapeWorkable(ScrapeIt):
         job_root_locator: str = 'li[data-ui^="job"]'
         show_more_buttons: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, show_more_locator)
         if len(show_more_buttons) > 0:
-            print(f'[{self.name}] Show more Jobs button found..')
+            self.log_info(
+                "Show more button",
+                company=company,
+                web_page=web_page,
+            )
             show_more(driver, show_more_locator)
         # just try to find elements and exit if none
         temp_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, job_root_locator)
         if len(temp_elements) == 0:
-            print(f'[{self.name}] Found 0 jobs on {web_page}')
+            self.log_info(
+                "No jobs found",
+                company=company,
+                web_page=web_page,
+            )
             return result
         group_elements: list[WebElement] = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_root_locator)))
         driver.implicitly_wait(5)
@@ -73,5 +95,11 @@ class ScrapeWorkable(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

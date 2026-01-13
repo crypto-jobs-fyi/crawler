@@ -22,10 +22,19 @@ class ScrapePaxos(ScrapeIt):
     name = 'PAXOS'
 
     def getJobs(self, driver, web_page, company='paxos'):
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         group_elements = driver.find_elements(By.CSS_SELECTOR, '[class="job-listings"] a[href]')
         result = to_records(group_elements, company)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_scraped=len(result),
+        )
         return result

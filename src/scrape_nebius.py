@@ -1,12 +1,18 @@
 import time
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
+from src.logging_utils import get_logger
+
+module_logger = get_logger(__name__)
 
 
 def to_records(driver, company) -> list:
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*="JobsBlock_jobLink"]')
     result = []
-    print(f'[NEBIUS] Found {len(group_elements)} jobs. Scraping jobs...')
+    module_logger.info(
+        "Nebius jobs found",
+        extra={"company": company, "jobs_found": len(group_elements)},
+    )
     for elem in group_elements:
         job_url = elem.get_attribute('href')
         title_elem = elem.find_element(By.CSS_SELECTOR, 'span[class*="header"]')
@@ -26,7 +32,11 @@ class ScrapeNebius(ScrapeIt):
     name = 'NEBIUS'
 
     def getJobs(self, driver, web_page, company='nebius') -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         time.sleep(3)
@@ -34,5 +44,10 @@ class ScrapeNebius(ScrapeIt):
         for button in accept_cookies:
             button.click()
         result = to_records(driver, company)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_scraped=len(result),
+        )
         return result

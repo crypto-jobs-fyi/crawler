@@ -16,11 +16,20 @@ class ScrapeAshbyhq(ScrapeIt):
     name = 'ashbyhq'.upper()
 
     def getJobs(self, driver: webdriver.Chrome, web_page: str, company: str) -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.get(web_page)
         driver.implicitly_wait(7)
         group_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
-        print(f'[{self.name}] Found {len(group_elements)} job elements')
+        self.log_info(
+            "Job elements found",
+            company=company,
+            web_page=web_page,
+            element_count=len(group_elements),
+        )
         job_location_locator: str = 'div[class*="details_"] p'
         result: list = []
         for elem in group_elements:
@@ -38,5 +47,11 @@ class ScrapeAshbyhq(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

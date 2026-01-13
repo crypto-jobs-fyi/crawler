@@ -15,13 +15,21 @@ class ScrapeCleo(ScrapeIt):
         return 'UK'
 
     def getJobs(self, driver, web_page, company = 'Cleo') -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         time.sleep(3)
         cookie_banners = driver.find_elements(By.XPATH, '//button/span[text()="Allow all cookies"]')
         if len(cookie_banners) > 0:
-            print(f'[{self.name}] Accept cookies')
+            self.log_info(
+                "Accept cookies",
+                company=company,
+                web_page=web_page,
+            )
             cookie_banners[0].click()
             time.sleep(2)
         group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[aria-label="position-link"]')
@@ -31,7 +39,12 @@ class ScrapeCleo(ScrapeIt):
             job_name: str = job_name_elem.text.split('\n')[0]
             job_url: str = elem.get_attribute('href')
             locations: list = elem.find_elements(By.CSS_SELECTOR, 'div[data-testid="location-row"]')
-            print('Locations for job: ', job_name, len(locations))
+            self.log_info(
+                "Job location candidates",
+                company=company,
+                job_title=job_name,
+                location_options=len(locations),
+            )
             location_text: str = self.get_last_or_default_location(locations)
             job = {
                 "company": company,
@@ -40,5 +53,11 @@ class ScrapeCleo(ScrapeIt):
                 "link": job_url
             }
             result.append(job)
-        print(f'[{self.name}] Found {len(group_elements)} jobs, Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(group_elements),
+            jobs_scraped=len(result),
+        )
         return result

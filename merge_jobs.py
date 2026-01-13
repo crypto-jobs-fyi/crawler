@@ -2,9 +2,14 @@ import json
 from src.companies import Companies
 from src.company_item import CompanyItem
 from src.company_list import get_company_list
+from src.logging_utils import get_logger
 
 company_list: list[CompanyItem] = get_company_list()
-print(f'[CRAWLER] Number of companies: {len(company_list)}')
+logger = get_logger(__name__)
+logger.info(
+    "Companies loaded",
+    extra={"company_count": len(company_list), "jobs_file": 'jobs.json'},
+)
 Companies.write_companies('companies.json', company_list)
 jobs_file = 'jobs.json'
 with open(jobs_file, 'w') as f:

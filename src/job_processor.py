@@ -1,5 +1,8 @@
 import json
 from datetime import datetime
+from src.logging_utils import get_logger
+
+logger = get_logger(__name__)
 
 def get_new_jobs(jobs_file: str, jobs_age_file: str, jobs_new_file: str, job_age_number: int = 3):
     with open(jobs_file, 'r') as jobs:
@@ -26,9 +29,19 @@ def get_new_jobs(jobs_file: str, jobs_age_file: str, jobs_new_file: str, job_age
                 except ValueError:
                     pass
 
-    print(f"Found {len(recent_jobs)} new jobs.")
+    logger.info(
+        "Recent jobs identified",
+        extra={"count": len(recent_jobs), "jobs_file": jobs_file},
+    )
     for job in recent_jobs:
-        print(f"{job['title']} @ {job['company'].capitalize()} -> {job['link']}")
+        logger.info(
+            "Recent job",
+            extra={
+                "title": job['title'],
+                "company": job['company'],
+                "link": job['link'],
+            },
+        )
 
     with open(jobs_new_file, 'w') as file:
         rj = {'data': recent_jobs}

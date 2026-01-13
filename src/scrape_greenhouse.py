@@ -1,6 +1,9 @@
 from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 import time
+from src.logging_utils import get_logger
+
+module_logger = get_logger(__name__)
 
 
 def clean_location(location):
@@ -10,7 +13,10 @@ def clean_location(location):
 def get_jobs(driver, company):
     group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
     result = []
-    print(f'[GREENHOUSE] Found {len(group_elements)} jobs. Scraping jobs...')
+    module_logger.info(
+        "Greenhouse jobs found",
+        extra={"company": company, "jobs_found": len(group_elements)},
+    )
     for elem in group_elements:
         link_elem = elem.find_element(By.CSS_SELECTOR, 'a')
         location_elem = elem.find_element(By.CSS_SELECTOR, 'p[class*="body--metadata"]')
@@ -33,25 +39,41 @@ class ScrapeGreenhouse(ScrapeIt):
     def has_next_page(self, driver):
         next_page = driver.find_elements(By.XPATH, '//button[@aria-label="Next page" and @aria-disabled="false"]')
         if len(next_page) > 0:
-            print(f'[{self.name}] Next page found, click and scrape more jobs...')
+            self.log_info(
+                "Pagination next",
+                company=self.name,
+            )
             driver.execute_script("arguments[0].click();", next_page[0])
             time.sleep(3)
         return len(next_page) > 0
 
     def getJobs(self, driver, web_page, company: str) -> list:
-        print(f'[{self.name}] Scrap page: {web_page}')
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
         driver.implicitly_wait(5)
         driver.get(web_page)
         if company.lower() in ['bitcoin', 'okx']:
             time.sleep(5)
         iframe = driver.find_elements(By.TAG_NAME, 'iframe')
         if len(iframe) > 0:
-            print(f'[{self.name}] iFrame detected..')
+            self.log_info(
+                "Iframe detected",
+                company=company,
+                web_page=web_page,
+            )
             time.sleep(3)
             driver.switch_to.frame(iframe[0])
             time.sleep(5)
         result = get_jobs(driver, company)
         while self.has_next_page(driver):
             result += get_jobs(driver, company)
-        print(f'[{self.name}] Scraped {len(result)} jobs from {web_page}')
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_scraped=len(result),
+        )
         return result

@@ -2,6 +2,9 @@ import json
 
 
 from src.company_item import CompanyItem
+from src.logging_utils import get_logger
+
+logger = get_logger(__name__)
 
 class Companies:
 
@@ -22,7 +25,10 @@ class Companies:
                 "jobs_url": com.jobs_url,
             }
             result_list.append(company_item)
-        print(f'[COMPANY_LIST] Number of Companies writen {len(result_list)}')
+        logger.info(
+            "Companies written",
+            extra={"file_name": file_name, "company_count": len(result_list)},
+        )
         with open(file_name, 'w') as companies_file:
             json.dump(result_list, companies_file, indent=4)
 

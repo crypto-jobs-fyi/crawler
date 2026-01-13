@@ -1,12 +1,26 @@
 import json
 from abc import ABC, abstractmethod
 import os
+from src.logging_utils import get_logger
 
 
 class ScrapeIt(ABC):
+    def __init__(self) -> None:
+        logger_name = f"scraper.{getattr(self, 'name', self.__class__.__name__)}"
+        self.logger = get_logger(logger_name)
+
     @abstractmethod
     def getJobs(self, driver, web_page, company) -> list:
         pass
+
+    def log_info(self, message: str, **extra) -> None:
+        self.logger.info(message, extra=extra)
+
+    def log_warning(self, message: str, **extra) -> None:
+        self.logger.warning(message, extra=extra)
+
+    def log_error(self, message: str, *, exc_info: bool | BaseException | None = None, **extra) -> None:
+        self.logger.error(message, extra=extra, exc_info=exc_info)
 
     @staticmethod
     def write_jobs(jobs, file_name='jobs.json'):
