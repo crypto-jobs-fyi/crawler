@@ -11,7 +11,7 @@ def remote_ai_companies():
 
 @pytest.fixture
 def remote_crypto_companies():
-    url = "https://raw.githubusercontent.com/crypto-jobs-fyi/crawler/refs/heads/main/companies.json"
+    url = "https://raw.githubusercontent.com/crypto-jobs-fyi/crawler/refs/heads/main/crypto_companies.json"
     with urllib.request.urlopen(url) as response:
         return json.loads(response.read().decode())
 
