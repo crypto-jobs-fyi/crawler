@@ -296,7 +296,7 @@ class ScrapeIt(ABC):
 - **Integration**: All scrapers and runner components use `get_logger()`.
 
 ### 3.10 Merging Utilities (`merge_*_jobs.py`)
-**Files**: `merge_ai_jobs.py`, `merge_crypto_jobs.py`, `merge_fintech_jobs.py`
+**Files**: `merge_ai_jobs.py`, `merge_crypto_jobs.py`, `merge_fin_jobs.py`
 
 **Purpose**: Aggregates job listings from multiple ATS-specific or headed/headless crawl results into a single unified JSON file per vertical.
 
