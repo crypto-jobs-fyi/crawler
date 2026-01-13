@@ -110,6 +110,12 @@
         },
         {
             "company": "nebius",
+            "title": "Business Development Representative",
+            "location": "Tel Aviv",
+            "link": "https://careers.nebius.com/?gh_jid=4600531101"
+        },
+        {
+            "company": "nebius",
             "title": "Data Center Facilities Manager",
             "location": "Alabama",
             "link": "https://careers.nebius.com/?gh_jid=4705231101"
@@ -140,9 +146,15 @@
         },
         {
             "company": "nebius",
-            "title": "Supply Chain Manager - Hardware",
+            "title": "Supply Chain Manager - Hardware (Data Center)",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4713906101"
+        },
+        {
+            "company": "nebius",
+            "title": "System Engineer (Token Factory)",
+            "location": "Amsterdam \u00b7 Germany \u00b7 Israel \u00b7 Prague \u00b7 Remote - Europe \u00b7 Remote - US \u00b7 UK",
+            "link": "https://careers.nebius.com/?gh_jid=4752460101"
         },
         {
             "company": "c3.ai",
@@ -181,10 +193,28 @@
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4648314005?gh_jid=4648314005"
         },
         {
+            "company": "applied_intuition",
+            "title": "Robotic Software Engineer, Perception",
+            "location": "Ann Arbor, Michigan, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605512005?gh_jid=4605512005"
+        },
+        {
+            "company": "constructor",
+            "title": "Product Data Analyst: AI Shopping Agents (Remote)",
+            "location": "Remote",
+            "link": "https://apply.workable.com/constructor-1/j/A91866EEA4/"
+        },
+        {
             "company": "constructor",
             "title": "Technical Sales Engineer (Remote - French or German Speaking)",
             "location": "Remote",
             "link": "https://apply.workable.com/constructor-1/j/55F32CC27C/"
+        },
+        {
+            "company": "GPTZero",
+            "title": "Product Designer",
+            "location": "NYC Hybrid",
+            "link": "https://jobs.ashbyhq.com/GPTZero/d0e8a335-3cd0-4ccb-8434-6e6ed79a0a67"
         },
         {
             "company": "perplexityai",
@@ -227,6 +257,12 @@
             "title": "Analytics Engineer, Finance",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/openai/7cd50a19-65f2-4a52-89a2-512130e58c5c"
+        },
+        {
+            "company": "openai",
+            "title": "Corporate Development, Strategy & Scouting Lead",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/openai/29442d2b-76a6-49ef-837a-978be748ab2e"
         },
         {
             "company": "openai",
@@ -410,6 +446,12 @@
         },
         {
             "company": "Crusoe",
+            "title": "Incident Manager",
+            "location": "Dublin - IE",
+            "link": "https://jobs.ashbyhq.com/Crusoe/863a32fd-c1e2-433d-b94d-0abafabce307"
+        },
+        {
+            "company": "Crusoe",
             "title": "Electrical Quality Inspector",
             "location": "Tulsa, OK - US (2)",
             "link": "https://jobs.ashbyhq.com/Crusoe/7e4777e3-3c80-4edf-931c-b2064ce1f6bc"
@@ -446,6 +488,24 @@
         },
         {
             "company": "Crusoe",
+            "title": "[job title]",
+            "location": "Abilene, TX - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/8e65047c-f67a-47de-9f50-fb7187b9758a"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Operations & Maintenance Technician I",
+            "location": "Abilene, TX - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/5d639607-016f-4664-ba93-d92b31ecd415"
+        },
+        {
+            "company": "Crusoe",
+            "title": "Operations & Maintenance Technician II",
+            "location": "Abilene, TX - US",
+            "link": "https://jobs.ashbyhq.com/Crusoe/b26af97c-db86-4a54-99a0-a78c6e78dffd"
+        },
+        {
+            "company": "Crusoe",
             "title": "Analyst, Real Estate Strategy",
             "location": "San Francisco, CA - US",
             "link": "https://jobs.ashbyhq.com/Crusoe/2dda42cf-3abb-4436-88a0-d90736b0b909"
@@ -461,6 +521,12 @@
             "title": "Member of Technical Staff (GPU Engineer)",
             "location": "US, UK, Singapore, Remote",
             "link": "https://jobs.ashbyhq.com/reka/6595a48b-8dfc-479d-ba2a-0bf9d188ec4d"
+        },
+        {
+            "company": "cohere",
+            "title": "Head of Financial Communications",
+            "location": "San Francisco; New York",
+            "link": "https://jobs.ashbyhq.com/cohere/866361e7-b88d-4666-b1f4-b384fb3edfc4"
         },
         {
             "company": "cohere",
@@ -485,6 +551,18 @@
             "title": "Human Resources Specialist",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/cohere/a43e5434-1332-4d52-b95d-33d51df43ae2"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Product Designer",
+            "location": "London; New York",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/89da00ec-11b0-4359-913b-c3a89c1013bc"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Brand Design",
+            "location": "London; Warsaw; Berlin; Amsterdam; Portugal; New York; Netherlands",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/d5fb656f-a8ac-457a-ab26-07304791e097"
         },
         {
             "company": "elevenlabs",
@@ -523,6 +601,24 @@
             "link": "https://jobs.ashbyhq.com/elevenlabs/8998a48c-6bc4-42fc-b4b5-e779d810f930"
         },
         {
+            "company": "elevenlabs",
+            "title": "Customer Success Lead - UKI",
+            "location": "London; Ireland; UK",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/6d0949fa-f5e7-4281-9857-99abd609bb63"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "Customer Success Lead - Western Europe",
+            "location": "Germany; France",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/404d9117-bdd7-4e2a-90a1-a9d1ac3ad285"
+        },
+        {
+            "company": "elevenlabs",
+            "title": "UK/I BD Reseller",
+            "location": "UK; Ireland",
+            "link": "https://jobs.ashbyhq.com/elevenlabs/755487ad-d561-457b-8d06-1cefacc867d1"
+        },
+        {
             "company": "lovable",
             "title": "HR Business Partner, GTM",
             "location": "Boston",
@@ -545,6 +641,276 @@
             "title": "Junior Billing and Accounts Receivable Specialist",
             "location": "New York City; Remote",
             "link": "https://jobs.ashbyhq.com/eliseai/05b8eef2-fa3d-4158-9303-5415eba83aa9"
+        },
+        {
+            "company": "n8n",
+            "title": "Head of Product Growth (Remote Europe)",
+            "location": "Berlin Office; Europe",
+            "link": "https://jobs.ashbyhq.com/n8n/8c73b755-9089-404b-8653-8ab292624944"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Albania)",
+            "location": "Albania",
+            "link": "https://jobs.ashbyhq.com/everai/23c0ba80-1ea5-4d58-8cb2-7b8e2fb11061"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Andorra)",
+            "location": "Andorra",
+            "link": "https://jobs.ashbyhq.com/everai/16669137-43e1-41a0-88f9-2aaa54a616d5"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Armenia)",
+            "location": "Armenia",
+            "link": "https://jobs.ashbyhq.com/everai/1e494cc7-bc70-4fdf-bbf7-d4d56a1ad1a0"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Austria)",
+            "location": "Austria",
+            "link": "https://jobs.ashbyhq.com/everai/de256829-b467-4bac-8ee4-49e5a6697e11"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Azerbaijan)",
+            "location": "Azerbaijan",
+            "link": "https://jobs.ashbyhq.com/everai/f576f8e5-0182-43d7-9a58-265693c671e2"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Belgium)",
+            "location": "Belgium",
+            "link": "https://jobs.ashbyhq.com/everai/b9904b07-6427-4ca3-a40e-3723a520b0a0"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Bosnia and Herzegovina)",
+            "location": "Bosnia and Herzegovina",
+            "link": "https://jobs.ashbyhq.com/everai/3ded1297-8eac-494b-8b03-2955e602682d"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Bulgaria)",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/everai/55df092f-02f0-4a14-99b1-4722d3f20f4d"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Croatia)",
+            "location": "Croatia",
+            "link": "https://jobs.ashbyhq.com/everai/7c809e47-b95f-4138-8f65-1425addf0fea"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Cyprus)",
+            "location": "Cyprus",
+            "link": "https://jobs.ashbyhq.com/everai/dfc143f1-a776-4cb4-a8f8-a3ac284be4d2"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Czech Republic)",
+            "location": "Czech Republic",
+            "link": "https://jobs.ashbyhq.com/everai/57fa186e-b1f8-4888-b94f-c2609a64de60"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Denmark)",
+            "location": "Denmark",
+            "link": "https://jobs.ashbyhq.com/everai/f5aee6e0-8990-4073-a4d8-8d8e08f1d28b"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Estonia)",
+            "location": "Estonia",
+            "link": "https://jobs.ashbyhq.com/everai/f103b74c-36db-4617-93b9-a5373020de66"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Europe)",
+            "location": "Europe",
+            "link": "https://jobs.ashbyhq.com/everai/e274af82-4176-434b-b4f2-7241890b1716"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Finland)",
+            "location": "Finland",
+            "link": "https://jobs.ashbyhq.com/everai/11d70d63-d8a3-42af-a89d-dea142422809"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - France)",
+            "location": "France",
+            "link": "https://jobs.ashbyhq.com/everai/f663401f-99f8-4d0e-b16c-26ff1f461d69"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Georgia)",
+            "location": "Georgia",
+            "link": "https://jobs.ashbyhq.com/everai/81c42e36-f545-41f5-b0e9-4016b7f3b82d"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Germany)",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/everai/338bc3e9-9f17-48af-a970-6fab0fc3c556"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Gibraltar)",
+            "location": "Gibraltar",
+            "link": "https://jobs.ashbyhq.com/everai/5bd77eb1-c0b9-4e97-b919-0dd4d64e9c06"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Greece)",
+            "location": "Greece",
+            "link": "https://jobs.ashbyhq.com/everai/6442afeb-7576-4b6e-97b9-0f563738c790"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Hungary)",
+            "location": "Hungary",
+            "link": "https://jobs.ashbyhq.com/everai/5cc2912b-6ca4-4b01-a7a0-4faf5a896fba"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Ireland)",
+            "location": "Ireland",
+            "link": "https://jobs.ashbyhq.com/everai/4e2d01c0-da60-4b3f-85dd-772a114931e2"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Italy)",
+            "location": "Italy",
+            "link": "https://jobs.ashbyhq.com/everai/f8e4e2a6-fd6c-445a-ad0f-14672558e6bf"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Latvia)",
+            "location": "Latvia",
+            "link": "https://jobs.ashbyhq.com/everai/a1eab91b-484f-4594-84ca-475bb546084a"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Lithuania)",
+            "location": "Lithuania",
+            "link": "https://jobs.ashbyhq.com/everai/31174aaa-481e-4845-939d-a4d57b3e49ef"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Luxembourg)",
+            "location": "Luxembourg",
+            "link": "https://jobs.ashbyhq.com/everai/6b7eea5c-8ec0-4397-b3fb-1651f5c4b4a4"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Malta)",
+            "location": "Malta",
+            "link": "https://jobs.ashbyhq.com/everai/3fcdf699-085b-4971-a03a-3cb2edfb48b8"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Moldova)",
+            "location": "Moldova",
+            "link": "https://jobs.ashbyhq.com/everai/b1d319be-2c42-445e-9584-918131bd1258"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Montenegro)",
+            "location": "Montenegro",
+            "link": "https://jobs.ashbyhq.com/everai/e0bc132e-71d7-442b-b2cc-1262c2a5f263"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Netherlands)",
+            "location": "Netherlands",
+            "link": "https://jobs.ashbyhq.com/everai/b7571623-8049-4db0-9ea1-b100becffa9c"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - North Macedonia)",
+            "location": "North Macedonia",
+            "link": "https://jobs.ashbyhq.com/everai/67c95276-7f3a-42d8-a956-c16fc9b1d76a"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Norway)",
+            "location": "Norway",
+            "link": "https://jobs.ashbyhq.com/everai/a25daa3c-a685-4375-ae48-c3d229ceeac7"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Poland)",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/everai/78dc3725-d7c1-48ab-a548-47dd9fd99004"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Portugal)",
+            "location": "Portugal",
+            "link": "https://jobs.ashbyhq.com/everai/40777919-9ddc-4ea0-9e38-7710e1f79337"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Romania)",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/everai/a73f7aaa-b210-4645-8bbb-2b5e5a885b54"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Serbia)",
+            "location": "Serbia",
+            "link": "https://jobs.ashbyhq.com/everai/5c754242-c71f-4e43-b595-d1e3c72a366d"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Slovakia)",
+            "location": "Slovakia",
+            "link": "https://jobs.ashbyhq.com/everai/66bc4ce3-14ea-420a-abe2-1677452dec11"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Slovenia)",
+            "location": "Slovenia",
+            "link": "https://jobs.ashbyhq.com/everai/ca82557b-8f95-4705-af1f-aded61c4982c"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Spain)",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/everai/b188e1fe-0887-4792-a77e-a7f828614deb"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Sweden)",
+            "location": "Sweden",
+            "link": "https://jobs.ashbyhq.com/everai/75557a97-acfa-402e-9cac-60da6efd7cbe"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Switzerland)",
+            "location": "Switzerland",
+            "link": "https://jobs.ashbyhq.com/everai/872d3f3e-454c-42e2-b6ad-ec9810508c9c"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Turkey)",
+            "location": "Turkey",
+            "link": "https://jobs.ashbyhq.com/everai/fd92eff4-b02e-4990-96c9-7431e437c8c3"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - Ukraine)",
+            "location": "Ukraine",
+            "link": "https://jobs.ashbyhq.com/everai/389263da-9069-474f-b24c-6e04a33b67a8"
+        },
+        {
+            "company": "everai",
+            "title": "Junior Accounts Payable & Finance Operations Specialist (Full Remote - United Kingdom)",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/everai/177cb4fa-1ce6-4926-a7b5-b41adae8845d"
         },
         {
             "company": "cognition",
@@ -639,14 +1005,14 @@
         {
             "company": "replit",
             "title": "Commercial Account Manager",
-            "location": "Foster City, CA (Hybrid) In office M,W,F",
-            "link": "https://jobs.ashbyhq.com/replit/062ebeca-ff15-4a8a-aa5a-29882d72e347"
+            "location": "NYC (SoHo) Hybrid",
+            "link": "https://jobs.ashbyhq.com/replit/2b5f50b9-0c83-46de-b795-aa71a50f85ae"
         },
         {
             "company": "replit",
             "title": "Commercial Account Manager",
-            "location": "NYC (SoHo) Hybrid",
-            "link": "https://jobs.ashbyhq.com/replit/2b5f50b9-0c83-46de-b795-aa71a50f85ae"
+            "location": "Foster City, CA (Hybrid) In office M,W,F",
+            "link": "https://jobs.ashbyhq.com/replit/062ebeca-ff15-4a8a-aa5a-29882d72e347"
         },
         {
             "company": "replit",
@@ -680,6 +1046,12 @@
         },
         {
             "company": "coderabbit",
+            "title": "Senior Product Support Engineer (L3)",
+            "location": "Bengaluru",
+            "link": "https://jobs.ashbyhq.com/coderabbit/89d1d9c6-3756-4b4f-9723-d3a94af2927b"
+        },
+        {
+            "company": "coderabbit",
             "title": "Quality Assurance Engineer - Automation",
             "location": "Bay Area, CA",
             "link": "https://jobs.ashbyhq.com/coderabbit/a1172002-43fe-4234-985c-bb2b801116d6"
@@ -689,6 +1061,12 @@
             "title": "Site Reliability Engineer - Platform",
             "location": "Bay Area, CA",
             "link": "https://jobs.ashbyhq.com/coderabbit/4d13784a-fe4e-4b04-9a99-7d1d6dca8bbf"
+        },
+        {
+            "company": "exa.ai",
+            "title": "Founding Security Engineer",
+            "location": "San Francisco, California",
+            "link": "https://jobs.ashbyhq.com/exa/c4081592-fa8c-4fed-9041-70c62feee157"
         },
         {
             "company": "jua.ai",
@@ -735,20 +1113,14 @@
         {
             "company": "fyxer.ai",
             "title": "Account Executive",
-            "location": "New York; Remote USA",
+            "location": "New York",
             "link": "https://jobs.ashbyhq.com/fyxer/00da551e-2cb3-4b4b-af4f-a9ed0699a325"
         },
         {
             "company": "fyxer.ai",
             "title": "Enterprise Account Executive",
-            "location": "New York; Remote USA",
+            "location": "Washington; Texas; California; Boston; Colorado",
             "link": "https://jobs.ashbyhq.com/fyxer/0542666c-2f51-4b7b-8139-2304a00589a5"
-        },
-        {
-            "company": "fyxer.ai",
-            "title": "Senior Enterprise Account Executive",
-            "location": "New York; Remote USA",
-            "link": "https://jobs.ashbyhq.com/fyxer/16d863d7-2d8c-4e81-9106-93bb55383d8c"
         },
         {
             "company": "sentry.io",
@@ -800,13 +1172,19 @@
         },
         {
             "company": "uipath",
+            "title": "Software Engineer - External",
+            "location": "Cluj",
+            "link": "https://jobs.ashbyhq.com/uipath/672d2eb1-7a21-409f-99d7-5d7391a82c83"
+        },
+        {
+            "company": "uipath",
             "title": "Software Engineer Intern",
             "location": "Bellevue",
             "link": "https://jobs.ashbyhq.com/uipath/18034904-7114-4efc-884b-66caf1adc1f3"
         },
         {
             "company": "uipath",
-            "title": "Email Marketing Manager",
+            "title": "Global Marketing Automation & Marketo Manager",
             "location": "Bucharest",
             "link": "https://jobs.ashbyhq.com/uipath/18833907-7417-409b-a930-57734d5038f8"
         },
@@ -974,6 +1352,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Recruiter, Technical",
+            "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/4814348008"
+        },
+        {
+            "company": "anthropic",
             "title": "Customer Success ManagerNew",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5063099008"
@@ -992,7 +1376,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Manager, Account Executive - Enterprise Sales New",
+            "title": "Manager, Account Executive - Enterprise Sales (Industries)New",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5054819008"
         },
@@ -1058,6 +1442,12 @@
         },
         {
             "company": "deepmind",
+            "title": "Research Scientist, Biosphere ModelsNew",
+            "location": "Zurich, Switzerland",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7535238"
+        },
+        {
+            "company": "deepmind",
             "title": "Research Scientist/Research Engineer, Multimodal AgentsNew",
             "location": "Mountain View, California, US",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7397383"
@@ -1088,6 +1478,12 @@
         },
         {
             "company": "deepmind",
+            "title": "Strategy & Operations Senior Manager, Security & Risk OperationsNew",
+            "location": "Mountain View, California, US",
+            "link": "https://job-boards.greenhouse.io/deepmind/jobs/7528566"
+        },
+        {
+            "company": "deepmind",
             "title": "Product Manager, Technical Intelligence, Google DeepMindNew",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/deepmind/jobs/7522587"
@@ -1097,6 +1493,12 @@
             "title": "Vice President of Revenue OperationsNew",
             "location": "San Francisco",
             "link": "https://job-boards.greenhouse.io/arizeai/jobs/5755137004"
+        },
+        {
+            "company": "scaleai",
+            "title": "Senior Director and AGC, Product Legal (Privacy, IP, Employment)New",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4648174005"
         },
         {
             "company": "scaleai",
@@ -1141,6 +1543,42 @@
             "link": "https://job-boards.greenhouse.io/assemblyai/jobs/4648353005"
         },
         {
+            "company": "isomorphiclabs",
+            "title": "Technical Talent Partner, (AI Research and Engineering) [12 month, FTC]",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5641938004"
+        },
+        {
+            "company": "isomorphiclabs",
+            "title": "Product Manager New",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5753266004"
+        },
+        {
+            "company": "glean",
+            "title": "Commercial Account Executive- Canada",
+            "location": "Canada",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4635139005"
+        },
+        {
+            "company": "glean",
+            "title": "National Channel Partner ManagerNew",
+            "location": "US Remote",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4646677005"
+        },
+        {
+            "company": "glean",
+            "title": "Partner Solutions Engineer",
+            "location": "Japan",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4549192005"
+        },
+        {
+            "company": "glean",
+            "title": "Strategic Federal Account Executive, Public Sector (DIB)New",
+            "location": "Washington DC",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4647585005"
+        },
+        {
             "company": "xai",
             "title": "Engineering Technical Lead Manager (TLM) - EnterpriseNew",
             "location": "New York, NY",
@@ -1154,12 +1592,6 @@
         },
         {
             "company": "xai",
-            "title": "Member of Technical Staff - Security EngineeringNew",
-            "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/5022358007"
-        },
-        {
-            "company": "xai",
             "title": "Full Stack EngineerNew",
             "location": "Remote",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5018521007"
@@ -1169,18 +1601,6 @@
             "title": "Director, Revenue OpsNew",
             "location": "New York, NY; Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5022354007"
-        },
-        {
-            "company": "isomorphiclabs",
-            "title": "Technical Talent Partner, (AI Research and Engineering) [12 month, FTC]",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5641938004"
-        },
-        {
-            "company": "isomorphiclabs",
-            "title": "Product Manager New",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/5753266004"
         },
         {
             "company": "aperaai",
@@ -1213,30 +1633,6 @@
             "link": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5019932007"
         },
         {
-            "company": "glean",
-            "title": "Commercial Account Executive- Canada",
-            "location": "Canada",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4635139005"
-        },
-        {
-            "company": "glean",
-            "title": "National Channel Partner ManagerNew",
-            "location": "US Remote",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4646677005"
-        },
-        {
-            "company": "glean",
-            "title": "Partner Solutions Engineer",
-            "location": "Japan",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4549192005"
-        },
-        {
-            "company": "glean",
-            "title": "Strategic Federal Account Executive, Public Sector (DIB)New",
-            "location": "Washington DC",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4647585005"
-        },
-        {
             "company": "cerebras.ai",
             "title": "Senior Mechanical EngineerNew",
             "location": "Sunnyvale, CA",
@@ -1253,6 +1649,12 @@
             "title": "Distributed Software EngineerNew",
             "location": "Bengaluru, Karnataka, India; Sunnyvale CA or Toronto Canada",
             "link": "https://job-boards.greenhouse.io/cerebrassystems/jobs/7582638003"
+        },
+        {
+            "company": "cerebras.ai",
+            "title": "Jr. LLVM Compiler EngineerNew",
+            "location": "Sunnyvale, CA",
+            "link": "https://job-boards.greenhouse.io/cerebrassystems/jobs/7587669003"
         },
         {
             "company": "cerebras.ai",
@@ -1297,6 +1699,12 @@
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314104002"
         },
         {
+            "company": "graphcore.io",
+            "title": "Linux Engineer",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8314008002"
+        },
+        {
             "company": "hightouch",
             "title": "Implementation ManagerNew",
             "location": "Remote (North America)",
@@ -1328,15 +1736,21 @@
         },
         {
             "company": "Box",
+            "title": "Senior Data Engineer, FinOpsNew",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7513899"
+        },
+        {
+            "company": "Box",
             "title": "Senior Software Engineer, Core Data Resilience",
             "location": "Redwood City, CA",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/6970383"
         },
         {
             "company": "Box",
-            "title": "Software Engineer III, Skynet FoundationNew",
-            "location": "Redwood City, CA",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7513903"
+            "title": "Senior Software Engineer, MonolithNew",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/7513895"
         },
         {
             "company": "Box",
@@ -1495,20 +1909,14 @@
             "link": "https://jobs.lever.co/rivr/52f272fa-ec3e-44d9-9f00-07189fd0e697"
         },
         {
-            "company": "encord.com",
-            "title": "Human Data Operations Strategist",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/37812517-0c47-44dc-b7a0-54af47a163fc"
-        },
-        {
-            "company": "encord.com",
-            "title": "Human Data Operations Strategist",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/985f8db0-13c8-45a2-a7ee-4a25b8306527"
+            "company": "anybotics",
+            "title": "Senior Product Marketing Manager",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/8e43e46a-8eec-4ab5-8318-09790675507f"
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineering Manager, Power Electronics",
+            "title": "Senior Engineering Manager, Power Electronics (R4421)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/72c271c7-6419-43b9-8d9c-b047adbee664"
         },
@@ -1565,6 +1973,18 @@
             "title": "Senior Manager, Vehicle Engineering (R4283)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/fa7ec42c-a533-453c-bb09-78223994c0fb"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Technician, Hardware Test (R4423)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/44da0d02-7c4e-47b2-bdd8-d6c6a6a8682b"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineering Specialist, Hardware Test (R4422)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/86855f14-616f-4323-8225-5467c52516e5"
         },
         {
             "company": "shieldai",
@@ -1673,6 +2093,18 @@
             "title": "Senior Director, HRBP - Go to Market (R4394)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/c9f891f4-fd7f-492c-b4d2-1b6843d18121"
+        },
+        {
+            "company": "encord.com",
+            "title": "Human Data Operations Strategist",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/37812517-0c47-44dc-b7a0-54af47a163fc"
+        },
+        {
+            "company": "encord.com",
+            "title": "Human Data Operations Strategist",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/985f8db0-13c8-45a2-a7ee-4a25b8306527"
         },
         {
             "company": "oxylabs",
