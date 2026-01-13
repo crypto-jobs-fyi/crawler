@@ -122,12 +122,16 @@
    - Per-worker driver instances.
    - Proper cleanup in finally blocks.
 
-3. **Retry Logic**
+3. **Headless Compatibility**
+   - Automatically skips companies with `headless: false` if the runner is in headless mode.
+   - Prevents execution of scrapers requiring a head in environments where only headless is supported (e.g., CI/CD).
+
+4. **Retry Logic**
    - 2 retries on 0 jobs returned.
    - 2 seconds delay between retries.
    - Exception handling with structured logging.
 
-4. **Data Persistence**
+5. **Data Persistence**
    - Thread-safe file locking with `threading.Lock()`.
    - Call `ScrapeIt.write_jobs()` and `write_current_jobs_number()`.
    - Metrics: job count, duration, and status codes.
@@ -298,6 +302,7 @@ Input: companies.json (300+ items)
    └─ Filter by category (AI, Crypto, Tech, Fintech)
    ↓
 [CrawlerRunner]
+   ├─ Filter out headed-only companies (if run in headless mode)
    ├─ Queue companies
    ├─ Spawn N worker threads
    │  ├─ Get WebDriver

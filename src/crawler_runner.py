@@ -127,6 +127,18 @@ class CrawlerRunner:
 
     def run(self, companies: list[CompanyItem]):
         start_time = time.time()
+        
+        # If runner is headless, filter out companies that explicitly require headed mode
+        if self.headless:
+            original_count = len(companies)
+            companies = [c for c in companies if c.headless]
+            skipped = original_count - len(companies)
+            if skipped > 0:
+                self.logger.info(
+                    "Skipping companies requiring headed mode",
+                    extra={"skipped_count": skipped, "remaining_count": len(companies)}
+                )
+
         self.logger.info(
             "Crawler run start",
             extra={"company_count": len(companies), "headless": self.headless, "max_workers": self.max_workers},
