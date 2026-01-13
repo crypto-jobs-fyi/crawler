@@ -272,4 +272,6 @@ def get_company_list() -> list[CompanyItem]:
         CompanyItem("bitfinex", "https://bitfinex.recruitee.com", Scrapers.RECRUITEE, "https://www.bitfinex.com"),
         CompanyItem('crypto-finance', 'https://apply.workable.com/crypto-finance', Scrapers.WORKABLE, 'https://www.crypto-finance.com'),
         CompanyItem('ledger', 'https://jobs.ashbyhq.com/ledger', Scrapers.ASHBYHQ, 'https://www.ledger.com'),
+        CompanyItem('talos.com', 'https://jobs.ashbyhq.com/Talos-Trading', Scrapers.ASHBYHQ, 'https://www.talos.com'),
+        CompanyItem('dydx.xyz', 'https://jobs.gem.com/dydx', Scrapers.GEM, 'https://www.dydx.xyz'),
     ]
