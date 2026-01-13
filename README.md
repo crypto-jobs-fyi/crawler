@@ -42,11 +42,18 @@ The crawler supports major HR platforms including:
 - `docker run --rm -it -v ${PWD}:/data scrap:latest`
 
 ## UI
-The scraped data is displayed on GitHub Pages: [crypto-jobs-fyi.github.io/web/](https://crypto-jobs-fyi.github.io/web/)
-Locally, you can view it by running:
-```bash
-python3 -m http.server 8000
-```
+The scraped data is aggregated into a unified dashboard. You can view the live version on GitHub Pages: [crypto-jobs-fyi.github.io/web/](https://crypto-jobs-fyi.github.io/web/)
+
+### Running UI Locally
+To view the dashboard on your local machine:
+1.  **Generate Data**: Ensure you have run the crawlers or merge scripts to generate the `.json` files (e.g., `ai_jobs.json`, `crypto_jobs.json`, etc.) in the root directory.
+2.  **Start Server**: Run a local HTTP server from the root directory:
+    ```bash
+    python3 -m http.server 8000
+    ```
+3.  **View**: Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+The UI will automatically fetch and combine job listings from all available vertical JSON files.
 
 ## Testing
 
@@ -186,6 +193,5 @@ The following companies are targeted for future integration:
 
 to be fixed:
 
-CompanyItem("ledger", "https://jobs.lever.co/ledger", Scrapers.LEVER, "https://www.ledger.com"),
 CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),
 CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', Scrapers.GREENHOUSE, 'https://www.trmlabs.com')

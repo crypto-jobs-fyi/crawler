@@ -14,13 +14,25 @@
      });
 
      function getDataForDatatables() {
-          var test = "./crypto_jobs.json";
-          var jd = $.getJSON(test, {
-               format: "json"
-          })
-               .done(function (jsonData) {
-                    setDataToTable(jsonData);
-               });
+          const verticalConfigs = [
+               { url: "./crypto_jobs.json", label: "Crypto" },
+               { url: "./ai_jobs.json", label: "AI" },
+               { url: "./fin_jobs.json", label: "Fintech" },
+               { url: "./tech_jobs.json", label: "Tech" }
+          ];
+          
+          Promise.all(verticalConfigs.map(v => 
+               $.getJSON(v.url)
+               .then(json => (json.data || []).map(job => ({ ...job, vertical: v.label })))
+               .catch(err => {
+                    console.warn(`Could not load ${v.url}:`, err);
+                    return [];
+               })
+          ))
+          .then(results => {
+               const combinedJobs = results.flat();
+               setDataToTable({ data: combinedJobs });
+          });
      }
 
      function setDataToTable(jsonData) {
@@ -30,7 +42,7 @@
                data: jsonData.data,
                destroy: true,
                lengthMenu: [50, 100, 250, 500],
-               pageLength: 50,
+               pageLength: 100,
                initComplete: function () {
                     this.api()
                          .columns()
@@ -45,6 +57,7 @@
                          });
                },
                "columns": [
+                    { "data": "vertical" },
                     { "data": "company" },
                     { "data": "title" },
                     { "data": "location" },
@@ -56,6 +69,7 @@
 <table id="jobs" class="display" cellspacing="0" width="100%">
      <thead>
           <tr>
+               <th>Category</th>
                <th>Company Name</th>
                <th>Job Title</th>
                <th>Location</th>
@@ -64,6 +78,7 @@
      </thead>
      <tfoot>
           <tr>
+               <th>Category</th>
                <th>Company Name</th>
                <th>Job Title</th>
                <th>Location</th>
