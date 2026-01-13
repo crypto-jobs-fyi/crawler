@@ -93,13 +93,18 @@
 ## 3. COMPONENT BREAKDOWN
 
 ### 3.1 Entry Points (`crawler_*.py`)
-**Files**: `crawler_ai.py`, `crawler_crypto.py`, `crawler_tech.py`, `crawler_fin.py`
+**Files**: 
+- Main: `crawler_ai.py`, `crawler_crypto.py`, `crawler_tech.py`, `crawler_fin.py`
+- ATS-Specific: `crawler_ai_ashby.py`, `crawler_ai_greenhouse.py`, `crawler_ai_lever.py`
+- Crypto alternatives: `crypto_crawler.py`, `crypto_crawler_ashby.py`, etc.
+- Headed: `crawler_ai_headed.py`, `crawler_headed.py`, `crawler_fintech_headed.py`
 
 **Responsibility**:
 - Load company metadata from `companies.json` via the `Companies` utility class.
 - Filter companies by `category` (e.g., "ai", "crypto", "fintech").
 - Initialize CrawlerRunner with vertical-specific output files.
 - Trigger scraping pipeline.
+- For split crawlers: Generate targeted JSON outputs (e.g., `ai_jobs_ashby.json`) to be merged later.
 
 **Characteristics**:
 - Lightweight orchestration.
@@ -289,6 +294,16 @@ class ScrapeIt(ABC):
   - Standardizes keys: `timestamp`, `level`, `logger`, `message`, `module`, `function`, `line`.
 - **Configuration**: Level control via `CRAWLER_LOG_LEVEL`.
 - **Integration**: All scrapers and runner components use `get_logger()`.
+
+### 3.10 Merging Utilities (`merge_*_jobs.py`)
+**Files**: `merge_ai_jobs.py`, `merge_crypto_jobs.py`, `merge_fintech_jobs.py`
+
+**Purpose**: Aggregates job listings from multiple ATS-specific or headed/headless crawl results into a single unified JSON file per vertical.
+
+**Key Features**:
+- **De-duplication**: Uses link-based `seen` sets to ensure unique entries.
+- **Unified Schema**: Standardizes output format for downstream processing.
+- **Vertical-Specific**: Each script handles its own set of source files (e.g., `crypto_jobs_lever.json` → `crypto_jobs.json`).
 
 ---
 

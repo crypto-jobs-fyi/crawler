@@ -23,8 +23,8 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run merge_jobs.py
-        run: python merge_jobs.py
+      - name: Run merge_crypto_jobs.py
+        run: python merge_crypto_jobs.py
 
       - name: Run write_jobs_age.py
         run: python write_jobs_age.py
@@ -43,12 +43,12 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via merge_jobs.py [automated]'
+          commit-message: 'chore: update data via merge_crypto_jobs.py [automated]'
           base: main
           branch: 'auto/crawler-merge-jobs-update'
-          title: 'Automated update from merge_jobs.py'
+          title: 'Automated update from merge_crypto_jobs.py'
           body: |
-            This PR contains changes made by running merge_jobs.py via GitHub Actions.
+            This PR contains changes made by running merge_crypto_jobs.py via GitHub Actions.
 
             ```json
             ${{ steps.set-output.outputs.current }}
