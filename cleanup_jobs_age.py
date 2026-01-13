@@ -76,11 +76,13 @@ def main():
     crypto_links = get_job_links_from_json("crypto_jobs.json")
     ai_links = get_job_links_from_json("ai_jobs.json")
     fin_links = get_job_links_from_json("fin_jobs.json")
+    tech_links = get_job_links_from_json("tech_jobs.json")
     
     files_to_clean = [
         ("crypto_jobs_age.json", crypto_links, "Crypto"),
         ("ai_jobs_age.json", ai_links, "AI"),
         ("fin_jobs_age.json", fin_links, "Fintech"),
+        ("tech_jobs_age.json", tech_links, "Tech"),
     ]
     
     total_removed = 0

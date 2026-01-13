@@ -64,11 +64,13 @@ def main():
     crypto_companies = Companies.filter_companies(category="crypto")
     ai_companies = Companies.filter_companies(category="ai")
     fin_companies = Companies.filter_companies(category="fintech")
+    tech_companies = Companies.filter_companies(category="tech")
     
     files_to_clean = [
         ("crypto_history.json", crypto_companies, "Crypto"),
         ("ai_history.json", ai_companies, "AI"),
         ("fin_history.json", fin_companies, "Fintech"),
+        ("tech_history.json", tech_companies, "Tech"),
     ]
     
     total_removed = 0

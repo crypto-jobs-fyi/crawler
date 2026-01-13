@@ -296,7 +296,7 @@ class ScrapeIt(ABC):
 - **Integration**: All scrapers and runner components use `get_logger()`.
 
 ### 3.10 Merging Utilities (`merge_*_jobs.py`)
-**Files**: `merge_ai_jobs.py`, `merge_crypto_jobs.py`, `merge_fin_jobs.py`
+**Files**: `merge_ai_jobs.py`, `merge_crypto_jobs.py`, `merge_fin_jobs.py`, `merge_tech_jobs.py`
 
 **Purpose**: Aggregates job listings from multiple ATS-specific or headed/headless crawl results into a single unified JSON file per vertical.
 
@@ -304,6 +304,22 @@ class ScrapeIt(ABC):
 - **De-duplication**: Uses link-based `seen` sets to ensure unique entries.
 - **Unified Schema**: Standardizes output format for downstream processing.
 - **Vertical-Specific**: Each script handles its own set of source files (e.g., `crypto_jobs_lever.json` → `crypto_jobs.json`).
+
+### 3.11 GitHub Workflows (`.github/workflows/*.yml`)
+**Purpose**: Automates the scraping, merging, and data update lifecycle using GitHub Actions.
+
+**Key Components**:
+1. **Vertical Crawlers**: (e.g., `crawler-ai.yml`, `crawler-crypto.yml`)
+   - Triggered on schedule or manually.
+   - Run specialized crawlers (often headless) and update partial job files.
+2. **Merging Orchesration**: (`crawler-merge-trigger.yml`)
+   - Central dispatcher that triggers vertical-specific merge workflows.
+3. **Merge Workflows**: (e.g., `crawler-ai-merge.yml`, `crawler-crypto-merge.yml`, `crawler-fintech-merge.yml`, `crawler-tech-merge.yml`)
+   - Execute the corresponding `merge_*_jobs.py` script.
+   - Run post-processing (`write_*_jobs_age.py`, `get_new_*_jobs.py`).
+   - Automatically open a Pull Request with updated data and status metrics.
+4. **Reusable Workflows**: (`reusable-crawler-run.yml`)
+   - Standardized template for running crawler steps across different verticals to reduce duplication.
 
 ---
 
