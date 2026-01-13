@@ -2,44 +2,81 @@ import json
 
 
 from src.company_item import CompanyItem
+from src.scrapers import Scrapers
 from src.logging_utils import get_logger
 
 logger = get_logger(__name__)
 
 class Companies:
+    _cached_companies: list[CompanyItem] = None
 
     @staticmethod
-    def get_company(name: str, company_list: list[CompanyItem]) -> CompanyItem:
+    def load_companies() -> list[CompanyItem]:
+        if Companies._cached_companies is not None:
+             return Companies._cached_companies
+             
+        try:
+            with open('companies.json', 'r') as f:
+                config = json.load(f)
+        except FileNotFoundError:
+            logger.error("companies.json not found")
+            return []
+        
+        companies = []
+        company_list_raw = config.get('companies', []) if isinstance(config, dict) else config
+        
+        for c in company_list_raw:
+             scraper_name = c.get('scraper')
+             scraper_type = getattr(Scrapers, scraper_name) if scraper_name else None
+             
+             companies.append(CompanyItem(
+                 company_name=c.get('name', c.get('company_name')),
+                 jobs_url=c.get('jobs_url'),
+                 scraper_type=scraper_type,
+                 company_url=c.get('company_url'),
+                 category=c.get('category'),
+                 enabled=c.get('enabled', True),
+                 headless=c.get('headless', True)
+             ))
+        
+        Companies._cached_companies = companies
+        return companies
+
+    @staticmethod
+    def get_company(name: str, company_list: list[CompanyItem] = None) -> CompanyItem:
+        if company_list is None:
+            company_list = Companies.load_companies()
         companies = list(filter(lambda jd: jd.company_name == name, company_list))
         if len(companies) > 1:
             raise NameError(f'Duplicated company name: {name}')
         return companies[0]
 
     @staticmethod
-    def write_companies(file_name, company_list: list[CompanyItem]):
-        result_list = []
-        for com in company_list:
-            company_item = {
-                "company_name": com.company_name,
-                "company_url": com.company_url,
-                "jobs_url": com.jobs_url,
-            }
-            result_list.append(company_item)
-        logger.info(
-            "Companies written",
-            extra={"file_name": file_name, "company_count": len(result_list)},
-        )
-        with open(file_name, 'w') as companies_file:
-            json.dump(result_list, companies_file, indent=4)
-
-    @staticmethod
-    def filter_companies(company_list: list[CompanyItem], scraper_type) -> list[CompanyItem]:
-        return [company for company in company_list if getattr(company, 'scraper_type', None) == scraper_type]
+    def filter_companies(category: str = None, scraper_type = None) -> list[CompanyItem]:
+        companies = Companies.load_companies()
+        filtered = [c for c in companies if c.enabled]
+        if category:
+            filtered = [c for c in filtered if c.category == category]
+        if scraper_type:
+            filtered = [c for c in filtered if c.scraper_type == scraper_type]
+        return filtered
     
     @staticmethod
-    def filter_companies_not(company_list: list[CompanyItem], scraper_types: list) -> list[CompanyItem]:
-        return [company for company in company_list if getattr(company, 'scraper_type', None) not in scraper_types]
+    def filter_companies_not(category: str = None, scraper_types: list = None) -> list[CompanyItem]:
+        companies = Companies.load_companies()
+        filtered = [c for c in companies if c.enabled]
+        if category:
+            filtered = [c for c in filtered if c.category == category]
+        if scraper_types:
+            filtered = [company for company in filtered if getattr(company, 'scraper_type', None) not in scraper_types]
+        return filtered
 
     @staticmethod
-    def filter_companies_by_name(company_list: list[CompanyItem], company_names: list[str]) -> list[CompanyItem]:
-        return [company for company in company_list if company.company_name in company_names]
+    def filter_companies_by_name(category: str = None, company_names: list[str] = None) -> list[CompanyItem]:
+        companies = Companies.load_companies()
+        filtered = [c for c in companies if c.enabled]
+        if category:
+            filtered = [c for c in filtered if c.category == category]
+        if company_names:
+            filtered = [company for company in filtered if company.company_name in company_names]
+        return filtered

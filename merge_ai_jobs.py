@@ -1,16 +1,13 @@
 import json
 from src.companies import Companies
-from src.company_item import CompanyItem
-from src.company_ai_list import get_company_list
 from src.logging_utils import get_logger
 
-company_list: list[CompanyItem] = get_company_list()
+company_list = Companies.filter_companies(category="ai")
 logger = get_logger(__name__)
 logger.info(
     "Companies loaded",
     extra={"company_count": len(company_list), "jobs_file": 'ai_jobs.json'},
 )
-Companies.write_companies('ai_companies.json', company_list)
 jobs_file = 'ai_jobs.json'
 
 def write_jobs(jobs, file_name=jobs_file):

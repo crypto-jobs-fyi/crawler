@@ -96,15 +96,15 @@
 **Files**: `crawler_ai.py`, `crawler_crypto.py`, `crawler_tech.py`, `crawler_fin.py`
 
 **Responsibility**:
-- Load company lists by vertical
-- Filter companies (e.g., exclude Ashby/Greenhouse/Lever)
-- Initialize CrawlerRunner
-- Trigger scraping pipeline
+- Load company metadata from `companies.json` via the `Companies` utility class.
+- Filter companies by `category` (e.g., "ai", "crypto", "fintech").
+- Initialize CrawlerRunner with vertical-specific output files.
+- Trigger scraping pipeline.
 
 **Characteristics**:
-- Lightweight orchestration
-- ~15 lines of code each
-- Single responsibility: delegation
+- Lightweight orchestration.
+- Uses `Companies.filter_companies(category="...")` for dynamic selection.
+- Single responsibility: vertical-specific delegation.
 
 ---
 
@@ -113,36 +113,36 @@
 
 **Key Responsibilities**:
 1. **Threading Management**
-   - Queue-based parallel processing
-   - Default 2 workers for headless mode
-   - Single-threaded fallback for non-headless
+   - Queue-based parallel processing.
+   - Default 2 workers for headless mode.
+   - Automatically skips `thread` ID in structured logs for cleaner output.
 
 2. **WebDriver Lifecycle**
-   - Chrome options: `--no-sandbox`, `--disable-dev-shm-usage`, `--headless`, `--disable-extensions`
-   - Per-worker driver instances
-   - Proper cleanup in finally blocks
+   - Chrome options: `--no-sandbox`, `--disable-dev-shm-usage`, `--headless`, `--disable-extensions`.
+   - Per-worker driver instances.
+   - Proper cleanup in finally blocks.
 
 3. **Retry Logic**
-   - 2 retries on 0 jobs returned
-   - 2 seconds delay between retries
-   - Exception handling with retry support
+   - 2 retries on 0 jobs returned.
+   - 2 seconds delay between retries.
+   - Exception handling with structured logging.
 
 4. **Data Persistence**
-   - Thread-safe file locking with `threading.Lock()`
-   - Call `ScrapeIt.write_jobs()` and `write_current_jobs_number()`
-   - Metrics: job count, timestamps
+   - Thread-safe file locking with `threading.Lock()`.
+   - Call `ScrapeIt.write_jobs()` and `write_current_jobs_number()`.
+   - Metrics: job count, duration, and status codes.
 
 **Methods**:
-- `run()` - Main entry point
-- `_worker()` - Thread worker function
-- `_scrape_company()` - Single company orchestration
-- `_get_driver()` - ChromeDriver factory
-- `_initialize_files()` - JSON file setup
+- `run()` - Main entry point.
+- `_worker()` - Thread worker function.
+- `_scrape_company()` - Single company orchestration.
+- `_get_driver()` - ChromeDriver factory.
+- `_initialize_files()` - JSON file setup.
 
 ---
 
 ### 3.3 Scrapers Registry (`src/scrapers.py`)
-**Purpose**: Centralized enum-like registry of all scrapers
+**Purpose**: Centralized enum-like registry of all scrapers.
 
 **Current Implementation**:
 ```python
@@ -154,37 +154,53 @@ class Scrapers:
     # ... 40+ more
 ```
 
-**Design Pattern**: Factory pattern via class attributes
-- Each attribute = scraper class reference
-- Dynamic instantiation: `company.scraper_type()`
+**Design Pattern**: Factory pattern via class attributes.
+- Each attribute = scraper class reference.
+- Dynamic instantiation: `company.scraper_type()`.
 
-**Scale**: 45+ scraper implementations
+**Scale**: 45+ scraper implementations.
 
 ---
 
-### 3.4 Company Configuration (`src/company_*.py`)
-**Files**: 
-- `company_list.py` (main - 177 companies)
-- `company_ai_list.py`, `company_crypto_list.py`, `company_fin_list.py`, `company_tech_list.py`
+### 3.4 Company Configuration (`companies.json`)
+**File**: `companies.json` (Replaces legacy `src/company_*_list.py` files)
 
 **Structure**:
-```python
-CompanyItem(
-    company_name="Name",
-    jobs_url="https://...",
-    scraper_type=Scrapers.ASHBYHQ,  # or similar
-    company_url="https://..."
-)
+```json
+{
+  "companies": [
+    {
+      "name": "kraken",
+      "jobs_url": "https://jobs.ashbyhq.com/kraken.com",
+      "scraper": "ASHBYHQ",
+      "company_url": "https://kraken.com",
+      "category": "crypto",
+      "enabled": true,
+      "headless": true
+    }
+  ]
+}
 ```
 
 **Characteristics**:
-- Hard-coded list of companies
-- Maps company → jobs URL → scraper type
-- Supports filtering by scraper type (e.g., exclude Ashby)
+- Centralized JSON registry for 300+ companies.
+- `CompanyItem` dataclass supports new fields: `category`, `enabled`, and `headless`.
+- Migrated from hard-coded Python lists to externalized configuration.
+- Supports runtime enabling/disabling of scrapers without code changes.
 
 ---
 
-### 3.5 Scraper Base Class (`src/scrape_it.py`)
+### 3.5 Companies Utility (`src/companies.py`)
+**Purpose**: Data access layer for company configuration.
+
+**Key Features**:
+- `load_companies()`: Loads and caches data from `companies.json`.
+- `filter_companies(category)`: Returns enabled companies for a specific vertical.
+- `get_company(name)`: Retrieves a single company item by name.
+
+---
+
+### 3.6 Scraper Base Class (`src/scrape_it.py`)
 **Abstract Interface**:
 ```python
 from src.logging_utils import get_logger
@@ -217,62 +233,69 @@ class ScrapeIt(ABC):
 ```
 
 **Logging Helpers**:
-- `self.log_info(...)`, `self.log_warning(...)`, and `self.log_error(...)` proxy to a structured logger per scraper instance.
-- `src/logging_utils.py` centralises configuration (JSON output, level control via `CRAWLER_LOG_LEVEL`).
+- `self.logger.info(...)` uses structured JSON format.
+- `src/logging_utils.py` handles field filtering (removes `taskName: null`, skips `thread`).
 
 ---
 
-### 3.6 Individual Scrapers
+### 3.7 Individual Scrapers
 **39 Implementations**: `src/scrape_*.py`
 
 **Examples**:
-- `scrape_ashbyhq.py` - Ashby ATS
-- `scrape_lever.py` - Lever ATS
-- `scrape_greenhouse.py` - Greenhouse ATS
-- `scrape_circle.py` - Custom job board
-- `scrape_coinbase.py` - Custom site
+- `scrape_ashbyhq.py` - Ashby ATS.
+- `scrape_lever.py` - Lever ATS.
+- `scrape_greenhouse.py` - Greenhouse ATS.
+- `scrape_circle.py` - Custom job board.
+- `scrape_coinbase.py` - Custom site.
 
 **Common Patterns**:
-- Selenium for dynamic content
-- CSS selectors for element extraction
-- Explicit waits for page loads
-- Some need `time.sleep()` for JS rendering
+- Selenium for dynamic content.
+- CSS selectors for element extraction.
+- Explicit waits for page loads.
+- Some need `time.sleep()` for JS rendering.
 
 ---
 
-### 3.7 Post-Processing (`src/age_processor.py`)
+### 3.8 Post-Processing (`src/age_processor.py`)
 **Function**: `update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file)`
 
 **Pipeline**:
-1. Load all jobs from `jobs.json`
-2. Track new vs existing via link deduplication
-3. Record first appearance date
-4. Compute age: `current_date - first_appearance_date`
-5. Generate per-company statistics
-6. Append to history
+1. Load all jobs from `jobs.json`.
+2. Track new vs existing via link deduplication.
+3. Record first appearance date.
+4. Compute age: `current_date - first_appearance_date`.
+5. Generate per-company statistics.
+6. Append to history.
 
 **Outputs**:
-- `current.json` - Current job count by company
-- `jobs_age.json` - Job age tracking
-- `history.json` - Historical snapshots
+- `current.json` - Current job count by company.
+- `jobs_age.json` - Job age tracking.
+- `history.json` - Historical snapshots.
 
 ---
 
-### 3.8 Logging Utilities (`src/logging_utils.py`)
-**Purpose**: Centralised structured logging (JSON lines) for crawlers, scrapers, and utilities.
+### 3.9 Logging Utilities (`src/logging_utils.py`)
+**Purpose**: Centralised structured logging (JSON lines).
 
 **Key Points**:
-- `configure_logging()` installs a shared `StreamHandler` with JSON formatter; level overridable via `CRAWLER_LOG_LEVEL`.
-- `get_logger(name)` returns cached `logging.Logger` instances scoped per module/class.
-- Scrapers and scripts extend `ScrapeIt.log_*` helpers for consistent event metadata (`company`, `attempt`, `duration_seconds`, etc.).
-- Outputs are UTF-8 JSON objects, safe for ingestion by log pipelines or GitHub Actions artifacts.
+- **JSON Formatter**: Outputs logs as single-line JSON objects.
+- **Field Filtering**: 
+  - Automatically omits `thread` ID.
+  - Skips keys with `null` values (e.g., `taskName`).
+  - Standardizes keys: `timestamp`, `level`, `logger`, `message`, `module`, `function`, `line`.
+- **Configuration**: Level control via `CRAWLER_LOG_LEVEL`.
+- **Integration**: All scrapers and runner components use `get_logger()`.
 
 ---
 
 ## 4. DATA FLOW
 
 ```
-Input: Company List (177+ items)
+Input: companies.json (300+ items)
+   ↓
+[Companies Utility]
+   ├─ Load from JSON
+   └─ Filter by category (AI, Crypto, Tech, Fintech)
    ↓
 [CrawlerRunner]
    ├─ Queue companies
@@ -319,26 +342,30 @@ Output Files:
 - Graceful degradation
 
 ✅ **Multi-Vertical Support**
-- Separate crawlers for AI, crypto, fintech, tech
-- Reusable company lists and filters
-- Shared scraper infrastructure
+- Separate crawlers for AI, crypto, fintech, tech.
+- Reusable company lists and filters via `Companies` utility.
+- Shared scraper infrastructure.
+
+✅ **Centralized Configuration**
+- `companies.json` allows updates without code changes.
+- Metadata-driven (category, enabled, headless).
+
+✅ **Structured Logging**
+- JSON-based logs for all components.
+- Automatic removal of verbose fields (thread, null taskName).
 
 ✅ **Data Integrity**
-- Thread-safe JSON writes with locks
-- Deduplication via link tracking
-- Historical trending
+- Thread-safe JSON writes with locks.
+- Deduplication via link tracking.
+- Historical trending.
 
 ---
 
 ## 6. IDENTIFIED ISSUES & BOTTLENECKS
 
-### 6.1 Configuration Management
-**Problem**: Hard-coded company lists in Python files
-- No database; changes require code edits + deployment
-- No runtime filtering/exclusion without redefining lists
-- Duplicate company data across `company_list.py` and vertical lists
-
-**Impact**: Low operational flexibility, deployment friction
+### 6.1 Configuration Management (Recently Improved)
+- **Status**: ✅ Transitioned from Python-based lists to `companies.json`.
+- **Remaining**: Needs easier GUI or tool for non-dev updates.
 
 ### 6.2 Scraper Maintenance
 **Problem**: 39 scrapers with varying quality/reliability
@@ -357,13 +384,9 @@ Output Files:
 
 **Impact**: Wasted time on unrecoverable failures, slow recovery
 
-### 6.4 Logging & Observability
-**Problem**: Print statements only
-- No structured logging (JSON, levels)
-- No persistent logs for post-analysis
-- Difficult to debug failures in CI/CD
-
-**Impact**: Poor visibility into system behavior
+### 6.4 Logging & Observability (Recently Improved)
+- **Status**: ✅ Implemented structured JSON logging.
+- **Remaining**: Needs log aggregation (e.g., Loki) and dashboards.
 
 ### 6.5 Testing Coverage
 **Problem**: Recently refactored tests but still gaps
@@ -404,23 +427,9 @@ Output Files:
 ### PHASE 1: IMMEDIATE (Quick Wins)
 **Effort**: 1-2 weeks
 
-#### 1.1 Structured Logging
-```python
-from src.logging_utils import get_logger
-
-logger = get_logger("crawler.runner")
-logger.info("Scrape start", extra={"company": company_name, "attempt": attempt})
-logger.error(
-    "Scrape failed",
-    extra={"company": company_name, "attempt": attempt},
-    exc_info=True,
-)
-```
-
-**Benefits**: 
-- Persistent logs for debugging
-- Structured output for analysis
-- Easy integration with monitoring
+#### 1.1 Structured Logging (✅ COMPLETED)
+- Distributed JSON logging implemented.
+- Field filtering for `thread` and `taskName` added.
 
 #### 1.2 Explicit Waits Everywhere
 ```python
@@ -469,73 +478,14 @@ for attempt, error_type in enumerate(failures):
 
 ---
 
-### PHASE 2: CONFIGURATION (1-2 weeks)
+### PHASE 2: CONFIGURATION (✅ COMPLETED)
 
 #### 2.1 JSON Configuration File
-```json
-{
-  "companies": [
-    {
-      "name": "kraken",
-      "jobs_url": "https://jobs.ashbyhq.com/kraken.com",
-      "scraper": "ASHBYHQ",
-      "company_url": "https://kraken.com",
-      "enabled": true,
-      "category": "crypto",
-      "retry_policy": "STANDARD"
-    },
-    {
-      "name": "paxos",
-      "jobs_url": "https://www.paxos.com/jobs",
-      "scraper": "PAXOS",
-      "company_url": "https://www.paxos.com",
-      "enabled": true,
-      "category": "fintech",
-      "retry_policy": "AGGRESSIVE"
-    }
-  ]
-}
-```
+- Migrated all company lists to `companies.json`.
+- Implemented `Companies` utility for filtering and loading.
 
-**Load at runtime**:
-```python
-def load_companies_from_json(filename):
-    with open(filename) as f:
-        config = json.load(f)
-    return [CompanyItem(**c) for c in config['companies']]
-```
-
-**Benefits**:
-- No code redeploys for config changes
-- Easy on/off toggles
-- Per-company tuning (retry policies, etc.)
-
-#### 2.2 Scraper Configuration
-```json
-{
-  "scrapers": {
-    "ASHBYHQ": {
-      "timeout": 10,
-      "selectors": {
-        "job_container": "div.job-item",
-        "title": "h2.job-title",
-        "location": "span.location"
-      },
-      "wait_for": ["div.job-item"]
-    },
-    "LEVER": {
-      "timeout": 8,
-      "selectors": {},
-      "cookie_banner": "div.cookie-consent"
-    }
-  }
-}
-```
-
-**Benefits**:
-- Reduced scraper code duplication
-- Easy A/B testing selectors
-- Centralized maintenance
+#### 2.2 Scraper Configuration (In progress)
+**Goal**: Move CSS selectors and timeouts into JSON config.
 
 ---
 
@@ -833,7 +783,7 @@ PHASE 4: Scalability (Weeks 8-11)
 The crawler has **strong fundamentals** (modular, threaded, extensible) but needs **operational improvements** (logging, configuration, testing). The roadmap prioritizes **quick wins** first (logging, retries) before **architectural changes** (database, API). Estimated effort: **3-4 months** for full implementation.
 
 **Immediate Action Items**:
-1. Add structured logging everywhere
-2. Replace `time.sleep()` with explicit waits
-3. Create mock test suite
-4. Move companies to YAML config
+1. Replace `time.sleep()` with explicit waits in all scrapers.
+2. Implement Dead-Letter Queue for failed companies.
+3. Improve test coverage for cookie banner handling.
+4. Scale workers (max_workers) for faster completion.

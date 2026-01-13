@@ -69,6 +69,12 @@ class _JsonFormatter(logging.Formatter):
                 continue
             log_record[key] = _stringify(value)
 
+        # Remove taskName if it is null or other specific fields if requested
+        for key in ['taskName', 'thread']:
+            if key in log_record:
+                if key == 'thread' or log_record[key] is None:
+                    del log_record[key]
+
         return json.dumps(log_record, ensure_ascii=True)
 
 

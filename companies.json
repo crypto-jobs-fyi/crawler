@@ -1,887 +1,2956 @@
-[
-    {
-        "company_name": "base",
-        "company_url": "https://www.base.org",
-        "jobs_url": "https://www.base.org/jobs"
-    },
-    {
-        "company_name": "Numeus",
-        "company_url": "https://classic.numeus.xyz",
-        "jobs_url": "https://job-boards.eu.greenhouse.io/numus"
-    },
-    {
-        "company_name": "kraken",
-        "company_url": "https://kraken.com",
-        "jobs_url": "https://jobs.ashbyhq.com/kraken.com"
-    },
-    {
-        "company_name": "fireblocks",
-        "company_url": "https://www.fireblocks.com",
-        "jobs_url": "https://job-boards.greenhouse.io/fireblocks"
-    },
-    {
-        "company_name": "blockstream",
-        "company_url": "https://www.blockstream.com",
-        "jobs_url": "https://jobs.ashbyhq.com/blockstream"
-    },
-    {
-        "company_name": "swanbitcoin",
-        "company_url": "https://www.swanbitcoin.com",
-        "jobs_url": "https://job-boards.greenhouse.io/swanbitcoin"
-    },
-    {
-        "company_name": "moonpay",
-        "company_url": "https://www.moonpay.com",
-        "jobs_url": "https://jobs.lever.co/moonpay"
-    },
-    {
-        "company_name": "phantom",
-        "company_url": "https://phantom.com",
-        "jobs_url": "https://jobs.ashbyhq.com/phantom"
-    },
-    {
-        "company_name": "paxos",
-        "company_url": "https://www.paxos.com",
-        "jobs_url": "https://www.paxos.com/jobs"
-    },
-    {
-        "company_name": "circle",
-        "company_url": "https://www.circle.com",
-        "jobs_url": "https://careers.circle.com/us/en/search-results"
-    },
-    {
-        "company_name": "robinhood",
-        "company_url": "https://www.robinhood.com",
-        "jobs_url": "https://careers.robinhood.com"
-    },
-    {
-        "company_name": "ninjatrader",
-        "company_url": "https://www.ninjatrader.com",
-        "jobs_url": "https://job-boards.greenhouse.io/ninjatrader"
-    },
-    {
-        "company_name": "arbitrumfoundation",
-        "company_url": "https://arbitrum.foundation",
-        "jobs_url": "https://jobs.lever.co/arbitrumfoundation"
-    },
-    {
-        "company_name": "aragon",
-        "company_url": "https://aragon.org",
-        "jobs_url": "https://jobs.lever.co/aragon"
-    },
-    {
-        "company_name": "nomina.io",
-        "company_url": "https://www.nomina.io",
-        "jobs_url": "https://job-boards.greenhouse.io/nomina"
-    },
-    {
-        "company_name": "nomic.foundation",
-        "company_url": "https://nomic.foundation",
-        "jobs_url": "https://jobs.ashbyhq.com/nomic.foundation"
-    },
-    {
-        "company_name": "binance",
-        "company_url": "https://www.binance.com",
-        "jobs_url": "https://jobs.lever.co/binance"
-    },
-    {
-        "company_name": "ethglobal",
-        "company_url": "https://ethglobal.com",
-        "jobs_url": "https://jobs.ashbyhq.com/ethglobal"
-    },
-    {
-        "company_name": "li.fi",
-        "company_url": "https://li.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/li.fi"
-    },
-    {
-        "company_name": "Caldera",
-        "company_url": "https://www.caldera.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/Caldera"
-    },
-    {
-        "company_name": "blox-route",
-        "company_url": "https://bloxroute.com",
-        "jobs_url": "https://jobs.lever.co/blox-route"
-    },
-    {
-        "company_name": "sprucesystems",
-        "company_url": "https://spruceid.com",
-        "jobs_url": "https://jobs.lever.co/sprucesystems"
-    },
-    {
-        "company_name": "scroll",
-        "company_url": "https://scroll.io",
-        "jobs_url": "https://job-boards.greenhouse.io/scrollio"
-    },
-    {
-        "company_name": "impossiblecloud",
-        "company_url": "https://www.impossiblecloud.com",
-        "jobs_url": "https://jobs.lever.co/impossiblecloud"
-    },
-    {
-        "company_name": "ether-fi",
-        "company_url": "https://www.ether.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/ether.fi"
-    },
-    {
-        "company_name": "fuellabs",
-        "company_url": "https://www.fuel.network",
-        "jobs_url": "https://jobs.lever.co/fuellabs"
-    },
-    {
-        "company_name": "harmony",
-        "company_url": "https://www.harmony.one",
-        "jobs_url": "https://jobs.lever.co/harmony"
-    },
-    {
-        "company_name": "wintermute",
-        "company_url": "https://www.wintermute.com",
-        "jobs_url": "https://jobs.lever.co/wintermute-trading"
-    },
-    {
-        "company_name": "coinspaid",
-        "company_url": "https://coinspaid.com",
-        "jobs_url": "https://jobs.eu.lever.co/coinspaid"
-    },
-    {
-        "company_name": "kaiko",
-        "company_url": "https://www.kaiko.com",
-        "jobs_url": "https://jobs.eu.lever.co/kaiko"
-    },
-    {
-        "company_name": "swissborg",
-        "company_url": "https://swissborg.com",
-        "jobs_url": "https://jobs.lever.co/swissborg"
-    },
-    {
-        "company_name": "ethereumfoundation",
-        "company_url": "https://ethereum.org",
-        "jobs_url": "https://jobs.lever.co/ethereumfoundation"
-    },
-    {
-        "company_name": "avara",
-        "company_url": "https://avara.xyz",
-        "jobs_url": "https://avara.xyz/careers"
-    },
-    {
-        "company_name": "crypto",
-        "company_url": "https://crypto.com",
-        "jobs_url": "https://jobs.lever.co/crypto"
-    },
-    {
-        "company_name": "Luxor",
-        "company_url": "https://www.luxor.tech",
-        "jobs_url": "https://jobs.ashbyhq.com/luxor"
-    },
-    {
-        "company_name": "anchorage",
-        "company_url": "https://www.anchorage.com",
-        "jobs_url": "https://jobs.lever.co/anchorage"
-    },
-    {
-        "company_name": "Polygon",
-        "company_url": "https://polygon.technology",
-        "jobs_url": "https://jobs.ashbyhq.com/polygon-labs"
-    },
-    {
-        "company_name": "centrifuge",
-        "company_url": "https://centrifuge.io",
-        "jobs_url": "https://jobs.lever.co/centrifuge"
-    },
-    {
-        "company_name": "tokenmetrics",
-        "company_url": "https://www.tokenmetrics.com",
-        "jobs_url": "https://jobs.lever.co/tokenmetrics"
-    },
-    {
-        "company_name": "offchainlabs",
-        "company_url": "https://offchainlabs.com",
-        "jobs_url": "https://jobs.lever.co/offchainlabs"
-    },
-    {
-        "company_name": "recall",
-        "company_url": "https://recall.network",
-        "jobs_url": "https://job-boards.greenhouse.io/recall"
-    },
-    {
-        "company_name": "eiger",
-        "company_url": "https://www.eiger.co",
-        "jobs_url": "https://boards.eu.greenhouse.io/eiger"
-    },
-    {
-        "company_name": "risklabs",
-        "company_url": "https://risklabs.foundation",
-        "jobs_url": "https://jobs.ashbyhq.com/risklabs"
-    },
-    {
-        "company_name": "celestia",
-        "company_url": "https://celestia.org",
-        "jobs_url": "https://jobs.lever.co/celestia"
-    },
-    {
-        "company_name": "gauntlet",
-        "company_url": "https://gauntlet.network",
-        "jobs_url": "https://jobs.lever.co/gauntlet"
-    },
-    {
-        "company_name": "gate.io",
-        "company_url": "https://gate.io",
-        "jobs_url": "https://jobs.lever.co/gate"
-    },
-    {
-        "company_name": "auroralabs",
-        "company_url": "https://auroralabs.dev",
-        "jobs_url": "https://jobs.lever.co/aurora-dev"
-    },
-    {
-        "company_name": "immutable",
-        "company_url": "https://www.immutable.com",
-        "jobs_url": "https://jobs.lever.co/immutable"
-    },
-    {
-        "company_name": "cere-network",
-        "company_url": "https://cere.network",
-        "jobs_url": "https://jobs.lever.co/cere-network"
-    },
-    {
-        "company_name": "cryptio",
-        "company_url": "https://cryptio.co",
-        "jobs_url": "https://jobs.ashbyhq.com/cryptio"
-    },
-    {
-        "company_name": "matterlabs",
-        "company_url": "https://matter-labs.io",
-        "jobs_url": "https://jobs.ashbyhq.com/matter-labs"
-    },
-    {
-        "company_name": "iftother",
-        "company_url": "https://free.technology",
-        "jobs_url": "https://boards.greenhouse.io/iftother"
-    },
-    {
-        "company_name": "figure",
-        "company_url": "https://www.figure.com",
-        "jobs_url": "https://job-boards.greenhouse.io/figure"
-    },
-    {
-        "company_name": "wyndlabs",
-        "company_url": "https://www.wyndlabs.ai",
-        "jobs_url": "https://boards.greenhouse.io/wyndlabs"
-    },
-    {
-        "company_name": "animocabrands",
-        "company_url": "https://www.animocabrands.com",
-        "jobs_url": "https://jobs.lever.co/animocabrands"
-    },
-    {
-        "company_name": "toku",
-        "company_url": "https://www.toku.com",
-        "jobs_url": "https://jobs.lever.co/toku"
-    },
-    {
-        "company_name": "hiro",
-        "company_url": "https://www.hiro.so",
-        "jobs_url": "https://boards.greenhouse.io/hiro"
-    },
-    {
-        "company_name": "plume",
-        "company_url": "https://plume.org",
-        "jobs_url": "https://jobs.ashbyhq.com/plume-network"
-    },
-    {
-        "company_name": "coingecko",
-        "company_url": "https://www.coingecko.com",
-        "jobs_url": "https://jobs.lever.co/coingecko"
-    },
-    {
-        "company_name": "connext-network",
-        "company_url": "https://www.connext.network",
-        "jobs_url": "https://jobs.lever.co/connext-network"
-    },
-    {
-        "company_name": "ethenalabs",
-        "company_url": "https://www.ethena.fi",
-        "jobs_url": "https://jobs.lever.co/ethenalabs"
-    },
-    {
-        "company_name": "SeiLabs",
-        "company_url": "https://www.sei.io",
-        "jobs_url": "https://jobs.ashbyhq.com/sei-labs"
-    },
-    {
-        "company_name": "theblock",
-        "company_url": "https://www.theblock.co",
-        "jobs_url": "https://jobs.lever.co/theblockcrypto"
-    },
-    {
-        "company_name": "bitwise",
-        "company_url": "https://bitwiseinvestments.com",
-        "jobs_url": "https://jobs.lever.co/bitwiseinvestments"
-    },
-    {
-        "company_name": "grayscaleinvestments",
-        "company_url": "https://grayscale.com",
-        "jobs_url": "https://boards.greenhouse.io/grayscaleinvestments"
-    },
-    {
-        "company_name": "ssv.network",
-        "company_url": "https://ssv.network",
-        "jobs_url": "https://boards.greenhouse.io/bloxstaking"
-    },
-    {
-        "company_name": "xlabs",
-        "company_url": "https://www.xlabs.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/Xlabs"
-    },
-    {
-        "company_name": "orca",
-        "company_url": "https://www.orca.so",
-        "jobs_url": "https://jobs.ashbyhq.com/orca"
-    },
-    {
-        "company_name": "succinct",
-        "company_url": "https://succinct.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/succinct"
-    },
-    {
-        "company_name": "jumpcrypto",
-        "company_url": "https://jumpcrypto.com",
-        "jobs_url": "https://boards.greenhouse.io/jumpcrypto"
-    },
-    {
-        "company_name": "0x",
-        "company_url": "https://0x.org",
-        "jobs_url": "https://jobs.ashbyhq.com/0x"
-    },
-    {
-        "company_name": "ritual",
-        "company_url": "https://ritual.net",
-        "jobs_url": "https://boards.greenhouse.io/ritual"
-    },
-    {
-        "company_name": "coinmarketcap",
-        "company_url": "https://coinmarketcap.com",
-        "jobs_url": "https://jobs.lever.co/coinmarketcap"
-    },
-    {
-        "company_name": "orderlynetwork",
-        "company_url": "https://orderly.network",
-        "jobs_url": "https://job-boards.greenhouse.io/orderly"
-    },
-    {
-        "company_name": "shardeum",
-        "company_url": "https://shardeum.org",
-        "jobs_url": "https://boards.greenhouse.io/shardeumfoundation"
-    },
-    {
-        "company_name": "zora",
-        "company_url": "https://zora.co",
-        "jobs_url": "https://boards.greenhouse.io/zora"
-    },
-    {
-        "company_name": "wormholefoundation",
-        "company_url": "https://wormhole.com",
-        "jobs_url": "https://boards.greenhouse.io/iftother"
-    },
-    {
-        "company_name": "blockchain",
-        "company_url": "https://www.blockchain.com",
-        "jobs_url": "https://boards.greenhouse.io/blockchain"
-    },
-    {
-        "company_name": "OKX",
-        "company_url": "https://okx.com",
-        "jobs_url": "https://boards.greenhouse.io/OKX"
-    },
-    {
-        "company_name": "bitmex",
-        "company_url": "https://bitmex.com",
-        "jobs_url": "https://boards.greenhouse.io/bitmex"
-    },
-    {
-        "company_name": "bitgo",
-        "company_url": "https://bitgo.com",
-        "jobs_url": "https://boards.greenhouse.io/bitgo"
-    },
-    {
-        "company_name": "bitpanda",
-        "company_url": "https://bitpanda.com",
-        "jobs_url": "https://boards.eu.greenhouse.io/bitpanda"
-    },
-    {
-        "company_name": "uniswaplabs",
-        "company_url": "https://uniswap.org",
-        "jobs_url": "https://boards.greenhouse.io/uniswaplabs"
-    },
-    {
-        "company_name": "osmosisdex",
-        "company_url": "https://osmosis.zone",
-        "jobs_url": "https://boards.greenhouse.io/osmosisdex"
-    },
-    {
-        "company_name": "figment",
-        "company_url": "https://www.figment.io",
-        "jobs_url": "https://boards.greenhouse.io/figment"
-    },
-    {
-        "company_name": "OpenSea",
-        "company_url": "https://opensea.io",
-        "jobs_url": "https://jobs.ashbyhq.com/OpenSea"
-    },
-    {
-        "company_name": "center",
-        "company_url": "https://center.app",
-        "jobs_url": "https://jobs.ashbyhq.com/center"
-    },
-    {
-        "company_name": "linera.io",
-        "company_url": "https://linera.io",
-        "jobs_url": "https://jobs.ashbyhq.com/linera.io"
-    },
-    {
-        "company_name": "cointracker",
-        "company_url": "https://www.cointracker.io",
-        "jobs_url": "https://jobs.ashbyhq.com/cointracker"
-    },
-    {
-        "company_name": "Bastion",
-        "company_url": "https://www.bastion.com",
-        "jobs_url": "https://jobs.ashbyhq.com/Bastion"
-    },
-    {
-        "company_name": "Sui.Foundation",
-        "company_url": "https://sui.io",
-        "jobs_url": "https://jobs.ashbyhq.com/Sui%20Foundation"
-    },
-    {
-        "company_name": "dourolabs",
-        "company_url": "https://dourolabs.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/dourolabs.xyz"
-    },
-    {
-        "company_name": "rain",
-        "company_url": "https://www.raincards.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/rain"
-    },
-    {
-        "company_name": "mystenlabs",
-        "company_url": "https://mystenlabs.com",
-        "jobs_url": "https://jobs.ashbyhq.com/mystenlabs"
-    },
-    {
-        "company_name": "conduit",
-        "company_url": "https://conduit.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/Conduit"
-    },
-    {
-        "company_name": "kiln.fi",
-        "company_url": "https://www.kiln.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/kiln.fi"
-    },
-    {
-        "company_name": "flashbots",
-        "company_url": "https://www.flashbots.net",
-        "jobs_url": "https://jobs.ashbyhq.com/flashbots.net"
-    },
-    {
-        "company_name": "paradigm.xyz",
-        "company_url": "https://www.paradigm.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/paradigm"
-    },
-    {
-        "company_name": "solanafoundation",
-        "company_url": "https://solana.org",
-        "jobs_url": "https://jobs.ashbyhq.com/Solana%20Foundation"
-    },
-    {
-        "company_name": "syndica",
-        "company_url": "https://syndica.io",
-        "jobs_url": "https://jobs.ashbyhq.com/syndica"
-    },
-    {
-        "company_name": "Blockworks",
-        "company_url": "https://blockworks.co",
-        "jobs_url": "https://jobs.ashbyhq.com/Blockworks"
-    },
-    {
-        "company_name": "ellipsislabs",
-        "company_url": "https://ellipsislabs.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/ellipsislabs"
-    },
-    {
-        "company_name": "safe.global",
-        "company_url": "https://safe.global",
-        "jobs_url": "https://jobs.ashbyhq.com/safe.global"
-    },
-    {
-        "company_name": "artemisanalytics",
-        "company_url": "https://www.artemisanalytics.com",
-        "jobs_url": "https://jobs.ashbyhq.com/artemisanalytics"
-    },
-    {
-        "company_name": "Keyrock",
-        "company_url": "https://keyrock.eu",
-        "jobs_url": "https://jobs.ashbyhq.com/Keyrock"
-    },
-    {
-        "company_name": "sound.xyz",
-        "company_url": "https://www.sound.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/sound.xyz"
-    },
-    {
-        "company_name": "quiknodeinc",
-        "company_url": "https://www.quicknode.com",
-        "jobs_url": "https://jobs.ashbyhq.com/quicknode"
-    },
-    {
-        "company_name": "mara",
-        "company_url": "https://www.mara.com",
-        "jobs_url": "https://job-boards.greenhouse.io/mara"
-    },
-    {
-        "company_name": "xapo",
-        "company_url": "https://www.xapobank.com",
-        "jobs_url": "https://boards.greenhouse.io/xapo61"
-    },
-    {
-        "company_name": "exodus54",
-        "company_url": "https://www.exodus.com",
-        "jobs_url": "https://job-boards.greenhouse.io/exodus54"
-    },
-    {
-        "company_name": "alchemy",
-        "company_url": "https://www.alchemy.com",
-        "jobs_url": "https://boards.greenhouse.io/alchemy"
-    },
-    {
-        "company_name": "chainalysis",
-        "company_url": "https://www.chainalysis.com",
-        "jobs_url": "https://jobs.ashbyhq.com/chainalysis-careers"
-    },
-    {
-        "company_name": "magiceden",
-        "company_url": "https://www.magiceden.io",
-        "jobs_url": "https://jobs.ashbyhq.com/magiceden"
-    },
-    {
-        "company_name": "magic",
-        "company_url": "https://magic.link",
-        "jobs_url": "https://job-boards.greenhouse.io/magic"
-    },
-    {
-        "company_name": "aztec",
-        "company_url": "https://aztec.network",
-        "jobs_url": "https://boards.eu.greenhouse.io/aztec"
-    },
-    {
-        "company_name": "near",
-        "company_url": "https://near.org",
-        "jobs_url": "https://job-boards.eu.greenhouse.io/nearfoundation"
-    },
-    {
-        "company_name": "nethermind",
-        "company_url": "https://nethermind.io",
-        "jobs_url": "https://jobs.ashbyhq.com/nethermind"
-    },
-    {
-        "company_name": "dfinity",
-        "company_url": "https://dfinity.org",
-        "jobs_url": "https://boards.greenhouse.io/dfinity"
-    },
-    {
-        "company_name": "stellar",
-        "company_url": "https://stellar.org",
-        "jobs_url": "https://jobs.ashbyhq.com/stellar"
-    },
-    {
-        "company_name": "bitcoindepot",
-        "company_url": "https://bitcoindepot.com",
-        "jobs_url": "https://job-boards.greenhouse.io/bitcoindepot"
-    },
-    {
-        "company_name": "parity.io",
-        "company_url": "https://www.parity.io",
-        "jobs_url": "https://jobs.ashbyhq.com/parity"
-    },
-    {
-        "company_name": "oplabs",
-        "company_url": "https://www.oplabs.co",
-        "jobs_url": "https://jobs.ashbyhq.com/oplabs"
-    },
-    {
-        "company_name": "walletconnect",
-        "company_url": "https://reown.com",
-        "jobs_url": "https://apply.workable.com/walletconnect"
-    },
-    {
-        "company_name": "io-global",
-        "company_url": "https://iohk.io",
-        "jobs_url": "https://apply.workable.com/io-global/#jobs"
-    },
-    {
-        "company_name": "o1labs",
-        "company_url": "https://o1labs.org",
-        "jobs_url": "https://boards.greenhouse.io/o1labs"
-    },
-    {
-        "company_name": "paradigm.co",
-        "company_url": "https://www.paradigm.co",
-        "jobs_url": "https://careers.kula.ai/paradigm"
-    },
-    {
-        "company_name": "Swissquote",
-        "company_url": "https://en.swissquote.com",
-        "jobs_url": "https://careers.smartrecruiters.com/Swissquote"
-    },
-    {
-        "company_name": "taxbit",
-        "company_url": "https://taxbit.com",
-        "jobs_url": "https://boards.greenhouse.io/taxbit"
-    },
-    {
-        "company_name": "avalabs",
-        "company_url": "https://www.avalabs.org",
-        "jobs_url": "https://boards.greenhouse.io/avalabs"
-    },
-    {
-        "company_name": "aptoslabs",
-        "company_url": "https://aptoslabs.com",
-        "jobs_url": "https://boards.greenhouse.io/aptoslabs"
-    },
-    {
-        "company_name": "almanak",
-        "company_url": "https://almanak.co",
-        "jobs_url": "https://apply.workable.com/almanak-blockchain-labs-ag"
-    },
-    {
-        "company_name": "dune",
-        "company_url": "https://dune.com",
-        "jobs_url": "https://jobs.ashbyhq.com/dune"
-    },
-    {
-        "company_name": "windranger",
-        "company_url": "https://windranger.io",
-        "jobs_url": "https://jobs.ashbyhq.com/windranger"
-    },
-    {
-        "company_name": "foundrydigital",
-        "company_url": "https://foundrydigital.com",
-        "jobs_url": "https://boards.greenhouse.io/foundrydigital"
-    },
-    {
-        "company_name": "immunefi",
-        "company_url": "https://immunefi.com",
-        "jobs_url": "https://boards.greenhouse.io/immunefi"
-    },
-    {
-        "company_name": "strike.me",
-        "company_url": "https://strike.me",
-        "jobs_url": "https://boards.greenhouse.io/strike"
-    },
-    {
-        "company_name": "serotonin",
-        "company_url": "https://serotonin.co",
-        "jobs_url": "https://jobs.lever.co/serotonin"
-    },
-    {
-        "company_name": "Decentraland",
-        "company_url": "https://decentraland.org",
-        "jobs_url": "https://jobs.lever.co/Decentraland"
-    },
-    {
-        "company_name": "copperco",
-        "company_url": "https://copper.co",
-        "jobs_url": "https://boards.eu.greenhouse.io/copperco"
-    },
-    {
-        "company_name": "layerzerolabs",
-        "company_url": "https://layerzero.network",
-        "jobs_url": "https://boards.greenhouse.io/layerzerolabs"
-    },
-    {
-        "company_name": "oasisnetwork",
-        "company_url": "https://oasisprotocol.org",
-        "jobs_url": "https://boards.greenhouse.io/oasisnetwork"
-    },
-    {
-        "company_name": "ripple",
-        "company_url": "https://ripple.com",
-        "jobs_url": "https://ripple.com/careers/all-jobs"
-    },
-    {
-        "company_name": "eigenlabs",
-        "company_url": "https://www.eigencloud.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/eigen-labs"
-    },
-    {
-        "company_name": "galaxydigital",
-        "company_url": "https://www.galaxy.com",
-        "jobs_url": "https://boards.greenhouse.io/galaxydigitalservices"
-    },
-    {
-        "company_name": "clearmatics",
-        "company_url": "https://www.clearmatics.com",
-        "jobs_url": "https://job-boards.greenhouse.io/clearmatics"
-    },
-    {
-        "company_name": "brave",
-        "company_url": "https://brave.com",
-        "jobs_url": "https://job-boards.greenhouse.io/brave"
-    },
-    {
-        "company_name": "zetachain",
-        "company_url": "https://www.zetachain.com",
-        "jobs_url": "https://job-boards.greenhouse.io/zetachain"
-    },
-    {
-        "company_name": "coinbase",
-        "company_url": "https://coinbase.com",
-        "jobs_url": "https://www.coinbase.com/careers/positions"
-    },
-    {
-        "company_name": "sygnum",
-        "company_url": "https://www.sygnum.com",
-        "jobs_url": "https://www.sygnum.com/careers-portal"
-    },
-    {
-        "company_name": "lmax",
-        "company_url": "https://www.lmax.com",
-        "jobs_url": "https://careers.lmax.com/job-openings"
-    },
-    {
-        "company_name": "Saharaai",
-        "company_url": "https://saharaai.com",
-        "jobs_url": "https://jobs.ashbyhq.com/Sahara"
-    },
-    {
-        "company_name": "symbiotic.fi",
-        "company_url": "https://symbiotic.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/Symbiotic"
-    },
-    {
-        "company_name": "noble",
-        "company_url": "https://www.noble.xyz",
-        "jobs_url": "https://job-boards.greenhouse.io/noble"
-    },
-    {
-        "company_name": "ramp.network",
-        "company_url": "https://ramp.network",
-        "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork"
-    },
-    {
-        "company_name": "RWA.xyz",
-        "company_url": "https://rwa.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/RWA.xyz"
-    },
-    {
-        "company_name": "dragonflycapital",
-        "company_url": "https://www.dragonfly.xyz",
-        "jobs_url": "https://jobs.gem.com/dragonfly-careers"
-    },
-    {
-        "company_name": "BitcoinSuisse",
-        "company_url": "https://bitcoinsuisse.com",
-        "jobs_url": "https://bitcoin-suisse.onlyfy.jobs"
-    },
-    {
-        "company_name": "gemini",
-        "company_url": "https://www.gemini.com",
-        "jobs_url": "https://www.gemini.com/careers"
-    },
-    {
-        "company_name": "worldcoin",
-        "company_url": "https://world.org",
-        "jobs_url": "https://world.org/careers"
-    },
-    {
-        "company_name": "solana",
-        "company_url": "https://solana.com",
-        "jobs_url": "https://job-boards.greenhouse.io/solana"
-    },
-    {
-        "company_name": "ondo-finance",
-        "company_url": "https://ondo.finance",
-        "jobs_url": "https://jobs.gem.com/ondo-finance"
-    },
-    {
-        "company_name": "trojan-trading",
-        "company_url": "https://trojan.com",
-        "jobs_url": "https://jobs.gem.com/trojan-trading"
-    },
-    {
-        "company_name": "cow-dao",
-        "company_url": "https://cow.fi",
-        "jobs_url": "https://jobs.ashbyhq.com/cow-dao"
-    },
-    {
-        "company_name": "bvnk",
-        "company_url": "https://bvnk.com",
-        "jobs_url": "https://job-boards.greenhouse.io/bvnk"
-    },
-    {
-        "company_name": "meshpay",
-        "company_url": "https://meshpay.com",
-        "jobs_url": "https://job-boards.greenhouse.io/mesh"
-    },
-    {
-        "company_name": "aPriori",
-        "company_url": "https://www.apr.io",
-        "jobs_url": "https://job-boards.greenhouse.io/apr"
-    },
-    {
-        "company_name": "blockdaemon",
-        "company_url": "https://blockdaemon.com",
-        "jobs_url": "https://jobs.ashbyhq.com/blockdaemon"
-    },
-    {
-        "company_name": "chainlink-labs",
-        "company_url": "https://chainlinklabs.com",
-        "jobs_url": "https://jobs.ashbyhq.com/chainlink-labs"
-    },
-    {
-        "company_name": "block-labs",
-        "company_url": "https://www.blocklabs.io",
-        "jobs_url": "https://jobs.ashbyhq.com/block-labs"
-    },
-    {
-        "company_name": "asterdex",
-        "company_url": "https://www.asterdex.com/en",
-        "jobs_url": "https://jobs.lever.co/pioneer-services"
-    },
-    {
-        "company_name": "freedx",
-        "company_url": "https://www.exchange.freedx.com/en",
-        "jobs_url": "https://apply.workable.com/freedx/#jobs"
-    },
-    {
-        "company_name": "trust-wallet",
-        "company_url": "https://trustwallet.com",
-        "jobs_url": "https://jobs.ashbyhq.com/trust-wallet"
-    },
-    {
-        "company_name": "cosmoslabs",
-        "company_url": "https://www.cosmoslabs.io",
-        "jobs_url": "https://job-boards.greenhouse.io/cosmoslabs"
-    },
-    {
-        "company_name": "consensys",
-        "company_url": "https://consensys.io",
-        "jobs_url": "https://consensys.io/open-roles"
-    },
-    {
-        "company_name": "bitfinex",
-        "company_url": "https://www.bitfinex.com",
-        "jobs_url": "https://bitfinex.recruitee.com"
-    },
-    {
-        "company_name": "crypto-finance",
-        "company_url": "https://www.crypto-finance.com",
-        "jobs_url": "https://apply.workable.com/crypto-finance"
-    },
-    {
-        "company_name": "ledger",
-        "company_url": "https://www.ledger.com",
-        "jobs_url": "https://jobs.ashbyhq.com/ledger"
-    }
-]
+{
+    "companies": [
+        {
+            "name": "base",
+            "jobs_url": "https://www.base.org/jobs",
+            "scraper": "BASE",
+            "company_url": "https://www.base.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Numeus",
+            "jobs_url": "https://job-boards.eu.greenhouse.io/numus",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://classic.numeus.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "kraken",
+            "jobs_url": "https://jobs.ashbyhq.com/kraken.com",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://kraken.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fireblocks",
+            "jobs_url": "https://job-boards.greenhouse.io/fireblocks",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.fireblocks.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "blockstream",
+            "jobs_url": "https://jobs.ashbyhq.com/blockstream",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.blockstream.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "swanbitcoin",
+            "jobs_url": "https://job-boards.greenhouse.io/swanbitcoin",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.swanbitcoin.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "moonpay",
+            "jobs_url": "https://jobs.lever.co/moonpay",
+            "scraper": "LEVER",
+            "company_url": "https://www.moonpay.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "phantom",
+            "jobs_url": "https://jobs.ashbyhq.com/phantom",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://phantom.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "paxos",
+            "jobs_url": "https://www.paxos.com/jobs",
+            "scraper": "PAXOS",
+            "company_url": "https://www.paxos.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "circle",
+            "jobs_url": "https://careers.circle.com/us/en/search-results",
+            "scraper": "CIRCLE",
+            "company_url": "https://www.circle.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "robinhood",
+            "jobs_url": "https://careers.robinhood.com",
+            "scraper": "ROBINHOOD",
+            "company_url": "https://www.robinhood.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ninjatrader",
+            "jobs_url": "https://job-boards.greenhouse.io/ninjatrader",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.ninjatrader.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "arbitrumfoundation",
+            "jobs_url": "https://jobs.lever.co/arbitrumfoundation",
+            "scraper": "LEVER",
+            "company_url": "https://arbitrum.foundation",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "aragon",
+            "jobs_url": "https://jobs.lever.co/aragon",
+            "scraper": "LEVER",
+            "company_url": "https://aragon.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nomina.io",
+            "jobs_url": "https://job-boards.greenhouse.io/nomina",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.nomina.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nomic.foundation",
+            "jobs_url": "https://jobs.ashbyhq.com/nomic.foundation",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://nomic.foundation",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "binance",
+            "jobs_url": "https://jobs.lever.co/binance",
+            "scraper": "LEVER",
+            "company_url": "https://www.binance.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ethglobal",
+            "jobs_url": "https://jobs.ashbyhq.com/ethglobal",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://ethglobal.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "li.fi",
+            "jobs_url": "https://jobs.ashbyhq.com/li.fi",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://li.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Caldera",
+            "jobs_url": "https://jobs.ashbyhq.com/Caldera",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.caldera.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "blox-route",
+            "jobs_url": "https://jobs.lever.co/blox-route",
+            "scraper": "LEVER",
+            "company_url": "https://bloxroute.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "sprucesystems",
+            "jobs_url": "https://jobs.lever.co/sprucesystems",
+            "scraper": "LEVER",
+            "company_url": "https://spruceid.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "scroll",
+            "jobs_url": "https://job-boards.greenhouse.io/scrollio",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://scroll.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "impossiblecloud",
+            "jobs_url": "https://jobs.lever.co/impossiblecloud",
+            "scraper": "LEVER",
+            "company_url": "https://www.impossiblecloud.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ether-fi",
+            "jobs_url": "https://jobs.ashbyhq.com/ether.fi",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.ether.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fuellabs",
+            "jobs_url": "https://jobs.lever.co/fuellabs",
+            "scraper": "LEVER",
+            "company_url": "https://www.fuel.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "harmony",
+            "jobs_url": "https://jobs.lever.co/harmony",
+            "scraper": "LEVER",
+            "company_url": "https://www.harmony.one",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "wintermute",
+            "jobs_url": "https://jobs.lever.co/wintermute-trading",
+            "scraper": "LEVER",
+            "company_url": "https://www.wintermute.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coinspaid",
+            "jobs_url": "https://jobs.eu.lever.co/coinspaid",
+            "scraper": "LEVER",
+            "company_url": "https://coinspaid.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "kaiko",
+            "jobs_url": "https://jobs.eu.lever.co/kaiko",
+            "scraper": "LEVER",
+            "company_url": "https://www.kaiko.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "swissborg",
+            "jobs_url": "https://jobs.lever.co/swissborg",
+            "scraper": "LEVER",
+            "company_url": "https://swissborg.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ethereumfoundation",
+            "jobs_url": "https://jobs.lever.co/ethereumfoundation",
+            "scraper": "LEVER",
+            "company_url": "https://ethereum.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "avara",
+            "jobs_url": "https://avara.xyz/careers",
+            "scraper": "AVARA",
+            "company_url": "https://avara.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "crypto",
+            "jobs_url": "https://jobs.lever.co/crypto",
+            "scraper": "LEVER",
+            "company_url": "https://crypto.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Luxor",
+            "jobs_url": "https://jobs.ashbyhq.com/luxor",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.luxor.tech",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "anchorage",
+            "jobs_url": "https://jobs.lever.co/anchorage",
+            "scraper": "LEVER",
+            "company_url": "https://www.anchorage.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Polygon",
+            "jobs_url": "https://jobs.ashbyhq.com/polygon-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://polygon.technology",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "centrifuge",
+            "jobs_url": "https://jobs.lever.co/centrifuge",
+            "scraper": "LEVER",
+            "company_url": "https://centrifuge.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "tokenmetrics",
+            "jobs_url": "https://jobs.lever.co/tokenmetrics",
+            "scraper": "LEVER",
+            "company_url": "https://www.tokenmetrics.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "offchainlabs",
+            "jobs_url": "https://jobs.lever.co/offchainlabs",
+            "scraper": "LEVER",
+            "company_url": "https://offchainlabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "recall",
+            "jobs_url": "https://job-boards.greenhouse.io/recall",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://recall.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "eiger",
+            "jobs_url": "https://boards.eu.greenhouse.io/eiger",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.eiger.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "risklabs",
+            "jobs_url": "https://jobs.ashbyhq.com/risklabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://risklabs.foundation",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "celestia",
+            "jobs_url": "https://jobs.lever.co/celestia",
+            "scraper": "LEVER",
+            "company_url": "https://celestia.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "gauntlet",
+            "jobs_url": "https://jobs.lever.co/gauntlet",
+            "scraper": "LEVER",
+            "company_url": "https://gauntlet.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "gate.io",
+            "jobs_url": "https://jobs.lever.co/gate",
+            "scraper": "LEVER",
+            "company_url": "https://gate.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "auroralabs",
+            "jobs_url": "https://jobs.lever.co/aurora-dev",
+            "scraper": "LEVER",
+            "company_url": "https://auroralabs.dev",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "immutable",
+            "jobs_url": "https://jobs.lever.co/immutable",
+            "scraper": "LEVER",
+            "company_url": "https://www.immutable.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cere-network",
+            "jobs_url": "https://jobs.lever.co/cere-network",
+            "scraper": "LEVER",
+            "company_url": "https://cere.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cryptio",
+            "jobs_url": "https://jobs.ashbyhq.com/cryptio",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://cryptio.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "matterlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/matter-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://matter-labs.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "iftother",
+            "jobs_url": "https://boards.greenhouse.io/iftother",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://free.technology",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "figure",
+            "jobs_url": "https://job-boards.greenhouse.io/figure",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.figure.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "wyndlabs",
+            "jobs_url": "https://boards.greenhouse.io/wyndlabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.wyndlabs.ai",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "animocabrands",
+            "jobs_url": "https://jobs.lever.co/animocabrands",
+            "scraper": "LEVER",
+            "company_url": "https://www.animocabrands.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "toku",
+            "jobs_url": "https://jobs.lever.co/toku",
+            "scraper": "LEVER",
+            "company_url": "https://www.toku.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "hiro",
+            "jobs_url": "https://boards.greenhouse.io/hiro",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.hiro.so",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "plume",
+            "jobs_url": "https://jobs.ashbyhq.com/plume-network",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://plume.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coingecko",
+            "jobs_url": "https://jobs.lever.co/coingecko",
+            "scraper": "LEVER",
+            "company_url": "https://www.coingecko.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "connext-network",
+            "jobs_url": "https://jobs.lever.co/connext-network",
+            "scraper": "LEVER",
+            "company_url": "https://www.connext.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ethenalabs",
+            "jobs_url": "https://jobs.lever.co/ethenalabs",
+            "scraper": "LEVER",
+            "company_url": "https://www.ethena.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "SeiLabs",
+            "jobs_url": "https://jobs.ashbyhq.com/sei-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.sei.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "theblock",
+            "jobs_url": "https://jobs.lever.co/theblockcrypto",
+            "scraper": "LEVER",
+            "company_url": "https://www.theblock.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitwise",
+            "jobs_url": "https://jobs.lever.co/bitwiseinvestments",
+            "scraper": "LEVER",
+            "company_url": "https://bitwiseinvestments.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "grayscaleinvestments",
+            "jobs_url": "https://boards.greenhouse.io/grayscaleinvestments",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://grayscale.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ssv.network",
+            "jobs_url": "https://boards.greenhouse.io/bloxstaking",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://ssv.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "xlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/Xlabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.xlabs.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "orca",
+            "jobs_url": "https://jobs.ashbyhq.com/orca",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.orca.so",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "succinct",
+            "jobs_url": "https://jobs.ashbyhq.com/succinct",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://succinct.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "jumpcrypto",
+            "jobs_url": "https://boards.greenhouse.io/jumpcrypto",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://jumpcrypto.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "0x",
+            "jobs_url": "https://jobs.ashbyhq.com/0x",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://0x.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ritual",
+            "jobs_url": "https://boards.greenhouse.io/ritual",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://ritual.net",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coinmarketcap",
+            "jobs_url": "https://jobs.lever.co/coinmarketcap",
+            "scraper": "LEVER",
+            "company_url": "https://coinmarketcap.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "orderlynetwork",
+            "jobs_url": "https://job-boards.greenhouse.io/orderly",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://orderly.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "shardeum",
+            "jobs_url": "https://boards.greenhouse.io/shardeumfoundation",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://shardeum.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "zora",
+            "jobs_url": "https://boards.greenhouse.io/zora",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://zora.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "wormholefoundation",
+            "jobs_url": "https://boards.greenhouse.io/iftother",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://wormhole.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "blockchain",
+            "jobs_url": "https://boards.greenhouse.io/blockchain",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.blockchain.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "OKX",
+            "jobs_url": "https://boards.greenhouse.io/OKX",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://okx.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitmex",
+            "jobs_url": "https://boards.greenhouse.io/bitmex",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bitmex.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitgo",
+            "jobs_url": "https://boards.greenhouse.io/bitgo",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bitgo.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitpanda",
+            "jobs_url": "https://boards.eu.greenhouse.io/bitpanda",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bitpanda.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "uniswaplabs",
+            "jobs_url": "https://boards.greenhouse.io/uniswaplabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://uniswap.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "osmosisdex",
+            "jobs_url": "https://boards.greenhouse.io/osmosisdex",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://osmosis.zone",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "figment",
+            "jobs_url": "https://boards.greenhouse.io/figment",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.figment.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "OpenSea",
+            "jobs_url": "https://jobs.ashbyhq.com/OpenSea",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://opensea.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "center",
+            "jobs_url": "https://jobs.ashbyhq.com/center",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://center.app",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "linera.io",
+            "jobs_url": "https://jobs.ashbyhq.com/linera.io",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://linera.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cointracker",
+            "jobs_url": "https://jobs.ashbyhq.com/cointracker",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.cointracker.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Bastion",
+            "jobs_url": "https://jobs.ashbyhq.com/Bastion",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.bastion.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Sui.Foundation",
+            "jobs_url": "https://jobs.ashbyhq.com/Sui%20Foundation",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://sui.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dourolabs",
+            "jobs_url": "https://jobs.ashbyhq.com/dourolabs.xyz",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://dourolabs.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "rain",
+            "jobs_url": "https://jobs.ashbyhq.com/rain",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.raincards.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "mystenlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/mystenlabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://mystenlabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "conduit",
+            "jobs_url": "https://jobs.ashbyhq.com/Conduit",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://conduit.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "kiln.fi",
+            "jobs_url": "https://jobs.ashbyhq.com/kiln.fi",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.kiln.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "flashbots",
+            "jobs_url": "https://jobs.ashbyhq.com/flashbots.net",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.flashbots.net",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "paradigm.xyz",
+            "jobs_url": "https://jobs.ashbyhq.com/paradigm",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.paradigm.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "solanafoundation",
+            "jobs_url": "https://jobs.ashbyhq.com/Solana%20Foundation",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://solana.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "syndica",
+            "jobs_url": "https://jobs.ashbyhq.com/syndica",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://syndica.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Blockworks",
+            "jobs_url": "https://jobs.ashbyhq.com/Blockworks",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://blockworks.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ellipsislabs",
+            "jobs_url": "https://jobs.ashbyhq.com/ellipsislabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://ellipsislabs.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "safe.global",
+            "jobs_url": "https://jobs.ashbyhq.com/safe.global",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://safe.global",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "artemisanalytics",
+            "jobs_url": "https://jobs.ashbyhq.com/artemisanalytics",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.artemisanalytics.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Keyrock",
+            "jobs_url": "https://jobs.ashbyhq.com/Keyrock",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://keyrock.eu",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "sound.xyz",
+            "jobs_url": "https://jobs.ashbyhq.com/sound.xyz",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.sound.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "quiknodeinc",
+            "jobs_url": "https://jobs.ashbyhq.com/quicknode",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.quicknode.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "mara",
+            "jobs_url": "https://job-boards.greenhouse.io/mara",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.mara.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "xapo",
+            "jobs_url": "https://boards.greenhouse.io/xapo61",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.xapobank.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "exodus54",
+            "jobs_url": "https://job-boards.greenhouse.io/exodus54",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.exodus.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "alchemy",
+            "jobs_url": "https://boards.greenhouse.io/alchemy",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.alchemy.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "chainalysis",
+            "jobs_url": "https://jobs.ashbyhq.com/chainalysis-careers",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.chainalysis.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "magiceden",
+            "jobs_url": "https://jobs.ashbyhq.com/magiceden",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.magiceden.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "magic",
+            "jobs_url": "https://job-boards.greenhouse.io/magic",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://magic.link",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "aztec",
+            "jobs_url": "https://boards.eu.greenhouse.io/aztec",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://aztec.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "near",
+            "jobs_url": "https://job-boards.eu.greenhouse.io/nearfoundation",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://near.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nethermind",
+            "jobs_url": "https://jobs.ashbyhq.com/nethermind",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://nethermind.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dfinity",
+            "jobs_url": "https://boards.greenhouse.io/dfinity",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://dfinity.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "stellar",
+            "jobs_url": "https://jobs.ashbyhq.com/stellar",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://stellar.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitcoindepot",
+            "jobs_url": "https://job-boards.greenhouse.io/bitcoindepot",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bitcoindepot.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "parity.io",
+            "jobs_url": "https://jobs.ashbyhq.com/parity",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.parity.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "oplabs",
+            "jobs_url": "https://jobs.ashbyhq.com/oplabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.oplabs.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "walletconnect",
+            "jobs_url": "https://apply.workable.com/walletconnect",
+            "scraper": "WORKABLE",
+            "company_url": "https://reown.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "io-global",
+            "jobs_url": "https://apply.workable.com/io-global/#jobs",
+            "scraper": "WORKABLE",
+            "company_url": "https://iohk.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "o1labs",
+            "jobs_url": "https://boards.greenhouse.io/o1labs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://o1labs.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "paradigm.co",
+            "jobs_url": "https://careers.kula.ai/paradigm",
+            "scraper": "KULA",
+            "company_url": "https://www.paradigm.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Swissquote",
+            "jobs_url": "https://careers.smartrecruiters.com/Swissquote",
+            "scraper": "SMARTRECRUITERS",
+            "company_url": "https://en.swissquote.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "taxbit",
+            "jobs_url": "https://boards.greenhouse.io/taxbit",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://taxbit.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "avalabs",
+            "jobs_url": "https://boards.greenhouse.io/avalabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.avalabs.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "aptoslabs",
+            "jobs_url": "https://boards.greenhouse.io/aptoslabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://aptoslabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "almanak",
+            "jobs_url": "https://apply.workable.com/almanak-blockchain-labs-ag",
+            "scraper": "WORKABLE",
+            "company_url": "https://almanak.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dune",
+            "jobs_url": "https://jobs.ashbyhq.com/dune",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://dune.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "windranger",
+            "jobs_url": "https://jobs.ashbyhq.com/windranger",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://windranger.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "foundrydigital",
+            "jobs_url": "https://boards.greenhouse.io/foundrydigital",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://foundrydigital.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "immunefi",
+            "jobs_url": "https://boards.greenhouse.io/immunefi",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://immunefi.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "strike.me",
+            "jobs_url": "https://boards.greenhouse.io/strike",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://strike.me",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "serotonin",
+            "jobs_url": "https://jobs.lever.co/serotonin",
+            "scraper": "LEVER",
+            "company_url": "https://serotonin.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Decentraland",
+            "jobs_url": "https://jobs.lever.co/Decentraland",
+            "scraper": "LEVER",
+            "company_url": "https://decentraland.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "copperco",
+            "jobs_url": "https://boards.eu.greenhouse.io/copperco",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://copper.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "layerzerolabs",
+            "jobs_url": "https://boards.greenhouse.io/layerzerolabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://layerzero.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "oasisnetwork",
+            "jobs_url": "https://boards.greenhouse.io/oasisnetwork",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://oasisprotocol.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ripple",
+            "jobs_url": "https://ripple.com/careers/all-jobs",
+            "scraper": "RIPPLE",
+            "company_url": "https://ripple.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "eigenlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/eigen-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.eigencloud.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "galaxydigital",
+            "jobs_url": "https://boards.greenhouse.io/galaxydigitalservices",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.galaxy.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "clearmatics",
+            "jobs_url": "https://job-boards.greenhouse.io/clearmatics",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.clearmatics.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "brave",
+            "jobs_url": "https://job-boards.greenhouse.io/brave",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://brave.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "zetachain",
+            "jobs_url": "https://job-boards.greenhouse.io/zetachain",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.zetachain.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coinbase",
+            "jobs_url": "https://www.coinbase.com/careers/positions",
+            "scraper": "COINBASE",
+            "company_url": "https://coinbase.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "sygnum",
+            "jobs_url": "https://www.sygnum.com/careers-portal",
+            "scraper": "SYGNUM",
+            "company_url": "https://www.sygnum.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "lmax",
+            "jobs_url": "https://careers.lmax.com/job-openings",
+            "scraper": "LMAX",
+            "company_url": "https://www.lmax.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Saharaai",
+            "jobs_url": "https://jobs.ashbyhq.com/Sahara",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://saharaai.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "symbiotic.fi",
+            "jobs_url": "https://jobs.ashbyhq.com/Symbiotic",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://symbiotic.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "noble",
+            "jobs_url": "https://job-boards.greenhouse.io/noble",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.noble.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ramp.network",
+            "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://ramp.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "RWA.xyz",
+            "jobs_url": "https://jobs.ashbyhq.com/RWA.xyz",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://rwa.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dragonflycapital",
+            "jobs_url": "https://jobs.gem.com/dragonfly-careers",
+            "scraper": "GEM",
+            "company_url": "https://www.dragonfly.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "BitcoinSuisse",
+            "jobs_url": "https://bitcoin-suisse.onlyfy.jobs",
+            "scraper": "BITCOINSUISSE",
+            "company_url": "https://bitcoinsuisse.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "gemini",
+            "jobs_url": "https://www.gemini.com/careers",
+            "scraper": "GEMINI",
+            "company_url": "https://www.gemini.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "worldcoin",
+            "jobs_url": "https://world.org/careers",
+            "scraper": "WORLDCOIN",
+            "company_url": "https://world.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "solana",
+            "jobs_url": "https://job-boards.greenhouse.io/solana",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://solana.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ondo-finance",
+            "jobs_url": "https://jobs.gem.com/ondo-finance",
+            "scraper": "GEM",
+            "company_url": "https://ondo.finance",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "trojan-trading",
+            "jobs_url": "https://jobs.gem.com/trojan-trading",
+            "scraper": "GEM",
+            "company_url": "https://trojan.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cow-dao",
+            "jobs_url": "https://jobs.ashbyhq.com/cow-dao",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://cow.fi",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bvnk",
+            "jobs_url": "https://job-boards.greenhouse.io/bvnk",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bvnk.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "meshpay",
+            "jobs_url": "https://job-boards.greenhouse.io/mesh",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://meshpay.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "aPriori",
+            "jobs_url": "https://job-boards.greenhouse.io/apr",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.apr.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "blockdaemon",
+            "jobs_url": "https://jobs.ashbyhq.com/blockdaemon",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://blockdaemon.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "chainlink-labs",
+            "jobs_url": "https://jobs.ashbyhq.com/chainlink-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://chainlinklabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "block-labs",
+            "jobs_url": "https://jobs.ashbyhq.com/block-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.blocklabs.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "asterdex",
+            "jobs_url": "https://jobs.lever.co/pioneer-services",
+            "scraper": "LEVER",
+            "company_url": "https://www.asterdex.com/en",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "freedx",
+            "jobs_url": "https://apply.workable.com/freedx/#jobs",
+            "scraper": "WORKABLE",
+            "company_url": "https://www.exchange.freedx.com/en",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "trust-wallet",
+            "jobs_url": "https://jobs.ashbyhq.com/trust-wallet",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://trustwallet.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cosmoslabs",
+            "jobs_url": "https://job-boards.greenhouse.io/cosmoslabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.cosmoslabs.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "consensys",
+            "jobs_url": "https://consensys.io/open-roles",
+            "scraper": "CONSENSYS",
+            "company_url": "https://consensys.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "bitfinex",
+            "jobs_url": "https://bitfinex.recruitee.com",
+            "scraper": "RECRUITEE",
+            "company_url": "https://www.bitfinex.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "crypto-finance",
+            "jobs_url": "https://apply.workable.com/crypto-finance",
+            "scraper": "WORKABLE",
+            "company_url": "https://www.crypto-finance.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ledger",
+            "jobs_url": "https://jobs.ashbyhq.com/ledger",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.ledger.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "talos.com",
+            "jobs_url": "https://jobs.ashbyhq.com/Talos-Trading",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.talos.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dydx.xyz",
+            "jobs_url": "https://jobs.gem.com/dydx",
+            "scraper": "GEM",
+            "company_url": "https://www.dydx.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "anthropic",
+            "jobs_url": "https://job-boards.greenhouse.io/anthropic",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.anthropic.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "openai",
+            "jobs_url": "https://jobs.ashbyhq.com/openai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://openai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "quo.com",
+            "jobs_url": "https://jobs.gem.com/quo",
+            "scraper": "GEM",
+            "company_url": "https://quo.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "lumalabs.ai",
+            "jobs_url": "https://jobs.gem.com/lumalabs-ai",
+            "scraper": "GEM",
+            "company_url": "https://lumalabs.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "GPTZero",
+            "jobs_url": "https://jobs.ashbyhq.com/GPTZero",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://gptzero.me",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "perplexityai",
+            "jobs_url": "https://jobs.ashbyhq.com/Perplexity",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.perplexity.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "llamaindex",
+            "jobs_url": "https://jobs.ashbyhq.com/llamaindex",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.llamaindex.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "langchain",
+            "jobs_url": "https://jobs.ashbyhq.com/langchain",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.langchain.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Crusoe",
+            "jobs_url": "https://jobs.ashbyhq.com/Crusoe",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.crusoe.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "characterai",
+            "jobs_url": "https://jobs.ashbyhq.com/character",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://character.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cohere",
+            "jobs_url": "https://jobs.ashbyhq.com/cohere",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://cohere.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "reka",
+            "jobs_url": "https://jobs.ashbyhq.com/reka",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.reka.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "sesame",
+            "jobs_url": "https://jobs.ashbyhq.com/sesame",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.sesame.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "everai",
+            "jobs_url": "https://jobs.ashbyhq.com/everai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.everai.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "elevenlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/elevenlabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://elevenlabs.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "invisibletech",
+            "jobs_url": "https://job-boards.eu.greenhouse.io/invisibletech",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.invisible.co",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "blackforestlabs",
+            "jobs_url": "https://job-boards.greenhouse.io/blackforestlabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bfl.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "mistral",
+            "jobs_url": "https://jobs.lever.co/mistral",
+            "scraper": "LEVER",
+            "company_url": "https://mistral.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "lovable",
+            "jobs_url": "https://jobs.ashbyhq.com/lovable",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://lovable.dev",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "eliseai",
+            "jobs_url": "https://jobs.ashbyhq.com/eliseai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.eliseai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "deepmind",
+            "jobs_url": "https://job-boards.greenhouse.io/deepmind",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://deepmind.google",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "scaleai",
+            "jobs_url": "https://job-boards.greenhouse.io/scaleai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://scale.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "arizeai",
+            "jobs_url": "https://job-boards.greenhouse.io/arizeai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://arize.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "xai",
+            "jobs_url": "https://job-boards.greenhouse.io/xai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://x.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "neptuneai",
+            "jobs_url": "https://job-boards.greenhouse.io/neptuneai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://neptune.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "n8n",
+            "jobs_url": "https://jobs.ashbyhq.com/n8n",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://n8n.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "palantir",
+            "jobs_url": "https://jobs.lever.co/palantir",
+            "scraper": "LEVER",
+            "company_url": "https://www.palantir.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "machinify",
+            "jobs_url": "https://jobs.ashbyhq.com/machinify",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.machinify.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "assemblyai",
+            "jobs_url": "https://job-boards.greenhouse.io/assemblyai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.assemblyai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "isomorphiclabs",
+            "jobs_url": "https://job-boards.greenhouse.io/isomorphiclabs",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.isomorphiclabs.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "far.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/far.ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://far.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cognition",
+            "jobs_url": "https://jobs.ashbyhq.com/cognition",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://cognition.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "leonardo.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/leonardo.ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://leonardo.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "harvey",
+            "jobs_url": "https://jobs.ashbyhq.com/harvey",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.harvey.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ambient.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/ambient.ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.ambient.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "shieldai",
+            "jobs_url": "https://jobs.lever.co/shieldai",
+            "scraper": "LEVER",
+            "company_url": "https://shield.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "polyai",
+            "jobs_url": "https://job-boards.greenhouse.io/polyai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.poly.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Cleo",
+            "jobs_url": "https://revolutpeople.com/cleo/public/careers",
+            "scraper": "CLEO",
+            "company_url": "https://web.meetcleo.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "glean",
+            "jobs_url": "https://job-boards.greenhouse.io/gleanwork",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.glean.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "dust",
+            "jobs_url": "https://jobs.ashbyhq.com/dust",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://dust.tt",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "console",
+            "jobs_url": "https://jobs.ashbyhq.com/console",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.console.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "rivr",
+            "jobs_url": "https://jobs.lever.co/rivr",
+            "scraper": "LEVER",
+            "company_url": "https://www.rivr.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "anybotics",
+            "jobs_url": "https://jobs.lever.co/anybotics",
+            "scraper": "LEVER",
+            "company_url": "https://www.anybotics.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "harrison",
+            "jobs_url": "https://jobs.ashbyhq.com/Harrison.ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.harrison.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "aperaai",
+            "jobs_url": "https://job-boards.greenhouse.io/aperaaiinc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://apera.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "hoppr",
+            "jobs_url": "https://job-boards.greenhouse.io/hoppr",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.hoppr.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "replit",
+            "jobs_url": "https://jobs.ashbyhq.com/replit",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.replit.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "multiverse",
+            "jobs_url": "https://jobs.ashbyhq.com/multiverse",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.multiverse.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "workato",
+            "jobs_url": "https://job-boards.greenhouse.io/workato",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.workato.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "enjins",
+            "jobs_url": "https://apply.workable.com/enjins/#jobs",
+            "scraper": "WORKABLE",
+            "company_url": "https://www.enjins.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cerebras.ai",
+            "jobs_url": "https://job-boards.greenhouse.io/cerebrassystems",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.cerebras.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "openrouter.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/openrouter",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://openrouter.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cradle.bio",
+            "jobs_url": "https://jobs.ashbyhq.com/cradlebio",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.cradle.bio",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "julius.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/julius",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.julius.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "vectara.com",
+            "jobs_url": "https://job-boards.greenhouse.io/vectara",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.vectara.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "stackblitz",
+            "jobs_url": "https://job-boards.greenhouse.io/stackblitz",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.stackblitz.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fanvue.com",
+            "jobs_url": "https://jobs.ashbyhq.com/fanvue.com",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.fanvue.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "starmind",
+            "jobs_url": "https://job-boards.greenhouse.io/starmind",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.starmind.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "FundamentalLabs",
+            "jobs_url": "https://jobs.ashbyhq.com/fundamentalresearchlabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://fundamentalresearchlabs.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nebius",
+            "jobs_url": "https://careers.nebius.com",
+            "scraper": "NEBIUS",
+            "company_url": "https://nebius.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coderabbit",
+            "jobs_url": "https://jobs.ashbyhq.com/coderabbit",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://coderabbit.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "encord.com",
+            "jobs_url": "https://jobs.lever.co/CordTechnologies",
+            "scraper": "LEVER",
+            "company_url": "https://encord.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "applied_intuition",
+            "jobs_url": "https://www.appliedintuition.com/careers#job-listings",
+            "scraper": "APPLIED_INTUITION",
+            "company_url": "https://www.appliedintuition.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "oxylabs",
+            "jobs_url": "https://jobs.lever.co/oxylabs",
+            "scraper": "LEVER",
+            "company_url": "https://www.oxylabs.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "browserbase",
+            "jobs_url": "https://jobs.ashbyhq.com/browserbase",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://browserbase.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "PrimeIntellect",
+            "jobs_url": "https://jobs.ashbyhq.com/primeintellect",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://primeintellect.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "exa.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/exa",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://exa.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "same.new",
+            "jobs_url": "https://jobs.ashbyhq.com/same",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://same.new",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "jua.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/jua",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://jua.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "c3.ai",
+            "jobs_url": "https://c3.ai/careers",
+            "scraper": "C3",
+            "company_url": "https://c3.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "snorkelai",
+            "jobs_url": "https://job-boards.greenhouse.io/snorkelai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://snorkel.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "soundhound",
+            "jobs_url": "https://jobs.gem.com/soundhound",
+            "scraper": "GEM",
+            "company_url": "https://soundhound.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Lambda",
+            "jobs_url": "https://jobs.ashbyhq.com/Lambda",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://Lambda.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "constructor",
+            "jobs_url": "https://apply.workable.com/constructor-1",
+            "scraper": "WORKABLE",
+            "company_url": "https://constructor.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "motion",
+            "jobs_url": "https://jobs.ashbyhq.com/motion",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.usemotion.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "recall.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/recall",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.recall.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fireworks.ai",
+            "jobs_url": "https://job-boards.greenhouse.io/fireworksai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://fireworks.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "reflection.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/reflectionai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://reflection.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "graphcore.io",
+            "jobs_url": "https://job-boards.greenhouse.io/graphcore",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://graphcore.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "hightouch",
+            "jobs_url": "https://job-boards.greenhouse.io/hightouch",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://hightouch.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "you.com",
+            "jobs_url": "https://job-boards.greenhouse.io/youcom",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://you.com/home",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Box",
+            "jobs_url": "https://job-boards.greenhouse.io/boxinc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.box.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fyxer.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/fyxer",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.fyxer.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "meilisearch",
+            "jobs_url": "https://jobs.lever.co/meili",
+            "scraper": "LEVER",
+            "company_url": "https://www.meilisearch.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "skildai",
+            "jobs_url": "https://job-boards.greenhouse.io/skildai-careers",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.skild.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "interfaceai",
+            "jobs_url": "https://job-boards.greenhouse.io/interfaceai",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.interface.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "traversal",
+            "jobs_url": "https://job-boards.greenhouse.io/traversal",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.traversal.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "netomi",
+            "jobs_url": "https://jobs.lever.co/netomi",
+            "scraper": "LEVER",
+            "company_url": "https://www.netomi.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "sentry.io",
+            "jobs_url": "https://jobs.ashbyhq.com/sentry",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://sentry.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nooks.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/nooks",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://nooks.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "anrok.com",
+            "jobs_url": "https://jobs.ashbyhq.com/anrok",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://anrok.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "harmattan-ai",
+            "jobs_url": "https://jobs.ashbyhq.com/harmattan-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://harmattan.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "radai",
+            "jobs_url": "https://jobs.ashbyhq.com/radai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.radai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "inworld-ai",
+            "jobs_url": "https://jobs.ashbyhq.com/inworld-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.inworld.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "uipath",
+            "jobs_url": "https://jobs.ashbyhq.com/uipath",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.uipath.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "RadicalAI",
+            "jobs_url": "https://jobs.lever.co/RadicalAI",
+            "scraper": "LEVER",
+            "company_url": "https://www.radical-ai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "zushealth",
+            "jobs_url": "https://jobs.lever.co/zushealth",
+            "scraper": "LEVER",
+            "company_url": "https://www.zushealth.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "retellai",
+            "jobs_url": "https://jobs.ashbyhq.com/retell-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.retellai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "airgarage",
+            "jobs_url": "https://jobs.ashbyhq.com/airgarage",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.airgarage.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "flex",
+            "jobs_url": "https://job-boards.greenhouse.io/flex",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://getflex.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Aven",
+            "jobs_url": "https://jobs.ashbyhq.com/Aven",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.aven.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Ivy",
+            "jobs_url": "https://jobs.ashbyhq.com/get-ivy",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.getivy.io",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "qonto",
+            "jobs_url": "https://jobs.lever.co/qonto",
+            "scraper": "LEVER",
+            "company_url": "https://www.qonto.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "moneybox",
+            "jobs_url": "https://jobs.lever.co/moneyboxapp",
+            "scraper": "LEVER",
+            "company_url": "https://www.moneyboxapp.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "affirm",
+            "jobs_url": "https://job-boards.greenhouse.io/affirm",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.affirm.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "huspy",
+            "jobs_url": "https://revolutpeople.com/huspy/public/careers",
+            "scraper": "CLEO",
+            "company_url": "https://www.huspy.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "momentmarkets",
+            "jobs_url": "https://job-boards.greenhouse.io/momentmarkets",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.moment.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "9fin",
+            "jobs_url": "https://jobs.ashbyhq.com/9fin",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.9fin.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "grape-health",
+            "jobs_url": "https://jobs.eu.lever.co/grape-health",
+            "scraper": "LEVER",
+            "company_url": "https://www.grapehealth.ch",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cmgx",
+            "jobs_url": "https://jobs.lever.co/cmgx",
+            "scraper": "LEVER",
+            "company_url": "https://www.cmgx.io",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "addepar",
+            "jobs_url": "https://job-boards.greenhouse.io/addepar1",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://addepar.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "clearstreet",
+            "jobs_url": "https://job-boards.greenhouse.io/clearstreet",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://clearstreet.io",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "onepay.com",
+            "jobs_url": "https://jobs.ashbyhq.com/oneapp",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.onepay.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "yuno",
+            "jobs_url": "https://jobs.lever.co/yuno",
+            "scraper": "LEVER",
+            "company_url": "https://y.uno",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "capital",
+            "jobs_url": "https://jobs.lever.co/capital",
+            "scraper": "LEVER",
+            "company_url": "https://www.capital.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "smartasset",
+            "jobs_url": "https://job-boards.greenhouse.io/smartasset",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.smartasset.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "earnin",
+            "jobs_url": "https://job-boards.greenhouse.io/earnin",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.earnin.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "getrecharge.com",
+            "jobs_url": "https://job-boards.greenhouse.io/recharge",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://getrecharge.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "life360",
+            "jobs_url": "https://job-boards.greenhouse.io/life360",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.life360.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "kong",
+            "jobs_url": "https://jobs.ashbyhq.com/kong",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.konghq.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "snaplogic",
+            "jobs_url": "https://jobs.lever.co/snaplogic",
+            "scraper": "LEVER",
+            "company_url": "https://www.snaplogic.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "runpod",
+            "jobs_url": "https://job-boards.greenhouse.io/runpod",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://runpod.io",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "tenable",
+            "jobs_url": "https://job-boards.greenhouse.io/tenableinc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.tenable.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "veeam",
+            "jobs_url": "https://job-boards.eu.greenhouse.io/veeamsoftware",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.veeam.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "vercel",
+            "jobs_url": "https://job-boards.greenhouse.io/vercel",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://vercel.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "frontify",
+            "jobs_url": "https://jobs.lever.co/frontify",
+            "scraper": "LEVER",
+            "company_url": "https://www.frontify.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Ashby",
+            "jobs_url": "https://jobs.ashbyhq.com/Ashby",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.ashbyhq.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "archblock",
+            "jobs_url": "https://jobs.lever.co/archblock",
+            "scraper": "LEVER",
+            "company_url": "https://www.archblock.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "smart-token-labs",
+            "jobs_url": "https://apply.workable.com/smart-token-labs",
+            "scraper": "WORKABLE",
+            "company_url": "https://smarttokenlabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "request",
+            "jobs_url": "https://jobs.lever.co/request",
+            "scraper": "LEVER",
+            "company_url": "https://request.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "BlockSwap",
+            "jobs_url": "https://jobs.lever.co/BlockSwap",
+            "scraper": "LEVER",
+            "company_url": "https://www.blockswap.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "ultra",
+            "jobs_url": "https://jobs.lever.co/ultra",
+            "scraper": "LEVER",
+            "company_url": "https://ultra.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "glassnode",
+            "jobs_url": "https://jobs.lever.co/glassnode",
+            "scraper": "LEVER",
+            "company_url": "https://glassnode.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Boost",
+            "jobs_url": "https://jobs.ashbyhq.com/Boost",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://Boost.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "pyth",
+            "jobs_url": "https://jobs.ashbyhq.com/pythnetwork",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://pyth.network",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "autonomys.xyz",
+            "jobs_url": "https://jobs.lever.co/autonomys",
+            "scraper": "LEVER",
+            "company_url": "https://www.autonomys.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "biconomy",
+            "jobs_url": "https://jobs.ashbyhq.com/biconomy",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.biconomy.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "goldsky",
+            "jobs_url": "https://jobs.ashbyhq.com/goldsky",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://goldsky.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "filecoinfoundation",
+            "jobs_url": "https://boards.greenhouse.io/filecoinfoundation",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://fil.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "econetwork",
+            "jobs_url": "https://job-boards.greenhouse.io/ecoinc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://eco.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "obol-tech",
+            "jobs_url": "https://jobs.lever.co/obol-tech",
+            "scraper": "LEVER",
+            "company_url": "https://obol.tech",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "coinlist",
+            "jobs_url": "https://apply.workable.com/coinlist",
+            "scraper": "WORKABLE",
+            "company_url": "https://coinlist.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "distributedcrafts",
+            "jobs_url": "https://apply.workable.com/distributedcrafts",
+            "scraper": "WORKABLE",
+            "company_url": "https://www.gobob.xyz/",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "prepo",
+            "jobs_url": "https://apply.workable.com/prepo",
+            "scraper": "WORKABLE",
+            "company_url": "https://prepo.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "nimbus",
+            "jobs_url": "https://job-boards.greenhouse.io/nimbus",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://free.technology/nimbus",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "messari",
+            "jobs_url": "https://boards.greenhouse.io/messari",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://messari.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "shadow",
+            "jobs_url": "https://jobs.ashbyhq.com/shadow",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.shadow.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "flipsidecrypto",
+            "jobs_url": "https://jobs.ashbyhq.com/flipsidecrypto",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://flipsidecrypto.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "multiversx",
+            "jobs_url": "https://jobs.lever.co/multiversx",
+            "scraper": "LEVER",
+            "company_url": "https://multiversx.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        }
+    ]
+}

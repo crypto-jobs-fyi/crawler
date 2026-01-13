@@ -4,9 +4,7 @@ Script to remove company history entries that are not present in the company lis
 
 import json
 import sys
-from src.company_list import get_company_list as get_crypto_companies
-from src.company_ai_list import get_company_list as get_ai_companies
-from src.company_fin_list import get_company_list as get_fin_companies
+from src.companies import Companies
 from src.logging_utils import get_logger
 
 logger = get_logger(__name__)
@@ -63,9 +61,9 @@ def main():
     """Clean all history files"""
     
     # Get all company lists
-    crypto_companies = get_crypto_companies()
-    ai_companies = get_ai_companies()
-    fin_companies = get_fin_companies()
+    crypto_companies = Companies.filter_companies(category="crypto")
+    ai_companies = Companies.filter_companies(category="ai")
+    fin_companies = Companies.filter_companies(category="fintech")
     
     files_to_clean = [
         ("history.json", crypto_companies, "Crypto"),

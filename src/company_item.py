@@ -8,3 +8,6 @@ class CompanyItem:
     jobs_url: str
     scraper_type: type[ScrapeIt]
     company_url: str
+    category: str = None
+    enabled: bool = True
+    headless: bool = True
