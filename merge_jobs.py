@@ -7,9 +7,9 @@ company_list: list[CompanyItem] = Companies.load_companies()
 logger = get_logger(__name__)
 logger.info(
     "Companies loaded",
-    extra={"company_count": len(company_list), "jobs_file": 'jobs.json'},
+    extra={"company_count": len(company_list), "jobs_file": 'crypto_jobs.json'},
 )
-jobs_file = 'jobs.json'
+jobs_file = 'crypto_jobs.json'
 with open(jobs_file, 'w') as f:
     f.write('{}')
 

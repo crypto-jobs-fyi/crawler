@@ -23,7 +23,7 @@ class ScrapeIt(ABC):
         self.logger.error(message, extra=extra, exc_info=exc_info)
 
     @staticmethod
-    def write_jobs(jobs, file_name='jobs.json'):
+    def write_jobs(jobs, file_name='crypto_jobs.json'):
         with open(file_name, 'r') as f:
             jobs_json = json.load(f)
         jobs_data = jobs_json.get('data', [])

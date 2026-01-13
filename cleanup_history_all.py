@@ -66,7 +66,7 @@ def main():
     fin_companies = Companies.filter_companies(category="fintech")
     
     files_to_clean = [
-        ("history.json", crypto_companies, "Crypto"),
+        ("crypto_history.json", crypto_companies, "Crypto"),
         ("ai_history.json", ai_companies, "AI"),
         ("fin_history.json", fin_companies, "Fintech"),
     ]

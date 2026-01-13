@@ -73,12 +73,12 @@ def main():
     """Clean all jobs age files"""
     
     # Get valid links from jobs.json files
-    crypto_links = get_job_links_from_json("jobs.json")
+    crypto_links = get_job_links_from_json("crypto_jobs.json")
     ai_links = get_job_links_from_json("ai_jobs.json")
     fin_links = get_job_links_from_json("fin_jobs.json")
     
     files_to_clean = [
-        ("jobs_age.json", crypto_links, "Crypto"),
+        ("crypto_jobs_age.json", crypto_links, "Crypto"),
         ("ai_jobs_age.json", ai_links, "AI"),
         ("fin_jobs_age.json", fin_links, "Fintech"),
     ]

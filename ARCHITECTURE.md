@@ -81,10 +81,10 @@
                 │
        ┌────────▼──────────────────┐
        │   Output Files (JSON)     │
-       │  - jobs.json              │
-       │  - current.json           │
-       │  - jobs_age.json          │
-       │  - history.json           │
+       │  - crypto_jobs.json       │
+       │  - crypto_current.json    │
+       │  - crypto_jobs_age.json   │
+       │  - crypto_history.json    │
        └───────────────────────────┘
 ```
 
@@ -264,7 +264,7 @@ class ScrapeIt(ABC):
 **Function**: `update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file)`
 
 **Pipeline**:
-1. Load all jobs from `jobs.json`.
+1. Load all jobs from `crypto_jobs.json`.
 2. Track new vs existing via link deduplication.
 3. Record first appearance date.
 4. Compute age: `current_date - first_appearance_date`.
@@ -272,9 +272,9 @@ class ScrapeIt(ABC):
 6. Append to history.
 
 **Outputs**:
-- `current.json` - Current job count by company.
-- `jobs_age.json` - Job age tracking.
-- `history.json` - Historical snapshots.
+- `crypto_current.json` - Current job count by company.
+- `crypto_jobs_age.json` - Job age tracking.
+- `crypto_history.json` - Historical snapshots.
 
 ---
 
@@ -310,8 +310,8 @@ Input: companies.json (300+ items)
    │      ├─ Load scraper class
    │      ├─ Call getJobs()
    │      ├─ Retry logic (max 2)
-   │      ├─ Thread-safe write to jobs.json
-   │      └─ Update current.json
+   │      ├─ Thread-safe write to crypto_jobs.json
+   │      └─ Update crypto_current.json
    └─ Join threads, close drivers
    ↓
 [AgeProcessor]
@@ -321,10 +321,10 @@ Input: companies.json (300+ items)
    └─ Save history
    ↓
 Output Files:
-   ├─ jobs.json (all jobs)
-   ├─ current.json (per-company count)
-   ├─ jobs_age.json (age tracking)
-   └─ history.json (trends)
+   ├─ crypto_jobs.json (all jobs)
+   ├─ crypto_current.json (per-company count)
+   ├─ crypto_jobs_age.json (age tracking)
+   └─ crypto_history.json (trends)
 ```
 
 ---
