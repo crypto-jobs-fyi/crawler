@@ -3,8 +3,8 @@ from src.companies import Companies
 from src.crawler_runner import CrawlerRunner
 from src.logging_utils import get_logger
 
-jobs_file = 'ai_jobs.json'
-current_jobs_file = 'ai_current_jobs.json'
+jobs_file = 'ai_jobs_mix.json'
+current_jobs_file = 'ai_current_jobs_mix.json'
 
 logger = get_logger(__name__)
 

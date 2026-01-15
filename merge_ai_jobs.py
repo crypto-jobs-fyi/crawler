@@ -39,10 +39,10 @@ def read_jobs(file_name):
         logger.warning(f"File not found or invalid JSON: {file_name}")
         return []
 
-# List of files to merge into the main ai_jobs.json
-# Including ai_jobs.json itself to preserve results from the main crawler
+# List of files to merge into the main ai_jobs_mix.json
+# Including ai_jobs_mix.json itself to preserve results from the main crawler
 job_json_list = [
-    'ai_jobs.json',
+    'ai_jobs_mix.json',
     'headed_ai_jobs.json', 
     'ai_jobs_ashby.json', 
     'ai_jobs_greenhouse.json', 
