@@ -41,7 +41,7 @@ def read_jobs(file_name):
 
 # List of files to merge into the main crypto_jobs.json
 job_json_list = [
-    'crypto_jobs.json',
+    'crypto_jobs_mix.json',
     'headed_crypto_jobs.json', 
     'crypto_jobs_lever.json', 
     'crypto_jobs_greenhouse.json', 
