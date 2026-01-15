@@ -2944,6 +2944,15 @@
             "headless": true
         },
         {
+            "name": "rillet.com",
+            "jobs_url": "https://jobs.ashbyhq.com/rillet",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.rillet.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "multiversx",
             "jobs_url": "https://jobs.lever.co/multiversx",
             "scraper": "LEVER",
