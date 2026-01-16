@@ -1,6 +1,42 @@
 {
     "data": [
         {
+            "company": "caffeine-ai",
+            "title": "Machine Learning Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDo2DXHkz8JEjio2TKDPYp_Z"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Product Designer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDpB1pffcR9n0Asjt9OG7fxX"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Site Reliability Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrslFCipuV74fNN8xQKvxBC"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqs7bVNEmPnV10mBxzvvG9B"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer \u2013 Backend Focus",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrQklClsJ8HLiIuONbirp8m"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer \u2013 Frontend Focus",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqA1bZbULyME8wpM6lGB_Nu"
+        },
+        {
             "company": "quo.com",
             "title": "Senior Backend Engineer",
             "location": "Remote - Canada \u2022 Remote",
@@ -101,12 +137,6 @@
             "title": "Machine Learning Engineer | Creative Ads Optimization",
             "location": "Palo Alto, CA, London, UK \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrJN5v1gBb_BnMbVcvGcJn4"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Security Engineer - Tech Lead",
-            "location": "Palo Alto, CA, London, UK \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrnKDDG4Rjn22M56GgNGJW0"
         },
         {
             "company": "lumalabs.ai",
@@ -303,7 +333,7 @@
         {
             "company": "lumalabs.ai",
             "title": "Recruiting Coordinator",
-            "location": "New York, NY, Palo Alto, CA \u2022 Hybrid",
+            "location": "Palo Alto, CA, Seattle, WA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDqEXCfAnwaSWrs9EBRrh5ES"
         },
         {
@@ -401,30 +431,6 @@
             "title": "Don't See Your Role? (General Application)",
             "location": "Palo Alto, CA, London, UK \u2022 Remote",
             "link": "https://jobs.gem.com/lumalabs-ai/b8da3485-8f2e-41db-92b2-7d4ac80d19ad"
-        },
-        {
-            "company": "enjins",
-            "title": "Lead AI Engineer",
-            "location": "On-site",
-            "link": "https://apply.workable.com/enjins/j/45ED3254CF/"
-        },
-        {
-            "company": "enjins",
-            "title": "Senior AI Engineer",
-            "location": "On-site",
-            "link": "https://apply.workable.com/enjins/j/2A43BEF0CF/"
-        },
-        {
-            "company": "enjins",
-            "title": "AI Strategy Lead",
-            "location": "On-site",
-            "link": "https://apply.workable.com/enjins/j/CB2DF45F58/"
-        },
-        {
-            "company": "enjins",
-            "title": "AI Engineer",
-            "location": "On-site",
-            "link": "https://apply.workable.com/enjins/j/0CFFA7569F/"
         },
         {
             "company": "nebius",
@@ -1537,10 +1543,34 @@
             "link": "https://careers.nebius.com/?gh_jid=4710008101"
         },
         {
+            "company": "enjins",
+            "title": "Lead AI Engineer",
+            "location": "On-site",
+            "link": "https://apply.workable.com/enjins/j/45ED3254CF/"
+        },
+        {
+            "company": "enjins",
+            "title": "Senior AI Engineer",
+            "location": "On-site",
+            "link": "https://apply.workable.com/enjins/j/2A43BEF0CF/"
+        },
+        {
+            "company": "enjins",
+            "title": "AI Strategy Lead",
+            "location": "On-site",
+            "link": "https://apply.workable.com/enjins/j/CB2DF45F58/"
+        },
+        {
+            "company": "enjins",
+            "title": "AI Engineer",
+            "location": "On-site",
+            "link": "https://apply.workable.com/enjins/j/0CFFA7569F/"
+        },
+        {
             "company": "c3.ai",
             "title": "AI Engagement Manager/Senior AI Engagement Manager",
-            "location": "New York City, New York",
-            "link": "https://c3.ai/job-description/?gh_jid=8335545002"
+            "location": "Munich, Germany",
+            "link": "https://c3.ai/job-description/?gh_jid=8350103002"
         },
         {
             "company": "c3.ai",
@@ -1551,8 +1581,8 @@
         {
             "company": "c3.ai",
             "title": "AI Engagement Manager/Senior AI Engagement Manager",
-            "location": "Munich, Germany",
-            "link": "https://c3.ai/job-description/?gh_jid=8350103002"
+            "location": "New York City, New York",
+            "link": "https://c3.ai/job-description/?gh_jid=8335545002"
         },
         {
             "company": "c3.ai",
@@ -1581,12 +1611,6 @@
         {
             "company": "c3.ai",
             "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
-            "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
             "location": "Tysons, VA, Redwood City, CA",
             "link": "https://c3.ai/job-description/?gh_jid=7725480002"
         },
@@ -1598,9 +1622,9 @@
         },
         {
             "company": "c3.ai",
-            "title": "AI Solution Manager/Senior AI Solution Manager",
-            "location": "London, UK",
-            "link": "https://c3.ai/job-description/?gh_jid=8350131002"
+            "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
         },
         {
             "company": "c3.ai",
@@ -1613,6 +1637,12 @@
             "title": "AI Solution Manager/Senior AI Solution Manager",
             "location": "New York City, New York",
             "link": "https://c3.ai/job-description/?gh_jid=8117068002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "AI Solution Manager/Senior AI Solution Manager",
+            "location": "London, UK",
+            "link": "https://c3.ai/job-description/?gh_jid=8350131002"
         },
         {
             "company": "c3.ai",
@@ -1683,14 +1713,14 @@
         {
             "company": "c3.ai",
             "title": "Director/Senior Director, Strategic Solutions",
-            "location": "London, UK",
-            "link": "https://c3.ai/job-description/?gh_jid=7307827002"
+            "location": "Munich, Germany",
+            "link": "https://c3.ai/job-description/?gh_jid=7452556002"
         },
         {
             "company": "c3.ai",
             "title": "Director/Senior Director, Strategic Solutions",
-            "location": "Munich, Germany",
-            "link": "https://c3.ai/job-description/?gh_jid=7452556002"
+            "location": "London, UK",
+            "link": "https://c3.ai/job-description/?gh_jid=7307827002"
         },
         {
             "company": "c3.ai",
@@ -1989,20 +2019,20 @@
         {
             "company": "c3.ai",
             "title": "Software Engineer - Intern (Summer 2026)",
-            "location": "Guadalajara, MX",
-            "link": "https://c3.ai/job-description/?gh_jid=8111347002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "Software Engineer - Intern (Summer 2026)",
             "location": "Redwood City, CA",
             "link": "https://c3.ai/job-description/?gh_jid=8106513002"
         },
         {
             "company": "c3.ai",
+            "title": "Software Engineer - Intern (Summer 2026)",
+            "location": "Guadalajara, MX",
+            "link": "https://c3.ai/job-description/?gh_jid=8111347002"
+        },
+        {
+            "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Bengaluru, India",
-            "link": "https://c3.ai/job-description/?gh_jid=8198095002"
+            "location": "Paris, FR",
+            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
         },
         {
             "company": "c3.ai",
@@ -2025,8 +2055,8 @@
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Paris, FR",
-            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
+            "location": "Bengaluru, India",
+            "link": "https://c3.ai/job-description/?gh_jid=8198095002"
         },
         {
             "company": "c3.ai",
@@ -2739,8 +2769,26 @@
         {
             "company": "applied_intuition",
             "title": "Flight Test Engineer",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4648314005?gh_jid=4648314005"
+            "location": "Ann Arbor, Michigan, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4640325005?gh_jid=4640325005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Flight Test Engineer",
+            "location": "Fort Walton Beach, Florida, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4544305005?gh_jid=4544305005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Flight Test Engineer",
+            "location": "San Diego, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4640324005?gh_jid=4640324005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Flight Test Engineer",
+            "location": "Washington, District of Columbia, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4638741005?gh_jid=4638741005"
         },
         {
             "company": "applied_intuition",
@@ -3200,7 +3248,7 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Senior Ops Data Analyst",
+            "title": "Senior Vehicle Operations Data Analyst",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4649671005?gh_jid=4649671005"
         },
