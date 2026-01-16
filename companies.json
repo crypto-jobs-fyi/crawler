@@ -2692,6 +2692,15 @@
             "headless": true
         },
         {
+            "name": "vcluster",
+            "jobs_url": "https://jobs.ashbyhq.com/vcluster",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.vcluster.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "snaplogic",
             "jobs_url": "https://jobs.lever.co/snaplogic",
             "scraper": "LEVER",
