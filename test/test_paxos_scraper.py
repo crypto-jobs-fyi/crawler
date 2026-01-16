@@ -27,7 +27,7 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create a Paxos CompanyItem."""
-    return CompanyItem("paxos", "https://www.paxos.com/jobs", Scrapers.PAXOS, "https://www.paxos.com")
+    return CompanyItem("paxos", "https://www.paxos.com/careers#open-roles", Scrapers.PAXOS, "https://www.paxos.com")
 
 
 def test_paxos_scraper(driver, scraper, company):

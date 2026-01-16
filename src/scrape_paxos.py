@@ -6,11 +6,11 @@ def to_records(group_elements, company):
     result = []
     for elem in group_elements:
         job_url = elem.get_attribute('href')
-        location_elem = elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] p')
+        location_elem = elem.find_element(By.CSS_SELECTOR, 'div[class*="ashby-job-posting-brief-details"] p')
         location_text : str = location_elem.text.strip()
         job = {
             "company": company,
-            "title": elem.find_element(By.CSS_SELECTOR, 'div[class="job-list-item"] h4').text,
+            "title": elem.find_element(By.CSS_SELECTOR, 'div h3').text,
             "location": location_text.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE'),
             "link": job_url
         }
@@ -29,7 +29,14 @@ class ScrapePaxos(ScrapeIt):
         )
         driver.implicitly_wait(5)
         driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, '[class="job-listings"] a[href]')
+        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div a[class*="_container"]')
+        ## logging the number of job elements found
+        self.log_info(
+            "Found job elements",
+            company=company,
+            web_page=web_page,
+            elements_found=len(group_elements),
+        )
         result = to_records(group_elements, company)
         self.log_info(
             "Scrape summary",
