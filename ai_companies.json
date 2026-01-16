@@ -5,6 +5,11 @@
         "jobs_url": "https://job-boards.greenhouse.io/anthropic"
     },
     {
+        "company_name": "hpiq",
+        "company_url": "https://www.hp-iq.com",
+        "jobs_url": "https://job-boards.greenhouse.io/hpiq"
+    },
+    {
         "company_name": "openai",
         "company_url": "https://openai.com",
         "jobs_url": "https://jobs.ashbyhq.com/openai"
@@ -13,6 +18,11 @@
         "company_name": "quo.com",
         "company_url": "https://quo.com",
         "jobs_url": "https://jobs.gem.com/quo"
+    },
+    {
+        "company_name": "caffeine-ai",
+        "company_url": "https://caffeine.ai",
+        "jobs_url": "https://jobs.gem.com/caffeine-ai"
     },
     {
         "company_name": "lumalabs.ai",

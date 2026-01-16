@@ -4,9 +4,10 @@ from src.logging_utils import get_logger
 
 # Filter companies specifically for the AI category
 company_list = Companies.filter_companies(category="ai")
+Companies.write_companies('ai_companies.json', company_list)
 logger = get_logger(__name__)
 
-# Main output file for AI jobs
+# Main output file for AI jobs. Do not chanbge to ai_jobs_mix.json
 jobs_file = 'ai_jobs.json'
 
 logger.info(

@@ -4,6 +4,7 @@ from src.logging_utils import get_logger
 
 # Filter companies specifically for the Crypto category
 company_list = Companies.filter_companies(category="crypto")
+Companies.write_companies('crypto_companies.json', company_list)
 logger = get_logger(__name__)
 
 # Main output file for Crypto jobs

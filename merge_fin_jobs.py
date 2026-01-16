@@ -4,6 +4,7 @@ from src.logging_utils import get_logger
 
 # Filter companies specifically for the Fintech category
 company_list = Companies.filter_companies(category="fintech")
+Companies.write_companies('fin_companies.json', company_list)
 logger = get_logger(__name__)
 
 # Main output file for Fintech jobs

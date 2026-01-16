@@ -80,3 +80,15 @@ class Companies:
         if company_names:
             filtered = [company for company in filtered if company.company_name in company_names]
         return filtered
+
+    @staticmethod
+    def write_companies(file_name: str, companies: list[CompanyItem]):
+        data = []
+        for c in companies:
+            data.append({
+                "company_name": c.company_name,
+                "company_url": c.company_url,
+                "jobs_url": c.jobs_url
+            })
+        with open(file_name, 'w') as f:
+            json.dump(data, f, indent=4)
