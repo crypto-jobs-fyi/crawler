@@ -104,6 +104,12 @@
         },
         {
             "company": "blockstream",
+            "title": "Information Architect",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/blockstream/3463a18e-85f6-4622-a100-933b16eba261"
+        },
+        {
+            "company": "blockstream",
             "title": "Product Designer",
             "location": "Remote",
             "link": "https://jobs.ashbyhq.com/blockstream/cd3e42e9-9b39-48a4-9c68-e354c24c783f"
@@ -260,7 +266,7 @@
         },
         {
             "company": "phantom",
-            "title": "Product Designer (Wallet Platform)",
+            "title": "Product Design (Wallet Platform)",
             "location": "Remote-US",
             "link": "https://jobs.ashbyhq.com/phantom/46472615-c204-4f44-b466-5db14ea5bb39"
         },
@@ -313,84 +319,6 @@
             "link": "https://jobs.ashbyhq.com/ethglobal/5ea9df9d-335e-4f83-8b8a-e6f84dbd6c89"
         },
         {
-            "company": "li.fi",
-            "title": "DevRel Engineer (APAC) - Mandarin Speaking",
-            "location": "Remote APAC",
-            "link": "https://jobs.ashbyhq.com/li.fi/169555cf-c619-4a9b-83b3-d0d608c5bd42"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Product Designer",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/2cb0eb42-f7da-4412-8040-a6dc3bb86872"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Backend Engineer",
-            "location": "Remote EMEA; Remote APAC",
-            "link": "https://jobs.ashbyhq.com/li.fi/41ec6850-0344-4df8-8519-d857e34566a9"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Backend Engineer - Intents API",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/afac21b1-912a-4286-8504-5a1c45dd4f4e"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Backend Engineer - Perps",
-            "location": "Fully Remote",
-            "link": "https://jobs.ashbyhq.com/li.fi/836bb6cf-254b-4072-83a8-49a999c54542"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Backend Engineer (Fee Consolidation Service)",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/3a7a1937-0d39-4c78-94ab-c4f7d1e68481"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior Backend Engineer (Partner Service)",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/e72068da-8ee4-471b-88a6-2458d6abf2e0"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior DevOps Engineer",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/551a9a67-6a39-484c-a952-8441a3b5f6d9"
-        },
-        {
-            "company": "li.fi",
-            "title": "Senior QA Engineer - Zaps",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/042565d0-6cd0-4bc3-ae49-5f8c241f89fb"
-        },
-        {
-            "company": "li.fi",
-            "title": "Mid/Senior Smart Contract Engineer",
-            "location": "Remote EMEA; Remote APAC",
-            "link": "https://jobs.ashbyhq.com/li.fi/0d0fe49e-4ecf-4973-a1fa-74d624ca065d"
-        },
-        {
-            "company": "li.fi",
-            "title": "Mid/Senior QA Engineer - Jumper",
-            "location": "Remote EMEA",
-            "link": "https://jobs.ashbyhq.com/li.fi/9283bddf-5e25-4b72-9296-46edeb44f105"
-        },
-        {
-            "company": "li.fi",
-            "title": "Product Manager - Expansion & SDKs",
-            "location": "Fully Remote",
-            "link": "https://jobs.ashbyhq.com/li.fi/2fc1f118-147e-49d4-a35a-10fad0af0f6a"
-        },
-        {
-            "company": "li.fi",
-            "title": "Product Manager - Zaps",
-            "location": "Fully Remote",
-            "link": "https://jobs.ashbyhq.com/li.fi/f78cb5ec-d1d4-4a96-9023-8d6c853ab6c8"
-        },
-        {
             "company": "kraken",
             "title": "Business Operations Principal - Pro",
             "location": "US; Canada",
@@ -435,26 +363,26 @@
         {
             "company": "kraken",
             "title": "Sales Strategy and Operations Manager",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/d2467b03-18d7-40db-8654-5b13ce937913"
-        },
-        {
-            "company": "kraken",
-            "title": "Sales Strategy and Operations Manager",
             "location": "Canada; APAC; Europe",
             "link": "https://jobs.ashbyhq.com/kraken.com/58f8f3d1-4b16-47f7-9f58-9500fe66ed48"
         },
         {
             "company": "kraken",
-            "title": "Sr Banking & Payments Manager",
-            "location": "UK",
-            "link": "https://jobs.ashbyhq.com/kraken.com/4434612c-0dfa-4666-a3e0-4ac77cd320cb"
+            "title": "Sales Strategy and Operations Manager",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/d2467b03-18d7-40db-8654-5b13ce937913"
         },
         {
             "company": "kraken",
             "title": "Sr Banking & Payments Manager",
             "location": "UAE",
             "link": "https://jobs.ashbyhq.com/kraken.com/15bb5850-c937-4ae9-bd08-4c596e072a0b"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr Banking & Payments Manager",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/kraken.com/4434612c-0dfa-4666-a3e0-4ac77cd320cb"
         },
         {
             "company": "kraken",
@@ -479,12 +407,6 @@
             "title": "Client Engagement Specialist, CXF - Fixed Term",
             "location": "Thailand; Malaysia; Vietnam; Taiwan",
             "link": "https://jobs.ashbyhq.com/kraken.com/50661045-c535-41fe-b7ec-2876f376e8d9"
-        },
-        {
-            "company": "kraken",
-            "title": "Client Engagement Specialist, Social - Fixed Term",
-            "location": "UK; Portugal; Ireland; Cyprus; Philippines; Vietnam; Thailand; Taiwan; Malaysia",
-            "link": "https://jobs.ashbyhq.com/kraken.com/baada195-a123-4c65-b0e2-b32789b8418d"
         },
         {
             "company": "kraken",
@@ -518,6 +440,18 @@
         },
         {
             "company": "kraken",
+            "title": "Director, Product Design \u2013 Growth",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/5c05daa2-8cde-4017-8cda-e41ff0597330"
+        },
+        {
+            "company": "kraken",
+            "title": "Director, Product Design \u2013 Growth",
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/d617e841-ff90-4bb4-bb90-1196a5a3339d"
+        },
+        {
+            "company": "kraken",
             "title": "Staff Product Designer - Pro",
             "location": "Europe",
             "link": "https://jobs.ashbyhq.com/kraken.com/b6c30f27-d3b4-40b3-8d65-2c34a0a3caa3"
@@ -542,27 +476,15 @@
         },
         {
             "company": "kraken",
-            "title": "Staff Software Engineer \u2013 Growth",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/60b84d5f-0aa1-49c2-89ba-d87c3607b32a"
-        },
-        {
-            "company": "kraken",
-            "title": "Staff Software Engineer \u2013 Growth",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/c6bfad99-1516-45a5-88d4-b14005a467ad"
+            "title": "Technical Project Manager - Growth",
+            "location": "UK; Canada; Portugal; Ireland; UAE; Australia; Brazil; Cyprus; Singapore; Europe",
+            "link": "https://jobs.ashbyhq.com/kraken.com/ea22a049-8063-4f90-ad1d-cafa2e6a1246"
         },
         {
             "company": "kraken",
             "title": "Technical Project Manager - Growth",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/30a805c0-9e59-450c-8c43-9b27c6e9ce25"
-        },
-        {
-            "company": "kraken",
-            "title": "Technical Project Manager - Growth",
-            "location": "UK; Canada; Portugal; Ireland; UAE; Australia; Brazil; Cyprus; Singapore; Europe",
-            "link": "https://jobs.ashbyhq.com/kraken.com/ea22a049-8063-4f90-ad1d-cafa2e6a1246"
         },
         {
             "company": "kraken",
@@ -603,14 +525,14 @@
         {
             "company": "kraken",
             "title": "Senior Software Engineer - Rust - Backend - Consumer",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/d16f0817-e92c-46ca-8709-7a3b11a16d80"
+            "location": "Europe; Canada; UK; Brazil",
+            "link": "https://jobs.ashbyhq.com/kraken.com/33161932-c387-42f9-8a41-36ae1ef5d116"
         },
         {
             "company": "kraken",
             "title": "Senior Software Engineer - Rust - Backend - Consumer",
-            "location": "Europe; Canada; UK; Brazil",
-            "link": "https://jobs.ashbyhq.com/kraken.com/33161932-c387-42f9-8a41-36ae1ef5d116"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/d16f0817-e92c-46ca-8709-7a3b11a16d80"
         },
         {
             "company": "kraken",
@@ -627,14 +549,14 @@
         {
             "company": "kraken",
             "title": "Senior Software Engineer - Rust - Onchain",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/f9fbccb7-372e-4f56-83a7-68ee7f131e54"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/f14d1207-312d-4710-810d-1959dd3eb018"
         },
         {
             "company": "kraken",
             "title": "Senior Software Engineer - Rust - Onchain",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/f14d1207-312d-4710-810d-1959dd3eb018"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/f9fbccb7-372e-4f56-83a7-68ee7f131e54"
         },
         {
             "company": "kraken",
@@ -675,14 +597,14 @@
         {
             "company": "kraken",
             "title": "Software Engineer - Rust - Onchain",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/73d1fd42-1014-4e94-b571-361b26288d48"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/0feff561-4334-4fe5-b414-db76a957df67"
         },
         {
             "company": "kraken",
             "title": "Software Engineer - Rust - Onchain",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/0feff561-4334-4fe5-b414-db76a957df67"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/73d1fd42-1014-4e94-b571-361b26288d48"
         },
         {
             "company": "kraken",
@@ -723,20 +645,14 @@
         {
             "company": "kraken",
             "title": "Data Analyst - Payments & Blockchain",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/6bda28e9-4e40-4b78-b8c1-8ccdaa36c0bf"
-        },
-        {
-            "company": "kraken",
-            "title": "Data Analyst - Payments & Blockchain",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/7ef373df-9359-4e5f-b9da-de00cc44664b"
         },
         {
             "company": "kraken",
-            "title": "Data Analyst, Growth",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/116c926d-3166-4e9f-938b-6da54d020cac"
+            "title": "Data Analyst - Payments & Blockchain",
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/6bda28e9-4e40-4b78-b8c1-8ccdaa36c0bf"
         },
         {
             "company": "kraken",
@@ -746,15 +662,21 @@
         },
         {
             "company": "kraken",
-            "title": "Data Analyst, Product",
+            "title": "Data Analyst, Growth",
             "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/91bd357d-b135-4eef-a773-e23c0ea4219f"
+            "link": "https://jobs.ashbyhq.com/kraken.com/116c926d-3166-4e9f-938b-6da54d020cac"
         },
         {
             "company": "kraken",
             "title": "Data Analyst, Product",
             "location": "UK; Canada; Poland; Ireland; Singapore; Romania; Lithuania; Switzerland; Portugal; Spain; Germany; UAE; Mexico; Brazil; Cyprus; Hong Kong",
             "link": "https://jobs.ashbyhq.com/kraken.com/136f42a3-6342-4dcf-9e00-ea362b107129"
+        },
+        {
+            "company": "kraken",
+            "title": "Data Analyst, Product",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/91bd357d-b135-4eef-a773-e23c0ea4219f"
         },
         {
             "company": "kraken",
@@ -789,26 +711,38 @@
         {
             "company": "kraken",
             "title": "Senior Software Engineer - Full-stack - Growth Product",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/a13e7989-6dee-4e03-9825-4d2033b26528"
-        },
-        {
-            "company": "kraken",
-            "title": "Senior Software Engineer - Full-stack - Growth Product",
             "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
             "link": "https://jobs.ashbyhq.com/kraken.com/9d322024-6c50-4280-aa0f-f15d266b1d6a"
         },
         {
             "company": "kraken",
-            "title": "Engineering Manager - Core Services",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/f9b5082e-4e9b-499c-910c-b80069eb0ffd"
+            "title": "Senior Software Engineer - Full-stack - Growth Product",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/a13e7989-6dee-4e03-9825-4d2033b26528"
+        },
+        {
+            "company": "kraken",
+            "title": "Staff Software Engineer \u2013 Growth",
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/c6bfad99-1516-45a5-88d4-b14005a467ad"
+        },
+        {
+            "company": "kraken",
+            "title": "Staff Software Engineer \u2013 Growth",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/60b84d5f-0aa1-49c2-89ba-d87c3607b32a"
         },
         {
             "company": "kraken",
             "title": "Engineering Manager - Core Services",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/c79dbdce-7b88-4321-a8e3-ca9e79ad47ff"
+        },
+        {
+            "company": "kraken",
+            "title": "Engineering Manager - Core Services",
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Australia; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/f9b5082e-4e9b-499c-910c-b80069eb0ffd"
         },
         {
             "company": "kraken",
@@ -819,14 +753,14 @@
         {
             "company": "kraken",
             "title": "Senior Engineering Manager \u2013 Growth Acquire",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/74e79fd7-c55d-4e1b-9d4c-b554d604c7a0"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/28e67520-a6f7-4abe-8723-498bd39ab70a"
         },
         {
             "company": "kraken",
             "title": "Senior Engineering Manager \u2013 Growth Acquire",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/28e67520-a6f7-4abe-8723-498bd39ab70a"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/74e79fd7-c55d-4e1b-9d4c-b554d604c7a0"
         },
         {
             "company": "kraken",
@@ -849,19 +783,19 @@
         {
             "company": "kraken",
             "title": "SRE / DevOps Engineer",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/0e512814-a14c-4ea7-8391-7d1c3e540bb9"
-        },
-        {
-            "company": "kraken",
-            "title": "SRE / DevOps Engineer",
             "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
             "link": "https://jobs.ashbyhq.com/kraken.com/59f80f49-0fa8-432e-bbb6-7b8fac4cb920"
         },
         {
             "company": "kraken",
+            "title": "SRE / DevOps Engineer",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/0e512814-a14c-4ea7-8391-7d1c3e540bb9"
+        },
+        {
+            "company": "kraken",
             "title": "Platform Accounting Analyst",
-            "location": "Canada; Mexico; LATAM",
+            "location": "Canada",
             "link": "https://jobs.ashbyhq.com/kraken.com/c75087bb-4b5d-4ad5-84f5-ccc9169868b9"
         },
         {
@@ -932,18 +866,6 @@
         },
         {
             "company": "kraken",
-            "title": "Senior Financial Reporting Analyst",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/e09429ba-4415-4ec4-b15d-d8fd33efdfb1"
-        },
-        {
-            "company": "kraken",
-            "title": "Senior Technical Accounting Manager",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/0928729d-b73f-4eda-b181-59631b00a25e"
-        },
-        {
-            "company": "kraken",
             "title": "Sr. Director, Treasury Operations",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/e9a26ffe-a5b4-4006-a089-6e3ba67f4e7f"
@@ -963,14 +885,14 @@
         {
             "company": "kraken",
             "title": "Tax Platform and Operations Manager",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/901b57ac-faca-4ba2-9540-e80d26aa45c2"
+            "location": "UK; Canada; Portugal; Ireland; UAE; Brazil; Cyprus",
+            "link": "https://jobs.ashbyhq.com/kraken.com/0f8a74cc-d86a-4dbc-ab4a-d70135388279"
         },
         {
             "company": "kraken",
             "title": "Tax Platform and Operations Manager",
-            "location": "UK; Canada; Portugal; Ireland; UAE; Brazil; Cyprus",
-            "link": "https://jobs.ashbyhq.com/kraken.com/0f8a74cc-d86a-4dbc-ab4a-d70135388279"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/901b57ac-faca-4ba2-9540-e80d26aa45c2"
         },
         {
             "company": "kraken",
@@ -1059,14 +981,14 @@
         {
             "company": "kraken",
             "title": "Assistant General Counsel - Litigation",
-            "location": "UK; Canada",
-            "link": "https://jobs.ashbyhq.com/kraken.com/83dbfd59-13c2-461d-9eef-1a8ddd91ba50"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/675e0b8f-8cf5-486a-ae17-a8627b0c9c8a"
         },
         {
             "company": "kraken",
             "title": "Assistant General Counsel - Litigation",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/675e0b8f-8cf5-486a-ae17-a8627b0c9c8a"
+            "location": "UK; Canada",
+            "link": "https://jobs.ashbyhq.com/kraken.com/83dbfd59-13c2-461d-9eef-1a8ddd91ba50"
         },
         {
             "company": "kraken",
@@ -1089,14 +1011,14 @@
         {
             "company": "kraken",
             "title": "Associate Content Creator",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/99fac5de-9e96-4556-9041-1a8cf470088f"
+            "location": "UK; Canada; Portugal; Ireland; UAE; Australia; Brazil; Cyprus; Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/b06a45b0-c020-4117-a0f3-77c54a61e1eb"
         },
         {
             "company": "kraken",
             "title": "Associate Content Creator",
-            "location": "UK; Canada; Portugal; Ireland; UAE; Australia; Brazil; Cyprus; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/b06a45b0-c020-4117-a0f3-77c54a61e1eb"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/99fac5de-9e96-4556-9041-1a8cf470088f"
         },
         {
             "company": "kraken",
@@ -1113,14 +1035,14 @@
         {
             "company": "kraken",
             "title": "Senior Content Creator - Onchain",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/095b33b9-337d-4dc8-9a31-0cd172069bfa"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/fb5b3ff2-229c-4b0f-9f75-b220ba86caba"
         },
         {
             "company": "kraken",
             "title": "Senior Content Creator - Onchain",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/fb5b3ff2-229c-4b0f-9f75-b220ba86caba"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/095b33b9-337d-4dc8-9a31-0cd172069bfa"
         },
         {
             "company": "kraken",
@@ -1137,7 +1059,7 @@
         {
             "company": "kraken",
             "title": "VIP Relationship Manager",
-            "location": "UK; Australia; Switzerland; Hong Kong; Germany",
+            "location": "UK; Australia; Switzerland; Hong Kong; Germany; UAE",
             "link": "https://jobs.ashbyhq.com/kraken.com/7a7141b0-6362-414b-9068-b909b0c95506"
         },
         {
@@ -1151,18 +1073,6 @@
             "title": "Copywriter - Breakout Prop",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/c02baf0e-fa2b-49f4-93f6-d2efd1680d11"
-        },
-        {
-            "company": "kraken",
-            "title": "Director, Social & Content",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/65490c57-6ace-4a24-81e1-daf7ca3f1dd9"
-        },
-        {
-            "company": "kraken",
-            "title": "Director, Social & Content",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/39d59278-304a-4854-936f-95f3636de2a0"
         },
         {
             "company": "kraken",
@@ -1190,6 +1100,12 @@
         },
         {
             "company": "kraken",
+            "title": "Lead Product Marketing Manager - Onchain",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/e43cc065-53cf-4594-ae78-6a425ee87998"
+        },
+        {
+            "company": "kraken",
             "title": "People Operations Associate - Fixed Term",
             "location": "UK; Portugal; Ireland",
             "link": "https://jobs.ashbyhq.com/kraken.com/4a9208e9-3df8-4143-b7df-76d079e31369"
@@ -1208,27 +1124,9 @@
         },
         {
             "company": "kraken",
-            "title": "Senior Product Manager - Acquire",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/60d8d730-f101-4d6e-96df-616dd078dc36"
-        },
-        {
-            "company": "kraken",
-            "title": "Senior Product Manager - Acquire",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/e49456e6-d486-470f-ba21-f67dc203a363"
-        },
-        {
-            "company": "kraken",
             "title": "Sr Product Manager - Opt-In Rewards",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/89903fe3-602c-46d0-b607-f3a693a5773f"
-        },
-        {
-            "company": "kraken",
-            "title": "Sr. Product Manager, Onboarding",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/4458d786-dca2-4831-b286-432444e12379"
         },
         {
             "company": "kraken",
@@ -1238,15 +1136,21 @@
         },
         {
             "company": "kraken",
-            "title": "Staff Product Manager, Pro UI",
-            "location": "Canada; UK; Europe",
-            "link": "https://jobs.ashbyhq.com/kraken.com/2180e43b-627a-4b36-9faa-e6cb16998666"
+            "title": "Sr. Product Manager, Onboarding",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/4458d786-dca2-4831-b286-432444e12379"
         },
         {
             "company": "kraken",
             "title": "Staff Product Manager, Pro UI",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/923e7dd2-103b-4621-8184-7ca9240cf6c6"
+        },
+        {
+            "company": "kraken",
+            "title": "Staff Product Manager, Pro UI",
+            "location": "Canada; UK; Europe",
+            "link": "https://jobs.ashbyhq.com/kraken.com/2180e43b-627a-4b36-9faa-e6cb16998666"
         },
         {
             "company": "kraken",
@@ -1263,14 +1167,14 @@
         {
             "company": "kraken",
             "title": "Product Manager - Equities & xStocks",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/76b4e445-3c0d-403b-8544-c55b859b4564"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
+            "link": "https://jobs.ashbyhq.com/kraken.com/1062241d-d7a8-43ef-9ce8-31079bce6f24"
         },
         {
             "company": "kraken",
             "title": "Product Manager - Equities & xStocks",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico",
-            "link": "https://jobs.ashbyhq.com/kraken.com/1062241d-d7a8-43ef-9ce8-31079bce6f24"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/76b4e445-3c0d-403b-8544-c55b859b4564"
         },
         {
             "company": "kraken",
@@ -1281,14 +1185,14 @@
         {
             "company": "kraken",
             "title": "Senior Product Manager - Pro - Tax Reporting",
-            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
-            "link": "https://jobs.ashbyhq.com/kraken.com/2f6cefec-a282-432a-8586-012c11f8d527"
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/8c8aef42-d41e-4c87-8737-f3cd813bed78"
         },
         {
             "company": "kraken",
             "title": "Senior Product Manager - Pro - Tax Reporting",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/8c8aef42-d41e-4c87-8737-f3cd813bed78"
+            "location": "UK; Canada; Portugal; Spain; Poland; Ireland; Germany; UAE; Brazil; Romania; Czech Republic; Cyprus; Lithuania; Switzerland; Mexico; Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/2f6cefec-a282-432a-8586-012c11f8d527"
         },
         {
             "company": "kraken",
@@ -1303,6 +1207,96 @@
             "link": "https://jobs.ashbyhq.com/kraken.com/810d51e7-94c6-4a6e-b85d-3db89c471db4"
         },
         {
+            "company": "li.fi",
+            "title": "DevRel Engineer (APAC) - Mandarin Speaking",
+            "location": "Remote APAC",
+            "link": "https://jobs.ashbyhq.com/li.fi/169555cf-c619-4a9b-83b3-d0d608c5bd42"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Product Designer",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/2cb0eb42-f7da-4412-8040-a6dc3bb86872"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Backend Engineer",
+            "location": "Remote EMEA; Remote APAC",
+            "link": "https://jobs.ashbyhq.com/li.fi/41ec6850-0344-4df8-8519-d857e34566a9"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Backend Engineer - Intents API",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/afac21b1-912a-4286-8504-5a1c45dd4f4e"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Backend Engineer - Perps",
+            "location": "Fully Remote",
+            "link": "https://jobs.ashbyhq.com/li.fi/836bb6cf-254b-4072-83a8-49a999c54542"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Backend Engineer (Fee Consolidation Service)",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/3a7a1937-0d39-4c78-94ab-c4f7d1e68481"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior Backend Engineer (Partner Service)",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/e72068da-8ee4-471b-88a6-2458d6abf2e0"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior DevOps Engineer",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/551a9a67-6a39-484c-a952-8441a3b5f6d9"
+        },
+        {
+            "company": "li.fi",
+            "title": "Senior QA Engineer - Zaps",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/042565d0-6cd0-4bc3-ae49-5f8c241f89fb"
+        },
+        {
+            "company": "li.fi",
+            "title": "Mid/Senior Smart Contract Engineer",
+            "location": "Remote EMEA; Remote APAC",
+            "link": "https://jobs.ashbyhq.com/li.fi/0d0fe49e-4ecf-4973-a1fa-74d624ca065d"
+        },
+        {
+            "company": "li.fi",
+            "title": "Mid/Senior QA Engineer - Jumper",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/9283bddf-5e25-4b72-9296-46edeb44f105"
+        },
+        {
+            "company": "li.fi",
+            "title": "People Partner",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/8f819109-80ce-46b5-b90b-bd95e7364829"
+        },
+        {
+            "company": "li.fi",
+            "title": "Talent Lead",
+            "location": "Remote EMEA",
+            "link": "https://jobs.ashbyhq.com/li.fi/a0ea5914-c7db-4249-bf6f-568ca5e10449"
+        },
+        {
+            "company": "li.fi",
+            "title": "Product Manager - Expansion & SDKs",
+            "location": "Fully Remote",
+            "link": "https://jobs.ashbyhq.com/li.fi/2fc1f118-147e-49d4-a35a-10fad0af0f6a"
+        },
+        {
+            "company": "li.fi",
+            "title": "Product Manager - Zaps",
+            "location": "Fully Remote",
+            "link": "https://jobs.ashbyhq.com/li.fi/f78cb5ec-d1d4-4a96-9023-8d6c853ab6c8"
+        },
+        {
             "company": "Caldera",
             "title": "Protocol Engineer",
             "location": "NYC or Remote",
@@ -1313,54 +1307,6 @@
             "title": "Staff Distributed Systems Engineer (Metalayer)",
             "location": "NYC or Remote",
             "link": "https://jobs.ashbyhq.com/Caldera/6fc4d8a5-94d0-4e8f-9454-7d0b967ec26d"
-        },
-        {
-            "company": "Luxor",
-            "title": "Applications Engineer - Typescript",
-            "location": "Worldwide, Remote; Argentina, Remote; Brazil, Remote; Mexico, Remote; Uruguay, Remote; Philippines, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/9487fe88-6217-49a1-b7a6-923f6cfc5a3e"
-        },
-        {
-            "company": "Luxor",
-            "title": "Backend Engineer - Golang",
-            "location": "Worldwide, Remote; Argentina, Remote; Brazil, Remote; Mexico, Remote; Uruguay, Remote; Philippines, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/92cf3654-8996-4e42-9322-0caaa437c292"
-        },
-        {
-            "company": "Luxor",
-            "title": "Data Engineer",
-            "location": "Worldwide, Remote; Uruguay, Remote; Brazil, Remote; Argentina, Remote; Philippines, Remote; Mexico, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/710287ed-5596-47a1-b0bc-3fb44ba720b0"
-        },
-        {
-            "company": "Luxor",
-            "title": "Platform Engineer - DevOps",
-            "location": "Worldwide, Remote; Philippines, Remote; Uruguay, Remote; Mexico, Remote; Argentina, Remote; Brazil, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/22768e0f-bf3e-45d9-8b6c-10540884bbb0"
-        },
-        {
-            "company": "Luxor",
-            "title": "Golang Engineer: Cloud Platform",
-            "location": "Worldwide, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/b2b27de6-07ce-4832-abaf-e00d83b2dc93"
-        },
-        {
-            "company": "Luxor",
-            "title": "Platform Engineer: Networking",
-            "location": "Worldwide, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/6af955f4-cb58-49a4-8ff5-8e3be0229f54"
-        },
-        {
-            "company": "Luxor",
-            "title": "Platform Engineer: OpenStack",
-            "location": "Worldwide, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/00976aae-b809-419c-b1af-57c966a11f6c"
-        },
-        {
-            "company": "Luxor",
-            "title": "Platform Engineer: Storage",
-            "location": "Worldwide, Remote",
-            "link": "https://jobs.ashbyhq.com/luxor/446829cf-0529-40f5-84f6-4778336b8261"
         },
         {
             "company": "ether-fi",
@@ -1454,15 +1400,57 @@
         },
         {
             "company": "Polygon",
-            "title": "Social Content Lead (Dubai)",
-            "location": "Dubai - Remote",
-            "link": "https://jobs.ashbyhq.com/polygon-labs/1918025e-d5c3-4746-b7f8-4470c3f055d2"
-        },
-        {
-            "company": "Polygon",
             "title": "Corporate Controller",
             "location": "USA - Remote",
             "link": "https://jobs.ashbyhq.com/polygon-labs/1a916953-778e-41c8-8822-d8c463dad8c7"
+        },
+        {
+            "company": "Luxor",
+            "title": "Applications Engineer - Typescript",
+            "location": "Worldwide, Remote; Argentina, Remote; Brazil, Remote; Mexico, Remote; Uruguay, Remote; Philippines, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/9487fe88-6217-49a1-b7a6-923f6cfc5a3e"
+        },
+        {
+            "company": "Luxor",
+            "title": "Backend Engineer - Golang",
+            "location": "Worldwide, Remote; Argentina, Remote; Brazil, Remote; Mexico, Remote; Uruguay, Remote; Philippines, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/92cf3654-8996-4e42-9322-0caaa437c292"
+        },
+        {
+            "company": "Luxor",
+            "title": "Data Engineer",
+            "location": "Worldwide, Remote; Uruguay, Remote; Brazil, Remote; Argentina, Remote; Philippines, Remote; Mexico, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/710287ed-5596-47a1-b0bc-3fb44ba720b0"
+        },
+        {
+            "company": "Luxor",
+            "title": "Platform Engineer - DevOps",
+            "location": "Worldwide, Remote; Philippines, Remote; Uruguay, Remote; Mexico, Remote; Argentina, Remote; Brazil, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/22768e0f-bf3e-45d9-8b6c-10540884bbb0"
+        },
+        {
+            "company": "Luxor",
+            "title": "Golang Engineer: Cloud Platform",
+            "location": "Worldwide, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/b2b27de6-07ce-4832-abaf-e00d83b2dc93"
+        },
+        {
+            "company": "Luxor",
+            "title": "Platform Engineer: Networking",
+            "location": "Worldwide, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/6af955f4-cb58-49a4-8ff5-8e3be0229f54"
+        },
+        {
+            "company": "Luxor",
+            "title": "Platform Engineer: OpenStack",
+            "location": "Worldwide, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/00976aae-b809-419c-b1af-57c966a11f6c"
+        },
+        {
+            "company": "Luxor",
+            "title": "Platform Engineer: Storage",
+            "location": "Worldwide, Remote",
+            "link": "https://jobs.ashbyhq.com/luxor/446829cf-0529-40f5-84f6-4778336b8261"
         },
         {
             "company": "risklabs",
@@ -1475,54 +1463,6 @@
             "title": "Engineering Manager",
             "location": "Remote",
             "link": "https://jobs.ashbyhq.com/risklabs/061d0636-0a46-4276-b83f-f3dbf0cfd5ee"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Protocol Security Engineer",
-            "location": "Global Remote",
-            "link": "https://jobs.ashbyhq.com/matter-labs/614b7193-a54b-443d-9f6a-a74e07698dc0"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Protocol Engineer",
-            "location": "Global Remote",
-            "link": "https://jobs.ashbyhq.com/matter-labs/7cc65aa5-8bee-4599-9fff-d808c73675b4"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Branding & Communications Lead - Korea",
-            "location": "South Korea",
-            "link": "https://jobs.ashbyhq.com/matter-labs/40ecb8c1-b7d5-4c6b-b3e5-9c0d943fb930"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Product Marketing Lead",
-            "location": "Global Remote",
-            "link": "https://jobs.ashbyhq.com/matter-labs/ce1eef90-833b-4906-bc3a-7fbe7fc25d6a"
-        },
-        {
-            "company": "matterlabs",
-            "title": "FP&A Associate/Manager",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/matter-labs/67a570cf-4af2-4404-86e7-15d27168950f"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Legal Counsel",
-            "location": "Global Remote",
-            "link": "https://jobs.ashbyhq.com/matter-labs/9f2c0a07-aba9-48ac-af35-1d7829c0ce06"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Partner Engineer",
-            "location": "EU",
-            "link": "https://jobs.ashbyhq.com/matter-labs/24344669-6bb2-485b-87f3-4b448e17dd34"
-        },
-        {
-            "company": "matterlabs",
-            "title": "Senior Infrastructure Security Engineer",
-            "location": "Global Remote",
-            "link": "https://jobs.ashbyhq.com/matter-labs/348113fb-5df9-4222-ad53-25639f783b4b"
         },
         {
             "company": "cryptio",
@@ -1627,6 +1567,54 @@
             "link": "https://jobs.ashbyhq.com/cryptio/fdabe468-0020-4ac2-9303-c8493f8164a6"
         },
         {
+            "company": "matterlabs",
+            "title": "Protocol Security Engineer",
+            "location": "Global Remote",
+            "link": "https://jobs.ashbyhq.com/matter-labs/614b7193-a54b-443d-9f6a-a74e07698dc0"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Protocol Engineer",
+            "location": "Global Remote",
+            "link": "https://jobs.ashbyhq.com/matter-labs/7cc65aa5-8bee-4599-9fff-d808c73675b4"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Branding & Communications Lead - Korea",
+            "location": "South Korea",
+            "link": "https://jobs.ashbyhq.com/matter-labs/40ecb8c1-b7d5-4c6b-b3e5-9c0d943fb930"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Product Marketing Lead",
+            "location": "Global Remote",
+            "link": "https://jobs.ashbyhq.com/matter-labs/ce1eef90-833b-4906-bc3a-7fbe7fc25d6a"
+        },
+        {
+            "company": "matterlabs",
+            "title": "FP&A Associate/Manager",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/matter-labs/67a570cf-4af2-4404-86e7-15d27168950f"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Legal Counsel",
+            "location": "Global Remote",
+            "link": "https://jobs.ashbyhq.com/matter-labs/9f2c0a07-aba9-48ac-af35-1d7829c0ce06"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Partner Engineer",
+            "location": "EU",
+            "link": "https://jobs.ashbyhq.com/matter-labs/24344669-6bb2-485b-87f3-4b448e17dd34"
+        },
+        {
+            "company": "matterlabs",
+            "title": "Senior Infrastructure Security Engineer",
+            "location": "Global Remote",
+            "link": "https://jobs.ashbyhq.com/matter-labs/348113fb-5df9-4222-ad53-25639f783b4b"
+        },
+        {
             "company": "SeiLabs",
             "title": "Backend Software Engineer - Incubations",
             "location": "New York City",
@@ -1637,6 +1625,18 @@
             "title": "Fullstack Software Engineer - Incubations",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/sei-labs/4b01c2d8-1c06-4976-b2dc-f9a955e30beb"
+        },
+        {
+            "company": "SeiLabs",
+            "title": "Product Designer",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/sei-labs/860c078f-f360-46eb-88a4-868219aad5c1"
+        },
+        {
+            "company": "SeiLabs",
+            "title": "Product Designer (Part-time / Contract)",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/sei-labs/f78d1f2c-59c3-43fe-84f7-d3834ad84d11"
         },
         {
             "company": "SeiLabs",
@@ -1790,12 +1790,6 @@
         },
         {
             "company": "0x",
-            "title": "Content Manager",
-            "location": "Remote \u2014 North America (Aligned with U.S. Time Zones)",
-            "link": "https://jobs.ashbyhq.com/0x/0da99ba4-f495-471f-9b1c-85e9c8629a93"
-        },
-        {
-            "company": "0x",
             "title": "Product Manager | Matcha",
             "location": "Remote",
             "link": "https://jobs.ashbyhq.com/0x/d02ee11d-020f-4911-af06-23434ed1514d"
@@ -1922,6 +1916,12 @@
         },
         {
             "company": "dourolabs",
+            "title": "Finance Manager",
+            "location": "Worldwide - Remote; Europe - Remote; Porto - Office; South America - Remote",
+            "link": "https://jobs.ashbyhq.com/dourolabs.xyz/f80534e7-2049-43e1-93fc-720cf2678ce7"
+        },
+        {
+            "company": "dourolabs",
             "title": "HR Business Partner",
             "location": "Worldwide - Remote; Europe - Remote; Porto - Office; South America - Remote",
             "link": "https://jobs.ashbyhq.com/dourolabs.xyz/6d599526-77b5-449d-8d2b-641d374344a8"
@@ -1967,6 +1967,12 @@
             "title": "Senior Software Engineer, TypeScript SDK",
             "location": "USA (Remote); Canada (Remote)",
             "link": "https://jobs.ashbyhq.com/mystenlabs/00118801-e05a-477e-bf01-0766da58655d"
+        },
+        {
+            "company": "mystenlabs",
+            "title": "Senior Technical Writer",
+            "location": "USA (Remote); Europe (Remote)",
+            "link": "https://jobs.ashbyhq.com/mystenlabs/c50366d6-b575-4e98-a712-7cc093659a27"
         },
         {
             "company": "mystenlabs",
@@ -2044,19 +2050,13 @@
             "company": "rain",
             "title": "Compliance Analyst",
             "location": "San Juan, Puerto Rico",
-            "link": "https://jobs.ashbyhq.com/rain/7b6ad791-fff8-4cd8-84a2-8dd188618455"
+            "link": "https://jobs.ashbyhq.com/rain/ea5dacdd-8d29-4ae4-afc0-b3e41aad5f70"
         },
         {
             "company": "rain",
             "title": "Compliance Analyst (AML, KYB, KYC)",
             "location": "District of Columbia",
-            "link": "https://jobs.ashbyhq.com/rain/9669608a-2170-4a35-813e-429663216f2e"
-        },
-        {
-            "company": "rain",
-            "title": "Compliance Associate",
-            "location": "San Juan, Puerto Rico",
-            "link": "https://jobs.ashbyhq.com/rain/e8b4f37a-1c0a-43f5-a614-e2d440e65a9c"
+            "link": "https://jobs.ashbyhq.com/rain/4cbb5dd3-a448-46fa-b0c4-7e5c15c10f3f"
         },
         {
             "company": "rain",
@@ -2066,57 +2066,69 @@
         },
         {
             "company": "rain",
-            "title": "Regulatory & Security Compliance Analyst",
-            "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/96b42cda-4056-4cf8-ab18-678768973967"
+            "title": "Compliance Associate",
+            "location": "San Juan, Puerto Rico",
+            "link": "https://jobs.ashbyhq.com/rain/1a7aca5b-f7be-484c-96ce-587cde572d1f"
         },
         {
             "company": "rain",
-            "title": "Customer Experience Associate",
+            "title": "Regulatory & Security Compliance Analyst",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/92a63113-f9ee-41ad-a0a6-94638e393c1c"
+            "link": "https://jobs.ashbyhq.com/rain/a2c15a82-971e-4b96-88ce-36ce468cd18a"
         },
         {
             "company": "rain",
             "title": "Customer Experience Associate",
             "location": "Singapore",
-            "link": "https://jobs.ashbyhq.com/rain/c58c0450-5ce5-4a1d-a43c-9bbb40a0e815"
+            "link": "https://jobs.ashbyhq.com/rain/98c8f9c9-49f1-43a3-bb2f-f0286b1fc635"
+        },
+        {
+            "company": "rain",
+            "title": "Customer Experience Associate",
+            "location": "New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/0d1450e1-bb75-4c16-839b-af18e2897998"
+        },
+        {
+            "company": "rain",
+            "title": "Customer Experience Team Lead",
+            "location": "New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/ad86ed73-0e07-47ca-9bdc-2330d1dd7549"
         },
         {
             "company": "rain",
             "title": "Disputes & Chargebacks Specialist",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/879e28f7-d336-4e44-90ad-47db05d34f92"
+            "link": "https://jobs.ashbyhq.com/rain/42276c16-a3c0-42cc-81a0-2f45cc4e880f"
         },
         {
             "company": "rain",
             "title": "Technical Support Analyst",
             "location": "Singapore",
-            "link": "https://jobs.ashbyhq.com/rain/97653635-e66b-44b5-9f88-9d004a381302"
+            "link": "https://jobs.ashbyhq.com/rain/8b86b7ea-4b37-4e93-b7d0-1c9e98e3a81e"
         },
         {
             "company": "rain",
             "title": "Technical Support Analyst",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/0920aa27-ca13-4b26-960b-dde9a4436d1d"
+            "link": "https://jobs.ashbyhq.com/rain/77478f23-1d5b-4e7e-a1d9-cd3803576108"
         },
         {
             "company": "rain",
             "title": "Senior Product Designer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/1f649504-4365-4da5-84fc-e3bea2f30827"
+            "link": "https://jobs.ashbyhq.com/rain/0ff2fae6-038c-412e-895c-4b850cf50ba2"
         },
         {
             "company": "rain",
             "title": "Backend Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/865306a1-5678-411e-bf33-707e0762bc7d"
+            "link": "https://jobs.ashbyhq.com/rain/482b165f-2ef9-41ff-8b88-87e7e6714dc8"
         },
         {
             "company": "rain",
             "title": "CISO",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/9ec75899-1fa4-4db9-a939-7e0403a7d6ce"
+            "link": "https://jobs.ashbyhq.com/rain/bfefd59a-0f27-4201-ade3-31a8d184de40"
         },
         {
             "company": "rain",
@@ -2128,19 +2140,19 @@
             "company": "rain",
             "title": "DevOps Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/1d9dfb66-f53c-4b9a-9e68-ba3112cb69e9"
+            "link": "https://jobs.ashbyhq.com/rain/2015a21d-321d-46a5-8b7a-6243011a03aa"
         },
         {
             "company": "rain",
             "title": "Forward Deployed Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/df6a1633-ba0a-4ea0-8877-c15b11e00580"
+            "link": "https://jobs.ashbyhq.com/rain/c058e0d1-b1a0-4cf2-bad4-f4f6dae455a5"
         },
         {
             "company": "rain",
             "title": "IT Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/277be236-5570-4e7c-b913-5577f49001d1"
+            "link": "https://jobs.ashbyhq.com/rain/30917ed1-b347-4d36-9a1d-1c36c91153f3"
         },
         {
             "company": "rain",
@@ -2152,49 +2164,49 @@
             "company": "rain",
             "title": "Security Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/1d9c7713-cb0b-43a3-b5e7-f945638eb6c9"
+            "link": "https://jobs.ashbyhq.com/rain/9044a08f-f19b-47fe-a2cd-791f0675434d"
         },
         {
             "company": "rain",
             "title": "Senior Data Engineer",
             "location": "New York, NY; Remote",
-            "link": "https://jobs.ashbyhq.com/rain/fbebf47a-8a69-4789-acb2-7163a5232f84"
+            "link": "https://jobs.ashbyhq.com/rain/27fdd45d-ab76-4d94-965e-d934641fbca2"
         },
         {
             "company": "rain",
             "title": "Software Engineer - Blockchain",
             "location": "New York, NY; Remote",
-            "link": "https://jobs.ashbyhq.com/rain/f0a6dfd6-2de3-4569-9382-eea2bb406970"
+            "link": "https://jobs.ashbyhq.com/rain/2e5bcf13-fadd-4b4f-a079-1535b9615aa5"
         },
         {
             "company": "rain",
             "title": "Software Engineer - Fullstack",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/ae1158e2-231e-485a-ba43-32ee2b1cf9f4"
+            "link": "https://jobs.ashbyhq.com/rain/8849f6ef-86e6-464d-9f40-62f8355d40fb"
         },
         {
             "company": "rain",
             "title": "Solutions Architect",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/caab4bf2-973f-44bf-927a-97825a524ea4"
+            "link": "https://jobs.ashbyhq.com/rain/be54cc49-706c-46c5-a7c5-20619a9c49fd"
         },
         {
             "company": "rain",
             "title": "Solutions Architect APAC",
             "location": "Singapore",
-            "link": "https://jobs.ashbyhq.com/rain/4fcdfdfe-9a3b-4053-a4e0-6bacef386a15"
+            "link": "https://jobs.ashbyhq.com/rain/855e793b-de64-47be-beb0-ecfb43c814dd"
         },
         {
             "company": "rain",
             "title": "Solutions Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/bfdfee8d-ab41-4381-8626-d81b1fb5d621"
+            "link": "https://jobs.ashbyhq.com/rain/72a6f4e7-d40d-4c0f-9d83-7f5fc1856e49"
         },
         {
             "company": "rain",
             "title": "Controller",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/e6b5bd19-7ac4-4c87-957c-46273b8a499a"
+            "link": "https://jobs.ashbyhq.com/rain/52f9cf46-dc89-42a3-9dc3-10c0bc3920d1"
         },
         {
             "company": "rain",
@@ -2212,43 +2224,43 @@
             "company": "rain",
             "title": "Account Manager APAC",
             "location": "Singapore",
-            "link": "https://jobs.ashbyhq.com/rain/a9dff3bf-001c-40b2-a09d-ec0dc17ef15d"
+            "link": "https://jobs.ashbyhq.com/rain/8f61a393-82c1-499a-9d11-450715073f5b"
         },
         {
             "company": "rain",
             "title": "Business Development Analyst",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/c888dad0-19d9-4b91-86a5-1431761a155b"
+            "link": "https://jobs.ashbyhq.com/rain/de50da20-ff31-45cb-960d-5886487246be"
         },
         {
             "company": "rain",
             "title": "Business Development Analyst - LATAM",
             "location": "Latin America",
-            "link": "https://jobs.ashbyhq.com/rain/9faec1eb-9db8-4a86-b3ae-6d32a8515c87"
+            "link": "https://jobs.ashbyhq.com/rain/c66f4c1d-fddf-4efb-94cf-ad9ceb2f12ad"
         },
         {
             "company": "rain",
             "title": "GTM Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/080d3da6-36b9-4e2a-8c96-34951244ed13"
+            "link": "https://jobs.ashbyhq.com/rain/f40fb5b4-c41c-4375-aeee-3ba828b18335"
         },
         {
             "company": "rain",
             "title": "Implementation Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/ea1b28a5-3670-4b3e-ba54-2859b2820027"
+            "link": "https://jobs.ashbyhq.com/rain/a7400e6b-32b7-4c49-a489-c2cac17c55eb"
         },
         {
             "company": "rain",
             "title": "Sales Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/aec87f60-b4c0-47ea-a41f-023e20bf8df3"
+            "link": "https://jobs.ashbyhq.com/rain/4c079aa4-6f1b-4852-8c62-ab181b474fd4"
         },
         {
             "company": "rain",
             "title": "Senior Implementation Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/87b5d98c-a5d3-42a8-8fc0-a2e25042dc94"
+            "link": "https://jobs.ashbyhq.com/rain/3e75d0d5-4150-4347-9f8d-931ebc596dfb"
         },
         {
             "company": "rain",
@@ -2272,19 +2284,19 @@
             "company": "rain",
             "title": "Marketing Manager LATAM",
             "location": "Latin America",
-            "link": "https://jobs.ashbyhq.com/rain/b2b66125-c241-40d9-a591-95124eab1a17"
+            "link": "https://jobs.ashbyhq.com/rain/209bc01f-ff2d-4390-9f78-47bb5a08cc6c"
         },
         {
             "company": "rain",
             "title": "Product Marketing Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/a577e776-c699-4824-864d-8336f160e68d"
+            "link": "https://jobs.ashbyhq.com/rain/5acbefe6-2475-46be-88f5-9dbeeee7bb14"
         },
         {
             "company": "rain",
             "title": "Business Operations Analyst",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/b12e21e4-045a-48ca-9087-4a0136cb3a78"
+            "link": "https://jobs.ashbyhq.com/rain/1b21ce47-6d0c-427a-a2f5-3a90a6b7bc27"
         },
         {
             "company": "rain",
@@ -2296,13 +2308,13 @@
             "company": "rain",
             "title": "Revenue Operations Associate",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/08ef765a-6ae1-4597-8078-77faa656e02f"
+            "link": "https://jobs.ashbyhq.com/rain/893f46bd-cbfb-464c-b214-8adeb9535bcb"
         },
         {
             "company": "rain",
             "title": "Senior Analytics Engineer",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/1f1a07dd-caf8-4590-9c78-f3ca57acefd3"
+            "link": "https://jobs.ashbyhq.com/rain/04fee26b-04b6-495d-94e9-df95508f98d0"
         },
         {
             "company": "rain",
@@ -2314,13 +2326,13 @@
             "company": "rain",
             "title": "People Operations Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/052e69db-88e7-424d-8788-e44e1ecec1b6"
+            "link": "https://jobs.ashbyhq.com/rain/6e5050b3-a5f7-4dd8-bdbd-e55e06bbda35"
         },
         {
             "company": "rain",
             "title": "Recruiting Coordinator",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/190f8b0b-f76c-486f-afeb-0cf9b5745e13"
+            "link": "https://jobs.ashbyhq.com/rain/10af4318-5180-4ed5-9ecc-c421ffa94c2f"
         },
         {
             "company": "rain",
@@ -2332,7 +2344,7 @@
             "company": "rain",
             "title": "Senior Product Manager",
             "location": "New York, NY",
-            "link": "https://jobs.ashbyhq.com/rain/102f9e59-5d7e-4961-b456-023262d21d14"
+            "link": "https://jobs.ashbyhq.com/rain/149dccf1-fdbf-4a14-8f2c-7551fe8ba43e"
         },
         {
             "company": "kiln.fi",
@@ -2399,54 +2411,6 @@
             "title": "Senior DevOps Engineer",
             "location": "Remote",
             "link": "https://jobs.ashbyhq.com/flashbots.net/8fa82d12-baef-4f95-86af-a8354af820d8"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Business Development Lead \u2013 Payments & Fintech",
-            "location": "Remote-US",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/2cfd5005-2526-4fed-8a6b-2f0318f9e624"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Institutional Growth Lead- Greater China",
-            "location": "Hong Kong",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/bf30f9d1-0ca5-4ebd-82ba-a9be712e9a89"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Institutional Growth Lead- Japan",
-            "location": "Japan",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/46720f41-a467-4787-bba4-1838884e8af8"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Lead Software Engineer, Payments",
-            "location": "Remote-US",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/78be0a56-2bf2-4340-9eb4-fa6ae643fd58"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Senior Event Planner",
-            "location": "UAE or APAC",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/b0a21011-cb8d-42de-bc28-4fa3a623543c"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "FP&A Manager",
-            "location": "Remote-International",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/6ba022fe-e727-4e38-99be-3aeff66a3c7d"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Developer Marketing Lead",
-            "location": "Remote-International",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/f887d770-b2ff-4721-ac1a-aa8cc267aadf"
-        },
-        {
-            "company": "solanafoundation",
-            "title": "Solana Program Engineer",
-            "location": "Remote-International",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/6be29283-a2e0-48f4-b388-d06f48e240b3"
         },
         {
             "company": "paradigm.xyz",
@@ -2543,6 +2507,60 @@
             "title": "Recruiting - Paradigm Portfolio",
             "location": "Global",
             "link": "https://jobs.ashbyhq.com/paradigm/0c8f5986-2ccf-4f6a-a5ef-38cfb38ed492"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Business Development Lead \u2013 Payments & Fintech",
+            "location": "Remote-US",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/2cfd5005-2526-4fed-8a6b-2f0318f9e624"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Institutional Growth Lead- Greater China",
+            "location": "Hong Kong",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/bf30f9d1-0ca5-4ebd-82ba-a9be712e9a89"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Institutional Growth Lead- Japan",
+            "location": "Japan",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/46720f41-a467-4787-bba4-1838884e8af8"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Enterprise Education Engineer",
+            "location": "Remote-International",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/aaa57d7c-cd7c-4de5-aa16-870d458a0c47"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Lead Software Engineer, Payments",
+            "location": "Remote-US",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/78be0a56-2bf2-4340-9eb4-fa6ae643fd58"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Senior Event Planner",
+            "location": "UAE or APAC",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/b0a21011-cb8d-42de-bc28-4fa3a623543c"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "FP&A Manager",
+            "location": "Remote-International",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/6ba022fe-e727-4e38-99be-3aeff66a3c7d"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Developer Marketing Lead",
+            "location": "Remote-International",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/f887d770-b2ff-4721-ac1a-aa8cc267aadf"
+        },
+        {
+            "company": "solanafoundation",
+            "title": "Solana Program Engineer",
+            "location": "Remote-International",
+            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/6be29283-a2e0-48f4-b388-d06f48e240b3"
         },
         {
             "company": "syndica",
@@ -2745,7 +2763,7 @@
         {
             "company": "Keyrock",
             "title": "HR Operations & Payroll Specialist (Remote/Hybrid EMEA)",
-            "location": "Brussels; Paris; London; Berlin; Milan; Barcelona; Rome; Eindhoven; Amsterdam; Porto; Warsaw; Dublin; Lisbon; Madrid",
+            "location": "Brussels; Paris; London; Berlin; Milan; Barcelona; Rome; Eindhoven; Amsterdam; Porto; Warsaw; Dublin; Lisbon; Madrid; Krakow; Prague",
             "link": "https://jobs.ashbyhq.com/Keyrock/5eae04ff-5ab6-4609-befa-64ff879d6187"
         },
         {
@@ -3337,6 +3355,18 @@
             "link": "https://jobs.ashbyhq.com/magiceden/5b9e4bfc-9fd8-4c4b-9115-a280efaaa481"
         },
         {
+            "company": "magiceden",
+            "title": "Product Management Lead - iGaming",
+            "location": "Melbourne, Australia",
+            "link": "https://jobs.ashbyhq.com/magiceden/eb9481e6-c31e-41aa-9df0-7bcbdc2659f1"
+        },
+        {
+            "company": "magiceden",
+            "title": "Product Design Lead",
+            "location": "Melbourne, Australia; Asia",
+            "link": "https://jobs.ashbyhq.com/magiceden/fc1d42f8-3b5c-49c5-a36f-c5ef555a42d4"
+        },
+        {
             "company": "nethermind",
             "title": "Senior Engineer - Advanced Problem Solver - Remote, Worldwide",
             "location": "Remote",
@@ -3500,18 +3530,6 @@
         },
         {
             "company": "oplabs",
-            "title": "BD Lead, Institutions",
-            "location": "SF or NY; Relo available",
-            "link": "https://jobs.ashbyhq.com/oplabs/ac39d5bf-b7b2-4186-a84c-02eff562e5dd"
-        },
-        {
-            "company": "oplabs",
-            "title": "BD Lead, Payments",
-            "location": "SF or NY; Relo available",
-            "link": "https://jobs.ashbyhq.com/oplabs/e62916c2-71d8-4c04-a3a5-1331700e4e46"
-        },
-        {
-            "company": "oplabs",
             "title": "Engineering Manager, Platform Ecosystems",
             "location": "Remote (Global)",
             "link": "https://jobs.ashbyhq.com/oplabs/7191aed3-b6dd-4551-9b5e-eac6589baa4a"
@@ -3521,6 +3539,18 @@
             "title": "Engineering Manager, Scaling",
             "location": "Remote (Global)",
             "link": "https://jobs.ashbyhq.com/oplabs/df3e2b46-39b7-4a91-8951-614a70b6ae7f"
+        },
+        {
+            "company": "oplabs",
+            "title": "Enterprise Sales Lead, Institutions",
+            "location": "SF or NY; Relo available",
+            "link": "https://jobs.ashbyhq.com/oplabs/ac39d5bf-b7b2-4186-a84c-02eff562e5dd"
+        },
+        {
+            "company": "oplabs",
+            "title": "Enterprise Sales Lead, Payments",
+            "location": "SF or NY; Relo available",
+            "link": "https://jobs.ashbyhq.com/oplabs/e62916c2-71d8-4c04-a3a5-1331700e4e46"
         },
         {
             "company": "oplabs",
@@ -3737,12 +3767,6 @@
             "title": "Social Media Manager & Content Specialist",
             "location": "US - Remote",
             "link": "https://jobs.ashbyhq.com/Sahara/042b2056-ffeb-400e-9303-042f800c83b0"
-        },
-        {
-            "company": "symbiotic.fi",
-            "title": "Head of Business Development",
-            "location": "USA; Canada; Portugal; France; Switzerland; UK",
-            "link": "https://jobs.ashbyhq.com/Symbiotic/ba2d0b56-17d5-469c-be3b-6161c6e16f14"
         },
         {
             "company": "symbiotic.fi",
@@ -3974,6 +3998,12 @@
         },
         {
             "company": "block-labs",
+            "title": "Chief Data & AI Officer",
+            "location": "Portugal; Malta; Spain; Albania; Bosnia and Herzegovina; Bulgaria; Croatia; Greece; Ireland; Italy; Kosovo; Montenegro; Romania; Serbia",
+            "link": "https://jobs.ashbyhq.com/block-labs/8d3e6990-4c41-4b35-80a3-a335fdee9f6c"
+        },
+        {
+            "company": "block-labs",
             "title": "Head of Data Engineering",
             "location": "Portugal; Malta; Spain; Albania; Bosnia and Herzegovina; Bulgaria; Croatia; Greece; Ireland; Italy; Kosovo; Montenegro; Romania; Serbia",
             "link": "https://jobs.ashbyhq.com/block-labs/cc89f2fd-7e9f-420c-9ce1-1ff07fd816e8"
@@ -3995,12 +4025,6 @@
             "title": "Senior Backend Game Developer (Java)",
             "location": "Portugal; Malta; Spain; Albania; Bosnia and Herzegovina; Bulgaria; Croatia; Greece; Ireland; Italy; Kosovo; Montenegro; Romania; Serbia",
             "link": "https://jobs.ashbyhq.com/block-labs/b7dbba41-cbeb-4c3b-9148-ef955be6ee77"
-        },
-        {
-            "company": "block-labs",
-            "title": "Senior Frontend Engineer (React)",
-            "location": "Portugal; Malta; Spain; Albania; Bosnia and Herzegovina; Bulgaria; Greece; Ireland; Italy; Kosovo; Montenegro; Romania; Serbia; Croatia",
-            "link": "https://jobs.ashbyhq.com/block-labs/4a9e714d-bfdf-4eb6-886f-7928ebb8353a"
         },
         {
             "company": "block-labs",
@@ -4037,12 +4061,6 @@
             "title": "Frontend Engineer",
             "location": "Remote - Global",
             "link": "https://jobs.ashbyhq.com/trust-wallet/a8465bb5-2721-4c04-83aa-5500bb05b6f7"
-        },
-        {
-            "company": "trust-wallet",
-            "title": "React Native Engineer",
-            "location": "Remote - Global",
-            "link": "https://jobs.ashbyhq.com/trust-wallet/2ceca51b-5ca2-43a7-92be-51abf5dbca21"
         },
         {
             "company": "trust-wallet",
@@ -4100,6 +4118,12 @@
         },
         {
             "company": "ledger",
+            "title": "Internship - Indirect Procurement",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/43d2b650-4d08-467b-bc9a-291dbeeb9afd"
+        },
+        {
+            "company": "ledger",
             "title": "Commercial Legal Intern",
             "location": "Paris, France",
             "link": "https://jobs.ashbyhq.com/ledger/364ef579-36a4-4363-8001-0d74fb40268b"
@@ -4139,6 +4163,18 @@
             "title": "Global Logistics & Customs Manager",
             "location": "Vierzon, France",
             "link": "https://jobs.ashbyhq.com/ledger/76e1d0ba-e888-450c-a38f-65a695fae13e"
+        },
+        {
+            "company": "ledger",
+            "title": "Senior Software Architect, Blockchain & DeFi",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/165fdb38-2b82-4959-8ef7-7f986c65af45"
+        },
+        {
+            "company": "ledger",
+            "title": "Business Analyst - Internship",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/36ed912a-39b3-462c-8441-87b23c5b8aaa"
         },
         {
             "company": "ledger",
@@ -4325,6 +4361,24 @@
             "title": "Finance and Operations Associate",
             "location": "Dubai",
             "link": "https://jobs.ashbyhq.com/biconomy/9e4e0f16-45e4-44b8-934d-dd2b002081e1"
+        },
+        {
+            "company": "plasma",
+            "title": "Research Engineer",
+            "location": "London Office",
+            "link": "https://jobs.ashbyhq.com/plasma/f29c9451-fa59-423b-b9f0-353741b44099"
+        },
+        {
+            "company": "plasma",
+            "title": "Associate General Counsel",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/plasma/d9e49487-3c8a-483c-becf-3ed970afec7f"
+        },
+        {
+            "company": "plasma",
+            "title": "Financial Crime Analyst",
+            "location": "Italy",
+            "link": "https://jobs.ashbyhq.com/plasma/ec30172c-4c95-4fa0-979b-82ab82f77a2f"
         },
         {
             "company": "goldsky",
