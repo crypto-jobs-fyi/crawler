@@ -1648,6 +1648,15 @@
             "headless": true
         },
         {
+            "name": "caffeine-ai",
+            "jobs_url": "https://jobs.gem.com/caffeine-ai",
+            "scraper": "GEM",
+            "company_url": "https://caffeine.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "lumalabs.ai",
             "jobs_url": "https://jobs.gem.com/lumalabs-ai",
             "scraper": "GEM",
