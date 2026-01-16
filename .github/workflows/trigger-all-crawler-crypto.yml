@@ -31,8 +31,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run crawler-crypto-lever.yml
-
-      - name: Trigger Crawler Crypto Empty
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run crawler-crypto-empty.yml
