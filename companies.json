@@ -1621,6 +1621,15 @@
             "headless": true
         },
         {
+            "name": "hpiq",
+            "jobs_url": "https://job-boards.greenhouse.io/hpiq",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.hp-iq.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "openai",
             "jobs_url": "https://jobs.ashbyhq.com/openai",
             "scraper": "ASHBYHQ",
@@ -2849,6 +2858,15 @@
             "jobs_url": "https://jobs.ashbyhq.com/biconomy",
             "scraper": "ASHBYHQ",
             "company_url": "https://www.biconomy.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "plasma",
+            "jobs_url": "https://jobs.ashbyhq.com/plasma",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.plasma.to",
             "category": "crypto",
             "enabled": true,
             "headless": true
