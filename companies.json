@@ -100,6 +100,15 @@
             "headless": true
         },
         {
+            "name": "trading212",
+            "jobs_url": "https://jobs.ashbyhq.com/trading212",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.trading212.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "ninjatrader",
             "jobs_url": "https://job-boards.greenhouse.io/ninjatrader",
             "scraper": "GREENHOUSE",
@@ -1648,6 +1657,15 @@
             "headless": true
         },
         {
+            "name": "genspark.ai",
+            "jobs_url": "https://jobs.gem.com/genspark",
+            "scraper": "GEM",
+            "company_url": "https://www.genspark.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "caffeine-ai",
             "jobs_url": "https://jobs.gem.com/caffeine-ai",
             "scraper": "GEM",
@@ -1670,6 +1688,15 @@
             "jobs_url": "https://jobs.ashbyhq.com/GPTZero",
             "scraper": "ASHBYHQ",
             "company_url": "https://gptzero.me",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "scribe.com",
+            "jobs_url": "https://jobs.ashbyhq.com/scribe",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://scribe.com",
             "category": "ai",
             "enabled": true,
             "headless": true
