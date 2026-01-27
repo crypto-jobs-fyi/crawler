@@ -1693,6 +1693,15 @@
             "headless": true
         },
         {
+            "name": "lakera.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/lakera.ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.lakera.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "scribe.com",
             "jobs_url": "https://jobs.ashbyhq.com/scribe",
             "scraper": "ASHBYHQ",
