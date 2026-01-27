@@ -82,6 +82,15 @@
             "headless": true
         },
         {
+            "name": "paxoslabs",
+            "jobs_url": "https://jobs.ashbyhq.com/paxoslabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://paxoslabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "circle",
             "jobs_url": "https://careers.circle.com/us/en/search-results",
             "scraper": "CIRCLE",
