@@ -2233,6 +2233,15 @@
             "headless": true
         },
         {
+            "name": "baseten",
+            "jobs_url": "https://jobs.ashbyhq.com/baseten",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://baseten.co",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "encord.com",
             "jobs_url": "https://jobs.lever.co/CordTechnologies",
             "scraper": "LEVER",
