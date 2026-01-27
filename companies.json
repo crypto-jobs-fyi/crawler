@@ -118,6 +118,15 @@
             "headless": true
         },
         {
+            "name": "truelayer",
+            "jobs_url": "https://job-boards.greenhouse.io/truelayer",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://truelayer.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "ninjatrader",
             "jobs_url": "https://job-boards.greenhouse.io/ninjatrader",
             "scraper": "GREENHOUSE",
