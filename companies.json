@@ -2530,6 +2530,15 @@
             "headless": true
         },
         {
+            "name": "outtake",
+            "jobs_url": "https://jobs.ashbyhq.com/outtake",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://outtake.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "RadicalAI",
             "jobs_url": "https://jobs.lever.co/RadicalAI",
             "scraper": "LEVER",
