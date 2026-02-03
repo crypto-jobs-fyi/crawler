@@ -2,6 +2,12 @@
     "data": [
         {
             "company": "avara",
+            "title": "Staff iOS Engineer",
+            "location": "London or EU - Remote",
+            "link": "https://avara.xyz/careers/staff-ios-engineer-f7bc5336-1c9f-4583-9813-03f1501c8883"
+        },
+        {
+            "company": "avara",
             "title": "Staff DevOps Engineer",
             "location": "London or EU - Remote",
             "link": "https://avara.xyz/careers/staff-devops-engineer-247defe5-b696-48ea-a6b1-123376a4a24d"
@@ -77,12 +83,6 @@
             "title": "Quant Trader",
             "location": "Singapore",
             "link": "https://careers.kula.ai/paradigm/7483/"
-        },
-        {
-            "company": "paradigm.co",
-            "title": "BD & Country Manager - Korea",
-            "location": "Remote(Remote)",
-            "link": "https://careers.kula.ai/paradigm/7487/"
         },
         {
             "company": "paradigm.co",
@@ -177,7 +177,7 @@
         {
             "company": "coinbase",
             "title": "Fund Operations Associate (Echo)",
-            "location": "Remote - USA",
+            "location": "Remote - UK",
             "link": "https://www.coinbase.com/careers/positions/7571621"
         },
         {
@@ -213,14 +213,14 @@
         {
             "company": "coinbase",
             "title": "Associate Manager, Compliance",
-            "location": "Charlotte, NC",
-            "link": "https://www.coinbase.com/careers/positions/7530570"
+            "location": "Hyderabad, India",
+            "link": "https://www.coinbase.com/careers/positions/7309638"
         },
         {
             "company": "coinbase",
             "title": "Associate Manager, Compliance",
-            "location": "Hyderabad, India",
-            "link": "https://www.coinbase.com/careers/positions/7309638"
+            "location": "Charlotte, NC",
+            "link": "https://www.coinbase.com/careers/positions/7530570"
         },
         {
             "company": "coinbase",
@@ -261,12 +261,6 @@
         {
             "company": "coinbase",
             "title": "Complaints Quality Control Analyst III",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7407954"
-        },
-        {
-            "company": "coinbase",
-            "title": "Complaints Quality Control Analyst III",
             "location": "Dublin, Ireland",
             "link": "https://www.coinbase.com/careers/positions/7407956"
         },
@@ -278,15 +272,27 @@
         },
         {
             "company": "coinbase",
-            "title": "Concierge, Customer Success Team",
-            "location": "Charlotte, NC",
-            "link": "https://www.coinbase.com/careers/positions/7306850"
+            "title": "Complaints Quality Control Analyst III",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7407954"
         },
         {
             "company": "coinbase",
-            "title": "Consumer Content and Knowledge Operations Lead",
+            "title": "Compliance Lead Analyst",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7558580"
+            "link": "https://www.coinbase.com/careers/positions/7309500"
+        },
+        {
+            "company": "coinbase",
+            "title": "Compliance Lead Analyst",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7134498"
+        },
+        {
+            "company": "coinbase",
+            "title": "Compliance QA Analyst II",
+            "location": "Remote - India",
+            "link": "https://www.coinbase.com/careers/positions/7548256"
         },
         {
             "company": "coinbase",
@@ -315,26 +321,20 @@
         {
             "company": "coinbase",
             "title": "Customer Support Supervisor",
-            "location": "Manila, Philippines",
-            "link": "https://www.coinbase.com/careers/positions/6342576"
+            "location": "Hyderabad, India",
+            "link": "https://www.coinbase.com/careers/positions/7277767"
         },
         {
             "company": "coinbase",
             "title": "Customer Support Supervisor",
-            "location": "Hyderabad, India",
-            "link": "https://www.coinbase.com/careers/positions/7277767"
+            "location": "Manila, Philippines",
+            "link": "https://www.coinbase.com/careers/positions/6342576"
         },
         {
             "company": "coinbase",
             "title": "Customer Support Supervisor (Social Media Support)",
             "location": "Hyderabad, India",
             "link": "https://www.coinbase.com/careers/positions/7139637"
-        },
-        {
-            "company": "coinbase",
-            "title": "CX L&D Sr. Deployment Specialist",
-            "location": "Manila, Philippines",
-            "link": "https://www.coinbase.com/careers/positions/7560290"
         },
         {
             "company": "coinbase",
@@ -359,6 +359,18 @@
             "title": "Head of Social Media Support",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7523732"
+        },
+        {
+            "company": "coinbase",
+            "title": "Lead Analyst - Transaction Monitoring Compliance",
+            "location": "Remote - Singapore",
+            "link": "https://www.coinbase.com/careers/positions/7516383"
+        },
+        {
+            "company": "coinbase",
+            "title": "Lead Compliance Analyst",
+            "location": "Charlotte, NC",
+            "link": "https://www.coinbase.com/careers/positions/7579665"
         },
         {
             "company": "coinbase",
@@ -389,6 +401,12 @@
             "title": "Resolution Operations Specialist",
             "location": "Remote - Singapore",
             "link": "https://www.coinbase.com/careers/positions/7361753"
+        },
+        {
+            "company": "coinbase",
+            "title": "Screening Compliance Analyst III",
+            "location": "London, UK",
+            "link": "https://www.coinbase.com/careers/positions/7128785"
         },
         {
             "company": "coinbase",
@@ -428,9 +446,9 @@
         },
         {
             "company": "coinbase",
-            "title": "TMS Compliance Lead Analyst",
-            "location": "Remote - Singapore",
-            "link": "https://www.coinbase.com/careers/positions/7516383"
+            "title": "TMS Compliance Analyst III",
+            "location": "Hyderabad, India",
+            "link": "https://www.coinbase.com/careers/positions/6804253"
         },
         {
             "company": "coinbase",
@@ -454,13 +472,7 @@
             "company": "coinbase",
             "title": "Senior Analytics Engineer",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6884044"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Analytics Engineer",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6884049"
+            "link": "https://www.coinbase.com/careers/positions/7532597"
         },
         {
             "company": "coinbase",
@@ -472,13 +484,13 @@
             "company": "coinbase",
             "title": "Staff Analytics Engineer",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7066494"
+            "link": "https://www.coinbase.com/careers/positions/7060033"
         },
         {
             "company": "coinbase",
             "title": "Data Scientist II - Product",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5090295"
+            "link": "https://www.coinbase.com/careers/positions/7565761"
         },
         {
             "company": "coinbase",
@@ -496,19 +508,25 @@
             "company": "coinbase",
             "title": "Senior Applied Scientist - Pricing",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6260039"
+            "link": "https://www.coinbase.com/careers/positions/7580544"
         },
         {
             "company": "coinbase",
             "title": "Senior Data Scientist - Product",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5874645"
+            "link": "https://www.coinbase.com/careers/positions/7565815"
         },
         {
             "company": "coinbase",
             "title": "Staff Applied Scientist - Causal Inference",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7088358"
+            "link": "https://www.coinbase.com/careers/positions/5670626"
+        },
+        {
+            "company": "coinbase",
+            "title": "Staff Data Scientist - Product",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7580255"
         },
         {
             "company": "coinbase",
@@ -518,27 +536,21 @@
         },
         {
             "company": "coinbase",
+            "title": "Senior Product Designer, Advanced Trade",
+            "location": "Remote - Singapore",
+            "link": "https://www.coinbase.com/careers/positions/7270725"
+        },
+        {
+            "company": "coinbase",
             "title": "Senior Product Designer - Institutional",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7516155"
         },
         {
             "company": "coinbase",
-            "title": "Senior Product Designer - Payment Products",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7260900"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Product Designer - Payment Products",
+            "title": "Senior Product Designer, Staking & Earn",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7260895"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Product Designer - Platform",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7357050"
+            "link": "https://www.coinbase.com/careers/positions/7577219"
         },
         {
             "company": "coinbase",
@@ -548,93 +560,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Staff Product Designer, Advanced Trade",
+            "title": "Senior Staff Product Designer - Platform",
             "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7298946"
-        },
-        {
-            "company": "coinbase",
-            "title": "Staff Product Designer, Advanced Trade",
-            "location": "Remote - Singapore",
-            "link": "https://www.coinbase.com/careers/positions/7270725"
-        },
-        {
-            "company": "coinbase",
-            "title": "Staff Product Designer, Advanced Trade",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7270723"
-        },
-        {
-            "company": "coinbase",
-            "title": "Offensive Security Engineer, Assessments (Web3)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6995309"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Developer - Foundations)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7306817"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Developer - Foundations)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7306832"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Developer - Stablecoin Ecosystem)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7306980"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Developer - Stablecoin Payments)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7306981"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Fullstack (Developer - CDP API)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7390052"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Fullstack (Developer - Onramp)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7306991"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Fullstack (Developer - Onramp)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7306982"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Fullstack (Developer - Stablecoin Payments)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7306954"
-        },
-        {
-            "company": "coinbase",
-            "title": "Software Engineer, Backend (Developer - x402)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7306942"
-        },
-        {
-            "company": "coinbase",
-            "title": "Software Engineer, Full-stack (EAA)",
-            "location": "Remote - India",
-            "link": "https://www.coinbase.com/careers/positions/5739771"
-        },
-        {
-            "company": "coinbase",
-            "title": "AI Growth Lead (Staff Software Engineer)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7178394"
+            "link": "https://www.coinbase.com/careers/positions/7357050"
         },
         {
             "company": "coinbase",
@@ -656,15 +584,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (AI Platform - AI Acceleration)",
+            "title": "Senior Software Engineer - AI Platform (AI Acceleration)",
             "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7514433"
+            "link": "https://www.coinbase.com/careers/positions/7575167"
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (AI Platform - AI Acceleration)",
+            "title": "Senior Software Engineer - AI Platform (AI Acceleration)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7514416"
+            "link": "https://www.coinbase.com/careers/positions/7575142"
         },
         {
             "company": "coinbase",
@@ -699,14 +627,14 @@
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Backend (Consumer - Growth)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6650938"
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/6650932"
         },
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Backend (Consumer - Growth)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6650932"
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/6650938"
         },
         {
             "company": "coinbase",
@@ -734,15 +662,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend - DevX CI",
+            "title": "Senior Software Engineer, Backend - Finhub",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7071511"
+            "link": "https://www.coinbase.com/careers/positions/7255761"
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend - Financial Hub",
+            "title": "Senior Software Engineer, Backend - FinHub",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7009448"
+            "link": "https://www.coinbase.com/careers/positions/6855597"
         },
         {
             "company": "coinbase",
@@ -760,25 +688,13 @@
             "company": "coinbase",
             "title": "Senior Software Engineer, Backend (Institutional - Prime Onchain Wallet)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7469466"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Institutional - Prime Onchain Wallet)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7469480"
+            "link": "https://www.coinbase.com/careers/positions/7583437"
         },
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Backend (Institutional - Staking)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7236987"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Institutional - Staking)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7469473"
+            "link": "https://www.coinbase.com/careers/positions/7539765"
         },
         {
             "company": "coinbase",
@@ -794,24 +710,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Risk Platform)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7384803"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Blockchain Platform (Blockchain Data Processing)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7059330"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Blockchain Platform (Staking Validators)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7118768"
-        },
-        {
-            "company": "coinbase",
             "title": "Senior Software Engineer (Consumer - Growth & App Infra, Growth Foundations)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/6276169"
@@ -824,9 +722,15 @@
         },
         {
             "company": "coinbase",
+            "title": "Senior Software Engineer - Financial Hub (Transfers)",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7579121"
+        },
+        {
+            "company": "coinbase",
             "title": "Senior Staff Software Engineer, Backend (Consumer)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7339419"
+            "link": "https://www.coinbase.com/careers/positions/7565860"
         },
         {
             "company": "coinbase",
@@ -854,33 +758,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - Asset Data)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7351301"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - Asset Data)",
+            "title": "Senior Staff Software Engineer, Backend - Platform (Core Automation)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7351300"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - Core Automation)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7293131"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - FinHub)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6485609"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - FinHub)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6485619"
+            "link": "https://www.coinbase.com/careers/positions/7580292"
         },
         {
             "company": "coinbase",
@@ -890,27 +770,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - Payments)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7531034"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Software Engineer, Backend (Platform - Payments)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7531032"
-        },
-        {
-            "company": "coinbase",
             "title": "Senior Staff Software Engineer, Backend - Risk Platform",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7573405"
         },
         {
             "company": "coinbase",
-            "title": "Software Engineer, Backend - AI Tools DevX",
+            "title": "Senior Staff Software Engineer - Blockchain Platform (Asset Data)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7075311"
+            "link": "https://www.coinbase.com/careers/positions/7580176"
         },
         {
             "company": "coinbase",
@@ -923,6 +791,12 @@
             "title": "Software Engineer, Backend - Blockchain Platform (Staking Validators)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7173250"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineer, Backend - (Coinbase for Business)",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/7578498"
         },
         {
             "company": "coinbase",
@@ -958,7 +832,7 @@
             "company": "coinbase",
             "title": "Software Engineer, Backend (Consumer - International)",
             "location": "Remote - Brazil",
-            "link": "https://www.coinbase.com/careers/positions/7544383"
+            "link": "https://www.coinbase.com/careers/positions/7583999"
         },
         {
             "company": "coinbase",
@@ -994,13 +868,13 @@
             "company": "coinbase",
             "title": "Software Engineer, Backend - Financial Hub",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7009446"
+            "link": "https://www.coinbase.com/careers/positions/6855601"
         },
         {
             "company": "coinbase",
             "title": "Software Engineer, Backend (Institutional - Custody)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7554464"
+            "link": "https://www.coinbase.com/careers/positions/7247428"
         },
         {
             "company": "coinbase",
@@ -1010,9 +884,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Software Engineer, Backend (Platform - Core Automation)",
+            "title": "Software Engineer, Backend - Platform (Core Automation)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7364902"
+            "link": "https://www.coinbase.com/careers/positions/7579370"
         },
         {
             "company": "coinbase",
@@ -1025,6 +899,18 @@
             "title": "Software Engineer (EAA)",
             "location": "Remote - India",
             "link": "https://www.coinbase.com/careers/positions/6817252"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineer, Full Stack (EAA)",
+            "location": "Remote - Brazil",
+            "link": "https://www.coinbase.com/careers/positions/7584070"
+        },
+        {
+            "company": "coinbase",
+            "title": "Staff Software Engineer - AI Growth Lead",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7575042"
         },
         {
             "company": "coinbase",
@@ -1082,21 +968,21 @@
         },
         {
             "company": "coinbase",
-            "title": "Staff Software Engineer, Backend - Core Automation (Platform)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5948877"
-        },
-        {
-            "company": "coinbase",
             "title": "Staff Software Engineer, Backend - Customer Experience Team",
             "location": "Remote - India",
             "link": "https://www.coinbase.com/careers/positions/4969310"
         },
         {
             "company": "coinbase",
-            "title": "Staff Software Engineer, Backend (Institutional - Foundations)",
+            "title": "Staff Software Engineer, Backend - Financial Hub",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6628033"
+            "link": "https://www.coinbase.com/careers/positions/7482196"
+        },
+        {
+            "company": "coinbase",
+            "title": "Staff Software Engineer, Backend - Financial Hub",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/6855515"
         },
         {
             "company": "coinbase",
@@ -1106,15 +992,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Staff Software Engineer, Backend (Platform - Finhub)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6599521"
+            "title": "Staff Software Engineer, Backend (Institutional - Foundations)",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/6628033"
         },
         {
             "company": "coinbase",
-            "title": "Staff Software Engineer, Backend (Platform - Finhub)",
+            "title": "Staff Software Engineer, Backend - Platform (Core Automation)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6599511"
+            "link": "https://www.coinbase.com/careers/positions/7462710"
         },
         {
             "company": "coinbase",
@@ -1143,38 +1029,20 @@
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Data Platform",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6322902"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Data Platform",
             "location": "Remote - India",
             "link": "https://www.coinbase.com/careers/positions/7440694"
-        },
-        {
-            "company": "coinbase",
-            "title": "Staff Machine Learning Engineer - (Platform)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6410954"
-        },
-        {
-            "company": "coinbase",
-            "title": "Staff Machine Learning Engineer - (Platform)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6410953"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Frontend (Consumer - Growth)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7261976"
         },
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Frontend (Consumer - Growth)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7261961"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer, Frontend (Consumer - Growth)",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/7261976"
         },
         {
             "company": "coinbase",
@@ -1190,27 +1058,21 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Frontend - Developer Experience",
+            "title": "Senior Software Engineer, Frontend - Identity",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7071563"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Frontend - Developer Experience, Mobile",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7165070"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Frontend - Risk Platform",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7558027"
+            "link": "https://www.coinbase.com/careers/positions/7395606"
         },
         {
             "company": "coinbase",
             "title": "Senior Software Engineer, Frontend - Risk Platform",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7558031"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer, Frontend - Risk Platform",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7558027"
         },
         {
             "company": "coinbase",
@@ -1244,9 +1106,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Software Engineer, Frontend - Developer Experience",
+            "title": "Software Engineer, Frontend - Identity",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7075489"
+            "link": "https://www.coinbase.com/careers/positions/7558035"
         },
         {
             "company": "coinbase",
@@ -1274,51 +1136,51 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure Enablement",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6206391"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure Enablement",
+            "title": "Senior Engineering Manager - Data Platform",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6206378"
+            "link": "https://www.coinbase.com/careers/positions/7576130"
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure (Platform - Compute)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6157579"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure (Platform - Compute)",
+            "title": "Senior Software Engineer - Data Platform",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6157570"
+            "link": "https://www.coinbase.com/careers/positions/6683020"
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
+            "title": "Senior Software Engineer, Frontend - Developer Experience",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6196407"
+            "link": "https://www.coinbase.com/careers/positions/7576385"
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure (Platform - Datastores)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6196410"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Software Engineer, SRE",
+            "title": "Senior Software Engineer, Frontend - Developer Experience (Mobile)",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5954116"
+            "link": "https://www.coinbase.com/careers/positions/6981905"
         },
         {
             "company": "coinbase",
-            "title": "Software Engineer, Data Platform",
+            "title": "Senior Software Engineer - Infrastructure Enablement",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7392802"
+            "link": "https://www.coinbase.com/careers/positions/7576748"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer, Infrastructure - Platform Compute",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7576764"
+        },
+        {
+            "company": "coinbase",
+            "title": "Site Reliability Engineer - Platform",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7576755"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineering Manager - Cloud Provisioning",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7576813"
         },
         {
             "company": "coinbase",
@@ -1328,15 +1190,21 @@
         },
         {
             "company": "coinbase",
-            "title": "Engineering Manager (Consumer - Growth)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/5963736"
+            "title": "Engineering Manager (Consumer - Coinbase Card)",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/6375111"
         },
         {
             "company": "coinbase",
             "title": "Engineering Manager (Consumer - Growth)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7261791"
+        },
+        {
+            "company": "coinbase",
+            "title": "Engineering Manager (Consumer - Growth)",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/5963736"
         },
         {
             "company": "coinbase",
@@ -1358,30 +1226,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Engineering Manager (Institutional - Derivatives)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7462963"
-        },
-        {
-            "company": "coinbase",
-            "title": "Engineering Manager (Institutional - Derivatives)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7462997"
-        },
-        {
-            "company": "coinbase",
-            "title": "Engineering Manager (Institutional - Exchange)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7017524"
-        },
-        {
-            "company": "coinbase",
-            "title": "Engineering Manager (Institutional - Exchange)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7017481"
-        },
-        {
-            "company": "coinbase",
             "title": "Engineering Manager - Risk Platform",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7563703"
@@ -1391,30 +1235,6 @@
             "title": "Senior Engineering Manager (Consumer - Growth App & Infra)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7354172"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Engineering Manager (Data Platform)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7071623"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Engineering Manager - Finhub (Platform)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7495299"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Engineering Manager - Finhub (Platform)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7495297"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Machine Learning Engineering Manager, Risk and Fraud",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6245666"
         },
         {
             "company": "coinbase",
@@ -1433,12 +1253,6 @@
             "title": "Senior Product Manager",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7426746"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Product Manager, EAA - Finance Systems",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7404555"
         },
         {
             "company": "coinbase",
@@ -1466,12 +1280,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Software Engineer, Full Stack (EAA)",
-            "location": "Remote - Brazil",
-            "link": "https://www.coinbase.com/careers/positions/7477280"
-        },
-        {
-            "company": "coinbase",
             "title": "Sr. Technical Program Manager, Enterprise Apps",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7402016"
@@ -1481,6 +1289,12 @@
             "title": "Staff Software Engineer (EAA)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/6652022"
+        },
+        {
+            "company": "coinbase",
+            "title": "Accountant",
+            "location": "Remote - Cyprus",
+            "link": "https://www.coinbase.com/careers/positions/7559052"
         },
         {
             "company": "coinbase",
@@ -1508,6 +1322,24 @@
         },
         {
             "company": "coinbase",
+            "title": "Associate Manager, Billing Operations & Strategy",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7386397"
+        },
+        {
+            "company": "coinbase",
+            "title": "Director, Operational Risk",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7580183"
+        },
+        {
+            "company": "coinbase",
+            "title": "Expense Analyst",
+            "location": "Remote - India",
+            "link": "https://www.coinbase.com/careers/positions/7571801"
+        },
+        {
+            "company": "coinbase",
             "title": "Finance Manager",
             "location": "Hybrid - Luxembourg",
             "link": "https://www.coinbase.com/careers/positions/7550090"
@@ -1515,14 +1347,14 @@
         {
             "company": "coinbase",
             "title": "Head of SEC Reporting",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6964998"
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/6965002"
         },
         {
             "company": "coinbase",
             "title": "Head of SEC Reporting",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/6965002"
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/6964998"
         },
         {
             "company": "coinbase",
@@ -1586,6 +1418,12 @@
         },
         {
             "company": "coinbase",
+            "title": "Specialist, CDE & INTX",
+            "location": "Remote - Singapore",
+            "link": "https://www.coinbase.com/careers/positions/7571812"
+        },
+        {
+            "company": "coinbase",
             "title": "Specialist FCM",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7567873"
@@ -1595,12 +1433,6 @@
             "title": "Specialist, Prime Client Services",
             "location": "Remote - Ireland",
             "link": "https://www.coinbase.com/careers/positions/7550408"
-        },
-        {
-            "company": "coinbase",
-            "title": "Staff Accountant",
-            "location": "Remote - Cyprus",
-            "link": "https://www.coinbase.com/careers/positions/7559052"
         },
         {
             "company": "coinbase",
@@ -1619,6 +1451,12 @@
             "title": "Senior Product Manager, HR Technology",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7539707"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Program Specialist, EWX Operations",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7579002"
         },
         {
             "company": "coinbase",
@@ -1670,6 +1508,12 @@
         },
         {
             "company": "coinbase",
+            "title": "Operations Manager",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/7574405"
+        },
+        {
+            "company": "coinbase",
             "title": "Operations Senior Associate",
             "location": "Remote - UK",
             "link": "https://www.coinbase.com/careers/positions/7304704"
@@ -1701,38 +1545,32 @@
         {
             "company": "coinbase",
             "title": "Internal Audit Intern",
-            "location": "Hybrid - London, U.K.",
-            "link": "https://www.coinbase.com/careers/positions/7322939"
-        },
-        {
-            "company": "coinbase",
-            "title": "Internal Audit Intern",
             "location": "Hybrid - Luxembourg",
             "link": "https://www.coinbase.com/careers/positions/7322937"
         },
         {
             "company": "coinbase",
+            "title": "Internal Audit Intern",
+            "location": "Hybrid - London, U.K.",
+            "link": "https://www.coinbase.com/careers/positions/7322939"
+        },
+        {
+            "company": "coinbase",
             "title": "Machine Learning Engineer Intern",
-            "location": "Hybrid - San Francisco",
+            "location": "Hybrid - San Francisco, CA",
             "link": "https://www.coinbase.com/careers/positions/7294075"
         },
         {
             "company": "coinbase",
             "title": "Product Design Intern",
-            "location": "Hybrid - San Francisco",
+            "location": "Hybrid - San Francisco, CA",
             "link": "https://www.coinbase.com/careers/positions/7325051"
         },
         {
             "company": "coinbase",
             "title": "Software Engineer Intern",
-            "location": "Hybrid - San Francisco",
+            "location": "Hybrid - San Francisco, CA",
             "link": "https://www.coinbase.com/careers/positions/7268895"
-        },
-        {
-            "company": "coinbase",
-            "title": "Software Engineer Intern",
-            "location": "London, UK",
-            "link": "https://www.coinbase.com/careers/positions/7370475"
         },
         {
             "company": "coinbase",
@@ -1743,7 +1581,7 @@
         {
             "company": "coinbase",
             "title": "User Researcher Intern",
-            "location": "Hybrid - San Francisco",
+            "location": "Hybrid - San Francisco, CA",
             "link": "https://www.coinbase.com/careers/positions/7269775"
         },
         {
@@ -1785,26 +1623,20 @@
         {
             "company": "coinbase",
             "title": "Counsel, Commercial (Institutional Legal)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7543271"
+            "location": "Remote - UK",
+            "link": "https://www.coinbase.com/careers/positions/7543273"
         },
         {
             "company": "coinbase",
             "title": "Counsel, Commercial (Institutional Legal)",
-            "location": "Remote - UK",
-            "link": "https://www.coinbase.com/careers/positions/7543273"
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7573207"
         },
         {
             "company": "coinbase",
             "title": "Counsel, Marketing",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7550873"
-        },
-        {
-            "company": "coinbase",
-            "title": "International Investigations Associate",
-            "location": "Remote - UK",
-            "link": "https://www.coinbase.com/careers/positions/7380057"
         },
         {
             "company": "coinbase",
@@ -1817,12 +1649,6 @@
             "title": "Product Counsel, Financial Services & Loyalty",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7565853"
-        },
-        {
-            "company": "coinbase",
-            "title": "Program Design Manager, Compliance",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7362897"
         },
         {
             "company": "coinbase",
@@ -1841,6 +1667,12 @@
             "title": "Senior Counsel, Licensing and Crypto Products",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7565669"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Counsel, Product (Base)",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7578610"
         },
         {
             "company": "coinbase",
@@ -1874,51 +1706,39 @@
         },
         {
             "company": "coinbase",
-            "title": "U.S. Compliance Associate",
+            "title": "Machine Learning Engineer - Risk AI/ML",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7350148"
+            "link": "https://www.coinbase.com/careers/positions/7569237"
         },
         {
             "company": "coinbase",
-            "title": "Machine Learning Engineer, Risk AI/ML",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7391820"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Machine Learning Engineer, Risk AI/ML",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7391787"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Machine Learning Engineer, Risk AI/ML",
+            "title": "Senior Machine Learning Engineering Manager - Risk and Fraud",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5951315"
+            "link": "https://www.coinbase.com/careers/positions/7357865"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Machine Learning Engineer - Risk AI/ML",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7560847"
         },
         {
             "company": "coinbase",
             "title": "Senior Machine Learning Platform Engineer",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/6927161"
+            "link": "https://www.coinbase.com/careers/positions/7527185"
         },
         {
             "company": "coinbase",
-            "title": "Senior Staff Machine Learning Engineer - Risk AI/ML",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7376117"
-        },
-        {
-            "company": "coinbase",
-            "title": "Senior Staff Machine Learning Engineer - Risk AI/ML",
+            "title": "Senior Machine Learning Platform Engineer",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7360803"
+            "link": "https://www.coinbase.com/careers/positions/7484931"
         },
         {
             "company": "coinbase",
-            "title": "Senior Staff Machine Learning Engineer, Risk ML",
+            "title": "Staff Machine Learning Engineer - Risk AI/ML",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7569277"
+            "link": "https://www.coinbase.com/careers/positions/7569263"
         },
         {
             "company": "coinbase",
@@ -1952,9 +1772,21 @@
         },
         {
             "company": "coinbase",
-            "title": "Product Manager II - Foundations Client Lifecycle",
+            "title": "Product Manager II, CB1 Member Experience",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/5957205"
+            "link": "https://www.coinbase.com/careers/positions/7574956"
+        },
+        {
+            "company": "coinbase",
+            "title": "Product Manager II, DeFi Borrow",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7567991"
+        },
+        {
+            "company": "coinbase",
+            "title": "Product manager II, Defi Lend",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7545975"
         },
         {
             "company": "coinbase",
@@ -1965,14 +1797,14 @@
         {
             "company": "coinbase",
             "title": "Product Manager II - Onchain Foundations",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7411804"
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/7411808"
         },
         {
             "company": "coinbase",
             "title": "Product Manager II - Onchain Foundations",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7411808"
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7411804"
         },
         {
             "company": "coinbase",
@@ -2067,14 +1899,14 @@
         {
             "company": "coinbase",
             "title": "Senior Security Program Manager",
-            "location": "Remote - Ireland",
-            "link": "https://www.coinbase.com/careers/positions/6757034"
+            "location": "Remote - UK",
+            "link": "https://www.coinbase.com/careers/positions/7076823"
         },
         {
             "company": "coinbase",
             "title": "Senior Security Program Manager",
-            "location": "Remote - UK",
-            "link": "https://www.coinbase.com/careers/positions/7076823"
+            "location": "Remote - Ireland",
+            "link": "https://www.coinbase.com/careers/positions/6757034"
         },
         {
             "company": "coinbase",
@@ -2132,33 +1964,9 @@
         },
         {
             "company": "sygnum",
-            "title": "Compliance Manager, Sygnum Europe (Liechtenstein)",
-            "location": "Triesen, Liechtenstein",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN145"
-        },
-        {
-            "company": "sygnum",
-            "title": "Compliance Officer, Singapore",
-            "location": "Singapore, Singapore",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN167"
-        },
-        {
-            "company": "sygnum",
             "title": "Recruiter \u2013 6 months",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN182"
-        },
-        {
-            "company": "sygnum",
-            "title": "Vice President, Legal Counsel",
-            "location": "Singapore",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN183"
-        },
-        {
-            "company": "sygnum",
-            "title": "Senior Financial Crime Compliance Officer (80-100%)",
-            "location": "Zurich, Switzerland",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN186"
         },
         {
             "company": "sygnum",
@@ -2168,9 +1976,9 @@
         },
         {
             "company": "sygnum",
-            "title": "Senior Mobile Engineer (80-100%)",
+            "title": "Risk Officer (80-100%)",
             "location": "Zurich, Switzerland",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN190"
+            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN189"
         },
         {
             "company": "sygnum",
@@ -2243,6 +2051,12 @@
             "title": "Brokerage & Custody Operations - Senior Specialist",
             "location": "Singapore, Singapore",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN204"
+        },
+        {
+            "company": "sygnum",
+            "title": "Banking Operations - Internship",
+            "location": "Zurich, Switzerland",
+            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN205"
         }
     ]
 }
