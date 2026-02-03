@@ -793,15 +793,6 @@
             "headless": true
         },
         {
-            "name": "center",
-            "jobs_url": "https://jobs.ashbyhq.com/center",
-            "scraper": "ASHBYHQ",
-            "company_url": "https://center.app",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "linera.io",
             "jobs_url": "https://jobs.ashbyhq.com/linera.io",
             "scraper": "ASHBYHQ",
