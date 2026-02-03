@@ -370,15 +370,6 @@
             "headless": true
         },
         {
-            "name": "tokenmetrics",
-            "jobs_url": "https://jobs.lever.co/tokenmetrics",
-            "scraper": "LEVER",
-            "company_url": "https://www.tokenmetrics.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "offchainlabs",
             "jobs_url": "https://jobs.lever.co/offchainlabs",
             "scraper": "LEVER",
@@ -2468,8 +2459,8 @@
         },
         {
             "name": "traversal",
-            "jobs_url": "https://job-boards.greenhouse.io/traversal",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/traversal",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.traversal.com",
             "category": "ai",
             "enabled": true,
