@@ -2557,6 +2557,15 @@
             "headless": true
         },
         {
+            "name": "firecrawl",
+            "jobs_url": "https://jobs.ashbyhq.com/firecrawl",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.firecrawl.dev",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "airgarage",
             "jobs_url": "https://jobs.ashbyhq.com/airgarage",
             "scraper": "ASHBYHQ",
