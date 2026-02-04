@@ -1675,6 +1675,15 @@
             "headless": true
         },
         {
+            "name": "mimicrobotics",
+            "jobs_url": "https://jobs.gem.com/mimicrobotics-com",
+            "scraper": "GEM",
+            "company_url": "https://www.mimicrobotics.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "lumalabs.ai",
             "jobs_url": "https://jobs.gem.com/lumalabs-ai",
             "scraper": "GEM",
