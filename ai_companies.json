@@ -30,6 +30,11 @@
         "jobs_url": "https://jobs.gem.com/caffeine-ai"
     },
     {
+        "company_name": "mimicrobotics",
+        "company_url": "https://www.mimicrobotics.com",
+        "jobs_url": "https://jobs.gem.com/mimicrobotics-com"
+    },
+    {
         "company_name": "lumalabs.ai",
         "company_url": "https://lumalabs.ai",
         "jobs_url": "https://jobs.gem.com/lumalabs-ai"
@@ -208,11 +213,6 @@
         "company_name": "polyai",
         "company_url": "https://www.poly.ai",
         "jobs_url": "https://job-boards.greenhouse.io/polyai"
-    },
-    {
-        "company_name": "Cleo",
-        "company_url": "https://web.meetcleo.com",
-        "jobs_url": "https://revolutpeople.com/cleo/public/careers"
     },
     {
         "company_name": "glean",
@@ -462,7 +462,7 @@
     {
         "company_name": "traversal",
         "company_url": "https://www.traversal.com",
-        "jobs_url": "https://job-boards.greenhouse.io/traversal"
+        "jobs_url": "https://jobs.ashbyhq.com/traversal"
     },
     {
         "company_name": "netomi",
@@ -505,6 +505,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/uipath"
     },
     {
+        "company_name": "outtake",
+        "company_url": "https://outtake.ai",
+        "jobs_url": "https://jobs.ashbyhq.com/outtake"
+    },
+    {
         "company_name": "RadicalAI",
         "company_url": "https://www.radical-ai.com",
         "jobs_url": "https://jobs.lever.co/RadicalAI"
@@ -518,6 +523,11 @@
         "company_name": "retellai",
         "company_url": "https://www.retellai.com",
         "jobs_url": "https://jobs.ashbyhq.com/retell-ai"
+    },
+    {
+        "company_name": "firecrawl",
+        "company_url": "https://www.firecrawl.dev",
+        "jobs_url": "https://jobs.ashbyhq.com/firecrawl"
     },
     {
         "company_name": "airgarage",
