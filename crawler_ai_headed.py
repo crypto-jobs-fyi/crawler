@@ -1,10 +1,7 @@
-import tempfile
-
 from src.companies import Companies
 from src.crawler_runner import CrawlerRunner
 
 
-user_data_dir = tempfile.mkdtemp()  # Creates a unique temp directory
 jobs_file = 'headed_ai_jobs.json'
 current_jobs_file = 'headed_ai_current_jobs.json'
 

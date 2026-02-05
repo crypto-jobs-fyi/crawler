@@ -1,5 +1,3 @@
-import tempfile
-
 from src.companies import Companies
 from src.crawler_runner import CrawlerRunner
 
