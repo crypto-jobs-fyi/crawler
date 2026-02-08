@@ -2773,6 +2773,15 @@
             "headless": true
         },
         {
+            "name": "retool",
+            "jobs_url": "https://jobs.gem.com/retool",
+            "scraper": "GEM",
+            "company_url": "https://www.retool.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "kong",
             "jobs_url": "https://jobs.ashbyhq.com/kong",
             "scraper": "ASHBYHQ",
