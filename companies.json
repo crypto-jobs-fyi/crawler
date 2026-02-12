@@ -758,8 +758,8 @@
         },
         {
             "name": "uniswaplabs",
-            "jobs_url": "https://boards.greenhouse.io/uniswaplabs",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/uniswap",
+            "scraper": "ASHBYHQ",
             "company_url": "https://uniswap.org",
             "category": "crypto",
             "enabled": true,
