@@ -2620,6 +2620,15 @@
             "headless": true
         },
         {
+            "name": "atticus.com",
+            "jobs_url": "https://jobs.ashbyhq.com/atticus",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.atticus.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "Aven",
             "jobs_url": "https://jobs.ashbyhq.com/Aven",
             "scraper": "ASHBYHQ",
