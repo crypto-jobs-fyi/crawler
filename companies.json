@@ -2017,10 +2017,28 @@
             "headless": false
         },
         {
+            "name": "interactivebrokers",
+            "jobs_url": "https://job-boards.greenhouse.io/ibkr",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.interactivebrokers.com/en",
+            "category": "fintech",
+            "enabled": true,
+            "headless": false
+        },
+        {
             "name": "glean",
             "jobs_url": "https://job-boards.greenhouse.io/gleanwork",
             "scraper": "GREENHOUSE",
             "company_url": "https://www.glean.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "augmentcode.com",
+            "jobs_url": "https://job-boards.greenhouse.io/augmentcomputing",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.augmentcode.com",
             "category": "ai",
             "enabled": true,
             "headless": true
