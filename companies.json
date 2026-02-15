@@ -2908,6 +2908,15 @@
             "headless": true
         },
         {
+            "name": "pony.ai",
+            "jobs_url": "https://apply.workable.com/pony-dot-ai/",
+            "scraper": "WORKABLE",
+            "company_url": "https://pony.ai/?lang=en",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "request",
             "jobs_url": "https://jobs.lever.co/request",
             "scraper": "LEVER",
