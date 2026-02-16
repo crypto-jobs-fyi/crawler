@@ -1243,6 +1243,15 @@
             "headless": true
         },
         {
+            "name": "1inch",
+            "jobs_url": "https://jobs.lever.co/1inch",
+            "scraper": "LEVER",
+            "company_url": "https://1inch.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "Decentraland",
             "jobs_url": "https://jobs.lever.co/Decentraland",
             "scraper": "LEVER",
