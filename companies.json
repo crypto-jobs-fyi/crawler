@@ -1252,6 +1252,15 @@
             "headless": true
         },
         {
+            "name": "eve.legal",
+            "jobs_url": "https://jobs.lever.co/Eve",
+            "scraper": "LEVER",
+            "company_url": "https://www.eve.legal",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "Decentraland",
             "jobs_url": "https://jobs.lever.co/Decentraland",
             "scraper": "LEVER",
@@ -1311,6 +1320,15 @@
             "scraper": "GREENHOUSE",
             "company_url": "https://www.galaxy.com",
             "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "cresta",
+            "jobs_url": "https://job-boards.greenhouse.io/cresta",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://cresta.com",
+            "category": "ai",
             "enabled": true,
             "headless": true
         },
