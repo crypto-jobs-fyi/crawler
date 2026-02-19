@@ -2,6 +2,18 @@
     "data": [
         {
             "company": "quo.com",
+            "title": "Senior Backend Engineer",
+            "location": "Remote - Canada \u2022 Remote",
+            "link": "https://jobs.gem.com/quo/4570741006"
+        },
+        {
+            "company": "quo.com",
+            "title": "Senior Backend Engineer",
+            "location": "Remote - US \u2022 Remote",
+            "link": "https://jobs.gem.com/quo/4570740006"
+        },
+        {
+            "company": "quo.com",
             "title": "Senior Fullstack Engineer",
             "location": "Remote - Canada \u2022 Remote",
             "link": "https://jobs.gem.com/quo/am9icG9zdDo7KZjIkB-sOtcyR-sNh0cW"
@@ -47,12 +59,6 @@
             "title": "Senior People Partner",
             "location": "Remote - Toronto \u2022 Remote",
             "link": "https://jobs.gem.com/quo/am9icG9zdDrkIRGGKpwMJMjd665Py7Tx"
-        },
-        {
-            "company": "quo.com",
-            "title": "Senior Product Manager, Growth",
-            "location": "Remote - Canada \u2022 Remote",
-            "link": "https://jobs.gem.com/quo/am9icG9zdDoeCiUcob5d6B_82GpQViZ0"
         },
         {
             "company": "quo.com",
@@ -116,8 +122,8 @@
         },
         {
             "company": "genspark.ai",
-            "title": "Founding GTM (US)",
-            "location": "Palo Alto \u2022 In office",
+            "title": "Funding Sales Account Executive (U.S. East, Central, and West)",
+            "location": "Palo Alto \u2022 Hybrid",
             "link": "https://jobs.gem.com/genspark/am9icG9zdDqtqG8ibdezFsC4LAnQ34Hm"
         },
         {
@@ -155,42 +161,6 @@
             "title": "Talent Acquisition Consultant",
             "location": "Remote \u2022 Remote",
             "link": "https://jobs.gem.com/genspark/am9icG9zdDrKyHEFnbxniGAVG3swz4PR"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Machine Learning Engineer",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDo2DXHkz8JEjio2TKDPYp_Z"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Data Analyst \u2013 Product & Business Insights",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDogQiYw0OYSe7YAjI_LyqtL"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Senior Site Reliability Engineer",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrslFCipuV74fNN8xQKvxBC"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Senior Full Stack Engineer",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqs7bVNEmPnV10mBxzvvG9B"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Senior Full Stack Engineer \u2013 Backend Focus",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrQklClsJ8HLiIuONbirp8m"
-        },
-        {
-            "company": "caffeine-ai",
-            "title": "Senior Full Stack Engineer \u2013 Frontend Focus",
-            "location": "Zurich \u2022 Hybrid",
-            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqA1bZbULyME8wpM6lGB_Nu"
         },
         {
             "company": "mimicrobotics",
@@ -271,6 +241,42 @@
             "link": "https://jobs.gem.com/mimicrobotics-com/am9icG9zdDr9xpiXG9o4_dju33DD7LKu"
         },
         {
+            "company": "caffeine-ai",
+            "title": "Machine Learning Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDo2DXHkz8JEjio2TKDPYp_Z"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Data Analyst \u2013 Product & Business Insights",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDogQiYw0OYSe7YAjI_LyqtL"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Site Reliability Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrslFCipuV74fNN8xQKvxBC"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqs7bVNEmPnV10mBxzvvG9B"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer \u2013 Backend Focus",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDrQklClsJ8HLiIuONbirp8m"
+        },
+        {
+            "company": "caffeine-ai",
+            "title": "Senior Full Stack Engineer \u2013 Frontend Focus",
+            "location": "Zurich \u2022 Hybrid",
+            "link": "https://jobs.gem.com/caffeine-ai/am9icG9zdDqA1bZbULyME8wpM6lGB_Nu"
+        },
+        {
             "company": "lumalabs.ai",
             "title": "AI Tooling Engineer",
             "location": "Palo Alto, CA, London, UK \u2022 Hybrid",
@@ -293,54 +299,6 @@
             "title": "Research Engineer - Evaluations",
             "location": "Palo Alto, CA, London, UK \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/1dcb94f4-4163-49fd-9c89-bfd1a8a7585a"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "AI Product Engineer | Agentic Platform",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrAyAL1G9b_4IHRJnMEnCze"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Enterprise Backend Engineer",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDo1vCL9PKtHNwlXwevQIAjL"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Machine Learning Engineer | Creative Ads Optimization",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrJN5v1gBb_BnMbVcvGcJn4"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - AI Agents",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDq1A5VJ8mU-e8O8w9Pz4Idr"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Backend",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrkypffRwRIDVsa6eQTeP_y"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Backend Systems",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDqq9klyw4hQ3-DlvwCyRpWa"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Enterprise",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDohIa8a_4AY2XizKrQhebri"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Full Stack, Ad Product",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpV7rW6lfvP1kbwMvZeA7JL"
         },
         {
             "company": "lumalabs.ai",
@@ -386,18 +344,6 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Frontend Engineer | Agentic UI",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDogD9MBYTIc_uPod_32Xd7T"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Frontend UI",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDonXpwgu0VitB2iMtkmrnEA"
-        },
-        {
-            "company": "lumalabs.ai",
             "title": "Forward Deployed Creative [Germany]",
             "location": "International \u2022 In office",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDod8mj41XRXvefuVXqM-Hq2"
@@ -428,27 +374,9 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Site Reliability Engineer | AI Supercomputing",
-            "location": "Palo Alto, CA, Remote - US \u2022 Remote, Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpjN96mbO-N0LB9nmyTFhK7"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Cloud FinOps & Reliability",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrCzFKerZaaLc_U0lZru41b"
-        },
-        {
-            "company": "lumalabs.ai",
             "title": "Software Engineer - Reliability",
             "location": "Palo Alto, CA, Remote - US \u2022 Remote, Remote",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDqOhdaji2m34B3ibJdoy7Hb"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Reliability GPU Infrastructure",
-            "location": "Palo Alto, CA \u2022 Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDo65l3U9oy9AyLq1dk1Uo1G"
         },
         {
             "company": "lumalabs.ai",
@@ -503,12 +431,6 @@
             "title": "Technical Program Manager, Research",
             "location": "Palo Alto, CA, US \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpAAVUHFXZZhSGPkcFtC7DU"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Software Engineer - Test Automation & QA",
-            "location": "Palo Alto, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/ae04e9d0-bd2c-4e1a-8ddd-8527a656e1b3"
         },
         {
             "company": "lumalabs.ai",
@@ -626,20 +548,8 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Business Development Executive \u2013 Agency Partnerships",
-            "location": "New York, NY, London, UK \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/f8070d08-cce4-4013-b0f1-977358b8988b"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Business Development Executive \u2013 Brand Partnerships",
-            "location": "New York, NY, London, UK \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/d312dabd-62a5-4b80-93d3-862f1bedd63f"
-        },
-        {
-            "company": "lumalabs.ai",
             "title": "Enterprise Account Executive \u2013 Advertising",
-            "location": "Los Angeles, CA, New York, NY, London, UK \u2022 Hybrid",
+            "location": "New York, NY, Palo Alto, CA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/ddbfab66-cec8-452d-be02-e586822b25ef"
         },
         {
@@ -701,12 +611,6 @@
             "title": "Account Executive - Middle East",
             "location": "Abu Dhabi \u00b7 Dubai",
             "link": "https://careers.nebius.com/?gh_jid=4749482101"
-        },
-        {
-            "company": "nebius",
-            "title": "Advanced IT Data Center Technician",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4767600101"
         },
         {
             "company": "nebius",
@@ -861,26 +765,26 @@
         {
             "company": "nebius",
             "title": "Data Center IT Manager",
-            "location": "B\u00e9thune, Pas-de-Calais",
-            "link": "https://careers.nebius.com/?gh_jid=4752280101"
-        },
-        {
-            "company": "nebius",
-            "title": "Data Center IT Manager",
             "location": "M\u00e4nts\u00e4l\u00e4",
             "link": "https://careers.nebius.com/?gh_jid=4572809101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Manager",
-            "location": "Oklahoma",
-            "link": "https://careers.nebius.com/?gh_jid=4756680101"
+            "location": "B\u00e9thune, Pas-de-Calais",
+            "link": "https://careers.nebius.com/?gh_jid=4752280101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Manager",
             "location": "Minnesota",
             "link": "https://careers.nebius.com/?gh_jid=4752931101"
+        },
+        {
+            "company": "nebius",
+            "title": "Data Center IT Manager",
+            "location": "Oklahoma",
+            "link": "https://careers.nebius.com/?gh_jid=4756680101"
         },
         {
             "company": "nebius",
@@ -897,14 +801,14 @@
         {
             "company": "nebius",
             "title": "Data Center IT Technician",
-            "location": "B\u00e9thune, Pas-de-Calais",
-            "link": "https://careers.nebius.com/?gh_jid=4771901101"
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4767717101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Technician",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4767717101"
+            "location": "B\u00e9thune, Pas-de-Calais",
+            "link": "https://careers.nebius.com/?gh_jid=4771901101"
         },
         {
             "company": "nebius",
@@ -926,6 +830,12 @@
         },
         {
             "company": "nebius",
+            "title": "Data Center Logistics Specialist",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4752906101"
+        },
+        {
+            "company": "nebius",
             "title": "Data Center Recruiter",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4738705101"
@@ -939,14 +849,14 @@
         {
             "company": "nebius",
             "title": "Data Center Technician",
-            "location": "Philadelphia, Pennsylvania",
-            "link": "https://careers.nebius.com/?gh_jid=4554525101"
+            "location": "New Jersey",
+            "link": "https://careers.nebius.com/?gh_jid=4752751101"
         },
         {
             "company": "nebius",
             "title": "Data Center Technician",
-            "location": "New Jersey",
-            "link": "https://careers.nebius.com/?gh_jid=4752751101"
+            "location": "Philadelphia, Pennsylvania",
+            "link": "https://careers.nebius.com/?gh_jid=4554525101"
         },
         {
             "company": "nebius",
@@ -1046,12 +956,6 @@
         },
         {
             "company": "nebius",
-            "title": "Field Engineer (Hardware Delivery)",
-            "location": "Oklahoma",
-            "link": "https://careers.nebius.com/?gh_jid=4764540101"
-        },
-        {
-            "company": "nebius",
             "title": "Field Marketing Manager",
             "location": "Austin, Texas \u00b7 Dallas, Texas \u00b7 San Francisco Bay Area, California",
             "link": "https://careers.nebius.com/?gh_jid=4714202101"
@@ -1083,20 +987,14 @@
         {
             "company": "nebius",
             "title": "Field Network Engineer",
-            "location": "B\u00e9thune, Pas-de-Calais",
-            "link": "https://careers.nebius.com/?gh_jid=4769758101"
-        },
-        {
-            "company": "nebius",
-            "title": "Field Network Engineer",
             "location": "Paris",
             "link": "https://careers.nebius.com/?gh_jid=4769713101"
         },
         {
             "company": "nebius",
             "title": "Field Network Engineer",
-            "location": "New Jersey",
-            "link": "https://careers.nebius.com/?gh_jid=4554517101"
+            "location": "B\u00e9thune, Pas-de-Calais",
+            "link": "https://careers.nebius.com/?gh_jid=4769758101"
         },
         {
             "company": "nebius",
@@ -1113,6 +1011,12 @@
         {
             "company": "nebius",
             "title": "Field Network Engineer",
+            "location": "New Jersey",
+            "link": "https://careers.nebius.com/?gh_jid=4554517101"
+        },
+        {
+            "company": "nebius",
+            "title": "Field Network Engineer",
             "location": "London",
             "link": "https://careers.nebius.com/?gh_jid=4767536101"
         },
@@ -1125,20 +1029,20 @@
         {
             "company": "nebius",
             "title": "Field Technical Lead \u2013 Data Center Deployments",
-            "location": "Remote - Europe \u00b7 UK",
-            "link": "https://careers.nebius.com/?gh_jid=4767268101"
-        },
-        {
-            "company": "nebius",
-            "title": "Field Technical Lead \u2013 Data Center Deployments",
             "location": "Philadelphia, Pennsylvania",
             "link": "https://careers.nebius.com/?gh_jid=4766859101"
         },
         {
             "company": "nebius",
-            "title": "Fixed Assets Accountant",
-            "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4777980101"
+            "title": "Field Technical Lead \u2013 Data Center Deployments",
+            "location": "Remote - Europe \u00b7 UK",
+            "link": "https://careers.nebius.com/?gh_jid=4767268101"
+        },
+        {
+            "company": "nebius",
+            "title": "FP&A Modelling and Data Insights Analyst",
+            "location": "Amsterdam",
+            "link": "https://careers.nebius.com/?gh_jid=4777990101"
         },
         {
             "company": "nebius",
@@ -1154,12 +1058,6 @@
         },
         {
             "company": "nebius",
-            "title": "Global Travel, Expense & Corporate Card Program Lead",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4762974101"
-        },
-        {
-            "company": "nebius",
             "title": "GPU Cluster Architect",
             "location": "Remote - US",
             "link": "https://careers.nebius.com/?gh_jid=4657940101"
@@ -1172,9 +1070,9 @@
         },
         {
             "company": "nebius",
-            "title": "GTM Recruiter (US)",
+            "title": "GTM Recruiting Manager (North America)",
             "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4743573101"
+            "link": "https://careers.nebius.com/?gh_jid=4772297101"
         },
         {
             "company": "nebius",
@@ -1227,14 +1125,14 @@
         {
             "company": "nebius",
             "title": "Help Desk Technician (Tier 1)",
-            "location": "US",
-            "link": "https://careers.nebius.com/?gh_jid=4709953101"
+            "location": "Amsterdam",
+            "link": "https://careers.nebius.com/?gh_jid=4699726101"
         },
         {
             "company": "nebius",
             "title": "Help Desk Technician (Tier 1)",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4699726101"
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4709953101"
         },
         {
             "company": "nebius",
@@ -1265,6 +1163,12 @@
             "title": "Infrastructure Security Engineer",
             "location": "Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4537289101"
+        },
+        {
+            "company": "nebius",
+            "title": "Infrastructure Security Team Leader",
+            "location": "Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4472199101"
         },
         {
             "company": "nebius",
@@ -1311,20 +1215,32 @@
         {
             "company": "nebius",
             "title": "IT Data Center Technician",
-            "location": "Kansas City, Missouri",
-            "link": "https://careers.nebius.com/?gh_jid=4752880101"
+            "location": "Paris",
+            "link": "https://careers.nebius.com/?gh_jid=4771872101"
         },
         {
             "company": "nebius",
             "title": "IT Data Center Technician",
-            "location": "Paris",
-            "link": "https://careers.nebius.com/?gh_jid=4771872101"
+            "location": "Kansas City, Missouri",
+            "link": "https://careers.nebius.com/?gh_jid=4752880101"
         },
         {
             "company": "nebius",
             "title": "IT Infrastructure Engineer",
             "location": "M\u00e4nts\u00e4l\u00e4",
             "link": "https://careers.nebius.com/?gh_jid=4698015101"
+        },
+        {
+            "company": "nebius",
+            "title": "IT Infrastructure Engineer (East London)",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4769160101"
+        },
+        {
+            "company": "nebius",
+            "title": "IT Infrastructure Engineer (Longcross)",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4767454101"
         },
         {
             "company": "nebius",
@@ -1347,14 +1263,14 @@
         {
             "company": "nebius",
             "title": "IT Support Manager",
-            "location": "Oklahoma",
-            "link": "https://careers.nebius.com/?gh_jid=4756693101"
+            "location": "Minnesota",
+            "link": "https://careers.nebius.com/?gh_jid=4752938101"
         },
         {
             "company": "nebius",
             "title": "IT Support Manager",
-            "location": "Minnesota",
-            "link": "https://careers.nebius.com/?gh_jid=4752938101"
+            "location": "Oklahoma",
+            "link": "https://careers.nebius.com/?gh_jid=4756693101"
         },
         {
             "company": "nebius",
@@ -1382,6 +1298,18 @@
         },
         {
             "company": "nebius",
+            "title": "L2 Data Centre IT Technician (East London)",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4767586101"
+        },
+        {
+            "company": "nebius",
+            "title": "L2 IT Data Center Technician",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4767600101"
+        },
+        {
+            "company": "nebius",
             "title": "Lead Cloud Solutions Architect",
             "location": "Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4639672101"
@@ -1397,6 +1325,12 @@
             "title": "Lead Tech Recruiter (ML, LLM)",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4713622101"
+        },
+        {
+            "company": "nebius",
+            "title": "Legal Counsel",
+            "location": "Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4737674101"
         },
         {
             "company": "nebius",
@@ -1420,13 +1354,13 @@
             "company": "nebius",
             "title": "Linux Systems Administrator",
             "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4765585101"
+            "link": "https://careers.nebius.com/?gh_jid=4765595101"
         },
         {
             "company": "nebius",
             "title": "Linux Systems Administrator",
             "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4765595101"
+            "link": "https://careers.nebius.com/?gh_jid=4765585101"
         },
         {
             "company": "nebius",
@@ -1454,6 +1388,12 @@
         },
         {
             "company": "nebius",
+            "title": "OFCI Equipment Procurement Manager",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4784895101"
+        },
+        {
+            "company": "nebius",
             "title": "Onboarding Specialist (ISR)",
             "location": "Tel Aviv",
             "link": "https://careers.nebius.com/?gh_jid=4743335101"
@@ -1467,14 +1407,14 @@
         {
             "company": "nebius",
             "title": "Partner Business Development Manager - ISV",
-            "location": "Remote \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4766703101"
+            "location": "Remote - US \u00b7 San Francisco Bay Area, California",
+            "link": "https://careers.nebius.com/?gh_jid=4763927101"
         },
         {
             "company": "nebius",
             "title": "Partner Business Development Manager - ISV",
-            "location": "Remote - US \u00b7 San Francisco Bay Area, California",
-            "link": "https://careers.nebius.com/?gh_jid=4763927101"
+            "location": "Remote \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4766703101"
         },
         {
             "company": "nebius",
@@ -1485,14 +1425,14 @@
         {
             "company": "nebius",
             "title": "Partner Solutions Architect",
-            "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4776108101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4773256101"
         },
         {
             "company": "nebius",
             "title": "Partner Solutions Architect",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4773256101"
+            "location": "Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4776108101"
         },
         {
             "company": "nebius",
@@ -1517,12 +1457,6 @@
             "title": "Privacy Manager",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4751197101"
-        },
-        {
-            "company": "nebius",
-            "title": "Procurement Specialist",
-            "location": "Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4770764101"
         },
         {
             "company": "nebius",
@@ -1562,6 +1496,24 @@
         },
         {
             "company": "nebius",
+            "title": "Regional Sales Director - DACH",
+            "location": "Germany",
+            "link": "https://careers.nebius.com/?gh_jid=4776501101"
+        },
+        {
+            "company": "nebius",
+            "title": "Regional Sales Director - France",
+            "location": "France \u00b7 Paris",
+            "link": "https://careers.nebius.com/?gh_jid=4776508101"
+        },
+        {
+            "company": "nebius",
+            "title": "Regional Sales Director - UKI",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4776513101"
+        },
+        {
+            "company": "nebius",
             "title": "Regional Sales Manager \u2013 Digital AI Natives",
             "location": "San Francisco Bay Area, California",
             "link": "https://careers.nebius.com/?gh_jid=4780525101"
@@ -1589,6 +1541,12 @@
             "title": "Security Operations Engineer",
             "location": "Prague",
             "link": "https://careers.nebius.com/?gh_jid=4676877101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Accountant \u2013 Capital Projects & Lease Accounting",
+            "location": "Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4777980101"
         },
         {
             "company": "nebius",
@@ -1628,15 +1586,15 @@
         },
         {
             "company": "nebius",
-            "title": "Senior Data Center Technician",
-            "location": "New Jersey",
-            "link": "https://careers.nebius.com/?gh_jid=4752706101"
+            "title": "Senior Data Center Deployment Engineer",
+            "location": "Oklahoma",
+            "link": "https://careers.nebius.com/?gh_jid=4784782101"
         },
         {
             "company": "nebius",
-            "title": "Senior Data Centre IT Technician (East London)",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4767586101"
+            "title": "Senior Data Center Technician",
+            "location": "New Jersey",
+            "link": "https://careers.nebius.com/?gh_jid=4752706101"
         },
         {
             "company": "nebius",
@@ -1665,14 +1623,14 @@
         {
             "company": "nebius",
             "title": "Senior HPC Cluster Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4383057101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558237101"
         },
         {
             "company": "nebius",
             "title": "Senior HPC Cluster Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558237101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4383057101"
         },
         {
             "company": "nebius",
@@ -1683,38 +1641,20 @@
         {
             "company": "nebius",
             "title": "Senior Hypervisor Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4383058101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558238101"
         },
         {
             "company": "nebius",
             "title": "Senior Hypervisor Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558238101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4383058101"
         },
         {
             "company": "nebius",
             "title": "Senior IT Infrastructure Engineer",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4654412101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior IT Infrastructure Engineer (East London)",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4769160101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior IT Infrastructure Engineer (Longcross)",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4767454101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior Manager, Pipeline and BDR Operations",
-            "location": "Remote - Europe \u00b7 US",
-            "link": "https://careers.nebius.com/?gh_jid=4726112101"
         },
         {
             "company": "nebius",
@@ -1767,14 +1707,14 @@
         {
             "company": "nebius",
             "title": "Senior Network Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558240101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4528416101"
         },
         {
             "company": "nebius",
             "title": "Senior Network Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4528416101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558240101"
         },
         {
             "company": "nebius",
@@ -1815,8 +1755,8 @@
         {
             "company": "nebius",
             "title": "Senior Site Reliability Engineer",
-            "location": "Berlin \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558243101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558244101"
         },
         {
             "company": "nebius",
@@ -1827,8 +1767,8 @@
         {
             "company": "nebius",
             "title": "Senior Site Reliability Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558244101"
+            "location": "Berlin \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558243101"
         },
         {
             "company": "nebius",
@@ -1922,12 +1862,6 @@
         },
         {
             "company": "nebius",
-            "title": "Senior Talent Intelligence Partner",
-            "location": "Remote",
-            "link": "https://careers.nebius.com/?gh_jid=4773759101"
-        },
-        {
-            "company": "nebius",
             "title": "Senior Technical Product Manager, Token Factory",
             "location": "Remote \u00b7 Remote - Europe \u00b7 UK",
             "link": "https://careers.nebius.com/?gh_jid=4719724101"
@@ -1947,20 +1881,20 @@
         {
             "company": "nebius",
             "title": "Senior Technical Program Manager - New Data Center Launches",
-            "location": "Tel Aviv",
-            "link": "https://careers.nebius.com/?gh_jid=4767377101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior Technical Program Manager - New Data Center Launches",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4700444101"
         },
         {
             "company": "nebius",
-            "title": "Senior Treasury Back-Office Manager",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4764408101"
+            "title": "Senior Technical Program Manager - New Data Center Launches",
+            "location": "Tel Aviv",
+            "link": "https://careers.nebius.com/?gh_jid=4767377101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Tech Recruiter (UK/NL)",
+            "location": "Amsterdam \u00b7 London",
+            "link": "https://careers.nebius.com/?gh_jid=4715941101"
         },
         {
             "company": "nebius",
@@ -2060,6 +1994,12 @@
         },
         {
             "company": "nebius",
+            "title": "Startup Community Manager \u2013 Systems & Experiences",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4776082101"
+        },
+        {
+            "company": "nebius",
             "title": "Startup Community Manager, West Coast",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4754230101"
@@ -2126,15 +2066,15 @@
         },
         {
             "company": "nebius",
-            "title": "System Engineer (US)",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4691585101"
-        },
-        {
-            "company": "nebius",
             "title": "TA Automation Engineer",
             "location": "Remote",
             "link": "https://careers.nebius.com/?gh_jid=4773760101"
+        },
+        {
+            "company": "nebius",
+            "title": "Talent Manager",
+            "location": "Amsterdam \u00b7 London",
+            "link": "https://careers.nebius.com/?gh_jid=4763301101"
         },
         {
             "company": "nebius",
@@ -2204,6 +2144,12 @@
         },
         {
             "company": "nebius",
+            "title": "Technical Recruiter",
+            "location": "Amsterdam \u00b7 London",
+            "link": "https://careers.nebius.com/?gh_jid=4784236101"
+        },
+        {
+            "company": "nebius",
             "title": "Travel & Expenses Specialist",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4776395101"
@@ -2225,12 +2171,6 @@
             "title": "Venture Ecosystem Lead, Healthcare & Life Science",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4754224101"
-        },
-        {
-            "company": "nebius",
-            "title": "Venture Ecosystem Lead - Israel",
-            "location": "Tel Aviv",
-            "link": "https://careers.nebius.com/?gh_jid=4757081101"
         },
         {
             "company": "nebius",
@@ -2283,18 +2223,6 @@
         {
             "company": "c3.ai",
             "title": "AI Engagement Manager/Senior AI Engagement Manager",
-            "location": "Houston, TX",
-            "link": "https://c3.ai/job-description/?gh_jid=8335562002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Engagement Manager/Senior AI Engagement Manager",
-            "location": "New York City, New York",
-            "link": "https://c3.ai/job-description/?gh_jid=8335545002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Engagement Manager/Senior AI Engagement Manager",
             "location": "Munich, Germany",
             "link": "https://c3.ai/job-description/?gh_jid=8350103002"
         },
@@ -2325,8 +2253,8 @@
         {
             "company": "c3.ai",
             "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
-            "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
+            "location": "New York City, NY",
+            "link": "https://c3.ai/job-description/?gh_jid=8043691002"
         },
         {
             "company": "c3.ai",
@@ -2337,26 +2265,8 @@
         {
             "company": "c3.ai",
             "title": "AI Solution Architect/Senior AI Solution Architect (Post-Sales)",
-            "location": "New York City, NY",
-            "link": "https://c3.ai/job-description/?gh_jid=8043691002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Solution Manager/Senior AI Solution Manager",
-            "location": "New York City, New York",
-            "link": "https://c3.ai/job-description/?gh_jid=8117068002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Solution Manager/Senior AI Solution Manager",
             "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=6889513002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "AI Solution Manager/Senior AI Solution Manager",
-            "location": "London, UK",
-            "link": "https://c3.ai/job-description/?gh_jid=8350131002"
+            "link": "https://c3.ai/job-description/?gh_jid=8032528002"
         },
         {
             "company": "c3.ai",
@@ -2445,14 +2355,14 @@
         {
             "company": "c3.ai",
             "title": "Industry Solution Leader / Industry Solution Director \u2013 Asset Performance",
-            "location": "London, UK",
-            "link": "https://c3.ai/job-description/?gh_jid=8414906002"
+            "location": "Munich, Germany",
+            "link": "https://c3.ai/job-description/?gh_jid=8414870002"
         },
         {
             "company": "c3.ai",
             "title": "Industry Solution Leader / Industry Solution Director \u2013 Asset Performance",
-            "location": "Munich, Germany",
-            "link": "https://c3.ai/job-description/?gh_jid=8414870002"
+            "location": "London, UK",
+            "link": "https://c3.ai/job-description/?gh_jid=8414906002"
         },
         {
             "company": "c3.ai",
@@ -2619,14 +2529,14 @@
         {
             "company": "c3.ai",
             "title": "Senior Solution Engineer",
-            "location": "Chicago, IL; Houston, TX",
-            "link": "https://c3.ai/job-description/?gh_jid=7579919002"
+            "location": "Redwood City, CA",
+            "link": "https://c3.ai/job-description/?gh_jid=7715368002"
         },
         {
             "company": "c3.ai",
             "title": "Senior Solution Engineer",
-            "location": "Redwood City, CA",
-            "link": "https://c3.ai/job-description/?gh_jid=7715368002"
+            "location": "Chicago, IL; Houston, TX",
+            "link": "https://c3.ai/job-description/?gh_jid=7579919002"
         },
         {
             "company": "c3.ai",
@@ -2673,26 +2583,8 @@
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Guadalajara, Mexico",
-            "link": "https://c3.ai/job-description/?gh_jid=8298088002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "Solution Engineer",
-            "location": "Paris, FR",
-            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "Solution Engineer",
             "location": "Redwood City, CA",
             "link": "https://c3.ai/job-description/?gh_jid=7715372002"
-        },
-        {
-            "company": "c3.ai",
-            "title": "Solution Engineer",
-            "location": "Chicago, IL; Houston, TX; Minneapolis, MN",
-            "link": "https://c3.ai/job-description/?gh_jid=7461370002"
         },
         {
             "company": "c3.ai",
@@ -2703,14 +2595,32 @@
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
-            "location": "Amsterdam, NL",
-            "link": "https://c3.ai/job-description/?gh_jid=7906045002"
+            "location": "Chicago, IL; Houston, TX; Minneapolis, MN",
+            "link": "https://c3.ai/job-description/?gh_jid=7461370002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Solution Engineer",
+            "location": "Paris, FR",
+            "link": "https://c3.ai/job-description/?gh_jid=7714375002"
         },
         {
             "company": "c3.ai",
             "title": "Solution Engineer",
             "location": "New York, New York",
             "link": "https://c3.ai/job-description/?gh_jid=8074875002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Solution Engineer",
+            "location": "Amsterdam, NL",
+            "link": "https://c3.ai/job-description/?gh_jid=7906045002"
+        },
+        {
+            "company": "c3.ai",
+            "title": "Solution Engineer",
+            "location": "Guadalajara, Mexico",
+            "link": "https://c3.ai/job-description/?gh_jid=8298088002"
         },
         {
             "company": "c3.ai",
@@ -3128,6 +3038,12 @@
         },
         {
             "company": "applied_intuition",
+            "title": "Logistics Manager",
+            "location": "Sunnyvale, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4663600005?gh_jid=4663600005"
+        },
+        {
+            "company": "applied_intuition",
             "title": "Procurement Analyst",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4643218005?gh_jid=4643218005"
@@ -3161,18 +3077,6 @@
             "title": "People Business Partner (HRBP)",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4363228005?gh_jid=4363228005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "People Operations Generalist",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4313674005?gh_jid=4313674005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Program Manager - People Operations",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4619378005?gh_jid=4619378005"
         },
         {
             "company": "applied_intuition",
@@ -3350,6 +3254,12 @@
         },
         {
             "company": "applied_intuition",
+            "title": "Engineering Manager - ML Platform and Infrastructure",
+            "location": "Sunnyvale, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4663863005?gh_jid=4663863005"
+        },
+        {
+            "company": "applied_intuition",
             "title": "Engineering Manager - Neural Simulation",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4528451005?gh_jid=4528451005"
@@ -3392,12 +3302,6 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Software Engineer",
-            "location": "Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4608636005?gh_jid=4608636005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Staff Software Engineer",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4403795005?gh_jid=4403795005"
@@ -3410,27 +3314,15 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Collaborative Autonomy Engineer - Cross Domain",
-            "location": "Ann Arbor, Michigan, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605519005?gh_jid=4605519005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Collaborative Autonomy Engineer - Cross Domain",
-            "location": "San Diego, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605520005?gh_jid=4605520005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Collaborative Autonomy Engineer - Cross Domain",
-            "location": "Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4525976005?gh_jid=4525976005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Defense Software Engineer",
             "location": "Washington, District of Columbia, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4151747005?gh_jid=4151747005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Director of Deployed Operations",
+            "location": "Remote",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4655078005?gh_jid=4655078005"
         },
         {
             "company": "applied_intuition",
@@ -3443,18 +3335,6 @@
             "title": "Information Systems Security Engineer (ISSE)",
             "location": "Fort Walton Beach, Florida, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4613447005?gh_jid=4613447005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Missions Software Engineer (Client Facing)",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4642796005?gh_jid=4642796005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Missions Software Engineer (Client Facing)",
-            "location": "Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4623316005?gh_jid=4623316005"
         },
         {
             "company": "applied_intuition",
@@ -3479,18 +3359,6 @@
             "title": "Perception Engineer",
             "location": "Washington, District of Columbia, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4625681005?gh_jid=4625681005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Product Manager - Small Unmanned Vehicle Autonomy",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4544101005?gh_jid=4544101005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Product Manager - Small Unmanned Vehicle Autonomy",
-            "location": "Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605528005?gh_jid=4605528005"
         },
         {
             "company": "applied_intuition",
@@ -3524,12 +3392,6 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Robotic Systems & Integration Engineer",
-            "location": "San Diego, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4595411005?gh_jid=4595411005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Senior Autonomy Engineer",
             "location": "London, England, UK",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4633767005?gh_jid=4633767005"
@@ -3542,39 +3404,9 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Senior Software Engineer (Electronic Warfare)",
-            "location": "San Diego, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4556865005?gh_jid=4556865005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Senior Software Engineer (Electronic Warfare)",
-            "location": "Tucson, Arizona, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4605706005?gh_jid=4605706005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Software Engineer",
             "location": "London, England, UK",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4633764005?gh_jid=4633764005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Software Engineer (Client Facing) - Defense Autonomy",
-            "location": "Ann Arbor, Michigan, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4642797005?gh_jid=4642797005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Software Engineer (Client Facing) - Defense Autonomy",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4622889005?gh_jid=4622889005"
-        },
-        {
-            "company": "applied_intuition",
-            "title": "Software Engineer (Client Facing) - Defense Autonomy",
-            "location": "Washington, District of Columbia, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4642798005?gh_jid=4642798005"
         },
         {
             "company": "applied_intuition",
@@ -3650,12 +3482,6 @@
         },
         {
             "company": "applied_intuition",
-            "title": "Product Manager - RF and Electronic Warfare",
-            "location": "Sunnyvale, California, US",
-            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4543655005?gh_jid=4543655005"
-        },
-        {
-            "company": "applied_intuition",
             "title": "Senior Product Manager - Autonomy",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4552535005?gh_jid=4552535005"
@@ -3701,6 +3527,12 @@
             "title": "Security Engineer (GRC)",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4607788005?gh_jid=4607788005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Product Manager - Mining",
+            "location": "Sunnyvale, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4659647005?gh_jid=4659647005"
         },
         {
             "company": "applied_intuition",
@@ -3797,6 +3629,12 @@
             "title": "Senior Software Engineer - Backend Remote Assistance",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4588188005?gh_jid=4588188005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Senior Software Engineer - Fallback Stack",
+            "location": "Sunnyvale, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4663548005?gh_jid=4663548005"
         },
         {
             "company": "applied_intuition",
@@ -3971,6 +3809,12 @@
             "title": "Product Manager - Vehicle OS",
             "location": "Sunnyvale, California, US",
             "link": "https://boards.greenhouse.io/appliedintuition/jobs/4428064005?gh_jid=4428064005"
+        },
+        {
+            "company": "applied_intuition",
+            "title": "Project Manager, Engineering Ops",
+            "location": "Sunnyvale, California, US",
+            "link": "https://boards.greenhouse.io/appliedintuition/jobs/4661670005?gh_jid=4661670005"
         },
         {
             "company": "applied_intuition",
@@ -4232,6 +4076,24 @@
         },
         {
             "company": "constructor",
+            "title": "Mid-Market Account Executive",
+            "location": "Remote",
+            "link": "https://apply.workable.com/constructor-1/j/EB1989DFC8/"
+        },
+        {
+            "company": "constructor",
+            "title": "Product Designer: Customer Activation (Remote)",
+            "location": "Remote",
+            "link": "https://apply.workable.com/constructor-1/j/9951438A60/"
+        },
+        {
+            "company": "constructor",
+            "title": "Backend Engineer: Search Features & APIs (Remote)",
+            "location": "Remote",
+            "link": "https://apply.workable.com/constructor-1/j/A06E3B6BF1/"
+        },
+        {
+            "company": "constructor",
             "title": "Revenue Enablement Manager",
             "location": "Remote",
             "link": "https://apply.workable.com/constructor-1/j/332FF2E782/"
@@ -4412,7 +4274,7 @@
         },
         {
             "company": "constructor",
-            "title": "Senior Product Manager - Search Quality and Query Interpretation",
+            "title": "Senior Product Manager - Search Quality and Query Interpretation (Remote)",
             "location": "Remote",
             "link": "https://apply.workable.com/constructor-1/j/500581A7B5/"
         },
