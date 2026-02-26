@@ -2863,6 +2863,15 @@
             "headless": true
         },
         {
+            "name": "shiftkey",
+            "jobs_url": "https://jobs.ashbyhq.com/ShiftKey",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.shiftkey.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "vcluster",
             "jobs_url": "https://jobs.ashbyhq.com/vcluster",
             "scraper": "ASHBYHQ",
