@@ -2944,6 +2944,15 @@
             "headless": true
         },
         {
+            "name": "yugabyte",
+            "jobs_url": "https://job-boards.greenhouse.io/yugabyte",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.yugabyte.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "frontify",
             "jobs_url": "https://jobs.lever.co/frontify",
             "scraper": "LEVER",
