@@ -2800,6 +2800,15 @@
             "headless": true
         },
         {
+            "name": "swingdev",
+            "jobs_url": "https://jobs.lever.co/swingdev",
+            "scraper": "LEVER",
+            "company_url": "https://www.swing.dev",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "capital",
             "jobs_url": "https://jobs.lever.co/capital",
             "scraper": "LEVER",
