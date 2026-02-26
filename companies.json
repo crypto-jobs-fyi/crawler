@@ -2764,6 +2764,15 @@
             "headless": true
         },
         {
+            "name": "capitalontap",
+            "jobs_url": "https://job-boards.greenhouse.io/capitalontap",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.capitalontap.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "clearstreet",
             "jobs_url": "https://job-boards.greenhouse.io/clearstreet",
             "scraper": "GREENHOUSE",
