@@ -2629,6 +2629,15 @@
             "headless": true
         },
         {
+            "name": "v7labs",
+            "jobs_url": "https://jobs.ashbyhq.com/v7labs.com",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.v7labs.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "airgarage",
             "jobs_url": "https://jobs.ashbyhq.com/airgarage",
             "scraper": "ASHBYHQ",
