@@ -15,6 +15,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/kong"
     },
     {
+        "company_name": "shiftkey",
+        "company_url": "https://www.shiftkey.com",
+        "jobs_url": "https://jobs.ashbyhq.com/ShiftKey"
+    },
+    {
         "company_name": "vcluster",
         "company_url": "https://www.vcluster.com",
         "jobs_url": "https://jobs.ashbyhq.com/vcluster"
@@ -48,6 +53,11 @@
         "company_name": "vercel",
         "company_url": "https://vercel.com",
         "jobs_url": "https://job-boards.greenhouse.io/vercel"
+    },
+    {
+        "company_name": "yugabyte",
+        "company_url": "https://www.yugabyte.com",
+        "jobs_url": "https://job-boards.greenhouse.io/yugabyte"
     },
     {
         "company_name": "frontify",
