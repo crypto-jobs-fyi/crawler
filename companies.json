@@ -2629,6 +2629,15 @@
             "headless": true
         },
         {
+            "name": "granola.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/granola",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.granola.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "v7labs",
             "jobs_url": "https://jobs.ashbyhq.com/v7labs.com",
             "scraper": "ASHBYHQ",
