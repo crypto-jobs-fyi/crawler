@@ -452,12 +452,6 @@
         },
         {
             "company": "mistral",
-            "title": "Software Engineer, New Grad",
-            "location": "PARIS,ON-SITE",
-            "link": "https://jobs.lever.co/mistral/cf4616fc-977a-475c-bb2e-eb46a2c4a94f"
-        },
-        {
-            "company": "mistral",
             "title": "Software Engineer, QA",
             "location": "PARIS,HYBRID",
             "link": "https://jobs.lever.co/mistral/03918386-cb56-4e4d-afa8-1f8b7676a4a6"
@@ -581,6 +575,12 @@
             "title": "HR People Ops EMEA (Internship)",
             "location": "PARIS,HYBRID",
             "link": "https://jobs.lever.co/mistral/d0a88d6f-266f-45d1-a93e-e4633186f404"
+        },
+        {
+            "company": "mistral",
+            "title": "Internal Event Manager - Paris (freelance)",
+            "location": "PARIS,ON-SITE",
+            "link": "https://jobs.lever.co/mistral/ec338048-72e7-4e12-9fa4-c4ac14ffb5a8"
         },
         {
             "company": "mistral",
@@ -879,7 +879,7 @@
         {
             "company": "mistral",
             "title": "Applied AI Engineer, Fullstack Software Engineer - EMEA",
-            "location": "PARIS / MARSEILLE / LONDON / LUXEMBOURG / LAUSANNE,HYBRID",
+            "location": "PARIS / MARSEILLE / LONDON / LUXEMBOURG / LAUSANNE / AMSTERDAM,HYBRID",
             "link": "https://jobs.lever.co/mistral/aceffeba-c4e9-4b3b-adff-e7e78b986c5c"
         },
         {
@@ -1058,6 +1058,12 @@
         },
         {
             "company": "palantir",
+            "title": "Forward Deployed Security Engineer - US Government",
+            "location": "WASHINGTON, D.C.,ON-SITE",
+            "link": "https://jobs.lever.co/palantir/22053072-4c22-49c4-8299-28e107ceeb98"
+        },
+        {
+            "company": "palantir",
             "title": "Information Systems Security Manager",
             "location": "NEW YORK, NY,ON-SITE",
             "link": "https://jobs.lever.co/palantir/7e29b1cc-7f0d-4b12-b66c-4a2e56738d7e"
@@ -1073,12 +1079,6 @@
             "title": "Neurodivergent Fellowship",
             "location": "WASHINGTON, D.C.,ON-SITE",
             "link": "https://jobs.lever.co/palantir/fd952b52-7b9c-4056-a3dd-0bc41fcfe603"
-        },
-        {
-            "company": "palantir",
-            "title": "Communications Strategist",
-            "location": "LONDON, UK,HYBRID",
-            "link": "https://jobs.lever.co/palantir/08f79c0f-fab1-4fe2-a80e-11cf83e8d084"
         },
         {
             "company": "palantir",
@@ -2462,12 +2462,6 @@
         },
         {
             "company": "rivr",
-            "title": "AI Intern \u2013 Vision-Language-Action (VLA)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/e6e9d9d5-a516-4458-92b3-481c93504ce1"
-        },
-        {
-            "company": "rivr",
             "title": "Senior AI Engineer - VLA Foundation Model",
             "location": "Z\u00dcRICH,ON-SITE",
             "link": "https://jobs.lever.co/rivr/522bc963-969f-4816-bdee-8771b85247cf"
@@ -2738,6 +2732,12 @@
         },
         {
             "company": "anybotics",
+            "title": "Synthetic Visual Data Engineer (Simulation & Domain Randomization)",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/691d6ffa-cd91-4fbb-afdb-dd8cdaf4ccea"
+        },
+        {
+            "company": "anybotics",
             "title": "Sensor Software Engineer",
             "location": "ZURICH, SWITZERLAND,HYBRID",
             "link": "https://jobs.lever.co/anybotics/c0a06aa5-9e6c-424d-8964-469da0d6704b"
@@ -2761,6 +2761,1032 @@
             "link": "https://jobs.lever.co/anybotics/88b892b8-4340-47dc-9b0b-0fc4d375b342"
         },
         {
+            "company": "anybotics",
+            "title": "Verification Engineering Internship",
+            "location": "ZURICH, SWITZERLAND,ON-SITE",
+            "link": "https://jobs.lever.co/anybotics/96b95d2e-e791-450a-969b-5c98e57cfb66"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Back-End Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/ff504425-cbe8-4d51-a5ab-9a4ae563192e"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Full-Stack Engineer (Front-End Leaning)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/b683d54a-53e5-4683-959a-817e8f73e0e3"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Software Engineer - (Graduate)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/8c1f2a94-c28a-4ecd-8051-eb6f8fdb5fcb"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Software Engineer - (Graduate)",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/c9e9091c-2e89-4cbf-9fc6-982e39f10348"
+        },
+        {
+            "company": "encord.com",
+            "title": "Backend Software Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/2c159b3f-1dd1-4fbd-94a8-42600906b559"
+        },
+        {
+            "company": "encord.com",
+            "title": "DBA/ Senior Storage Infra Engineer",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/110f2bd6-1bf4-4051-b48e-8afa67780779"
+        },
+        {
+            "company": "encord.com",
+            "title": "Engineering Lead",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/fe15af72-ccea-4b5e-98a8-a526aa230c05"
+        },
+        {
+            "company": "encord.com",
+            "title": "Former Technical Founders",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/f37c4063-1d3a-481d-a452-fd9cae373e11"
+        },
+        {
+            "company": "encord.com",
+            "title": "Former Technical Founders",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/17ea1c38-5da5-4a45-90ed-216bcd88d79c"
+        },
+        {
+            "company": "encord.com",
+            "title": "Forward Deployed Engineer",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/2bd55aa3-e95a-45db-8e35-66db70e77528"
+        },
+        {
+            "company": "encord.com",
+            "title": "Forward Deployed Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/2e207b48-9076-4e27-bc1a-36c7290c5dfe"
+        },
+        {
+            "company": "encord.com",
+            "title": "Full-Stack Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/f1daa229-4733-45ac-a28e-f65852b195d4"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Full-Stack Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/f7322550-98ae-4011-bdca-57d12a3a3f01"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Full-Stack Engineer - Physical AI",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/5f555bdd-c66d-4ad1-ad00-6ce2efdc4251"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Full-Stack Engineer - Physical AI",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/86c5e3f6-4c66-4aae-a188-8a80f9c36fca"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Full-Stack Engineer (Front-End Leaning)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/e337c4af-65ad-4e10-a453-5d90ecfbe415"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Software Engineer - (Full-Stack )",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/f3736d98-bf7a-4a95-b145-c7cfbe41e64a"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Software Engineer (Infrastructure)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/d7aa4aba-fc4b-410b-98dd-73e3f0c01647"
+        },
+        {
+            "company": "encord.com",
+            "title": "Software Engineer - (Full-Stack)",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/1ca5a094-cc96-4247-b638-942ae4179e1a"
+        },
+        {
+            "company": "encord.com",
+            "title": "AI/ML Developer Evangelist",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/a31ef98d-c2fa-427e-b092-46dfc7b1cfc0"
+        },
+        {
+            "company": "encord.com",
+            "title": "AI/ML Developer Relations - US (San Francisco)",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/6d2bc255-d3c0-4543-9c82-179e0feb6d67"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Solutions Engineer",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/cae06ee9-b25f-4588-94c5-581861ba7c26"
+        },
+        {
+            "company": "encord.com",
+            "title": "Developer Advocate AI/ML",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/714b6985-69a0-414b-b766-ef6da0a3564e"
+        },
+        {
+            "company": "encord.com",
+            "title": "Developer Relations Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/204baf28-0f08-4f03-9b62-d4b44b541d64"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Manager",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/257dc7c0-9c73-4e2e-840f-59e21ca9d63b"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Manager",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/98c21bb3-6ce6-41b3-9941-416edfceb0be"
+        },
+        {
+            "company": "encord.com",
+            "title": "Revenue Operations Analyst",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/30b78b12-a26e-45ae-be76-050e5ae538b9"
+        },
+        {
+            "company": "encord.com",
+            "title": "Solutions Engineer",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/13528d86-c569-4351-ad5b-90e12f4ada00"
+        },
+        {
+            "company": "encord.com",
+            "title": "Solutions Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/3ab16807-aede-472d-b807-30229f8dcef2"
+        },
+        {
+            "company": "encord.com",
+            "title": "Solutions Engineer, Autonomous Vehicles & Robotics",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/efb26bbb-5729-457f-95ec-253e58df9618"
+        },
+        {
+            "company": "encord.com",
+            "title": "Field Marketing Manager, Growth",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/b350d648-f722-4013-a776-99e95b04cdd0"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Associate, Community",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/c06aaeab-63f7-4133-b703-0c78b0d3f177"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Associate, Community",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/f45656de-bf89-464b-be89-91145a528a4f"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Engineer",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/c385a814-1c7d-4d22-8af0-d32f833131ba"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Strategy Operations Analyst",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/edfa044b-3202-4fb2-ac4e-a5e09f080c79"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Strategy Operations Analyst",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/137e30c2-0708-4678-ac33-fc945d014ec2"
+        },
+        {
+            "company": "encord.com",
+            "title": "Head of Content",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/46f907d6-543e-45e3-a687-0853803b050d"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Product Marketing Manager",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/d2233465-794b-44ae-a54d-a50f899dca8c"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Product Marketing Manager",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/63646737-bad2-48d8-a97e-9ae0f5589ebf"
+        },
+        {
+            "company": "encord.com",
+            "title": "Technical Content Lead",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/b8b5206d-c9d1-4ade-b4d1-73f482487f9a"
+        },
+        {
+            "company": "encord.com",
+            "title": "AI Project Manager",
+            "location": "INDIA,REMOTE",
+            "link": "https://jobs.lever.co/CordTechnologies/8f746ad8-7650-46bc-a52d-b71af334d100"
+        },
+        {
+            "company": "encord.com",
+            "title": "Founder's Associate",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/8abf7347-10f5-4646-8370-970946ebffd1"
+        },
+        {
+            "company": "encord.com",
+            "title": "Human Data Operations Strategist",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/985f8db0-13c8-45a2-a7ee-4a25b8306527"
+        },
+        {
+            "company": "encord.com",
+            "title": "GTM Talent Partner",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/529dcadb-c1ca-44f7-ad8e-22b7672421d3"
+        },
+        {
+            "company": "encord.com",
+            "title": "Operations and People Associate",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/5adca8f3-e054-478d-81df-a1374935e33a"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Product Manager",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/a91b93f3-7340-42e0-8231-1915c05d79f1"
+        },
+        {
+            "company": "encord.com",
+            "title": "Associate Product Manager - Physical AI",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/e825da89-cfc1-4e27-a653-af4a0b266dfd"
+        },
+        {
+            "company": "encord.com",
+            "title": "Client-Facing Engineer",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/7ab53ceb-6067-42d5-b23b-ca0d60162557"
+        },
+        {
+            "company": "encord.com",
+            "title": "Client-Facing Engineer",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/dbbab14a-22e5-4129-a229-fefd04101ba0"
+        },
+        {
+            "company": "encord.com",
+            "title": "Customer Support Engineer",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/3edf4b66-feef-4746-856f-57cca429fb51"
+        },
+        {
+            "company": "encord.com",
+            "title": "Filmmaker",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/1f5fedff-4ccd-44f1-8e01-abf4f4fe1e23"
+        },
+        {
+            "company": "encord.com",
+            "title": "Senior Product Designer",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/0e4ae981-5e23-462d-b2bb-1b2b6bdff6af"
+        },
+        {
+            "company": "encord.com",
+            "title": "Account Executive, Core",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/78ccacfa-6aff-4658-a370-065dbae1d508"
+        },
+        {
+            "company": "encord.com",
+            "title": "Account Executive, Core",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/e8549e64-8ef9-4620-8768-45baa36965d8"
+        },
+        {
+            "company": "encord.com",
+            "title": "Account Executive, Physical AI",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/28542f39-196e-44c6-9a2c-0a169a543f28"
+        },
+        {
+            "company": "encord.com",
+            "title": "Account Manager",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/41ba1c0a-dba3-4e41-a30e-6343c858e5d9"
+        },
+        {
+            "company": "encord.com",
+            "title": "Business Development Manager",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/e3b5834c-e4f7-411f-84cf-5837f2ceb58b"
+        },
+        {
+            "company": "encord.com",
+            "title": "Business Development Manager",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/c7b71eaf-d273-474f-b8cb-63b40a7d7287"
+        },
+        {
+            "company": "encord.com",
+            "title": "Business Development Representative - UK (London)",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/1f4f1186-cd98-47a9-b4e4-35e1031f427b"
+        },
+        {
+            "company": "encord.com",
+            "title": "Commercial Associate - UK (London)",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/8a6252a5-ee52-4ac1-a05d-75e9a4e31fdf"
+        },
+        {
+            "company": "encord.com",
+            "title": "Commercial Associate, Core",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/ebaeecf7-7fad-41d6-89bc-93dab02837fa"
+        },
+        {
+            "company": "encord.com",
+            "title": "Customer Success Associate",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/b0ba0d50-0032-4131-b595-4926f9123df6"
+        },
+        {
+            "company": "encord.com",
+            "title": "Customer Success Associate",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/b50d32d7-ca2c-455b-840a-ebc324f3fd1f"
+        },
+        {
+            "company": "encord.com",
+            "title": "Deployment Strategist",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/9e0505e2-5eff-419e-b996-304154599fda"
+        },
+        {
+            "company": "encord.com",
+            "title": "Deployment Strategist",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/27fb8eda-e13c-4063-b548-07d825e6e99a"
+        },
+        {
+            "company": "encord.com",
+            "title": "Founding Sales (Physical AI)",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/acb82c9f-fdcd-461c-b1e5-6c4b0c3c9e59"
+        },
+        {
+            "company": "encord.com",
+            "title": "Sales Director - US (San Francisco)",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/88d5c558-92c7-40f1-84e4-fc39c0260b40"
+        },
+        {
+            "company": "encord.com",
+            "title": "Sales Lead",
+            "location": "SAN FRANCISCO,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/354ef40e-cda3-4a29-be8b-073fd26154d9"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Junior Project Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/727dd312-57df-47fd-bd2b-bde372896333"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Cybersecurity Analyst",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/40bbbc17-f021-4b67-b1a5-0ce9c4f9a03a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Cybersecurity Analyst",
+            "location": "WARSAW,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/38e723a1-2d9a-43f0-b63f-5ba335a90197"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Partnerships Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/4427054d-2765-45ed-866c-8f6b2206edc5"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Business Development Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/48fc8c4a-e2f1-4646-8c75-9a604bd318e4"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Head of Customer Experience",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/e800278d-fbf2-4e94-875e-5b780b15087b"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Technical Customer Success Specialist (Night shift)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/9ea7c97d-4353-4c3e-94bd-f9e857b886fe"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Technical Product Specialist",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/c73cd1c7-1de9-40eb-8a96-50d2b75ecd44"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Data Analyst",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/2634f4e7-c66e-43d9-bc63-75c04639a3f3"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Python Developer (Junior-Mid)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/5b690148-7506-4d5d-a7db-dae6b776150a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Python Developer (Mid-Senior)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/4abd4967-2901-48b6-be3d-9498c53a7938"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Full Stack Developer (JS, Node.js)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/81f1b3a3-b17a-446f-a60e-d1de964fd10e"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Backend Engineer (Node.js)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/134059d7-36bb-490a-9d15-93bfc5d8e76a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Full Stack Developer (JS, Node.js)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/9e9b321d-1789-47e4-8d0d-7eb9583c52dc"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Mid PHP Developer",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/f621c630-d2ec-4381-8dcf-4e26bd4b7f72"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Mid-Senior Frontend Developer",
+            "location": "VILNIUS/KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/fa015132-52ab-4bf4-a59e-1fb2e9dea48a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Experienced Web Scraping Engineer - Python",
+            "location": "POLAND,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/c3c11668-457f-40a7-9938-ddc1e58814a1"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Golang Developer (Senior)",
+            "location": "VILNIUS/KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/b794aaec-6746-4b81-9e10-dbcddd7fa863"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Web Scraping Engineer - Python",
+            "location": "VILNIUS/KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/d8a52ea9-d85f-45e5-b23a-eaf94254c121"
+        },
+        {
+            "company": "oxylabs",
+            "title": "PHP/Go Developer (Mid-Senior)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/9a917404-a07d-4aba-bf30-ba0a89cf1af1"
+        },
+        {
+            "company": "oxylabs",
+            "title": "PHP/Go Developer (Mid-Senior)",
+            "location": "KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/f23c2215-0ec8-4357-b215-127f5bd35f62"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Frontend Engineer (Webshare product)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/f54249f9-b99d-42ff-8347-366d6db4e420"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Product Engineer (Webshare)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/9bd6757e-7b37-4ddd-a6dc-efdd6e9cbb77"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Python Engineer (Webshare product)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/59a24364-ace1-43ba-9de1-342d29460b15"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Accountant",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/4c567d5d-b340-4235-8ccd-78bc7d98eef9"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Legal Director",
+            "location": "VILNIUS,ON-SITE",
+            "link": "https://jobs.lever.co/oxylabs/38ec8557-1b09-464a-b80d-771d3fd89f22"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Litigation Counsel (Mid/Senior)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/63a99f91-b7ee-4b14-a385-66d6bb13e123"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Copywriter",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/ded70a40-d4c5-4dab-9037-3da9342ebbf9"
+        },
+        {
+            "company": "oxylabs",
+            "title": "PPC Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/816f3c5e-06bb-473d-b297-67df2741d693"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Product Marketing Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/37325160-9b00-4d2f-a8e8-cfb5eea68915"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior PR Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/542504a1-f148-4d36-8f47-17ec697d9c47"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Digital Marketing Delivery Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/24f1b752-c3bd-4b60-9e08-d71cbf52e5e0"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Product Manager",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/98aa6af8-b806-4e7c-a0dc-dc14600a4ebc"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Product Manager (Self-Service & Commerce)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/87a299b6-6c96-4da9-a799-2b5d24a1e58d"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Senior Solutions Engineer",
+            "location": "HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/fa7857cb-d2de-4fca-92dc-84edda25d717"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Solutions Engineer (Hong Kong)",
+            "location": "HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/84c059f3-d39c-4b92-8cef-4fd837ac79eb"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Solutions Engineer (Taiwan)",
+            "location": "TAIWAN,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/c1df747f-2b57-4142-a614-3083452a3f12"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Account Manager (Junior/Mid)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/30266e7e-5d50-47cc-9d93-e6f030d6df15"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Business Development Manager (China)",
+            "location": "SHANGHAI,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/790369bc-8518-4b61-a79b-76e688cada85"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Enterprise Account Manager - Bengaluru",
+            "location": "BENGALURU,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/35707ac9-978b-4965-9eda-dfc7dd696c52"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Enterprise Account Manager (for AI and big data) - Hong Kong",
+            "location": "HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/fb43372e-fb93-4991-95fc-398a7e214164"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Enterprise Account Manager (for AI and big data) - Kuala Lumpur",
+            "location": "KUALA LUMPUR,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/75eba4ca-0ae5-4635-a35a-ce0c1879984a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Enterprise Account Manager (for AI and big data) - Taiwan",
+            "location": "TAIWAN,REMOTE",
+            "link": "https://jobs.lever.co/oxylabs/5c370710-b1c7-4515-9d9c-5bee4eec781a"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Sales Development Representative",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/45609875-ea21-4534-9e78-3f2f2c0a634b"
+        },
+        {
+            "company": "meilisearch",
+            "title": "Spontaneous applications",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
+        },
+        {
+            "company": "netomi",
+            "title": "Agentic AI Engineer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/58325add-b70b-4028-895d-c4eff2ec1b16"
+        },
+        {
+            "company": "netomi",
+            "title": "Agentic PM",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/5632f324-a9ba-4151-b94b-6a8388082365"
+        },
+        {
+            "company": "netomi",
+            "title": "Agentic Product Analyst",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/90c1f824-335a-4659-9615-3497e89d4df5"
+        },
+        {
+            "company": "netomi",
+            "title": "Agentic Product Manager",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/c66725fe-54e4-4565-9409-be6e834e0734"
+        },
+        {
+            "company": "netomi",
+            "title": "Agentic Product Manager",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/28e755b4-9e42-4728-8f46-9f4995ef299a"
+        },
+        {
+            "company": "netomi",
+            "title": "AI Engineer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/51976302-7d5b-4a21-be18-1f54129f84fe"
+        },
+        {
+            "company": "netomi",
+            "title": "Customer Support Escalation Manager - Incident Manager",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/fda42651-0c74-4171-9c1a-fe8b211b1741"
+        },
+        {
+            "company": "netomi",
+            "title": "Sr. Conversation Designer",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/d9d304db-3e21-4abb-8c11-32de7553878a"
+        },
+        {
+            "company": "netomi",
+            "title": "Technical Customer Success Manager",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/c44b1d42-7472-4232-adb6-93f44292e771"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE II - Agentic Engineer",
+            "location": "REMOTE - INDIA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/c81f4efa-21e8-4098-b8f5-e8f49673c5b8"
+        },
+        {
+            "company": "netomi",
+            "title": "Solution Architect \u2013 Agentic Delivery",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/5efaed83-3786-467b-b492-1154e91e5af4"
+        },
+        {
+            "company": "netomi",
+            "title": "Solution Architect \u2013 Agentic Delivery",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/a0dce2c9-2ded-4abd-aeef-02af0b9fe58c"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Manager, Product Design",
+            "location": "ONTARIO,REMOTE",
+            "link": "https://jobs.lever.co/netomi/4e4197d3-6639-4034-9fd8-788fa5210f30"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior UX Designer",
+            "location": "ONTARIO,REMOTE",
+            "link": "https://jobs.lever.co/netomi/8e3b905b-3a9f-48b4-96f6-0b26832c50d4"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Documentation Engineer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/fb7dca89-fd96-4df7-8ed1-11cf2fb3b60f"
+        },
+        {
+            "company": "netomi",
+            "title": "Technical Writer",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/9365c7bc-cf96-4c88-b458-ff154f174b9d"
+        },
+        {
+            "company": "netomi",
+            "title": "Lead / Senior Product Manager Analytics",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/30d68fe1-a9a1-41f1-b4ba-9150323fcf37"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Product Manager - Autonomous Agents",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/c83a8721-a18f-4e31-93b6-057b97d21e38"
+        },
+        {
+            "company": "netomi",
+            "title": "Data Scientist - I",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/1d5f4e16-0918-4f6e-b764-3484e1731982"
+        },
+        {
+            "company": "netomi",
+            "title": "Data Scientist - II",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/f24c0390-c103-4609-b8e4-abab0aca928c"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE II - Python Developer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/b0262b57-4744-4ae0-b1a5-b08f481b2aea"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Prompt Engineer",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/d674c3aa-1a25-4341-8919-24c8bae02fde"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Prompt Engineer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/da7204b7-72a1-4d8c-a8c9-7528e141659c"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE I - Backend",
+            "location": "REMOTE - INDIA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/6724aa9e-157b-442e-894e-c995b976a78b"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE I - Frontend",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/fb9adf2a-83b2-401b-8332-b88bb26c21b8"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE II - Backend",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/eeccaf3d-c3c0-4ae0-b702-0eac8eccd4b8"
+        },
+        {
+            "company": "netomi",
+            "title": "SDE II - Frontend",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/dc2eac5f-f79b-4447-a054-510959d760e5"
+        },
+        {
+            "company": "netomi",
+            "title": "SDET II",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/8723fb67-36c9-495d-ba19-05b0e36f22e3"
+        },
+        {
+            "company": "netomi",
+            "title": "SDET - I",
+            "location": "REMOTE - INDIA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/25393fe1-4925-4d3b-9771-e0931b2a628c"
+        },
+        {
+            "company": "netomi",
+            "title": "SDET II",
+            "location": "REMOTE - INDIA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/a52c164b-b2a1-4332-abc6-a96292b9784f"
+        },
+        {
+            "company": "netomi",
+            "title": "AI Go-To-Market Specialist",
+            "location": "NEW YORK,REMOTE",
+            "link": "https://jobs.lever.co/netomi/a1781744-c6e2-44bc-909f-d3b99b044279"
+        },
+        {
+            "company": "netomi",
+            "title": "Enterprise Account Executive",
+            "location": "US (REMOTE),REMOTE",
+            "link": "https://jobs.lever.co/netomi/624984b2-429d-4019-87bf-d193eb6d516f"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Implementation Consultant - Enterprise POCs",
+            "location": "TORONTO , CANADA,REMOTE",
+            "link": "https://jobs.lever.co/netomi/f0709fee-a40f-483a-a1bc-375af51e4e87"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Agentic Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Generative Models",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "ML Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Elite",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Narrative Content Manager",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/93552615-b1f1-4f98-8b8a-090f58bdd361"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Automation Technician",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/2211be09-d5c2-436d-9f2a-f9c3064ea31a"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Mechanical Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/33655210-ec96-4f14-9baa-ea3d9a26cd6e"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Mechatronics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Technical Program Manager",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/943725bd-375e-4e0f-8a31-a2dac0678f89"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Perception Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/6ae941d5-0cdf-4efd-a0cb-f192f2233ed8"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Robotics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer - Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Chemist/Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer, Platform",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
+        },
+        {
+            "company": "zushealth",
+            "title": "Director of Partnerships & Business Development",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/43c4adf8-6f48-4b14-96a8-42b79edd319d"
+        },
+        {
+            "company": "zushealth",
+            "title": "Customer Success Manager",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/e6e4ed71-5ffb-43fe-a995-d11fddcee471"
+        },
+        {
+            "company": "zushealth",
+            "title": "Implementation Engineer",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/56d72ba0-639d-4660-be2e-deb3f8ebe10b"
+        },
+        {
+            "company": "zushealth",
+            "title": "Director of Sales Engineering and Solution Design",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/697c598a-ef7f-4719-b816-fbb037dd9aef"
+        },
+        {
+            "company": "zushealth",
+            "title": "Manager, Data Acquisition Team",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/6d077b2e-4192-4ef4-8add-4aa95265dc7d"
+        },
+        {
+            "company": "zushealth",
+            "title": "Senior Software Engineer, Platform",
+            "location": "BOSTON, MA,HYBRID",
+            "link": "https://jobs.lever.co/zushealth/a417ff31-7128-4318-b664-f2daefe5b891"
+        },
+        {
+            "company": "zushealth",
+            "title": "Staff Software Engineer, Platform",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/db21d338-f31f-4d41-a244-2f35d6cecc03"
+        },
+        {
+            "company": "zushealth",
+            "title": "Future Zusers",
+            "location": "BOSTON, MA,REMOTE",
+            "link": "https://jobs.lever.co/zushealth/5663a4bd-c398-4df3-9f95-65dc37454750"
+        },
+        {
             "company": "shieldai",
             "title": "Director of Business Development, Middle East",
             "location": "ABU DHABI,ON-SITE",
@@ -2771,6 +3797,12 @@
             "title": "Principal Engineer, Aerospace - Flight Sciences (R4448)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/691eed6d-0308-4469-8d80-a8f82f4679b5"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Aerodynamics and Performance (R4678)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ca5cc768-72ef-48b3-8b62-0a0814aea53c"
         },
         {
             "company": "shieldai",
@@ -3218,8 +4250,8 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Embedded OS (SD/TX/Bos) (R3793)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "title": "Senior Engineer, Embedded OS (Dallas Tx) (R3793)",
+            "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/d5fdafe1-2e50-4543-98b1-38f3a3d26e12"
         },
         {
@@ -3314,12 +4346,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineering Specialist, Hardware Test (R4673)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0dd97208-cd84-4a10-85aa-d3f17e98b0cd"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineering Specialist, Harness Design (R4313)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/7a142a52-5e8d-4a25-a6d5-691a855dc93d"
@@ -3329,12 +4355,6 @@
             "title": "Staff Mechanical Engineer, Hardware Test (R4325)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/c824d8a3-b683-4442-90f7-05673f6809d0"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Technician, Hardware Test (R4665)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/f7fc236b-08c3-428d-970f-a6b7819abc0f"
         },
         {
             "company": "shieldai",
@@ -3362,9 +4382,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Systems Administrator (San Mateo)",
-            "location": "SAN FRANCISCO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/22e198ca-5919-482c-b4a4-09b3b676b5d4"
+            "title": "Executive Assistant, Finance (R4688)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/15dd87cc-7b43-439d-8266-94769514176e"
         },
         {
             "company": "shieldai",
@@ -3377,6 +4397,12 @@
             "title": "Facilities Technician (R3842)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/5cf6b4d2-842f-4859-a4d0-b79c7dfb2e23"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Director, Facilities (R4677)",
+            "location": "DALLAS, TEXAS / WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/301f34ee-4f8a-4218-8fed-429ccb208b78"
         },
         {
             "company": "shieldai",
@@ -3422,15 +4448,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Director, Strategic Capture - US Army (R4226)",
-            "location": "WASHINGTON, DC,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/63827adc-7059-4f01-a65d-d74decd4517a"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Director, Joint Staff/OSW Strategic Capture (R4259)",
-            "location": "WASHINGTON, DC,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/b6c8b63f-334a-4c5b-8de3-2de561dd37c4"
+            "title": "Sr. Manager of Sales Compensation (R4512)",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/da7b39b8-9bf3-4359-8a5f-246a2dfab28a"
         },
         {
             "company": "shieldai",
@@ -3440,9 +4460,21 @@
         },
         {
             "company": "shieldai",
+            "title": "Graphic Design Intern - 2026 Summer Intern (4111)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/872e86e8-f5b7-4dd5-948a-df606a253334"
+        },
+        {
+            "company": "shieldai",
             "title": "Marketing Manager, Middle East (R4253)",
             "location": "ABU DHABI,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/dd503008-96a9-4e2a-8922-40488706849f"
+        },
+        {
+            "company": "shieldai",
+            "title": "Marketing Video Editor Intern - 2026 Summer Intern (R4110)",
+            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a5208a9f-4392-473c-b034-1670c3d0c565"
         },
         {
             "company": "shieldai",
@@ -3470,12 +4502,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Visual Design Intern - 2026 Summer Intern (4111)",
-            "location": "WASHINGTON, DC,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/872e86e8-f5b7-4dd5-948a-df606a253334"
-        },
-        {
-            "company": "shieldai",
             "title": "Business Development Manager (R4247)",
             "location": "NEW DELHI,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/a255acce-59cb-40df-bef3-4753e8687f75"
@@ -3494,7 +4520,7 @@
         },
         {
             "company": "shieldai",
-            "title": "X-BAT Capture Lead (R4663)",
+            "title": "X-BAT Capture Lead - Nordics",
             "location": "OSLO,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/14f83ee4-4097-4dc2-95c5-624ea35a3332"
         },
@@ -3944,12 +4970,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Staff Product Manager (R4198)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/4239664c-93e2-497e-9ec0-67c6f0e5eda7"
-        },
-        {
-            "company": "shieldai",
             "title": "Technical Product Manager (R4243)",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/f5d07258-1188-445e-9195-9ab80fbd3c57"
@@ -4064,12 +5084,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Technician, Ground Ops Specialist (R4370)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/03160ad8-0245-46f0-899d-bdbb0504d5e4"
-        },
-        {
-            "company": "shieldai",
             "title": "Test Director, XBAT (R4406)",
             "location": "WICHITA METRO AREA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/379b704a-82e6-4386-934a-5d99a9560792"
@@ -4154,12 +5168,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Associate Production Controller (R4440)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/fa60e05e-fe8c-4815-9b29-6cc613375eeb"
-        },
-        {
-            "company": "shieldai",
             "title": "Junior Manufacturing Planner (R4302)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/5586fbc7-13ef-4459-9cbc-a010ba304ed4"
@@ -4172,21 +5180,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Program Manager (R4457)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/7abe200a-c345-45fb-9869-5e21967ee6a4"
-        },
-        {
-            "company": "shieldai",
             "title": "Program Manager, VBAT Programs - R3617",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/a9edeecb-f6f4-4939-9107-f20ea2f1262b"
-        },
-        {
-            "company": "shieldai",
-            "title": "Program Manager, VBAT Programs (R4566)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/53128e75-2a40-467a-ae98-bbcfc49e5e4d"
         },
         {
             "company": "shieldai",
@@ -4235,1056 +5231,6 @@
             "title": "Staff Regional HRBP - EMEA",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/d4995624-1dd0-4a0b-9241-27bc36834176"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Back-End Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/ff504425-cbe8-4d51-a5ab-9a4ae563192e"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Full-Stack Engineer (Front-End Leaning)",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/b683d54a-53e5-4683-959a-817e8f73e0e3"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Software Engineer - (Graduate)",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/8c1f2a94-c28a-4ecd-8051-eb6f8fdb5fcb"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Software Engineer - (Graduate)",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/c9e9091c-2e89-4cbf-9fc6-982e39f10348"
-        },
-        {
-            "company": "encord.com",
-            "title": "Backend Software Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/2c159b3f-1dd1-4fbd-94a8-42600906b559"
-        },
-        {
-            "company": "encord.com",
-            "title": "Engineering Lead",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/fe15af72-ccea-4b5e-98a8-a526aa230c05"
-        },
-        {
-            "company": "encord.com",
-            "title": "Former Technical Founders",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/f37c4063-1d3a-481d-a452-fd9cae373e11"
-        },
-        {
-            "company": "encord.com",
-            "title": "Former Technical Founders",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/17ea1c38-5da5-4a45-90ed-216bcd88d79c"
-        },
-        {
-            "company": "encord.com",
-            "title": "Forward Deployed Engineer",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/2bd55aa3-e95a-45db-8e35-66db70e77528"
-        },
-        {
-            "company": "encord.com",
-            "title": "Forward Deployed Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/2e207b48-9076-4e27-bc1a-36c7290c5dfe"
-        },
-        {
-            "company": "encord.com",
-            "title": "Full-Stack Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/f1daa229-4733-45ac-a28e-f65852b195d4"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Full-Stack Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/f7322550-98ae-4011-bdca-57d12a3a3f01"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Full-Stack Engineer - Physical AI",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/5f555bdd-c66d-4ad1-ad00-6ce2efdc4251"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Full-Stack Engineer - Physical AI",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/86c5e3f6-4c66-4aae-a188-8a80f9c36fca"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Full-Stack Engineer (Front-End Leaning)",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/e337c4af-65ad-4e10-a453-5d90ecfbe415"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Software Engineer - (Full-Stack )",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/f3736d98-bf7a-4a95-b145-c7cfbe41e64a"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Software Engineer (Infrastructure)",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/d7aa4aba-fc4b-410b-98dd-73e3f0c01647"
-        },
-        {
-            "company": "encord.com",
-            "title": "Software Engineer - (Full-Stack)",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/1ca5a094-cc96-4247-b638-942ae4179e1a"
-        },
-        {
-            "company": "encord.com",
-            "title": "AI/ML Developer Evangelist",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/a31ef98d-c2fa-427e-b092-46dfc7b1cfc0"
-        },
-        {
-            "company": "encord.com",
-            "title": "AI/ML Developer Relations - US (San Francisco)",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/6d2bc255-d3c0-4543-9c82-179e0feb6d67"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Solutions Engineer",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/cae06ee9-b25f-4588-94c5-581861ba7c26"
-        },
-        {
-            "company": "encord.com",
-            "title": "Developer Advocate AI/ML",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/714b6985-69a0-414b-b766-ef6da0a3564e"
-        },
-        {
-            "company": "encord.com",
-            "title": "Developer Relations Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/204baf28-0f08-4f03-9b62-d4b44b541d64"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Manager",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/257dc7c0-9c73-4e2e-840f-59e21ca9d63b"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Manager",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/98c21bb3-6ce6-41b3-9941-416edfceb0be"
-        },
-        {
-            "company": "encord.com",
-            "title": "Revenue Operations Analyst",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/30b78b12-a26e-45ae-be76-050e5ae538b9"
-        },
-        {
-            "company": "encord.com",
-            "title": "Solutions Engineer",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/13528d86-c569-4351-ad5b-90e12f4ada00"
-        },
-        {
-            "company": "encord.com",
-            "title": "Solutions Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/3ab16807-aede-472d-b807-30229f8dcef2"
-        },
-        {
-            "company": "encord.com",
-            "title": "Solutions Engineer, Autonomous Vehicles & Robotics",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/efb26bbb-5729-457f-95ec-253e58df9618"
-        },
-        {
-            "company": "encord.com",
-            "title": "Field Marketing Manager, Growth",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/b350d648-f722-4013-a776-99e95b04cdd0"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Associate, Community",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/c06aaeab-63f7-4133-b703-0c78b0d3f177"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Associate, Community",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/f45656de-bf89-464b-be89-91145a528a4f"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Engineer",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/c385a814-1c7d-4d22-8af0-d32f833131ba"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Strategy Operations Analyst",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/edfa044b-3202-4fb2-ac4e-a5e09f080c79"
-        },
-        {
-            "company": "encord.com",
-            "title": "Growth Strategy Operations Analyst",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/137e30c2-0708-4678-ac33-fc945d014ec2"
-        },
-        {
-            "company": "encord.com",
-            "title": "Head of Content",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/46f907d6-543e-45e3-a687-0853803b050d"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Product Marketing Manager",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/d2233465-794b-44ae-a54d-a50f899dca8c"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Product Marketing Manager",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/63646737-bad2-48d8-a97e-9ae0f5589ebf"
-        },
-        {
-            "company": "encord.com",
-            "title": "Technical Content Lead",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/b8b5206d-c9d1-4ade-b4d1-73f482487f9a"
-        },
-        {
-            "company": "encord.com",
-            "title": "AI Project Manager",
-            "location": "INDIA,REMOTE",
-            "link": "https://jobs.lever.co/CordTechnologies/8f746ad8-7650-46bc-a52d-b71af334d100"
-        },
-        {
-            "company": "encord.com",
-            "title": "Founder's Associate",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/8abf7347-10f5-4646-8370-970946ebffd1"
-        },
-        {
-            "company": "encord.com",
-            "title": "Human Data Operations Strategist",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/985f8db0-13c8-45a2-a7ee-4a25b8306527"
-        },
-        {
-            "company": "encord.com",
-            "title": "GTM Talent Partner",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/529dcadb-c1ca-44f7-ad8e-22b7672421d3"
-        },
-        {
-            "company": "encord.com",
-            "title": "Operations and People Associate",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/5adca8f3-e054-478d-81df-a1374935e33a"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Product Manager",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/a91b93f3-7340-42e0-8231-1915c05d79f1"
-        },
-        {
-            "company": "encord.com",
-            "title": "Associate Product Manager - Physical AI",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/e825da89-cfc1-4e27-a653-af4a0b266dfd"
-        },
-        {
-            "company": "encord.com",
-            "title": "Client-Facing Engineer",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/7ab53ceb-6067-42d5-b23b-ca0d60162557"
-        },
-        {
-            "company": "encord.com",
-            "title": "Client-Facing Engineer",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/dbbab14a-22e5-4129-a229-fefd04101ba0"
-        },
-        {
-            "company": "encord.com",
-            "title": "Customer Support Engineer",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/3edf4b66-feef-4746-856f-57cca429fb51"
-        },
-        {
-            "company": "encord.com",
-            "title": "Filmmaker",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/1f5fedff-4ccd-44f1-8e01-abf4f4fe1e23"
-        },
-        {
-            "company": "encord.com",
-            "title": "Senior Product Designer",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/0e4ae981-5e23-462d-b2bb-1b2b6bdff6af"
-        },
-        {
-            "company": "encord.com",
-            "title": "Account Executive, Core",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/78ccacfa-6aff-4658-a370-065dbae1d508"
-        },
-        {
-            "company": "encord.com",
-            "title": "Account Executive, Core",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/e8549e64-8ef9-4620-8768-45baa36965d8"
-        },
-        {
-            "company": "encord.com",
-            "title": "Account Executive, Physical AI",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/28542f39-196e-44c6-9a2c-0a169a543f28"
-        },
-        {
-            "company": "encord.com",
-            "title": "Account Manager",
-            "location": "LONDON,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/41ba1c0a-dba3-4e41-a30e-6343c858e5d9"
-        },
-        {
-            "company": "encord.com",
-            "title": "Business Development Manager",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/e3b5834c-e4f7-411f-84cf-5837f2ceb58b"
-        },
-        {
-            "company": "encord.com",
-            "title": "Business Development Manager",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/c7b71eaf-d273-474f-b8cb-63b40a7d7287"
-        },
-        {
-            "company": "encord.com",
-            "title": "Business Development Representative - UK (London)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/1f4f1186-cd98-47a9-b4e4-35e1031f427b"
-        },
-        {
-            "company": "encord.com",
-            "title": "Commercial Associate - UK (London)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/8a6252a5-ee52-4ac1-a05d-75e9a4e31fdf"
-        },
-        {
-            "company": "encord.com",
-            "title": "Commercial Associate, Core",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/ebaeecf7-7fad-41d6-89bc-93dab02837fa"
-        },
-        {
-            "company": "encord.com",
-            "title": "CS Associate",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/b0ba0d50-0032-4131-b595-4926f9123df6"
-        },
-        {
-            "company": "encord.com",
-            "title": "CS Associate",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/b50d32d7-ca2c-455b-840a-ebc324f3fd1f"
-        },
-        {
-            "company": "encord.com",
-            "title": "Deployment Strategist",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/9e0505e2-5eff-419e-b996-304154599fda"
-        },
-        {
-            "company": "encord.com",
-            "title": "Deployment Strategist",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/27fb8eda-e13c-4063-b548-07d825e6e99a"
-        },
-        {
-            "company": "encord.com",
-            "title": "Founding Sales (Physical AI)",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/acb82c9f-fdcd-461c-b1e5-6c4b0c3c9e59"
-        },
-        {
-            "company": "encord.com",
-            "title": "Sales Director - US (San Francisco)",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/88d5c558-92c7-40f1-84e4-fc39c0260b40"
-        },
-        {
-            "company": "encord.com",
-            "title": "Sales Lead",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/354ef40e-cda3-4a29-be8b-073fd26154d9"
-        },
-        {
-            "company": "meilisearch",
-            "title": "Spontaneous applications",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Junior Project Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/727dd312-57df-47fd-bd2b-bde372896333"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Cybersecurity Analyst",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/40bbbc17-f021-4b67-b1a5-0ce9c4f9a03a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Cybersecurity Analyst",
-            "location": "WARSAW,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/38e723a1-2d9a-43f0-b63f-5ba335a90197"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Partnerships Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/4427054d-2765-45ed-866c-8f6b2206edc5"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Business Development Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/48fc8c4a-e2f1-4646-8c75-9a604bd318e4"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Head of Customer Experience",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/e800278d-fbf2-4e94-875e-5b780b15087b"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Technical Customer Success Specialist (Day shift)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/c380be3e-563a-4c28-bbad-de74c4885e8f"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Technical Customer Success Specialist (Day shift)",
-            "location": "KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/c6655743-9a59-4df8-b43e-ea071294e5d7"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Technical Customer Success Specialist (Night shift)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/9ea7c97d-4353-4c3e-94bd-f9e857b886fe"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Technical Product Specialist",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/c73cd1c7-1de9-40eb-8a96-50d2b75ecd44"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Data Analyst",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/2634f4e7-c66e-43d9-bc63-75c04639a3f3"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Python Developer (Junior-Mid)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/5b690148-7506-4d5d-a7db-dae6b776150a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Python Developer (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/4abd4967-2901-48b6-be3d-9498c53a7938"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Full Stack Developer (JS, Node.js)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/81f1b3a3-b17a-446f-a60e-d1de964fd10e"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Backend Engineer (Node.js)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/134059d7-36bb-490a-9d15-93bfc5d8e76a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Full Stack Developer (JS, Node.js)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/9e9b321d-1789-47e4-8d0d-7eb9583c52dc"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Mid PHP Developer",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/f621c630-d2ec-4381-8dcf-4e26bd4b7f72"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Mid-Senior Frontend Developer",
-            "location": "VILNIUS/KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/fa015132-52ab-4bf4-a59e-1fb2e9dea48a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Engineering Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/5a33ee56-7de6-4da3-a693-3cbc68ebe21f"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Experienced Web Scraping Engineer - Python",
-            "location": "POLAND,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/c3c11668-457f-40a7-9938-ddc1e58814a1"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Golang Developer (Senior)",
-            "location": "VILNIUS/KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/b794aaec-6746-4b81-9e10-dbcddd7fa863"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Web Scraping Engineer - Python",
-            "location": "VILNIUS/KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/d8a52ea9-d85f-45e5-b23a-eaf94254c121"
-        },
-        {
-            "company": "oxylabs",
-            "title": "PHP/Go Developer (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/9a917404-a07d-4aba-bf30-ba0a89cf1af1"
-        },
-        {
-            "company": "oxylabs",
-            "title": "PHP/Go Developer (Mid-Senior)",
-            "location": "KAUNAS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/f23c2215-0ec8-4357-b215-127f5bd35f62"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Frontend Engineer (Webshare product)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/f54249f9-b99d-42ff-8347-366d6db4e420"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Product Engineer (Webshare)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/9bd6757e-7b37-4ddd-a6dc-efdd6e9cbb77"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Python Engineer (Webshare product)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/59a24364-ace1-43ba-9de1-342d29460b15"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Accountant",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/4c567d5d-b340-4235-8ccd-78bc7d98eef9"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Legal Director",
-            "location": "VILNIUS,ON-SITE",
-            "link": "https://jobs.lever.co/oxylabs/38ec8557-1b09-464a-b80d-771d3fd89f22"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Litigation Counsel (Mid/Senior)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/63a99f91-b7ee-4b14-a385-66d6bb13e123"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Copywriter",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/ded70a40-d4c5-4dab-9037-3da9342ebbf9"
-        },
-        {
-            "company": "oxylabs",
-            "title": "PPC Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/816f3c5e-06bb-473d-b297-67df2741d693"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Strategic Partnerships Manager (Commercial Lead)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/40c49808-16a2-446a-ac14-93bba998a95f"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Product Marketing Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/37325160-9b00-4d2f-a8e8-cfb5eea68915"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior PR Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/542504a1-f148-4d36-8f47-17ec697d9c47"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Digital Marketing Delivery Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/24f1b752-c3bd-4b60-9e08-d71cbf52e5e0"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Product Marketing Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/7760fb15-a616-41d1-9449-6da2770eef41"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Product Manager",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/98aa6af8-b806-4e7c-a0dc-dc14600a4ebc"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Product Manager (Self-Service & Commerce)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/87a299b6-6c96-4da9-a799-2b5d24a1e58d"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Senior Solutions Engineer",
-            "location": "HONG KONG,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/fa7857cb-d2de-4fca-92dc-84edda25d717"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Solutions Engineer (Hong Kong)",
-            "location": "HONG KONG,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/84c059f3-d39c-4b92-8cef-4fd837ac79eb"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Solutions Engineer (Taiwan)",
-            "location": "TAIWAN,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/c1df747f-2b57-4142-a614-3083452a3f12"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Account Manager (Junior/Mid)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/30266e7e-5d50-47cc-9d93-e6f030d6df15"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Business Development Manager (China)",
-            "location": "SHANGHAI,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/790369bc-8518-4b61-a79b-76e688cada85"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Enterprise Account Manager - Bengaluru",
-            "location": "BENGALURU,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/35707ac9-978b-4965-9eda-dfc7dd696c52"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Enterprise Account Manager (for AI and big data) - Hong Kong",
-            "location": "HONG KONG,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/fb43372e-fb93-4991-95fc-398a7e214164"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Enterprise Account Manager (for AI and big data) - Kuala Lumpur",
-            "location": "KUALA LUMPUR,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/75eba4ca-0ae5-4635-a35a-ce0c1879984a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Enterprise Account Manager (for AI and big data) - Taiwan",
-            "location": "TAIWAN,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/5c370710-b1c7-4515-9d9c-5bee4eec781a"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Sales Development Representative",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/45609875-ea21-4534-9e78-3f2f2c0a634b"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Agentic Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Generative Models",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "ML Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Elite",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Narrative Content Manager",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/93552615-b1f1-4f98-8b8a-090f58bdd361"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Automation Technician",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/2211be09-d5c2-436d-9f2a-f9c3064ea31a"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Mechanical Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/33655210-ec96-4f14-9baa-ea3d9a26cd6e"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Mechatronics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Technical Program Manager",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/943725bd-375e-4e0f-8a31-a2dac0678f89"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Perception Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/6ae941d5-0cdf-4efd-a0cb-f192f2233ed8"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Robotics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer - Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist/Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer, Platform",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
-        },
-        {
-            "company": "netomi",
-            "title": "Agentic AI Engineer",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/58325add-b70b-4028-895d-c4eff2ec1b16"
-        },
-        {
-            "company": "netomi",
-            "title": "Agentic PM",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/5632f324-a9ba-4151-b94b-6a8388082365"
-        },
-        {
-            "company": "netomi",
-            "title": "Agentic Product Analyst",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/90c1f824-335a-4659-9615-3497e89d4df5"
-        },
-        {
-            "company": "netomi",
-            "title": "Agentic Product Manager",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/c66725fe-54e4-4565-9409-be6e834e0734"
-        },
-        {
-            "company": "netomi",
-            "title": "Agentic Product Manager",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/28e755b4-9e42-4728-8f46-9f4995ef299a"
-        },
-        {
-            "company": "netomi",
-            "title": "AI Engineer",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/51976302-7d5b-4a21-be18-1f54129f84fe"
-        },
-        {
-            "company": "netomi",
-            "title": "Customer Support Escalation Manager - Incident Manager",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/fda42651-0c74-4171-9c1a-fe8b211b1741"
-        },
-        {
-            "company": "netomi",
-            "title": "Sr. Conversation Designer",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/d9d304db-3e21-4abb-8c11-32de7553878a"
-        },
-        {
-            "company": "netomi",
-            "title": "Technical Customer Success Manager",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/c44b1d42-7472-4232-adb6-93f44292e771"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE II - Agentic Engineer",
-            "location": "REMOTE - INDIA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/c81f4efa-21e8-4098-b8f5-e8f49673c5b8"
-        },
-        {
-            "company": "netomi",
-            "title": "Solution Architect \u2013 Agentic Delivery",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/5efaed83-3786-467b-b492-1154e91e5af4"
-        },
-        {
-            "company": "netomi",
-            "title": "Solution Architect \u2013 Agentic Delivery",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/a0dce2c9-2ded-4abd-aeef-02af0b9fe58c"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Manager, Product Design",
-            "location": "ONTARIO,REMOTE",
-            "link": "https://jobs.lever.co/netomi/4e4197d3-6639-4034-9fd8-788fa5210f30"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior UX Designer",
-            "location": "ONTARIO,REMOTE",
-            "link": "https://jobs.lever.co/netomi/8e3b905b-3a9f-48b4-96f6-0b26832c50d4"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Documentation Engineer",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/fb7dca89-fd96-4df7-8ed1-11cf2fb3b60f"
-        },
-        {
-            "company": "netomi",
-            "title": "Technical Writer",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/9365c7bc-cf96-4c88-b458-ff154f174b9d"
-        },
-        {
-            "company": "netomi",
-            "title": "Lead / Senior Product Manager Analytics",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/30d68fe1-a9a1-41f1-b4ba-9150323fcf37"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Product Manager - Autonomous Agents",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/c83a8721-a18f-4e31-93b6-057b97d21e38"
-        },
-        {
-            "company": "netomi",
-            "title": "Data Scientist - I",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/1d5f4e16-0918-4f6e-b764-3484e1731982"
-        },
-        {
-            "company": "netomi",
-            "title": "Data Scientist - II",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/f24c0390-c103-4609-b8e4-abab0aca928c"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE II - Python Developer",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/b0262b57-4744-4ae0-b1a5-b08f481b2aea"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Prompt Engineer",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/d674c3aa-1a25-4341-8919-24c8bae02fde"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Prompt Engineer",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/da7204b7-72a1-4d8c-a8c9-7528e141659c"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE I - Backend",
-            "location": "REMOTE - INDIA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/6724aa9e-157b-442e-894e-c995b976a78b"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE I - Frontend",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/fb9adf2a-83b2-401b-8332-b88bb26c21b8"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE II - Backend",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/eeccaf3d-c3c0-4ae0-b702-0eac8eccd4b8"
-        },
-        {
-            "company": "netomi",
-            "title": "SDE II - Frontend",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/dc2eac5f-f79b-4447-a054-510959d760e5"
-        },
-        {
-            "company": "netomi",
-            "title": "SDET II",
-            "location": "GURUGRAM,REMOTE",
-            "link": "https://jobs.lever.co/netomi/8723fb67-36c9-495d-ba19-05b0e36f22e3"
-        },
-        {
-            "company": "netomi",
-            "title": "SDET - I",
-            "location": "REMOTE - INDIA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/25393fe1-4925-4d3b-9771-e0931b2a628c"
-        },
-        {
-            "company": "netomi",
-            "title": "SDET II",
-            "location": "REMOTE - INDIA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/a52c164b-b2a1-4332-abc6-a96292b9784f"
-        },
-        {
-            "company": "netomi",
-            "title": "AI Go-To-Market Specialist",
-            "location": "NEW YORK,REMOTE",
-            "link": "https://jobs.lever.co/netomi/a1781744-c6e2-44bc-909f-d3b99b044279"
-        },
-        {
-            "company": "netomi",
-            "title": "Enterprise Account Executive",
-            "location": "US (REMOTE),REMOTE",
-            "link": "https://jobs.lever.co/netomi/624984b2-429d-4019-87bf-d193eb6d516f"
-        },
-        {
-            "company": "netomi",
-            "title": "Senior Implementation Consultant - Enterprise POCs",
-            "location": "TORONTO , CANADA,REMOTE",
-            "link": "https://jobs.lever.co/netomi/f0709fee-a40f-483a-a1bc-375af51e4e87"
-        },
-        {
-            "company": "zushealth",
-            "title": "Director of Partnerships & Business Development",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/43c4adf8-6f48-4b14-96a8-42b79edd319d"
-        },
-        {
-            "company": "zushealth",
-            "title": "Customer Success Manager",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/e6e4ed71-5ffb-43fe-a995-d11fddcee471"
-        },
-        {
-            "company": "zushealth",
-            "title": "Implementation Engineer",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/56d72ba0-639d-4660-be2e-deb3f8ebe10b"
-        },
-        {
-            "company": "zushealth",
-            "title": "Director of Sales Engineering and Solution Design",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/697c598a-ef7f-4719-b816-fbb037dd9aef"
-        },
-        {
-            "company": "zushealth",
-            "title": "Manager, Data Acquisition Team",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/6d077b2e-4192-4ef4-8add-4aa95265dc7d"
-        },
-        {
-            "company": "zushealth",
-            "title": "Senior Software Engineer, Platform",
-            "location": "BOSTON, MA,HYBRID",
-            "link": "https://jobs.lever.co/zushealth/a417ff31-7128-4318-b664-f2daefe5b891"
-        },
-        {
-            "company": "zushealth",
-            "title": "Staff Software Engineer, Data Acquisition Team",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/503baccf-89ff-4204-b83c-b9039eded54a"
-        },
-        {
-            "company": "zushealth",
-            "title": "Staff Software Engineer, Platform",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/db21d338-f31f-4d41-a244-2f35d6cecc03"
-        },
-        {
-            "company": "zushealth",
-            "title": "Future Zusers",
-            "location": "BOSTON, MA,REMOTE",
-            "link": "https://jobs.lever.co/zushealth/5663a4bd-c398-4df3-9f95-65dc37454750"
         }
     ]
 }
