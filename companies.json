@@ -2998,15 +2998,6 @@
             "headless": true
         },
         {
-            "name": "BlockSwap",
-            "jobs_url": "https://jobs.lever.co/BlockSwap",
-            "scraper": "LEVER",
-            "company_url": "https://www.blockswap.network",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "ultra",
             "jobs_url": "https://jobs.lever.co/ultra",
             "scraper": "LEVER",
