@@ -2050,7 +2050,7 @@
             "company_url": "https://www.interactivebrokers.com/en",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "glean",
