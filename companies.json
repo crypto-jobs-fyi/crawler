@@ -2989,15 +2989,6 @@
             "headless": true
         },
         {
-            "name": "smart-token-labs",
-            "jobs_url": "https://apply.workable.com/smart-token-labs",
-            "scraper": "WORKABLE",
-            "company_url": "https://smarttokenlabs.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "pony.ai",
             "jobs_url": "https://apply.workable.com/pony-dot-ai/",
             "scraper": "WORKABLE",
