@@ -2989,15 +2989,6 @@
             "headless": true
         },
         {
-            "name": "archblock",
-            "jobs_url": "https://jobs.lever.co/archblock",
-            "scraper": "LEVER",
-            "company_url": "https://www.archblock.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "smart-token-labs",
             "jobs_url": "https://apply.workable.com/smart-token-labs",
             "scraper": "WORKABLE",
