@@ -1999,6 +1999,15 @@
             "headless": true
         },
         {
+            "name": "amilabs",
+            "jobs_url": "https://jobs.ashbyhq.com/ami",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://amilabs.xyz",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "harvey",
             "jobs_url": "https://jobs.ashbyhq.com/harvey",
             "scraper": "ASHBYHQ",
