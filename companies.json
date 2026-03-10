@@ -3142,15 +3142,6 @@
             "headless": true
         },
         {
-            "name": "shadow",
-            "jobs_url": "https://jobs.ashbyhq.com/shadow",
-            "scraper": "ASHBYHQ",
-            "company_url": "https://www.shadow.xyz",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "flipsidecrypto",
             "jobs_url": "https://jobs.ashbyhq.com/flipsidecrypto",
             "scraper": "ASHBYHQ",
