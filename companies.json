@@ -2998,15 +2998,6 @@
             "headless": true
         },
         {
-            "name": "request",
-            "jobs_url": "https://jobs.lever.co/request",
-            "scraper": "LEVER",
-            "company_url": "https://request.network",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "BlockSwap",
             "jobs_url": "https://jobs.lever.co/BlockSwap",
             "scraper": "LEVER",
