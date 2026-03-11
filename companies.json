@@ -1747,6 +1747,33 @@
             "headless": true
         },
         {
+            "name": "modal.com",
+            "jobs_url": "https://jobs.ashbyhq.com/modal",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://modal.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "legora.com",
+            "jobs_url": "https://jobs.ashbyhq.com/legora",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://legora.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "basis.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/basis-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.basis.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "perplexityai",
             "jobs_url": "https://jobs.ashbyhq.com/Perplexity",
             "scraper": "ASHBYHQ",
