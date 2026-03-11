@@ -2,8 +2,8 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-class ScrapeWorkday(ScrapeIt):
-    name = 'Workday'
+class ScrapeHelsing(ScrapeIt):
+    name = 'Helsing'
 
     def getJobs(self, driver, web_page, company) -> list:
         self.log_info(
@@ -13,16 +13,16 @@ class ScrapeWorkday(ScrapeIt):
         )
         driver.implicitly_wait(15)
         driver.get(web_page)
-        # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//a[@data-uxi-element-id]')
+        group_elements = driver.find_elements(By.XPATH, '//div[@data-label="Position"]/..')
         result = []
         for elem in group_elements:
-            job_name_elem = elem
-            job_name = job_name_elem.text
-            locator = f"//li//a[.='{job_name}']/../../../../..//div[@data-automation-id='locations']//dd"
-            location_elem = driver.find_element(By.XPATH, locator)
-            job_url = job_name_elem.get_attribute('href')
-            location = location_elem.text
+            title_elem = elem.find_element(By.XPATH, './/div[@data-label="Position"]')
+            location_elem = elem.find_element(By.XPATH, './/div[@data-label="Location"]')
+            job_name = (title_elem.get_attribute('textContent') or '').strip()
+            location = (location_elem.get_attribute('textContent') or '').strip()
+            if not job_name:
+                continue
+            job_url = elem.get_attribute('href')
             job = {
                 "company": company,
                 "title": job_name,
