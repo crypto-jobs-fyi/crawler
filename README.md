@@ -193,5 +193,4 @@ The following companies are targeted for future integration:
 
 to be fixed:
 
-CompanyItem('Tenderly', 'https://tenderly.co/careers#roles', custom, 'https://tenderly.co'),
-CompanyItem('trmlabs', 'https://www.trmlabs.com/careers-list', Scrapers.GREENHOUSE, 'https://www.trmlabs.com')
+CompanyItem('Tenderly', 'https://careers.kula.ai/tenderly', custom, 'https://tenderly.co'),

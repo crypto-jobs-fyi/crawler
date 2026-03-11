@@ -26,12 +26,12 @@ def scraper():
 
 @pytest.fixture
 def company():
-    """Fixture to create a TRM Labs CompanyItem."""
+    """Fixture to create a layerzerolabs CompanyItem."""
     return CompanyItem("layerzerolabs", "https://boards.greenhouse.io/layerzerolabs", Scrapers.GREENHOUSE,
                     "https://layerzero.network")
 
 def test_greenhouse_scraper(driver, scraper, company):
-    """Test Greenhouse scraper with TRM Labs to verify job extraction."""
+    """Test Greenhouse scraper with layerzerolabs to verify job extraction."""
     # Act
     jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
     

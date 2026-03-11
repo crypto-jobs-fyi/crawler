@@ -28,6 +28,15 @@
             "headless": true
         },
         {
+            "name": "trmlabs",
+            "jobs_url": "https://jobs.ashbyhq.com/trm-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.trmlabs.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "fireblocks",
             "jobs_url": "https://job-boards.greenhouse.io/fireblocks",
             "scraper": "GREENHOUSE",
