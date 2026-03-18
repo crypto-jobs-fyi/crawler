@@ -1729,6 +1729,15 @@
             "headless": true
         },
         {
+            "name": "modular",
+            "jobs_url": "https://jobs.gem.com/modular",
+            "scraper": "GEM",
+            "company_url": "https://www.modular.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "GPTZero",
             "jobs_url": "https://jobs.ashbyhq.com/GPTZero",
             "scraper": "ASHBYHQ",
