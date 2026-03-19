@@ -2,15 +2,15 @@
     "data": [
         {
             "company": "trading212",
+            "title": "Lead Backend Software Engineer",
+            "location": "Multiple Locations; Berlin; London; Poland; Sofia; Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/cc0b759a-9601-40ca-92b6-8397d7a3e5e1"
+        },
+        {
+            "company": "trading212",
             "title": "Senior Compliance Officer",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/trading212/bc1de40f-bdea-429e-8d66-9f61ff2dce98"
-        },
-        {
-            "company": "interactivebrokers",
-            "title": "Technical Operations SpecialistNew",
-            "location": "Dublin, Ireland",
-            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8458337002"
         },
         {
             "company": "flex",
@@ -31,6 +31,30 @@
             "link": "https://job-boards.greenhouse.io/flex/jobs/4673692005"
         },
         {
+            "company": "flex",
+            "title": "Senior Counsel, CommercialNew",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4674024005"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Technical Operations SpecialistNew",
+            "location": "Dublin, Ireland",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8458337002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Technical Operations Specialist (TOPS) New",
+            "location": "Vancouver, BC, Canada",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8465047002"
+        },
+        {
+            "company": "moneybox",
+            "title": "Senior Compliance Manager (Projects & Innovation)",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/679fa5e8-0540-48fe-8af2-91d1a914e0f7"
+        },
+        {
             "company": "qonto",
             "title": "Enterprise Risk Manager",
             "location": "PARIS / BARCELONA,HYBRID",
@@ -44,9 +68,27 @@
         },
         {
             "company": "qonto",
-            "title": "Junior AML - Transaction Monitoring - French Market",
-            "location": "PARIS / BARCELONA,HYBRID",
-            "link": "https://jobs.lever.co/qonto/92595aaf-d78e-427f-a8e0-7e275ee680a7"
+            "title": "Internal Controller - Tech",
+            "location": "PARIS,ON-SITE",
+            "link": "https://jobs.lever.co/qonto/e2b9d873-c2b7-4d44-ac52-f4abedc4e13d"
+        },
+        {
+            "company": "qonto",
+            "title": "Financial Planning & Analysis (FP&A) Intern",
+            "location": "PARIS,ON-SITE",
+            "link": "https://jobs.lever.co/qonto/e735c8a1-7cb6-40e3-bdcf-70fa4422f204"
+        },
+        {
+            "company": "qonto",
+            "title": "Customer Loyalty & Community Builder \ud83c\uddeb\ud83c\uddf7",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/a87d38b5-71f8-49e5-a075-bfc107181c60"
+        },
+        {
+            "company": "qonto",
+            "title": "Head of Partnerships Deutschland (m/w/d)",
+            "location": "BERLIN,HYBRID",
+            "link": "https://jobs.lever.co/qonto/d77ff5ff-1de2-4dfc-b6ef-828d613f426f"
         },
         {
             "company": "qonto",
@@ -55,20 +97,56 @@
             "link": "https://jobs.lever.co/qonto/06c1f0cc-8f6f-4479-b55d-9f2e22b52b75"
         },
         {
-            "company": "qonto",
-            "title": "Senior Product Manager - Accounting Domain",
-            "location": "PARIS / BERLIN / VIENNA / MILAN / LISBON / BRUSSELS / BELGRADE / ATHENS / BARCELONA / AMSTERDAM,HYBRID",
-            "link": "https://jobs.lever.co/qonto/4aff341d-3732-418f-b6fa-84e36c1e7979"
+            "company": "affirm",
+            "title": "Software Engineer II, Backend (Consumer Authentication)New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7666050003"
         },
         {
-            "company": "qonto",
-            "title": "Senior Frontend Engineer (React) - Remote Friendly",
-            "location": "PARIS / BARCELONA / MILAN / LISBON,REMOTE",
-            "link": "https://jobs.lever.co/qonto/a3830956-2107-4cc5-a647-a6f30f1987b4"
+            "company": "affirm",
+            "title": "Software Engineering Apprentice, BackendNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7647925003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Fullstack (Consumer Engineering)New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7663434003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Fullstack (Consumer Engineering)New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7663436003"
+        },
+        {
+            "company": "affirm",
+            "title": "Customer Advocacy Specialist INew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7666200003"
+        },
+        {
+            "company": "affirm",
+            "title": "Implementation Specialist INew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7666196003"
+        },
+        {
+            "company": "affirm",
+            "title": "Implementation Specialist INew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7666194003"
+        },
+        {
+            "company": "affirm",
+            "title": "Analyst II, Strategic InsightsNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7661776003"
         },
         {
             "company": "9fin",
-            "title": "Credit Analyst",
+            "title": "Credit Analyst - US Hours",
             "location": "Belfast",
             "link": "https://jobs.ashbyhq.com/9fin/92d7b566-b95a-4fdd-b138-3fe320fc0e97"
         },
@@ -79,10 +157,22 @@
             "link": "https://jobs.ashbyhq.com/9fin/0441def8-a028-4ec4-b699-c2bd817706dd"
         },
         {
-            "company": "affirm",
-            "title": "Analyst II, Strategic InsightsNew",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7661776003"
+            "company": "9fin",
+            "title": "Sales Development Representative",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/9fin/988ee3fd-b71c-4cdd-8719-e9fcbcf7e22c"
+        },
+        {
+            "company": "grape-health",
+            "title": "Claims Manager/Sachbearbeiter:in",
+            "location": "Z\u00dcRICH,HYBRID",
+            "link": "https://jobs.eu.lever.co/grape-health/e610769a-3021-4caa-9533-7c2974c97107"
+        },
+        {
+            "company": "addepar",
+            "title": "Communications ManagerNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8464433002"
         },
         {
             "company": "addepar",
@@ -91,10 +181,28 @@
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8451459002"
         },
         {
-            "company": "capitalontap",
-            "title": "Customer Service Advisor - Remote UK",
-            "location": "UK-Remote",
-            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8403398002"
+            "company": "addepar",
+            "title": "Full Stack Software Engineer - Feed & Workflow IntelligenceNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8461617002"
+        },
+        {
+            "company": "addepar",
+            "title": "Sr. Backend Software Engineer - Platform IntegrationNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8459095002"
+        },
+        {
+            "company": "addepar",
+            "title": "Copywriter",
+            "location": "Remote, Canada",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8111228002"
+        },
+        {
+            "company": "addepar",
+            "title": "Sales Enablement Manager - Client SuccessNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8354331002"
         },
         {
             "company": "capitalontap",
@@ -104,9 +212,33 @@
         },
         {
             "company": "capitalontap",
+            "title": "Customer Service Team Leader - MidnightsNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8468400002"
+        },
+        {
+            "company": "capitalontap",
             "title": "Fraud InvestigatorNew",
             "location": "Cardiff",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8464757002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Junior Fraud InvestigatorNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8465537002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Remote Customer Service Advisor - Nights",
+            "location": "Remote - UK",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8444568002"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Quality Assurance Operations",
+            "location": "Bangalore (Hybrid)",
+            "link": "https://jobs.ashbyhq.com/oneapp/7ffed0c8-e69f-41aa-b009-13eb540ba640"
         },
         {
             "company": "yuno",
@@ -128,15 +260,81 @@
         },
         {
             "company": "capital",
+            "title": "Risk Manager",
+            "location": "SINGAPORE,ON-SITE",
+            "link": "https://jobs.lever.co/capital/98f2308c-8ebb-4059-a8f2-1f41cf5b23df"
+        },
+        {
+            "company": "capital",
             "title": "Housekeeper",
             "location": "LIMASSOL, CYPRUS,ON-SITE",
             "link": "https://jobs.lever.co/capital/fcb03f12-3d6f-465c-be5f-41a7d13af636"
         },
         {
             "company": "capital",
+            "title": "Data Analyst (Financial Analytics focus)",
+            "location": "SOFIA CITY, BULGARIA / LIMASSOL, CYPRUS / WARSAW, MAZOWIECKIE, POLAND,HYBRID",
+            "link": "https://jobs.lever.co/capital/5a729f11-ad21-4e28-8019-a096032b1ca6"
+        },
+        {
+            "company": "capital",
+            "title": "Data Engineer (Financial Analytics focus)",
+            "location": "MELBOURNE, VICTORIA, AUSTRALIA,HYBRID",
+            "link": "https://jobs.lever.co/capital/27796ac0-6d19-47e9-ac82-65da2a249e6a"
+        },
+        {
+            "company": "capital",
             "title": "Senior DevOps/SRE Engineer",
             "location": "WARSAW, MAZOWIECKIE, POLAND / LIMASSOL, CYPRUS / SOFIA CITY, BULGARIA,REMOTE",
             "link": "https://jobs.lever.co/capital/881751bd-e3c8-47e8-9e20-39d8c7ed1b02"
+        },
+        {
+            "company": "earnin",
+            "title": "Compliance Management System (CMS) Analyst",
+            "location": "Remote, US",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7641392"
+        },
+        {
+            "company": "earnin",
+            "title": "Operations AssociateNew",
+            "location": "Mountain View, US",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7729889"
+        },
+        {
+            "company": "earnin",
+            "title": "Manager, Software EngineeringNew",
+            "location": "Mexico City, Mexico",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7728228"
+        },
+        {
+            "company": "earnin",
+            "title": "Software EngineerNew",
+            "location": "Mexico City, Mexico",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7724337"
+        },
+        {
+            "company": "earnin",
+            "title": "Sr. Software EngineerNew",
+            "location": "Remote, Mexico",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7724470"
+        },
+        {
+            "company": "earnin",
+            "title": "Sr. Software EngineerNew",
+            "location": "Mexico City, Mexico",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7724486"
+        },
+        {
+            "company": "earnin",
+            "title": "Business Development DirectorNew",
+            "location": "Remote, US",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7729935"
+        },
+        {
+            "company": "earnin",
+            "title": "Sr People & Culture Manager, APACNew",
+            "location": "Bengaluru, India",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/7707828"
         },
         {
             "company": "rillet.com",
