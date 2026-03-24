@@ -25,6 +25,15 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
+      - name: Get before total jobs
+        id: before
+        run: |
+          if [ -f ai_current_jobs_ashby.json ]; then
+            echo "total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' ai_current_jobs_ashby.json)" >> $GITHUB_OUTPUT
+          else
+            echo "total=0" >> $GITHUB_OUTPUT
+          fi
+
       - name: Run crawler_ai_ashby.py
         run: python crawler_ai_ashby.py
 
@@ -34,8 +43,10 @@ jobs:
         run: |
           ls -l
           echo "current=$(jq -c . ai_current_jobs_ashby.json)" >> $GITHUB_OUTPUT
+          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' ai_current_jobs_ashby.json)" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
+        id: create-pr
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -46,8 +57,19 @@ jobs:
           body: |
             This PR contains changes made by running crawler_ai_ashby.py via GitHub Actions.
 
-            ```json
-            ${{ steps.set-output.outputs.current }}
-            ```
+            "Total Jobs": ${{ steps.before.outputs.total }} -> "Total Jobs": ${{ steps.set-output.outputs.after_total }}
           delete-branch: true
           reviewers: yury-dubinin
+
+      - name: Add full jobs data as PR comment
+        if: steps.create-pr.outputs.pull-request-operation != 'none'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo '### Full Jobs Data'
+            echo '```json'
+            jq . ai_current_jobs_ashby.json
+            echo '```'
+          } > /tmp/comment_body.md
+          gh pr comment "${{ steps.create-pr.outputs.pull-request-number }}" --body-file /tmp/comment_body.md
