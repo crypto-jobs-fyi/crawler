@@ -865,6 +865,15 @@
             "headless": true
         },
         {
+            "name": "polymarket",
+            "jobs_url": "https://jobs.ashbyhq.com/polymarket",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://polymarket.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "conduit",
             "jobs_url": "https://jobs.ashbyhq.com/Conduit",
             "scraper": "ASHBYHQ",
