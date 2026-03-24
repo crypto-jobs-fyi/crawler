@@ -1,4 +1,4 @@
-name: Run Crawler FinTech
+name: Run Crawler FinTech Mix
 
 on:
   schedule:
@@ -28,8 +28,8 @@ jobs:
       - name: Get before total jobs
         id: before
         run: |
-          if [ -f fin_current.json ]; then
-            echo "total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' fin_current.json)" >> $GITHUB_OUTPUT
+          if [ -f fin_current_jobs_mix.json ]; then
+            echo "total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' fin_current_jobs_mix.json)" >> $GITHUB_OUTPUT
           else
             echo "total=0" >> $GITHUB_OUTPUT
           fi
@@ -48,8 +48,8 @@ jobs:
         id: set-output
         run: |
           ls -l
-          echo "current=$(jq -c . fin_current.json)" >> $GITHUB_OUTPUT
-          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' fin_current.json)" >> $GITHUB_OUTPUT
+          echo "current=$(jq -c . fin_current_jobs_mix.json)" >> $GITHUB_OUTPUT
+          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' fin_current_jobs_mix.json)" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         id: create-pr
@@ -75,7 +75,7 @@ jobs:
           {
             echo '### Full Jobs Data'
             echo '```json'
-            jq . fin_current.json
+            jq . fin_current_jobs_mix.json
             echo '```'
           } > /tmp/comment_body.md
           gh pr comment "${{ steps.create-pr.outputs.pull-request-number }}" --body-file /tmp/comment_body.md
