@@ -69,7 +69,7 @@ jobs:
           {
             echo '### Full Jobs Data'
             echo '```json'
-            jq . ai_current_jobs_ashby.json
+            echo '${{ steps.set-output.outputs.current }}' | jq .
             echo '```'
           } > /tmp/comment_body.md
           gh pr comment "${{ steps.create-pr.outputs.pull-request-number }}" --body-file /tmp/comment_body.md
