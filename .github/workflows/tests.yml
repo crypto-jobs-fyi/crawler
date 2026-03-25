@@ -1,4 +1,4 @@
-name: Tests
+name: CI Tests
 
 on:
   push:
@@ -13,6 +13,46 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - shard: 1
+            tests: >-
+              test/test_applied_intuition_scraper.py
+              test/test_ashbyhq_scraper.py
+              test/test_avara_scraper.py
+              test/test_base_scraper.py
+              test/test_btcsuisse.py
+              test/test_c3_scraper.py
+              test/test_circle_scraper.py
+          - shard: 2
+            tests: >-
+              test/test_cleo_scraper.py
+              test/test_coinbase_scraper.py
+              test/test_company_list.py
+              test/test_consensys_scraper.py
+              test/test_gem.py
+              test/test_gemini_scraper.py
+              test/test_greenhouse_scraper.py
+          - shard: 3
+            tests: >-
+              test/test_helsing_scraper.py
+              test/test_kula.py
+              test/test_lever_scraper.py
+              test/test_lmax_scraper.py
+              test/test_nebius_scraper.py
+              test/test_paxos_scraper.py
+              test/test_recruitee_scraper.py
+          - shard: 4
+            tests: >-
+              test/test_remote_configs_migration.py
+              test/test_ripple_scraper.py
+              test/test_robinhood_scraper.py
+              test/test_smartrecruiters_scraper.py
+              test/test_sygnum_scraper.py
+              test/test_workable_scraper.py
+              test/test_world.py
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,7 +68,7 @@ jobs:
           sudo apt-get install -y xvfb
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run tests
+      - name: Run tests (shard ${{ matrix.shard }})
         run: |
           export PYTHONPATH=$PYTHONPATH:.
-          xvfb-run pytest
+          xvfb-run pytest ${{ matrix.tests }}
