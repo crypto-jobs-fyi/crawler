@@ -12,12 +12,13 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.runner }}
     strategy:
       fail-fast: false
       matrix:
         include:
           - shard: 1
+            runner: ubuntu-latest
             tests: >-
               test/test_applied_intuition_scraper.py
               test/test_ashbyhq_scraper.py
@@ -27,6 +28,7 @@ jobs:
               test/test_c3_scraper.py
               test/test_circle_scraper.py
           - shard: 2
+            runner: ubuntu-latest
             tests: >-
               test/test_cleo_scraper.py
               test/test_coinbase_scraper.py
@@ -36,6 +38,7 @@ jobs:
               test/test_gemini_scraper.py
               test/test_greenhouse_scraper.py
           - shard: 3
+            runner: ubuntu-latest
             tests: >-
               test/test_kula.py
               test/test_lever_scraper.py
@@ -44,6 +47,7 @@ jobs:
               test/test_paxos_scraper.py
               test/test_recruitee_scraper.py
           - shard: 4
+            runner: ubuntu-latest
             tests: >-
               test/test_ripple_scraper.py
               test/test_robinhood_scraper.py
@@ -51,7 +55,9 @@ jobs:
               test/test_sygnum_scraper.py
               test/test_workable_scraper.py
               test/test_world.py
-              test/test_helsing_scraper.py
+          - shard: 5
+            runner: macos-latest
+            tests: test/test_helsing_scraper.py
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -61,13 +67,26 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install dependencies
+      - name: Install dependencies (Linux)
+        if: runner.os == 'Linux'
         run: |
           sudo apt-get update
           sudo apt-get install -y xvfb
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Run tests (shard ${{ matrix.shard }})
+      - name: Install dependencies (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run tests (shard ${{ matrix.shard }}, Linux)
+        if: runner.os == 'Linux'
         run: |
           export PYTHONPATH=$PYTHONPATH:.
           xvfb-run pytest ${{ matrix.tests }}
+
+      - name: Run tests (shard ${{ matrix.shard }}, macOS)
+        if: runner.os == 'macOS'
+        run: |
+          export PYTHONPATH=$PYTHONPATH:.
+          pytest ${{ matrix.tests }}
