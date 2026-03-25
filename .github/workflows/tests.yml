@@ -20,13 +20,11 @@ jobs:
           - shard: 1
             runner: ubuntu-latest
             tests: >-
-              test/test_applied_intuition_scraper.py
               test/test_ashbyhq_scraper.py
               test/test_avara_scraper.py
               test/test_base_scraper.py
               test/test_btcsuisse.py
               test/test_c3_scraper.py
-              test/test_circle_scraper.py
           - shard: 2
             runner: ubuntu-latest
             tests: >-
@@ -49,15 +47,17 @@ jobs:
           - shard: 4
             runner: ubuntu-latest
             tests: >-
-              test/test_ripple_scraper.py
               test/test_robinhood_scraper.py
               test/test_smartrecruiters_scraper.py
-              test/test_sygnum_scraper.py
               test/test_workable_scraper.py
               test/test_world.py
           - shard: 5
             runner: macos-latest
-            tests: test/test_helsing_scraper.py
+            tests: >-
+              test/test_helsing_scraper.py
+              test/test_circle_scraper.py
+              test/test_ripple_scraper.py
+              test/test_sygnum_scraper.py
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
