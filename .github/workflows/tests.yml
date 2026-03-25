@@ -37,7 +37,6 @@ jobs:
               test/test_greenhouse_scraper.py
           - shard: 3
             tests: >-
-              test/test_helsing_scraper.py
               test/test_kula.py
               test/test_lever_scraper.py
               test/test_lmax_scraper.py
@@ -46,19 +45,19 @@ jobs:
               test/test_recruitee_scraper.py
           - shard: 4
             tests: >-
-              test/test_remote_configs_migration.py
               test/test_ripple_scraper.py
               test/test_robinhood_scraper.py
               test/test_smartrecruiters_scraper.py
               test/test_sygnum_scraper.py
               test/test_workable_scraper.py
               test/test_world.py
+              test/test_helsing_scraper.py
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
