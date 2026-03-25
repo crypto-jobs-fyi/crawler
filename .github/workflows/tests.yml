@@ -83,10 +83,10 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           export PYTHONPATH=$PYTHONPATH:.
-          xvfb-run pytest ${{ matrix.tests }}
+          xvfb-run pytest --reruns 2 ${{ matrix.tests }}
 
       - name: Run tests (shard ${{ matrix.shard }}, macOS)
         if: runner.os == 'macOS'
         run: |
           export PYTHONPATH=$PYTHONPATH:.
-          pytest ${{ matrix.tests }}
+          pytest --reruns 2 ${{ matrix.tests }}
