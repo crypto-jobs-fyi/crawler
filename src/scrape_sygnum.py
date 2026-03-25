@@ -53,6 +53,7 @@ class ScrapeSygnum(ScrapeIt):
         )
         driver.implicitly_wait(5)
         driver.get(web_page)
+        time.sleep(5) # wait for page to load after interactions
         self.tryAcceptCookies(driver)
         self.tryAcceptGeo(driver)
         self.tryClickClose(driver)
