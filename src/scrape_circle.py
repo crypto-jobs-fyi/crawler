@@ -6,19 +6,30 @@ from src.logging_utils import get_logger
 module_logger = get_logger(__name__)
 
 
+_LOCATION_MAP = {
+    "United States of America": "US",
+    "United Kingdom": "UK",
+}
+
+
+def shorten_location(location: str) -> str:
+    return _LOCATION_MAP.get(location, location)
+
+
 def to_records(driver, company) -> list:
-    group_elements = driver.find_elements(By.CSS_SELECTOR, 'h3 a[href]')
+    group_elements = driver.find_elements(By.XPATH, '//div[@data-ph-at-id="jobs-list"]')
     result = []
     module_logger.info(
         "Circle jobs found",
         extra={"company": company, "jobs_found": len(group_elements)},
     )
     for elem in group_elements:
-        job_url = elem.get_attribute('href')
+        job_url = elem.find_element(By.XPATH, './/a[@data-ph-at-id="job-link"]').get_attribute('href')
+        location = shorten_location(elem.find_element(By.XPATH, './/div[@data-ph-at-id="job-country"]').text)
         job = {
             "company": company,
             "title": elem.text,
-            "location": 'US',
+            "location": location,
             "link": job_url
         }
         result.append(job)
