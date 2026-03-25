@@ -30,6 +30,7 @@ def company():
     return CompanyItem("ripple", "https://ripple.com/careers/all-jobs", Scrapers.RIPPLE, "https://ripple.com")
 
 
+# pytest test/test_ripple_scraper.py::test_ripple_scraper
 def test_ripple_scraper(driver, scraper, company):
     """Test Ripple scraper to verify job extraction."""
     # Act

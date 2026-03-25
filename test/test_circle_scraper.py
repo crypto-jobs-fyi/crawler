@@ -31,6 +31,7 @@ def company():
     return CompanyItem("circle", "https://careers.circle.com/us/en/search-results", Scrapers.CIRCLE, "https://www.circle.com")
 
 
+# pytest test/test_circle_scraper.py::test_circle_scraper
 def test_circle_scraper(driver, scraper, company):
     """Test Circle scraper to verify job extraction."""
     # Act

@@ -8,7 +8,7 @@ class ScrapeSygnum(ScrapeIt):
 
     def tryAcceptCookies(self, driver):
         try:
-            acceptCookies = driver.find_elements(By.XPATH, '//button[.="Essential only"]')
+            acceptCookies = driver.find_elements(By.XPATH, '//button[.="Accept"]')
             if len(acceptCookies) > 0:
                 acceptCookies[0].click()
         except Exception as e:
@@ -32,6 +32,19 @@ class ScrapeSygnum(ScrapeIt):
             )
         return
 
+    def tryClickClose(self, driver):
+        try:
+            closeBtn = driver.find_elements(By.XPATH, '//a[.="Close"]')
+            if len(closeBtn) > 0:
+                closeBtn[0].click()
+        except Exception as e:
+            self.log_error(
+                "Close button click failed",
+                error=str(e),
+                exc_info=True,
+            )
+        return
+
     def getJobs(self, driver, web_page, company = 'sygnum') -> list:
         self.log_info(
             "Scrape page",
@@ -42,6 +55,8 @@ class ScrapeSygnum(ScrapeIt):
         driver.get(web_page)
         self.tryAcceptCookies(driver)
         self.tryAcceptGeo(driver)
+        self.tryClickClose(driver)
+        time.sleep(3) # wait for page to load after interactions
         # use reverse strategy from a link to a title
         group_elements = driver.find_elements(By.XPATH, '//ul/li[@class="results-list__item result-item"]')
         result = []

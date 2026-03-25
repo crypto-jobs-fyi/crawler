@@ -31,6 +31,7 @@ def company():
                        "https://helsing.ai")
 
 
+# pytest test/test_helsing_scraper.py::test_helsing_scraper
 def test_helsing_scraper(driver, scraper, company):
     """Test Helsing scraper to verify job extraction."""
     # Act

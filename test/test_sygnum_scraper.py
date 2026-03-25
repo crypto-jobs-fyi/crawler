@@ -30,6 +30,7 @@ def company():
     return CompanyItem('sygnum', 'https://www.sygnum.com/careers-portal', Scrapers.SYGNUM, 'https://www.sygnum.com')
 
 
+# pytest test/test_sygnum_scraper.py::test_sygnum_scraper
 def test_sygnum_scraper(driver, scraper, company):
     """Test Sygnum scraper to verify job extraction."""
     # Act

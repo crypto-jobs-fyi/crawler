@@ -47,7 +47,7 @@ def _stringify(value: Any) -> Any:
 class _JsonFormatter(logging.Formatter):
     def format(self, record: logging.LogRecord) -> str:
         log_record: Dict[str, Any] = {
-            "timestamp": datetime.utcfromtimestamp(record.created).isoformat(timespec="milliseconds") + "Z",
+            "timestamp": datetime.fromtimestamp(record.created, datetime.UTC).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
             "level": record.levelname,
             "logger": record.name,
             "message": record.getMessage(),
