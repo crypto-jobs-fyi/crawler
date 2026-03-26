@@ -13,7 +13,10 @@ _LOCATION_MAP = {
 
 
 def shorten_location(location: str) -> str:
-    return _LOCATION_MAP.get(location, location)
+    for full, short in _LOCATION_MAP.items():
+        if full in location:
+            return short
+    return location
 
 
 def to_records(driver, company) -> list:
@@ -24,11 +27,12 @@ def to_records(driver, company) -> list:
         extra={"company": company, "jobs_found": len(group_elements)},
     )
     for elem in group_elements:
-        job_url = elem.find_element(By.XPATH, './/a[@data-ph-at-id="job-link"]').get_attribute('href')
+        job_elem = elem.find_element(By.XPATH, './/a[@data-ph-at-id="job-link"]')
+        job_url = job_elem.get_attribute('href')
         location = shorten_location(elem.find_element(By.XPATH, './/div[@data-ph-at-id="job-country"]').text)
         job = {
             "company": company,
-            "title": elem.text,
+            "title": job_elem.text,
             "location": location,
             "link": job_url
         }

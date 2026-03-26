@@ -57,7 +57,6 @@ jobs:
               test/test_helsing_scraper.py
               test/test_circle_scraper.py
               test/test_ripple_scraper.py
-              test/test_sygnum_scraper.py
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6

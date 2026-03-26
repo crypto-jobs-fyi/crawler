@@ -52,3 +52,5 @@ def test_circle_scraper(driver, scraper, company):
         assert isinstance(job["title"], str) and len(job["title"]) > 0, "Job title should be non-empty string"
         assert job["link"].startswith("http"), "Job link should be a valid URL"
         assert isinstance(job["location"], str) and len(job["location"]) > 0, "Location should be non-empty string"
+        assert job["location"] not in ("United States of America", "United Kingdom"), \
+            f"Location should be shortened, got: {job['location']}"
