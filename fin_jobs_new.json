@@ -2,15 +2,81 @@
     "data": [
         {
             "company": "trading212",
+            "title": "Compliance Officer",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/d048e7dd-e065-43b6-a77a-8ce7477c80b8"
+        },
+        {
+            "company": "trading212",
+            "title": "Junior Compliance Officer",
+            "location": "Berlin",
+            "link": "https://jobs.ashbyhq.com/trading212/2d14860d-3bd9-4fb3-8da0-f6ac122c455c"
+        },
+        {
+            "company": "trading212",
             "title": "Junior Treasury Analyst",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/trading212/052cddb3-3032-4f85-9488-f2e8dc469dc3"
         },
         {
             "company": "truelayer",
+            "title": "Sales Development Representative New",
+            "location": "London, UK",
+            "link": "https://job-boards.eu.greenhouse.io/truelayer/jobs/4822616101"
+        },
+        {
+            "company": "truelayer",
             "title": "Software Engineer New",
             "location": "Milan, Italy",
             "link": "https://job-boards.eu.greenhouse.io/truelayer/jobs/4819709101"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "AML Compliance \u2013 Testing & Monitoring OfficerNew",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8475126002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Java Software Developer (Mid-Senior Level)",
+            "location": "Greenwich, CT",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/7909026002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Prediction Market AnalystNew",
+            "location": "Greenwich, CT",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8475487002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Web Infrastructure Engineer New",
+            "location": "Greenwich, CT",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8474682002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "Enterprise Service Desk AnalystNew",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8478690002"
+        },
+        {
+            "company": "interactivebrokers",
+            "title": "System Operations Specialist / System Support Specialist New",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8476612002"
+        },
+        {
+            "company": "flex",
+            "title": "Associate General Counsel, CommercialNew",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4677467005"
+        },
+        {
+            "company": "flex",
+            "title": "Associate General Counsel, CommercialNew",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4677469005"
         },
         {
             "company": "flex",
@@ -31,16 +97,76 @@
             "link": "https://job-boards.greenhouse.io/flex/jobs/4676461005"
         },
         {
-            "company": "interactivebrokers",
-            "title": "Web Infrastructure Engineer New",
-            "location": "Greenwich, CT",
-            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8474682002"
+            "company": "flex",
+            "title": "Manager, Compensation and RewardsNew",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4671125005"
         },
         {
-            "company": "interactivebrokers",
-            "title": "System Operations Specialist / System Support Specialist New",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/ibkr/jobs/8476612002"
+            "company": "flex",
+            "title": "Manager, Compensation and RewardsNew",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4677328005"
+        },
+        {
+            "company": "Aven",
+            "title": "GTM Engineer, Sales",
+            "location": "Campbell, CA",
+            "link": "https://jobs.ashbyhq.com/Aven/faf690a3-bcbb-4bfa-8067-8790eb274dd7"
+        },
+        {
+            "company": "affirm",
+            "title": "Software Engineer I, Backend (Purchasing Power)New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7673122003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer, Back-end (Identity Engineering)New",
+            "location": "Remote UK",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7678488003"
+        },
+        {
+            "company": "affirm",
+            "title": "Manager, Software Engineering (Card Experiences)New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7675533003"
+        },
+        {
+            "company": "affirm",
+            "title": "Finance Strategy & Development LeadNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7664629003"
+        },
+        {
+            "company": "affirm",
+            "title": "Finance Strategy & Development LeadNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7664631003"
+        },
+        {
+            "company": "9fin",
+            "title": "Demand Generation Marketing Associate",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/025fac55-bd0c-4ce3-99ff-63feeb2477bc"
+        },
+        {
+            "company": "9fin",
+            "title": "Product Marketing Manager",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/181a7413-0257-4b3e-8cf5-6c9534d2ae11"
+        },
+        {
+            "company": "9fin",
+            "title": "Product Marketing Manager",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/9fin/3d807142-3142-43a3-86a8-84ef3d3c662b"
+        },
+        {
+            "company": "addepar",
+            "title": "Software Engineer New",
+            "location": "Pune, India",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8249306002"
         },
         {
             "company": "addepar",
@@ -50,9 +176,39 @@
         },
         {
             "company": "addepar",
+            "title": "Sr. Product Manager - API Strategy and Customer IdentityNew",
+            "location": "Remote, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8470946002"
+        },
+        {
+            "company": "addepar",
             "title": "Data Conversion Project Manager (Pune)New",
-            "location": "Bengaluru, India; Pune, India; Remote, Pune, India",
+            "location": "Pune, India",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8471221002"
+        },
+        {
+            "company": "addepar",
+            "title": "Data Solutions ConsultantNew",
+            "location": "Pune, India",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8478903002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Collections OfficerNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8476924002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "FinCrime EDD Team Leader",
+            "location": "Manchester",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8351906002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Senior Customer Insights Manager",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8377856002"
         },
         {
             "company": "capitalontap",
@@ -68,6 +224,12 @@
         },
         {
             "company": "onepay.com",
+            "title": "Agentic Platform Engineer",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/60211bb5-bec1-4203-9fab-ad1fb1ba0c0f"
+        },
+        {
+            "company": "onepay.com",
             "title": "Product Operations, Project Manager",
             "location": "US (Remote)",
             "link": "https://jobs.ashbyhq.com/oneapp/4ab3a245-2303-4d84-9046-a651638a2d64"
@@ -77,6 +239,24 @@
             "title": "Manager, CEO Office",
             "location": "EUROPE / PORTUGAL / ITALY / BOGOTA / ARGENTINA / CHILE / MEXICO / GREECE / AMSTERDAM,REMOTE",
             "link": "https://jobs.lever.co/yuno/44f0ba0a-737d-45b7-8d2e-fc263df831e3"
+        },
+        {
+            "company": "yuno",
+            "title": "Director of Implementation and Technical Account Management",
+            "location": "EUROPE,REMOTE",
+            "link": "https://jobs.lever.co/yuno/07493159-449e-49f0-9559-39c6745325bf"
+        },
+        {
+            "company": "yuno",
+            "title": "Backend Developer - Integrations",
+            "location": "SHANGHAI / HONG KONG / SHENZHEN,REMOTE",
+            "link": "https://jobs.lever.co/yuno/a9a5abcc-112c-47a3-ba23-6a153c764375"
+        },
+        {
+            "company": "capital",
+            "title": "Assistant Financial Accountant",
+            "location": "SINGAPORE,ON-SITE",
+            "link": "https://jobs.lever.co/capital/cb1e920e-2e5d-410d-8325-fa9b1faf71f3"
         },
         {
             "company": "capital",
@@ -89,6 +269,18 @@
             "title": "Senior Full Stack Engineer - React + Node.js",
             "location": "WARSAW, MAZOWIECKIE, POLAND,HYBRID",
             "link": "https://jobs.lever.co/capital/e590af20-3480-4157-a025-36f9d28c6414"
+        },
+        {
+            "company": "smartasset",
+            "title": "Sales Development Representative",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/smartasset/jobs/8343938002"
+        },
+        {
+            "company": "smartasset",
+            "title": "Software EngineerNew",
+            "location": "Remote, Contiguous US",
+            "link": "https://job-boards.greenhouse.io/smartasset/jobs/8474888002"
         },
         {
             "company": "earnin",
@@ -116,15 +308,33 @@
         },
         {
             "company": "Cleo",
-            "title": "Product Analyst (New Bets Team)",
-            "location": "Remote: Portugal | Spain | UK",
-            "link": "https://revolutpeople.com/cleo/public/careers/position/product-analyst-new-bets-team-695c37d4-5be6-4d77-bcdc-67e0db417eca"
+            "title": "Senior Python Engineer (Remote)",
+            "location": "Remote: Germany",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/senior-python-engineer-remote-fe580188-d110-4f0c-b109-c90266c8bf2a"
+        },
+        {
+            "company": "Cleo",
+            "title": "Lead Machine Learning Engineer- Chat & GenAI",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/lead-machine-learning-engineer-chat-gen-ai-00739549-8ec9-49b5-835f-cd5dfc1e4ede"
+        },
+        {
+            "company": "Cleo",
+            "title": "Research Ops Specialist",
+            "location": "Remote: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/research-ops-specialist-9df835f5-acb9-4a99-a517-7306f1219797"
         },
         {
             "company": "huspy",
             "title": "Sales Account Executive - Sevilla",
             "location": "Office: Sevilla",
             "link": "https://revolutpeople.com/huspy/public/careers/position/sales-account-executive-sevilla-88ed8eea-dedb-46c3-b1e4-bbddbab0be09"
+        },
+        {
+            "company": "huspy",
+            "title": "Office Admin",
+            "location": "Office: Riyadh",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/office-admin-c56f2db2-4e39-4cfa-a83b-7d2ca46d3dff"
         }
     ]
 }
