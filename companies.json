@@ -1909,6 +1909,15 @@
             "headless": true
         },
         {
+            "name": "temporal.io",
+            "jobs_url": "https://job-boards.greenhouse.io/temporaltechnologies",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://temporal.io",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "mistral",
             "jobs_url": "https://jobs.lever.co/mistral",
             "scraper": "LEVER",
