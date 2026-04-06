@@ -25,7 +25,7 @@ def update_job_ages(jobs_file, jobs_age_file, current_json_file, history_file):
             extra={"jobs_age_file": jobs_age_file, "age_record_count": len(age_data)},
         )
 
-    current_jobs = {"Total Jobs": len(jobs_data)}
+    current_jobs = {"total_jobs": len(jobs_data)}
     for j in jobs_data:
         company_name = j.get('company')
         current_jobs[company_name] = current_jobs.get(company_name, 0) + 1

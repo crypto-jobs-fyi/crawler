@@ -22,8 +22,8 @@ def cleanup_history(history_file: str, company_list: list, label: str) -> tuple[
     
     # Find companies in history that are not in company list
     history_companies = set(history.keys())
-    # Exclude meta entries like "Total Jobs"
-    companies_to_remove = (history_companies - active_companies) - {"Total Jobs"}
+    # Exclude meta entries like "total_jobs"
+    companies_to_remove = (history_companies - active_companies) - {"total_jobs"}
     
     if not companies_to_remove:
         logger.info(

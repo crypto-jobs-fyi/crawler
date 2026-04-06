@@ -25,7 +25,7 @@ jobs:
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Get before total jobs
+      - name: Get before total_jobs
         id: before
         run: |
           if [ -f ai_current_jobs_ashby.json ]; then
@@ -57,7 +57,7 @@ jobs:
           body: |
             This PR contains changes made by running crawler_ai_ashby.py via GitHub Actions.
 
-            "Total Jobs": ${{ steps.before.outputs.total }} -> "Total Jobs": ${{ steps.set-output.outputs.after_total }}
+            "total_jobs": ${{ steps.before.outputs.total }} -> "total_jobs": ${{ steps.set-output.outputs.after_total }}
           delete-branch: true
           reviewers: yury-dubinin
 
