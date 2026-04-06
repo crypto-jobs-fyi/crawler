@@ -50,12 +50,6 @@
         },
         {
             "company": "eve.legal",
-            "title": "Software Engineer, Full Stack - GTM",
-            "location": "REMOTE, US BASED,REMOTE",
-            "link": "https://jobs.lever.co/Eve/6e658d5d-86bb-412b-b070-543dc559bfc8"
-        },
-        {
-            "company": "eve.legal",
             "title": "Lead Data Engineer",
             "location": "SAN MATEO, CALIFORNIA,HYBRID",
             "link": "https://jobs.lever.co/Eve/0f0a5280-39d5-4f9e-b5c7-2fad22ac66db"
@@ -71,12 +65,6 @@
             "title": "Product Design Leader",
             "location": "SAN MATEO, CALIFORNIA,HYBRID",
             "link": "https://jobs.lever.co/Eve/6a34e15e-8718-4b4d-a020-0936087c4286"
-        },
-        {
-            "company": "eve.legal",
-            "title": "AI Outcomes Manager",
-            "location": "REMOTE, US BASED,REMOTE",
-            "link": "https://jobs.lever.co/Eve/4b0c6325-22d7-47ef-bc1d-3a3b78f9231e"
         },
         {
             "company": "eve.legal",
@@ -269,6 +257,12 @@
             "title": "Strategic Partner Lead, SAP",
             "location": "MUNICH,ON-SITE",
             "link": "https://jobs.lever.co/mistral/03e85b97-a91d-46e9-afa4-77945235277a"
+        },
+        {
+            "company": "mistral",
+            "title": "Commercial Legal Counsel - Singapore",
+            "location": "SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/mistral/e9e2c848-2128-4c59-968d-ccf2ae35b438"
         },
         {
             "company": "mistral",
@@ -665,6 +659,12 @@
             "title": "AI Developer Advocate",
             "location": "PARIS / LONDON,HYBRID",
             "link": "https://jobs.lever.co/mistral/fd865fe4-7344-43b0-9d8d-600e8b366725"
+        },
+        {
+            "company": "mistral",
+            "title": "AI Developer Relations Engineer - Singapore",
+            "location": "SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/mistral/3e8b03e7-ff33-4cd1-8042-90b7ac3c4683"
         },
         {
             "company": "mistral",
@@ -1119,12 +1119,6 @@
         {
             "company": "palantir",
             "title": "Workplace Operations Analyst",
-            "location": "WASHINGTON, D.C.,ON-SITE",
-            "link": "https://jobs.lever.co/palantir/885b4e3a-fc76-4818-9b45-9386e615c74b"
-        },
-        {
-            "company": "palantir",
-            "title": "Workplace Operations Analyst",
             "location": "MIAMI, FL,ON-SITE",
             "link": "https://jobs.lever.co/palantir/341cb7bb-1557-4917-8e62-cf02aae67115"
         },
@@ -1139,6 +1133,12 @@
             "title": "Forward Deployed AI Engineer",
             "location": "LONDON, UK,HYBRID",
             "link": "https://jobs.lever.co/palantir/ff1029bd-bb6d-4d78-a03e-5f9744d0b798"
+        },
+        {
+            "company": "palantir",
+            "title": "Forward Deployed Infrastructure Engineer - UK Government",
+            "location": "LONDON, UK,HYBRID",
+            "link": "https://jobs.lever.co/palantir/72e51928-07f0-4be0-aae5-0ae6956a4846"
         },
         {
             "company": "palantir",
@@ -1916,6 +1916,12 @@
         },
         {
             "company": "palantir",
+            "title": "Site Reliability Engineer - US Government",
+            "location": "WASHINGTON, D.C.,HYBRID",
+            "link": "https://jobs.lever.co/palantir/211f99dc-269e-4f25-84d3-d73dea782080"
+        },
+        {
+            "company": "palantir",
             "title": "Software Engineer - Edge",
             "location": "WASHINGTON, D.C.,HYBRID",
             "link": "https://jobs.lever.co/palantir/397fb983-47b7-4a53-a7df-f080f43f7720"
@@ -2231,6 +2237,24 @@
             "title": "Global Mobility Specialist",
             "location": "WASHINGTON, D.C.,HYBRID",
             "link": "https://jobs.lever.co/palantir/76b62a88-f991-4605-82ac-8834be151511"
+        },
+        {
+            "company": "palantir",
+            "title": "People Operations Specialist",
+            "location": "PALO ALTO, CA,HYBRID",
+            "link": "https://jobs.lever.co/palantir/4f29fdd0-02ec-4ca7-8dff-eadbc6c68fb4"
+        },
+        {
+            "company": "palantir",
+            "title": "People Operations Specialist",
+            "location": "NEW YORK, NY,HYBRID",
+            "link": "https://jobs.lever.co/palantir/49c32534-fa61-4331-a6e8-2d26bf9a4e64"
+        },
+        {
+            "company": "palantir",
+            "title": "People Operations Specialist",
+            "location": "DENVER, CO,HYBRID",
+            "link": "https://jobs.lever.co/palantir/98d4f6b7-eca8-46e4-8253-3e6fcb8b4f1b"
         },
         {
             "company": "palantir",
@@ -2569,132 +2593,6 @@
             "link": "https://jobs.lever.co/rivr/86652fc8-d9a6-4e48-8986-7317ef835c71"
         },
         {
-            "company": "anybotics",
-            "title": "Customer Support Engineer",
-            "location": "SAN FRANCISCO, CALIFORNIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/567fa4e2-4a7f-4df9-98d7-df757841abe5"
-        },
-        {
-            "company": "anybotics",
-            "title": "Field Service Technician, Industrial Robotics",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/a705540b-3248-4fd3-a7df-279b2908304f"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Growth Marketing Manager",
-            "location": "ZURICH, SWITZERLAND / OXFORD,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/779b4d49-f77b-4244-a012-76786b15a2d2"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Sales Manager Power & Utilities",
-            "location": "SAN FRANCISCO, CALIFORNIA,REMOTE",
-            "link": "https://jobs.lever.co/anybotics/a562208f-a93e-4b00-bbb4-ef514406738d"
-        },
-        {
-            "company": "anybotics",
-            "title": "Industrialization, Electronics Test Engineer",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/84888398-c4f8-4bcb-9cf5-58d618213a75"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Manager Product Structure & Systems (PLM/MES)",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/e893a06a-66ad-4068-a95b-3d26fa2e52a1"
-        },
-        {
-            "company": "anybotics",
-            "title": "Industrial Asset Reliability Engineer",
-            "location": "ZURICH, SWITZERLAND / BARCELONA, CATALONIA / SAN FRANCISCO, CALIFORNIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/215492df-018d-406f-83c3-96c5616154ee"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior AI Research Engineer in Visual Perception",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/fe393034-b08e-4bb3-9fc0-a017fffe1493"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior AI Research Engineer, Visual Perception",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/fe61fb59-0e9b-443e-a5ed-3a7dd669bee6"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Angular Engineer",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/bfe43888-eee4-488f-817b-e674634398ee"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Backend Engineer",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/a3b51c35-65c8-4c20-9618-b8270dfedb6a"
-        },
-        {
-            "company": "anybotics",
-            "title": "Senior Software Engineer, AI/ML",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/1fd07123-e98d-458a-bdd3-fd1162f374e1"
-        },
-        {
-            "company": "anybotics",
-            "title": "SLAM Software Engineer - Spatial Intelligence",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/4cfbcd8b-a0c8-433b-a873-f99f04c26634"
-        },
-        {
-            "company": "anybotics",
-            "title": "Sensor Software Engineer",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/c0a06aa5-9e6c-424d-8964-469da0d6704b"
-        },
-        {
-            "company": "anybotics",
-            "title": "Software Developer in Test - Spatial Intelligence",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/35f0f784-ffff-4631-9e44-0e3fabcfad24"
-        },
-        {
-            "company": "anybotics",
-            "title": "Product Compliance and Certification Engineer (Open call)",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/9bfd57aa-c80a-4abc-b1a4-dbfc47bce822"
-        },
-        {
-            "company": "anybotics",
-            "title": "VP System Architecture",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/456ebeb5-37c3-4531-8bdf-ead40406eb49"
-        },
-        {
-            "company": "anybotics",
-            "title": "Electrical Engineering - Internship",
-            "location": "ZURICH, SWITZERLAND,ON-SITE",
-            "link": "https://jobs.lever.co/anybotics/ecdae57b-ce0f-40c1-b4b5-1ba75dd6ccf7"
-        },
-        {
-            "company": "anybotics",
-            "title": "Mechanical Engineer - Internship",
-            "location": "ZURICH, SWITZERLAND,ON-SITE",
-            "link": "https://jobs.lever.co/anybotics/b1f90f59-4b37-4d6a-ae0a-7cba87c28e39"
-        },
-        {
-            "company": "anybotics",
-            "title": "Visual AI Data Engineering - internship",
-            "location": "ZURICH, SWITZERLAND,ON-SITE",
-            "link": "https://jobs.lever.co/anybotics/13973a63-b620-44d8-aa83-c1b3466b17f3"
-        },
-        {
-            "company": "anybotics",
-            "title": "Verification Engineering Internship",
-            "location": "ZURICH, SWITZERLAND,ON-SITE",
-            "link": "https://jobs.lever.co/anybotics/96b95d2e-e791-450a-969b-5c98e57cfb66"
-        },
-        {
             "company": "shieldai",
             "title": "Senior Systems Administrator (R4696)",
             "location": "NEW DELHI,ON-SITE",
@@ -2771,12 +2669,6 @@
             "title": "Composite Senior Technician, Prototype (R4609)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/ba4d0e4a-4bd3-45d9-8586-4f793afa12e0"
-        },
-        {
-            "company": "shieldai",
-            "title": "Manager, Production (R4689)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/7ec19f7c-9296-4265-82cc-f9b778a69ead"
         },
         {
             "company": "shieldai",
@@ -2937,7 +2829,7 @@
         {
             "company": "shieldai",
             "title": "Supplier Development Engineer, Mechanical (R4712)",
-            "location": "DALLAS, TEXAS,ON-SITE",
+            "location": "DALLAS, TEXAS / US,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/9f1c3c6f-6807-4cd4-bbb1-d9914841c23e"
         },
         {
@@ -2978,12 +2870,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Sr. Systems Administrator (San Mateo) (R4574)",
-            "location": "SAN FRANCISCO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/22e198ca-5919-482c-b4a4-09b3b676b5d4"
-        },
-        {
-            "company": "shieldai",
             "title": "Supervisor, IT Service Delivery (R4740)",
             "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA / WASHINGTON, DC / SAN FRANCISCO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/72eec21f-0a5d-424e-b5c0-6f14429d40c0"
@@ -3014,15 +2900,15 @@
         },
         {
             "company": "shieldai",
-            "title": "Manager, Accounting (R4323)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/15ff8f0b-12d5-444e-825e-570dcd7c04c4"
+            "title": "Senior Safety Specialist",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/46e5eb36-98e5-4187-aee9-23d295210fd0"
         },
         {
             "company": "shieldai",
-            "title": "Senior Accountant (R4209)",
-            "location": "SAN DIEGO, CALIFORNIA,HYBRID",
-            "link": "https://jobs.lever.co/shieldai/95c50e01-ec56-4b9b-b4ee-3e2a95e60464"
+            "title": "Manager, Accounting (R4323)",
+            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/15ff8f0b-12d5-444e-825e-570dcd7c04c4"
         },
         {
             "company": "shieldai",
@@ -3236,7 +3122,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Product Manager, Analysis and Simulation (R4504)",
+            "title": "Product Manager, Assured Edge Autonomy (R4504)",
             "location": "SAN DIEGO, CALIFORNIA / WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/9bb06428-e22a-4538-9e5c-ffc75c89c4dd"
         },
@@ -3476,12 +3362,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Integration & Test Engineer, Autonomy (R4151)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/4d34c82f-f740-4785-b8a9-8e4ae9129c44"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineer, C++ Systems Integration (R4016)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/8b2b23c7-5841-4783-b8da-4c8222dd9f34"
@@ -3500,18 +3380,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineer, Flight Test (R4559)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/03b99025-756a-45ce-a165-04c5ab910d43"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Integration & Test Engineer, Autonomy (R4151)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/5e260804-4437-4952-9f39-51d091071c1c"
-        },
-        {
-            "company": "shieldai",
             "title": "Director of Product Management (R4176)",
             "location": "LONDON,HYBRID",
             "link": "https://jobs.lever.co/shieldai/671bdb32-77fd-4059-a4c3-7c171768e1a3"
@@ -3521,6 +3389,12 @@
             "title": "Director, Chief Engineering (R4667)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/8867fc46-a0e3-4680-b6e4-a011de1aad98"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Director, Program Management- Emerging Domains (R4649)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/1be64921-b848-413c-b76c-da55d9cbefa7"
         },
         {
             "company": "shieldai",
@@ -3584,9 +3458,63 @@
         },
         {
             "company": "shieldai",
-            "title": "Engineer II , Mission Systems (Avionics & Sensor Integration)",
+            "title": "Senior Engineer, Foundry Applications (R3934)",
             "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/ff8711f1-0a9a-4d84-9916-46a194773cd7"
+            "link": "https://jobs.lever.co/shieldai/c2479afc-d804-4b2a-a3b8-0b111f785e8e"
+        },
+        {
+            "company": "shieldai",
+            "title": "Engineer II, Electrical Failure Analysis (R4596)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/73be298c-49d5-4f38-bdf5-93a0c0e8a7a5"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Electrical Engineer (R4027)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/287b6bce-52fc-4a64-9fe9-f25445baf6eb"
+        },
+        {
+            "company": "shieldai",
+            "title": "Electrical Engineer, Hardware Test (R4000)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/c7759763-15c1-447c-b9d9-6ebce48a6f69"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Electrical Engineer, Hardware Test (R4000)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/990155eb-64c4-4fc7-85ce-3de1f1564bf2"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Software - Hardware Test (R4451)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a6b11a01-e749-4b1a-90a4-828524ceb7a0"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Technician, Hardware Test",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/44da0d02-7c4e-47b2-bdd8-d6c6a6a8682b"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineering Specialist, Hardware Test (R4710)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/85d560f6-ce8e-4fdb-9307-8e5bdc01652e"
+        },
+        {
+            "company": "shieldai",
+            "title": "Lead Survivability Engineer (Dallas) (R4607)",
+            "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/0ea1cea2-6bb5-40e9-a3ca-c9ab45498454"
+        },
+        {
+            "company": "shieldai",
+            "title": "Principal Engineer, Mission Systems (R4603)",
+            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ced2a802-5f57-48a4-bb8c-f318bcedac4c"
         },
         {
             "company": "shieldai",
@@ -3596,9 +3524,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Foundry Applications (R3934)",
+            "title": "Senior Engineer, Mechanical Design - V-BAT (R4467)",
             "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/c2479afc-d804-4b2a-a3b8-0b111f785e8e"
+            "link": "https://jobs.lever.co/shieldai/af5cef92-2843-4c4d-bf6c-6ba514208d2a"
         },
         {
             "company": "shieldai",
@@ -3608,9 +3536,15 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Mission Systems (Avionics & Sensor Integration) (R4014)",
+            "title": "Senior Engineer, Mission Systems (Hiring at Multiple Levels)",
+            "location": "WASHINGTON, DC / BOSTON, MA / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/dab6c7df-d56a-4993-ab0c-c53a72698eb3"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Staff Engineer, Mechanical Design - V-BAT (R4467)",
             "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/4eee4290-8519-4b1b-8010-84373fcd1e5f"
+            "link": "https://jobs.lever.co/shieldai/04d7771a-f6d7-45f0-bbc4-47ce0d9be812"
         },
         {
             "company": "shieldai",
@@ -3620,9 +3554,153 @@
         },
         {
             "company": "shieldai",
+            "title": "Engineer II , Mission Systems (Avionics & Sensor Integration)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ff8711f1-0a9a-4d84-9916-46a194773cd7"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Mission Systems (Avionics & Sensor Integration) (R4014)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/4eee4290-8519-4b1b-8010-84373fcd1e5f"
+        },
+        {
+            "company": "shieldai",
+            "title": "Engineer, State Estimation (Dallas/San Diego/Boston/ DC/ San Fran)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/133ad6aa-d624-4fad-b1cc-1f8f42d0401f"
+        },
+        {
+            "company": "shieldai",
+            "title": "Engineer, State Estimation (Dallas/San Diego/Boston/ DC/ San Fran) (R3945)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/133e1006-4bcd-4a31-afaf-c85ad113b749"
+        },
+        {
+            "company": "shieldai",
+            "title": "Ground Control Station (GCS) Software Engineer (R3963)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/cf148e69-2ca0-4bfd-a4cc-af214bfcce8a"
+        },
+        {
+            "company": "shieldai",
+            "title": "Manager, Embedded Software (R4755)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/19aea956-a8ff-4a8c-8552-16d954257ac1"
+        },
+        {
+            "company": "shieldai",
+            "title": "Manager, Software Engineering - System Update Tools (R4745)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/bfcf87d0-60b0-4769-bc65-4a5544b43278"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Embedded OS (Dallas Tx) (R3793)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/d5fdafe1-2e50-4543-98b1-38f3a3d26e12"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, VBAT Software Test Automation (Hiring Multiple Levels)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/d0635c93-bb07-4585-80d3-c53aaa2fdf6d"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Manager, Software Test and Automation",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/35bb0c9f-5ce9-45bf-a285-75ae2c95fd68"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Manager, Vehicle Engineering (R4283)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/fa7ec42c-a533-453c-bb09-78223994c0fb"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Verification and Validation Engineer (R4509)",
             "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6b372289-c8df-40ff-9d36-98926dc7fa8c"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, DevOps (R4666)",
+            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/cdb92a85-1560-4f78-bf05-908748fce1f5"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, State Estimation (Dallas/San Diego/Boston/DC/San Fran)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/f8849287-b9ff-4c3e-a37f-be20e39c597b"
+        },
+        {
+            "company": "shieldai",
+            "title": "Aerostructures Design Engineer II (R4720)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/d01f8618-23f3-4df9-b1ec-a830ff07ad4e"
+        },
+        {
+            "company": "shieldai",
+            "title": "Principal Aerostructures Design Engineer (R4721)",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/4bc0d612-d68b-43ce-8bb2-19e07d0577c7"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Aerostructures Design Engineer (R4720)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/115aa1cf-8ac5-4002-8b75-5c7e64945883"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Structural Analysis (R4722)",
+            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/f7d0013c-40c1-4fa5-9f72-6c714380cc5f"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Staff Aerostructures Design Engineer (R4721)",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/cca5ba8a-6fbd-4cff-a2d4-0faf9c3a57e7"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Staff Mechanical Engineer, Structural Design (R4443)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a5edfbaa-523a-4642-a889-e588883ea24e"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Staff Structural Analyst (R3263)",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/29d5b3ec-2401-4b2c-9571-5fa6fecb6c0c"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Structural Analyst (R3263)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/91bb6c88-3b5a-4bd6-ada5-3133315449b5"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Loads Engineer (R3263)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/18347d18-9816-4085-b0da-5f2ff84687c1"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Structural Analyst (R3263)",
+            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ee7f7c27-9e53-4e20-a7fc-3a37ad35d47d"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Structural Analyst (R3263)",
+            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/2280f319-ae7d-4b12-b990-e746641178de"
         },
         {
             "company": "shieldai",
@@ -3674,12 +3752,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Engineer II, Electrical Failure Analysis (R4596)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/73be298c-49d5-4f38-bdf5-93a0c0e8a7a5"
-        },
-        {
-            "company": "shieldai",
             "title": "Engineer II, Electrical Integration (R4627)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/aad6341b-0825-48e0-8d31-95e72f915ca0"
@@ -3698,15 +3770,39 @@
         },
         {
             "company": "shieldai",
+            "title": "Hardware Reliability Engineer II (R4675)",
+            "location": "DALLAS, TEXAS / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/55e14c5c-ee01-4c42-afc1-3583cf5e93d9"
+        },
+        {
+            "company": "shieldai",
             "title": "Manager, Electrical Engineering (R4191)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/f33a5494-3c49-4a20-a9d2-d8a587fedc6e"
         },
         {
             "company": "shieldai",
+            "title": "Manager, Hardware Test Engineering - V-BAT (R4692)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/bdd59100-12ba-472a-948e-c9f49fdb099a"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Electrical Engineer (R4355)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/0fc2025e-01ba-452b-b3e7-d3df4de88a08"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Electrical Engineer, Hardware Test (R4000) (BOS)",
+            "location": "BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/14cb1844-986d-46ea-b2a5-16135c7acdd9"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Manager, Avionics Mechanical Engineering (R4416)",
+            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/6e5d59f1-cd4a-451b-be66-5db9af34df44"
         },
         {
             "company": "shieldai",
@@ -3722,12 +3818,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Electrical Engineer (R4027)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/287b6bce-52fc-4a64-9fe9-f25445baf6eb"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineer, Electrical",
             "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/9a3a2c7f-c5f5-4253-b173-560f102fc13c"
@@ -3740,69 +3830,51 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Hardware Reliability Engineer (R4675)",
-            "location": "DALLAS, TEXAS / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/88a4633a-d0b1-4025-b3ff-cb4c976fadc9"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff PCB Designer",
-            "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/50259b69-779f-4927-8a9b-0d137547507d"
-        },
-        {
-            "company": "shieldai",
-            "title": "Electrical Engineer, Hardware Test (R4000)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/c7759763-15c1-447c-b9d9-6ebce48a6f69"
-        },
-        {
-            "company": "shieldai",
-            "title": "Manager, Hardware Test Engineering - V-BAT (R4692)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/bdd59100-12ba-472a-948e-c9f49fdb099a"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Electrical Engineer, Hardware Test (R4000)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/990155eb-64c4-4fc7-85ce-3de1f1564bf2"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Electrical Engineer, Hardware Test (R4000) (BOS)",
-            "location": "BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/14cb1844-986d-46ea-b2a5-16135c7acdd9"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Engineer, Software - Hardware Test (R4451)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/a6b11a01-e749-4b1a-90a4-828524ceb7a0"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Technician, Hardware Test",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/44da0d02-7c4e-47b2-bdd8-d6c6a6a8682b"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineering Specialist, Hardware Test (R4704)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/906ac0eb-6c74-495d-b6cd-32c7a65fca40"
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineering Specialist, Hardware Test (R4710)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/85d560f6-ce8e-4fdb-9307-8e5bdc01652e"
+            "title": "Staff Hardware Reliability Engineer (R4675)",
+            "location": "DALLAS, TEXAS / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/88a4633a-d0b1-4025-b3ff-cb4c976fadc9"
         },
         {
             "company": "shieldai",
-            "title": "Aerostructures Design Engineer II (R4720)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/d01f8618-23f3-4df9-b1ec-a830ff07ad4e"
+            "title": "Staff PCB Designer (R4781)",
+            "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/50259b69-779f-4927-8a9b-0d137547507d"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, Aircraft Configuration Design (R4028)",
+            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/0d9b57b1-24ab-4ad7-9c6a-453e6a2960e2"
+        },
+        {
+            "company": "shieldai",
+            "title": "Engineer II, Flight Sciences",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/907a6073-8ae2-43a6-bc42-42e8c2b95f87"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4571)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/38746bcd-9f50-4c37-b661-878a4f38a466"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4572)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a3dfba6d-09ec-42c3-9328-dbb2b5fbdab3"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4573)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/27bbf841-7b7e-4405-a201-08e252472a91"
         },
         {
             "company": "shieldai",
@@ -3818,27 +3890,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Principal Aerostructures Design Engineer (R4721)",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/shieldai/4bc0d612-d68b-43ce-8bb2-19e07d0577c7"
-        },
-        {
-            "company": "shieldai",
             "title": "Principal Engineer, Aircraft Thermal (R4353)",
             "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/e0b86a02-d7ce-4b46-971b-bd75b2aea929"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Aerostructures Design Engineer (R4720)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/115aa1cf-8ac5-4002-8b75-5c7e64945883"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Engineer, Mechanical Design - V-BAT (R4467)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/af5cef92-2843-4c4d-bf6c-6ba514208d2a"
         },
         {
             "company": "shieldai",
@@ -3848,33 +3902,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Structural Analysis (R4722)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/f7d0013c-40c1-4fa5-9f72-6c714380cc5f"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Engineer, Systems Integration (R4310)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/a327cbe1-915b-4745-b730-376041d91202"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Manager, Avionics Mechanical Engineering (R4416)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/6e5d59f1-cd4a-451b-be66-5db9af34df44"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Mechanical Engineer, Actuation & Fluid Systems (R4730)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/269355be-4438-4d8c-9ee7-336456be9051"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Staff Aerostructures Design Engineer (R4721)",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/shieldai/cca5ba8a-6fbd-4cff-a2d4-0faf9c3a57e7"
         },
         {
             "company": "shieldai",
@@ -3902,87 +3932,15 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Staff Mechanical Engineer, Structural Design (R4443)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/a5edfbaa-523a-4642-a889-e588883ea24e"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Staff Structural Analyst (R3263)",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/shieldai/29d5b3ec-2401-4b2c-9571-5fa6fecb6c0c"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Staff Systems Engineer (R4738)",
-            "location": "SAN DIEGO, CALIFORNIA / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0a7f0460-5035-4959-9713-80471fcae3c1"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Staff Thermal Engineer - Aircraft Avionics & Thermal Systems (R3930)",
             "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/eef811a9-5e6d-44af-9ee2-f4259de7aeee"
         },
         {
             "company": "shieldai",
-            "title": "Senior Structural Analyst (R3263)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/91bb6c88-3b5a-4bd6-ada5-3133315449b5"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Aircraft Configuration Design (R4028)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0d9b57b1-24ab-4ad7-9c6a-453e6a2960e2"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineer, Mechanical - Harness Design (R4594)",
             "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/abbca258-77dc-4429-87fd-37e6f0b5adf8"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4571)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/38746bcd-9f50-4c37-b661-878a4f38a466"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4572)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/a3dfba6d-09ec-42c3-9328-dbb2b5fbdab3"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Mechanical Design - Launch and Recovery Systems (R4573)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/27bbf841-7b7e-4405-a201-08e252472a91"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Test & Evaluation Engineer (R4356)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0e6f3ce1-1694-4ffa-9314-db0dc3d627c9"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Loads Engineer (R3263)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/18347d18-9816-4085-b0da-5f2ff84687c1"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Structural Analyst (R3263)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/ee7f7c27-9e53-4e20-a7fc-3a37ad35d47d"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Structural Analyst (R3263)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/2280f319-ae7d-4b12-b990-e746641178de"
         },
         {
             "company": "shieldai",
@@ -4046,39 +4004,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Engineer, State Estimation (Dallas/San Diego/Boston/ DC/ San Fran)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/133ad6aa-d624-4fad-b1cc-1f8f42d0401f"
-        },
-        {
-            "company": "shieldai",
-            "title": "Engineer, State Estimation (Dallas/San Diego/Boston/ DC/ San Fran) (R3945)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/133e1006-4bcd-4a31-afaf-c85ad113b749"
-        },
-        {
-            "company": "shieldai",
-            "title": "Ground Control Station (GCS) Software Engineer",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/cf148e69-2ca0-4bfd-a4cc-af214bfcce8a"
-        },
-        {
-            "company": "shieldai",
-            "title": "Lead Survivability Engineer (Dallas) (R4607)",
-            "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0ea1cea2-6bb5-40e9-a3ca-c9ab45498454"
-        },
-        {
-            "company": "shieldai",
-            "title": "Manager, Embedded Software (R4755)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/19aea956-a8ff-4a8c-8552-16d954257ac1"
-        },
-        {
-            "company": "shieldai",
-            "title": "Manager, Software Engineering - System Update Tools (R4745)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/bfcf87d0-60b0-4769-bc65-4a5544b43278"
+            "title": "Principal Engineer, State Estimation (R4602)",
+            "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA / WASHINGTON, DC / REMOTE,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/4ccdcce2-ce09-4180-aba4-01f3e405e0e5"
         },
         {
             "company": "shieldai",
@@ -4088,9 +4016,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Embedded OS (Dallas Tx) (R3793)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/d5fdafe1-2e50-4543-98b1-38f3a3d26e12"
+            "title": "Senior Engineer, GNC - Sensor Integration (R4601)",
+            "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/6d3cf300-d22e-47bb-b190-e376bd8715f1"
         },
         {
             "company": "shieldai",
@@ -4118,12 +4046,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, VBAT Software Test Automation (Hiring Multiple Levels)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/d0635c93-bb07-4585-80d3-c53aaa2fdf6d"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Engineer, XBAT DevOps (R4542) (TX/Bos/San Diego)",
             "location": "DALLAS, TEXAS / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/7a5377da-0d83-434a-a3c9-8b3ff99b97f7"
@@ -4136,57 +4058,153 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Manager, Software Test and Automation",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/35bb0c9f-5ce9-45bf-a285-75ae2c95fd68"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Manager, Vehicle Engineering (R4283)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/fa7ec42c-a533-453c-bb09-78223994c0fb"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Software Engineer, Embedded Applications (R3155)",
             "location": "BOSTON, MA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6bb0bc83-a790-4633-b872-ca062ed9d1e7"
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineer, DevOps (R4666)",
+            "title": "Senior Engineer, Systems Integration (R4310)",
+            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a327cbe1-915b-4745-b730-376041d91202"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Staff Systems Engineer (R4738)",
+            "location": "SAN DIEGO, CALIFORNIA / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/0a7f0460-5035-4959-9713-80471fcae3c1"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Engineer, Test & Evaluation Engineer (R4356)",
             "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/cdb92a85-1560-4f78-bf05-908748fce1f5"
+            "link": "https://jobs.lever.co/shieldai/0e6f3ce1-1694-4ffa-9314-db0dc3d627c9"
         },
         {
-            "company": "shieldai",
-            "title": "Staff Engineer, State Estimation (Dallas/San Diego/Boston/DC/San Fran)",
-            "location": "DALLAS, TEXAS / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / WASHINGTON, DC / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/f8849287-b9ff-4c3e-a37f-be20e39c597b"
+            "company": "anybotics",
+            "title": "Customer Support Engineer",
+            "location": "SAN FRANCISCO, CALIFORNIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/567fa4e2-4a7f-4df9-98d7-df757841abe5"
         },
         {
-            "company": "shieldai",
-            "title": "Prinicipal Engineer, Mission Systems (R4603)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/ced2a802-5f57-48a4-bb8c-f318bcedac4c"
+            "company": "anybotics",
+            "title": "Field Service Technician, Industrial Robotics",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/a705540b-3248-4fd3-a7df-279b2908304f"
         },
         {
-            "company": "shieldai",
-            "title": "Senior Staff Engineer, Mechanical Design - V-BAT (R4467)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/04d7771a-f6d7-45f0-bbc4-47ce0d9be812"
+            "company": "anybotics",
+            "title": "Senior Growth Marketing Manager",
+            "location": "ZURICH, SWITZERLAND / OXFORD,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/779b4d49-f77b-4244-a012-76786b15a2d2"
         },
         {
-            "company": "shieldai",
-            "title": "Engineer II, Flight Sciences",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/907a6073-8ae2-43a6-bc42-42e8c2b95f87"
+            "company": "anybotics",
+            "title": "Senior Sales Manager Power & Utilities",
+            "location": "SAN FRANCISCO, CALIFORNIA,REMOTE",
+            "link": "https://jobs.lever.co/anybotics/a562208f-a93e-4b00-bbb4-ef514406738d"
         },
         {
-            "company": "shieldai",
-            "title": "Senior Engineer, Mission Systems (Hiring at Multiple Levels)",
-            "location": "WASHINGTON, DC / BOSTON, MA / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/dab6c7df-d56a-4993-ab0c-c53a72698eb3"
+            "company": "anybotics",
+            "title": "Industrialization, Electronics Test Engineer",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/84888398-c4f8-4bcb-9cf5-58d618213a75"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior Manager Product Structure & Systems (PLM/MES)",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/e893a06a-66ad-4068-a95b-3d26fa2e52a1"
+        },
+        {
+            "company": "anybotics",
+            "title": "Industrial Asset Reliability Engineer",
+            "location": "ZURICH, SWITZERLAND / BARCELONA, CATALONIA / SAN FRANCISCO, CALIFORNIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/215492df-018d-406f-83c3-96c5616154ee"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior AI Research Engineer in Visual Perception",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/fe393034-b08e-4bb3-9fc0-a017fffe1493"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior AI Research Engineer, Visual Perception",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/fe61fb59-0e9b-443e-a5ed-3a7dd669bee6"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior Angular Engineer",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/bfe43888-eee4-488f-817b-e674634398ee"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior Backend Engineer",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/a3b51c35-65c8-4c20-9618-b8270dfedb6a"
+        },
+        {
+            "company": "anybotics",
+            "title": "Senior Software Engineer, AI/ML",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/1fd07123-e98d-458a-bdd3-fd1162f374e1"
+        },
+        {
+            "company": "anybotics",
+            "title": "SLAM Software Engineer - Spatial Intelligence",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/4cfbcd8b-a0c8-433b-a873-f99f04c26634"
+        },
+        {
+            "company": "anybotics",
+            "title": "Sensor Software Engineer",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/c0a06aa5-9e6c-424d-8964-469da0d6704b"
+        },
+        {
+            "company": "anybotics",
+            "title": "Software Developer in Test - Spatial Intelligence",
+            "location": "BARCELONA, CATALONIA,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/35f0f784-ffff-4631-9e44-0e3fabcfad24"
+        },
+        {
+            "company": "anybotics",
+            "title": "Product Compliance and Certification Engineer (Open call)",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/9bfd57aa-c80a-4abc-b1a4-dbfc47bce822"
+        },
+        {
+            "company": "anybotics",
+            "title": "VP System Architecture",
+            "location": "ZURICH, SWITZERLAND,HYBRID",
+            "link": "https://jobs.lever.co/anybotics/456ebeb5-37c3-4531-8bdf-ead40406eb49"
+        },
+        {
+            "company": "anybotics",
+            "title": "Electrical Engineering - Internship",
+            "location": "ZURICH, SWITZERLAND,ON-SITE",
+            "link": "https://jobs.lever.co/anybotics/ecdae57b-ce0f-40c1-b4b5-1ba75dd6ccf7"
+        },
+        {
+            "company": "anybotics",
+            "title": "Mechanical Engineer - Internship",
+            "location": "ZURICH, SWITZERLAND,ON-SITE",
+            "link": "https://jobs.lever.co/anybotics/b1f90f59-4b37-4d6a-ae0a-7cba87c28e39"
+        },
+        {
+            "company": "anybotics",
+            "title": "Visual AI Data Engineering - internship",
+            "location": "ZURICH, SWITZERLAND,ON-SITE",
+            "link": "https://jobs.lever.co/anybotics/13973a63-b620-44d8-aa83-c1b3466b17f3"
+        },
+        {
+            "company": "anybotics",
+            "title": "Verification Engineering Internship",
+            "location": "ZURICH, SWITZERLAND,ON-SITE",
+            "link": "https://jobs.lever.co/anybotics/96b95d2e-e791-450a-969b-5c98e57cfb66"
         },
         {
             "company": "oxylabs",
@@ -4288,7 +4306,7 @@
             "company": "oxylabs",
             "title": "Experienced Web Scraping Engineer - Python",
             "location": "POLAND,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/c3c11668-457f-40a7-9938-ddc1e58814a1"
+            "link": "https://jobs.lever.co/oxylabs/e0f07b63-c4a8-4387-a255-2c8a5e484f31"
         },
         {
             "company": "oxylabs",
@@ -4472,6 +4490,12 @@
         },
         {
             "company": "oxylabs",
+            "title": "Junior Sales Operations Specialist",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/69f35bae-f67b-474b-9264-0fd378ca2617"
+        },
+        {
+            "company": "oxylabs",
             "title": "Sales Development Representative",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/45609875-ea21-4534-9e78-3f2f2c0a634b"
@@ -4481,6 +4505,12 @@
             "title": "Mid-Senior Account Manager",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/94855bf9-05b2-47e7-849e-3df8c831c0e5"
+        },
+        {
+            "company": "meilisearch",
+            "title": "Spontaneous applications",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
         },
         {
             "company": "encord.com",
@@ -4670,6 +4700,12 @@
         },
         {
             "company": "encord.com",
+            "title": "Field Marketing Manager, Growth",
+            "location": "NEW YORK,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/61bfadb4-75bb-45b2-920d-5c0b4f6cdaf2"
+        },
+        {
+            "company": "encord.com",
             "title": "Filmmaker",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/CordTechnologies/1f5fedff-4ccd-44f1-8e01-abf4f4fe1e23"
@@ -4682,6 +4718,12 @@
         },
         {
             "company": "encord.com",
+            "title": "Growth Engineer",
+            "location": "NEW YORK,ON-SITE",
+            "link": "https://jobs.lever.co/CordTechnologies/c28280b8-25d2-4869-9f5d-87d355b6228f"
+        },
+        {
+            "company": "encord.com",
             "title": "Growth Manager",
             "location": "LONDON,HYBRID",
             "link": "https://jobs.lever.co/CordTechnologies/257dc7c0-9c73-4e2e-840f-59e21ca9d63b"
@@ -4691,6 +4733,12 @@
             "title": "Growth Manager",
             "location": "SAN FRANCISCO,HYBRID",
             "link": "https://jobs.lever.co/CordTechnologies/98c21bb3-6ce6-41b3-9941-416edfceb0be"
+        },
+        {
+            "company": "encord.com",
+            "title": "Growth Manager",
+            "location": "NEW YORK,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/6aa51eb3-0c25-4d35-a9a7-9a44061d606a"
         },
         {
             "company": "encord.com",
@@ -4748,14 +4796,8 @@
         },
         {
             "company": "encord.com",
-            "title": "Account Executive, Physical AI",
-            "location": "SAN FRANCISCO,HYBRID",
-            "link": "https://jobs.lever.co/CordTechnologies/28542f39-196e-44c6-9a2c-0a169a543f28"
-        },
-        {
-            "company": "encord.com",
             "title": "Account Manager",
-            "location": "NEW YORK,HYBRID",
+            "location": "LONDON,HYBRID",
             "link": "https://jobs.lever.co/CordTechnologies/bbdab9ff-f4ec-4258-80ed-c4575e3cd0b7"
         },
         {
@@ -4821,7 +4863,7 @@
         {
             "company": "encord.com",
             "title": "Founding NYC Account Manager",
-            "location": "LONDON,HYBRID",
+            "location": "NEW YORK,HYBRID",
             "link": "https://jobs.lever.co/CordTechnologies/41ba1c0a-dba3-4e41-a30e-6343c858e5d9"
         },
         {
@@ -4841,6 +4883,12 @@
             "title": "Founding Sales, Physical AI",
             "location": "SAN FRANCISCO,HYBRID",
             "link": "https://jobs.lever.co/CordTechnologies/acb82c9f-fdcd-461c-b1e5-6c4b0c3c9e59"
+        },
+        {
+            "company": "encord.com",
+            "title": "GTM Special Projects, Physical AI",
+            "location": "SAN FRANCISCO,HYBRID",
+            "link": "https://jobs.lever.co/CordTechnologies/28542f39-196e-44c6-9a2c-0a169a543f28"
         },
         {
             "company": "encord.com",
@@ -4885,10 +4933,88 @@
             "link": "https://jobs.lever.co/CordTechnologies/efb26bbb-5729-457f-95ec-253e58df9618"
         },
         {
-            "company": "meilisearch",
-            "title": "Spontaneous applications",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Agentic Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Generative Models",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "ML Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Elite",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Narrative Content Manager",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/93552615-b1f1-4f98-8b8a-090f58bdd361"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Mechatronics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Robotics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer - Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Chemist/Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Materials Scientist",
+            "location": "CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/550e9d9e-e8dc-4863-9966-52ec104524c2"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer, Platform",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Chemist",
+            "location": "CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/ecd88e3e-815d-431f-a752-a0c02ecc325f"
         },
         {
             "company": "netomi",
@@ -5075,90 +5201,6 @@
             "title": "Senior Implementation Consultant - Enterprise POCs",
             "location": "TORONTO , CANADA,REMOTE",
             "link": "https://jobs.lever.co/netomi/f0709fee-a40f-483a-a1bc-375af51e4e87"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Agentic Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Generative Models",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "ML Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Elite",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Narrative Content Manager",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/93552615-b1f1-4f98-8b8a-090f58bdd361"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Mechatronics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Robotics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer - Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist/Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Materials Scientist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/550e9d9e-e8dc-4863-9966-52ec104524c2"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer, Platform",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/ecd88e3e-815d-431f-a752-a0c02ecc325f"
         },
         {
             "company": "zushealth",
