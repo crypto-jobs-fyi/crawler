@@ -158,12 +158,6 @@
         },
         {
             "company": "ninjatrader",
-            "title": "Sr. Software Engineer II (Backend, Scala or C++)",
-            "location": "Chicago, IL",
-            "link": "https://job-boards.greenhouse.io/ninjatrader/jobs/4615414006"
-        },
-        {
-            "company": "ninjatrader",
             "title": "Sr. Software Engineer II, Mobile",
             "location": "Chicago or Remote*",
             "link": "https://job-boards.greenhouse.io/ninjatrader/jobs/4671132006"
@@ -239,30 +233,6 @@
             "title": "Quick GitHub/LinkedIn/CV drop",
             "location": "Remote",
             "link": "https://job-boards.eu.greenhouse.io/eiger/jobs/4059145101"
-        },
-        {
-            "company": "iftother",
-            "title": "Low-level C++ Engineer (Blockchain)",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/7462413"
-        },
-        {
-            "company": "iftother",
-            "title": "Volunteer position: Logos Circles Organiser",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/7396815"
-        },
-        {
-            "company": "iftother",
-            "title": "Volunteer position: Logos Circles Technical Steward",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/7584908"
-        },
-        {
-            "company": "iftother",
-            "title": "P2P Networking Protocol Engineer",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/7611026"
         },
         {
             "company": "figure",
@@ -377,6 +347,24 @@
             "title": "Team Manager",
             "location": "Charlotte, NC",
             "link": "https://job-boards.greenhouse.io/figure/jobs/8494967002"
+        },
+        {
+            "company": "iftother",
+            "title": "Low-level C++ Engineer (Blockchain)",
+            "location": "Remote (Worldwide)",
+            "link": "https://job-boards.greenhouse.io/iftother/jobs/7462413"
+        },
+        {
+            "company": "iftother",
+            "title": "Volunteer position: Logos Circles Organiser",
+            "location": "Remote (Worldwide)",
+            "link": "https://job-boards.greenhouse.io/iftother/jobs/7396815"
+        },
+        {
+            "company": "iftother",
+            "title": "Volunteer position: Logos Circles Technical Steward",
+            "location": "Remote (Worldwide)",
+            "link": "https://job-boards.greenhouse.io/iftother/jobs/7584908"
         },
         {
             "company": "wyndlabs",
@@ -727,12 +715,6 @@
             "link": "https://job-boards.greenhouse.io/iftother/jobs/7584908"
         },
         {
-            "company": "wormholefoundation",
-            "title": "P2P Networking Protocol Engineer",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/7611026"
-        },
-        {
             "company": "blockchain",
             "title": "Business and Customer Operations Lead",
             "location": "Ghana",
@@ -932,6 +914,12 @@
         },
         {
             "company": "blockchain",
+            "title": "Performance Marketing Specialist, MobileNew",
+            "location": "Sao Paulo",
+            "link": "https://job-boards.greenhouse.io/blockchain/jobs/7832208"
+        },
+        {
+            "company": "blockchain",
             "title": "Senior Product Designer, Consumer",
             "location": "Paris",
             "link": "https://job-boards.greenhouse.io/blockchain/jobs/7645992"
@@ -1040,13 +1028,13 @@
         },
         {
             "company": "bitmex",
-            "title": "Social Media ManagerNew",
+            "title": "Social Media Manager",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/bitmex/jobs/8503582002"
         },
         {
             "company": "bitmex",
-            "title": "Social Media ManagerNew",
+            "title": "Social Media Manager",
             "location": "Remote - Asia",
             "link": "https://job-boards.greenhouse.io/bitmex/jobs/8503583002"
         },
@@ -1199,6 +1187,30 @@
             "title": "Senior Software Engineer - Post Trade",
             "location": "Toronto, Ontario, Canada",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/8500748002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Frontend and MobileNew",
+            "location": "New York, US",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8515394002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Frontend and MobileNew",
+            "location": "Palo Alto, California, US",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8515398002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer - Frontend and MobileNew",
+            "location": "Toronto, Ontario, Canada",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8515408002"
+        },
+        {
+            "company": "bitgo",
+            "title": "Software Engineer \u2013 Frontend & MobileNew",
+            "location": "San Francisco, California, US",
+            "link": "https://job-boards.greenhouse.io/bitgo/jobs/8515395002"
         },
         {
             "company": "bitgo",
@@ -1394,12 +1406,6 @@
         },
         {
             "company": "OKX",
-            "title": "Big Data Engineer, Web3 Data Platform",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7585839003"
-        },
-        {
-            "company": "OKX",
             "title": "Big Data Platform Engineer, AI Agent Platform",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7659465003"
@@ -1478,13 +1484,13 @@
         },
         {
             "company": "OKX",
-            "title": "Frontend Business Lead New",
+            "title": "Frontend Business Lead",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7684590003"
         },
         {
             "company": "OKX",
-            "title": "Frontend Business Lead New",
+            "title": "Frontend Business Lead",
             "location": "APAC",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7684591003"
         },
@@ -1562,6 +1568,12 @@
         },
         {
             "company": "OKX",
+            "title": "Principal Engineer, Middleware",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6576781003"
+        },
+        {
+            "company": "OKX",
             "title": "Quant Developer (Rust), Liquidity Platform, Delta One",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7673432003"
@@ -1586,15 +1598,15 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Engineer, AI Platform and Infrastructure",
+            "title": "Senior Director/ Vice President, AI New",
             "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7671571003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7709347003"
         },
         {
             "company": "OKX",
-            "title": "Senior Engineer (Security) - Middleware Platform",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/6104008003"
+            "title": "Senior Engineer, AI Platform and Infrastructure",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7671571003"
         },
         {
             "company": "OKX",
@@ -1616,7 +1628,7 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Product Manager, AI Agent ProductsNew",
+            "title": "Senior Product Manager, AI Agent Products",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7699601003"
         },
@@ -1682,7 +1694,7 @@
         },
         {
             "company": "OKX",
-            "title": "Senior/Staff Engineer, AI Agent DevelopmentNew",
+            "title": "Senior/Staff Engineer, AI Agent Development",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7699598003"
         },
@@ -1793,12 +1805,6 @@
             "title": "Senior/Staff iOS Developer",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6034088003"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior/Staff Java Engineer, Core Compliance, AML",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7678528003"
         },
         {
             "company": "OKX",
@@ -2534,12 +2540,6 @@
         },
         {
             "company": "OKX",
-            "title": "Global Head of Sanctions",
-            "location": "US (US)",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7688141003"
-        },
-        {
-            "company": "OKX",
             "title": "Compliance Analyst",
             "location": "Istanbul, T\u00fcrkiye",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7691975003"
@@ -2618,13 +2618,7 @@
         },
         {
             "company": "OKX",
-            "title": "Administrative Manager, Event & Staff Welfare Management",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7585893003"
-        },
-        {
-            "company": "OKX",
-            "title": "Administrative Manager, Facilities ManagementNew",
+            "title": "Administrative Manager, Facilities Management",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7699597003"
         },
@@ -2672,7 +2666,7 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Program Manager, Executive SupportNew",
+            "title": "Senior Program Manager, Executive Support",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7697795003"
         },
@@ -2699,12 +2693,6 @@
             "title": "Vice President, AI Strategy & Transformation",
             "location": "Hong Kong",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7684888003"
-        },
-        {
-            "company": "OKX",
-            "title": "Finance Analysis Manager, FP&A",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7480672003"
         },
         {
             "company": "OKX",
@@ -2747,12 +2735,6 @@
             "title": "Sr. Finance Manager, OKX US",
             "location": "San Jose, California, US",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7500135003"
-        },
-        {
-            "company": "OKX",
-            "title": "Benefits Manager",
-            "location": "San Jose, California, US",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7494527003"
         },
         {
             "company": "OKX",
@@ -2840,21 +2822,21 @@
         },
         {
             "company": "OKX",
+            "title": "Deputy General Counsel, Strategic PartnershipsNew",
+            "location": "San Jose, California, US",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7684101003"
+        },
+        {
+            "company": "OKX",
+            "title": "Deputy General Counsel, Strategic PartnershipsNew",
+            "location": "New York, US",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7708304003"
+        },
+        {
+            "company": "OKX",
             "title": "Senior Agent, Customer Service (German Speaker)",
             "location": "Budapest, Budapest, Hungary",
             "link": "https://job-boards.greenhouse.io/okx/jobs/6255696003"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior Agent, Customer Service (Polish Speaker)",
-            "location": "Budapest, Budapest, Hungary",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7580491003"
-        },
-        {
-            "company": "OKX",
-            "title": "Senior Agent, Customer Service (Turkish Speaker)",
-            "location": "Istanbul, T\u00fcrkiye",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7583993003"
         },
         {
             "company": "OKX",
@@ -3032,6 +3014,12 @@
         },
         {
             "company": "OKX",
+            "title": "Growth Operations Associate, OKX SG",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7667263003"
+        },
+        {
+            "company": "OKX",
             "title": "Growth Operations Manager ( Web3/Dex)",
             "location": "Istanbul, T\u00fcrkiye",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7599045003"
@@ -3056,13 +3044,7 @@
         },
         {
             "company": "OKX",
-            "title": "Operations Associate, OKX SG",
-            "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7667263003"
-        },
-        {
-            "company": "OKX",
-            "title": "Operations Manager, SEANew",
+            "title": "Operations Manager, SEA",
             "location": "Indonesia (Remote)",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7699605003"
         },
@@ -3119,12 +3101,6 @@
             "title": "Senior VIP Relationship Manager, CIS",
             "location": "Dubai, UAE",
             "link": "https://job-boards.greenhouse.io/okx/jobs/7646986003"
-        },
-        {
-            "company": "OKX",
-            "title": "Sr. Business Development Manager (Affiliates & VIPs), Germany/Central Europe",
-            "location": "Germany (Remote); Lower Austria, Austria",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7612714003"
         },
         {
             "company": "OKX",
@@ -3200,12 +3176,6 @@
         },
         {
             "company": "bitpanda",
-            "title": "Country Lead, Broker - AT & CH",
-            "location": "Vienna, Vienna, Austria",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4793500101"
-        },
-        {
-            "company": "bitpanda",
             "title": "Country Lead - Spain & Portugal",
             "location": "Barcelona, Spain",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4728153101"
@@ -3224,6 +3194,18 @@
         },
         {
             "company": "bitpanda",
+            "title": "Senior Specialist, VIP RelationshipsNew",
+            "location": "Vienna, Vienna, Austria",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4835159101"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Specialist, VIP RelationshipsNew",
+            "location": "Berlin, Berlin, Germany",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4845293101"
+        },
+        {
+            "company": "bitpanda",
             "title": "Product Manager, Taxation & Reports",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4765325101"
@@ -3239,18 +3221,6 @@
             "title": "Product Manager, Taxation & Reports",
             "location": "Berlin, Berlin, Germany",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4781200101"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Senior Product Designer - Websites",
-            "location": "Barcelona, Spain",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4791535101"
-        },
-        {
-            "company": "bitpanda",
-            "title": "Senior Product Designer - Websites",
-            "location": "Vienna, Vienna, Austria",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4818510101"
         },
         {
             "company": "bitpanda",
@@ -3446,6 +3416,18 @@
         },
         {
             "company": "bitpanda",
+            "title": "Senior Product Designer - Websites",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4791535101"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Product Designer - Websites",
+            "location": "Vienna, Vienna, Austria",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4818510101"
+        },
+        {
+            "company": "bitpanda",
             "title": "Senior Software Engineer, Angular (B2C Web Platform)",
             "location": "Barcelona, Spain",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4778778101"
@@ -3584,12 +3566,6 @@
         },
         {
             "company": "xapo",
-            "title": "Financial Accountant (Remote - Work from Anywhere)",
-            "location": "Gibraltar - Remote",
-            "link": "https://job-boards.greenhouse.io/xapo61/jobs/7640278003"
-        },
-        {
-            "company": "xapo",
             "title": "Financial Controller (Remote - Work from Anywhere)",
             "location": "Gibraltar - Remote",
             "link": "https://job-boards.greenhouse.io/xapo61/jobs/7672009003"
@@ -3614,7 +3590,7 @@
         },
         {
             "company": "xapo",
-            "title": "Marketing Operations Analyst (Remote - Work from Anywhere)New",
+            "title": "Marketing Operations Analyst (Remote - Work from Anywhere)",
             "location": "UK (Remote)",
             "link": "https://job-boards.greenhouse.io/xapo61/jobs/7692178003"
         },
@@ -3632,7 +3608,7 @@
         },
         {
             "company": "xapo",
-            "title": "Assistant Relationship Manager - APAC (Remote - Work from Anywhere)New",
+            "title": "Assistant Relationship Manager - APAC (Remote - Work from Anywhere)",
             "location": "Singapore - Remote",
             "link": "https://job-boards.greenhouse.io/xapo61/jobs/7685057003"
         },
@@ -3650,7 +3626,7 @@
         },
         {
             "company": "xapo",
-            "title": "Investment Manager (Remote - Work from Anywhere)New",
+            "title": "Investment Manager (Remote - Work from Anywhere)",
             "location": "Gibraltar - Remote",
             "link": "https://job-boards.greenhouse.io/xapo61/jobs/7693275003"
         },
@@ -3689,102 +3665,6 @@
             "title": "Security Engineer",
             "location": "Remote (EMEA Time Zones)",
             "link": "https://job-boards.greenhouse.io/exodus54/jobs/4657423006"
-        },
-        {
-            "company": "alchemy",
-            "title": "Senior Brand Designer",
-            "location": "San Francisco, CA, New York, NY",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4656129005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Senior Product Designer",
-            "location": "New York, NY, San Francisco, CA, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4656123005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Cloud Infrastructure Engineer New",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4684687005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Data Analytics Engineer",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4677021005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Director of Engineering, Infrastructure & Platform",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4642174005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Principal Software Engineer, Backend",
-            "location": "Bucharest",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4600128005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Protocol Engineer",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4020810005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Software Engineer (Backend) - Distributed Systems",
-            "location": "New York, NY, San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4648515005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Software Engineer - Solutions",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4538329005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Head of GTM",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4670683005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Senior Product Manager, Growth",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4678597005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Account Executive",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4461901005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Account Executive, Enterprise",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4600392005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Account Executive, Solana",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4600351005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Sales Development Representative",
-            "location": "Singapore",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4539418005"
-        },
-        {
-            "company": "alchemy",
-            "title": "Sales Manager",
-            "location": "New York, New York, US, San Francisco, California, US",
-            "link": "https://job-boards.greenhouse.io/alchemy/jobs/4635122005"
         },
         {
             "company": "near",
@@ -3866,6 +3746,12 @@
         },
         {
             "company": "taxbit",
+            "title": "Product Marketing ManagerNew",
+            "location": "New York, New York",
+            "link": "https://job-boards.greenhouse.io/taxbit/jobs/5976875004"
+        },
+        {
+            "company": "taxbit",
             "title": "Principal Product Designer",
             "location": "Seattle, Washington",
             "link": "https://job-boards.greenhouse.io/taxbit/jobs/5836545004"
@@ -3881,6 +3767,12 @@
             "title": "Enterprise Account Executive",
             "location": "San Francisco, California",
             "link": "https://job-boards.greenhouse.io/taxbit/jobs/5708814004"
+        },
+        {
+            "company": "taxbit",
+            "title": "Sales Development RepresentativeNew",
+            "location": "New York, New York",
+            "link": "https://job-boards.greenhouse.io/taxbit/jobs/5976934004"
         },
         {
             "company": "taxbit",
@@ -3902,51 +3794,21 @@
         },
         {
             "company": "aptoslabs",
+            "title": "Community Manager (Korea)New",
+            "location": "Korea",
+            "link": "https://job-boards.greenhouse.io/aptoslabs/jobs/4686651005"
+        },
+        {
+            "company": "aptoslabs",
+            "title": "Workplace Coordinator",
+            "location": "New York, New York",
+            "link": "https://job-boards.greenhouse.io/aptoslabs/jobs/4670510005"
+        },
+        {
+            "company": "aptoslabs",
             "title": "Head of Enterprise GTM \u2013 Shelby Platform",
             "location": "US/Global (Remote)",
             "link": "https://job-boards.greenhouse.io/aptoslabs/jobs/4645494005"
-        },
-        {
-            "company": "avalabs",
-            "title": "Senior Product Designer - Institutional Custody",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5743219004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Senior Backend Engineer, Institutional Custody",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5584478004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Senior Software Engineer, Institutional Custody",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5639320004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Staff Backend Engineer, Institutional Custody",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5628550004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Staff Protocol Engineer, EVM",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5734196004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Summer 2026 Engineering Internship",
-            "location": "Brooklyn, NY",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5644616004"
-        },
-        {
-            "company": "avalabs",
-            "title": "Senior Technical Product Manager - AvaCloud",
-            "location": "Brooklyn, NY or Remote (North America)",
-            "link": "https://job-boards.greenhouse.io/avalabs/jobs/5686116004"
         },
         {
             "company": "immunefi",
@@ -3959,30 +3821,6 @@
             "title": "Head of Sales",
             "location": "Remote",
             "link": "https://job-boards.greenhouse.io/immunefi/jobs/5822428004"
-        },
-        {
-            "company": "strike.me",
-            "title": "Site Reliability Engineer",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/strike/jobs/4015660004"
-        },
-        {
-            "company": "strike.me",
-            "title": "Software Engineer, Backend",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/strike/jobs/4003945004"
-        },
-        {
-            "company": "strike.me",
-            "title": "Open Application",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/strike/jobs/4791315004"
-        },
-        {
-            "company": "strike.me",
-            "title": "Software Security Engineer",
-            "location": "Remote, Americas & European time zones",
-            "link": "https://job-boards.greenhouse.io/strike/jobs/5831210004"
         },
         {
             "company": "copperco",
@@ -4015,118 +3853,28 @@
             "link": "https://job-boards.eu.greenhouse.io/copperco/jobs/4815515101"
         },
         {
-            "company": "copperco",
-            "title": "Principal Site Reliability Engineer",
-            "location": "London",
-            "link": "https://job-boards.eu.greenhouse.io/copperco/jobs/4786171101"
+            "company": "strike.me",
+            "title": "Site Reliability Engineer",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/strike/jobs/4015660004"
         },
         {
-            "company": "layerzerolabs",
-            "title": "Business Development Lead - Hong Kong",
-            "location": "APAC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5649952004"
+            "company": "strike.me",
+            "title": "Software Engineer, Backend",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/strike/jobs/4003945004"
         },
         {
-            "company": "layerzerolabs",
-            "title": "Business Development Lead - Japan",
-            "location": "APAC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5649953004"
+            "company": "strike.me",
+            "title": "Open Application",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/strike/jobs/4791315004"
         },
         {
-            "company": "layerzerolabs",
-            "title": "Business Operations Lead",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5835087004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Crypto Business Development Intern",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5825404004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Customer Success Manager",
-            "location": "VANCOUVER, BC OR NEW YORK CITY",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554637004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Institutional Business Development Intern",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5837725004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Solutions Architect Lead - Hong Kong",
-            "location": "APAC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5622047004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Staff Solutions Architect",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5765882004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Backend Engineer",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554606004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Frontend Engineer",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5135897004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Protocol Engineer",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554608004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Systems Engineer",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5826155004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Data Analyst",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5787956004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Assistant Controller New",
-            "location": "Vancouver, BC or New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5970048004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "ControllerNew",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5969934004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Vertical Marketing Manager - Institutions",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5622041004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Product Manager",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5755720004"
-        },
-        {
-            "company": "layerzerolabs",
-            "title": "Technical Recruiter",
-            "location": "Vancouver, BC",
-            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5561073004"
+            "company": "strike.me",
+            "title": "Software Security Engineer",
+            "location": "Remote, Americas & European time zones",
+            "link": "https://job-boards.greenhouse.io/strike/jobs/5831210004"
         },
         {
             "company": "galaxydigital",
@@ -4136,7 +3884,7 @@
         },
         {
             "company": "galaxydigital",
-            "title": "Senior Volatility and Options Strategist",
+            "title": "Associate, Volatility and Options Strategist",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5789843004"
         },
@@ -4316,6 +4064,12 @@
         },
         {
             "company": "galaxydigital",
+            "title": "VP, Trading Systems DeveloperNew",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5976669004"
+        },
+        {
+            "company": "galaxydigital",
             "title": "Director of Corporate Accounting & Public Reporting",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5840698004"
@@ -4442,12 +4196,6 @@
         },
         {
             "company": "galaxydigital",
-            "title": "Vice President, Program Manager",
-            "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5803470004"
-        },
-        {
-            "company": "galaxydigital",
             "title": "Talent Acquisition Partner",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5790669004"
@@ -4487,6 +4235,114 @@
             "title": "Don't see the right job for you?",
             "location": "Bahamas, Chicago, Hong Kong, London, New York",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/4514986004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Business Development Lead - Hong Kong",
+            "location": "APAC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5649952004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Business Development Lead - Japan",
+            "location": "APAC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5649953004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Business Operations Lead",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5835087004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Crypto Business Development Intern",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5825404004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Customer Success Manager",
+            "location": "VANCOUVER, BC OR NEW YORK CITY",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554637004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Institutional Business Development Intern",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5837725004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Solutions Architect Lead - Hong Kong",
+            "location": "APAC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5622047004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Staff Solutions Architect",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5765882004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Backend Engineer",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554606004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Frontend Engineer",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5135897004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Protocol Engineer",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5554608004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Systems Engineer",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5826155004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Data Analyst",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5787956004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Assistant Controller New",
+            "location": "Vancouver, BC or New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5970048004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "ControllerNew",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5969934004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Vertical Marketing Manager - Institutions",
+            "location": "New York City",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5622041004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Product Manager",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5755720004"
+        },
+        {
+            "company": "layerzerolabs",
+            "title": "Technical Recruiter",
+            "location": "Vancouver, BC",
+            "link": "https://job-boards.greenhouse.io/layerzerolabs/jobs/5561073004"
         },
         {
             "company": "brave",
@@ -4567,6 +4423,12 @@
             "link": "https://job-boards.greenhouse.io/brave/jobs/6748246"
         },
         {
+            "company": "noble",
+            "title": "General Application",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/noble/jobs/4182311008"
+        },
+        {
             "company": "zetachain",
             "title": "Senior Platform Engineer",
             "location": "San Francisco (Hybrid)",
@@ -4577,12 +4439,6 @@
             "title": "Social Media Manager",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/zetachain/jobs/5168849008"
-        },
-        {
-            "company": "noble",
-            "title": "General Application",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/noble/jobs/4182311008"
         },
         {
             "company": "ramp.network",
@@ -4652,15 +4508,9 @@
         },
         {
             "company": "bvnk",
-            "title": "Financial Crime Intelligence AnalystNew",
+            "title": "Financial Crime Intelligence Analyst",
             "location": "Poland / Bulgaria / Spain",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4839381101"
-        },
-        {
-            "company": "bvnk",
-            "title": "Financial Crime Systems Analyst",
-            "location": "Bulgaria / South Africa",
-            "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4813350101"
         },
         {
             "company": "bvnk",
@@ -4670,13 +4520,13 @@
         },
         {
             "company": "bvnk",
-            "title": "Head of Compliance Infrastructure and Analytics",
-            "location": "UK / US / EU",
-            "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4809159101"
+            "title": "Head of Compliance Infrastructure and AnalyticsNew",
+            "location": "UK / EU",
+            "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4844339101"
         },
         {
             "company": "bvnk",
-            "title": "Head of OperationsNew",
+            "title": "Head of Operations",
             "location": "Malta",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4840533101"
         },
@@ -4731,7 +4581,7 @@
         {
             "company": "bvnk",
             "title": "Senior Software Engineer - MXPNew",
-            "location": "South Africa, Bulgaria",
+            "location": "South Africa, Bulgaria, Poland, Spain",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/4841760101"
         },
         {
@@ -4742,7 +4592,7 @@
         },
         {
             "company": "meshpay",
-            "title": "Head of Business Development, KoreaNew",
+            "title": "Head of Business Development, Korea",
             "location": "Seoul, South Korea",
             "link": "https://job-boards.greenhouse.io/mesh/jobs/5187351008"
         },
@@ -4844,13 +4694,13 @@
         },
         {
             "company": "meshpay",
-            "title": "Head of Corporate DevelopmentNew",
+            "title": "Head of Corporate Development",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/mesh/jobs/5187510008"
         },
         {
             "company": "meshpay",
-            "title": "Head of Corporate DevelopmentNew",
+            "title": "Head of Corporate Development",
             "location": "New York City, NY",
             "link": "https://job-boards.greenhouse.io/mesh/jobs/5187530008"
         },
