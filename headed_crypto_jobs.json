@@ -20,12 +20,6 @@
         },
         {
             "company": "avara",
-            "title": "Senior Product Designer",
-            "location": "London or EU - Remote",
-            "link": "https://avara.xyz/careers/senior-product-designer-6ad18ce1-57b4-47ef-ad37-9b6466d8668c"
-        },
-        {
-            "company": "avara",
             "title": "Staff Design Engineer",
             "location": "London or EU - Remote",
             "link": "https://avara.xyz/careers/staff-design-engineer-47be1573-6daa-468c-b765-c75069de33d7"
@@ -62,27 +56,15 @@
         },
         {
             "company": "paradigm.co",
-            "title": "Quant Developer - Paradex",
+            "title": "Quantitative Developer - Paradex",
             "location": "Singapore",
             "link": "https://careers.kula.ai/paradigm/7447/"
-        },
-        {
-            "company": "paradigm.co",
-            "title": "Quantitative Strategist - Paradex",
-            "location": "Singapore",
-            "link": "https://careers.kula.ai/paradigm/7453/"
         },
         {
             "company": "paradigm.co",
             "title": "Senior Fullstack Engineer",
             "location": "Singapore",
             "link": "https://careers.kula.ai/paradigm/7461/"
-        },
-        {
-            "company": "paradigm.co",
-            "title": "Quant Trader",
-            "location": "Singapore",
-            "link": "https://careers.kula.ai/paradigm/7483/"
         },
         {
             "company": "paradigm.co",
@@ -128,21 +110,15 @@
         },
         {
             "company": "paradigm.co",
-            "title": "Senior Software Development Engineer in Test",
+            "title": "Senior SDET",
             "location": "Singapore",
             "link": "https://careers.kula.ai/paradigm/24649/"
         },
         {
             "company": "paradigm.co",
-            "title": "Principal Software Development Engineer in Test",
+            "title": "Principal SDET",
             "location": "Singapore",
             "link": "https://careers.kula.ai/paradigm/24650/"
-        },
-        {
-            "company": "coinbase",
-            "title": "Chief of Staff to the COO",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7298274"
         },
         {
             "company": "coinbase",
@@ -170,12 +146,6 @@
         },
         {
             "company": "coinbase",
-            "title": "EDD Compliance Analyst III",
-            "location": "Hybrid - Luxembourg",
-            "link": "https://www.coinbase.com/careers/positions/7715828"
-        },
-        {
-            "company": "coinbase",
             "title": "Supervisor, Customer Success Team (Remote-Cyprus)",
             "location": "Remote - Cyprus",
             "link": "https://www.coinbase.com/careers/positions/7759744"
@@ -191,6 +161,18 @@
             "title": "Transaction Monitoring Lead Analyst",
             "location": "Remote - Singapore",
             "link": "https://www.coinbase.com/careers/positions/7516383"
+        },
+        {
+            "company": "coinbase",
+            "title": "Analytics Engineer",
+            "location": "Remote - UK",
+            "link": "https://www.coinbase.com/careers/positions/7843707"
+        },
+        {
+            "company": "coinbase",
+            "title": "Analytics Engineer",
+            "location": "Remote - Ireland",
+            "link": "https://www.coinbase.com/careers/positions/7843710"
         },
         {
             "company": "coinbase",
@@ -296,12 +278,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Backend (Institutional - Markets)",
-            "location": "Remote - Netherlands",
-            "link": "https://www.coinbase.com/careers/positions/7565647"
-        },
-        {
-            "company": "coinbase",
             "title": "Senior Software Engineer, Backend (Platform - Financial Eng)",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7670920"
@@ -392,12 +368,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Software Engineer, Infrastructure - Platform Compute",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7576764"
-        },
-        {
-            "company": "coinbase",
             "title": "Engineering Manager",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7743959"
@@ -413,12 +383,6 @@
             "title": "Engineering Manager - Customer Experience AI",
             "location": "Remote - India",
             "link": "https://www.coinbase.com/careers/positions/7741187"
-        },
-        {
-            "company": "coinbase",
-            "title": "Engineering Manager - Platform (FinHub)",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7790065"
         },
         {
             "company": "coinbase",
@@ -530,9 +494,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Accountant",
-            "location": "Remote - Cyprus",
-            "link": "https://www.coinbase.com/careers/positions/7559052"
+            "title": "Accountant, Capital Markets",
+            "location": "New York City, NY",
+            "link": "https://www.coinbase.com/careers/positions/7809557"
         },
         {
             "company": "coinbase",
@@ -584,6 +548,12 @@
         },
         {
             "company": "coinbase",
+            "title": "Financial Analyst, Corporate FP&A",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7676111"
+        },
+        {
+            "company": "coinbase",
             "title": "Head of SOX and Internal Controls",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7792926"
@@ -593,12 +563,6 @@
             "title": "Head of SOX and Internal Controls",
             "location": "Remote - Canada",
             "link": "https://www.coinbase.com/careers/positions/7822882"
-        },
-        {
-            "company": "coinbase",
-            "title": "Internal Audit Analyst",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7683744"
         },
         {
             "company": "coinbase",
@@ -620,9 +584,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Accountant",
-            "location": "Remote - UK",
-            "link": "https://www.coinbase.com/careers/positions/7554014"
+            "title": "Senior Accountant, Capital Markets",
+            "location": "New York City, NY",
+            "link": "https://www.coinbase.com/careers/positions/7445174"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Finance & Strategy Analyst, Consumer",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7760206"
         },
         {
             "company": "coinbase",
@@ -635,18 +605,6 @@
             "title": "Staff Accountant - India Exchange",
             "location": "Remote - India",
             "link": "https://www.coinbase.com/careers/positions/7800408"
-        },
-        {
-            "company": "coinbase",
-            "title": "Derivative Sales Associate",
-            "location": "New York City, NY",
-            "link": "https://www.coinbase.com/careers/positions/7676009"
-        },
-        {
-            "company": "coinbase",
-            "title": "Institutional Account Manager",
-            "location": "Remote - Singapore",
-            "link": "https://www.coinbase.com/careers/positions/7724783"
         },
         {
             "company": "coinbase",
@@ -668,12 +626,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Solutions Architect",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7702401"
-        },
-        {
-            "company": "coinbase",
             "title": "Country Director, Canada",
             "location": "Remote - Canada",
             "link": "https://www.coinbase.com/careers/positions/7516016"
@@ -686,15 +638,15 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Site Reliability Engineer, IT Infrastructure",
+            "title": "Senior Site Reliability Engineer, Core AI Infrastructure",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7663545"
+            "link": "https://www.coinbase.com/careers/positions/7847428"
         },
         {
             "company": "coinbase",
-            "title": "Site Reliability Engineer, IT Infrastructure",
+            "title": "Staff Site Reliability Engineer, Core AI Infrastructure",
             "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7559168"
+            "link": "https://www.coinbase.com/careers/positions/7847435"
         },
         {
             "company": "coinbase",
@@ -710,13 +662,7 @@
         },
         {
             "company": "coinbase",
-            "title": "Compliance, Senior Associate (Financial Crime)",
-            "location": "Remote - Canada",
-            "link": "https://www.coinbase.com/careers/positions/7643863"
-        },
-        {
-            "company": "coinbase",
-            "title": "Counsel, Commercial (Institutional Legal)",
+            "title": "Counsel, Commercial (Institutional)",
             "location": "Remote - UK",
             "link": "https://www.coinbase.com/careers/positions/7602261"
         },
@@ -746,12 +692,6 @@
         },
         {
             "company": "coinbase",
-            "title": "Senior Investigator, Global Intelligence",
-            "location": "Remote - UK",
-            "link": "https://www.coinbase.com/careers/positions/7595363"
-        },
-        {
-            "company": "coinbase",
             "title": "Senior Manager, Compliance Product Data",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7597078"
@@ -776,6 +716,12 @@
         },
         {
             "company": "coinbase",
+            "title": "Communications Manager, Policy & Public Affairs",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/7746572"
+        },
+        {
+            "company": "coinbase",
             "title": "Head of Communications, Base",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7737041"
@@ -785,12 +731,6 @@
             "title": "Head of Marketing Operations",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/7712133"
-        },
-        {
-            "company": "coinbase",
-            "title": "International Communications Associate",
-            "location": "Remote - Australia",
-            "link": "https://www.coinbase.com/careers/positions/7670186"
         },
         {
             "company": "coinbase",
@@ -818,9 +758,9 @@
         },
         {
             "company": "coinbase",
-            "title": "Quantitative Risk Modeling Manager",
-            "location": "Remote - USA",
-            "link": "https://www.coinbase.com/careers/positions/7612805"
+            "title": "Payments Risk Analyst II",
+            "location": "Remote - UK",
+            "link": "https://www.coinbase.com/careers/positions/7836969"
         },
         {
             "company": "coinbase",
@@ -878,12 +818,6 @@
         },
         {
             "company": "sygnum",
-            "title": "Singapore CEO Office Intern",
-            "location": "Singapore, Singapore",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN202"
-        },
-        {
-            "company": "sygnum",
             "title": "Senior Software Engineer, Tokenization (80-100%)",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN203"
@@ -914,7 +848,7 @@
         },
         {
             "company": "sygnum",
-            "title": "Senior Product Manager - Digital Assets Custody & Staking Team",
+            "title": "Product Manager - Digital Assets Custody & Staking Team",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN215"
         },
@@ -926,7 +860,7 @@
         },
         {
             "company": "sygnum",
-            "title": "Senior Product Manager - Tokenization",
+            "title": "Product Manager - Tokenization",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN219"
         },
@@ -962,7 +896,7 @@
         },
         {
             "company": "sygnum",
-            "title": "(Senior) Relationship Manager EAM & MFO, Suisse Romandie",
+            "title": "(Senior) Relationship Manager EAM & MFO, Suisse Romande",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN233"
         },
@@ -977,12 +911,6 @@
             "title": "DPO and Legal Counsel",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN236"
-        },
-        {
-            "company": "sygnum",
-            "title": "Cyber Resilience Lead",
-            "location": "Zurich, Switzerland",
-            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN237"
         },
         {
             "company": "sygnum",
@@ -1013,6 +941,24 @@
             "title": "Internship, Compliance \u2013 Advisory & Reporting Team",
             "location": "Zurich, Switzerland",
             "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN242"
+        },
+        {
+            "company": "sygnum",
+            "title": "Senior Software Engineer, AI",
+            "location": "Zurich, Switzerland",
+            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN243"
+        },
+        {
+            "company": "sygnum",
+            "title": "Product Manager Risk Technology",
+            "location": "Zurich, Switzerland",
+            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN244"
+        },
+        {
+            "company": "sygnum",
+            "title": "Internship - Anti-Financial Crime Compliance",
+            "location": "Zurich, Switzerland",
+            "link": "https://sygnumpeopleportal.my.salesforce-sites.com/recruit/fRecruit__ApplyJob?vacancyNo=VN245"
         }
     ]
 }
