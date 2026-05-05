@@ -200,6 +200,12 @@
         },
         {
             "company": "mistral",
+            "title": "Engineering Program Manager",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/mistral/a1854159-922e-4de7-adb6-7c1b608c147f"
+        },
+        {
+            "company": "mistral",
             "title": "Engineering Team Lead, DevEx",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/mistral/b002e59e-c262-4c68-86a8-4af575f5c4df"
@@ -317,12 +323,6 @@
             "title": "Systems Engineer, HPC",
             "location": "PARIS / LONDON / AMSTERDAM / BARCELONA/MADRID / BERLIN/MUNICH/FRANKFURT / LAUSANNE,REMOTE",
             "link": "https://jobs.lever.co/mistral/c2cf8b02-cb79-4e13-8717-25817813542d"
-        },
-        {
-            "company": "mistral",
-            "title": "Technical Program Manager, Engineering",
-            "location": "PARIS,HYBRID",
-            "link": "https://jobs.lever.co/mistral/a1854159-922e-4de7-adb6-7c1b608c147f"
         },
         {
             "company": "mistral",
@@ -698,7 +698,7 @@
         },
         {
             "company": "mistral",
-            "title": "Research Platform Engineer, DevOps",
+            "title": "Research Platform Engineer",
             "location": "PARIS / LONDON,REMOTE",
             "link": "https://jobs.lever.co/mistral/18be2b70-c05d-48e4-82ac-e5cb462c96c0"
         },
@@ -908,12 +908,6 @@
         },
         {
             "company": "mistral",
-            "title": "Applied Scientist / Research Engineer, AI4Engineering - EMEA",
-            "location": "PARIS / LONDON / MUNICH / AMSTERDAM / LAUSANNE / LUXEMBOURG,HYBRID",
-            "link": "https://jobs.lever.co/mistral/249d0ec9-1824-41cb-8c4f-cb17a1d5d111"
-        },
-        {
-            "company": "mistral",
             "title": "Associate AI Deployment Strategist",
             "location": "PARIS / LONDON,ON-SITE",
             "link": "https://jobs.lever.co/mistral/4d689780-4995-4fe5-9b7e-e8c28a180397"
@@ -929,12 +923,6 @@
             "title": "Infrastructure Solution Architect - EMEA",
             "location": "PARIS / LONDON / AMSTERDAM / MUNICH,ON-SITE",
             "link": "https://jobs.lever.co/mistral/1d8de5a6-9794-4919-9c43-b2494e6cfa0f"
-        },
-        {
-            "company": "mistral",
-            "title": "Infrastructure Solution Architect - US",
-            "location": "PALO ALTO / NEW YORK, NY,REMOTE",
-            "link": "https://jobs.lever.co/mistral/01384cb8-1218-4116-a040-2c97eb1a300b"
         },
         {
             "company": "mistral",
@@ -1097,6 +1085,12 @@
             "title": "Forward Deployed Infrastructure Engineer - US Government",
             "location": "WASHINGTON, D.C.,HYBRID",
             "link": "https://jobs.lever.co/palantir/74748e0e-a0bc-4c53-a636-ef14e36d9b5e"
+        },
+        {
+            "company": "palantir",
+            "title": "Forward Deployed Infrastructure Engineer - US Government",
+            "location": "HONOLULU, HI,HYBRID",
+            "link": "https://jobs.lever.co/palantir/0fccbe95-2520-4df3-8600-7897656c06a2"
         },
         {
             "company": "palantir",
@@ -2060,6 +2054,18 @@
         },
         {
             "company": "palantir",
+            "title": "Deal Operations Administrator",
+            "location": "PALO ALTO, CA,HYBRID",
+            "link": "https://jobs.lever.co/palantir/8c59a77a-1a57-4a2b-9d03-0b757b719015"
+        },
+        {
+            "company": "palantir",
+            "title": "Deal Operations Administrator",
+            "location": "WASHINGTON, D.C.,HYBRID",
+            "link": "https://jobs.lever.co/palantir/8de3d5d0-8c0a-40ee-9f57-a75165c98689"
+        },
+        {
+            "company": "palantir",
             "title": "Government Contracts Specialist",
             "location": "LONDON, UK,HYBRID",
             "link": "https://jobs.lever.co/palantir/6374282c-0330-4f98-b2a8-1afc4070f8f5"
@@ -2377,156 +2383,6 @@
             "link": "https://jobs.lever.co/palantir/df20ad9f-3d7f-4267-8e37-8253f717534a"
         },
         {
-            "company": "rivr",
-            "title": "AI Engineer - Imitation Learning (Senior)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/76924145-539b-4b91-afce-0d6e08e6dce4"
-        },
-        {
-            "company": "rivr",
-            "title": "AI Engineer - Reinforcement Learning (Senior)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/e48a50a8-7e72-4a15-8cf4-a32af3febdaa"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior AI Engineer - VLA Foundation Model",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/522bc963-969f-4816-bdee-8771b85247cf"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior AI Engineer Self-Supervised Learning",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/0d36f979-66dd-411e-b66c-74e686f09f7f"
-        },
-        {
-            "company": "rivr",
-            "title": "Assembly Operator",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/82b43c90-42cf-4adf-ab22-93aee533e7e6"
-        },
-        {
-            "company": "rivr",
-            "title": "Embedded Systems Engineer (Senior)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/a17332df-af03-4c22-8e59-bbc4881c4298"
-        },
-        {
-            "company": "rivr",
-            "title": "Hardware Engineering Intern",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/eda72db8-a221-47ba-8dec-7191a3a0d9be"
-        },
-        {
-            "company": "rivr",
-            "title": "Mechanical Engineer (Junior)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/2b332a67-ca91-4f10-9c1a-452a9ad923e5"
-        },
-        {
-            "company": "rivr",
-            "title": "Mechanical Engineer (Senior)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/43e8cea7-b0f7-40fc-9447-8edc91b0cdd2"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Electronics Engineer (Motor Control & Power Electronics)",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/ad5992f3-7bba-4389-8ff5-eefc5eb1b413"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Manager, Robotics Hardware Development",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/5785b0d0-b5b5-4b7b-a7a5-fe4dce3b1f56"
-        },
-        {
-            "company": "rivr",
-            "title": "Testing Engineer",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/5bc972e3-75ff-4ac3-a24b-ce6bb494e957"
-        },
-        {
-            "company": "rivr",
-            "title": "Embedded Linux Systems Engineer",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/592c81f6-5617-4d65-a1a3-0f03ca0954f3"
-        },
-        {
-            "company": "rivr",
-            "title": "Robotics Software Intern",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/a90f4f4c-f467-4121-9da4-29289faa39c4"
-        },
-        {
-            "company": "rivr",
-            "title": "Robotics Wireless & Network Engineer",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/708b88de-0c58-4a3c-9546-8e7590b625c3"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Software Engineer \u2013 Backend",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/4e012ab6-3c29-436c-8641-2c07757db8fa"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Software Engineer \u2013 MLOps",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/5ade05de-9948-4b8a-9d1b-f2e7d6931189"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Software Engineer Robot Platform",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/d2cb5c46-5d80-4049-a4fc-179051f39909"
-        },
-        {
-            "company": "rivr",
-            "title": "IT Manager",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/b8dc3781-99fc-4386-83b7-5f590bfbd2ae"
-        },
-        {
-            "company": "rivr",
-            "title": "Senior Industrial Designer",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/9f48ed6e-735d-47dc-881d-a4cb17eb5ed0"
-        },
-        {
-            "company": "rivr",
-            "title": "Robotics Field Engineer",
-            "location": "AUSTIN, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/08525a22-932f-4fa2-9415-b5a7192cb5c2"
-        },
-        {
-            "company": "rivr",
-            "title": "Head of QA",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/86652fc8-d9a6-4e48-8986-7317ef835c71"
-        },
-        {
-            "company": "rivr",
-            "title": "Product Manager, Hardware",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/4247b443-a2a0-4b9a-8f61-8966fc428f57"
-        },
-        {
-            "company": "rivr",
-            "title": "Technical Program Manager",
-            "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/20c4aa2b-da6e-4ce6-ab22-67db4d03f197"
-        },
-        {
-            "company": "rivr",
-            "title": "(Senior) Quality Assurance Engineer",
-            "location": "SHANGHAI,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/6de4cde0-549f-453a-9d14-1c59e6c83434"
-        },
-        {
             "company": "shieldai",
             "title": "Senior Systems Administrator (R4696)",
             "location": "NEW DELHI,ON-SITE",
@@ -2804,12 +2660,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Technical Director, ERP Programs",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/shieldai/f9364298-220f-4a43-ab29-b51c73218157"
-        },
-        {
-            "company": "shieldai",
             "title": "Director, End User Computing (R4575)",
             "location": "SAN FRANCISCO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/3a41fddc-fef9-4760-978e-b531c14cbd47"
@@ -2837,12 +2687,6 @@
             "title": "Senior Lead, Strategy & Operations (R4671)",
             "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/8a0edafa-f906-48c3-9ca5-0af07075b156"
-        },
-        {
-            "company": "shieldai",
-            "title": "Lead Accountant (R4209)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/9750a6fd-319c-4063-a69c-388b79ce0c9d"
         },
         {
             "company": "shieldai",
@@ -3152,12 +2996,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Staff Mechatronics Engineer (R4386)",
-            "location": "MELBOURNE,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/962c1ed9-256d-421c-b414-f066a0782381"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Systems Engineer (R4315)",
             "location": "MELBOURNE,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/76524c09-ac8c-4e1a-bca5-fd7572094ba7"
@@ -3395,12 +3233,6 @@
             "title": "Senior Contracts Manager (R4378)",
             "location": "WASHINGTON, DC,HYBRID",
             "link": "https://jobs.lever.co/shieldai/b2817f5b-22bd-4dbc-9955-64267aa2fb2b"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Staff Facilities Security Officer (R4726)",
-            "location": "MELBOURNE,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/5bd03e13-49f7-4087-b464-726f988aca9c"
         },
         {
             "company": "shieldai",
@@ -4243,6 +4075,162 @@
             "link": "https://jobs.lever.co/shieldai/ea6d68b6-f5d1-4b80-abb0-0db794279b8c"
         },
         {
+            "company": "rivr",
+            "title": "AI Engineer - Imitation Learning (Senior)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/76924145-539b-4b91-afce-0d6e08e6dce4"
+        },
+        {
+            "company": "rivr",
+            "title": "AI Engineer - Reinforcement Learning (Senior)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/e48a50a8-7e72-4a15-8cf4-a32af3febdaa"
+        },
+        {
+            "company": "rivr",
+            "title": "Reinforcement Learning Intern",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/5798a1e4-a941-41a4-b332-fcb201027620"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior AI Engineer - VLA Foundation Model",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/522bc963-969f-4816-bdee-8771b85247cf"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior AI Engineer Self-Supervised Learning",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/0d36f979-66dd-411e-b66c-74e686f09f7f"
+        },
+        {
+            "company": "rivr",
+            "title": "Assembly Operator",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/82b43c90-42cf-4adf-ab22-93aee533e7e6"
+        },
+        {
+            "company": "rivr",
+            "title": "Embedded Systems Engineer (Senior)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/a17332df-af03-4c22-8e59-bbc4881c4298"
+        },
+        {
+            "company": "rivr",
+            "title": "Hardware Engineering Intern",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/eda72db8-a221-47ba-8dec-7191a3a0d9be"
+        },
+        {
+            "company": "rivr",
+            "title": "Mechanical Engineer (Junior)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/2b332a67-ca91-4f10-9c1a-452a9ad923e5"
+        },
+        {
+            "company": "rivr",
+            "title": "Mechanical Engineer (Senior)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/43e8cea7-b0f7-40fc-9447-8edc91b0cdd2"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Electronics Engineer (Motor Control & Power Electronics)",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/ad5992f3-7bba-4389-8ff5-eefc5eb1b413"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Manager, Robotics Hardware Development",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/5785b0d0-b5b5-4b7b-a7a5-fe4dce3b1f56"
+        },
+        {
+            "company": "rivr",
+            "title": "Testing Engineer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/5bc972e3-75ff-4ac3-a24b-ce6bb494e957"
+        },
+        {
+            "company": "rivr",
+            "title": "Embedded Linux Systems Engineer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/592c81f6-5617-4d65-a1a3-0f03ca0954f3"
+        },
+        {
+            "company": "rivr",
+            "title": "Robotics Software Intern",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/a90f4f4c-f467-4121-9da4-29289faa39c4"
+        },
+        {
+            "company": "rivr",
+            "title": "Robotics Wireless & Network Engineer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/708b88de-0c58-4a3c-9546-8e7590b625c3"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Software Engineer \u2013 Backend",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/4e012ab6-3c29-436c-8641-2c07757db8fa"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Software Engineer \u2013 MLOps",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/5ade05de-9948-4b8a-9d1b-f2e7d6931189"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Software Engineer Robot Platform",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/d2cb5c46-5d80-4049-a4fc-179051f39909"
+        },
+        {
+            "company": "rivr",
+            "title": "Software Engineer Robot Platform - IsaacSim Simulation Focus",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/0bf06cf6-b2f0-4545-b67d-bec1d29e3197"
+        },
+        {
+            "company": "rivr",
+            "title": "IT Manager",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/b8dc3781-99fc-4386-83b7-5f590bfbd2ae"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Industrial Designer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/9f48ed6e-735d-47dc-881d-a4cb17eb5ed0"
+        },
+        {
+            "company": "rivr",
+            "title": "Robotics Field Engineer",
+            "location": "AUSTIN, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/08525a22-932f-4fa2-9415-b5a7192cb5c2"
+        },
+        {
+            "company": "rivr",
+            "title": "Head of QA",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/86652fc8-d9a6-4e48-8986-7317ef835c71"
+        },
+        {
+            "company": "rivr",
+            "title": "Product Manager, Hardware",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/4247b443-a2a0-4b9a-8f61-8966fc428f57"
+        },
+        {
+            "company": "rivr",
+            "title": "(Senior) Quality Assurance Engineer",
+            "location": "SHANGHAI,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/6de4cde0-549f-453a-9d14-1c59e6c83434"
+        },
+        {
             "company": "anybotics",
             "title": "Field Service Technician, Industrial Robotics",
             "location": "BARCELONA, CATALONIA,HYBRID",
@@ -4311,7 +4299,7 @@
         {
             "company": "anybotics",
             "title": "Solutions Architect, Robotic Industrial Inspections",
-            "location": "SAN FRANCISCO, CALIFORNIA / RUST BELT,HYBRID",
+            "location": "SAN FRANCISCO, CALIFORNIA,HYBRID",
             "link": "https://jobs.lever.co/anybotics/54facc05-f02a-4187-8a22-3cabba3d6e1e"
         },
         {
@@ -4592,12 +4580,6 @@
         },
         {
             "company": "encord.com",
-            "title": "GTM Talent Partner",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/529dcadb-c1ca-44f7-ad8e-22b7672421d3"
-        },
-        {
-            "company": "encord.com",
             "title": "Human Data Operations Strategist",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/CordTechnologies/985f8db0-13c8-45a2-a7ee-4a25b8306527"
@@ -4725,12 +4707,6 @@
         {
             "company": "encord.com",
             "title": "Solutions Engineer",
-            "location": "SAN FRANCISCO,ON-SITE",
-            "link": "https://jobs.lever.co/CordTechnologies/13528d86-c569-4351-ad5b-90e12f4ada00"
-        },
-        {
-            "company": "encord.com",
-            "title": "Solutions Engineer",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/CordTechnologies/3ab16807-aede-472d-b807-30229f8dcef2"
         },
@@ -4741,10 +4717,10 @@
             "link": "https://jobs.lever.co/CordTechnologies/efb26bbb-5729-457f-95ec-253e58df9618"
         },
         {
-            "company": "meilisearch",
-            "title": "Spontaneous applications",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
+            "company": "oxylabs",
+            "title": "Commercial Product Owner",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/4ff3009c-196b-46c9-bd67-02a6864dbb44"
         },
         {
             "company": "oxylabs",
@@ -4757,12 +4733,6 @@
             "title": "Senior Business Development Manager",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/48fc8c4a-e2f1-4646-8c75-9a604bd318e4"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Technical Customer Support Specialist (Night Shift)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/fad808c6-b772-44eb-8a03-b4257f9f2634"
         },
         {
             "company": "oxylabs",
@@ -4784,13 +4754,13 @@
         },
         {
             "company": "oxylabs",
-            "title": "Product Designer",
+            "title": "Product Designer (UX Focus)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/cabac28a-f1d9-4eb3-8b11-32aa37375500"
         },
         {
             "company": "oxylabs",
-            "title": "Product Designer",
+            "title": "Product Designer (Visual & UI Focus)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/5ea6dd65-3dce-4315-9e50-a849c161f31e"
         },
@@ -4820,21 +4790,15 @@
         },
         {
             "company": "oxylabs",
-            "title": "Mid-Senior PHP Developer (Remote)",
-            "location": "WARSAW,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/29fe2b1e-3b6a-49d4-9553-e9f3d4c691b2"
-        },
-        {
-            "company": "oxylabs",
             "title": "Experienced Web Scraping Engineer - Python",
             "location": "POLAND,REMOTE",
             "link": "https://jobs.lever.co/oxylabs/e0f07b63-c4a8-4387-a255-2c8a5e484f31"
         },
         {
             "company": "oxylabs",
-            "title": "Squad Lead (Scraping Team)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/48386680-82f6-455b-b1e0-72422238535b"
+            "title": "Software Engineer (Go)",
+            "location": "VILNIUS/KAUNAS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/4a416500-db4e-474f-a137-799970292045"
         },
         {
             "company": "oxylabs",
@@ -4847,12 +4811,6 @@
             "title": "PHP/Go Developer (Mid-Senior)",
             "location": "KAUNAS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/f23c2215-0ec8-4357-b215-127f5bd35f62"
-        },
-        {
-            "company": "oxylabs",
-            "title": "PHP/Go Developer (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/a3d8278f-2e64-4482-a77c-3d10223b8b25"
         },
         {
             "company": "oxylabs",
@@ -5005,82 +4963,10 @@
             "link": "https://jobs.lever.co/oxylabs/94855bf9-05b2-47e7-849e-3df8c831c0e5"
         },
         {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Agentic Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "AI Research Scientist - Generative Models",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "ML Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Elite",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Mechatronics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Robotics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer - Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist/Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Materials Scientist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/550e9d9e-e8dc-4863-9966-52ec104524c2"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer, Platform",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/ecd88e3e-815d-431f-a752-a0c02ecc325f"
+            "company": "meilisearch",
+            "title": "Spontaneous applications",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/meili/00f971bb-ba4e-4daa-ae23-823602a9461b"
         },
         {
             "company": "netomi",
@@ -5177,6 +5063,12 @@
             "title": "Senior Manager \u2013 GenAI Performance & Analytics",
             "location": "GURUGRAM,REMOTE",
             "link": "https://jobs.lever.co/netomi/3724e48e-95cf-4299-b1cf-59bb1264c772"
+        },
+        {
+            "company": "netomi",
+            "title": "Senior Documentation Engineer",
+            "location": "GURUGRAM,REMOTE",
+            "link": "https://jobs.lever.co/netomi/fb7dca89-fd96-4df7-8ed1-11cf2fb3b60f"
         },
         {
             "company": "netomi",
@@ -5309,6 +5201,84 @@
             "title": "Future Zusers",
             "location": "BOSTON, MA,REMOTE",
             "link": "https://jobs.lever.co/zushealth/5663a4bd-c398-4df3-9f95-65dc37454750"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Agentic Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/f3f758ea-25bf-4756-ae6c-af1d0d9b586a"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "AI Research Scientist - Generative Models",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/0ed60b43-a021-480d-aaff-9a38a69dc793"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "ML Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/078f84f2-0e62-4d51-8d2f-ce898ef9ea6e"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Elite",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/3f1aac34-ddc4-47dd-8f30-2c55420da58f"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Mechatronics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/c0b925f5-4d08-495d-b58c-35d7f62bd06c"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Robotics Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer - Systems",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Chemist/Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Material Scientist - Metal Alloys",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Materials Scientist",
+            "location": "CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/550e9d9e-e8dc-4863-9966-52ec104524c2"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/2885cd8e-f208-4bbc-86c2-d7b4d890fba0"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Software Engineer, Platform",
+            "location": "NEW YORK, NY,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/9891a086-713a-4dc0-a70f-c6f07f0307f6"
+        },
+        {
+            "company": "RadicalAI",
+            "title": "Computational Chemist",
+            "location": "CALIFORNIA,ON-SITE",
+            "link": "https://jobs.lever.co/RadicalAI/ecd88e3e-815d-431f-a752-a0c02ecc325f"
         }
     ]
 }
