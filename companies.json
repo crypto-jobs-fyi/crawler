@@ -1,6 +1,15 @@
 {
     "companies": [
         {
+            "name": "ethena",
+            "jobs_url": "https://jobs.lever.co/ethena",
+            "scraper": "LEVER",
+            "company_url": "https://www.goethena.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "base",
             "jobs_url": "https://www.base.org/jobs",
             "scraper": "BASE",
@@ -348,6 +357,15 @@
             "scraper": "ASHBYHQ",
             "company_url": "https://www.luxor.tech",
             "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "Kalshi",
+            "jobs_url": "https://jobs.ashbyhq.com/kalshi",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.kalshi.com",
+            "category": "fintech",
             "enabled": true,
             "headless": true
         },
