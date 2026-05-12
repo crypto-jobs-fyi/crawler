@@ -1401,7 +1401,7 @@
             "scraper": "COINBASE",
             "company_url": "https://coinbase.com",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": false
         },
         {
