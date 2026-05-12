@@ -2,12 +2,6 @@
     "data": [
         {
             "company": "retool",
-            "title": "Director, Business Operations",
-            "location": "San Francisco \u2022 Remote",
-            "link": "https://jobs.gem.com/retool/am9icG9zdDpdvI4F22-EVGeXat61zM8n"
-        },
-        {
-            "company": "retool",
             "title": "Data Scientist",
             "location": "San Francisco \u2022 In office",
             "link": "https://jobs.gem.com/retool/am9icG9zdDqBGHD-VZVGcilDoagUDjbG"
@@ -80,6 +74,12 @@
         },
         {
             "company": "retool",
+            "title": "Software Engineer, Governance",
+            "location": "San Francisco \u2022 Hybrid",
+            "link": "https://jobs.gem.com/retool/am9icG9zdDp9SmgWhNEJ2bTl6QWkx15r"
+        },
+        {
+            "company": "retool",
             "title": "Software Engineer, Observability",
             "location": "San Francisco \u2022 In office",
             "link": "https://jobs.gem.com/retool/4520708005"
@@ -101,6 +101,12 @@
             "title": "Software Engineer, Workflows",
             "location": "New York \u2022 Hybrid",
             "link": "https://jobs.gem.com/retool/4559232005"
+        },
+        {
+            "company": "retool",
+            "title": "AR & Billing Operations Manager",
+            "location": "Remote, US \u2022 Remote",
+            "link": "https://jobs.gem.com/retool/am9icG9zdDqN4nJdRcU1Y5TDMSY0sAww"
         },
         {
             "company": "retool",
@@ -194,15 +200,15 @@
         },
         {
             "company": "retool",
-            "title": "Manager, Technical Customer Experience",
-            "location": "London \u2022 Hybrid",
-            "link": "https://jobs.gem.com/retool/am9icG9zdDq1C1vm-X3JzvkMu0Ikrnjj"
+            "title": "Head of Sales Development",
+            "location": "Salt Lake City \u2022 Hybrid",
+            "link": "https://jobs.gem.com/retool/am9icG9zdDqD4KS2mbuRyoD_H3jI_b3G"
         },
         {
             "company": "retool",
-            "title": "Sales Engineer, Commercial",
-            "location": "San Francisco, New York \u2022 Hybrid",
-            "link": "https://jobs.gem.com/retool/4495250005"
+            "title": "Manager, Technical Customer Experience",
+            "location": "London \u2022 Hybrid",
+            "link": "https://jobs.gem.com/retool/am9icG9zdDq1C1vm-X3JzvkMu0Ikrnjj"
         },
         {
             "company": "retool",
@@ -248,6 +254,12 @@
         },
         {
             "company": "life360",
+            "title": "Principal AI Security Engineer, AI Native PlatformNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8542164002"
+        },
+        {
+            "company": "life360",
             "title": "Senior Backend Engineer II - AI-Native, Devices Cloud",
             "location": "Remote, USA; Remote, Canada",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8517516002"
@@ -257,6 +269,12 @@
             "title": "Senior Data Scientist, AI Native (Growth)",
             "location": "Remote, USA; Remote, Canada",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8517444002"
+        },
+        {
+            "company": "life360",
+            "title": "Senior GRC EngineerNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8543955002"
         },
         {
             "company": "life360",
@@ -272,12 +290,6 @@
         },
         {
             "company": "life360",
-            "title": "Senior Software Engineer (AI-Native), Circle Expansion",
-            "location": "Remote, USA ; Remote, Canada",
-            "link": "https://job-boards.greenhouse.io/life360/jobs/8517435002"
-        },
-        {
-            "company": "life360",
             "title": "Senior Software Engineer II AI-Native, Messaging",
             "location": "Remote, USA; Remote, Canada",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8517534002"
@@ -290,15 +302,9 @@
         },
         {
             "company": "life360",
-            "title": "Sr. Staff Backend Engineer AI-Native, Devices Cloud",
-            "location": "Remote, USA; Remote, Canada",
-            "link": "https://job-boards.greenhouse.io/life360/jobs/8517316002"
-        },
-        {
-            "company": "life360",
-            "title": "Staff AI Architect, Family AI LabNew",
+            "title": "Sr. Staff AI Security Engineer, AI Native PlatformNew",
             "location": "Remote, USA",
-            "link": "https://job-boards.greenhouse.io/life360/jobs/8537012002"
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8542150002"
         },
         {
             "company": "life360",
@@ -311,6 +317,30 @@
             "title": "Staff Android Engineer, AI Native (Experiences)",
             "location": "Remote, USA; Remote, Canada",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8524009002"
+        },
+        {
+            "company": "life360",
+            "title": "Staff Backend Engineer (AI Native), Family AI LabNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8537012002"
+        },
+        {
+            "company": "life360",
+            "title": "Staff iOS Engineer (AI Native), Family AI LabNew",
+            "location": "Remote, Canada; Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8544284002"
+        },
+        {
+            "company": "life360",
+            "title": "Staff Security Operations EngineerNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8543823002"
+        },
+        {
+            "company": "life360",
+            "title": "Senior Director, Corporate FinanceNew",
+            "location": "Remote, USA; Remote, Canada",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8543816002"
         },
         {
             "company": "life360",
@@ -356,33 +386,27 @@
         },
         {
             "company": "life360",
+            "title": "Principal Product Manager, Embedded DevicesNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/life360/jobs/8544279002"
+        },
+        {
+            "company": "life360",
             "title": "Principal Product Designer, EcosystemsNew",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8535125002"
         },
         {
             "company": "life360",
-            "title": "Sr. Product Designer, GrowthNew",
+            "title": "Sr. Product Designer, Growth",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/life360/jobs/8533430002"
-        },
-        {
-            "company": "life360",
-            "title": "Principal Product Manager, Platform",
-            "location": "Remote, USA",
-            "link": "https://job-boards.greenhouse.io/life360/jobs/8511184002"
         },
         {
             "company": "kong",
             "title": "Senior Legal Counsel EMEA, (Commercial)",
             "location": "England-London",
             "link": "https://jobs.ashbyhq.com/kong/738b2fe6-ea14-4e14-9894-5f3700a37172"
-        },
-        {
-            "company": "kong",
-            "title": "People Operations Specialist \u2013 India / APAC",
-            "location": "India-Bangalore",
-            "link": "https://jobs.ashbyhq.com/kong/22d979da-f0c5-4cf2-8788-8113f03c03c1"
         },
         {
             "company": "kong",
@@ -716,12 +740,6 @@
         },
         {
             "company": "kong",
-            "title": "Professional Services Strategy & Operations Manager",
-            "location": "US-Chicago; US",
-            "link": "https://jobs.ashbyhq.com/kong/79357bde-fe53-4c76-98bb-c73f2d050870"
-        },
-        {
-            "company": "kong",
             "title": "Renewal Manager - APJ",
             "location": "Singapore",
             "link": "https://jobs.ashbyhq.com/kong/c3df8a70-1f44-4a05-848c-634e6d3fcb68"
@@ -734,19 +752,25 @@
         },
         {
             "company": "kong",
-            "title": "Account Development Representative - French Speaking",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/kong/abb050ce-bf56-479b-9f65-7378ce4fb5df"
-        },
-        {
-            "company": "kong",
             "title": "Account Development Representative - German Speaking",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/kong/cfa5e446-0711-456d-9f54-3fcf329fad62"
         },
         {
             "company": "kong",
-            "title": "Account Development Representative (Hybrid)",
+            "title": "Account Development Representative (Dutch Speaking)",
+            "location": "England-London",
+            "link": "https://jobs.ashbyhq.com/kong/faf048d1-983c-4334-99e2-a55411f838c9"
+        },
+        {
+            "company": "kong",
+            "title": "Account Development Representative (Hybrid- Chicago)",
+            "location": "Remote - Illinois",
+            "link": "https://jobs.ashbyhq.com/kong/1b9662e1-1c73-4441-9db5-2a68a3979879"
+        },
+        {
+            "company": "kong",
+            "title": "Account Development Representative (Hybrid-Austin)",
             "location": "Remote - Texas",
             "link": "https://jobs.ashbyhq.com/kong/b9b92731-ea88-4aed-bbad-edb65eb6fcf6"
         },
@@ -761,12 +785,6 @@
             "title": "Sales Development Representative (Outbound - Asia) - Thailand market",
             "location": "Singapore",
             "link": "https://jobs.ashbyhq.com/kong/5a0b362e-d1fc-4b37-abbf-628e8506028f"
-        },
-        {
-            "company": "kong",
-            "title": "Senior Account Development Representative (Dutch Speaking)",
-            "location": "England-London",
-            "link": "https://jobs.ashbyhq.com/kong/faf048d1-983c-4334-99e2-a55411f838c9"
         },
         {
             "company": "kong",
@@ -842,12 +860,6 @@
         },
         {
             "company": "kong",
-            "title": "Enterprise Account Executive, Northeast I",
-            "location": "Remote - New York",
-            "link": "https://jobs.ashbyhq.com/kong/5008aabe-8405-47ef-a004-a1e036fda3ab"
-        },
-        {
-            "company": "kong",
             "title": "Enterprise Account Executive, Northeast II",
             "location": "Remote - New York; Remote - Massachusetts",
             "link": "https://jobs.ashbyhq.com/kong/388ed926-0c08-4b73-a52f-9b2ca1e33fca"
@@ -902,45 +914,9 @@
         },
         {
             "company": "shiftkey",
-            "title": "DevOps Engineer (SRE)",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/43665c67-75ae-4943-8011-b1b2966ec25e"
-        },
-        {
-            "company": "shiftkey",
-            "title": "Infrastructure Engineer (SRE)",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/2c9cbd9d-0fe8-41a0-9e88-88eb5615296c"
-        },
-        {
-            "company": "shiftkey",
             "title": "Platform Architect",
             "location": "Warsaw",
             "link": "https://jobs.ashbyhq.com/ShiftKey/05c6dc55-758a-4e4a-bbc7-96bc75d82955"
-        },
-        {
-            "company": "shiftkey",
-            "title": "Platform Engineer (SRE)",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/277f4dba-61fa-4464-9307-174671ff1793"
-        },
-        {
-            "company": "shiftkey",
-            "title": "Production Engineer (SRE)",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/f6922d56-d67b-4424-ae4e-6f4503dcbc3d"
-        },
-        {
-            "company": "shiftkey",
-            "title": "Reliability Engineer",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/40b7f5ed-1734-46c2-8773-708d939578f6"
-        },
-        {
-            "company": "shiftkey",
-            "title": "Site Reliability Engineer",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/ShiftKey/882c697e-19f6-41b4-af47-daa8f7971e79"
         },
         {
             "company": "shiftkey",
@@ -955,130 +931,10 @@
             "link": "https://jobs.ashbyhq.com/ShiftKey/9643643c-71a7-4a5e-a10e-9c522c559645"
         },
         {
-            "company": "vcluster",
-            "title": "Head of Finance",
-            "location": "Remote- US; USA - Boston; USA - New York City",
-            "link": "https://jobs.ashbyhq.com/vcluster/dddab4a2-8770-4ef2-ac2c-55c8df1b7178"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Talent Acquisition Partner (Technical)",
-            "location": "Germany - Munich; Germany - Berlin; UK - London; USA - Boston",
-            "link": "https://jobs.ashbyhq.com/vcluster/7ec4fa75-5fa0-40e7-9c70-51270e09562e"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Talent Acquisition Partner (Technical)",
-            "location": "Remote- US; USA - Boston; USA - New York City",
-            "link": "https://jobs.ashbyhq.com/vcluster/80fe4096-5d70-47e2-a5be-922efdfa2c52"
-        },
-        {
-            "company": "vcluster",
-            "title": "AI Infrastructure Engineer",
-            "location": "Remote- US; USA - Boston; USA - New York City; USA - San Francisco; USA - Seattle; USA - St. Louis",
-            "link": "https://jobs.ashbyhq.com/vcluster/19a7f22e-ee7d-419b-bc9e-e2fa61dff2d1"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Solutions Engineer",
-            "location": "Germany - Munich",
-            "link": "https://jobs.ashbyhq.com/vcluster/9189bd39-9ccd-4423-bfaa-74e125380f1b"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Solutions Engineer",
-            "location": "Australia - Sydney; Singapore",
-            "link": "https://jobs.ashbyhq.com/vcluster/a4139275-92ab-4c28-8f82-6b3b0e205b72"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Solutions Engineer",
-            "location": "USA - New York City; USA - Boston; USA - San Francisco; USA - Seattle",
-            "link": "https://jobs.ashbyhq.com/vcluster/d0e64a70-9293-4bc0-8a79-5ffd11e7e131"
-        },
-        {
-            "company": "vcluster",
-            "title": "Technical Account Manager",
-            "location": "USA - New York City; USA - San Francisco; USA - Seattle",
-            "link": "https://jobs.ashbyhq.com/vcluster/d1e0c18c-1865-4b4b-aaef-256c1bf14cb1"
-        },
-        {
-            "company": "vcluster",
-            "title": "Engineering Tech Lead (vMetal)",
-            "location": "Remote- US; Canada - Toronto; Canada - Vancouver; USA - New York City; USA - San Francisco",
-            "link": "https://jobs.ashbyhq.com/vcluster/dea54489-3636-4ac0-bdc2-e6e3cc6fd962"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Application Security Engineer",
-            "location": "Remote- US; Canada - Toronto; USA - Austin; USA - Boston; USA - Salt Lake City; USA - San Francisco; USA - St. Louis",
-            "link": "https://jobs.ashbyhq.com/vcluster/83c81a73-973f-406c-8482-64b09a968307"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Application Security Engineer",
-            "location": "Germany - Munich; Czech Republic - Prague; Germany - Berlin; Poland - Warsaw; Slovakia - Bratislava",
-            "link": "https://jobs.ashbyhq.com/vcluster/6cbaf9b0-02a5-4abb-beb9-1425a84f1eae"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Software Engineer (Backend)",
-            "location": "Germany - Munich; Canada - Toronto; Remote- US",
-            "link": "https://jobs.ashbyhq.com/vcluster/516c8859-83be-4535-8d2d-32a305a07e6d"
-        },
-        {
-            "company": "vcluster",
-            "title": "Staff Software Engineer",
-            "location": "Germany - Berlin; Germany - Frankfurt; Germany - Munich; Poland - Warsaw",
-            "link": "https://jobs.ashbyhq.com/vcluster/64142e45-1ffc-4113-a515-05246328a2d5"
-        },
-        {
-            "company": "vcluster",
-            "title": "Customer Support Engineer",
-            "location": "Germany - Frankfurt; Czech Republic - Prague; Germany - Berlin; Germany - Munich; Germany - Stuttgart; Netherlands - Amsterdam; Poland - Krakow; Poland - Warsaw; Poland - Wroc\u0142aw; Romania - Bucharest; Romania - Cluj-Napoca",
-            "link": "https://jobs.ashbyhq.com/vcluster/68219788-92ca-4277-b4a7-2a4369d9a623"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Product Manager",
-            "location": "USA - New York City; USA - Charlotte; USA - Washington DC",
-            "link": "https://jobs.ashbyhq.com/vcluster/dd589e9f-16d6-499b-b7dd-cd496d603a4f"
-        },
-        {
-            "company": "vcluster",
-            "title": "Sr. Product Manager",
-            "location": "Germany - Berlin; Ireland - Dublin; Poland - Krakow; UK - London",
-            "link": "https://jobs.ashbyhq.com/vcluster/fdb2ed9e-3317-4497-b094-79b2c80fa936"
-        },
-        {
-            "company": "vcluster",
-            "title": "Staff Product Manager",
-            "location": "Germany - Berlin",
-            "link": "https://jobs.ashbyhq.com/vcluster/2fbb8529-f3b6-4165-8b1c-0eb733b519f9"
-        },
-        {
-            "company": "vcluster",
-            "title": "Staff Product Manager",
-            "location": "USA - New York City; USA - Atlanta; USA - Boston",
-            "link": "https://jobs.ashbyhq.com/vcluster/0e477279-8822-4021-8ffe-d86b18ac0f91"
-        },
-        {
-            "company": "vcluster",
-            "title": "Director of Strategic Partnerships & Alliances",
-            "location": "USA - San Francisco; USA - New York City; USA - Seattle; USA - Washington DC",
-            "link": "https://jobs.ashbyhq.com/vcluster/d3d0df8f-a412-4d49-bee1-95b28eea81c4"
-        },
-        {
             "company": "snaplogic",
             "title": "Senior Revenue and GL Accountant",
             "location": "SAN MATEO, CA,HYBRID",
             "link": "https://jobs.lever.co/snaplogic/1515f48a-a995-438b-85a0-b6e73ffa7322"
-        },
-        {
-            "company": "snaplogic",
-            "title": "Senior FP&A Manager GTM",
-            "location": "SAN MATEO, CA,HYBRID",
-            "link": "https://jobs.lever.co/snaplogic/983acd2b-7ef5-4530-a89c-07eb71265dbb"
         },
         {
             "company": "snaplogic",
@@ -1106,9 +962,9 @@
         },
         {
             "company": "snaplogic",
-            "title": "Senior Revenue Operations Manager",
-            "location": "SAN MATEO, CA,HYBRID",
-            "link": "https://jobs.lever.co/snaplogic/734d2aa6-a515-456f-bc43-2b185d8fc93d"
+            "title": "Account Development Representative",
+            "location": "LEHI, UT,HYBRID",
+            "link": "https://jobs.lever.co/snaplogic/c8005a28-3ab0-4c70-8f49-817888a13518"
         },
         {
             "company": "runpod",
@@ -1160,31 +1016,25 @@
         },
         {
             "company": "runpod",
-            "title": "Developer Relations Community Manager",
+            "title": "Developer Relations Lead, AI Infrastructure and Community",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/runpod/jobs/5191760008"
         },
         {
             "company": "runpod",
-            "title": "Digital Marketing Manager",
-            "location": "Remote, USA",
-            "link": "https://job-boards.greenhouse.io/runpod/jobs/5173080008"
-        },
-        {
-            "company": "runpod",
-            "title": "Head of Partnerships",
+            "title": "Director, Cloud Marketplace and AI Infrastructure Partnerships",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/runpod/jobs/5115139008"
         },
         {
             "company": "runpod",
-            "title": "Senior Growth Marketing ManagerNew",
+            "title": "Senior PLG Growth Marketing Manager, Activation and PQLNew",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/runpod/jobs/5210929008"
         },
         {
             "company": "runpod",
-            "title": "Technical Content Marketer(part time contractor)",
+            "title": "Technical Content QA Contractor, Programmatic SEO and AEO",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/runpod/jobs/5173089008"
         },
@@ -1205,12 +1055,6 @@
             "title": "Technical Content Writer",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/runpod/jobs/5179915008"
-        },
-        {
-            "company": "runpod",
-            "title": "Account Executive APAC",
-            "location": "Remote, APAC",
-            "link": "https://job-boards.greenhouse.io/runpod/jobs/5173052008"
         },
         {
             "company": "runpod",
@@ -1244,7 +1088,7 @@
         },
         {
             "company": "tenable",
-            "title": "Technical Support Engineer (Hybrid/Columbia MD)New",
+            "title": "Technical Support Engineer (Hybrid/Columbia MD)",
             "location": "US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5206353008"
         },
@@ -1280,14 +1124,20 @@
         },
         {
             "company": "tenable",
+            "title": "Senior Product Marketing ManagerNew",
+            "location": "MA - Boston - Office , US - Headquarters - Maryland - Columbia",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5214157008"
+        },
+        {
+            "company": "tenable",
             "title": "Senior Product Marketing Manager - Agentic AI (Columbia MD or Boston MA)",
-            "location": "US - Headquarters - Maryland - Columbia, US - Remote - Massachusetts - Boston",
+            "location": "US - Remote - Massachusetts , US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5142591008"
         },
         {
             "company": "tenable",
             "title": "Senior Product Marketing Manager- AI (Columbia MD or Boston MA)",
-            "location": "US - Remote - Massachusetts - Boston, US - Headquarters - Maryland - Columbia",
+            "location": "US - Remote - Massachusetts , US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5145475008"
         },
         {
@@ -1304,12 +1154,6 @@
         },
         {
             "company": "tenable",
-            "title": "Manager, Engineering - Cloud Security",
-            "location": "Israel - Office - Tel Aviv",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5171072008"
-        },
-        {
-            "company": "tenable",
             "title": "Manager, Engineering - Integrations Frameworks",
             "location": "Israel - Office - Tel Aviv",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5193746008"
@@ -1319,12 +1163,6 @@
             "title": "Product Solutions Engineer - OT",
             "location": "Israel - Office - Tel Aviv",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5135859008"
-        },
-        {
-            "company": "tenable",
-            "title": "Senior Full stack Engineer- Integrations FrameworksNew",
-            "location": "Israel - Office - Tel Aviv",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5208794008"
         },
         {
             "company": "tenable",
@@ -1343,12 +1181,6 @@
             "title": "Senior Software Engineer",
             "location": "US - Remote - Massachusetts",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5101855008"
-        },
-        {
-            "company": "tenable",
-            "title": "Senior Software Engineer",
-            "location": "US - Headquarters - Maryland - Columbia",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5179457008"
         },
         {
             "company": "tenable",
@@ -1376,6 +1208,12 @@
         },
         {
             "company": "tenable",
+            "title": "Senior Software Engineer- Integrations Frameworks",
+            "location": "Israel - Office - Tel Aviv",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5208794008"
+        },
+        {
+            "company": "tenable",
             "title": "Senior Software Engineer - OT",
             "location": "Israel - Office - Tel Aviv",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5114162008"
@@ -1394,6 +1232,18 @@
         },
         {
             "company": "tenable",
+            "title": "Software Engineer, Innovation - Office of the CTONew",
+            "location": "Israel - Office - Tel Aviv",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5210224008"
+        },
+        {
+            "company": "tenable",
+            "title": "Software Engineer - Java, KafkaNew",
+            "location": "MA - Boston - Office , US - Headquarters - Maryland - Columbia",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5214563008"
+        },
+        {
+            "company": "tenable",
             "title": "Staff Software Engineer - Event Sourcing/Stream Processing - Kafka",
             "location": "US - Remote - California - Bay Area",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5104534008"
@@ -1403,6 +1253,12 @@
             "title": "Senior Product Designer",
             "location": "Israel - Office - Tel Aviv",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5049279008"
+        },
+        {
+            "company": "tenable",
+            "title": "Product Manager - AI Exposure",
+            "location": "Israel - Office - Tel Aviv",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5171076008"
         },
         {
             "company": "tenable",
@@ -1418,21 +1274,15 @@
         },
         {
             "company": "tenable",
-            "title": "Test Automation Engineer - Cloud SecurityNew",
+            "title": "Test Automation Engineer - Cloud Security",
             "location": "Israel - Office - Tel Aviv",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5209327008"
         },
         {
             "company": "tenable",
-            "title": "Senior Research Engineer, Systems Engineering TeamNew",
+            "title": "Senior Research Engineer, Systems Engineering Team",
             "location": "US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5208799008"
-        },
-        {
-            "company": "tenable",
-            "title": "Senior Security Researcher - Risk",
-            "location": "Israel - Office - Tel Aviv",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5165604008"
         },
         {
             "company": "tenable",
@@ -1448,13 +1298,7 @@
         },
         {
             "company": "tenable",
-            "title": "Professional Services Account Manager",
-            "location": "Australia - Office - Sydney",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5139833008"
-        },
-        {
-            "company": "tenable",
-            "title": "Professional Services Security Consultant (US NorthEast)New",
+            "title": "Professional Services Security Consultant (US NorthEast)",
             "location": "US - Remote - North East",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5208574008"
         },
@@ -1478,6 +1322,12 @@
         },
         {
             "company": "tenable",
+            "title": "Senior Distribution Account ManagerNew",
+            "location": "Singapore - Office - Suntec City",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5216787008"
+        },
+        {
+            "company": "tenable",
             "title": "Commercial Territory Manager",
             "location": "US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5192489008"
@@ -1491,7 +1341,7 @@
         {
             "company": "tenable",
             "title": "Commercial Territory Manager - LATAM",
-            "location": "Mexico - Mexico City - Remote",
+            "location": "Mexico - Remote",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5192648008"
         },
         {
@@ -1508,6 +1358,12 @@
         },
         {
             "company": "tenable",
+            "title": "Channel Security Engineer UK",
+            "location": "UK - Office - London",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5201271008"
+        },
+        {
+            "company": "tenable",
             "title": "Security Engineer",
             "location": "Australia - Brisbane - Queensland",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5188571008"
@@ -1521,7 +1377,7 @@
         {
             "company": "tenable",
             "title": "Sales Development Representative \u2013 DACH Region",
-            "location": "UK - Office - London",
+            "location": "Germany - Remote , UK - Office - London",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5151629008"
         },
         {
@@ -1532,21 +1388,9 @@
         },
         {
             "company": "tenable",
-            "title": "Senior Sales Development RepresentativeNew",
+            "title": "Senior Sales Development Representative",
             "location": "US - Headquarters - Maryland - Columbia",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5206355008"
-        },
-        {
-            "company": "tenable",
-            "title": "Sales Security Engineer - Public Sector",
-            "location": "US - Remote - Arizona, US - Remote - Utah, US - Remote - Nevada , US - Remote - Colorado",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5192055008"
-        },
-        {
-            "company": "tenable",
-            "title": "Senior Security Engineer",
-            "location": "US - Remote - Washington - Seattle",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5200321008"
         },
         {
             "company": "tenable",
@@ -1557,14 +1401,20 @@
         {
             "company": "tenable",
             "title": "Territory Account Manager",
-            "location": "US - Remote - Denver - Colorado",
+            "location": "US - Remote - Colorado",
             "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5187052008"
         },
         {
             "company": "tenable",
-            "title": "Territory Account Manager",
-            "location": "Brazil - Remote",
-            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5193652008"
+            "title": "Territory Account ManagerNew",
+            "location": "US - Remote - Indiana, US - Remote - Ohio , US - Remote - Michigan",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5214153008"
+        },
+        {
+            "company": "tenable",
+            "title": "Territory Account Manager - MinnesotaNew",
+            "location": "US - Remote - Minnesota",
+            "link": "https://job-boards.greenhouse.io/tenableinc/jobs/5214155008"
         },
         {
             "company": "tenable",
@@ -1724,12 +1574,6 @@
         },
         {
             "company": "vercel",
-            "title": "Software Engineer, Backend",
-            "location": "Remote - US",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5431123004"
-        },
-        {
-            "company": "vercel",
             "title": "Software Engineer, CDN",
             "location": "Hybrid - San Francisco, New York City",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5179639004"
@@ -1760,12 +1604,6 @@
         },
         {
             "company": "vercel",
-            "title": "Software Engineer, Domains",
-            "location": "Remote - US",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5813134004"
-        },
-        {
-            "company": "vercel",
             "title": "Software Engineer, Growth",
             "location": "Hybrid - San Francisco, New York City",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5613601004"
@@ -1775,6 +1613,12 @@
             "title": "Software Engineer, Lua",
             "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5661583004"
+        },
+        {
+            "company": "vercel",
+            "title": "Software Engineer, Next.jsNew",
+            "location": "Hybrid - San Francisco",
+            "link": "https://job-boards.greenhouse.io/vercel/jobs/5993753004"
         },
         {
             "company": "vercel",
@@ -1808,12 +1652,6 @@
         },
         {
             "company": "vercel",
-            "title": "Sales Engineer, Startups",
-            "location": "Hybrid - San Francisco, New York City, Austin",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5735116004"
-        },
-        {
-            "company": "vercel",
             "title": "Solutions Architect",
             "location": "Remote - UK, Germany",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5796302004"
@@ -1835,12 +1673,6 @@
             "title": "Commercial Counsel, EMEA",
             "location": "Hybrid - London",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5846178004"
-        },
-        {
-            "company": "vercel",
-            "title": "Director of Legal, Product Foundations",
-            "location": "Hybrid - San Francisco",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5781036004"
         },
         {
             "company": "vercel",
@@ -1868,7 +1700,7 @@
         },
         {
             "company": "vercel",
-            "title": "Senior Manager, Accounting",
+            "title": "Senior Manager, Corporate Accounting",
             "location": "Hybrid - San Francisco",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5810285004"
         },
@@ -1889,12 +1721,6 @@
             "title": "Corporate Events Manager",
             "location": "Hybrid - San Francisco, New York City",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5980496004"
-        },
-        {
-            "company": "vercel",
-            "title": "Field Marketing Manager, Startups",
-            "location": "Hybrid - San Francisco",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5815467004"
         },
         {
             "company": "vercel",
@@ -1949,18 +1775,6 @@
             "title": "Startups Program Lead",
             "location": "Hybrid - San Francisco",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5971203004"
-        },
-        {
-            "company": "vercel",
-            "title": "GSI & Consultancies, Partner Lead",
-            "location": "Hybrid - San Francisco, New York City, Austin",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5501424004"
-        },
-        {
-            "company": "vercel",
-            "title": "Partner Lead, APAC",
-            "location": "Remote - Australia",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5808902004"
         },
         {
             "company": "vercel",
@@ -2060,7 +1874,7 @@
         },
         {
             "company": "vercel",
-            "title": "VDR, Majors [APAC]New",
+            "title": "VDR, Majors [APAC]",
             "location": "Remote - Australia",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5982743004"
         },
@@ -2075,12 +1889,6 @@
             "title": "Vercel Development Representative, Startups",
             "location": "Hybrid - San Francisco",
             "link": "https://job-boards.greenhouse.io/vercel/jobs/5815357004"
-        },
-        {
-            "company": "vercel",
-            "title": "Staff GRC Analyst",
-            "location": "Remote - US",
-            "link": "https://job-boards.greenhouse.io/vercel/jobs/5836016004"
         },
         {
             "company": "vercel",
@@ -2102,6 +1910,12 @@
         },
         {
             "company": "yugabyte",
+            "title": "Director, FP&ANew",
+            "location": "Sunnyvale, CA",
+            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4680425006"
+        },
+        {
+            "company": "yugabyte",
             "title": "Account Executive",
             "location": "EMEA",
             "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4676549006"
@@ -2114,9 +1928,27 @@
         },
         {
             "company": "yugabyte",
-            "title": "Marketing CoordinatorNew",
+            "title": "Marketing Coordinator",
             "location": "India",
             "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4678583006"
+        },
+        {
+            "company": "yugabyte",
+            "title": "Partner Account ExecutiveNew",
+            "location": "India",
+            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4668552006"
+        },
+        {
+            "company": "yugabyte",
+            "title": "Partner Account Executive New",
+            "location": "Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4679989006"
+        },
+        {
+            "company": "yugabyte",
+            "title": "Product Data Analyst",
+            "location": "India",
+            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4568946006"
         },
         {
             "company": "yugabyte",
@@ -2171,6 +2003,12 @@
             "title": "Software Engineer II",
             "location": "Sunnyvale, CA",
             "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4586344006"
+        },
+        {
+            "company": "yugabyte",
+            "title": "Sr Site Reliability EngineerNew",
+            "location": "India",
+            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4680610006"
         },
         {
             "company": "yugabyte",
@@ -2240,12 +2078,6 @@
         },
         {
             "company": "yugabyte",
-            "title": "Staff Software Engineer LRT",
-            "location": "India",
-            "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4656737006"
-        },
-        {
-            "company": "yugabyte",
             "title": "Senior Director, Product Management",
             "location": "Sunnyvale, CA",
             "link": "https://job-boards.greenhouse.io/yugabyte/jobs/4649858006"
@@ -2259,20 +2091,8 @@
         {
             "company": "frontify",
             "title": "Head of Customer Support",
-            "location": "LONDON AREA,HYBRID",
-            "link": "https://jobs.lever.co/frontify/5158e2ca-a5a0-417a-a603-c80f8847c98f"
-        },
-        {
-            "company": "frontify",
-            "title": "Head of Customer Support",
             "location": "SANKT GALLEN METROPOLITAN AREA,HYBRID",
             "link": "https://jobs.lever.co/frontify/bbeefe8a-ac8f-4dcb-bf74-4da6051a1dfc"
-        },
-        {
-            "company": "frontify",
-            "title": "Senior Talent Partner (12 month FTC)",
-            "location": "LONDON AREA,HYBRID",
-            "link": "https://jobs.lever.co/frontify/afd1e366-211d-4bf2-a798-80654ccd9283"
         },
         {
             "company": "frontify",
@@ -2294,12 +2114,6 @@
         },
         {
             "company": "frontify",
-            "title": "Senior DevOps Engineer",
-            "location": "SANKT GALLEN METROPOLITAN AREA,REMOTE",
-            "link": "https://jobs.lever.co/frontify/dd293609-2b97-47be-8b6b-2934388d347b"
-        },
-        {
-            "company": "frontify",
             "title": "Backend Engineer - Developer Experience",
             "location": "SANKT GALLEN METROPOLITAN AREA,REMOTE",
             "link": "https://jobs.lever.co/frontify/f43ea3af-e72b-47a8-9303-be1b35bc5611"
@@ -2318,9 +2132,9 @@
         },
         {
             "company": "frontify",
-            "title": "Senior Product Manager - Analytics & Platform",
-            "location": "SANKT GALLEN METROPOLITAN AREA,REMOTE",
-            "link": "https://jobs.lever.co/frontify/b227825e-afdc-4944-a0bd-ff0eb3a7b6dd"
+            "title": "Principal Product Designer - Design Systems",
+            "location": "SANKT GALLEN METROPOLITAN AREA,HYBRID",
+            "link": "https://jobs.lever.co/frontify/8198cb35-3012-4663-92d2-bddda9d2d357"
         },
         {
             "company": "frontify",
@@ -2339,6 +2153,12 @@
             "title": "Senior Enterprise Account Executive - ROW + UK",
             "location": "LONDON AREA,HYBRID",
             "link": "https://jobs.lever.co/frontify/a1d23ee7-73bf-479e-9274-2a783a4cf8bd"
+        },
+        {
+            "company": "Ashby",
+            "title": "Global Head of Renewals - SaaS",
+            "location": "Remote - US; Remote - Canada; Remote - US",
+            "link": "https://jobs.ashbyhq.com/Ashby/99eff99f-1232-4af2-b0ae-06508167ce18"
         },
         {
             "company": "Ashby",
@@ -2600,15 +2420,15 @@
         },
         {
             "company": "Ashby",
-            "title": "Sr. Accountant",
-            "location": "Remote - US",
-            "link": "https://jobs.ashbyhq.com/Ashby/f36fb6f7-a960-48d0-974b-9f5a71ea53b7"
-        },
-        {
-            "company": "Ashby",
             "title": "Legal Ops Manager",
             "location": "Remote - US",
             "link": "https://jobs.ashbyhq.com/Ashby/06408097-75e6-41d2-a431-94fd9f9b6822"
+        },
+        {
+            "company": "Ashby",
+            "title": "Content Lead, EMEA Courses & Events",
+            "location": "Remote - European Union; Ireland; Netherlands; UK",
+            "link": "https://jobs.ashbyhq.com/Ashby/3c716df1-9701-4453-abb2-cc2ee803cee7"
         },
         {
             "company": "Ashby",
@@ -2714,24 +2534,6 @@
         },
         {
             "company": "veeam",
-            "title": "Account Executive, Commercial Accounts",
-            "location": "Remote, Sweden",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4754327101"
-        },
-        {
-            "company": "veeam",
-            "title": "Account Executive, Commercial Accounts (Swedish and Finnish languages)",
-            "location": "Remote, Finland",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4789737101"
-        },
-        {
-            "company": "veeam",
-            "title": "Account Executive, Commercial Inside Sales - Thailand",
-            "location": "Kuala Lumpur, Malaysia",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4853355101"
-        },
-        {
-            "company": "veeam",
             "title": "Account Executive, Commercial Inside Sales with Turkish",
             "location": "Bucharest, Romania",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4833438101"
@@ -2828,13 +2630,13 @@
         },
         {
             "company": "veeam",
-            "title": "Assoc. SDET- Securiti.aiNew",
+            "title": "Assoc. SDET- Securiti.ai",
             "location": "Karachi, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857121101"
         },
         {
             "company": "veeam",
-            "title": "Assoc. SDET- Securiti.aiNew",
+            "title": "Assoc. SDET- Securiti.ai",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4838092101"
         },
@@ -2867,6 +2669,24 @@
             "title": "C++ Developer",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4763606101"
+        },
+        {
+            "company": "veeam",
+            "title": "C# Developer (Application & API)New",
+            "location": "Prague, Czechia",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4763618101"
+        },
+        {
+            "company": "veeam",
+            "title": "C# Developer (Application & API)New",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4863589101"
+        },
+        {
+            "company": "veeam",
+            "title": "C# Developer M365 Backup New",
+            "location": "San Jose, CA, USA",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4568487101"
         },
         {
             "company": "veeam",
@@ -2903,12 +2723,6 @@
             "title": "Channel Marketing Specialist",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4792493101"
-        },
-        {
-            "company": "veeam",
-            "title": "Commercial Inside Sales Representative",
-            "location": "Alpharetta, GA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4814129101"
         },
         {
             "company": "veeam",
@@ -2954,15 +2768,9 @@
         },
         {
             "company": "veeam",
-            "title": "Customer Success Renewals ManagerNew",
-            "location": "Alpharetta, GA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4851768101"
-        },
-        {
-            "company": "veeam",
-            "title": "Customer Success Representative, France (Inside Accounts) - fixed term",
-            "location": "Bucharest, Romania",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4762855101"
+            "title": "Customer Success Representative, CommercialNew",
+            "location": "Remote, Poland",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4862849101"
         },
         {
             "company": "veeam",
@@ -3008,7 +2816,7 @@
         },
         {
             "company": "veeam",
-            "title": "DevOps Engineer- Securiti.aiNew",
+            "title": "DevOps Engineer- Securiti.ai",
             "location": "Karachi, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857533101"
         },
@@ -3044,7 +2852,7 @@
         },
         {
             "company": "veeam",
-            "title": "Director, GSI (REMOTE: Amers)New",
+            "title": "Director, GSI (REMOTE: Amers)",
             "location": "British Columbia, Canada",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4844605101"
         },
@@ -3056,7 +2864,7 @@
         },
         {
             "company": "veeam",
-            "title": "Director, PMM for Enterprise GTMNew",
+            "title": "Director, PMM for Enterprise GTM",
             "location": "Remote, US",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856413101"
         },
@@ -3065,6 +2873,12 @@
             "title": "Director, Product Marketing \u2013 Platform",
             "location": "Remote, US",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4848883101"
+        },
+        {
+            "company": "veeam",
+            "title": "Director, Quality Assurance- Securiti.aiNew",
+            "location": "Karachi, Pakistan",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4863100101"
         },
         {
             "company": "veeam",
@@ -3104,6 +2918,12 @@
         },
         {
             "company": "veeam",
+            "title": "Enterprise Account Manager BeLuxNew",
+            "location": "Remote, Belgium",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4860838101"
+        },
+        {
+            "company": "veeam",
             "title": "Enterprise Architect",
             "location": "Remote, Saudi Arabia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4559018101"
@@ -3134,7 +2954,13 @@
         },
         {
             "company": "veeam",
-            "title": "Inside Sales RepresentativeNew",
+            "title": "Inside Channel Manager with EnglishNew",
+            "location": "Bucharest, Romania",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4860773101"
+        },
+        {
+            "company": "veeam",
+            "title": "Inside Sales Representative",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4854863101"
         },
@@ -3149,6 +2975,12 @@
             "title": "Inside Sales Team Lead",
             "location": "San Jose, Costa Rica",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4834484101"
+        },
+        {
+            "company": "veeam",
+            "title": "Inside Sales Team Leader, UK&INew",
+            "location": "Bucharest, Romania",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4847321101"
         },
         {
             "company": "veeam",
@@ -3188,13 +3020,13 @@
         },
         {
             "company": "veeam",
-            "title": "Lead Backend Developer - Securiti.aiNew",
+            "title": "Lead Backend Developer - Securiti.ai",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857123101"
         },
         {
             "company": "veeam",
-            "title": "Lead Backend Developer - Securiti.aiNew",
+            "title": "Lead Backend Developer - Securiti.ai",
             "location": "Karachi, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857122101"
         },
@@ -3203,6 +3035,12 @@
             "title": "Lead Domain Engineering Specialist",
             "location": "Remote, US",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4831905101"
+        },
+        {
+            "company": "veeam",
+            "title": "Lead Sales Systems EngineerNew",
+            "location": "Remote, Germany",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4743964101"
         },
         {
             "company": "veeam",
@@ -3215,6 +3053,12 @@
             "title": "M365 Sales Specialist",
             "location": "London, UK",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4832901101"
+        },
+        {
+            "company": "veeam",
+            "title": "Manager, Inside Sales",
+            "location": "Alpharetta, GA, USA",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4789814101"
         },
         {
             "company": "veeam",
@@ -3236,7 +3080,7 @@
         },
         {
             "company": "veeam",
-            "title": "Marketing Legal AnalystNew",
+            "title": "Marketing Legal Analyst",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4851269101"
         },
@@ -3284,7 +3128,7 @@
         },
         {
             "company": "veeam",
-            "title": "Office Manager - RiyadhNew",
+            "title": "Office Manager - Riyadh",
             "location": "Riyadh, Saudi Arabia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857051101"
         },
@@ -3344,31 +3188,25 @@
         },
         {
             "company": "veeam",
-            "title": "Product & Application Security Engineer",
-            "location": "San Francisco Bay, CA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744664101"
-        },
-        {
-            "company": "veeam",
             "title": "Production Engineer III",
             "location": "Pune, India",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4796246101"
         },
         {
             "company": "veeam",
-            "title": "QA Automation Engineer with JavaNew",
+            "title": "QA Automation Engineer with Java",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4855142101"
         },
         {
             "company": "veeam",
-            "title": "QA Automation Engineer with JavaNew",
+            "title": "QA Automation Engineer with Java",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856353101"
         },
         {
             "company": "veeam",
-            "title": "QA Automation Engineer with JavaNew",
+            "title": "QA Automation Engineer with Java",
             "location": "Lisbon, Portugal",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856357101"
         },
@@ -3458,19 +3296,13 @@
         },
         {
             "company": "veeam",
-            "title": "Renewals Sales Representative, Velocity",
-            "location": "Alpharetta, GA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4793134101"
-        },
-        {
-            "company": "veeam",
             "title": "Revenue Intelligence Operations Program Manager",
             "location": "Bucharest, Romania",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4805493101"
         },
         {
             "company": "veeam",
-            "title": "Revenue Operations Analyst New",
+            "title": "Revenue Operations Analyst",
             "location": "Remote, US",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4841276101"
         },
@@ -3578,7 +3410,7 @@
         },
         {
             "company": "veeam",
-            "title": "Salesforce Engineering ManagerNew",
+            "title": "Salesforce Engineering Manager",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857582101"
         },
@@ -3587,6 +3419,12 @@
             "title": "Sales Specialist - Data & AI Security",
             "location": "Dallas, TX, USA",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4763799101"
+        },
+        {
+            "company": "veeam",
+            "title": "Sales Specialist - Data & AI Security",
+            "location": "Boston, MA, USA",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4763850101"
         },
         {
             "company": "veeam",
@@ -3698,6 +3536,12 @@
         },
         {
             "company": "veeam",
+            "title": "Sales Specialist - Data & AI SecurityNew",
+            "location": "London, UK",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4842741101"
+        },
+        {
+            "company": "veeam",
             "title": "Sales Specialist - Data & AI Security",
             "location": "Omaha, NE, USA",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4763852101"
@@ -3722,25 +3566,19 @@
         },
         {
             "company": "veeam",
-            "title": "Sales Systems Engineer - DubaiNew",
+            "title": "Sales Systems Engineer - Dubai",
             "location": "Dubai, UAE",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4806232101"
         },
         {
             "company": "veeam",
-            "title": "Sales Systems Engineer with German",
-            "location": "Bucharest, Romania",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4743770101"
-        },
-        {
-            "company": "veeam",
-            "title": "SDET- Securiti.aiNew",
+            "title": "SDET- Securiti.ai",
             "location": "Karachi, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857189101"
         },
         {
             "company": "veeam",
-            "title": "SDET- Securiti.aiNew",
+            "title": "SDET- Securiti.ai",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857191101"
         },
@@ -3860,6 +3698,12 @@
         },
         {
             "company": "veeam",
+            "title": "Senior Channel Sales Manager New",
+            "location": "Tokyo, Japan",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4861593101"
+        },
+        {
+            "company": "veeam",
             "title": "Senior Customer Success Engineer",
             "location": "Bangalore, India",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744176101"
@@ -3893,12 +3737,6 @@
             "title": "Senior Data Science Engineer",
             "location": "Remote, Costa Rica",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744578101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Data ScientistNew",
-            "location": "Remote, US",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744604101"
         },
         {
             "company": "veeam",
@@ -3971,12 +3809,6 @@
             "title": "Senior Manager, Sales Engineering - Data & AI Security",
             "location": "Paris, France",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4838142101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Manager, Software EngineeringNew",
-            "location": "San Jose, CA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744465101"
         },
         {
             "company": "veeam",
@@ -4143,18 +3975,6 @@
         {
             "company": "veeam",
             "title": "Senior Sales Engineer - Data & AI Security",
-            "location": "Pittsburgh, PA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4821753101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Sales Engineer - Data & AI Security",
-            "location": "Philadelphia, PA, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4815454101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Sales Engineer - Data & AI Security",
             "location": "British Columbia, Canada",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4814340101"
         },
@@ -4175,12 +3995,6 @@
             "title": "Senior Sales Engineer - Data & AI Security",
             "location": "Omaha, NE, USA",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4821749101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Sales Engineer - Data & AI Security",
-            "location": "Remote, Washington, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4814349101"
         },
         {
             "company": "veeam",
@@ -4215,12 +4029,6 @@
         {
             "company": "veeam",
             "title": "Senior Sales Engineer - Data & AI Security",
-            "location": "Remote, New York City, USA",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4821752101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Sales Engineer - Data & AI Security",
             "location": "Milan, Italy",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4825105101"
         },
@@ -4232,9 +4040,9 @@
         },
         {
             "company": "veeam",
-            "title": "Senior Sales Systems Engineer",
+            "title": "Senior Sales Systems EngineerNew",
             "location": "Remote, Germany",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4700380101"
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4743948101"
         },
         {
             "company": "veeam",
@@ -4256,13 +4064,7 @@
         },
         {
             "company": "veeam",
-            "title": "Senior Software Engineer (Graph Frontend)New",
-            "location": "Karachi, Pakistan",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857541101"
-        },
-        {
-            "company": "veeam",
-            "title": "Senior Software Engineer (Graph Frontend)New",
+            "title": "Senior Software Engineer (Graph Frontend)",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857542101"
         },
@@ -4292,6 +4094,24 @@
         },
         {
             "company": "veeam",
+            "title": "Senior Specialist, Talent Acquisition",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4791664101"
+        },
+        {
+            "company": "veeam",
+            "title": "Senior Specialist, Talent Acquisition",
+            "location": "Prague, Czechia",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4798709101"
+        },
+        {
+            "company": "veeam",
+            "title": "Senior Specialist, Talent Acquisition",
+            "location": "Bucharest, Romania",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4807186101"
+        },
+        {
+            "company": "veeam",
             "title": "Senior Staff Software Engineer",
             "location": "Pune, India",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4472109101"
@@ -4310,7 +4130,7 @@
         },
         {
             "company": "veeam",
-            "title": "Senior Technical Account ManagerNew",
+            "title": "Senior Technical Account Manager",
             "location": "Remote, Costa Rica",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4744066101"
         },
@@ -4376,9 +4196,27 @@
         },
         {
             "company": "veeam",
-            "title": "Software Dev Engineer (Backend) - Securiti.aiNew",
+            "title": "Software Dev Engineer (Backend) - Securiti.ai",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857544101"
+        },
+        {
+            "company": "veeam",
+            "title": "Software Dev Engineer (Frontend)- Securiti.aiNew",
+            "location": "Karachi, Pakistan",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4864297101"
+        },
+        {
+            "company": "veeam",
+            "title": "Software Engineering Intern- Summer 2026New",
+            "location": "San Jose, CA, USA",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857832101"
+        },
+        {
+            "company": "veeam",
+            "title": "Software Intern, Policy Engineering- Summer 2026New",
+            "location": "San Jose, CA, USA",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857828101"
         },
         {
             "company": "veeam",
@@ -4448,13 +4286,13 @@
         },
         {
             "company": "veeam",
-            "title": "Sr. SDET- Securiti.aiNew",
+            "title": "Sr. SDET- Securiti.ai",
             "location": "Karachi, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4858126101"
         },
         {
             "company": "veeam",
-            "title": "Sr. SDET- Securiti.aiNew",
+            "title": "Sr. SDET- Securiti.ai",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4858127101"
         },
@@ -4493,6 +4331,12 @@
             "title": "Staff Site Reliability Engineer",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4500232101"
+        },
+        {
+            "company": "veeam",
+            "title": "Staff Site Reliability EngineerNew",
+            "location": "Pune, India",
+            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4863154101"
         },
         {
             "company": "veeam",
@@ -4640,31 +4484,25 @@
         },
         {
             "company": "veeam",
-            "title": "Technical Support Training Consultant",
-            "location": "Tokyo, Japan",
-            "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4788083101"
-        },
-        {
-            "company": "veeam",
-            "title": "Technical WriterNew",
+            "title": "Technical Writer",
             "location": "Prague, Czechia",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856367101"
         },
         {
             "company": "veeam",
-            "title": "Technical WriterNew",
+            "title": "Technical Writer",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4857593101"
         },
         {
             "company": "veeam",
-            "title": "Technical WriterNew",
+            "title": "Technical Writer",
             "location": "Islamabad, Pakistan",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4856139101"
         },
         {
             "company": "veeam",
-            "title": "Veeam Backup for Linux EngineerNew",
+            "title": "Veeam Backup for Linux Engineer",
             "location": "Bangalore, India",
             "link": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4848363101"
         },
