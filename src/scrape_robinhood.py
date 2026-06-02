@@ -17,7 +17,7 @@ class ScrapeRobinhood(ScrapeIt):
         driver.implicitly_wait(5)
         time.sleep(5)
         # open all departments
-        acceptAll = driver.find_elements(By.XPATH, '//span[.="Accept all"]')
+        acceptAll = driver.find_elements(By.ID, 'ip-user-consent-accept')
         if len(acceptAll) > 0:
             acceptAll[0].click()
             time.sleep(1)

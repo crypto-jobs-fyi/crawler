@@ -15,14 +15,16 @@ class ScrapeAvara(ScrapeIt):
         driver.implicitly_wait(9)
         driver.get(web_page)
         time.sleep(3)
+        driver.find_element(By.XPATH, '//button[.="Accept All"]').click()
+        time.sleep(1)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//li/a[contains(@href, "careers")]')
+        group_elements = driver.find_elements(By.XPATH, '//li/a[contains(@href, "/careers/")]')
         result = []
         for elem in group_elements:
-            job_name_elem = elem.find_element(By.XPATH, './/h3')
+            job_name_elem = elem.find_element(By.XPATH, './div')
             job_name = job_name_elem.text
             job_url = elem.get_attribute('href')
-            location = 'London or EU - Remote'
+            location = 'Remote or Hybrid'
             job = {
                 "company": company,
                 "title": job_name,

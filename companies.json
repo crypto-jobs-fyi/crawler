@@ -124,7 +124,7 @@
             "company_url": "https://www.robinhood.com",
             "category": "crypto",
             "enabled": true,
-            "headless": true
+            "headless": false
         },
         {
             "name": "trading212",
