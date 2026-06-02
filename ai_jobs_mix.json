@@ -56,6 +56,12 @@
         },
         {
             "company": "quo.com",
+            "title": "Senior Engineering Manager",
+            "location": "Remote - US & Canada \u2022 Remote",
+            "link": "https://jobs.gem.com/quo/am9icG9zdDrCqPNF078kbW2NqXqXMiLd"
+        },
+        {
+            "company": "quo.com",
             "title": "Staff Backend Engineer",
             "location": "Remote - Canada \u2022 Remote",
             "link": "https://jobs.gem.com/quo/am9icG9zdDp7Wa9a8qp9k9sbpQqz6-e_"
@@ -164,15 +170,9 @@
         },
         {
             "company": "mimicrobotics",
-            "title": "Robotics Systems & Operations",
-            "location": "San Francisco \u2022 In office",
-            "link": "https://jobs.gem.com/mimicrobotics-com/am9icG9zdDoAGcgQ3M0I_HlFvM2BzWTF"
-        },
-        {
-            "company": "mimicrobotics",
-            "title": "Technical Operations Manager",
-            "location": "San Francisco \u2022 In office",
-            "link": "https://jobs.gem.com/mimicrobotics-com/am9icG9zdDo-sBQDtTqSyA_VtnzfObT_"
+            "title": "Software Engineer - AI Infrastructure",
+            "location": "Z\u00fcrich \u2022 In office",
+            "link": "https://jobs.gem.com/mimicrobotics-com/am9icG9zdDq1RiGgW4veff_Dl5151Em2"
         },
         {
             "company": "mimicrobotics",
@@ -248,19 +248,19 @@
         },
         {
             "company": "modular",
+            "title": "Compiler Engineer",
+            "location": "US / Canada / Europe \u2022 Remote",
+            "link": "https://jobs.gem.com/modular/4630409005"
+        },
+        {
+            "company": "modular",
             "title": "Driver Engineer",
             "location": "US / Canada \u2022 Remote",
             "link": "https://jobs.gem.com/modular/am9icG9zdDqfHQlU8GiJliF30Lu6Ap_l"
         },
         {
             "company": "modular",
-            "title": "Mojo Compiler Engineer",
-            "location": "US / Canada / Europe \u2022 Remote",
-            "link": "https://jobs.gem.com/modular/4630409005"
-        },
-        {
-            "company": "modular",
-            "title": "Mojo Libraries Engineer",
+            "title": "Libraries Engineer",
             "location": "US / Canada \u2022 Remote",
             "link": "https://jobs.gem.com/modular/4606150005"
         },
@@ -269,18 +269,6 @@
             "title": "Mojo Libraries Technical Lead",
             "location": "US / Canada \u2022 Remote",
             "link": "https://jobs.gem.com/modular/am9icG9zdDqoJxyyzYWe8YVTYn25KI2L"
-        },
-        {
-            "company": "modular",
-            "title": "Software Engineer, Hardware Enablement",
-            "location": "Edinburgh \u2022 Hybrid",
-            "link": "https://jobs.gem.com/modular/am9icG9zdDo8yWCfDzQHi3gpSN7sI0bm"
-        },
-        {
-            "company": "modular",
-            "title": "Software Engineer, Hardware Enablement",
-            "location": "Norway, UK, Edinburgh \u2022 Remote",
-            "link": "https://jobs.gem.com/modular/am9icG9zdDpIRj2TSib2E9BLqGTvHOqc"
         },
         {
             "company": "modular",
@@ -341,12 +329,6 @@
             "title": "Research Scientist / Engineer - Controllability, Personalization & Productization",
             "location": "SF Bay Area, CA, London, UK, Seattle, WA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/cb7f6fe2-4ed1-4cf8-9964-ea9b4f47e85d"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Executive Assistant [UK]",
-            "location": "London, UK \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDq0OYCNLxZ6Beh0K2LaAfMB"
         },
         {
             "company": "lumalabs.ai",
@@ -476,18 +458,6 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Lead Infrastructure and Reliability Engineer (Systems & Scale)",
-            "location": "SF Bay Area, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrkGd4GGu3apfJSBl9YCPbw"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Security Engineer - Tech Lead",
-            "location": "SF Bay Area, CA \u2022 Hybrid",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDqw-ddCM3WOyWm32wJHy4Lt"
-        },
-        {
-            "company": "lumalabs.ai",
             "title": "Software Engineer - Growth",
             "location": "SF Bay Area, CA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/52e4e2f8-135c-4fe3-bebb-3c2aeb716cf0"
@@ -500,9 +470,21 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Staff Software Engineer, Product",
+            "title": "Staff AI Infrastructure Engineer",
+            "location": "SF Bay Area, CA \u2022 Hybrid",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrkGd4GGu3apfJSBl9YCPbw"
+        },
+        {
+            "company": "lumalabs.ai",
+            "title": "Staff Product Software Engineer",
             "location": "SF Bay Area, CA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDo6UPr2Qjdfy3DRfwrFjlAF"
+        },
+        {
+            "company": "lumalabs.ai",
+            "title": "Staff Security Software Engineer",
+            "location": "SF Bay Area, CA \u2022 Hybrid",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDqw-ddCM3WOyWm32wJHy4Lt"
         },
         {
             "company": "lumalabs.ai",
@@ -530,9 +512,9 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Research Scientist - Large Language Model",
-            "location": "SF Bay Area, CA, Remote, International, London, UK \u2022 Hybrid, Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpG8LYonD3KtMtbhaYTgDGr"
+            "title": "Research Scientist - World Model",
+            "location": "Los Angeles, CA, New York, NY, SF Bay Area, CA, Remote, US, International, US, Remote, International, Singapore, SGP \u2022 Hybrid, Remote",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDomAxLNNi-djKq49hQ443Fz"
         },
         {
             "company": "lumalabs.ai",
@@ -542,27 +524,21 @@
         },
         {
             "company": "lumalabs.ai",
-            "title": "Research Scientist / Engineer \u2014 Foundation Model (Image / Video)",
-            "location": "SF Bay Area, CA, Remote, US, Remote, International \u2022 Hybrid, Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/55cb4576-d2cb-4775-a492-32bae2566a8f"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Research Scientist / Engineer \u2014 Foundation Model (Video / Audio Generation)",
-            "location": "SF Bay Area, CA, Remote, International, London, UK \u2022 Hybrid, Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDppJpFSr9kGVqZNk6Zgm2g5"
-        },
-        {
-            "company": "lumalabs.ai",
-            "title": "Research Scientist / Engineer \u2014 Foundation Model (Voice Agents)",
-            "location": "SF Bay Area, CA, Remote, International, London, UK \u2022 Hybrid, Remote",
-            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpzmndzUch3eDquU0pT_PaJ"
-        },
-        {
-            "company": "lumalabs.ai",
             "title": "Research Scientist / Engineer \u2014 Multimodal Agent",
             "location": "SF Bay Area, CA, Remote, International, London, UK \u2022 Hybrid, Remote",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDolL_2qF3mA8iH2BQJXOYSA"
+        },
+        {
+            "company": "lumalabs.ai",
+            "title": "Robotics Engineer",
+            "location": "Los Angeles, CA, New York, NY, SF Bay Area, CA, Remote, US, International, US, Remote, International, Singapore, SGP \u2022 Hybrid, Remote",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDrGcVEJtpcUA8ZSYae64qcX"
+        },
+        {
+            "company": "lumalabs.ai",
+            "title": "Simulation Researcher/Engineer",
+            "location": "Los Angeles, CA, New York, NY, SF Bay Area, CA, Remote, US, International, US, Remote, International, Singapore, SGP \u2022 Hybrid, Remote",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDocQGqCMSxy_ejyTuf4puTw"
         },
         {
             "company": "lumalabs.ai",
@@ -587,6 +563,12 @@
             "title": "Enterprise Account Executive [SF Bay Area]",
             "location": "SF Bay Area, CA \u2022 Hybrid",
             "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDpoPzTsiA4XZafbUh8VdF3m"
+        },
+        {
+            "company": "lumalabs.ai",
+            "title": "Principal Customer Success Manager",
+            "location": "New York, NY \u2022 Hybrid",
+            "link": "https://jobs.gem.com/lumalabs-ai/am9icG9zdDr71SZhVAijQ1FGX0mLP1Sm"
         },
         {
             "company": "lumalabs.ai",
@@ -717,14 +699,14 @@
         {
             "company": "nebius",
             "title": "AI/ML Specialist Solutions Architect",
-            "location": "Amsterdam \u00b7 Finland \u00b7 France \u00b7 Germany \u00b7 Netherlands \u00b7 Remote - Europe \u00b7 Spain \u00b7 Sweden \u00b7 UK",
-            "link": "https://careers.nebius.com/?gh_jid=4523348101"
+            "location": "Canada \u00b7 Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4387617101"
         },
         {
             "company": "nebius",
             "title": "AI/ML Specialist Solutions Architect",
-            "location": "Canada \u00b7 Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4387617101"
+            "location": "Amsterdam \u00b7 Finland \u00b7 France \u00b7 Germany \u00b7 Netherlands \u00b7 Remote - Europe \u00b7 Spain \u00b7 Sweden \u00b7 UK",
+            "link": "https://careers.nebius.com/?gh_jid=4523348101"
         },
         {
             "company": "nebius",
@@ -782,12 +764,6 @@
         },
         {
             "company": "nebius",
-            "title": "Cloud Engineer (Early Talent Program)",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4826126101"
-        },
-        {
-            "company": "nebius",
             "title": "Commercial AE, Tavily",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4848253101"
@@ -809,12 +785,6 @@
             "title": "Construction Project Manager, Data Centers",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4705452101"
-        },
-        {
-            "company": "nebius",
-            "title": "Corporate Builds Systems Architect",
-            "location": "Netherlands",
-            "link": "https://careers.nebius.com/?gh_jid=4875807101"
         },
         {
             "company": "nebius",
@@ -842,7 +812,7 @@
         },
         {
             "company": "nebius",
-            "title": "Critical Infrastructure Engineer",
+            "title": "Critical Facilities Engineer",
             "location": "New Jersey",
             "link": "https://careers.nebius.com/?gh_jid=4705770101"
         },
@@ -878,6 +848,18 @@
         },
         {
             "company": "nebius",
+            "title": "Data Center Facilities Manager",
+            "location": "Birmingham, Alabama \u00b7 Kansas City, Missouri",
+            "link": "https://careers.nebius.com/?gh_jid=4873274101"
+        },
+        {
+            "company": "nebius",
+            "title": "Data Center IT Infrastructure Engineer",
+            "location": "Israel",
+            "link": "https://careers.nebius.com/?gh_jid=4784157101"
+        },
+        {
+            "company": "nebius",
             "title": "Data Center IT Infrastructure Engineer",
             "location": "Paris",
             "link": "https://careers.nebius.com/?gh_jid=4833391101"
@@ -891,26 +873,20 @@
         {
             "company": "nebius",
             "title": "Data Center IT Infrastructure Engineer",
-            "location": "Israel",
-            "link": "https://careers.nebius.com/?gh_jid=4784157101"
-        },
-        {
-            "company": "nebius",
-            "title": "Data Center IT Infrastructure Engineer",
             "location": "B\u00e9thune, Pas-de-Calais",
             "link": "https://careers.nebius.com/?gh_jid=4771895101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Manager",
-            "location": "M\u00e4nts\u00e4l\u00e4",
-            "link": "https://careers.nebius.com/?gh_jid=4572809101"
+            "location": "B\u00e9thune, Pas-de-Calais",
+            "link": "https://careers.nebius.com/?gh_jid=4752280101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Manager",
-            "location": "B\u00e9thune, Pas-de-Calais",
-            "link": "https://careers.nebius.com/?gh_jid=4752280101"
+            "location": "M\u00e4nts\u00e4l\u00e4",
+            "link": "https://careers.nebius.com/?gh_jid=4572809101"
         },
         {
             "company": "nebius",
@@ -940,12 +916,6 @@
             "company": "nebius",
             "title": "Data Center IT Technician",
             "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4767717101"
-        },
-        {
-            "company": "nebius",
-            "title": "Data Center IT Technician",
-            "location": "London",
             "link": "https://careers.nebius.com/?gh_jid=4869232101"
         },
         {
@@ -953,6 +923,12 @@
             "title": "Data Center IT Technician",
             "location": "Madrid",
             "link": "https://careers.nebius.com/?gh_jid=4797070101"
+        },
+        {
+            "company": "nebius",
+            "title": "Data Center IT Technician",
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4767717101"
         },
         {
             "company": "nebius",
@@ -975,14 +951,14 @@
         {
             "company": "nebius",
             "title": "Data Center IT Technician - Project Tasks",
-            "location": "Oklahoma",
-            "link": "https://careers.nebius.com/?gh_jid=4866023101"
+            "location": "Israel",
+            "link": "https://careers.nebius.com/?gh_jid=4809140101"
         },
         {
             "company": "nebius",
             "title": "Data Center IT Technician - Project Tasks",
-            "location": "Israel",
-            "link": "https://careers.nebius.com/?gh_jid=4809140101"
+            "location": "Oklahoma",
+            "link": "https://careers.nebius.com/?gh_jid=4866023101"
         },
         {
             "company": "nebius",
@@ -1046,12 +1022,6 @@
         },
         {
             "company": "nebius",
-            "title": "Data Centre Security Manager - Mantsala, Finland",
-            "location": "Finland",
-            "link": "https://careers.nebius.com/?gh_jid=4866573101"
-        },
-        {
-            "company": "nebius",
             "title": "Data Engineer",
             "location": "Germany \u00b7 Israel \u00b7 Netherlands \u00b7 Prague \u00b7 Remote - Europe \u00b7 UK",
             "link": "https://careers.nebius.com/?gh_jid=4724503101"
@@ -1071,14 +1041,14 @@
         {
             "company": "nebius",
             "title": "DC IT Support Manager",
-            "location": "Lappeenranta",
-            "link": "https://careers.nebius.com/?gh_jid=4752295101"
+            "location": "Israel",
+            "link": "https://careers.nebius.com/?gh_jid=4752243101"
         },
         {
             "company": "nebius",
             "title": "DC IT Support Manager",
-            "location": "Israel",
-            "link": "https://careers.nebius.com/?gh_jid=4752243101"
+            "location": "Lappeenranta",
+            "link": "https://careers.nebius.com/?gh_jid=4752295101"
         },
         {
             "company": "nebius",
@@ -1245,6 +1215,12 @@
         {
             "company": "nebius",
             "title": "Field Engineer (Hardware Delivery)",
+            "location": "New Jersey",
+            "link": "https://careers.nebius.com/?gh_jid=4791845101"
+        },
+        {
+            "company": "nebius",
+            "title": "Field Engineer (Hardware Delivery)",
             "location": "Independence, Missouri",
             "link": "https://careers.nebius.com/?gh_jid=4791850101"
         },
@@ -1253,12 +1229,6 @@
             "title": "Field Engineer (Hardware Delivery)",
             "location": "Birmingham, Alabama",
             "link": "https://careers.nebius.com/?gh_jid=4791848101"
-        },
-        {
-            "company": "nebius",
-            "title": "Field Engineer (Hardware Delivery)",
-            "location": "New Jersey",
-            "link": "https://careers.nebius.com/?gh_jid=4791845101"
         },
         {
             "company": "nebius",
@@ -1334,6 +1304,12 @@
         },
         {
             "company": "nebius",
+            "title": "Founding Enterprise Customer Success Manager, Tavily",
+            "location": "Remote \u00b7 UK",
+            "link": "https://careers.nebius.com/?gh_jid=4872559101"
+        },
+        {
+            "company": "nebius",
             "title": "Frontend Engineer - User Interface",
             "location": "Remote - US",
             "link": "https://careers.nebius.com/?gh_jid=4872193101"
@@ -1343,12 +1319,6 @@
             "title": "General Accounting Specialist",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4835462101"
-        },
-        {
-            "company": "nebius",
-            "title": "Global Data Center Operations Manager",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4785163101"
         },
         {
             "company": "nebius",
@@ -1382,6 +1352,12 @@
         },
         {
             "company": "nebius",
+            "title": "GTM Engineer - Nebius Token Factory",
+            "location": "Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4874007101"
+        },
+        {
+            "company": "nebius",
             "title": "GTM Recruiter - EMEA",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4824140101"
@@ -1400,9 +1376,9 @@
         },
         {
             "company": "nebius",
-            "title": "Head of Equity & Executive Compensation",
-            "location": "US",
-            "link": "https://careers.nebius.com/?gh_jid=4860672101"
+            "title": "Head of Data Center Facilities Operations",
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4785163101"
         },
         {
             "company": "nebius",
@@ -1412,9 +1388,21 @@
         },
         {
             "company": "nebius",
+            "title": "Head of Equity & Executive Compensation",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4860672101"
+        },
+        {
+            "company": "nebius",
             "title": "Head of Field Marketing \u2013 APJ ",
             "location": "Singapore",
             "link": "https://careers.nebius.com/?gh_jid=4828228101"
+        },
+        {
+            "company": "nebius",
+            "title": "Head of Site Selection & Colocations \u2013 Data Centers",
+            "location": "Amsterdam \u00b7 Remote - Europe \u00b7 Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4718632101"
         },
         {
             "company": "nebius",
@@ -1457,12 +1445,6 @@
             "title": "Incident Response Lead",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4744928101"
-        },
-        {
-            "company": "nebius",
-            "title": "Industry Partnership Lead, SMBs",
-            "location": "London \u00b7 Paris",
-            "link": "https://careers.nebius.com/?gh_jid=4754245101"
         },
         {
             "company": "nebius",
@@ -1551,14 +1533,14 @@
         {
             "company": "nebius",
             "title": "IT Support Manager",
-            "location": "London",
-            "link": "https://careers.nebius.com/?gh_jid=4869445101"
+            "location": "Oklahoma",
+            "link": "https://careers.nebius.com/?gh_jid=4756693101"
         },
         {
             "company": "nebius",
             "title": "IT Support Manager",
-            "location": "Oklahoma",
-            "link": "https://careers.nebius.com/?gh_jid=4756693101"
+            "location": "London",
+            "link": "https://careers.nebius.com/?gh_jid=4869445101"
         },
         {
             "company": "nebius",
@@ -1613,12 +1595,6 @@
             "title": "L3 Support Engineer",
             "location": "B\u00e9thune, Pas-de-Calais \u00b7 Paris",
             "link": "https://careers.nebius.com/?gh_jid=4794437101"
-        },
-        {
-            "company": "nebius",
-            "title": "L3 Support Engineer",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4654412101"
         },
         {
             "company": "nebius",
@@ -1701,6 +1677,12 @@
         {
             "company": "nebius",
             "title": "New AI and ISV Partner Business Development Manager",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4876829101"
+        },
+        {
+            "company": "nebius",
+            "title": "New AI and ISV Partner Business Development Manager",
             "location": "Remote",
             "link": "https://careers.nebius.com/?gh_jid=4866201101"
         },
@@ -1709,12 +1691,6 @@
             "title": "OFCI Equipment Procurement Manager",
             "location": "Remote - US",
             "link": "https://careers.nebius.com/?gh_jid=4853581101"
-        },
-        {
-            "company": "nebius",
-            "title": "Partner Solutions Architect",
-            "location": "Finland \u00b7 France \u00b7 Germany \u00b7 London \u00b7 Netherlands \u00b7 Remote - Europe \u00b7 Spain \u00b7 Sweden",
-            "link": "https://careers.nebius.com/?gh_jid=4773256101"
         },
         {
             "company": "nebius",
@@ -1748,12 +1724,6 @@
         },
         {
             "company": "nebius",
-            "title": "Principal Solutions Architect - Middle East",
-            "location": "Dubai",
-            "link": "https://careers.nebius.com/?gh_jid=4774488101"
-        },
-        {
-            "company": "nebius",
             "title": "Product Manager - Public Notifications & Communications",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4849774101"
@@ -1763,6 +1733,12 @@
             "title": "Product Manager - Security",
             "location": "Amsterdam \u00b7 Berlin \u00b7 Finland \u00b7 London \u00b7 Prague \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4711796101"
+        },
+        {
+            "company": "nebius",
+            "title": "Product Marketing Manager - Token Factory",
+            "location": "Remote - US",
+            "link": "https://careers.nebius.com/?gh_jid=4873404101"
         },
         {
             "company": "nebius",
@@ -1790,33 +1766,15 @@
         },
         {
             "company": "nebius",
-            "title": "Regional Sales Director - France",
-            "location": "France \u00b7 Paris",
-            "link": "https://careers.nebius.com/?gh_jid=4776508101"
-        },
-        {
-            "company": "nebius",
             "title": "Regional Sales Director - UKI",
             "location": "London",
             "link": "https://careers.nebius.com/?gh_jid=4776513101"
         },
         {
             "company": "nebius",
-            "title": "Regional Supply Chain Security Manager (EU)",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4844425101"
-        },
-        {
-            "company": "nebius",
             "title": "Regional Supply Chain Security Manager (Taiwan)",
             "location": "Taiwan",
             "link": "https://careers.nebius.com/?gh_jid=4844470101"
-        },
-        {
-            "company": "nebius",
-            "title": "Regional Supply Chain Security Manager (US)",
-            "location": "US",
-            "link": "https://careers.nebius.com/?gh_jid=4844451101"
         },
         {
             "company": "nebius",
@@ -2001,14 +1959,14 @@
         {
             "company": "nebius",
             "title": "Senior Hypervisor Engineer",
-            "location": "Prague \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4558238101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4383058101"
         },
         {
             "company": "nebius",
             "title": "Senior Hypervisor Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4383058101"
+            "location": "Prague \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4558238101"
         },
         {
             "company": "nebius",
@@ -2027,6 +1985,12 @@
             "title": "Senior Internal Communications Business Partner",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4682340101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Legal Counsel",
+            "location": "Tel Aviv",
+            "link": "https://careers.nebius.com/?gh_jid=4817076101"
         },
         {
             "company": "nebius",
@@ -2073,20 +2037,14 @@
         {
             "company": "nebius",
             "title": "Senior ML Solutions Architect - Token Factory",
-            "location": "US",
-            "link": "https://careers.nebius.com/?gh_jid=4648728101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior ML Solutions Architect - Token Factory",
             "location": "Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4797092101"
         },
         {
             "company": "nebius",
-            "title": "Senior Network Engineer",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4528416101"
+            "title": "Senior ML Solutions Architect - Token Factory",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4648728101"
         },
         {
             "company": "nebius",
@@ -2096,21 +2054,15 @@
         },
         {
             "company": "nebius",
+            "title": "Senior Network Engineer",
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4528416101"
+        },
+        {
+            "company": "nebius",
             "title": "Senior Network Site Reliability Engineer (NetSRE)",
             "location": "Amsterdam \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4781813101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior Presales Architect",
-            "location": "Remote",
-            "link": "https://careers.nebius.com/?gh_jid=4795940101"
-        },
-        {
-            "company": "nebius",
-            "title": "Senior Presales Architect",
-            "location": "Remote \u00b7 US",
-            "link": "https://careers.nebius.com/?gh_jid=4795955101"
         },
         {
             "company": "nebius",
@@ -2129,6 +2081,24 @@
             "title": "Senior Program Manager",
             "location": "US",
             "link": "https://careers.nebius.com/?gh_jid=4754239101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Sales Enablement Manager, Tavily",
+            "location": "Austin, Texas \u00b7 Remote",
+            "link": "https://careers.nebius.com/?gh_jid=4875096101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Sales Engineer",
+            "location": "Remote",
+            "link": "https://careers.nebius.com/?gh_jid=4795940101"
+        },
+        {
+            "company": "nebius",
+            "title": "Senior Sales Engineer",
+            "location": "Remote \u00b7 US",
+            "link": "https://careers.nebius.com/?gh_jid=4795955101"
         },
         {
             "company": "nebius",
@@ -2241,14 +2211,14 @@
         {
             "company": "nebius",
             "title": "Senior Support Engineer",
-            "location": "Remote",
-            "link": "https://careers.nebius.com/?gh_jid=4866745101"
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4868469101"
         },
         {
             "company": "nebius",
             "title": "Senior Support Engineer",
-            "location": "US",
-            "link": "https://careers.nebius.com/?gh_jid=4868469101"
+            "location": "Remote",
+            "link": "https://careers.nebius.com/?gh_jid=4866745101"
         },
         {
             "company": "nebius",
@@ -2301,14 +2271,14 @@
         {
             "company": "nebius",
             "title": "Senior Technical Program Manager - New Data Center Launches",
-            "location": "Amsterdam \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4700444101"
+            "location": "Tel Aviv",
+            "link": "https://careers.nebius.com/?gh_jid=4767377101"
         },
         {
             "company": "nebius",
             "title": "Senior Technical Program Manager - New Data Center Launches",
-            "location": "Tel Aviv",
-            "link": "https://careers.nebius.com/?gh_jid=4767377101"
+            "location": "Amsterdam \u00b7 Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4700444101"
         },
         {
             "company": "nebius",
@@ -2372,12 +2342,6 @@
         },
         {
             "company": "nebius",
-            "title": "Site Selection & Colocation Manager \u2013 Data Centers",
-            "location": "Amsterdam \u00b7 Remote - Europe \u00b7 Remote - US",
-            "link": "https://careers.nebius.com/?gh_jid=4718632101"
-        },
-        {
-            "company": "nebius",
             "title": "Software Engineer (Early Talent)",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4812138101"
@@ -2390,15 +2354,15 @@
         },
         {
             "company": "nebius",
-            "title": "Solutions Architect - DACH",
-            "location": "Germany \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4774435101"
+            "title": "Solutions Architect DACH",
+            "location": "Germany",
+            "link": "https://careers.nebius.com/?gh_jid=4869835101"
         },
         {
             "company": "nebius",
-            "title": "Solutions Architect - France",
-            "location": "France \u00b7 Remote - Europe",
-            "link": "https://careers.nebius.com/?gh_jid=4774449101"
+            "title": "Solutions Architect France",
+            "location": "France",
+            "link": "https://careers.nebius.com/?gh_jid=4869849101"
         },
         {
             "company": "nebius",
@@ -2408,9 +2372,9 @@
         },
         {
             "company": "nebius",
-            "title": "Solutions Architect - United Kingdom",
-            "location": "UK",
-            "link": "https://careers.nebius.com/?gh_jid=4774460101"
+            "title": "Solutions Architect United Kingdom",
+            "location": "Remote - Europe",
+            "link": "https://careers.nebius.com/?gh_jid=4869856101"
         },
         {
             "company": "nebius",
@@ -2516,6 +2480,12 @@
         },
         {
             "company": "nebius",
+            "title": "Technical Product Manager - Robotics",
+            "location": "US",
+            "link": "https://careers.nebius.com/?gh_jid=4778908101"
+        },
+        {
+            "company": "nebius",
             "title": "Technical Product Manager - Soperator",
             "location": "Amsterdam \u00b7 Berlin \u00b7 France \u00b7 Netherlands \u00b7 Prague \u00b7 Remote - Europe",
             "link": "https://careers.nebius.com/?gh_jid=4737052101"
@@ -2553,6 +2523,12 @@
         {
             "company": "nebius",
             "title": "Technical Project Manager / IT Infrastructure Engineer",
+            "location": "Paris",
+            "link": "https://careers.nebius.com/?gh_jid=4753448101"
+        },
+        {
+            "company": "nebius",
+            "title": "Technical Project Manager / IT Infrastructure Engineer",
             "location": "Israel",
             "link": "https://careers.nebius.com/?gh_jid=4757015101"
         },
@@ -2567,12 +2543,6 @@
             "title": "Technical Project Manager / IT Infrastructure Engineer",
             "location": "M\u00e4nts\u00e4l\u00e4",
             "link": "https://careers.nebius.com/?gh_jid=4753436101"
-        },
-        {
-            "company": "nebius",
-            "title": "Technical Project Manager / IT Infrastructure Engineer",
-            "location": "Paris",
-            "link": "https://careers.nebius.com/?gh_jid=4753448101"
         },
         {
             "company": "nebius",
@@ -2636,12 +2606,6 @@
         },
         {
             "company": "nebius",
-            "title": "Treasury Manager (Mid Office)",
-            "location": "Amsterdam",
-            "link": "https://careers.nebius.com/?gh_jid=4839410101"
-        },
-        {
-            "company": "nebius",
             "title": "US PSOC Manager",
             "location": "Amsterdam",
             "link": "https://careers.nebius.com/?gh_jid=4875588101"
@@ -2679,14 +2643,14 @@
         {
             "company": "nebius",
             "title": "Warehouse and Logistics Specialist",
-            "location": "Madrid",
-            "link": "https://careers.nebius.com/?gh_jid=4799673101"
+            "location": "Lappeenranta",
+            "link": "https://careers.nebius.com/?gh_jid=4799705101"
         },
         {
             "company": "nebius",
             "title": "Warehouse and Logistics Specialist",
-            "location": "Lappeenranta",
-            "link": "https://careers.nebius.com/?gh_jid=4799705101"
+            "location": "Madrid",
+            "link": "https://careers.nebius.com/?gh_jid=4799673101"
         },
         {
             "company": "nebius",
@@ -2697,7 +2661,7 @@
         {
             "company": "nebius",
             "title": "Warehouse & Logistics Specialist",
-            "location": "Hauts-de-France",
+            "location": "B\u00e9thune, Pas-de-Calais",
             "link": "https://careers.nebius.com/?gh_jid=4794072101"
         },
         {
@@ -2942,7 +2906,7 @@
         },
         {
             "company": "soundhound",
-            "title": "Partner Engineer, Generative AI (Automotive+)",
+            "title": "Partner Engineer, Voice AI (Automotive+)",
             "location": "Beijing \u2022 In office",
             "link": "https://jobs.gem.com/soundhound/am9icG9zdDrgEVMDydNw3B-Wy8ZCY7nz"
         },
@@ -2966,7 +2930,7 @@
         },
         {
             "company": "soundhound",
-            "title": "Staff Software Engineer",
+            "title": "Senior Software Engineer",
             "location": "Bengaluru \u2022 Hybrid",
             "link": "https://jobs.gem.com/soundhound/am9icG9zdDpbMOf1-wo6HwOHzIFZduge"
         },
