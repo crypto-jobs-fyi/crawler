@@ -1,15 +1,14 @@
 {
-    "paxos": 17,
-    "total_jobs": 626,
+    "paxos": 19,
+    "total_jobs": 500,
     "circle": 77,
-    "robinhood": 129,
-    "Swissquote": 21,
-    "io-global": 14,
-    "ripple": 130,
-    "lmax": 5,
+    "Swissquote": 20,
+    "io-global": 13,
+    "ripple": 128,
+    "lmax": 6,
     "dragonflycapital": 30,
-    "BitcoinSuisse": 10,
-    "worldcoin": 68,
+    "BitcoinSuisse": 20,
+    "worldcoin": 61,
     "ondo-finance": 20,
     "trojan-trading": 7,
     "gemini": 31,
@@ -17,5 +16,5 @@
     "bitfinex": 40,
     "freedx": 6,
     "dydx.xyz": 6,
-    "crypto-finance": 4
+    "crypto-finance": 5
 }
