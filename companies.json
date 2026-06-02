@@ -1351,6 +1351,15 @@
             "headless": true
         },
         {
+            "name": "zodl",
+            "jobs_url": "https://jobs.ashbyhq.com/zodl",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://zodl.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "galaxydigital",
             "jobs_url": "https://boards.greenhouse.io/galaxydigitalservices",
             "scraper": "GREENHOUSE",
