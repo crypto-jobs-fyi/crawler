@@ -104,12 +104,6 @@
         },
         {
             "company": "mistral",
-            "title": "Commercial Legal Counsel - Singapore",
-            "location": "SINGAPORE,HYBRID",
-            "link": "https://jobs.lever.co/mistral/e9e2c848-2128-4c59-968d-ccf2ae35b438"
-        },
-        {
-            "company": "mistral",
             "title": "Executive Assistant to the CRO",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/mistral/8a74fb66-c6ae-40eb-981d-d07ca17593be"
@@ -326,15 +320,15 @@
         },
         {
             "company": "mistral",
-            "title": "Financial Controller",
-            "location": "PARIS / LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/mistral/6e288091-e94c-4e37-9f60-00d8bdc0f87f"
-        },
-        {
-            "company": "mistral",
             "title": "General/Senior Accountant",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/mistral/eb6a8a44-19f6-4b84-bce8-8a818542d2c4"
+        },
+        {
+            "company": "mistral",
+            "title": "Group Financial Controller",
+            "location": "PARIS / LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/mistral/6e288091-e94c-4e37-9f60-00d8bdc0f87f"
         },
         {
             "company": "mistral",
@@ -473,6 +467,12 @@
             "title": "Product Regulatory Legal Counsel (EU)",
             "location": "PARIS,ON-SITE",
             "link": "https://jobs.lever.co/mistral/6366e859-3a0f-44ed-9578-629a04c77e3c"
+        },
+        {
+            "company": "mistral",
+            "title": "Senior Commercial Legal Counsel - Singapore",
+            "location": "SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/mistral/e9e2c848-2128-4c59-968d-ccf2ae35b438"
         },
         {
             "company": "mistral",
@@ -800,6 +800,12 @@
         },
         {
             "company": "mistral",
+            "title": "AI Deployment Strategist - USA",
+            "location": "PALO ALTO / NEW YORK, NY,HYBRID",
+            "link": "https://jobs.lever.co/mistral/1abe543d-4e31-4510-9782-ddab360080aa"
+        },
+        {
+            "company": "mistral",
             "title": "AI Deployment Strategist, AI4Engineering - EMEA",
             "location": "PARIS / LONDON / MUNICH / MADRID / AMSTERDAM,ON-SITE",
             "link": "https://jobs.lever.co/mistral/bfcc2d05-141a-49d3-aa4d-20d743ede9d9"
@@ -812,7 +818,7 @@
         },
         {
             "company": "mistral",
-            "title": "AI Deployment Strategist, Defence - Singapore",
+            "title": "AI Deployment Strategist, MINDEF - Singapore",
             "location": "SINGAPORE,HYBRID",
             "link": "https://jobs.lever.co/mistral/3ec6fd88-fc86-4c2c-bb5d-0c66876ba62d"
         },
@@ -2229,12 +2235,6 @@
         {
             "company": "palantir",
             "title": "Production Engineer - Database Operations",
-            "location": "SINGAPORE, SINGAPORE,HYBRID",
-            "link": "https://jobs.lever.co/palantir/c80690ca-704b-46c2-9d95-e4f6e98ce4e2"
-        },
-        {
-            "company": "palantir",
-            "title": "Production Engineer - Database Operations",
             "location": "LONDON, UK,HYBRID",
             "link": "https://jobs.lever.co/palantir/164da0e1-0bc2-46a7-bd4c-cb46b889dc63"
         },
@@ -2654,12 +2654,6 @@
         },
         {
             "company": "anybotics",
-            "title": "Senior Software Engineer, AI/ML",
-            "location": "BARCELONA, CATALONIA,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/9245fd37-0d52-4bbb-8746-847c14530e46"
-        },
-        {
-            "company": "anybotics",
             "title": "Senior Reinforcement Learning Engineer",
             "location": "ZURICH, SWITZERLAND,HYBRID",
             "link": "https://jobs.lever.co/anybotics/63f0c6db-0a1f-4a4a-87dd-9a43c9c2bdd2"
@@ -2759,6 +2753,12 @@
             "title": "Manager, Field Integration & Test (R5104)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b0419169-6cb8-48da-9256-4985874f3df0"
+        },
+        {
+            "company": "shieldai",
+            "title": "Operations Officer (R5144)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/771dbed2-b730-40fb-8cab-f680d890aa32"
         },
         {
             "company": "shieldai",
@@ -3086,12 +3086,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Principal Engineer, Security Architect (R5056)",
-            "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/02ece518-3f94-4822-b47d-88ea56a595fb"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Engineer, Product Security & Compliance (R4650)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/e6434735-b6af-4657-89a5-382a2f9bf366"
@@ -3159,7 +3153,7 @@
         {
             "company": "shieldai",
             "title": "Tax Manager (R4989)",
-            "location": "US / SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA,ON-SITE",
+            "location": "SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/27d2fc13-efec-4566-be03-a8a75a345e0a"
         },
         {
@@ -3171,7 +3165,7 @@
         {
             "company": "shieldai",
             "title": "Director of Indirect Procurement (R4993)",
-            "location": "SAN DIEGO, CALIFORNIA / SAN FRANCISCO, CALIFORNIA / DALLAS, TEXAS,HYBRID",
+            "location": "DALLAS, TEXAS,HYBRID",
             "link": "https://jobs.lever.co/shieldai/0cce0806-b5c1-4a73-aef8-4e5662462014"
         },
         {
@@ -3209,6 +3203,12 @@
             "title": "Lead, Program Finance (R4999)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/2f3628b4-ee3a-4fd4-8485-fddaba2f56a8"
+        },
+        {
+            "company": "shieldai",
+            "title": "Business Development Lead, Premier/SIs (R5143)",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/6d431c48-e48d-45da-9cee-6a3266fbef8d"
         },
         {
             "company": "shieldai",
@@ -3272,6 +3272,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Business Development Lead - Finland (R5139)",
+            "location": "HELSINKI,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/9e17a507-ce5d-42ff-8d9e-9f85f413af26"
+        },
+        {
+            "company": "shieldai",
             "title": "Business Development Lead, Central Europe (DACH, Czech Republic, Slovakia) (R5054)",
             "location": "MUNICH,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/1382eb7c-f076-470f-9808-0e701f21d857"
@@ -3281,6 +3287,12 @@
             "title": "Business Development Lead, Iberia (Spain & Portugal)",
             "location": "MADRID,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/811d7d43-590c-438f-870a-61447eb0017d"
+        },
+        {
+            "company": "shieldai",
+            "title": "Business Development Manager \u2013 Romania Internal Security & Caucasus (R5011)",
+            "location": "BUCHAREST,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/6d7fae42-8f38-40c4-af62-3086d341112d"
         },
         {
             "company": "shieldai",
@@ -3296,9 +3308,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Capture Manager, EUAF (R5138)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/e7fb4904-b02a-48e3-9054-8f85fc1c5f14"
+            "title": "Capture Manager, Greece (R5137)",
+            "location": "ATHENS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/0806bdda-9a01-4ad5-a067-504a3bee23b4"
         },
         {
             "company": "shieldai",
@@ -3356,6 +3368,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Director of Strategic Engagement",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/e7fb4904-b02a-48e3-9054-8f85fc1c5f14"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Staff BD Account Executive - Autonomy Specialist (R5001)",
             "location": "ABU DHABI,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b252cefb-8a6a-4cb7-8f5e-90d46926747e"
@@ -3395,12 +3413,6 @@
             "title": "Strategic Capture Director (R4893)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/1d551077-9e00-4f3c-84bd-f3ee911c83f8"
-        },
-        {
-            "company": "shieldai",
-            "title": "Territory BD Manager, Finland (R5139)",
-            "location": "HELSINKI,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/9e17a507-ce5d-42ff-8d9e-9f85f413af26"
         },
         {
             "company": "shieldai",
@@ -3590,12 +3602,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Customer Success Manager (R4990)",
-            "location": "WASHINGTON, DC / SAN DIEGO, CALIFORNIA,HYBRID",
-            "link": "https://jobs.lever.co/shieldai/fd938d01-0807-4cf1-95df-5dd97b0faf21"
-        },
-        {
-            "company": "shieldai",
             "title": "Chief Engineer",
             "location": "LONDON,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/dd795a91-7317-44ea-8197-caf6266eb8f8"
@@ -3623,6 +3629,12 @@
             "title": "Senior Engineer, Applications (R4829)",
             "location": "TOKYO,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/ca9c2a51-fc9c-4258-a420-85b9a97b28b3"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Customer Success Manager (R4990)",
+            "location": "WASHINGTON, DC / SAN DIEGO, CALIFORNIA,HYBRID",
+            "link": "https://jobs.lever.co/shieldai/fd938d01-0807-4cf1-95df-5dd97b0faf21"
         },
         {
             "company": "shieldai",
@@ -3656,6 +3668,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Software Engineer, Autonomous Pilot Integration",
+            "location": "WASHINGTON, DC / SAN DIEGO, CALIFORNIA / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/aec9e538-6071-47c5-9c9b-8aadc0bd3f7e"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Software Engineer, Autonomy Behaviors (R4588)",
             "location": "BOSTON, MA / WASHINGTON, DC / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/ccddd964-0a35-4650-9690-28d54b690298"
@@ -3674,6 +3692,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Staff Software Engineer, Autonomous Pilot Integration",
+            "location": "WASHINGTON, DC / SAN DIEGO, CALIFORNIA / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/cd2da1f3-502e-44cd-9bea-38ffd09c4413"
+        },
+        {
+            "company": "shieldai",
             "title": "Software Engineer II, Autonomy Behaviors (R4588)",
             "location": "BOSTON, MA / WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b682f55e-ca09-444b-8251-38422567ada8"
@@ -3683,6 +3707,12 @@
             "title": "Staff Engineer, Software - Autonomous Aircraft Integration (R4983)",
             "location": "WASHINGTON, DC / BOSTON, MA / SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6265ee65-8136-41b5-9279-97f9a4b1d2f6"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Software Engineer, Autonomous Pilot Integration",
+            "location": "WASHINGTON, DC / SAN DIEGO, CALIFORNIA / BOSTON, MA,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/4cdda6f8-a132-431b-910e-8dfc1d1fec24"
         },
         {
             "company": "shieldai",
@@ -3896,12 +3926,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Technical Recruiter, Software",
-            "location": "WASHINGTON, DC / BOSTON, MA / SAN FRANCISCO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/4a1f3320-4044-4bef-befa-7e6f9905bdf2"
-        },
-        {
-            "company": "shieldai",
             "title": "Engineer II, Electrical (R5111)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/e136857b-1cd9-4fea-9ff5-ad7587ff1835"
@@ -4043,12 +4067,6 @@
             "title": "Staff Engineer, DevOps (4797)",
             "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/1d77e789-a2be-414c-9a1f-f4bc284343ea"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, DevOps (R4666)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/cdb92a85-1560-4f78-bf05-908748fce1f5"
         },
         {
             "company": "shieldai",
@@ -4767,19 +4785,19 @@
         {
             "company": "oxylabs",
             "title": "Strategy & Operations Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/880376e4-f78c-4d92-ae10-468f288fbaf3"
         },
         {
             "company": "oxylabs",
             "title": "Commercial Product Owner",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/4ff3009c-196b-46c9-bd67-02a6864dbb44"
         },
         {
             "company": "oxylabs",
             "title": "Customer Success Team Lead",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/9f763f9c-2b60-4a95-934e-cd71d1710593"
         },
         {
@@ -4791,62 +4809,68 @@
         {
             "company": "oxylabs",
             "title": "Mid Technical Customer Success Specialist (Evening shift)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/8ba5d68a-b215-4477-adab-b0ba3d9ccb35"
         },
         {
             "company": "oxylabs",
             "title": "Mid Technical Customer Success Specialist (Night shift)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/3381145c-7b0d-4718-93b0-95894d8696e9"
         },
         {
             "company": "oxylabs",
             "title": "Technical Customer Success Specialist (Day shift)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/6f41e134-229e-42f7-bb30-de70519ebc94"
         },
         {
             "company": "oxylabs",
             "title": "Customer Success Manager (Day shift)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/808eb825-1710-445a-8212-fdd86beacfac"
         },
         {
             "company": "oxylabs",
             "title": "Analytics Engineer",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/6761438b-3813-4e0c-8da9-f61ff83e420a"
         },
         {
             "company": "oxylabs",
             "title": "Product Designer (Visual & UI Focus)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/5ea6dd65-3dce-4315-9e50-a849c161f31e"
         },
         {
             "company": "oxylabs",
             "title": "Graphic Designer / Illustrator (MID - Senior)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/c6468f5d-8134-416d-aa9a-a48a48479038"
         },
         {
             "company": "oxylabs",
             "title": "Backend-Focused Full Stack Developer (Node.js, React)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/6b8e92e3-a5d1-43cc-ba8f-8b114cc4856d"
         },
         {
             "company": "oxylabs",
             "title": "Full Stack Engineer (Node.js, React)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/a632d0cc-4f6b-41db-9237-cd09be4e9048"
         },
         {
             "company": "oxylabs",
             "title": "Senior Backend Engineer (Node.js)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/66845310-e331-411b-a321-5950344a07a3"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Squad Lead (Junior-Mid)",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/e9c8a875-b471-4308-a170-e2d4f54661a8"
         },
         {
             "company": "oxylabs",
@@ -4857,31 +4881,31 @@
         {
             "company": "oxylabs",
             "title": "Software Engineer (Go)",
-            "location": "VILNIUS/KAUNAS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,REMOTE",
             "link": "https://jobs.lever.co/oxylabs/4a416500-db4e-474f-a137-799970292045"
         },
         {
             "company": "oxylabs",
             "title": "Site Reliability Engineer (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/84ea6cc4-2dae-465b-a803-55be0d129cc9"
         },
         {
             "company": "oxylabs",
             "title": "Engineering Manager (Webshare product)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/2e89cc05-84a5-4035-a9b4-b5b6f35defce"
         },
         {
             "company": "oxylabs",
             "title": "Head of Accounting",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/2a676888-a628-40c6-8a57-3e35a2b90194"
         },
         {
             "company": "oxylabs",
             "title": "Senior Financial Controller",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/75feff5a-f0bb-4d9e-9494-9cf0f4e0194f"
         },
         {
@@ -4899,7 +4923,7 @@
         {
             "company": "oxylabs",
             "title": "SEO Specialist",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/d0c11d19-372a-4cb5-9082-f23aa2fb829c"
         },
         {
@@ -4917,49 +4941,49 @@
         {
             "company": "oxylabs",
             "title": "Head of Marketing",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/08dd35d0-0b23-475c-a066-6e1b0d960c7a"
         },
         {
             "company": "oxylabs",
             "title": "Senior Data Product Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/92fc0360-bf73-435b-8b3a-a3bcf17bf4d4"
         },
         {
             "company": "oxylabs",
             "title": "Technical Product Manager (Data Search & AI squad)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/eb1b1d0b-9e84-4e97-ac26-41a6df55b11f"
         },
         {
             "company": "oxylabs",
             "title": "Product Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/2539dae6-258e-4445-9f19-d632c846efad"
         },
         {
             "company": "oxylabs",
             "title": "Product Manager (Native AI Products & New Ventures)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/303dcbf2-b157-47d3-a4ad-68a72e398094"
         },
         {
             "company": "oxylabs",
             "title": "Product Manager (Web Scraper APIs)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/99d10acf-b254-4c84-8779-1db461d974e6"
         },
         {
             "company": "oxylabs",
             "title": "Senior Product Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/a47e0e62-a0d8-49fc-afc2-93c89c702e68"
         },
         {
             "company": "oxylabs",
             "title": "Head of Product & Growth",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/947cd112-bc8c-4c88-b728-b70e0dcd6a11"
         },
         {
@@ -4971,7 +4995,7 @@
         {
             "company": "oxylabs",
             "title": "Account Management Team Lead",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/befb058f-6196-472f-a76b-0c61a80e2ae5"
         },
         {
@@ -4983,31 +5007,31 @@
         {
             "company": "oxylabs",
             "title": "Account Manager (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/65ea5974-10ce-4492-817a-0dbca1dd631c"
         },
         {
             "company": "oxylabs",
             "title": "Portfolio Account Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/7a592ffb-b308-49f2-a46c-1e48a7845515"
         },
         {
             "company": "oxylabs",
             "title": "Business Development Manager",
-            "location": "VILNIUS,ON-SITE",
+            "location": "VILNIUS, LITHUANIA,ON-SITE",
             "link": "https://jobs.lever.co/oxylabs/f86071da-db86-448a-951d-df3264f7067e"
         },
         {
             "company": "oxylabs",
             "title": "Sales Manager",
-            "location": "VILNIUS,ON-SITE",
+            "location": "VILNIUS, LITHUANIA,ON-SITE",
             "link": "https://jobs.lever.co/oxylabs/76ee832c-9c00-4f64-b8c9-6a5aee0ab1db"
         },
         {
             "company": "oxylabs",
             "title": "Mid-Senior Account Manager",
-            "location": "VILNIUS,HYBRID",
+            "location": "VILNIUS, LITHUANIA,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/94855bf9-05b2-47e7-849e-3df8c831c0e5"
         },
         {
@@ -5222,51 +5246,15 @@
         },
         {
             "company": "RadicalAI",
-            "title": "Robotics Engineer",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/796c53a4-508b-4010-9d6e-fbb203a46b25"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Software Engineer - Systems",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/544f110f-c08f-4185-b04c-6f6c15485296"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/ecd88e3e-815d-431f-a752-a0c02ecc325f"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Chemist/Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/50134b2e-c0da-4d85-b8cb-f253d2d1e8b0"
-        },
-        {
-            "company": "RadicalAI",
             "title": "Laboratory Operations Specialist",
             "location": "NEW YORK, NY,ON-SITE",
             "link": "https://jobs.lever.co/RadicalAI/963bf456-0cf0-4ffb-976c-51cf91429ffa"
         },
         {
             "company": "RadicalAI",
-            "title": "Material Scientist - Metal Alloys",
-            "location": "NEW YORK, NY,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/56ec9525-fab1-4f88-a465-36fb5a76aba4"
-        },
-        {
-            "company": "RadicalAI",
             "title": "Senior Product Designer",
             "location": "NEW YORK, NY,ON-SITE",
             "link": "https://jobs.lever.co/RadicalAI/4d84534a-fa5b-4be5-abb8-d9f4b711387c"
-        },
-        {
-            "company": "RadicalAI",
-            "title": "Computational Materials Scientist",
-            "location": "CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/RadicalAI/550e9d9e-e8dc-4863-9966-52ec104524c2"
         },
         {
             "company": "RadicalAI",
