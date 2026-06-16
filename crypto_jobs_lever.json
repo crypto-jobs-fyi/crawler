@@ -44,6 +44,12 @@
         },
         {
             "company": "moonpay",
+            "title": "Senior Infrastructure Engineer",
+            "location": "NEW YORK - HYBRID / US (EAST COAST TIME ZONE) - REMOTE,HYBRID",
+            "link": "https://jobs.lever.co/moonpay/982e4e92-2337-49f6-9a9f-31333d73ed5f"
+        },
+        {
+            "company": "moonpay",
             "title": "Chief Risk Officer (CRO)",
             "location": "US - REMOTE,REMOTE",
             "link": "https://jobs.lever.co/moonpay/58ec94e7-2af5-4d3e-95d4-d7931f03be86"
@@ -68,33 +74,15 @@
         },
         {
             "company": "moonpay",
-            "title": "KYB Operations Analyst",
-            "location": "BENGALURU, KARNATAKA,REMOTE",
-            "link": "https://jobs.lever.co/moonpay/78c68c7f-8603-41be-a860-852dc22a90fc"
-        },
-        {
-            "company": "moonpay",
-            "title": "KYC Operations Analyst",
-            "location": "BENGALURU, KARNATAKA,REMOTE",
-            "link": "https://jobs.lever.co/moonpay/6a6565a0-1abc-4e32-952b-1e3110ddd989"
-        },
-        {
-            "company": "moonpay",
-            "title": "Senior Program Manager, Product Operations",
-            "location": "US (EAST COAST TIME ZONE) - REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/moonpay/9697bcae-6de6-47f5-9e46-b3c9d999d0d3"
+            "title": "Manager, KYC Operations",
+            "location": "INDIA - REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/moonpay/6a410f42-dfee-4c65-b093-4b69ed950215"
         },
         {
             "company": "moonpay",
             "title": "Analyst, Trust & Safety Ops (Bangalore)",
             "location": "BANGALORE - HYBRID,REMOTE",
             "link": "https://jobs.lever.co/moonpay/79d212a8-8323-413b-b798-dd979535813b"
-        },
-        {
-            "company": "moonpay",
-            "title": "Payroll Operations & Automations Manager",
-            "location": "PORTUGAL - REMOTE / POLAND - REMOTE / SPAIN - REMOTE / SOUTH AFRICA - REMOTE / UK - REMOTE / NETHERLANDS - REMOTE / IRELAND - REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/moonpay/8a3875d9-aa79-4f97-9ee3-7000fe0e910f"
         },
         {
             "company": "moonpay",
@@ -161,12 +149,6 @@
             "title": "Binance Pay Business Lead",
             "location": "HONG KONG / AUSTRALIA, SYDNEY / TAIWAN, TAIPEI / THAILAND, BANGKOK,REMOTE",
             "link": "https://jobs.lever.co/binance/d86ee1c0-8e70-4553-8445-40c3821801a3"
-        },
-        {
-            "company": "binance",
-            "title": "Business Development - Payment (LATAM)",
-            "location": "MEXICO, MEXICO CITY / ARGENTINA, BUENOS AIRES / BRAZIL, SAO PAULO / COLOMBIA, BOGOTA,REMOTE",
-            "link": "https://jobs.lever.co/binance/8ef9b0fb-19b8-4ca7-b457-f0ead04d6346"
         },
         {
             "company": "binance",
@@ -261,8 +243,14 @@
         {
             "company": "binance",
             "title": "Dispute Analyst - P2P",
-            "location": "ARGENTINA, BUENOS AIRES / CHILE, SANTIAGO DE CHILE / COLOMBIA, BOGOTA / EL SALVADOR, SAN SALVADOR,REMOTE",
+            "location": "ARGENTINA, BUENOS AIRES / CHILE, SANTIAGO DE CHILE / COLOMBIA, BOGOTA / EL SALVADOR, SAN SALVADOR / AZERBAIJAN, BAKU / ARMENIA, YEREVAN / CIS REGION / KYRGYZSTAN, BISHKEK / UZBEKISTAN, TASHKENT,REMOTE",
             "link": "https://jobs.lever.co/binance/bfe02d4b-f6bb-41db-b707-3202b26270d6"
+        },
+        {
+            "company": "binance",
+            "title": "Customer Service Agent - Merchant Team",
+            "location": "CIS REGION / ARMENIA, YEREVAN / AZERBAIJAN, BAKU / KAZAKHSTAN, ALMATY / KAZAKHSTAN, ASTANA / KYRGYZSTAN, BISHKEK / UZBEKISTAN, TASHKENT,REMOTE",
+            "link": "https://jobs.lever.co/binance/1ca505fc-e40d-48c3-9c15-0c2da0622f1f"
         },
         {
             "company": "binance",
@@ -341,6 +329,12 @@
             "title": "Customer Service Representative (Hungarian & English)",
             "location": "HUNGARY, BUDAPEST,REMOTE",
             "link": "https://jobs.lever.co/binance/fef74ee8-318c-4a02-a095-8524bbeb643e"
+        },
+        {
+            "company": "binance",
+            "title": "Customer Service Representative (Italian & English)",
+            "location": "PORTUGAL, LISBON / CROATIA, ZAGREB / GREECE, ATHENS / HUNGARY, BUDAPEST / SLOVENIA, LJUBLJANA / CZECH REPUBLIC, PRAGUE / BULGARIA, SOFIA / ESTONIA, TALLINN / RIGA, LATVIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/c9aaece5-1f56-4d4d-bbb4-fb76eca9cf1b"
         },
         {
             "company": "binance",
@@ -440,6 +434,18 @@
         },
         {
             "company": "binance",
+            "title": "Backend Developer (Java)",
+            "location": "HONG KONG / TAIWAN, TAIPEI / ASIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/97b01aae-f5dc-489a-9683-e9858adca807"
+        },
+        {
+            "company": "binance",
+            "title": "Backend Developer, Binance Square (Golang, Python, Java)",
+            "location": "ASIA / TAIWAN, TAIPEI / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / THAILAND, BANGKOK / HONG KONG / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY,REMOTE",
+            "link": "https://jobs.lever.co/binance/517f9531-86cc-4260-924f-6240e4bf8b36"
+        },
+        {
+            "company": "binance",
             "title": "Backend Engineer - Payment (Java)",
             "location": "ASIA / TAIWAN, TAIPEI / HONG KONG,REMOTE",
             "link": "https://jobs.lever.co/binance/cd45063a-740a-4526-8d50-51f689dad920"
@@ -458,7 +464,7 @@
         },
         {
             "company": "binance",
-            "title": "Backend Java Engineer",
+            "title": "Backend Java Engineer - Binance Wallet",
             "location": "ASIA,HYBRID",
             "link": "https://jobs.lever.co/binance/af989f78-c76a-4656-a504-978133f8256a"
         },
@@ -554,20 +560,14 @@
         },
         {
             "company": "binance",
-            "title": "Golang Developer, Binance Square",
-            "location": "ASIA / TAIWAN, TAIPEI / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / THAILAND, BANGKOK / HONG KONG / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY,REMOTE",
-            "link": "https://jobs.lever.co/binance/517f9531-86cc-4260-924f-6240e4bf8b36"
-        },
-        {
-            "company": "binance",
             "title": "Growth Tech Leader",
             "location": "HONG KONG / TAIWAN, TAIPEI / ASIA,HYBRID",
             "link": "https://jobs.lever.co/binance/3499d1ef-4f3a-44c8-ae04-dfc223338f4e"
         },
         {
             "company": "binance",
-            "title": "Head of Engineering - Trading Systems (Korea)",
-            "location": "SOUTH KOREA, SEOUL,REMOTE",
+            "title": "Head of Engineering & Regulatory Technology (Korea)",
+            "location": "SOUTH KOREA, SEOUL,ON-SITE",
             "link": "https://jobs.lever.co/binance/0400c0b4-c07e-42c5-a000-205995dcd8ef"
         },
         {
@@ -626,12 +626,6 @@
         },
         {
             "company": "binance",
-            "title": "Quantitative Developer - Java",
-            "location": "HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/97b01aae-f5dc-489a-9683-e9858adca807"
-        },
-        {
-            "company": "binance",
             "title": "Senior Backend Engineer - Java",
             "location": "ASIA / TAIWAN, TAIPEI / UAE, DUBAI,REMOTE",
             "link": "https://jobs.lever.co/binance/474f79fb-153b-46b0-85a8-09d53b81a14c"
@@ -671,6 +665,12 @@
             "title": "Senior Java Engineer - Growth Tech",
             "location": "HONG KONG / TAIWAN, TAIPEI / ASIA,HYBRID",
             "link": "https://jobs.lever.co/binance/4050628d-e4bf-4027-951e-f48c0cb2c5bd"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Java Engineer - KYC Tech",
+            "location": "ASIA / TAIWAN, TAIPEI / UAE, DUBAI / VIETNAM, HO CHI MINH,REMOTE",
+            "link": "https://jobs.lever.co/binance/e5846d5a-8000-4ebe-b9dd-637d2f15596e"
         },
         {
             "company": "binance",
@@ -725,12 +725,6 @@
             "title": "Binance Accelerator Program - Data Scientist (AI/LLM)",
             "location": "TAIWAN, TAIPEI / UAE, DUBAI / BAHRAIN, MANAMA / AUSTRALIA, SYDNEY / AUSTRALIA, MELBOURNE / ASIA / HONG KONG / SOUTH EAST ASIA / AUSTRALIA, BRISBANE,REMOTE",
             "link": "https://jobs.lever.co/binance/96e8326e-074f-4d1f-89c4-8ed1a6f96014"
-        },
-        {
-            "company": "binance",
-            "title": "Binance Accelerator Program - Software Engineer (DevOps & Data)",
-            "location": "ASIA / AUSTRALIA, SYDNEY / AUSTRALIA, MELBOURNE / TAIWAN, TAIPEI / HONG KONG / UAE, DUBAI,REMOTE",
-            "link": "https://jobs.lever.co/binance/ecba9987-5493-491a-91da-0092ab8339d0"
         },
         {
             "company": "binance",
@@ -827,6 +821,12 @@
             "title": "Binance Accelerator Program - Data Scientist (CV, Agentic AI)",
             "location": "ASIA / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / TAIWAN, TAIPEI,REMOTE",
             "link": "https://jobs.lever.co/binance/6b9ff843-c2e2-4e38-84e8-1f397f656cd8"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - Data Scientist (Recommendation/Square Community)",
+            "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
+            "link": "https://jobs.lever.co/binance/684ead60-5f7f-4ed9-bfc5-9f69c67af9a6"
         },
         {
             "company": "binance",
@@ -1046,7 +1046,7 @@
         },
         {
             "company": "binance",
-            "title": "Front-end Developer(Futures)",
+            "title": "Front-end Developer (Futures)",
             "location": "ASIA / TAIWAN, TAIPEI,REMOTE",
             "link": "https://jobs.lever.co/binance/ff83a594-78bf-4870-8861-41c3de299d7d"
         },
@@ -1094,12 +1094,6 @@
         },
         {
             "company": "binance",
-            "title": "Senior Frontend Engineer",
-            "location": "ASIA / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/76263fb4-6547-492a-aa25-53819d58baec"
-        },
-        {
-            "company": "binance",
             "title": "Senior Frontend Engineer - Cloud",
             "location": "ASIA / TAIWAN, TAIPEI / UAE, DUBAI,REMOTE",
             "link": "https://jobs.lever.co/binance/df5c52ee-4900-44e4-9e08-c96d671aae4b"
@@ -1112,9 +1106,21 @@
         },
         {
             "company": "binance",
+            "title": "Senior Frontend Engineer - KYC Tech",
+            "location": "ASIA / UAE, DUBAI / TAIWAN, TAIPEI / THAILAND, BANGKOK / SOUTH EAST ASIA / UAE, ABU DHABI / HONG KONG / INDONESIA, JAKARTA,REMOTE",
+            "link": "https://jobs.lever.co/binance/9e10062e-c58a-4510-ade2-8a64c013cf1f"
+        },
+        {
+            "company": "binance",
             "title": "Senior Frontend Engineer - Stablecoin",
             "location": "ASIA / TAIWAN, TAIPEI / UAE, DUBAI,REMOTE",
             "link": "https://jobs.lever.co/binance/d1a13207-95f2-484a-976f-a25593eaa3e9"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Frontend Engineer - Trading Systems",
+            "location": "ASIA / TAIWAN, TAIPEI,REMOTE",
+            "link": "https://jobs.lever.co/binance/76263fb4-6547-492a-aa25-53819d58baec"
         },
         {
             "company": "binance",
@@ -1232,6 +1238,18 @@
         },
         {
             "company": "binance",
+            "title": "Java Backend QA Engineer (White-box Focus)",
+            "location": "HONG KONG / ASIA / TAIWAN, TAIPEI,REMOTE",
+            "link": "https://jobs.lever.co/binance/23ab4123-002c-45df-8340-2ad5c34d1fa1"
+        },
+        {
+            "company": "binance",
+            "title": "QA Engineer (Square)",
+            "location": "ASIA / HONG KONG / TAIWAN, TAIPEI / AUSTRALIA, SYDNEY,REMOTE",
+            "link": "https://jobs.lever.co/binance/79c1a7b3-717a-4ad1-b8d6-32053a000ef8"
+        },
+        {
+            "company": "binance",
             "title": "Senior Automation QA Engineer / SDET (Python)",
             "location": "EASTERN EUROPE / NEW ZEALAND, AUCKLAND / NEW ZEALAND, WELLINGTON / GEORGIA, TBILISI / ARMENIA, YEREVAN / ASIA / JAPAN, TOKYO,HYBRID",
             "link": "https://jobs.lever.co/binance/044d292f-a98d-48d4-9aad-77f2354619ae"
@@ -1281,7 +1299,7 @@
         {
             "company": "binance",
             "title": "Senior QA Engineer (Trading Tech)",
-            "location": "ASIA / UAE, ABU DHABI / EASTERN EUROPE / JAPAN, TOKYO,ON-SITE",
+            "location": "ASIA / EASTERN EUROPE / JAPAN, TOKYO / EUROPE / GLOBAL / UAE, DUBAI / REMOTE / ROMANIA, BUCHAREST,ON-SITE",
             "link": "https://jobs.lever.co/binance/ce9c7153-8551-420a-b2c6-35b1c0f92b46"
         },
         {
@@ -1304,15 +1322,9 @@
         },
         {
             "company": "binance",
-            "title": "Procurement Specialist",
+            "title": "Procurement Manager, Professional Services and Marketing",
             "location": "ASIA / TAIWAN, TAIPEI / HONG KONG / SOUTH EAST ASIA,REMOTE",
             "link": "https://jobs.lever.co/binance/7379cea5-871b-4258-a914-572819c2dd54"
-        },
-        {
-            "company": "binance",
-            "title": "Accounts Payable Accountant (6-12 months)",
-            "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/e13b4cbd-9c5a-49ea-bb41-4628ff81a981"
         },
         {
             "company": "binance",
@@ -1346,6 +1358,18 @@
         },
         {
             "company": "binance",
+            "title": "HR Business Partner",
+            "location": "ASIA / TAIWAN, TAIPEI / HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/binance/cd344c0b-6e76-4bae-9186-0c1a0bb440dd"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - Talent Acquisition",
+            "location": "HONG KONG / TAIWAN, TAIPEI / ASIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/9871f92c-261f-48b6-bc51-0315bfb1e09d"
+        },
+        {
+            "company": "binance",
             "title": "Senior Talent Acquisition Specialist (Technical and Product)",
             "location": "ASIA / HONG KONG,REMOTE",
             "link": "https://jobs.lever.co/binance/a1124a16-3dfe-4547-b0e9-90aa402ebfde"
@@ -1355,6 +1379,12 @@
             "title": "Talent Acquisition Lead",
             "location": "EUROPE / EASTERN EUROPE / UAE, DUBAI / SOUTHERN EUROPE / IRELAND, DUBLIN,HYBRID",
             "link": "https://jobs.lever.co/binance/cf772fec-4a13-46e7-8e29-5c8b94001bd7"
+        },
+        {
+            "company": "binance",
+            "title": "Talent Acquisition Specialist (Spanish & Chinese Speaker)",
+            "location": "ASIA / GLOBAL,REMOTE",
+            "link": "https://jobs.lever.co/binance/31b7d951-fb96-4a57-8b9f-33038ad6bb3c"
         },
         {
             "company": "binance",
@@ -1442,12 +1472,6 @@
         },
         {
             "company": "binance",
-            "title": "Internal Audit Manager - Japan",
-            "location": "JAPAN, TOKYO,REMOTE",
-            "link": "https://jobs.lever.co/binance/3c4490bc-d354-438f-9e61-a7b41c8fd24e"
-        },
-        {
-            "company": "binance",
             "title": "Investigations Specialist - UAE - Arabic Speaking",
             "location": "UAE, DUBAI / UAE, ABU DHABI,REMOTE",
             "link": "https://jobs.lever.co/binance/3a2a3a40-269d-431b-9eb1-fc3ccb456642"
@@ -1481,12 +1505,6 @@
             "title": "Sanctions Governance and Policy Specialist",
             "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
             "link": "https://jobs.lever.co/binance/d2b912fe-7ff1-428a-be12-5d7ae8fc8923"
-        },
-        {
-            "company": "binance",
-            "title": "Senior Compliance & Regulatory Specialist - Brazil",
-            "location": "BRAZIL, SAO PAULO / LATIN AMERICA,HYBRID",
-            "link": "https://jobs.lever.co/binance/ce20754c-0c6c-42df-aa65-05a251bab0f7"
         },
         {
             "company": "binance",
@@ -1754,21 +1772,9 @@
         },
         {
             "company": "binance",
-            "title": "EU Regional Partnerships Specialist/Manager",
-            "location": "EUROPE / PORTUGAL, LISBON / SOUTHERN EUROPE / SPAIN, BARCELONA / SPAIN, MADRID / MALTA, TA' XBIEX / CYPRUS, LIMASSOL / BULGARIA, SOFIA / AUSTRIA, VIENNA / DENMARK, COPENHAGEN / ESTONIA, TALLINN / SWEDEN, STOCKHOLM,REMOTE",
-            "link": "https://jobs.lever.co/binance/19dcdea8-22c1-447d-9a84-1f1ee01c7dee"
-        },
-        {
-            "company": "binance",
             "title": "France Community Manager (Events)",
             "location": "EUROPE,REMOTE",
             "link": "https://jobs.lever.co/binance/9d5da28a-b35a-4c35-83b4-ab60059e2f7b"
-        },
-        {
-            "company": "binance",
-            "title": "Global Affiliate Manager",
-            "location": "PORTUGAL, LISBON / BRAZIL, SAO PAULO / CIS REGION / COLOMBIA, BOGOTA / SPAIN, BARCELONA / SPAIN, MADRID / SOUTHERN EUROPE,REMOTE",
-            "link": "https://jobs.lever.co/binance/339500b1-81d1-4c63-978e-9b162069f372"
         },
         {
             "company": "binance",
@@ -1827,14 +1833,32 @@
         {
             "company": "binance",
             "title": "Regional Marketing Specialist\uff08South East Asia\uff09",
-            "location": "SOUTH EAST ASIA,REMOTE",
+            "location": "PHILIPPINES, MANILA,REMOTE",
             "link": "https://jobs.lever.co/binance/4ae74014-d0de-487e-a7df-b932f3483aff"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Content Operations Manager \u2013 Market & Financial Content",
+            "location": "ASIA / UAE, DUBAI / TAIWAN, TAIPEI / INDONESIA, JAKARTA / VIETNAM, HO CHI MINH / T\u00dcRKIYE, ISTANBUL,REMOTE",
+            "link": "https://jobs.lever.co/binance/1738770d-c7be-48e6-b411-5fd09659a432"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Graphic Designer - Paid Advertisement",
+            "location": "SOUTHERN EUROPE / SPAIN, MADRID / SPAIN, BARCELONA,REMOTE",
+            "link": "https://jobs.lever.co/binance/e1911b5c-c3ef-4027-9390-01578ece1ffa"
         },
         {
             "company": "binance",
             "title": "Senior Growth Marketing Manager \u2014 Ukraine",
             "location": "UKRAINE, KYIV / EASTERN EUROPE,REMOTE",
             "link": "https://jobs.lever.co/binance/12d83327-5870-441f-9b0b-6a40d213350a"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Marketing Manager - South Africa",
+            "location": "SOUTH AFRICA, CAPE TOWN,HYBRID",
+            "link": "https://jobs.lever.co/binance/9bd96c22-81ba-4a74-979e-592b65faad4e"
         },
         {
             "company": "binance",
@@ -1934,15 +1958,21 @@
         },
         {
             "company": "binance",
-            "title": "Product Operations Manager, Margin Trading",
+            "title": "Process Operations Manager, Derivatives",
             "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/5f24d776-f02d-4300-a499-d877cac41f5e"
+            "link": "https://jobs.lever.co/binance/ff0b2bae-a34f-4a31-b2c8-9c8d4b54677b"
         },
         {
             "company": "binance",
-            "title": "Product Operations, Derivatives (Futures)",
+            "title": "Product Operations Manager \u2013 Japan",
+            "location": "JAPAN, TOKYO,REMOTE",
+            "link": "https://jobs.lever.co/binance/8c6a587e-c31a-4baf-b4e8-82cda79892b5"
+        },
+        {
+            "company": "binance",
+            "title": "Product Operations Manager, Margin Trading",
             "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/ff0b2bae-a34f-4a31-b2c8-9c8d4b54677b"
+            "link": "https://jobs.lever.co/binance/5f24d776-f02d-4300-a499-d877cac41f5e"
         },
         {
             "company": "binance",
@@ -1979,12 +2009,6 @@
             "title": "AI Technology Project Manager (AI & Innovation Execution)",
             "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
             "link": "https://jobs.lever.co/binance/7fc65ead-8868-4a9b-bc39-40934b97e35b"
-        },
-        {
-            "company": "binance",
-            "title": "Binance Accelerator Program - Binance TH Academy, Gulf Binance",
-            "location": "THAILAND, BANGKOK,HYBRID",
-            "link": "https://jobs.lever.co/binance/9e46af2d-e8d3-44f4-81a4-995a56ea3395"
         },
         {
             "company": "binance",
@@ -2027,12 +2051,6 @@
             "title": "Risk Operations Agent (AMER. US Timezone) - 8-months Contract",
             "location": "MEXICO, MEXICO CITY / ARGENTINA, BUENOS AIRES / CHILE, SANTIAGO DE CHILE / COSTA RICA, SAN JOS\u00c9 / CARRIBBEAN (ACS) / CAYMAN ISLANDS, GEORGE TOWN / PANAMA, PANAMA CITY,REMOTE",
             "link": "https://jobs.lever.co/binance/bea51e5b-073e-4a37-b446-73af217112ad"
-        },
-        {
-            "company": "binance",
-            "title": "Risk Operations Agent, EMEA (12-months Contract)",
-            "location": "IRELAND, DUBLIN / CZECH REPUBLIC, PRAGUE / ROMANIA, BUCHAREST / ROMANIA, IA\u0218I / PORTUGAL, LISBON / GREECE, ATHENS,REMOTE",
-            "link": "https://jobs.lever.co/binance/acf26104-61f0-4676-bb01-9cdf2f322fb4"
         },
         {
             "company": "binance",
@@ -2228,12 +2246,6 @@
         },
         {
             "company": "binance",
-            "title": "Senior Product Manager, Equities Trading",
-            "location": "HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/49cebf8c-60c8-4ca0-949c-4367ddbda414"
-        },
-        {
-            "company": "binance",
             "title": "Senior Product Manager, KYB",
             "location": "ASIA / HONG KONG,HYBRID",
             "link": "https://jobs.lever.co/binance/b212ded6-6e81-492e-bd34-120c26b42f29"
@@ -2303,6 +2315,12 @@
             "title": "IAM Security Engineer",
             "location": "ASIA / TAIWAN, TAIPEI / HONG KONG,REMOTE",
             "link": "https://jobs.lever.co/binance/c34e85bc-a07a-4476-ae5b-17b9230ca01e"
+        },
+        {
+            "company": "binance",
+            "title": "Internal Audit Manager - Japan",
+            "location": "JAPAN, TOKYO,REMOTE",
+            "link": "https://jobs.lever.co/binance/3c4490bc-d354-438f-9e61-a7b41c8fd24e"
         },
         {
             "company": "binance",
@@ -2404,7 +2422,7 @@
             "company": "impossiblecloud",
             "title": "Digital Marketing & Analytics Intern",
             "location": "HAMBURG,ON-SITE",
-            "link": "https://jobs.lever.co/impossiblecloud/341f92fb-1301-4ef8-8870-31ef9e438e9f"
+            "link": "https://jobs.lever.co/impossiblecloud/74d953aa-6e78-41b8-a1f0-49e64691a45d"
         },
         {
             "company": "impossiblecloud",
@@ -2750,6 +2768,12 @@
         },
         {
             "company": "coinspaid",
+            "title": "Senior FullStack QA Engineer with Python (Programming language)",
+            "location": "REMOTE - EUROPEAN REGION,HYBRID",
+            "link": "https://jobs.eu.lever.co/coinspaid/1b255ea9-1c0a-47b1-ba62-8fbaeb817e2f"
+        },
+        {
+            "company": "coinspaid",
             "title": "Senior PHP Backend Engineer",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
             "link": "https://jobs.eu.lever.co/coinspaid/e888f3b2-9c0c-45af-85a1-45d02a98344f"
@@ -2840,12 +2864,6 @@
         },
         {
             "company": "coinspaid",
-            "title": "Product Manager",
-            "location": "REMOTE - EUROPEAN REGION,HYBRID",
-            "link": "https://jobs.eu.lever.co/coinspaid/476d30d1-6731-46f3-bfaf-1ebbfa20a310"
-        },
-        {
-            "company": "coinspaid",
             "title": "Technical Product Manager",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
             "link": "https://jobs.eu.lever.co/coinspaid/716baaa9-a45b-4528-981d-8b2e54b08956"
@@ -2870,7 +2888,7 @@
         },
         {
             "company": "coinspaid",
-            "title": "KYB specialist (3rd Party and Vendor Due Diligence)",
+            "title": "KYV specialist (3rd Party and Vendor Due Diligence)",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
             "link": "https://jobs.eu.lever.co/coinspaid/0126d78b-a28c-4f86-af71-7bde782bacb5"
         },
@@ -2879,12 +2897,6 @@
             "title": "Lead of Anti Fraud Operations",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
             "link": "https://jobs.eu.lever.co/coinspaid/b597e8d0-2111-492c-be8b-c938579f2038"
-        },
-        {
-            "company": "kaiko",
-            "title": "Client Operations Analyst APAC (Singapore-based)",
-            "location": "SINGAPORE,HYBRID",
-            "link": "https://jobs.eu.lever.co/kaiko/4fb24324-e269-41e6-a234-75a1f679f46f"
         },
         {
             "company": "swissborg",
@@ -2903,6 +2915,18 @@
             "title": "Software Engineer | Propr.xyz",
             "location": "REMOTE - EUROPE TIMEZONE,REMOTE",
             "link": "https://jobs.lever.co/swissborg/f9370c6c-e50a-44a3-a1a0-5659e1ea3714"
+        },
+        {
+            "company": "kaiko",
+            "title": "Client Operations Analyst APAC (Singapore-based)",
+            "location": "SINGAPORE,HYBRID",
+            "link": "https://jobs.eu.lever.co/kaiko/4fb24324-e269-41e6-a234-75a1f679f46f"
+        },
+        {
+            "company": "kaiko",
+            "title": "Research Analyst (Paris-based)",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.eu.lever.co/kaiko/3c7168e9-fddf-4e99-a708-550d26e86a00"
         },
         {
             "company": "crypto",
@@ -2939,6 +2963,18 @@
             "title": "Regulatory Compliance Manager, Malta",
             "location": "SAINT JULIAN'S, MALTA,HYBRID",
             "link": "https://jobs.lever.co/crypto/76154a76-bdf2-462c-a5c6-333b224d5c80"
+        },
+        {
+            "company": "crypto",
+            "title": "Asisstant Finance Manager",
+            "location": "Hong Kong,HYBRID",
+            "link": "https://jobs.lever.co/crypto/b8182b66-c109-4a81-a091-ca00ccd7201c"
+        },
+        {
+            "company": "crypto",
+            "title": "Assistant Accounting Manager, Payment",
+            "location": "Hong Kong,HYBRID",
+            "link": "https://jobs.lever.co/crypto/d9e6a82d-8796-47bf-baa4-c1b7a3549b5a"
         },
         {
             "company": "crypto",
@@ -3128,6 +3164,12 @@
         },
         {
             "company": "crypto",
+            "title": "Senior Treasury Analyst \u2013 Derivatives (FCM & Nadex)",
+            "location": "CHICAGO, ILLINOIS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/2856cdf1-7bef-4cbc-9451-aa5ceb2940b3"
+        },
+        {
+            "company": "crypto",
             "title": "Treasury Manager (Crypto, Data & Automation)",
             "location": "Hong Kong,HYBRID",
             "link": "https://jobs.lever.co/crypto/8c0be153-6d03-413f-8255-45c9e284d35f"
@@ -3152,6 +3194,12 @@
         },
         {
             "company": "crypto",
+            "title": "Senior Backend Engineer (Sports & Prediction Markets) \u2013 Golang",
+            "location": "US / NEW YORK / MIAMI, FLORIDA,HYBRID",
+            "link": "https://jobs.lever.co/crypto/38187660-9908-465f-9b89-562dcf10db2c"
+        },
+        {
+            "company": "crypto",
             "title": "Application Support Engineer, Canada, OEX",
             "location": "CANADA,REMOTE",
             "link": "https://jobs.lever.co/crypto/e8ea9700-b49c-457a-bcdf-a928b42f25df"
@@ -3173,6 +3221,12 @@
             "title": "Application Support Engineer, Singapore, OEX",
             "location": "SINGAPORE, SINGAPORE,HYBRID",
             "link": "https://jobs.lever.co/crypto/b724eeb2-5202-40db-b633-c5a6be535c2d"
+        },
+        {
+            "company": "crypto",
+            "title": "Application Support Engineer, Taiwan, OEX",
+            "location": "TAIPEI, TAIWAN,HYBRID",
+            "link": "https://jobs.lever.co/crypto/52f3cc76-ea42-47c4-b7a9-499540c486ab"
         },
         {
             "company": "crypto",
@@ -3293,6 +3347,12 @@
             "title": "Senior Java Developer (Trading Platform)",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/crypto/edb37fe1-2540-4bf3-a848-e19f7adec16b"
+        },
+        {
+            "company": "crypto",
+            "title": "Senior Java Developer (Trading Platform)",
+            "location": "SINGAPORE, SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/crypto/c6d80b04-d741-4525-9daf-69254e76db83"
         },
         {
             "company": "crypto",
@@ -3495,20 +3555,8 @@
         {
             "company": "crypto",
             "title": "Application Support Engineer \u2014 Blockchain Security & AI Automation",
-            "location": "BERLIN, GERMANY / MUNICH, GERMANY,REMOTE",
-            "link": "https://jobs.lever.co/crypto/c34e0ed0-1615-4f6b-a00e-fe411b4cca3b"
-        },
-        {
-            "company": "crypto",
-            "title": "Application Support Engineer \u2014 Blockchain Security & AI Automation",
             "location": "BARCELONA / MADRID, SPAIN,REMOTE",
             "link": "https://jobs.lever.co/crypto/78be9e4f-cf4b-40e3-8b1e-77520abe48d4"
-        },
-        {
-            "company": "crypto",
-            "title": "Application Support Engineer \u2014 Blockchain Security & AI Automation",
-            "location": "AMSTERDAM, NETHERLANDS,REMOTE",
-            "link": "https://jobs.lever.co/crypto/c5d787d9-6abc-4672-b742-b6df9774aa2a"
         },
         {
             "company": "crypto",
@@ -3530,21 +3578,9 @@
         },
         {
             "company": "crypto",
-            "title": "Security Engineer, Security Operation & Vulnerability Monitoring",
-            "location": "SOFIA, BULGARIA,REMOTE",
-            "link": "https://jobs.lever.co/crypto/016f3af9-236f-40ba-b982-613399c77a18"
-        },
-        {
-            "company": "crypto",
-            "title": "Security IT Support Engineer",
+            "title": "Security IT Support Engineer (Fresh Graduates Welcome)",
             "location": "Hong Kong,ON-SITE",
             "link": "https://jobs.lever.co/crypto/365dbb9a-e156-4174-b124-1596ba35e0de"
-        },
-        {
-            "company": "crypto",
-            "title": "Security IT Support Engineer",
-            "location": "SOFIA, BULGARIA,ON-SITE",
-            "link": "https://jobs.lever.co/crypto/b27075e9-45b8-440f-96a1-cd19326fe8e2"
         },
         {
             "company": "crypto",
@@ -3623,6 +3659,12 @@
             "title": "Trading Analytics Developer, Quantitative Trading",
             "location": "SINGAPORE, SINGAPORE,HYBRID",
             "link": "https://jobs.lever.co/crypto/54c951f6-14be-4232-a1f2-06c5e4b937de"
+        },
+        {
+            "company": "crypto",
+            "title": "Quantitative Researcher - Prediction Markets, Quant Trading",
+            "location": "DALLAS, TEXAS,REMOTE",
+            "link": "https://jobs.lever.co/crypto/5e8ddb0f-c326-41d3-be2e-382be2b5a3e0"
         },
         {
             "company": "crypto",
@@ -3710,6 +3752,12 @@
         },
         {
             "company": "anchorage",
+            "title": "Member of Technical Staff, Agentic Banking (Product Engineer)",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/anchorage/d6cce695-8d91-4063-b731-43401b0eab5f"
+        },
+        {
+            "company": "anchorage",
             "title": "Member of Technical Staff, Wealth (Technical Lead)",
             "location": "US / ARGENTINA / BRAZIL / PORTUGAL,REMOTE",
             "link": "https://jobs.lever.co/anchorage/c5511716-b627-4fbd-82b5-205d15b3d9d2"
@@ -3776,21 +3824,9 @@
         },
         {
             "company": "anchorage",
-            "title": "Engineering Manager, Financial Infrastructure",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/0a59cb2a-0ce1-49c4-b3ba-1c9b77987ca8"
-        },
-        {
-            "company": "anchorage",
             "title": "Member of Technical Staff, Financial Infrastructure",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/1407f1e9-8a54-4c3f-afe0-62b96579e815"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Technical Staff, Domain (Backend Engineer)",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/5898d01d-a4a5-44e5-8d20-2f6710dc2035"
         },
         {
             "company": "anchorage",
@@ -3825,7 +3861,7 @@
         {
             "company": "anchorage",
             "title": "Member of Technical Staff, Transparency (Backend Engineer)",
-            "location": "US / PORTUGAL / ARGENTINA / BRAZIL / CANADA,REMOTE",
+            "location": "US / PORTUGAL / ARGENTINA / BRAZIL / CANADA / IRELAND / LONDON,REMOTE",
             "link": "https://jobs.lever.co/anchorage/75cea559-66cf-4e60-9d3b-6a0efa67c748"
         },
         {
@@ -3839,12 +3875,6 @@
             "title": "Global Markets Accounting Lead",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/22726292-f900-4b11-b1af-e5734729c36a"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Accounting, Portugal Accounting Center of Excellence",
-            "location": "PORTUGAL,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/785da2eb-4b06-4063-8702-d35cb81cfeb6"
         },
         {
             "company": "anchorage",
@@ -3890,12 +3920,6 @@
         },
         {
             "company": "anchorage",
-            "title": "Managing Director, Global Markets Strategy and Execution",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/a0743dba-b8e4-4aa7-925b-22f99e691380"
-        },
-        {
-            "company": "anchorage",
             "title": "OTC Trader, APAC",
             "location": "SINGAPORE,REMOTE",
             "link": "https://jobs.lever.co/anchorage/4a3c6769-7b61-4237-a601-2abe0b5c8234"
@@ -3911,12 +3935,6 @@
             "title": "Data Governance and Management Lead",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/5bfbd64c-933e-418c-9c07-5aea50212c0d"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Client Experience, Sales Support Analyst",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/71c52501-a178-46ee-a968-f54ed5ad9152"
         },
         {
             "company": "anchorage",
@@ -3956,6 +3974,12 @@
         },
         {
             "company": "anchorage",
+            "title": "Member of Product Marketing, Content",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/anchorage/9e73887f-20a2-4181-a27c-e185ddbcf025"
+        },
+        {
+            "company": "anchorage",
             "title": "Member of Product Marketing, Stablecoins",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/026fb354-1d5f-49dc-9ea8-1602e6ace52e"
@@ -3965,18 +3989,6 @@
             "title": "Member of Revenue Strategy & Operations, Salesforce Architect",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/c3a1cf30-bae1-47ff-8f67-545f22f8f09f"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Product Marketing, Content",
-            "location": "US,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/9e73887f-20a2-4181-a27c-e185ddbcf025"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Product, Blockchain",
-            "location": "US / PORTUGAL,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/1fe740a8-334a-42d1-b8d2-4e142728046c"
         },
         {
             "company": "anchorage",
@@ -3995,12 +4007,6 @@
             "title": "Member of Product, Custody",
             "location": "US,REMOTE",
             "link": "https://jobs.lever.co/anchorage/4b3e67d2-fe2f-4588-9c9e-effd90291eef"
-        },
-        {
-            "company": "anchorage",
-            "title": "Member of Product, Security",
-            "location": "US / PORTUGAL,REMOTE",
-            "link": "https://jobs.lever.co/anchorage/43703182-aa1f-4db4-a13a-1e890ae2fae9"
         },
         {
             "company": "anchorage",
@@ -4040,13 +4046,13 @@
         },
         {
             "company": "anchorage",
-            "title": "Regional Institutional Manager, Latin America",
+            "title": "Regional Institutional Sales Representative, Latin America",
             "location": "BOGOTA,REMOTE",
             "link": "https://jobs.lever.co/anchorage/360dab01-76de-42aa-8e6f-2fab8e6625ba"
         },
         {
             "company": "anchorage",
-            "title": "Regional Institutional Manager, Stablecoin Solutions for Banks",
+            "title": "Regional Institutional Sales Representative, Stablecoin Solutions for Banks",
             "location": "NEW YORK / US,ON-SITE",
             "link": "https://jobs.lever.co/anchorage/34610fea-ec69-452e-b09c-15cc5ddbe4a7"
         },
@@ -4076,12 +4082,6 @@
         },
         {
             "company": "offchainlabs",
-            "title": "Data Center Engineer (Nashville)",
-            "location": "NASHVILLE, TN,ON-SITE",
-            "link": "https://jobs.lever.co/offchainlabs/a72ff596-d3f5-4ca7-9c36-e66fd65120f5"
-        },
-        {
-            "company": "offchainlabs",
             "title": "Security Engineer",
             "location": "REMOTE,REMOTE",
             "link": "https://jobs.lever.co/offchainlabs/d7724d91-fc91-4697-baf3-008de0ee5e37"
@@ -4091,6 +4091,12 @@
             "title": "Senior Backend Engineer",
             "location": "REMOTE,REMOTE",
             "link": "https://jobs.lever.co/offchainlabs/82c41afd-b4be-40d2-8bc2-3f299ced3c4a"
+        },
+        {
+            "company": "offchainlabs",
+            "title": "Senior Backend Engineer, Rust",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/offchainlabs/163e72c9-cf90-406a-9311-6ee1d743ae84"
         },
         {
             "company": "offchainlabs",
@@ -4316,6 +4322,12 @@
         },
         {
             "company": "animocabrands",
+            "title": "Digital Asset Operations",
+            "location": "HONG KONG,ON-SITE",
+            "link": "https://jobs.lever.co/animocabrands/310052c1-f470-44b7-ba9b-c68434b77181"
+        },
+        {
+            "company": "animocabrands",
             "title": "Financial Reporting",
             "location": "HONG KONG,ON-SITE",
             "link": "https://jobs.lever.co/animocabrands/e17b2efc-0765-48f2-9f95-7f9ed9b13d88"
@@ -4478,9 +4490,9 @@
         },
         {
             "company": "serotonin",
-            "title": "AI & GTM Engineer",
+            "title": "AI Workflow Engineer",
             "location": "NEW YORK / SAN FRANCISCO / CHICAGO / LOS ANGELES,REMOTE",
-            "link": "https://jobs.lever.co/serotonin/f94ffd74-386f-4c9c-9390-4da5b6d37cf3"
+            "link": "https://jobs.lever.co/serotonin/eca20c47-3b04-44e9-a45e-34882833015b"
         },
         {
             "company": "serotonin",
