@@ -13,7 +13,7 @@ class ScrapeHelsing(ScrapeIt):
         )
         driver.implicitly_wait(15)
         driver.get(web_page)
-        group_elements = driver.find_elements(By.XPATH, '//div[@data-label="Position"]/..')
+        group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@href, "/jobs/")]')
         result = []
         for elem in group_elements:
             title_elem = elem.find_element(By.XPATH, './/div[@data-label="Position"]')
