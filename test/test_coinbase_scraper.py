@@ -1,3 +1,4 @@
+import json
 import pytest
 from selenium import webdriver
 from src.scrape_coinbase import ScrapeCoinbase
@@ -30,10 +31,13 @@ def company():
     return CompanyItem('coinbase', 'https://www.coinbase.com/careers/positions', Scrapers.COINBASE, 'https://coinbase.com')
 
 
+# pytest test/test_coinbase_scraper.py::test_coinbase_scraper
 def test_coinbase_scraper(driver, scraper, company):
     """Test Coinbase scraper to verify job extraction."""
     # Act
     jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    with open("coinbase_jobs.json", "w") as f:
+        json.dump(jobs, f, indent=2)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

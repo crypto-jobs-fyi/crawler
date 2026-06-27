@@ -1410,7 +1410,7 @@
             "scraper": "COINBASE",
             "company_url": "https://coinbase.com",
             "category": "crypto",
-            "enabled": false,
+            "enabled": true,
             "headless": false
         },
         {
