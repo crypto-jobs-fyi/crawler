@@ -2053,6 +2053,15 @@
             "headless": false
         },
         {
+            "name": "cursor",
+            "jobs_url": "https://cursor.com/careers",
+            "scraper": "CURSOR",
+            "company_url": "https://cursor.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "assemblyai",
             "jobs_url": "https://job-boards.greenhouse.io/assemblyai",
             "scraper": "GREENHOUSE",
