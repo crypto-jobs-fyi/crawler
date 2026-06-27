@@ -51,6 +51,7 @@ jobs:
               test/test_smartrecruiters_scraper.py
               test/test_workable_scraper.py
               test/test_world.py
+              test/test_cursor_scraper.py
           - shard: 5
             runner: macos-latest
             tests: >-
