@@ -2050,7 +2050,7 @@
             "company_url": "https://helsing.ai",
             "category": "ai",
             "enabled": true,
-            "headless": true
+            "headless": false
         },
         {
             "name": "assemblyai",
