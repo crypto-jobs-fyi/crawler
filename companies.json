@@ -2449,15 +2449,6 @@
             "headless": true
         },
         {
-            "name": "same.new",
-            "jobs_url": "https://jobs.ashbyhq.com/same",
-            "scraper": "ASHBYHQ",
-            "company_url": "https://same.new",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "jua.ai",
             "jobs_url": "https://jobs.ashbyhq.com/jua",
             "scraper": "ASHBYHQ",
