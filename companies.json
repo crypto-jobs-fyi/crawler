@@ -1028,8 +1028,8 @@
         },
         {
             "name": "alchemy",
-            "jobs_url": "https://boards.greenhouse.io/alchemy",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/alchemy",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.alchemy.com",
             "category": "crypto",
             "enabled": true,
