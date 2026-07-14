@@ -3117,7 +3117,7 @@
         {
             "name": "pyth",
             "jobs_url": "https://jobs.ashbyhq.com/pythnetwork",
-            "scraper": "GREENHOUSE",
+            "scraper": "ASHBYHQ",
             "company_url": "https://pyth.network",
             "category": "crypto",
             "enabled": true,
@@ -3232,11 +3232,11 @@
             "headless": true
         },
         {
-            "name": "flipsidecrypto",
-            "jobs_url": "https://jobs.ashbyhq.com/flipsidecrypto",
+            "name": "edisyl.com",
+            "jobs_url": "https://jobs.ashbyhq.com/edisyl",
             "scraper": "ASHBYHQ",
-            "company_url": "https://flipsidecrypto.xyz",
-            "category": "crypto",
+            "company_url": "https://www.edisyl.com",
+            "category": "ai",
             "enabled": true,
             "headless": true
         },
