@@ -1514,8 +1514,8 @@
         },
         {
             "name": "ondo-finance",
-            "jobs_url": "https://jobs.gem.com/ondo-finance",
-            "scraper": "GEM",
+            "jobs_url": "https://job-boards.greenhouse.io/ondofinance",
+            "scraper": "GREENHOUSE",
             "company_url": "https://ondo.finance",
             "category": "crypto",
             "enabled": true,
