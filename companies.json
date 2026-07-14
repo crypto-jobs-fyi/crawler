@@ -793,15 +793,6 @@
             "headless": true
         },
         {
-            "name": "osmosisdex",
-            "jobs_url": "https://boards.greenhouse.io/osmosisdex",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://osmosis.zone",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "figment",
             "jobs_url": "https://boards.greenhouse.io/figment",
             "scraper": "GREENHOUSE",
