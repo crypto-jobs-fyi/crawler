@@ -505,6 +505,15 @@
             "headless": true
         },
         {
+            "name": "coinflow.cash",
+            "jobs_url": "https://jobs.ashbyhq.com/Coinflow",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://coinflow.cash",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "iftother",
             "jobs_url": "https://boards.greenhouse.io/iftother",
             "scraper": "GREENHOUSE",
