@@ -2332,6 +2332,15 @@
             "headless": true
         },
         {
+            "name": "blitzy",
+            "jobs_url": "https://jobs.ashbyhq.com/blitzy",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://blitzy.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "fanvue.com",
             "jobs_url": "https://jobs.ashbyhq.com/fanvue.com",
             "scraper": "ASHBYHQ",
