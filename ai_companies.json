@@ -365,6 +365,11 @@
         "jobs_url": "https://job-boards.greenhouse.io/stackblitz"
     },
     {
+        "company_name": "blitzy",
+        "company_url": "https://blitzy.com",
+        "jobs_url": "https://jobs.ashbyhq.com/blitzy"
+    },
+    {
         "company_name": "fanvue.com",
         "company_url": "https://www.fanvue.com",
         "jobs_url": "https://jobs.ashbyhq.com/fanvue.com"
@@ -603,5 +608,10 @@
         "company_name": "pony.ai",
         "company_url": "https://pony.ai/?lang=en",
         "jobs_url": "https://apply.workable.com/pony-dot-ai/"
+    },
+    {
+        "company_name": "edisyl.com",
+        "company_url": "https://www.edisyl.com",
+        "jobs_url": "https://jobs.ashbyhq.com/edisyl"
     }
 ]
