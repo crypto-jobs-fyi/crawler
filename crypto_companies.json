@@ -260,6 +260,11 @@
         "jobs_url": "https://jobs.ashbyhq.com/matter-labs"
     },
     {
+        "company_name": "coinflow.cash",
+        "company_url": "https://coinflow.cash",
+        "jobs_url": "https://jobs.ashbyhq.com/Coinflow"
+    },
+    {
         "company_name": "iftother",
         "company_url": "https://free.technology",
         "jobs_url": "https://boards.greenhouse.io/iftother"
@@ -420,11 +425,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/uniswap"
     },
     {
-        "company_name": "osmosisdex",
-        "company_url": "https://osmosis.zone",
-        "jobs_url": "https://boards.greenhouse.io/osmosisdex"
-    },
-    {
         "company_name": "figment",
         "company_url": "https://www.figment.io",
         "jobs_url": "https://boards.greenhouse.io/figment"
@@ -557,7 +557,7 @@
     {
         "company_name": "alchemy",
         "company_url": "https://www.alchemy.com",
-        "jobs_url": "https://boards.greenhouse.io/alchemy"
+        "jobs_url": "https://jobs.ashbyhq.com/alchemy"
     },
     {
         "company_name": "chainalysis",
@@ -817,7 +817,7 @@
     {
         "company_name": "ondo-finance",
         "company_url": "https://ondo.finance",
-        "jobs_url": "https://jobs.gem.com/ondo-finance"
+        "jobs_url": "https://job-boards.greenhouse.io/ondofinance"
     },
     {
         "company_name": "trojan-trading",
@@ -988,11 +988,6 @@
         "company_name": "messari",
         "company_url": "https://messari.io",
         "jobs_url": "https://boards.greenhouse.io/messari"
-    },
-    {
-        "company_name": "flipsidecrypto",
-        "company_url": "https://flipsidecrypto.xyz",
-        "jobs_url": "https://jobs.ashbyhq.com/flipsidecrypto"
     },
     {
         "company_name": "multiversx",
