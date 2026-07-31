@@ -1783,6 +1783,15 @@
             "headless": true
         },
         {
+            "name": "pangram.com",
+            "jobs_url": "https://jobs.ashbyhq.com/pangramlabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.pangram.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "lakera.ai",
             "jobs_url": "https://jobs.ashbyhq.com/lakera.ai",
             "scraper": "ASHBYHQ",
