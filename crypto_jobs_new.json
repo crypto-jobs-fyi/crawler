@@ -2,285 +2,1011 @@
     "data": [
         {
             "company": "paxos",
+            "title": "VP, Strategic Accounts",
+            "location": "Business Development & Sales \u2022 New York - Hybrid \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/ab23a3e6-864b-4432-ba7b-5b64a3d30025"
+        },
+        {
+            "company": "paxos",
             "title": "Corporate Development Lead",
-            "location": "Corporate \u2022 New York - Hybrid \u2022 Full time",
-            "link": "https://jobs.ashbyhq.com/paxos/a37cdf1c-9b0d-45e8-810c-f90965d9f918"
+            "location": "Corporate \u2022 Remote - San Francisco, California \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/0655e3a3-e6fb-446a-8b11-e2f02c7b3e75"
+        },
+        {
+            "company": "paxos",
+            "title": "Technical Support Engineer",
+            "location": "Operations \u2022 Remote - Singapore \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/7642ced7-423e-4502-b4af-49208fa37397"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Software Engineer",
+            "location": "undefined:\nTaiwan",
+            "link": "https://careers.circle.com/us/en/job/JR100650/Senior-Software-Engineer"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Director, Business Development, DeFi Trading",
+            "location": "undefined:\nSingapore",
+            "link": "https://careers.circle.com/us/en/job/JR101093/Senior-Director-Business-Development-DeFi-Trading"
         },
         {
             "company": "Swissquote",
-            "title": "Catering Officer - 6 months",
-            "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140179709-catering-officer-6-months-"
+            "title": "Fraud Analyst Officer",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140610467-fraud-analyst-officer-"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Senior Payroll & Compensation Specialist",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140851079-senior-payroll-compensation-specialist"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Compliance Officer - Investigations",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140860279-compliance-officer-investigations-"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Sales Support Coordinator",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140849765-sales-support-coordinator"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Product Engineer",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000139625120-product-engineer"
+        },
+        {
+            "company": "Swissquote",
+            "title": "AI Enablement Engineer",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000136383680-ai-enablement-engineer"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Software Engineer Java Backend Platforms Security",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000135171090-software-engineer-java-backend-platforms-security"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Product Owner - Institutional & Wealth",
+            "location": "Gland Switzerland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000122672289-product-owner-institutional-wealth"
         },
         {
             "company": "ripple",
-            "title": "Staff Software Engineer, Financial Crimes",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8088649/"
+            "title": "Business Development Senior Director - Capital Markets",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7572250/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Customer Success Manager",
+            "location": "Toronto, Canada",
+            "link": "https://ripple.com/careers/all-jobs/job/8083666/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Customer Success Manager",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8083677/"
+        },
+        {
+            "company": "ripple",
+            "title": "Workplace Operations Specialist",
+            "location": "Toronto, Canada",
+            "link": "https://ripple.com/careers/all-jobs/job/8096495/"
+        },
+        {
+            "company": "ripple",
+            "title": "Workplace Operations Specialist",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8083601/"
+        },
+        {
+            "company": "ripple",
+            "title": "Director, Global Transformation",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8096436/"
+        },
+        {
+            "company": "ripple",
+            "title": "Director, Global Transformation",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8096457/"
+        },
+        {
+            "company": "ripple",
+            "title": "Professional Services Consultant (German-Speaking)",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/8009442/"
+        },
+        {
+            "company": "ripple",
+            "title": "Program Manager",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8054025/"
+        },
+        {
+            "company": "gemini",
+            "title": "Associate Director, Customer Support (Operations Center)",
+            "location": "Tempe, Arizona",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8089812"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Associate, Financial Planning & Analysis",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069413"
+        },
+        {
+            "company": "gemini",
+            "title": "Manager, Compliance (Governance)",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8096183"
+        },
+        {
+            "company": "gemini",
+            "title": "Predictions Partnerships Marketing Lead",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8091954"
+        },
+        {
+            "company": "consensys",
+            "title": "Lifecycle Marketing Manager",
+            "location": "US - Remote, LATAM - Remote",
+            "link": "https://consensys.io/open-roles/8068918"
+        },
+        {
+            "company": "consensys",
+            "title": "Product Marketing Lead - Trade",
+            "location": "US - Remote, EMEA - Remote, LATAM - Remote",
+            "link": "https://consensys.io/open-roles/8048308"
         },
         {
             "company": "crypto-finance",
-            "title": "Software Engineer",
-            "location": "Hybrid",
-            "link": "https://apply.workable.com/crypto-finance/j/0D5E2947BD/"
+            "title": "Trading Intern",
+            "location": "On-site",
+            "link": "https://apply.workable.com/crypto-finance/j/9BC7FDC9C5/"
         },
         {
-            "company": "moonpay",
-            "title": "Head of Strategic Accounts, Iron",
-            "location": "SPAIN - HYBRID / POLAND - REMOTE / PORTUGAL - HYBRID / SOUTH AFRICA - HYBRID / ROMANIA - REMOTE / UK - HYBRID / SPAIN - REMOTE / PORTUGAL - REMOTE / SOUTH AFRICA - REMOTE / LONDON / UK - REMOTE,HYBRID",
-            "link": "https://jobs.lever.co/moonpay/e4a3fcd0-90bf-4225-8d91-a0219598bde4"
+            "company": "crypto-finance",
+            "title": "Head of Trading",
+            "location": "On-site",
+            "link": "https://apply.workable.com/crypto-finance/j/6D416814D7/"
+        },
+        {
+            "company": "distributedcrafts",
+            "title": "Brand Visual Designer",
+            "location": "Remote",
+            "link": "https://apply.workable.com/distributedcrafts/j/82C998EEC5/"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Software Engineer, Data Engineering",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/4738660?gh_src=NaN&gh_jid=4738660"
+        },
+        {
+            "company": "robinhood",
+            "title": "Staff Machine Learning Engineer, AI R&D",
+            "location": "Bellevue, WA; Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8082579?gh_src=NaN&gh_jid=8082579"
+        },
+        {
+            "company": "robinhood",
+            "title": "Corporate Finance Analyst",
+            "location": "Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8090105?gh_src=NaN&gh_jid=8090105"
+        },
+        {
+            "company": "robinhood",
+            "title": "Director of Accounting",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8088954?gh_src=NaN&gh_jid=8088954"
+        },
+        {
+            "company": "robinhood",
+            "title": "Financial Operations Manager",
+            "location": "Singapore",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8090190?gh_src=NaN&gh_jid=8090190"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Treasury Analyst",
+            "location": "Chicago, IL; Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8072892?gh_src=NaN&gh_jid=8072892"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Software Developer, Developer Experience (DevX)",
+            "location": "Toronto, Canada",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8083818?gh_src=NaN&gh_jid=8083818"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Software Engineer, Data Lake",
+            "location": "Bellevue, WA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8100213?gh_src=NaN&gh_jid=8100213"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Software Engineer, Streaming Platform",
+            "location": "Bellevue, WA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8083811?gh_src=NaN&gh_jid=8083811"
+        },
+        {
+            "company": "robinhood",
+            "title": "Staff Software Engineer, Capacity and Efficiency Engineering",
+            "location": "Bellevue, WA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8097334?gh_src=NaN&gh_jid=8097334"
+        },
+        {
+            "company": "robinhood",
+            "title": "Staff Software Engineer, Observability",
+            "location": "Menlo Park, CA",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7489707?gh_src=NaN&gh_jid=7489707"
+        },
+        {
+            "company": "robinhood",
+            "title": "Assistant General Counsel, Canada",
+            "location": "Toronto, Canada",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8093267?gh_src=NaN&gh_jid=8093267"
+        },
+        {
+            "company": "robinhood",
+            "title": "Staff Performance Marketing Manager",
+            "location": "Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8099735?gh_src=NaN&gh_jid=8099735"
+        },
+        {
+            "company": "robinhood",
+            "title": "Product Operations Manager, Crypto",
+            "location": "New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8089302?gh_src=NaN&gh_jid=8089302"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Product Manager, Crypto Wallet",
+            "location": "Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8082718?gh_src=NaN&gh_jid=8082718"
+        },
+        {
+            "company": "robinhood",
+            "title": "Staff User Researcher, Brokerage",
+            "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8093155?gh_src=NaN&gh_jid=8093155"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Android Engineer, Crypto Expansion",
+            "location": "Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8100160?gh_src=NaN&gh_jid=8100160"
+        },
+        {
+            "company": "coinbase",
+            "title": "Social Support Senior Manager",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8088912"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Researcher, Consumer (Advanced)",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8095526"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8095252"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer, Backend (Consumer - Growth Foundations)",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/8092651"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineer, Backend (Consumer - Risk)",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/7991763"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer - Frontend - Coinbase Card team",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8088201"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Software Engineer, Core Reliability",
+            "location": "Remote - Canada",
+            "link": "https://www.coinbase.com/careers/positions/8097944"
+        },
+        {
+            "company": "coinbase",
+            "title": "Software Engineer, EAA",
+            "location": "Remote - Brazil",
+            "link": "https://www.coinbase.com/careers/positions/8100066"
+        },
+        {
+            "company": "coinbase",
+            "title": "Accounting Manager, GL Operations & Intercompany",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8093264"
+        },
+        {
+            "company": "coinbase",
+            "title": "Internal Audit Manager",
+            "location": "Remote - Luxembourg",
+            "link": "https://www.coinbase.com/careers/positions/8097292"
+        },
+        {
+            "company": "coinbase",
+            "title": "Risk Manager - Country & Operational Risk",
+            "location": "Remote - UK",
+            "link": "https://www.coinbase.com/careers/positions/7774051"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Business Controller",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8096740"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior Manager, Recruiting",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8051630"
+        },
+        {
+            "company": "coinbase",
+            "title": "Solutions Architect",
+            "location": "Hybrid - London, UK",
+            "link": "https://www.coinbase.com/careers/positions/8096720"
+        },
+        {
+            "company": "coinbase",
+            "title": "IT Service Desk Engineer",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8097880"
+        },
+        {
+            "company": "coinbase",
+            "title": "Senior IT Automation Engineer",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8095207"
+        },
+        {
+            "company": "coinbase",
+            "title": "Machine Learning Engineer",
+            "location": "Remote - India",
+            "link": "https://www.coinbase.com/careers/positions/7985187"
         },
         {
             "company": "binance",
-            "title": "Binance Accelerator Program - Content Media",
-            "location": "UAE, DUBAI / UAE, ABU DHABI / ASIA / CIS REGION / BAHRAIN, MANAMA,REMOTE",
-            "link": "https://jobs.lever.co/binance/608438a8-1cae-4915-9861-05034a418785"
+            "title": "Business Development - Payment (Global)",
+            "location": "GLOBAL / ASIA / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / THAILAND, BANGKOK / HONG KONG / AUSTRALIA, BRISBANE / KUALA LUMPUR / SOUTH EAST ASIA / INDONESIA, JAKARTA / BRAZIL, SAO PAULO / LATIN AMERICA / PORTUGAL, LISBON / EUROPE / UAE, DUBAI,REMOTE",
+            "link": "https://jobs.lever.co/binance/0f3ddaff-9103-4e7b-9a92-a4d228c64143"
         },
         {
             "company": "binance",
-            "title": "Content Editor",
-            "location": "UAE, DUBAI / UAE, ABU DHABI / ASIA / CIS REGION / BAHRAIN, MANAMA,REMOTE",
-            "link": "https://jobs.lever.co/binance/4d2279a4-2173-4e95-810d-61d952747db0"
+            "title": "AI Backend Developer, Binance Square (Java, Golang, Python)",
+            "location": "TAIWAN, TAIPEI / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / THAILAND, BANGKOK / HONG KONG / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / ASIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/517f9531-86cc-4260-924f-6240e4bf8b36"
         },
         {
             "company": "binance",
-            "title": "Content Writer/Specialist",
-            "location": "UAE, DUBAI / UAE, ABU DHABI / ASIA / CIS REGION / BAHRAIN, MANAMA,REMOTE",
-            "link": "https://jobs.lever.co/binance/b5d7219c-d555-47e4-9ec2-020fe3139584"
+            "title": "Binance Accelerator Program - Backend Engineer (AI Pro / Agent Infrastructure)",
+            "location": "ASIA / TAIWAN, TAIPEI / NEW ZEALAND, AUCKLAND / NEW ZEALAND, WELLINGTON / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / KUALA LUMPUR / HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/binance/dc0c742c-847c-4b86-88df-ddac253399a8"
         },
         {
             "company": "binance",
-            "title": "Risk Analyst (SQL), Card Payment Fraud",
-            "location": "ASIA / TAIWAN, TAIPEI / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / VIETNAM, HO CHI MINH / NEW ZEALAND, AUCKLAND / NEW ZEALAND, WELLINGTON / SOUTH EAST ASIA / HONG KONG / THAILAND, BANGKOK,REMOTE",
-            "link": "https://jobs.lever.co/binance/420d5a6d-8aff-4dee-94d7-047b1cb78cd2"
+            "title": "Binance Accelerator Program - Computer Vision Engineer (Agentic AI)",
+            "location": "ASIA / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / TAIWAN, TAIPEI / HONG KONG / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / THAILAND, BANGKOK,REMOTE",
+            "link": "https://jobs.lever.co/binance/6b9ff843-c2e2-4e38-84e8-1f397f656cd8"
         },
         {
             "company": "binance",
-            "title": "Junior Accounts Payable Accountant (12 months contract)",
+            "title": "Binance Accelerator Program - Data Scientist (KYB/KYC Ops), AI",
+            "location": "ASIA / HONG KONG / TAIWAN, TAIPEI / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / THAILAND, BANGKOK,REMOTE",
+            "link": "https://jobs.lever.co/binance/1245204b-d029-4961-9819-bb6fc37d9b16"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - Data Scientist (LLM & Trading)",
             "location": "ASIA / HONG KONG / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/0d19a45a-f3d1-4a5f-a3ce-d4e0ef630f60"
+            "link": "https://jobs.lever.co/binance/846a8ac2-842f-41eb-ada1-5a013eef8f6c"
         },
         {
             "company": "binance",
-            "title": "Marketing Associate - Indonesia",
-            "location": "INDONESIA, JAKARTA,REMOTE",
-            "link": "https://jobs.lever.co/binance/c494e1c6-14b4-4933-9f7d-4e3321784f34"
+            "title": "Full Stack Engineer (Frontend Oriented) \u2014 Identity & Security",
+            "location": "HONG KONG / TAIWAN, TAIPEI / ASIA / THAILAND, BANGKOK / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / JAPAN, TOKYO / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY,REMOTE",
+            "link": "https://jobs.lever.co/binance/a90333e6-777f-41fd-9bf5-50f5895ffde3"
         },
         {
             "company": "binance",
-            "title": "Binance Accelerator Program - Affiliate BD",
-            "location": "BRAZIL, SAO PAULO / MEXICO, MEXICO CITY / COSTA RICA, SAN JOS\u00c9 / ARGENTINA, BUENOS AIRES / COLOMBIA, BOGOTA / LATIN AMERICA,REMOTE",
-            "link": "https://jobs.lever.co/binance/33801fbd-c6f4-40be-b9f1-9a435dbc1d30"
+            "title": "Compliance Analyst - ADGM",
+            "location": "UAE, ABU DHABI,ON-SITE",
+            "link": "https://jobs.lever.co/binance/98e95681-32e9-4d7c-ad34-40d36aee4512"
         },
         {
             "company": "binance",
-            "title": "Binance Accelerator Program - Global Campaign Operations",
-            "location": "HONG KONG / ASIA / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/3d9efc42-b297-4707-8e00-4c665411a47a"
+            "title": "Market Surveillance Investigator",
+            "location": "ASIA / PHILIPPINES, MANILA,REMOTE",
+            "link": "https://jobs.lever.co/binance/1b47fa5d-2fce-4427-a697-893d6ec42dfe"
         },
         {
             "company": "binance",
-            "title": "Sr. Events Manager",
-            "location": "ASIA / UAE, DUBAI / UAE, ABU DHABI,REMOTE",
-            "link": "https://jobs.lever.co/binance/33cd47bb-b88c-40f0-9d1a-8f2f910801e1"
+            "title": "GEO Strategist",
+            "location": "GLOBAL,HYBRID",
+            "link": "https://jobs.lever.co/binance/5a6ed076-7852-4575-a47e-6fe1e1d66592"
         },
         {
             "company": "binance",
-            "title": "Binance Accelerator Program- VIP Middle Office",
+            "title": "Binance Accelerator Program - Operations & PMO (Earn Regulatory & Growth)",
+            "location": "ASIA / HONG KONG / KUALA LUMPUR / TAIWAN, TAIPEI,REMOTE",
+            "link": "https://jobs.lever.co/binance/55aa11bd-6358-482d-926f-71dffe2a1ec2"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - VIP Middle Office",
+            "location": "HONG KONG / ASIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/9203cf32-910c-4431-be2d-78ecd5b40222"
+        },
+        {
+            "company": "binance",
+            "title": "Binance Accelerator Program - Risk Operations",
+            "location": "HONG KONG / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / ASIA / TAIWAN, TAIPEI / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / THAILAND, BANGKOK,REMOTE",
+            "link": "https://jobs.lever.co/binance/0623d508-4e5b-4192-a3f5-f8ba1674d579"
+        },
+        {
+            "company": "binance",
+            "title": "Content Designer (6-months Contract)",
             "location": "HONG KONG,REMOTE",
-            "link": "https://jobs.lever.co/binance/04ebbe81-5a21-4b38-945f-441f75d754bd"
+            "link": "https://jobs.lever.co/binance/89466b3a-61eb-4132-aa9b-080e71ede21a"
         },
         {
             "company": "binance",
-            "title": "Binance Accelerator Program- CEO Office (MLO)",
-            "location": "GLOBAL,REMOTE",
-            "link": "https://jobs.lever.co/binance/5186735e-4e8a-4962-b402-0fafa00bbde5"
+            "title": "Senior Product Manager, Margin & Settlement Infrastructure",
+            "location": "HONG KONG / ASIA / TAIWAN, TAIPEI,REMOTE",
+            "link": "https://jobs.lever.co/binance/b7142863-b96a-4075-aa16-9431083c1420"
         },
         {
             "company": "binance",
-            "title": "Binance Accelarator Program - Risk Analyst",
-            "location": "ASIA / TAIWAN, TAIPEI / HONG KONG / SOUTH EAST ASIA / VIETNAM, HO CHI MINH / AUSTRALIA, BRISBANE / AUSTRALIA, MELBOURNE / AUSTRALIA, SYDNEY / THAILAND, BANGKOK,HYBRID",
-            "link": "https://jobs.lever.co/binance/35d92a17-0a6e-4bbe-8f9e-4235a3a78cc8"
+            "title": "Senior Product Manager, Tradfi Options",
+            "location": "AUSTRALIA, BRISBANE / HONG KONG / TAIWAN, TAIPEI / ASIA,REMOTE",
+            "link": "https://jobs.lever.co/binance/265bc7f2-a9c9-4533-b123-7f511817033e"
         },
         {
-            "company": "binance",
-            "title": "Operational Risk Advisory Manager",
-            "location": "UAE, DUBAI / ASIA / UAE, ABU DHABI / HONG KONG / TAIWAN, TAIPEI / THAILAND, BANGKOK,REMOTE",
-            "link": "https://jobs.lever.co/binance/3b198651-7c6c-4c83-96f9-a7fd4e0fa20f"
+            "company": "impossiblecloud",
+            "title": "In-House Legal Counsel",
+            "location": "HAMBURG,ON-SITE",
+            "link": "https://jobs.lever.co/impossiblecloud/156296bc-62a8-4a59-b161-bb1faac77e33"
         },
         {
-            "company": "binance",
-            "title": "Binance Accelerator Program - Data Product Manager (Derivatives)",
-            "location": "ASIA / TAIWAN, TAIPEI,REMOTE",
-            "link": "https://jobs.lever.co/binance/6296f8cc-4555-4919-a6a9-ed019585e1df"
+            "company": "wintermute",
+            "title": "Prediction Markets Trader",
+            "location": "NEW YORK,ON-SITE",
+            "link": "https://jobs.lever.co/wintermute-trading/96e3b955-d088-4e0a-9c91-866efc0f29fd"
+        },
+        {
+            "company": "wintermute",
+            "title": "Prediction Markets Trader",
+            "location": "HONG KONG,REMOTE",
+            "link": "https://jobs.lever.co/wintermute-trading/13a2e3df-cf2d-4eae-8b10-d7138d42c916"
         },
         {
             "company": "coinspaid",
-            "title": "AI-enabled Senior Accountant",
+            "title": "Project manager (Finan\u0441ial Analysis Department)",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
-            "link": "https://jobs.eu.lever.co/coinspaid/410532d6-9b0e-47b7-9677-a7f52404fe7d"
+            "link": "https://jobs.eu.lever.co/coinspaid/6f919d09-8c52-4826-9589-7fc22bf53da0"
         },
         {
             "company": "coinspaid",
-            "title": "Chief Accountant (part-time)",
-            "location": "LITHUANIA,HYBRID",
-            "link": "https://jobs.eu.lever.co/coinspaid/17fe6f7f-446d-4688-b1fa-9dd10bcb82fe"
-        },
-        {
-            "company": "coinspaid",
-            "title": "Payroll Accountant",
+            "title": "Talent Acquisition Partner",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
-            "link": "https://jobs.eu.lever.co/coinspaid/a97b4436-4da3-45b8-8f3d-2e175d280780"
+            "link": "https://jobs.eu.lever.co/coinspaid/dad03495-b419-42d1-ac8f-08b8e0e033e6"
         },
         {
-            "company": "iftother",
-            "title": "Head of Commercial - DevelpNew",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/iftother/jobs/8083315"
+            "company": "coinspaid",
+            "title": "Partnerships Manager",
+            "location": "REMOTE - EUROPEAN REGION,HYBRID",
+            "link": "https://jobs.eu.lever.co/coinspaid/fc827027-91fd-4007-997b-ce842fce3ca2"
+        },
+        {
+            "company": "crypto",
+            "title": "Compliance - Market Surveillance Analyst",
+            "location": "CHICAGO, ILLINOIS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/b7b8aa05-b8e8-44ad-824c-4bee71db1006"
+        },
+        {
+            "company": "crypto",
+            "title": "Compliance - Market Surveillance Analyst",
+            "location": "DUBAI, UAE,HYBRID",
+            "link": "https://jobs.lever.co/crypto/ac03000c-445b-42a3-8da3-4a872116bd91"
+        },
+        {
+            "company": "crypto",
+            "title": "Compliance Manager",
+            "location": "US / CHICAGO, ILLINOIS / TYLER, TEXAS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/002808f7-bcc1-42f7-8055-2556606b8092"
+        },
+        {
+            "company": "crypto",
+            "title": "Application Support Engineer (US)",
+            "location": "CHICAGO, ILLINOIS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/68828c2d-c57e-46d2-aef9-3802ef0fa85e"
+        },
+        {
+            "company": "crypto",
+            "title": "Market Operations Specialist",
+            "location": "CHICAGO, ILLINOIS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/22e9d3cb-218a-4ff9-8c86-32176aac1a4f"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "CHICAGO, ILLINOIS / TYLER, TEXAS,HYBRID",
+            "link": "https://jobs.lever.co/crypto/b8853d61-b970-4608-8c56-37f7cbae0d53"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "LONDON, UK,HYBRID",
+            "link": "https://jobs.lever.co/crypto/f85d9f1c-ad6d-488c-a6c9-0315a941342c"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "MALTA,HYBRID",
+            "link": "https://jobs.lever.co/crypto/7f8da2fc-aaa1-4fc3-bc27-51fdbaec97a1"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "MELBOURNE, AUSTRALIA,HYBRID",
+            "link": "https://jobs.lever.co/crypto/17afe4a5-3afd-4284-ab23-f6101ad17324"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "SINGAPORE, SINGAPORE,HYBRID",
+            "link": "https://jobs.lever.co/crypto/e328d286-98e1-4d83-addc-de648fc161a8"
+        },
+        {
+            "company": "crypto",
+            "title": "Product Director, Core Banking and Payments",
+            "location": "Hong Kong,HYBRID",
+            "link": "https://jobs.lever.co/crypto/6dba5b99-e488-47c8-807c-9a3287c3ca57"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Legal, Corporate & Commercial Counsel",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/anchorage/3ddc6f8e-105e-4801-9d12-2dc1054e8680"
+        },
+        {
+            "company": "anchorage",
+            "title": "Member of Legal, Trading & Licensing",
+            "location": "US,REMOTE",
+            "link": "https://jobs.lever.co/anchorage/fc156cf0-cd5d-4085-acb4-8a7f69e3f4f0"
+        },
+        {
+            "company": "ninjatrader",
+            "title": "Operational Resiliency EngineerNew",
+            "location": "Chicago, IL",
+            "link": "https://job-boards.greenhouse.io/ninjatrader/jobs/4698792006"
+        },
+        {
+            "company": "ninjatrader",
+            "title": "Sr. Software Engineer (Scala)New",
+            "location": "Chicago or Remote*",
+            "link": "https://job-boards.greenhouse.io/ninjatrader/jobs/4701635006"
+        },
+        {
+            "company": "figure",
+            "title": "Treasury and FinOps Analyst",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8546193002"
         },
         {
             "company": "figure",
             "title": "Customer Success AssociateNew",
-            "location": "Honolulu, HI",
-            "link": "https://job-boards.greenhouse.io/figure/jobs/8651103002"
+            "location": "Reno, NV",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8642209002"
+        },
+        {
+            "company": "blockchain",
+            "title": "Head of Consumer OperationsNew",
+            "location": "Malta",
+            "link": "https://job-boards.greenhouse.io/blockchain/jobs/8096171"
         },
         {
             "company": "bitpanda",
-            "title": "Software Engineer, Java (Trade Services)New",
-            "location": "Vienna, Vienna, Austria",
-            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4938589101"
+            "title": "Associate, AFC ComplianceNew",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4942555101"
         },
         {
             "company": "OKX",
-            "title": "Senior/Staff Engineer, Decentralize Exchange (DEX)",
+            "title": "Data Security Expert\uff08DLP\uff09New",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7820159003"
+        },
+        {
+            "company": "OKX",
+            "title": "Staff Engineer, Middleware",
             "location": "Hong Kong; Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7611329003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6576781003"
         },
         {
             "company": "OKX",
-            "title": "Senior Talent Acquisition Partner New",
-            "location": "Dubai, UAE",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7818763003"
+            "title": "Staff/Senior Java Engineer, OKX Web3 WalletNew",
+            "location": "Hong Kong; Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7821268003"
         },
         {
             "company": "OKX",
-            "title": "Deputy General Counsel, InstitutionsNew",
+            "title": "Growth Product Manager, Listing CampaignNew",
             "location": "Singapore, Singapore",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7818496003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7821265003"
         },
         {
             "company": "OKX",
-            "title": "Deputy General Counsel, InstitutionsNew",
+            "title": "Growth Product Manager, Listing CampaignNew",
             "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/okx/jobs/7818499003"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7821266003"
         },
         {
-            "company": "copperco",
-            "title": "Senior Security EngineerNew",
-            "location": "London",
-            "link": "https://job-boards.eu.greenhouse.io/copperco/jobs/4933366101"
+            "company": "OKX",
+            "title": "Senior Product Manager, Multilingual AI and EvalsNew",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7822538003"
         },
         {
-            "company": "galaxydigital",
-            "title": "Facilities Manager (Data Centers)New",
-            "location": "Dallas, Texas",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6127941004"
+            "company": "OKX",
+            "title": "Compliance Analyst New",
+            "location": "Remote Roles - EMEA; Remote Roles - NORAM",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7820016003"
         },
         {
-            "company": "galaxydigital",
-            "title": "Associate, Production Support Engineer",
+            "company": "OKX",
+            "title": "Senior Legal AnalystNew",
+            "location": "Remote Roles - EMEA; Sliema, Malta",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7822428003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Agent, Customer Service (Italian Speaker)New",
+            "location": "Budapest, Budapest, Hungary",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7820239003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Agent, Customer Service (Polish Speaker)New",
+            "location": "Budapest, Budapest, Hungary",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7820209003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Agent, Customer Service (Portuguese Speaker)New",
+            "location": "Budapest, Budapest, Hungary",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7820269003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Manager, Global Partnerships (Listing & Tokenization)New",
             "location": "Hong Kong",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/5700604004"
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7822600003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Strategy & Operations Manager New",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7821253003"
+        },
+        {
+            "company": "OKX",
+            "title": "P2P Partner Operations LeadNew",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7822479003"
+        },
+        {
+            "company": "xapo",
+            "title": "Treasury Manager (Remote - Work from Anywhere)New",
+            "location": "Gibraltar - Remote",
+            "link": "https://job-boards.greenhouse.io/xapo61/jobs/7812568003"
+        },
+        {
+            "company": "brave",
+            "title": "Enterprise Business Development Manager, West CoastNew",
+            "location": "USA, West Coast",
+            "link": "https://job-boards.greenhouse.io/brave/jobs/8098691"
+        },
+        {
+            "company": "brave",
+            "title": "Mid-Market Development Manager, West Coast and East Coast, USANew",
+            "location": "USA, West Coast and East Coast",
+            "link": "https://job-boards.greenhouse.io/brave/jobs/8098699"
+        },
+        {
+            "company": "brave",
+            "title": "SDR/SDR - Brave Search APINew",
+            "location": "USA",
+            "link": "https://job-boards.greenhouse.io/brave/jobs/8100029"
+        },
+        {
+            "company": "ondo-finance",
+            "title": "Affiliate ManagerNew",
+            "location": "Remote (US)",
+            "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4330478009"
         },
         {
             "company": "meshpay",
-            "title": "Director of SalesNew",
+            "title": "Solutions Architect New",
             "location": "Europe - Remote",
-            "link": "https://job-boards.greenhouse.io/mesh/jobs/5372062008"
-        },
-        {
-            "company": "meshpay",
-            "title": "Director of SalesNew",
-            "location": "LATAM - Remote",
-            "link": "https://job-boards.greenhouse.io/mesh/jobs/5372095008"
-        },
-        {
-            "company": "nimbus",
-            "title": "Head of Commercial - DevelpNew",
-            "location": "Remote (Worldwide)",
-            "link": "https://job-boards.greenhouse.io/nimbus/jobs/8088216"
+            "link": "https://job-boards.greenhouse.io/mesh/jobs/5372610008"
         },
         {
             "company": "kraken",
-            "title": "Chief Operating Officer, UK",
-            "location": "UK",
-            "link": "https://jobs.ashbyhq.com/kraken.com/74f74142-7eed-4222-a742-9abf03d3d078"
-        },
-        {
-            "company": "kraken",
-            "title": "Senior AI Engineer - Growth",
+            "title": "Data Analyst, Product",
             "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/a48206ee-2c07-49c6-b83d-6be61a1312e4"
+            "link": "https://jobs.ashbyhq.com/kraken.com/12183803-a608-47fe-8b4f-a72be298d406"
         },
         {
             "company": "kraken",
-            "title": "Senior AI Engineer - Growth",
+            "title": "Sr Brand Designer - Krak",
             "location": "UK; Argentina; Brazil; Bulgaria; Canada; Chile; Colombia; Cyprus; Czech Republic; Hungary; Ireland; Lithuania; Mexico; Peru; Poland; Portugal; Romania; South Africa; Spain; Sweden; Switzerland; UAE",
-            "link": "https://jobs.ashbyhq.com/kraken.com/f9f63509-ac06-449b-a534-397f74f1180e"
+            "link": "https://jobs.ashbyhq.com/kraken.com/8ed4c65b-aaac-40d0-9d41-423683b7a1bd"
         },
         {
-            "company": "solanafoundation",
-            "title": "Trading Growth Lead",
-            "location": "Asia",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/09711478-2181-431c-b615-c6616ce67d20"
+            "company": "kraken",
+            "title": "Sr Brand Designer - Krak",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/653f3c74-0b7f-4856-8716-edfc5d2319af"
         },
         {
-            "company": "solanafoundation",
-            "title": "Senior IT Security Engineer",
-            "location": "Remote (Global, no location restrictions)",
-            "link": "https://jobs.ashbyhq.com/Solana%20Foundation/4f658f17-45e0-446a-a075-b9761bb7f0ff"
+            "company": "kraken",
+            "title": "Software Engineer - Rust - Payward Services",
+            "location": "Brazil; Argentina; Bulgaria; Chile; Colombia; Czech Republic; Hungary; Lithuania; Mexico; Peru; Poland; Romania; South Africa; Sweden",
+            "link": "https://jobs.ashbyhq.com/kraken.com/c6948e7c-1cc2-4c3d-be7f-84cb833e6536"
+        },
+        {
+            "company": "kraken",
+            "title": "Network Engineer - Core Infrastructure",
+            "location": "LATAM; Argentina; Brazil; Chile; Colombia; Mexico; Paraguay; Peru; Uruguay",
+            "link": "https://jobs.ashbyhq.com/kraken.com/fce7be7d-3181-428b-b043-9790bb88eeb9"
+        },
+        {
+            "company": "kraken",
+            "title": "Manager, Policy & Government Relations - Singapore",
+            "location": "Singapore",
+            "link": "https://jobs.ashbyhq.com/kraken.com/b8687035-0d4a-415e-93bf-34510ff26939"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Global Investigator",
+            "location": "North America; Canada; Illinois; Los Angeles; Mexico; New York City",
+            "link": "https://jobs.ashbyhq.com/trm-labs/50780c03-a09e-4bcf-9869-2e6606e70636"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Deployment Strategist, Eastern Europe",
+            "location": "EMEA",
+            "link": "https://jobs.ashbyhq.com/trm-labs/0cb635c7-de7b-4770-bcda-b3320a23df9f"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Manager, All Source Investigations (US-only)",
+            "location": "US; Washington DC",
+            "link": "https://jobs.ashbyhq.com/trm-labs/b3afd5bd-76e2-4628-92b0-93fcf58dd970"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Engineering Manager, Data Platform",
+            "location": "North America",
+            "link": "https://jobs.ashbyhq.com/trm-labs/8c0ea2a6-e423-4898-9e7b-810719030013"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Enterprise Security Engineer",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/trm-labs/1d9e238a-9283-41ca-8d36-5b6024e07d1d"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Senior Frontend Platform Engineer",
+            "location": "North America",
+            "link": "https://jobs.ashbyhq.com/trm-labs/7b2bf23d-efb6-4df1-9a64-c09c7a34aaee"
+        },
+        {
+            "company": "phantom",
+            "title": "Staff Software Engineer, Frontend (Trading)",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/phantom/1a7b0f14-556b-4bb0-b1c1-43702d6b56c3"
+        },
+        {
+            "company": "phantom",
+            "title": "Senior Payroll Analyst",
+            "location": "Remote-US",
+            "link": "https://jobs.ashbyhq.com/phantom/e8904a67-8a5f-4972-b779-aea2ac7bbd40"
+        },
+        {
+            "company": "phantom",
+            "title": "Head of Business and Corporate Development",
+            "location": "Remote-US",
+            "link": "https://jobs.ashbyhq.com/phantom/a5248174-f846-49ce-924b-403a12914914"
+        },
+        {
+            "company": "Bastion",
+            "title": "Account Executive, Stablecoins & Payments",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/Bastion/e4b73c0a-933a-467c-8951-b636693f81fc"
+        },
+        {
+            "company": "Bastion",
+            "title": "Brand and Communications Lead",
+            "location": "US Remote; New York City",
+            "link": "https://jobs.ashbyhq.com/Bastion/6745c6f2-0b9e-4a18-a721-94b1cc1f136c"
+        },
+        {
+            "company": "dourolabs",
+            "title": "Staff Engineer Market Data",
+            "location": "Europe - Remote",
+            "link": "https://jobs.ashbyhq.com/dourolabs.xyz/69d12c89-308b-4945-bae4-cc05c0e1e351"
+        },
+        {
+            "company": "dourolabs",
+            "title": "Staff Frontend Engineer",
+            "location": "North America - Remote",
+            "link": "https://jobs.ashbyhq.com/dourolabs.xyz/43bdebd1-5fd6-47df-b00c-6405d4d07a2e"
+        },
+        {
+            "company": "rain",
+            "title": "Compliance Engineer",
+            "location": "New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/cd3cf214-b9d0-49fb-87f0-10e07aa148bb"
+        },
+        {
+            "company": "rain",
+            "title": "Senior Director, Strategic Accounts",
+            "location": "New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/f4b7361d-4d7f-49b7-a014-e3146fedbb34"
+        },
+        {
+            "company": "rain",
+            "title": "Data Scientist - Fraud Risk",
+            "location": "New York, NY; Remote",
+            "link": "https://jobs.ashbyhq.com/rain/d801cb1d-0500-487f-8732-39a4afe3c741"
+        },
+        {
+            "company": "rain",
+            "title": "Head of FP&A",
+            "location": "New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/3aaf5e62-5ef2-4077-b76e-cb2c30d1affc"
+        },
+        {
+            "company": "rain",
+            "title": "Payments Counsel",
+            "location": "District of Columbia; New York, NY",
+            "link": "https://jobs.ashbyhq.com/rain/610fac50-ebb8-49a8-9ce5-1070d46d928f"
+        },
+        {
+            "company": "rain",
+            "title": "Technical Support Analyst",
+            "location": "New York, NY; Europe | Spain",
+            "link": "https://jobs.ashbyhq.com/rain/c8375f07-f082-43e3-b12c-e2f1a1328f0c"
+        },
+        {
+            "company": "polymarket",
+            "title": "Data Scientist Markets",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/393e1975-b910-45cd-b835-926cd35fa540"
+        },
+        {
+            "company": "polymarket",
+            "title": "Product Manager Data Products",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/4196af35-377e-48b1-9ad0-b408c294fe00"
+        },
+        {
+            "company": "polymarket",
+            "title": "Senior Data Analyst, Trust and Safety",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/834047b5-fca2-49e0-a681-d74773f50aae"
+        },
+        {
+            "company": "polymarket",
+            "title": "Senior Investigation Analyst",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/70f102bd-0c2e-4833-a6fa-46359cc050f2"
+        },
+        {
+            "company": "polymarket",
+            "title": "Senior Backend Engineer, Exchange Infrastructure",
+            "location": "Remote; New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/face70ab-860c-44c3-bc92-2c9784dd31a1"
+        },
+        {
+            "company": "polymarket",
+            "title": "Product Marketing Manager",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/f9107517-12c6-4c43-892d-7438db8a6b25"
+        },
+        {
+            "company": "polymarket",
+            "title": "Backend Engineer, Markets",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/polymarket/c69d06c3-96df-493a-afdc-80636d494cf2"
         },
         {
             "company": "chainalysis",
-            "title": "People Operations Coordinator",
-            "location": "New York; Remote - USA",
-            "link": "https://jobs.ashbyhq.com/chainalysis-careers/f804e81c-8d77-4800-a58d-4bc6baeca467"
+            "title": "Senior People Systems & Integrations Analyst",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/f28e555e-ba54-4ea5-a41b-4c534438d019"
         },
         {
             "company": "chainalysis",
-            "title": "Channel Partner Manager, AMER",
-            "location": "New York Office; Remote - USA",
-            "link": "https://jobs.ashbyhq.com/chainalysis-careers/ddf10f1b-c35d-4a74-b18c-b1b32374bdd0"
+            "title": "Head of Policy, North America",
+            "location": "D.C.",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/a41742c7-26df-48c7-b0fa-581e5f8ae6ad"
         },
         {
             "company": "chainalysis",
-            "title": "Deployment Strategist (Mandarin Speaking)",
-            "location": "Singapore Office",
-            "link": "https://jobs.ashbyhq.com/chainalysis-careers/e326a0e9-694e-4dad-b2f4-e67f5bea2622"
+            "title": "Senior Software Engineer, Blockchain Protocols",
+            "location": "UK; Denmark",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/9a38ba4c-7ebb-4906-bade-92da8e7ae993"
         },
         {
-            "company": "magiceden",
-            "title": "Senior IT Engineer",
-            "location": "Melbourne, Australia",
-            "link": "https://jobs.ashbyhq.com/magiceden/70e3955e-23b7-42d9-9263-d5f72f702aa9"
+            "company": "stellar",
+            "title": "Business Development, APAC",
+            "location": "Remote - APAC",
+            "link": "https://jobs.ashbyhq.com/stellar/c1349283-81a5-406f-ae14-6d028ecb0a8d"
         },
         {
-            "company": "symbiotic.fi",
-            "title": "Brand Designer",
-            "location": "New York; Canada; Dubai; London; Portugal; Switzerland",
-            "link": "https://jobs.ashbyhq.com/Symbiotic/366b8653-203a-4448-b886-162a92fc810a"
+            "company": "parity.io",
+            "title": "Core Developer - Node",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/parity/f3d33667-f28a-4c93-91cb-b193d02f5dc3"
         },
         {
-            "company": "symbiotic.fi",
-            "title": "Senior Product Designer",
-            "location": "New York; Canada; Hong Kong; London; Portugal; Switzerland",
-            "link": "https://jobs.ashbyhq.com/Symbiotic/ffc40ecb-169d-4027-bd5b-326e5710b897"
+            "company": "oplabs",
+            "title": "Senior Software Engineer, Protocol (Rust)",
+            "location": "Remote (Global)",
+            "link": "https://jobs.ashbyhq.com/oplabs/46fea241-959b-470c-9676-5573c059fc56"
         },
         {
             "company": "chainlink-labs",
-            "title": "Software Engineer I, CCIP",
-            "location": "Charlotte; Argentina; Belgium; Brazil; Canada; Colombia; Greece; Ireland; Las Vegas; Mexico; Netherlands; Phoenix; Poland; Portugal; Spain; Tampa; UK",
-            "link": "https://jobs.ashbyhq.com/chainlink-labs/8485e325-111f-4370-b3c6-0ed95872144f"
+            "title": "Senior Talent Partner, Engineering",
+            "location": "Boston; Canada; Charlotte; Chicago; Ireland; Tampa; UK; Washington DC",
+            "link": "https://jobs.ashbyhq.com/chainlink-labs/724ed51c-5550-4d9e-adff-bc4311441912"
+        },
+        {
+            "company": "trust-wallet",
+            "title": "Design Engineer",
+            "location": "Remote - Global",
+            "link": "https://jobs.ashbyhq.com/trust-wallet/72c2f324-d2d7-4037-b3a8-d9afb25dbe18"
+        },
+        {
+            "company": "trust-wallet",
+            "title": "Senior Mobile Engineer (React Native)",
+            "location": "Remote - Global",
+            "link": "https://jobs.ashbyhq.com/trust-wallet/b9b6b77a-cd08-4063-9a72-bae133875a44"
+        },
+        {
+            "company": "trust-wallet",
+            "title": "Product Manager (Payments & Regulatory)",
+            "location": "Remote - Global",
+            "link": "https://jobs.ashbyhq.com/trust-wallet/6c95424c-f0da-41f5-9ec5-bbb2c9289efe"
         }
     ]
 }
