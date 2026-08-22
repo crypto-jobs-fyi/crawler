@@ -2,12 +2,6 @@
     "data": [
         {
             "company": "ethena",
-            "title": "Customer Success Engineer",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/ethena/baa82e3e-a9f2-4eaf-a9d9-a874c0875750"
-        },
-        {
-            "company": "ethena",
             "title": "Keep me in mind!",
             "location": "REMOTE,REMOTE",
             "link": "https://jobs.lever.co/ethena/f7d6502a-c493-47c0-895a-f359066aca52"
@@ -23,12 +17,6 @@
             "title": "Senior Product Marketing Manager",
             "location": "REMOTE,REMOTE",
             "link": "https://jobs.lever.co/ethena/7974afd4-c173-4086-9d2c-78c2349c6f62"
-        },
-        {
-            "company": "ethena",
-            "title": "Lead Product Manager",
-            "location": "REMOTE,REMOTE",
-            "link": "https://jobs.lever.co/ethena/7a95c6e6-0099-48e7-b1a3-f0b781b445d0"
         },
         {
             "company": "ethena",
@@ -479,12 +467,6 @@
             "title": "Forward Deployed Software Engineer, Internship - Intel",
             "location": "WASHINGTON, D.C.,ON-SITE",
             "link": "https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89"
-        },
-        {
-            "company": "palantir",
-            "title": "Forward Deployed Software Engineer, Internship - Poland",
-            "location": "NEW YORK, NY,HYBRID",
-            "link": "https://jobs.lever.co/palantir/d582cd84-14fd-4aa3-b413-15982d286bd9"
         },
         {
             "company": "palantir",
@@ -1412,6 +1394,12 @@
         },
         {
             "company": "palantir",
+            "title": "U.S. Indirect Tax Manager",
+            "location": "PALO ALTO, CA,HYBRID",
+            "link": "https://jobs.lever.co/palantir/1a84bb07-812d-487c-a3b7-8a78b8c8b083"
+        },
+        {
+            "company": "palantir",
             "title": "Defensive Security Analyst",
             "location": "WASHINGTON, D.C.,ON-SITE",
             "link": "https://jobs.lever.co/palantir/bc803bd5-7793-452d-9ae5-9301ee24615a"
@@ -1634,6 +1622,12 @@
         },
         {
             "company": "palantir",
+            "title": "US Government Subcontracts Manager",
+            "location": "WASHINGTON, D.C.,HYBRID",
+            "link": "https://jobs.lever.co/palantir/168e1345-913c-4826-a926-a07d5cf10bba"
+        },
+        {
+            "company": "palantir",
             "title": "Site Reliability Operations Analyst - Commercial",
             "location": "NEW YORK, NY,HYBRID",
             "link": "https://jobs.lever.co/palantir/5174e95b-2e0a-46f8-8db7-e2c837a0ac94"
@@ -1766,18 +1760,6 @@
         },
         {
             "company": "palantir",
-            "title": "Technical Program Manager - Autonomous Systems C2",
-            "location": "PALO ALTO, CA,HYBRID",
-            "link": "https://jobs.lever.co/palantir/7a491e2c-1d72-4e1b-b81e-d6fbe3165b5f"
-        },
-        {
-            "company": "palantir",
-            "title": "Technical Program Manager - Autonomous Systems C2",
-            "location": "SEATTLE, WA,HYBRID",
-            "link": "https://jobs.lever.co/palantir/12f1c7e2-9327-4c4d-9640-7aaafd0343f5"
-        },
-        {
-            "company": "palantir",
             "title": "Technical Program Manager (TPM)",
             "location": "NEW YORK, NY,ON-SITE",
             "link": "https://jobs.lever.co/palantir/7eb0dedb-37ee-4175-b29f-10a9e4340076"
@@ -1829,6 +1811,12 @@
             "title": "Talent Coordinator",
             "location": "NEW YORK, NY,HYBRID",
             "link": "https://jobs.lever.co/palantir/4186c7e2-1fc4-4049-81fb-fa98efb9d1de"
+        },
+        {
+            "company": "palantir",
+            "title": "Talent Coordinator",
+            "location": "LONDON, UK,HYBRID",
+            "link": "https://jobs.lever.co/palantir/a114f925-b5cb-4076-bf68-c77310754aec"
         },
         {
             "company": "palantir",
@@ -1952,15 +1940,33 @@
         },
         {
             "company": "rivr",
-            "title": "Testing Engineer",
+            "title": "Procurement Engineer",
             "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/5bc972e3-75ff-4ac3-a24b-ce6bb494e957"
+            "link": "https://jobs.lever.co/rivr/5074e77b-4fcb-4453-a56d-9a7ab10299dc"
         },
         {
             "company": "rivr",
-            "title": "Embedded Linux Systems Engineer",
+            "title": "Senior Electronics Engineer \u2013 Carrier Board",
             "location": "Z\u00dcRICH,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/592c81f6-5617-4d65-a1a3-0f03ca0954f3"
+            "link": "https://jobs.lever.co/rivr/cef33379-0112-4850-8365-ff459389407d"
+        },
+        {
+            "company": "rivr",
+            "title": "Senior Electronics Engineer \u2013 Functional Safety",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/d5c46417-896e-4418-83af-529ada547a57"
+        },
+        {
+            "company": "rivr",
+            "title": "Tech Lead \u2013 Testing Engineer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/97545732-2103-4b5e-ae7a-01c06459ecfa"
+        },
+        {
+            "company": "rivr",
+            "title": "Testing Engineer",
+            "location": "Z\u00dcRICH,ON-SITE",
+            "link": "https://jobs.lever.co/rivr/5bc972e3-75ff-4ac3-a24b-ce6bb494e957"
         },
         {
             "company": "rivr",
@@ -2042,12 +2048,6 @@
         },
         {
             "company": "rivr",
-            "title": "Assembly Operator",
-            "location": "SHANGHAI,ON-SITE",
-            "link": "https://jobs.lever.co/rivr/a885218b-ca48-401e-b253-5574495b3690"
-        },
-        {
-            "company": "rivr",
             "title": "Assembly Operator Intern",
             "location": "SHANGHAI,ON-SITE",
             "link": "https://jobs.lever.co/rivr/dc393c56-6d0f-4f4e-9de9-dab28475403c"
@@ -2114,12 +2114,6 @@
         },
         {
             "company": "anybotics",
-            "title": "Senior Procurement Specialist",
-            "location": "ZURICH,ON-SITE",
-            "link": "https://jobs.lever.co/anybotics/8ba02712-b54a-4447-a73e-6384563feda1"
-        },
-        {
-            "company": "anybotics",
             "title": "Manufacturing Engineer",
             "location": "ZURICH, SWITZERLAND,ON-SITE",
             "link": "https://jobs.lever.co/anybotics/41220f43-53f8-4336-94a1-eaed97c34784"
@@ -2138,12 +2132,6 @@
         },
         {
             "company": "anybotics",
-            "title": "Internship - Reinforcement Learning for Navigation",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/9d34ce1f-0dae-4cf3-85b0-d231dfb4851b"
-        },
-        {
-            "company": "anybotics",
             "title": "PCB Layout Designer / ECAD Engineer",
             "location": "ZURICH, SWITZERLAND,ON-SITE",
             "link": "https://jobs.lever.co/anybotics/53462ccd-2b76-4cd5-b8c5-32c329e3c05d"
@@ -2153,12 +2141,6 @@
             "title": "Senior Electrical Engineer",
             "location": "ZURICH, SWITZERLAND,HYBRID",
             "link": "https://jobs.lever.co/anybotics/fd173f45-9f01-40b2-b46a-aca5133f6861"
-        },
-        {
-            "company": "anybotics",
-            "title": "Robotics Test Engineer",
-            "location": "ZURICH,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/b73e0848-ce51-4d45-8e0d-8abe63698ff6"
         },
         {
             "company": "anybotics",
@@ -2180,27 +2162,21 @@
         },
         {
             "company": "anybotics",
-            "title": "VP System Architecture",
-            "location": "ZURICH, SWITZERLAND,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/456ebeb5-37c3-4531-8bdf-ead40406eb49"
-        },
-        {
-            "company": "anybotics",
             "title": "Robotics Lab Technician Intern",
             "location": "ZURICH, SWITZERLAND,ON-SITE",
             "link": "https://jobs.lever.co/anybotics/9755ae0f-f740-40bc-bc13-be52c505748b"
         },
         {
             "company": "anybotics",
-            "title": "Verification & Testing Engineer",
-            "location": "ZURICH,HYBRID",
-            "link": "https://jobs.lever.co/anybotics/32d2b35b-b255-416c-9ad7-ce2462cc89f0"
-        },
-        {
-            "company": "anybotics",
             "title": "Senior Angular Engineer",
             "location": "BARCELONA, CATALONIA,HYBRID",
             "link": "https://jobs.lever.co/anybotics/bfe43888-eee4-488f-817b-e674634398ee"
+        },
+        {
+            "company": "shieldai",
+            "title": "Staff Systems Administrator (R4697)",
+            "location": "NEW DELHI,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/9cb8bd80-678d-439c-aa4f-abed77975d38"
         },
         {
             "company": "shieldai",
@@ -2330,7 +2306,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Standardization Pilot (R4736)",
+            "title": "Standardization Pilot (R5478)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/91a83ad8-2453-4eda-ba35-a2c2ec6baf27"
         },
@@ -2342,7 +2318,7 @@
         },
         {
             "company": "shieldai",
-            "title": "V-BAT Internal Training Instructor (R5023)",
+            "title": "V-BAT Internal Training Instructor (R5031)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6b0abf25-6af7-4a8d-9b95-b2509bd63d82"
         },
@@ -2351,12 +2327,6 @@
             "title": "Drone Operator (R5145)",
             "location": "KYIV,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/d1f893bc-6bbf-4709-af74-be04ecf24e00"
-        },
-        {
-            "company": "shieldai",
-            "title": "Project Manager, Fleet Asset Management (R5118)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/1f6d4720-86ac-49ff-a93a-b6e9be154362"
         },
         {
             "company": "shieldai",
@@ -2438,7 +2408,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineer, Manufacturing Equipment (R4592)",
+            "title": "Staff Engineer, Manufacturing Equipment",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b2de60ed-3c1e-4f94-883c-90917d3ca45e"
         },
@@ -2534,12 +2504,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Quality Engineer (R5512)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/2ec0cdc4-48a1-451c-ba0b-35e6e0f344e9"
-        },
-        {
-            "company": "shieldai",
             "title": "Technician 3, Quality Systems Engineering (R4956)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/3b0846c2-88ed-47d0-8ab0-59a844704ece"
@@ -2549,12 +2513,6 @@
             "title": "Technician 4, Quality Engineering (R4959)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/8f00a36b-02b5-4800-b55b-2c9d29c6dd62"
-        },
-        {
-            "company": "shieldai",
-            "title": "Technician III, CNC/CMM Program (R4735)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/1c218d71-5929-4be5-962c-a5ca585e79a2"
         },
         {
             "company": "shieldai",
@@ -2636,6 +2594,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Data & Analytics Engineer, Domain Enablement (R5536)",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/9fd0a58a-6bdc-465c-8d1e-0c152e13ba66"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior SysAdmin (R5378)",
             "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/262ee1a9-2588-4047-987c-91d1f11b14dd"
@@ -2666,6 +2630,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Corporate Development (Director, Senior Director, Vice President) (R4845)",
+            "location": "REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/shieldai/7d5721f2-645e-4ceb-ba50-b50aec1a88af"
+        },
+        {
+            "company": "shieldai",
             "title": "Director, Enterprise Strategy and Operations (R5626)",
             "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/a25edcee-69a9-47b4-a325-ec549b2e0d28"
@@ -2690,39 +2660,27 @@
         },
         {
             "company": "shieldai",
-            "title": "Associate Facilities Coordinator (R5453)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/36a00500-87ea-4737-8372-83efcb0c9e2b"
-        },
-        {
-            "company": "shieldai",
             "title": "Associate Facilities Coordinator (R5456)",
             "location": "BANGALORE,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/1d881215-38a7-4fdd-ab54-9e392c53dc0b"
         },
         {
             "company": "shieldai",
-            "title": "Front Desk Coordinator (R5313)",
-            "location": "BONHAM, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/bddfa4f1-a13d-45cb-8dd9-7a23f76de5eb"
+            "title": "Associate Facilities Coordinator (R5534)",
+            "location": "KYIV,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ce904fcd-f35e-4f69-8544-26178c18e956"
+        },
+        {
+            "company": "shieldai",
+            "title": "Associate Facilities Coordinator (R5567)",
+            "location": "LVIV,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/7122f5bf-e6fb-40e1-8fd1-084655a0657b"
         },
         {
             "company": "shieldai",
             "title": "Technician II, Facilities (5444)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/dae12300-3947-40a7-b497-bbb189599cb3"
-        },
-        {
-            "company": "shieldai",
-            "title": "Workplace Experience Coordinator (R5314)",
-            "location": "MELBOURNE,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/b6daf9bb-08e6-43c9-bc73-91dcaef6f867"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Manager, Facilities Operations, International (R5600)",
-            "location": "LONDON,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/e150495c-3eae-43a1-96c5-fc171ec393d8"
         },
         {
             "company": "shieldai",
@@ -2807,6 +2765,18 @@
             "title": "Senior Project Manager, Finance Transformation (R5545)",
             "location": "SAN MATEO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/d9c4c3e5-3d12-48a6-9d46-30f6592378ca"
+        },
+        {
+            "company": "shieldai",
+            "title": "Lead, Program Finance (R5328)",
+            "location": "LONDON,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/d11ff7f6-08f3-4335-8dc8-900600740232"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Director of Hivemind Finance (R5621)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/50f5fe16-1a52-4051-8fc8-bff685e0f6b8"
         },
         {
             "company": "shieldai",
@@ -2990,12 +2960,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Director of Business Development, Middle East (R4499)",
-            "location": "ABU DHABI,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/1797f337-f646-4fd1-8f31-a8163213eaec"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Staff BD Account Executive - Autonomy Specialist (R5001)",
             "location": "ABU DHABI,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b252cefb-8a6a-4cb7-8f5e-90d46926747e"
@@ -3035,6 +2999,12 @@
             "title": "Staff BD Account Executive, Autonomy Specialist - Australia (R5135)",
             "location": "CANBERRA / MELBOURNE,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/e13c8e7b-97cf-414c-b17b-4554c7e52b11"
+        },
+        {
+            "company": "shieldai",
+            "title": "X-BAT Business Development Director, Middle East (R4949)",
+            "location": "ABU DHABI,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/a4ca6614-e302-48f9-800c-fc9903ea5b5a"
         },
         {
             "company": "shieldai",
@@ -3080,6 +3050,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Staff Solutions Engineer (R5632)",
+            "location": "ATHENS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/ad1ca43e-93d8-4953-900e-4a0ad8cbcca4"
+        },
+        {
+            "company": "shieldai",
             "title": "Manager, Dev Platform Engineering (R4979)",
             "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/7974e5f9-67e3-46b8-8c81-b4a4fae0fbd4"
@@ -3098,7 +3074,7 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineer, Systems (R4625)",
+            "title": "Staff Systems Engineer, Hivemind Enterprise (R4625)",
             "location": "SAN DIEGO, CALIFORNIA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/466470a1-4a1a-4c49-8adc-90cd6358ea76"
         },
@@ -3674,12 +3650,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Staff Engineer, HMS DevOps/DevEx (R5447)",
-            "location": "WASHINGTON, DC / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/db5d644a-6d56-46fa-bb49-83b144af0acd"
-        },
-        {
-            "company": "shieldai",
             "title": "Staff Software Engineer, C++ Software Integration (R4018)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/76691555-47d7-4801-800a-b3386a8bb8de"
@@ -3707,6 +3677,24 @@
             "title": "Technical Program Manager, Mission Autonomy (R5052)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/000362bc-8cc0-4569-8b47-a3c463f67b2f"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Human Machine Teaming (R5648)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/3e68adca-465c-414b-88f5-e4d16a26ad3b"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Human Machine Teaming (R5649)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/4d18dd89-aace-45da-b69a-bcae5a671da1"
+        },
+        {
+            "company": "shieldai",
+            "title": "Senior Engineer, Human Machine Teaming (R5651)",
+            "location": "WASHINGTON, DC,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/84089cc8-47e5-4c63-a49a-dbd1fb874aed"
         },
         {
             "company": "shieldai",
@@ -3752,12 +3740,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Contracts Manager (R4378)",
-            "location": "WASHINGTON, DC,HYBRID",
-            "link": "https://jobs.lever.co/shieldai/b2817f5b-22bd-4dbc-9955-64267aa2fb2b"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Facility Security Officer (R4917)",
             "location": "WASHINGTON, DC,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/b025338a-5f82-44b3-9a78-f63b0d06e24e"
@@ -3788,15 +3770,15 @@
         },
         {
             "company": "shieldai",
-            "title": "Director, People Operations (R5390)",
-            "location": "SAN MATEO, CALIFORNIA / WASHINGTON, DC / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,HYBRID",
-            "link": "https://jobs.lever.co/shieldai/9f3bb3e2-acea-4f52-b6af-9445920877b0"
+            "title": "Associate Technical Recruiter",
+            "location": "WASHINGTON, DC,HYBRID",
+            "link": "https://jobs.lever.co/shieldai/92396bac-e719-4886-8a43-0a0b0f163944"
         },
         {
             "company": "shieldai",
-            "title": "Recruiter, University and Alternative Channel (R5635)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / WASHINGTON, DC,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/06ccfb2b-3a03-4902-a8b5-00360a2a1341"
+            "title": "Director, People Operations (R5390)",
+            "location": "SAN MATEO, CALIFORNIA / WASHINGTON, DC / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,HYBRID",
+            "link": "https://jobs.lever.co/shieldai/9f3bb3e2-acea-4f52-b6af-9445920877b0"
         },
         {
             "company": "shieldai",
@@ -3812,9 +3794,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Staff Px Business Partner - Software, Products & Services (R4850)",
-            "location": "SAN MATEO, CALIFORNIA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/155a1272-93d2-4ccf-b9ce-52831069717f"
+            "title": "Senior Staff PX Business Partner - Software, Products & Services (R4850)",
+            "location": "SAN MATEO, CALIFORNIA,HYBRID",
+            "link": "https://jobs.lever.co/shieldai/8ac9d2c9-d98a-4d7a-a5b5-5a94ec2c5d7a"
         },
         {
             "company": "shieldai",
@@ -3848,7 +3830,13 @@
         },
         {
             "company": "shieldai",
-            "title": "Chief Engineer, V-BAT",
+            "title": "Talent Acquisition Partner, Australia and APAC (R5754)",
+            "location": "MELBOURNE,HYBRID",
+            "link": "https://jobs.lever.co/shieldai/05347361-77c5-4e70-8664-f7fa18e2471a"
+        },
+        {
+            "company": "shieldai",
+            "title": "Sr Director Engineering, V-BAT",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/de2e2ed1-0cf5-4333-bd1e-302bce4253be"
         },
@@ -3905,12 +3893,6 @@
             "title": "Senior Electrical Engineer, Test Equipment Design",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/9208872f-9af8-4a63-8afc-0d7a5e7dbca0"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Engineer, Software Engineering Tools, Hardware Test (R4913)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/70bbf24d-192d-4153-a827-be6090013dc7"
         },
         {
             "company": "shieldai",
@@ -4256,15 +4238,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Power System - High Voltage Specialist/Sr. Technician (R4728)",
+            "title": "Power System - High Voltage Test Specialist (R4728)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/c03bc781-786f-4bac-9884-4328b98e2534"
-        },
-        {
-            "company": "shieldai",
-            "title": "RF - Senior Principal Engineer (R4491)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/3d073907-8204-4d5a-82b8-40a64ae75844"
         },
         {
             "company": "shieldai",
@@ -4646,6 +4622,12 @@
         },
         {
             "company": "shieldai",
+            "title": "Senior Engineer, Full-Stack Software (R5751)",
+            "location": "DALLAS, TEXAS,ON-SITE",
+            "link": "https://jobs.lever.co/shieldai/4a9a4b36-2eb4-4994-8827-58db794f9018"
+        },
+        {
+            "company": "shieldai",
             "title": "Senior Engineer, GNC - Sensor Integration (R4601)",
             "location": "US / SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/6d3cf300-d22e-47bb-b190-e376bd8715f1"
@@ -4760,12 +4742,6 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Engineer, Test & Evaluation (R5262)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/ef4ee6b8-9a11-4870-bbbd-1140f1434cef"
-        },
-        {
-            "company": "shieldai",
             "title": "Senior Lab Technician (R5317)",
             "location": "DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/f1a761df-feeb-4024-b70b-c13d6a6bbfcf"
@@ -4790,33 +4766,9 @@
         },
         {
             "company": "shieldai",
-            "title": "Senior Staff Systems Engineer (R5622)",
-            "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS / BOSTON, MA,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/0a7f0460-5035-4959-9713-80471fcae3c1"
-        },
-        {
-            "company": "shieldai",
-            "title": "Senior Technician, Production Test (R5346)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/45403d75-1bbd-47ba-ab9d-46c5bad89a8a"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Engineer, Test & Evaluation (R5141)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/dc9cd4bf-fc16-4016-aed4-776029ca3d35"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Mechanical Engineer, Systems Integration",
+            "title": "Staff Mechanical Engineer, Systems Integration (R5694)",
             "location": "SAN DIEGO, CALIFORNIA / DALLAS, TEXAS,ON-SITE",
             "link": "https://jobs.lever.co/shieldai/c65332c3-5cd0-404d-97f9-e3a71895ed91"
-        },
-        {
-            "company": "shieldai",
-            "title": "Staff Technician, Production Test (R5362)",
-            "location": "DALLAS, TEXAS,ON-SITE",
-            "link": "https://jobs.lever.co/shieldai/603d8667-7a06-43de-955f-4a5b527e5924"
         },
         {
             "company": "shieldai",
@@ -4829,12 +4781,6 @@
             "title": "Business Travel & Procurement Specialist",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/f36ead53-b51d-42bf-a466-4f97ac077401"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Head of Information Security",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/b8d60817-b69f-4db0-ba4d-318f89c12b8a"
         },
         {
             "company": "oxylabs",
@@ -4904,6 +4850,12 @@
         },
         {
             "company": "oxylabs",
+            "title": "Senior DevOps Engineer",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/e5662cfe-7f16-4f84-88ca-4c99d5048c08"
+        },
+        {
+            "company": "oxylabs",
             "title": "Lead Backend Developer (PHP / Symfony)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/ad14b8f0-78df-4393-8373-e7abd2ceb131"
@@ -4961,6 +4913,12 @@
             "title": "Engineering Manager (Webshare product)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/2e89cc05-84a5-4035-a9b4-b5b6f35defce"
+        },
+        {
+            "company": "oxylabs",
+            "title": "Head of Engineering (Webshare product)",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/6cfb7607-a1d4-4bdb-91ea-6e9159b9f2fa"
         },
         {
             "company": "oxylabs",
@@ -5060,6 +5018,12 @@
         },
         {
             "company": "oxylabs",
+            "title": "Product Owner",
+            "location": "VILNIUS,HYBRID",
+            "link": "https://jobs.lever.co/oxylabs/306353c5-89ec-46b8-8aee-83dfd9686f5e"
+        },
+        {
+            "company": "oxylabs",
             "title": "Product Manager (Native AI Products & New Ventures)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/303dcbf2-b157-47d3-a4ad-68a72e398094"
@@ -5102,18 +5066,6 @@
         },
         {
             "company": "oxylabs",
-            "title": "Account Manager (Mid-Senior, Remote)",
-            "location": "WARSAW,REMOTE",
-            "link": "https://jobs.lever.co/oxylabs/d31eea8c-30a2-44d9-afa8-6b9db33e0e11"
-        },
-        {
-            "company": "oxylabs",
-            "title": "Account Manager (Mid-Senior)",
-            "location": "VILNIUS,HYBRID",
-            "link": "https://jobs.lever.co/oxylabs/4caaa3db-93ad-4813-86cb-aea1de845543"
-        },
-        {
-            "company": "oxylabs",
             "title": "Enterprise Account Manager (Bay Area, USA)",
             "location": "SAN FRANCISCO, BAY AREA,REMOTE",
             "link": "https://jobs.lever.co/oxylabs/9350ee43-3108-48d6-87d2-81ae7a6936c0"
@@ -5132,7 +5084,7 @@
         },
         {
             "company": "oxylabs",
-            "title": "Sales Development Representative",
+            "title": "Sales Development Representative (Mid - Senior)",
             "location": "VILNIUS,HYBRID",
             "link": "https://jobs.lever.co/oxylabs/559b115c-e762-443d-bc8f-9e5b8d75b0ba"
         },
@@ -5321,12 +5273,6 @@
             "title": "VP, Customer Success",
             "location": "US,HYBRID",
             "link": "https://jobs.lever.co/zushealth/7c8eb3a1-728f-4434-a4c3-5c5ee4f6181b"
-        },
-        {
-            "company": "zushealth",
-            "title": "VP, Marketing",
-            "location": "US,HYBRID",
-            "link": "https://jobs.lever.co/zushealth/ebab5c42-a6bd-4669-8e6a-1bcfbb6c1707"
         },
         {
             "company": "zushealth",
