@@ -1765,6 +1765,15 @@
             "headless": true
         },
         {
+            "name": "flocksafety.com",
+            "jobs_url": "https://jobs.ashbyhq.com/Flock%20Safety",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.flocksafety.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "modular",
             "jobs_url": "https://jobs.gem.com/modular",
             "scraper": "GEM",
