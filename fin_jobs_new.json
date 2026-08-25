@@ -2,9 +2,15 @@
     "data": [
         {
             "company": "trading212",
-            "title": "Market Abuse Associate",
+            "title": "Market Abuse (Trade Surveillance) Associate",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/trading212/6c1851b7-2b53-49f9-b8ec-77a96099cd1a"
+        },
+        {
+            "company": "trading212",
+            "title": "Graduate Trading Operations Analyst",
+            "location": "Berlin",
+            "link": "https://jobs.ashbyhq.com/trading212/872fe034-8149-4943-91e4-da878f8198c4"
         },
         {
             "company": "Kalshi",
@@ -23,6 +29,12 @@
             "title": "Growth Politics Intern",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/5f00f02c-002e-4e93-891f-650a0c296e15"
+        },
+        {
+            "company": "Kalshi",
+            "title": "Rapid Response Communications",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/64a8ce6f-f064-4368-b027-dd55c2ec80a3"
         },
         {
             "company": "flex",
@@ -62,9 +74,27 @@
         },
         {
             "company": "qonto",
+            "title": "Legal Intern - Commercial",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/ba688ab4-66b1-4d6a-9aa7-537e191ea392"
+        },
+        {
+            "company": "qonto",
+            "title": "Legal Intern - Product & AI",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/354fa50e-2741-4936-82f5-0d1ce5fb8be3"
+        },
+        {
+            "company": "qonto",
             "title": "Legal-Werkstudent Deutschland (m/w/d)",
             "location": "BERLIN,ON-SITE",
             "link": "https://jobs.lever.co/qonto/791217e8-e2d4-4819-850e-78032c5aec90"
+        },
+        {
+            "company": "qonto",
+            "title": "Talent Acquisition Manager (Growth, Corporate, Operations)",
+            "location": "PARIS,ON-SITE",
+            "link": "https://jobs.lever.co/qonto/94607196-c25f-4169-a29d-b1a954a91d89"
         },
         {
             "company": "qonto",
@@ -101,12 +131,6 @@
             "title": "Head of Customer Support & Care",
             "location": "LONDON OFFICE,HYBRID",
             "link": "https://jobs.lever.co/moneyboxapp/d3f8634b-0ba6-45b0-b0ea-e6c41f7c7a1c"
-        },
-        {
-            "company": "moneybox",
-            "title": "Support Team Leader",
-            "location": "HYBRID OR REMOTE,HYBRID",
-            "link": "https://jobs.lever.co/moneyboxapp/4908e356-363c-40da-b646-3678bf658256"
         },
         {
             "company": "affirm",
@@ -194,6 +218,12 @@
         },
         {
             "company": "affirm",
+            "title": "IT Support Administrator INew",
+            "location": "Toronto",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7860010003"
+        },
+        {
+            "company": "affirm",
             "title": "Legal Operations Analyst IINew",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/7808202003"
@@ -209,6 +239,18 @@
             "title": "Director, Customer Operations Vendor Strategy & ExecutionNew",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/7907795003"
+        },
+        {
+            "company": "affirm",
+            "title": "Operations Enablement LeadNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7860703003"
+        },
+        {
+            "company": "affirm",
+            "title": "Operations Enablement LeadNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7860705003"
         },
         {
             "company": "affirm",
@@ -237,20 +279,26 @@
         {
             "company": "affirm",
             "title": "Revenue Operations Analyst IINew",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7871462003"
-        },
-        {
-            "company": "affirm",
-            "title": "Revenue Operations Analyst IINew",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/7871460003"
         },
         {
+            "company": "affirm",
+            "title": "Revenue Operations Analyst IINew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7871462003"
+        },
+        {
             "company": "9fin",
-            "title": "Forward Deployed Banker",
-            "location": "New York",
-            "link": "https://jobs.ashbyhq.com/9fin/c1c85d7e-d7cc-477a-87e4-9543e253d355"
+            "title": "Platform Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/3206c1f4-1a3c-46ab-b74d-f354cbf25f6e"
+        },
+        {
+            "company": "9fin",
+            "title": "Senior Platform Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/70f6522b-1ce2-445e-857f-bc71b49b914a"
         },
         {
             "company": "9fin",
@@ -260,15 +308,21 @@
         },
         {
             "company": "9fin",
-            "title": "Forward Deployed Investor",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/9fin/7dbed4f2-c857-4ec3-b1de-1cf885ae7ee4"
+            "title": "Forward Deployed Banker",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/9fin/c1c85d7e-d7cc-477a-87e4-9543e253d355"
         },
         {
             "company": "9fin",
             "title": "Forward Deployed Investor",
             "location": "New York",
             "link": "https://jobs.ashbyhq.com/9fin/39f53248-1eb6-47fe-a95a-031073f85c70"
+        },
+        {
+            "company": "9fin",
+            "title": "Forward Deployed Investor",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/7dbed4f2-c857-4ec3-b1de-1cf885ae7ee4"
         },
         {
             "company": "9fin",
@@ -287,6 +341,12 @@
             "title": "GTM Enablement Specialist",
             "location": "New York",
             "link": "https://jobs.ashbyhq.com/9fin/898fd40a-153a-43d5-baee-c78b8c5fa912"
+        },
+        {
+            "company": "grape-health",
+            "title": "Actuarial Analyst",
+            "location": "Z\u00dcRICH,HYBRID",
+            "link": "https://jobs.eu.lever.co/grape-health/0f4652d9-ca04-4ea9-8d7d-e048708e53f4"
         },
         {
             "company": "cmgx",
@@ -325,10 +385,10 @@
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8720328002"
         },
         {
-            "company": "capitalontap",
-            "title": "Collections Officer - Midnight TeamNew",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8737405002"
+            "company": "addepar",
+            "title": "Solutions ConsultantNew",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8725303002"
         },
         {
             "company": "onepay.com",
@@ -367,6 +427,12 @@
             "link": "https://jobs.lever.co/swingdev/94ec789f-dd5a-433e-b6ee-45b5a3054bd9"
         },
         {
+            "company": "capital",
+            "title": "Legal Counsel",
+            "location": "WARSAW, MAZOWIECKIE, POLAND / SOFIA CITY, BULGARIA / LIMASSOL, CYPRUS,HYBRID",
+            "link": "https://jobs.lever.co/capital/b5ef923b-b0d6-4331-81ec-979d054d1856"
+        },
+        {
             "company": "earnin",
             "title": "Senior Front End EngineerNew",
             "location": "Vancouver, Canada",
@@ -389,6 +455,18 @@
             "title": "Senior Staff Software EngineerNew",
             "location": "Mountain View, US",
             "link": "https://job-boards.greenhouse.io/earnin/jobs/8131333"
+        },
+        {
+            "company": "huspy",
+            "title": "Mortgage Sales Team Leader",
+            "location": "Office: Dubai",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/mortgage-sales-team-leader-b6128d72-cb5a-487c-8170-5e38c1a88205"
+        },
+        {
+            "company": "huspy",
+            "title": "Account Management Intern B2B",
+            "location": "Office: Madrid | Valencia",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/account-management-intern-b-2-b-8587a455-ed4d-40e8-8116-03c94b286146"
         }
     ]
 }
