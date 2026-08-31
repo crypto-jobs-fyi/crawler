@@ -1,3 +1,736 @@
 {
-    "data": []
+    "data": [
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/63687361-3a4f-451e-b8f9-a98eb3551f0e"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/eb4fcea1-cccd-4130-a96b-3e96d4c4be57"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/ba0e27e8-a171-40bf-a8b8-2b5ca27afbbe"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/0249a010-5672-4f49-89be-d58508fb3853"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/d103f450-a310-400e-b1b0-41187be6e98b"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Backend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/7f9383e0-ef53-4bf0-9e36-4a724f7e02e6"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/307f2b07-4aa3-4f89-97e3-537244060b11"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/bfc55935-e412-4725-8e15-fdfe57522505"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/c92c0cad-e6bb-431e-b2c5-11e9c19cd198"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/ed63bdfe-7a73-424e-ad8c-1b4086adc058"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/86e40e1c-f276-40f8-8dfc-91f7710447cd"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/b1938271-0536-4136-ac8f-1de1484910ef"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/b3cda5f6-f04f-4e12-b4f1-5fc55f2020cc"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/79e7656b-cca0-4c32-8afb-6e58ca333cf5"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/922aaafc-df5e-4a5c-a821-9f3c93c82d56"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/090ddff7-ed95-4d5c-b2cd-5ea02c9d91a9"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/e2e267d8-eb26-4d4f-87f4-76d6f2232249"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Backend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/a9467677-4ced-4743-971e-e14320f1d35d"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/65caa567-e403-4f44-8306-8617c9aabacc"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/58243576-ca1f-4622-ae7c-5ac66afb48e5"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/a1c0117e-323c-40c8-88c8-dc09bb7eafdf"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/27cb1380-efdf-4992-83af-28e9614d4d7e"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/2c88e577-7e24-43c7-a979-242961aa3eb6"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/12915c6c-c217-4afb-9bfc-17e1f115d6cd"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Product Designer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/a57b55f8-0b68-4c06-b018-6f3b7a420e45"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Product Designer",
+            "location": "Berlin",
+            "link": "https://jobs.ashbyhq.com/trading212/3067c105-cd91-4d2d-85e7-9a5fff4f62f0"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/793364e8-737c-455f-92b1-77e56af4ac9b"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Berlin",
+            "link": "https://jobs.ashbyhq.com/trading212/c0611415-1559-45af-a429-e483e1d6c823"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/727fb035-3175-485f-b999-ca9c6d6064f1"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/7754bb24-44ac-40ec-ab8e-c0106341c695"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/22281ae0-a0bf-44dc-84bd-623d075d693b"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Recruiter",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/ec9ce69b-7b3b-499f-a598-7d00b316b8a7"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Recruiter",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/1953c74a-e192-4e7b-a1ac-ae29a4f8c6c3"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Recruiter",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/60d192eb-7532-48f6-bbc7-2ec037ec3dac"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Recruiter",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/31906780-5e92-4f80-9bbc-ab499c3a7a9d"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Sourcer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/ce229460-b8b9-4407-9e54-1470986736f6"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Sourcer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/a68867f3-591d-43ce-9c79-a318b498804f"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Sourcer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/370afacb-b173-4ce7-8956-465fbcde76ff"
+        },
+        {
+            "company": "trading212",
+            "title": "Business Sourcer",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/97dbb8f3-8202-406e-8f99-9669e8a45d58"
+        },
+        {
+            "company": "trading212",
+            "title": "Operations Manager",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/e00a0fb0-7e0e-4da4-8c9b-2a4f27176cc0"
+        },
+        {
+            "company": "trading212",
+            "title": "Operations Manager",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/cbd08762-6b99-452c-a011-4cdf64a55083"
+        },
+        {
+            "company": "trading212",
+            "title": "Operations Manager",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/e858036f-f7d1-42ca-9f3c-5eb15d0d45b3"
+        },
+        {
+            "company": "trading212",
+            "title": "Operations Manager",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/671984d3-3cae-4133-beea-24b846479f0a"
+        },
+        {
+            "company": "trading212",
+            "title": "Product Recruiter",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/7e2ff0f0-984e-4197-91d3-0af878deaaf9"
+        },
+        {
+            "company": "trading212",
+            "title": "Product Recruiter",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/b62a8243-fe8b-4660-aa1f-fdef39f82d6d"
+        },
+        {
+            "company": "trading212",
+            "title": "Product Recruiter",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/ab0d7491-4b18-43b4-80f7-cf5ace8bd221"
+        },
+        {
+            "company": "trading212",
+            "title": "Product Recruiter",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/bad2f7b5-b690-49a9-af9c-59ee6a096ec4"
+        },
+        {
+            "company": "trading212",
+            "title": "Technical Recruiter",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/bfe8e62e-df74-4933-9c6f-fd1fc862447c"
+        },
+        {
+            "company": "trading212",
+            "title": "Technical Recruiter",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/55a2848d-0e9f-4825-beae-638c939a0904"
+        },
+        {
+            "company": "trading212",
+            "title": "Technical Recruiter",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/f3fd31c9-7e59-4021-8f47-61e672e1a5a8"
+        },
+        {
+            "company": "trading212",
+            "title": "Technical Recruiter",
+            "location": "Bulgaria",
+            "link": "https://jobs.ashbyhq.com/trading212/de2b41fb-9578-4d21-bff9-c1b4b3b13fcc"
+        },
+        {
+            "company": "trading212",
+            "title": "Junior Internal Auditor",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/c92832fb-92c1-4bef-be5c-cd0421503817"
+        },
+        {
+            "company": "Kalshi",
+            "title": "Risk",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/4b6c6d6b-b214-4879-aeed-a0d1e7c7e21b"
+        },
+        {
+            "company": "flex",
+            "title": "Sr Staff Data Scientist, New Verticals New",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4726643005"
+        },
+        {
+            "company": "flex",
+            "title": "Associate Director, Product ComplianceNew",
+            "location": "New York, NY; Salt Lake City, UT; San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4728024005"
+        },
+        {
+            "company": "flex",
+            "title": "Sales Development RepresentativeNew",
+            "location": "Salt Lake City, UT",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4728114005"
+        },
+        {
+            "company": "atticus.com",
+            "title": "Engineering Manager",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/atticus/03ed28c5-f496-4638-865d-302e895ccaaf"
+        },
+        {
+            "company": "atticus.com",
+            "title": "Engineering Manager, Growth",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/atticus/edd6c007-7209-4aea-b784-9f2fd96af64d"
+        },
+        {
+            "company": "qonto",
+            "title": "Chef de mission Comptable - Manager",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/958e8181-d608-435d-ba38-172403fe4f1a"
+        },
+        {
+            "company": "qonto",
+            "title": "Head of Anti-Financial Crime Compliance (AFCC) \u2013 France \ud83c\uddeb\ud83c\uddf7",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/8d570614-9221-4b96-84dd-f13b737b2c7c"
+        },
+        {
+            "company": "qonto",
+            "title": "Senior Fraud Analyst - French Market",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/76556035-f607-4b0b-b347-6fe2abc66f9e"
+        },
+        {
+            "company": "qonto",
+            "title": "Product Marketing Manager Intern",
+            "location": "PARIS,HYBRID",
+            "link": "https://jobs.lever.co/qonto/05723cc9-e819-4a5c-aea1-15e9a771ffad"
+        },
+        {
+            "company": "qonto",
+            "title": "Analytics Engineer",
+            "location": "PARIS / BARCELONA / BELGRADE / BERLIN / MILAN,REMOTE",
+            "link": "https://jobs.lever.co/qonto/ebed5dab-630c-48ea-be8f-9e018797c193"
+        },
+        {
+            "company": "qonto",
+            "title": "Principal Backend Engineer",
+            "location": "PARIS / BERLIN / BARCELONA / MILAN,REMOTE",
+            "link": "https://jobs.lever.co/qonto/5b4f0997-36e9-46ed-a00e-b8473f57ee8c"
+        },
+        {
+            "company": "moneybox",
+            "title": "Creative Designer (midweight)",
+            "location": "LONDON,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/e2ef4291-7926-4414-859d-49aabe6fe48a"
+        },
+        {
+            "company": "moneybox",
+            "title": "Senior Paid Marketing Manager, Google Ads & Organic Search",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/4f12b047-ee67-4d5a-9b53-0de508e6da4c"
+        },
+        {
+            "company": "moneybox",
+            "title": "Senior Paid Marketing Manager, Paid Social",
+            "location": "LONDON OFFICE,ON-SITE",
+            "link": "https://jobs.lever.co/moneyboxapp/7608448c-3c28-4d92-bd5b-4d360a592b69"
+        },
+        {
+            "company": "moneybox",
+            "title": "Social Media Lead",
+            "location": "LONDON OFFICE,ON-SITE",
+            "link": "https://jobs.lever.co/moneyboxapp/db7f3bb8-627b-4ec3-8e4b-4f7a5ca94a7d"
+        },
+        {
+            "company": "moneybox",
+            "title": "Customer Care Team Lead (FTC - Mat Cover)",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/4e38e444-2330-45cc-8164-165772c31ade"
+        },
+        {
+            "company": "moneybox",
+            "title": "Head of Quality Engineering",
+            "location": "LONDON OFFICE,HYBRID",
+            "link": "https://jobs.lever.co/moneyboxapp/4d708b13-231f-41cd-a441-09a89eceefc0"
+        },
+        {
+            "company": "affirm",
+            "title": "Quantitative Analyst II (Capital Structuring & Analytics)New",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7815952003"
+        },
+        {
+            "company": "affirm",
+            "title": "Quantitative Analyst II (Capital Structuring & Analytics)New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7815954003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Software Engineer, Backend (Authentication Experience)New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7819891003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer, Backend (Identity International)New",
+            "location": "Remote Spain",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7931494003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer, Backend (Identity International)New",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7931496003"
+        },
+        {
+            "company": "affirm",
+            "title": "Staff Software Engineer, Backend (Identity International)New",
+            "location": "Remote UK",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7979134003"
+        },
+        {
+            "company": "affirm",
+            "title": "Customer Advocacy Associate IINew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7907787003"
+        },
+        {
+            "company": "affirm",
+            "title": "Manager, Fraud OperationsNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7821076003"
+        },
+        {
+            "company": "affirm",
+            "title": "Manager, Fraud OperationsNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7821078003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Product Manager, CheckoutNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7929523003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Product Manager, CheckoutNew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7929525003"
+        },
+        {
+            "company": "affirm",
+            "title": "Client Success Manager (Enterprise)New",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7906846003"
+        },
+        {
+            "company": "affirm",
+            "title": "Senior Accounts Management ManagerNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7906836003"
+        },
+        {
+            "company": "cmgx",
+            "title": "Account Executive, Sell-Side",
+            "location": "NEW YORK, NEW YORK,HYBRID",
+            "link": "https://jobs.lever.co/cmgx/86b062cf-b801-4bb4-822d-d10e5c1bc1db"
+        },
+        {
+            "company": "cmgx",
+            "title": "Account Manager, Sell-Side",
+            "location": "NEW YORK, NEW YORK,HYBRID",
+            "link": "https://jobs.lever.co/cmgx/e91f916a-a993-4839-99e4-6878189d86f8"
+        },
+        {
+            "company": "cmgx",
+            "title": "Frontend Engineer",
+            "location": "BRNO,HYBRID",
+            "link": "https://jobs.lever.co/cmgx/fe5622a1-b051-40b7-a8cc-7b1417c11d74"
+        },
+        {
+            "company": "addepar",
+            "title": "Product Marketing Manager, International Markets & Family OfficesNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8744007002"
+        },
+        {
+            "company": "addepar",
+            "title": "Technical Product Marketing ManagerNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8734868002"
+        },
+        {
+            "company": "addepar",
+            "title": "Alternatives Data Operations AnalystNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8743143002"
+        },
+        {
+            "company": "addepar",
+            "title": "Software Engineer, Client Experience FrameworksNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8733680002"
+        },
+        {
+            "company": "addepar",
+            "title": "Staff Backend Software EngineerNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8743600002"
+        },
+        {
+            "company": "addepar",
+            "title": "Technical Recruiter, R&D & AI (12-Month Project)New",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8753541002"
+        },
+        {
+            "company": "addepar",
+            "title": "Partnerships Product ManagerNew",
+            "location": "Remote, USA",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8742647002"
+        },
+        {
+            "company": "addepar",
+            "title": "Business Development Representative - Spanish SpeakingNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8643505002"
+        },
+        {
+            "company": "addepar",
+            "title": "Technical Success ManagerNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8745573002"
+        },
+        {
+            "company": "addepar",
+            "title": "Client Support Analyst New",
+            "location": "Salt Lake City, UT",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8744013002"
+        },
+        {
+            "company": "addepar",
+            "title": "Sr. Trading Support AnalystNew",
+            "location": "Salt Lake City, UT",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8744018002"
+        },
+        {
+            "company": "addepar",
+            "title": "Team Lead, Field EngineerNew",
+            "location": "Pune, India",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8565588002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Technical Finance AssistantNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8760192002"
+        },
+        {
+            "company": "yuno",
+            "title": "Director of Sales & Business Development - Financial Services (APAC)",
+            "location": "APAC / BEIJING / HONG KONG / SHANGHAI,REMOTE",
+            "link": "https://jobs.lever.co/yuno/4b7ba249-f6e0-4b5c-95c1-ccdef2a773d7"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Product Partnerships Manager",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/58511adc-dd4d-40be-b2b1-b34f95ec4c2c"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Analytics Engineer",
+            "location": "Bangalore (Hybrid)",
+            "link": "https://jobs.ashbyhq.com/oneapp/2f831a02-1e94-4e37-9eda-037ab394ce9a"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Corporate Finance",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/c60a060b-bb45-4891-bdd9-bb9aefcacd51"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Product Manager, Agentic Finance",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/68ddb6b5-4ce9-4450-8634-31299be8a923"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Product Manager, Subscriptions",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/9db02c98-6bfe-4d9c-a23f-52e78c7f4cfb"
+        },
+        {
+            "company": "capital",
+            "title": "Country Manager, Brazil",
+            "location": "S\u00c3O PAULO,HYBRID",
+            "link": "https://jobs.lever.co/capital/942488fb-f767-4610-9871-4843d58eb340"
+        },
+        {
+            "company": "capital",
+            "title": "Compliance & AML Officer (German Branch)",
+            "location": "FRANKFURT AM MAIN, HESSE,HYBRID",
+            "link": "https://jobs.lever.co/capital/8c5eb7ee-d27b-4862-8c27-d8d1f2417e65"
+        },
+        {
+            "company": "capital",
+            "title": "Head of Dealing",
+            "location": "NASSAU, NEW PROVIDENCE,HYBRID",
+            "link": "https://jobs.lever.co/capital/d9cce0a0-e09c-48c4-adbc-78c8d262b9e0"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Deployment Lead - Accounting Solutions - UK",
+            "location": "London; UK",
+            "link": "https://jobs.ashbyhq.com/rillet/d0b2da77-2928-4d93-9cf6-c69c3334cf70"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Account Executive - UK",
+            "location": "London; UK",
+            "link": "https://jobs.ashbyhq.com/rillet/276548f2-d9de-4688-8e05-47a2c23ada97"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Business Development Representative - UK",
+            "location": "London; UK",
+            "link": "https://jobs.ashbyhq.com/rillet/49a57e41-d3c5-4417-8d22-c96806a8301b"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Solutions Consultant - UK",
+            "location": "London; UK",
+            "link": "https://jobs.ashbyhq.com/rillet/e484c722-2839-46b6-b0b7-fb1a463cd95f"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Senior Events Marketing Manager",
+            "location": "San Francisco; New York City",
+            "link": "https://jobs.ashbyhq.com/rillet/0a02d138-b470-42b3-a40f-42a873809ebb"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Senior HRBP / Senior People Partner",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/rillet/7cd42080-b64a-4410-801e-7861be4a8a7a"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Recruiting Coordinator",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/rillet/8b7969a0-f243-4655-886c-697d69009d21"
+        },
+        {
+            "company": "rillet.com",
+            "title": "Recruiting Operations Manager",
+            "location": "San Francisco; New York City",
+            "link": "https://jobs.ashbyhq.com/rillet/adf18969-718b-4bbb-bbde-662e2ff5f190"
+        },
+        {
+            "company": "Cleo",
+            "title": "Lead Analytics Engineer (6-month contract)",
+            "location": "Office: UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/lead-analytics-engineer-6-month-contract-15f4def9-ea77-4900-a27c-3c448c7a85f2"
+        },
+        {
+            "company": "Cleo",
+            "title": "Lead Machine Learning Engineer (Tech Lead / People Manager) - Risk Decisioning",
+            "location": "Remote: Spain | UK",
+            "link": "https://revolutpeople.com/cleo/public/careers/position/lead-machine-learning-engineer-tech-lead-people-manager-risk-decisioning-d65246a3-18a6-4630-999c-df76f5cd9801"
+        },
+        {
+            "company": "huspy",
+            "title": "Land Investment Consultant \u2013 Riyadh",
+            "location": "Office: Riyadh",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/land-investment-consultant-riyadh-2a80614e-149d-4c87-b2b0-e57ce3c3f7bc"
+        },
+        {
+            "company": "huspy",
+            "title": "Mortgages Team Lead - Abu Dhabi",
+            "location": "Office: Abu Dhabi",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/mortgages-team-lead-abu-dhabi-107abe34-cf8a-4999-bab8-2acfd701ad98"
+        },
+        {
+            "company": "huspy",
+            "title": "Account Management",
+            "location": "Office: Madrid",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/account-management-b465ee7c-6721-42a6-8139-e46d912efb6a"
+        },
+        {
+            "company": "huspy",
+            "title": "Real Estate Key Account Manager",
+            "location": "Office: Torrevieja",
+            "link": "https://revolutpeople.com/huspy/public/careers/position/real-estate-key-account-manager-22825b09-d653-4756-84cb-e3822a70ce4d"
+        }
+    ]
 }
