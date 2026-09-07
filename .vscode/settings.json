@@ -5,6 +5,11 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
     "chat.tools.terminal.autoApprove": {
-        "/Users/ydubinin/Documents/GitHub/crawler/venv/bin/python": true
+        "/Users/ydubinin/Documents/GitHub/crawler/venv/bin/python": true,
+        "pip": true,
+        "/^source venv/bin/activate && pip install -r requirements\\.txt --upgrade$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }
