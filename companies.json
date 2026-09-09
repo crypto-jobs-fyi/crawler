@@ -1765,6 +1765,15 @@
             "headless": true
         },
         {
+            "name": "poolside.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/poolside",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://poolside.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "flocksafety.com",
             "jobs_url": "https://jobs.ashbyhq.com/Flock%20Safety",
             "scraper": "ASHBYHQ",
