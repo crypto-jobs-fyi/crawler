@@ -1,5 +1,3 @@
-import time
-
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -47,7 +45,7 @@ class ScrapeGoogleCareers(ScrapeIt):
               const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
               const title = (titleFromHeading?.textContent || titleFromLink || '').trim();
               const locationNode = card
-                ? card.querySelector('[aria-label*="Location"], [data-testid*="location"], [class*="location"]')
+                ? card.querySelector('[aria-label*="Location"], [aria-label*="location"], [data-testid*="location"], [class*="location"]')
                 : null;
               const location = (locationNode?.textContent || '').trim();
               return {
