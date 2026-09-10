@@ -58,3 +58,18 @@ def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
 
     assert jobs == []
     assert driver.execute_script_calls == 0
+
+
+def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypatch):
+    monkeypatch.setattr(WebDriverWait, "until", lambda self, condition: True)
+    scraper = ScrapeGoogleCareers()
+    driver = FakeDriver([
+        {"href": "https://careers.google.com/jobs/9", "title": "", "location": "Remote"},
+        {"href": "https://careers.google.com/jobs/9", "title": "Research Lead", "location": "Remote"},
+    ])
+
+    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+
+    assert len(jobs) == 1
+    assert jobs[0]["title"] == "Research Lead"
+    assert jobs[0]["link"] == "https://careers.google.com/jobs/9"

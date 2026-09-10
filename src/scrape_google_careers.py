@@ -64,11 +64,11 @@ class ScrapeGoogleCareers(ScrapeIt):
             job_url = item.get("href", "")
             if not job_url or job_url in seen_links:
                 continue
-            seen_links.add(job_url)
             job_name = item.get("title", "").strip()
             if not job_name:
                 continue
             location = item.get("location", "").strip() or "Unknown"
+            seen_links.add(job_url)
             result.append({
                 "company": company,
                 "title": job_name,
