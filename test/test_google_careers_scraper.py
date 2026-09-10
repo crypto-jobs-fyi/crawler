@@ -80,3 +80,17 @@ def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypa
     assert len(jobs) == 1
     assert jobs[0]["title"] == "Research Lead"
     assert jobs[0]["link"] == "https://careers.google.com/jobs/9"
+
+
+def test_google_careers_scraper_prefers_specific_title_for_duplicate(monkeypatch):
+    monkeypatch.setattr(WebDriverWait, "until", lambda self, condition: True)
+    scraper = ScrapeGoogleCareers()
+    driver = FakeDriver([
+        {"href": "https://careers.google.com/jobs/7", "title": "Apply", "location": "Unknown"},
+        {"href": "https://careers.google.com/jobs/7", "title": "Senior Research Engineer", "location": "Unknown"},
+    ])
+
+    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+
+    assert len(jobs) == 1
+    assert jobs[0]["title"] == "Senior Research Engineer"

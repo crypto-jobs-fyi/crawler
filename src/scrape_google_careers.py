@@ -12,6 +12,14 @@ class ScrapeGoogleCareers(ScrapeIt):
         'a[href*="/about/careers/applications/jobs/details/"], '
         'a[href*="/careers/applications/jobs/details/"]'
     )
+    GENERIC_TITLES = {"apply", "view", "learn more", "details"}
+
+    @classmethod
+    def _job_quality(cls, job: dict) -> tuple[int, int]:
+        title = job.get("title", "").strip().lower()
+        has_specific_title = 0 if title in cls.GENERIC_TITLES else 1
+        has_location = 0 if job.get("location") == "Unknown" else 1
+        return has_specific_title, has_location
 
     def getJobs(self, driver, web_page, company) -> list:
         self.log_info(
@@ -74,7 +82,7 @@ class ScrapeGoogleCareers(ScrapeIt):
                 "link": job_url,
             }
             existing = jobs_by_url.get(job_url)
-            if existing is None or (existing["location"] == "Unknown" and location != "Unknown"):
+            if existing is None or self._job_quality(job) > self._job_quality(existing):
                 jobs_by_url[job_url] = job
 
         result = list(jobs_by_url.values())
