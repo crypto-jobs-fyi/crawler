@@ -1,3 +1,4 @@
+import pytest
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 
@@ -46,6 +47,8 @@ def test_google_careers_scraper_deduplicates_and_filters(monkeypatch):
     assert jobs[1]["location"] == "Unknown"
     assert driver.execute_script_calls == 1
     assert "querySelectorAll(linkSelector)" in driver.last_script
+    assert "h2, h3, h4" in driver.last_script
+    assert '[aria-label*="location"]' in driver.last_script
 
 
 def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
