@@ -58,8 +58,7 @@ class ScrapeGoogleCareers(ScrapeIt):
             });
         """, self.JOB_LINK_SELECTOR) or []
 
-        seen_links = set()
-        result = []
+        jobs_by_url = {}
         for item in job_data:
             job_url = item.get("href", "")
             if not job_url:
@@ -67,16 +66,18 @@ class ScrapeGoogleCareers(ScrapeIt):
             job_name = item.get("title", "").strip()
             if not job_name:
                 continue
-            if job_url in seen_links:
-                continue
             location = item.get("location", "").strip() or "Unknown"
-            seen_links.add(job_url)
-            result.append({
+            job = {
                 "company": company,
                 "title": job_name,
                 "location": location,
                 "link": job_url,
-            })
+            }
+            existing = jobs_by_url.get(job_url)
+            if existing is None or (existing["location"] == "Unknown" and location != "Unknown"):
+                jobs_by_url[job_url] = job
+
+        result = list(jobs_by_url.values())
 
         self.log_info(
             "Scrape summary",
