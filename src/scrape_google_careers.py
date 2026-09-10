@@ -1,5 +1,6 @@
 import time
 
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
@@ -9,6 +10,10 @@ from src.scrape_it import ScrapeIt
 
 class ScrapeGoogleCareers(ScrapeIt):
     name = 'GOOGLE_CAREERS'
+    JOB_LINK_SELECTOR = (
+        'a[href*="/about/careers/applications/jobs/details/"], '
+        'a[href*="/careers/applications/jobs/details/"]'
+    )
 
     def getJobs(self, driver, web_page, company) -> list:
         self.log_info(
@@ -22,24 +27,20 @@ class ScrapeGoogleCareers(ScrapeIt):
         try:
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, 'a[href*="/about/careers/applications/jobs/details/"]')
+                    (By.CSS_SELECTOR, self.JOB_LINK_SELECTOR)
                 )
             )
-        except Exception:
+        except TimeoutException:
             time.sleep(5)
 
         job_data = driver.execute_script("""
-            const selectors = [
-              'a[href*="/about/careers/applications/jobs/details/"]',
-              'a[href*="/careers/applications/jobs/details/"]'
-            ];
-            const links = Array.from(new Set(
-              selectors.flatMap((selector) => Array.from(document.querySelectorAll(selector)))
-            ));
+            const linkSelector = arguments[0];
+            const links = Array.from(document.querySelectorAll(linkSelector));
             return links.map((a) => {
-              const card = a.closest('li, article, section, div');
+              const card = a.closest('li, article, section, [role="listitem"]');
               const titleFromHeading = card ? card.querySelector('h2, h3, h4') : null;
-              const title = (titleFromHeading?.textContent || a.textContent || '').trim();
+              const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
+              const title = (titleFromLink || titleFromHeading?.textContent || '').trim();
               const locationNode = card
                 ? card.querySelector('[aria-label*="Location"], [data-testid*="location"], [class*="location"]')
                 : null;
@@ -50,7 +51,7 @@ class ScrapeGoogleCareers(ScrapeIt):
                 location,
               };
             });
-        """) or []
+        """, self.JOB_LINK_SELECTOR) or []
 
         seen_links = set()
         result = []
