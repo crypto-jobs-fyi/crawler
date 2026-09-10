@@ -1289,8 +1289,8 @@
         },
         {
             "name": "eve.legal",
-            "jobs_url": "https://jobs.lever.co/Eve",
-            "scraper": "LEVER",
+            "jobs_url": "https://job-boards.greenhouse.io/eve",
+            "scraper": "GREENHOUSE",
             "company_url": "https://www.eve.legal",
             "category": "ai",
             "enabled": true,
