@@ -10,6 +10,7 @@ class FakeDriver:
         self.wait_seconds = None
         self.loaded_url = None
         self.execute_script_calls = 0
+        self.last_script = None
 
     def implicitly_wait(self, seconds):
         self.wait_seconds = seconds
@@ -19,6 +20,7 @@ class FakeDriver:
 
     def execute_script(self, script, selector):
         self.execute_script_calls += 1
+        self.last_script = script
         assert selector == ScrapeGoogleCareers.JOB_LINK_SELECTOR
         return self.script_result
 
@@ -42,6 +44,8 @@ def test_google_careers_scraper_deduplicates_and_filters(monkeypatch):
     assert jobs[0]["location"] == "London, UK"
     assert jobs[1]["title"] == "Research Scientist"
     assert jobs[1]["location"] == "Unknown"
+    assert driver.execute_script_calls == 1
+    assert "querySelectorAll(linkSelector)" in driver.last_script
 
 
 def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
