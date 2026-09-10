@@ -43,11 +43,13 @@ class ScrapeGoogleCareers(ScrapeIt):
               const card = a.closest('li, article, section, [role="listitem"]');
               const titleFromHeading = card ? card.querySelector('h2, h3, h4') : null;
               const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
-              const title = (titleFromHeading?.textContent || titleFromLink || '').trim();
+              const headingText = titleFromHeading ? titleFromHeading.textContent : '';
+              const title = (headingText || titleFromLink || '').trim();
               const locationNode = card
                 ? card.querySelector('[aria-label*="Location"], [aria-label*="location"], [data-testid*="location"], [class*="location"]')
                 : null;
-              const location = (locationNode?.textContent || '').trim();
+              const locationText = locationNode ? locationNode.textContent : '';
+              const location = (locationText || '').trim();
               return {
                 href: a.href,
                 title,
