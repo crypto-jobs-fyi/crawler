@@ -31,7 +31,12 @@ class ScrapeGoogleCareers(ScrapeIt):
                 )
             )
         except TimeoutException:
-            time.sleep(5)
+            self.log_warning(
+                "No Google Careers job links found before timeout",
+                company=company,
+                web_page=web_page,
+            )
+            return []
 
         job_data = driver.execute_script("""
             const linkSelector = arguments[0];
@@ -40,7 +45,7 @@ class ScrapeGoogleCareers(ScrapeIt):
               const card = a.closest('li, article, section, [role="listitem"]');
               const titleFromHeading = card ? card.querySelector('h2, h3, h4') : null;
               const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
-              const title = (titleFromLink || titleFromHeading?.textContent || '').trim();
+              const title = (titleFromHeading?.textContent || titleFromLink || '').trim();
               const locationNode = card
                 ? card.querySelector('[aria-label*="Location"], [data-testid*="location"], [class*="location"]')
                 : null;
