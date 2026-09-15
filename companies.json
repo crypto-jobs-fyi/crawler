@@ -2865,7 +2865,7 @@
         {
             "name": "huspy",
             "jobs_url": "https://revolutpeople.com/huspy/public/careers",
-            "scraper": "CLEO",
+            "scraper": "REVOLUT_PEOPLE",
             "company_url": "https://www.huspy.com",
             "category": "fintech",
             "enabled": true,
