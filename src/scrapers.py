@@ -45,7 +45,7 @@ class Scrapers:
     LMAX = ScrapeLmax
     NEBIUS = ScrapeNebius
     APPLIED_INTUITION = ScrapeAppliedIntuition
-    CLEO = ScrapeRevolutPeople
+    REVOLUT_PEOPLE = ScrapeRevolutPeople
     C3 = ScrapeC3
     GEM = ScrapeGem
     BITCOINSUISSE = ScrapeBitcoinSuisse

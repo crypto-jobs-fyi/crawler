@@ -27,7 +27,7 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create a Huspy CompanyItem (uses the RevolutPeople ATS)."""
-    return CompanyItem('huspy', 'https://revolutpeople.com/huspy/public/careers', Scrapers.CLEO, 'https://www.huspy.com')
+    return CompanyItem('huspy', 'https://revolutpeople.com/huspy/public/careers', Scrapers.REVOLUT_PEOPLE, 'https://www.huspy.com')
 
 
 def test_revolut_people_scraper(driver, scraper, company):
