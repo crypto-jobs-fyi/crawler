@@ -11,21 +11,29 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crypto_crawler.py
 
   crawler-crypto-ashby:
-    uses: ./.github/workflows/crawler-crypto-ashby.yml
+    uses: ./.github/workflows/crawler-crypto.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crypto_crawler_ashby.py
 
   crawler-crypto-greenhouse:
-    uses: ./.github/workflows/crawler-crypto-greenhouse.yml
+    uses: ./.github/workflows/crawler-crypto.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crypto_crawler_greenhouse.py
 
   crawler-crypto-lever:
-    uses: ./.github/workflows/crawler-crypto-lever.yml
+    uses: ./.github/workflows/crawler-crypto.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crypto_crawler_lever.py

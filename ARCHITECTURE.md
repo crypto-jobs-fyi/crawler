@@ -309,14 +309,13 @@ class ScrapeIt(ABC):
 **Purpose**: Automates the scraping, merging, and data update lifecycle using GitHub Actions.
 
 **Key Components**:
-1. **Vertical Crawlers**: (e.g., `crawler-ai.yml`, `crawler-crypto.yml`, `crawler-crypto-ashby.yml`, etc.)
+1. **Vertical Crawlers**: (e.g., `crawler-ai.yml`, `crawler-crypto.yml`, `crawler-fintech.yml`, etc.)
    - All caller workflows are thin wrappers of the shared `reusable-crawler-run.yml` (checkout, setup Python, install deps, run script(s), open PR with job-count diff and full job data).
-   - **AI group**: consolidated into a single parameterized `crawler-ai.yml`. It exposes a `script_name` input (a `workflow_dispatch` dropdown with options `crawler_ai.py`, `crawler_ai_ashby.py`, `crawler_ai_greenhouse.py`, `crawler_ai_lever.py`, or a `workflow_call` string input). A `configure` job maps the chosen `script_name` to its `output_json`/`branch_name`/`pr_title` via a shell `case` statement, then a `run-crawler` job passes those to `reusable-crawler-run.yml`. It has no schedule of its own — `trigger-all-crawler-ai.yml` calls it four times (once per script) as parallel nested jobs.
-   - **Crypto group** (`crawler-crypto.yml`, `crawler-crypto-ashby.yml`, `crawler-crypto-greenhouse.yml`, `crawler-crypto-lever.yml`): still one workflow file per script; each triggers only on `workflow_call` or manual `workflow_dispatch` — no schedule of its own. The `'0 8 * * 2,6'` schedule lives solely in `trigger-all-crawler-crypto.yml`, which invokes all four leaf workflows as nested reusable workflows (parallel sibling jobs).
-   - **Fintech/Tech groups**: still each carry their own `'0 8 * * 2,6'` schedule directly (not yet migrated to the centralized-trigger pattern used by AI/Crypto).
+   - **AI group** and **Crypto group**: each consolidated into a single parameterized workflow (`crawler-ai.yml`, `crawler-crypto.yml`). Each exposes a `script_name` input (a `workflow_dispatch` dropdown listing its vertical's crawler scripts, or a `workflow_call` string). A `configure` job maps the chosen `script_name` to its `output_json`/`branch_name`/`pr_title` via a shell `case` statement, then a `run-crawler` job passes those to `reusable-crawler-run.yml`. Neither has a schedule of its own — `trigger-all-crawler-ai.yml`/`trigger-all-crawler-crypto.yml` each call their workflow four times (once per script) as parallel nested jobs.
+   - **Fintech/Tech groups**: still one workflow file per script, each carrying its own `'0 8 * * 2,6'` schedule directly (not yet migrated to the consolidated/centralized-trigger pattern used by AI/Crypto).
 2. **Trigger/Orchestration Workflows**:
    - `trigger-all-crawler-ai.yml` — owns the AI schedule; calls `crawler-ai.yml` four times via `uses:` with a different `script_name` input each time (nested reusable workflow calls), not `gh workflow run`.
-   - `trigger-all-crawler-crypto.yml` — owns the crypto schedule; calls its four separate leaf workflows directly via `uses:`.
+   - `trigger-all-crawler-crypto.yml` — owns the crypto schedule; calls `crawler-crypto.yml` four times the same way.
    - `crawler-merge-trigger.yml` — manual-only central dispatcher that fires the four vertical merge workflows via `gh workflow run`.
 3. **Merge Workflows**: (e.g., `crawler-ai-merge.yml`, `crawler-crypto-merge.yml`, `crawler-fintech-merge.yml`, `crawler-tech-merge.yml`)
    - `workflow_dispatch`-only (no schedule); each runs `merge_*_jobs.py` followed by `write_*_jobs_age.py` and `get_new_*_jobs.py` via the reusable workflow's multi-script (`script_names`) support.

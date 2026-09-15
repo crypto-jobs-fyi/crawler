@@ -2,16 +2,69 @@ name: Run Crawler Crypto
 
 on:
   workflow_call:
+    inputs:
+      script_name:
+        description: 'Crawler Crypto script to run'
+        required: true
+        type: string
   workflow_dispatch:
+    inputs:
+      script_name:
+        description: 'Crawler Crypto script to run'
+        required: true
+        type: choice
+        options:
+          - crypto_crawler.py
+          - crypto_crawler_ashby.py
+          - crypto_crawler_greenhouse.py
+          - crypto_crawler_lever.py
 
 jobs:
+  configure:
+    runs-on: ubuntu-latest
+    outputs:
+      output_json: ${{ steps.map.outputs.output_json }}
+      branch_name: ${{ steps.map.outputs.branch_name }}
+      pr_title: ${{ steps.map.outputs.pr_title }}
+    steps:
+      - name: Map script name to run config
+        id: map
+        run: |
+          case "${{ inputs.script_name }}" in
+            crypto_crawler.py)
+              echo "output_json=crypto_current_jobs_mix.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_ashby.py)
+              echo "output_json=crypto_current_ashby.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-ashby-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_ashby.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_greenhouse.py)
+              echo "output_json=crypto_current_gh.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-greenhouse-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_greenhouse.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_lever.py)
+              echo "output_json=crypto_current_lever.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-lever-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_lever.py" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "Unknown script_name: ${{ inputs.script_name }}" >&2
+              exit 1
+              ;;
+          esac
+
   run-crawler:
+    needs: configure
     uses: ./.github/workflows/reusable-crawler-run.yml
     permissions:
       contents: write
       pull-requests: write
     with:
-      script_names: 'crypto_crawler.py'
-      output_json: 'crypto_current_jobs_mix.json'
-      branch_name: 'auto/crawler-update'
-      pr_title: 'Automated update from crawler.py'
+      script_names: ${{ inputs.script_name }}
+      output_json: ${{ needs.configure.outputs.output_json }}
+      branch_name: ${{ needs.configure.outputs.branch_name }}
+      pr_title: ${{ needs.configure.outputs.pr_title }}
