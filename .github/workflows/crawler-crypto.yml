@@ -5,71 +5,14 @@ on:
     - cron: '0 8 * * 2,6'
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   run-crawler:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-
-      - name: Get before total_jobs
-        id: before
-        run: |
-          if [ -f crypto_current_jobs_mix.json ]; then
-            echo "total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-          else
-            echo "total=0" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Run crypto_crawler.py
-        run: python crypto_crawler.py
-
-      - name: set-output
-        if: failure() || success()
-        id: set-output
-        run: |
-          ls -l
-          echo "current=$(jq -c . crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-
-      - name: Create Pull Request
-        id: create-pr
-        uses: peter-evans/create-pull-request@v8
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler.py [automated]'
-          base: main
-          branch: 'auto/crawler-update'
-          title: 'Automated update from crawler.py'
-          body: |
-            This PR contains changes made by running crawler.py via GitHub Actions.
-
-            "total_jobs": ${{ steps.before.outputs.total }} -> "total_jobs": ${{ steps.set-output.outputs.after_total }}
-          delete-branch: true
-          reviewers: yury-dubinin
-
-      - name: Add full jobs data as PR comment
-        if: steps.create-pr.outputs.pull-request-operation != 'none'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          {
-            echo '### Full Jobs Data'
-            echo '```json'
-            echo '${{ steps.set-output.outputs.current }}' | jq .
-            echo '```'
-          } > /tmp/comment_body.md
-          gh pr comment "${{ steps.create-pr.outputs.pull-request-number }}" --body-file /tmp/comment_body.md
+    uses: ./.github/workflows/reusable-crawler-run.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_names: 'crypto_crawler.py'
+      output_json: 'crypto_current_jobs_mix.json'
+      branch_name: 'auto/crawler-update'
+      pr_title: 'Automated update from crawler.py'
