@@ -2,16 +2,69 @@ name: Run Crawler AI
 
 on:
   workflow_call:
+    inputs:
+      script_name:
+        description: 'Crawler AI script to run'
+        required: true
+        type: string
   workflow_dispatch:
+    inputs:
+      script_name:
+        description: 'Crawler AI script to run'
+        required: true
+        type: choice
+        options:
+          - crawler_ai.py
+          - crawler_ai_ashby.py
+          - crawler_ai_greenhouse.py
+          - crawler_ai_lever.py
 
 jobs:
+  configure:
+    runs-on: ubuntu-latest
+    outputs:
+      output_json: ${{ steps.map.outputs.output_json }}
+      branch_name: ${{ steps.map.outputs.branch_name }}
+      pr_title: ${{ steps.map.outputs.pr_title }}
+    steps:
+      - name: Map script name to run config
+        id: map
+        run: |
+          case "${{ inputs.script_name }}" in
+            crawler_ai.py)
+              echo "output_json=ai_current_jobs_mix.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-ai-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_ai.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crawler_ai_ashby.py)
+              echo "output_json=ai_current_jobs_ashby.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-ai-ashby-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_ai_ashby.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crawler_ai_greenhouse.py)
+              echo "output_json=ai_current_jobs_greenhouse.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-ai-greenhouse-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_ai_greenhouse.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crawler_ai_lever.py)
+              echo "output_json=ai_current_jobs_lever.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-ai-lever-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_ai_lever.py" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "Unknown script_name: ${{ inputs.script_name }}" >&2
+              exit 1
+              ;;
+          esac
+
   run-crawler:
+    needs: configure
     uses: ./.github/workflows/reusable-crawler-run.yml
     permissions:
       contents: write
       pull-requests: write
     with:
-      script_names: 'crawler_ai.py'
-      output_json: 'ai_current_jobs_mix.json'
-      branch_name: 'auto/crawler-ai-update'
-      pr_title: 'Automated update from crawler_ai.py'
+      script_names: ${{ inputs.script_name }}
+      output_json: ${{ needs.configure.outputs.output_json }}
+      branch_name: ${{ needs.configure.outputs.branch_name }}
+      pr_title: ${{ needs.configure.outputs.pr_title }}

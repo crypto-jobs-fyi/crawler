@@ -11,21 +11,29 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crawler_ai.py
 
   crawler-ai-ashby:
-    uses: ./.github/workflows/crawler-ai-ashby.yml
+    uses: ./.github/workflows/crawler-ai.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crawler_ai_ashby.py
 
   crawler-ai-greenhouse:
-    uses: ./.github/workflows/crawler-ai-greenhouse.yml
+    uses: ./.github/workflows/crawler-ai.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crawler_ai_greenhouse.py
 
   crawler-ai-lever:
-    uses: ./.github/workflows/crawler-ai-lever.yml
+    uses: ./.github/workflows/crawler-ai.yml
     permissions:
       contents: write
       pull-requests: write
+    with:
+      script_name: crawler_ai_lever.py
