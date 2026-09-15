@@ -2000,8 +2000,8 @@
         },
         {
             "name": "deepmind",
-            "jobs_url": "https://job-boards.greenhouse.io/deepmind",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://www.google.com/about/careers/applications/jobs/results?company=DeepMind&utm_source=deepmind&utm_medium=partner-site&src=Online/Google%20Website/deepmind",
+            "scraper": "GOOGLE_CAREERS",
             "company_url": "https://deepmind.google",
             "category": "ai",
             "enabled": true,
