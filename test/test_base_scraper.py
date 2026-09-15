@@ -28,7 +28,7 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create a Base CompanyItem."""
-    return CompanyItem("base", "https://www.base.org/jobs", Scrapers.BASE, "https://www.base.org")
+    return CompanyItem("base", "https://www.base.org/jobs#open-roles", Scrapers.BASE, "https://www.base.org")
 
 
 def test_base_scraper(driver, scraper, company):
