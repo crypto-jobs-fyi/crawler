@@ -5,12 +5,14 @@ on:
     branches: [ main ]
     paths-ignore:
       - '*.json'
+      - '*.md'
       - '.github/workflows/**'
       - '!.github/workflows/tests.yml'
   pull_request:
     branches: [ main ]
     paths-ignore:
       - '*.json'
+      - '*.md'
       - '.github/workflows/**'
       - '!.github/workflows/tests.yml'
 
