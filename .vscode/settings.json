@@ -22,6 +22,8 @@
         "/^python -m pytest test/test_coinbase_scraper\\.py::test_coinbase_scraper -v 2>&1 \\| tail -50$/": {
             "approve": true,
             "matchCommandLine": true
-        }
+        },
+        "\"$PWD/venv/bin/python\"": true,
+        "printf": true
     }
 }
