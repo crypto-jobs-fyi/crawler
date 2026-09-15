@@ -2185,7 +2185,7 @@
             "company_url": "https://web.meetcleo.com",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "interactivebrokers",
