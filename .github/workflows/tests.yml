@@ -28,7 +28,7 @@ jobs:
           - shard: 2
             runner: ubuntu-latest
             tests: >-
-              test/test_cleo_scraper.py
+              test/test_revolut_people_scraper.py
               test/test_coinbase_scraper.py
               test/test_company_list.py
               test/test_consensys_scraper.py
