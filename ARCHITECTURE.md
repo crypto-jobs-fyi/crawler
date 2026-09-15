@@ -309,17 +309,19 @@ class ScrapeIt(ABC):
 **Purpose**: Automates the scraping, merging, and data update lifecycle using GitHub Actions.
 
 **Key Components**:
-1. **Vertical Crawlers**: (e.g., `crawler-ai.yml`, `crawler-crypto.yml`)
-   - Triggered on schedule or manually.
-   - Run specialized crawlers (often headless) and update partial job files.
-2. **Merging Orchesration**: (`crawler-merge-trigger.yml`)
-   - Central dispatcher that triggers vertical-specific merge workflows.
+1. **Vertical Crawlers**: (e.g., `crawler-ai.yml`, `crawler-crypto.yml`, `crawler-ai-ashby.yml`, `crawler-ai-greenhouse.yml`, `crawler-ai-lever.yml`, `crawler-crypto-ashby.yml`, etc.)
+   - All 14 crawler/merge workflows are thin callers of the shared `reusable-crawler-run.yml` (checkout, setup Python, install deps, run script(s), open PR with job-count diff and full job data).
+   - **AI group** (`crawler-ai.yml`, `crawler-ai-ashby.yml`, `crawler-ai-greenhouse.yml`, `crawler-ai-lever.yml`): no longer schedule themselves — they trigger only on `workflow_call` or manual `workflow_dispatch`. The `'0 8 * * 2,6'` schedule now lives solely in `trigger-all-crawler-ai.yml`, which invokes all four as nested reusable workflows (parallel sibling jobs) so a single scheduled run fans out to all four and waits for/reports their results.
+   - **Crypto/Fintech/Tech groups**: still each carry their own `'0 8 * * 2,6'` schedule directly (not yet migrated to the centralized-trigger pattern used by AI).
+2. **Trigger/Orchestration Workflows**:
+   - `trigger-all-crawler-ai.yml` — owns the AI-group schedule; calls `crawler-ai.yml`/`-ashby`/`-greenhouse`/`-lever` directly via `uses:` (nested reusable workflow calls), not `gh workflow run`.
+   - `trigger-all-crawler-crypto.yml` — manual-only; still uses `gh workflow run` to fire-and-forget dispatch each crypto crawler as a separate, untracked run (older pattern, pending the same migration as AI).
+   - `crawler-merge-trigger.yml` — manual-only central dispatcher that fires the four vertical merge workflows via `gh workflow run`.
 3. **Merge Workflows**: (e.g., `crawler-ai-merge.yml`, `crawler-crypto-merge.yml`, `crawler-fintech-merge.yml`, `crawler-tech-merge.yml`)
-   - Execute the corresponding `merge_*_jobs.py` script.
-   - Run post-processing (`write_*_jobs_age.py`, `get_new_*_jobs.py`).
-   - Automatically open a Pull Request with updated data and status metrics.
-4. **Reusable Workflows**: (`reusable-crawler-run.yml`)
-   - Standardized template for running crawler steps across different verticals to reduce duplication.
+   - `workflow_dispatch`-only (no schedule); each runs `merge_*_jobs.py` followed by `write_*_jobs_age.py` and `get_new_*_jobs.py` via the reusable workflow's multi-script (`script_names`) support.
+4. **Reusable Workflow**: (`reusable-crawler-run.yml`)
+   - Single template used by all 14 caller workflows above. Accepts `script_names` (space-separated, run in order), `output_json`, `branch_name`, `pr_title`. Includes `timeout-minutes`, pip caching, and a `concurrency` group keyed on `branch_name` to avoid overlapping runs targeting the same PR branch.
+5. **CI Tests** (`tests.yml`): runs the pytest matrix on push/PR to `main`; ignores `*.json` data files and changes to other workflow files under `.github/workflows/**` (changes to `tests.yml` itself still trigger it).
 
 ---
 
