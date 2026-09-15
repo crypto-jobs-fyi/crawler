@@ -1,33 +1,39 @@
-name: Trigger All Crawler Crypto Workflows
+name: Run All Crawler Crypto Workflows
 
 on:
+  schedule:
+    - cron: '0 8 * * 2,6'
   workflow_dispatch:
 
 jobs:
-  trigger-workflows:
-    runs-on: ubuntu-latest
+  crawler-crypto:
+    uses: ./.github/workflows/crawler-crypto.yml
     permissions:
-      actions: write
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crypto_crawler.py
 
-      - name: Trigger Crawler Crypto
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run crawler-crypto.yml
+  crawler-crypto-ashby:
+    uses: ./.github/workflows/crawler-crypto.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crypto_crawler_ashby.py
 
-      - name: Trigger Crawler Crypto Ashby
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run crawler-crypto-ashby.yml
+  crawler-crypto-greenhouse:
+    uses: ./.github/workflows/crawler-crypto.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crypto_crawler_greenhouse.py
 
-      - name: Trigger Crawler Crypto Greenhouse
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run crawler-crypto-greenhouse.yml
-
-      - name: Trigger Crawler Crypto Lever
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run crawler-crypto-lever.yml
+  crawler-crypto-lever:
+    uses: ./.github/workflows/crawler-crypto.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crypto_crawler_lever.py

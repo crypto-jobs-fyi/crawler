@@ -2180,12 +2180,12 @@
         },
         {
             "name": "Cleo",
-            "jobs_url": "https://revolutpeople.com/cleo/public/careers",
-            "scraper": "CLEO",
+            "jobs_url": "https://jobs.ashbyhq.com/cleo-2",
+            "scraper": "ASHBYHQ",
             "company_url": "https://web.meetcleo.com",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "interactivebrokers",
@@ -2865,7 +2865,7 @@
         {
             "name": "huspy",
             "jobs_url": "https://revolutpeople.com/huspy/public/careers",
-            "scraper": "CLEO",
+            "scraper": "REVOLUT_PEOPLE",
             "company_url": "https://www.huspy.com",
             "category": "fintech",
             "enabled": true,

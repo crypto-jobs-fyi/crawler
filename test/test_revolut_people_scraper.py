@@ -1,6 +1,6 @@
 import pytest
 from selenium import webdriver
-from src.scrape_cleo import ScrapeCleo
+from src.scrape_revolut_people import ScrapeRevolutPeople
 from src.company_item import CompanyItem
 from src.scrapers import Scrapers
 
@@ -20,18 +20,18 @@ def driver():
 
 @pytest.fixture
 def scraper():
-    """Fixture to create a ScrapeCleo instance."""
-    return ScrapeCleo()
+    """Fixture to create a ScrapeRevolutPeople instance."""
+    return ScrapeRevolutPeople()
 
 
 @pytest.fixture
 def company():
-    """Fixture to create a Cleo CompanyItem."""
-    return CompanyItem('Cleo', 'https://revolutpeople.com/cleo/public/careers', Scrapers.CLEO, 'https://web.meetcleo.com')
+    """Fixture to create a Huspy CompanyItem (uses the RevolutPeople ATS)."""
+    return CompanyItem('huspy', 'https://revolutpeople.com/huspy/public/careers', Scrapers.REVOLUT_PEOPLE, 'https://www.huspy.com')
 
 
-def test_cleo_scraper(driver, scraper, company):
-    """Test Cleo scraper to verify job extraction."""
+def test_revolut_people_scraper(driver, scraper, company):
+    """Test RevolutPeople scraper to verify job extraction."""
     # Act
     jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
     

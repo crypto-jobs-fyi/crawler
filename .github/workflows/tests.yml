@@ -5,10 +5,16 @@ on:
     branches: [ main ]
     paths-ignore:
       - '*.json'
+      - '*.md'
+      - '.github/workflows/**'
+      - '!.github/workflows/tests.yml'
   pull_request:
     branches: [ main ]
     paths-ignore:
       - '*.json'
+      - '*.md'
+      - '.github/workflows/**'
+      - '!.github/workflows/tests.yml'
 
 jobs:
   test:
@@ -28,7 +34,7 @@ jobs:
           - shard: 2
             runner: ubuntu-latest
             tests: >-
-              test/test_cleo_scraper.py
+              test/test_revolut_people_scraper.py
               test/test_coinbase_scraper.py
               test/test_company_list.py
               test/test_consensys_scraper.py

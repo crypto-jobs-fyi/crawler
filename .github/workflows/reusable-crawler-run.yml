@@ -3,7 +3,8 @@ name: Reusable Crawler Run
 on:
   workflow_call:
     inputs:
-      script_name:
+      script_names:
+        description: 'Space-separated list of python scripts to run in order'
         required: true
         type: string
       output_json:
@@ -20,17 +21,23 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: crawler-${{ inputs.branch_name }}
+  cancel-in-progress: false
+
 jobs:
   run-crawler:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
@@ -45,8 +52,12 @@ jobs:
             echo "total=0" >> $GITHUB_OUTPUT
           fi
 
-      - name: Run crawler script
-        run: python ${{ inputs.script_name }}
+      - name: Run crawler scripts
+        run: |
+          for script in ${{ inputs.script_names }}; do
+            echo "Running $script"
+            python "$script"
+          done
 
       - name: set-output
         if: failure() || success()
@@ -58,15 +69,15 @@ jobs:
 
       - name: Create Pull Request
         id: create-pr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via ${{ inputs.script_name }} [automated]'
+          commit-message: 'chore: update data via ${{ inputs.script_names }} [automated]'
           base: main
           branch: ${{ inputs.branch_name }}
           title: ${{ inputs.pr_title }}
           body: |
-            This PR contains changes made by running ${{ inputs.script_name }} via GitHub Actions.
+            This PR contains changes made by running ${{ inputs.script_names }} via GitHub Actions.
 
             "total_jobs": ${{ steps.before.outputs.total }} -> "total_jobs": ${{ steps.set-output.outputs.after_total }}
           delete-branch: true

@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from src.scrape_it import ScrapeIt
 
 
-class ScrapeCleo(ScrapeIt):
+class ScrapeRevolutPeople(ScrapeIt):
     name = 'Cleo'
 
     def clean_location(self, location: str) -> str:

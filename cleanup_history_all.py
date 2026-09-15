@@ -28,7 +28,7 @@ def cleanup_history(history_file: str, company_list: list, label: str) -> tuple[
     if not companies_to_remove:
         logger.info(
             "History validation",
-            extra={"history_file": history_file, "label": label, "message": "No removals"},
+            extra={"history_file": history_file, "label": label, "detail": "No removals"},
         )
         return 0, len(history)
     

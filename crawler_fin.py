@@ -8,7 +8,7 @@ current_jobs_file = 'fin_current_jobs_mix.json'
 
 logger = get_logger(__name__)
 
-exclude = [Scrapers.CLEO]
+exclude = [Scrapers.REVOLUT_PEOPLE]
 filtered_companies = Companies.filter_companies_not(category="fintech", scraper_types=exclude)
 
 logger.info(

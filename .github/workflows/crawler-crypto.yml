@@ -1,75 +1,70 @@
 name: Run Crawler Crypto
 
 on:
-  schedule:
-    - cron: '0 8 * * 2,6'
+  workflow_call:
+    inputs:
+      script_name:
+        description: 'Crawler Crypto script to run'
+        required: true
+        type: string
   workflow_dispatch:
-
-permissions:
-  contents: write
-  pull-requests: write
+    inputs:
+      script_name:
+        description: 'Crawler Crypto script to run'
+        required: true
+        type: choice
+        options:
+          - crypto_crawler.py
+          - crypto_crawler_ashby.py
+          - crypto_crawler_greenhouse.py
+          - crypto_crawler_lever.py
 
 jobs:
-  run-crawler:
+  configure:
     runs-on: ubuntu-latest
+    outputs:
+      output_json: ${{ steps.map.outputs.output_json }}
+      branch_name: ${{ steps.map.outputs.branch_name }}
+      pr_title: ${{ steps.map.outputs.pr_title }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
+      - name: Map script name to run config
+        id: map
         run: |
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          case "${{ inputs.script_name }}" in
+            crypto_crawler.py)
+              echo "output_json=crypto_current_jobs_mix.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_ashby.py)
+              echo "output_json=crypto_current_ashby.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-ashby-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_ashby.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_greenhouse.py)
+              echo "output_json=crypto_current_gh.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-greenhouse-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_greenhouse.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crypto_crawler_lever.py)
+              echo "output_json=crypto_current_lever.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crypto-crawler-lever-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crypto_crawler_lever.py" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "Unknown script_name: ${{ inputs.script_name }}" >&2
+              exit 1
+              ;;
+          esac
 
-      - name: Get before total_jobs
-        id: before
-        run: |
-          if [ -f crypto_current_jobs_mix.json ]; then
-            echo "total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-          else
-            echo "total=0" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Run crypto_crawler.py
-        run: python crypto_crawler.py
-
-      - name: set-output
-        if: failure() || success()
-        id: set-output
-        run: |
-          ls -l
-          echo "current=$(jq -c . crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' crypto_current_jobs_mix.json)" >> $GITHUB_OUTPUT
-
-      - name: Create Pull Request
-        id: create-pr
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: 'chore: update data via crawler.py [automated]'
-          base: main
-          branch: 'auto/crawler-update'
-          title: 'Automated update from crawler.py'
-          body: |
-            This PR contains changes made by running crawler.py via GitHub Actions.
-
-            "total_jobs": ${{ steps.before.outputs.total }} -> "total_jobs": ${{ steps.set-output.outputs.after_total }}
-          delete-branch: true
-          reviewers: yury-dubinin
-
-      - name: Add full jobs data as PR comment
-        if: steps.create-pr.outputs.pull-request-operation != 'none'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          {
-            echo '### Full Jobs Data'
-            echo '```json'
-            echo '${{ steps.set-output.outputs.current }}' | jq .
-            echo '```'
-          } > /tmp/comment_body.md
-          gh pr comment "${{ steps.create-pr.outputs.pull-request-number }}" --body-file /tmp/comment_body.md
+  run-crawler:
+    needs: configure
+    uses: ./.github/workflows/reusable-crawler-run.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_names: ${{ inputs.script_name }}
+      output_json: ${{ needs.configure.outputs.output_json }}
+      branch_name: ${{ needs.configure.outputs.branch_name }}
+      pr_title: ${{ needs.configure.outputs.pr_title }}
