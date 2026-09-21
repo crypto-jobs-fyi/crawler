@@ -1774,6 +1774,15 @@
             "headless": true
         },
         {
+            "name": "typesafe.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/typesafe-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://typesafe.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "flocksafety.com",
             "jobs_url": "https://jobs.ashbyhq.com/Flock%20Safety",
             "scraper": "ASHBYHQ",
