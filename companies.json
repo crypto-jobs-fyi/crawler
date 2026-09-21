@@ -2071,6 +2071,15 @@
             "headless": true
         },
         {
+            "name": "pigment",
+            "jobs_url": "https://jobs.lever.co/pigment",
+            "scraper": "LEVER",
+            "company_url": "https://www.pigment.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "machinify",
             "jobs_url": "https://jobs.ashbyhq.com/machinify",
             "scraper": "ASHBYHQ",

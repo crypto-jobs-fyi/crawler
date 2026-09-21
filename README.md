@@ -187,7 +187,6 @@ The following companies are targeted for future integration:
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://lightcurve.jobs.personio.de/?language=en
 - https://apply.workable.com/anza-xyz/
-- https://jobs.lever.co/pigment
 - https://jobs.lever.co/neednova
 - https://plaid.com/careers/openings
 
