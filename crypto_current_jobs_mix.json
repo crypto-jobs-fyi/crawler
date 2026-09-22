@@ -1,16 +1,17 @@
 {
-    "base": 2,
-    "total_jobs": 322,
     "paxos": 15,
-    "circle": 51,
+    "total_jobs": 324,
+    "base": 2,
+    "circle": 50,
     "Swissquote": 15,
     "io-global": 2,
     "ripple": 127,
-    "lmax": 6,
+    "lmax": 7,
     "dragonflycapital": 25,
-    "gemini": 39,
-    "worldcoin": 21,
+    "gemini": 42,
+    "worldcoin": 20,
     "trojan-trading": 5,
     "freedx": 4,
-    "crypto-finance": 10
+    "bitfinex": 1,
+    "crypto-finance": 9
 }
