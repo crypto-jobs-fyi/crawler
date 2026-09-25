@@ -13,13 +13,13 @@ class ScrapeBitcoinSuisse(ScrapeIt):
         )
         driver.implicitly_wait(3)
         driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, '[id=jobList] div[class*="row-table"]')
+        group_elements = driver.find_elements(By.CSS_SELECTOR, '[data-testid="jobs-list"] li')
         result = []
         for elem in group_elements:
-            job_name_elem = elem.find_element(By.CSS_SELECTOR, '[class="job-title"] a')
+            job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')
             job_name = job_name_elem.text
             job_url = job_name_elem.get_attribute('href')
-            location = elem.find_elements(By.CSS_SELECTOR, '[class*="cell-table"] div[class="inner"]')[1].text
+            location = elem.find_element(By.CSS_SELECTOR, '[data-testid="job-more-info"]').text
             job = {
                 "company": company,
                 "title": job_name,
