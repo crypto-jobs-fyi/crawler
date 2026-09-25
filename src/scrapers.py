@@ -15,7 +15,6 @@ from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_sygnum import ScrapeSygnum
 from src.scrape_lmax import ScrapeLmax
 from src.scrape_nebius import ScrapeNebius
-from src.scrape_applied_intuition import ScrapeAppliedIntuition
 from src.scrape_revolut_people import ScrapeRevolutPeople
 from src.scrape_c3 import ScrapeC3
 from src.scrape_gem import ScrapeGem
@@ -44,7 +43,6 @@ class Scrapers:
     RIPPLE = ScrapeRipple
     LMAX = ScrapeLmax
     NEBIUS = ScrapeNebius
-    APPLIED_INTUITION = ScrapeAppliedIntuition
     REVOLUT_PEOPLE = ScrapeRevolutPeople
     C3 = ScrapeC3
     GEM = ScrapeGem
