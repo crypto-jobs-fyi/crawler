@@ -2081,8 +2081,8 @@
         },
         {
             "name": "machinify",
-            "jobs_url": "https://jobs.ashbyhq.com/machinify",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://job-boards.greenhouse.io/machinifyinc",
+            "scraper": "GREENHOUSE",
             "company_url": "https://www.machinify.com",
             "category": "ai",
             "enabled": true,
