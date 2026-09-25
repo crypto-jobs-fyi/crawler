@@ -2144,8 +2144,8 @@
         },
         {
             "name": "leonardo.ai",
-            "jobs_url": "https://jobs.ashbyhq.com/leonardo.ai",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://careers.smartrecruiters.com/leonardoai",
+            "scraper": "SMARTRECRUITERS",
             "company_url": "https://leonardo.ai",
             "category": "ai",
             "enabled": true,
@@ -2342,8 +2342,8 @@
         },
         {
             "name": "cerebras.ai",
-            "jobs_url": "https://job-boards.greenhouse.io/cerebrassystems",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/cerebras",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.cerebras.ai",
             "category": "ai",
             "enabled": true,
@@ -2416,7 +2416,7 @@
             "name": "starmind",
             "jobs_url": "https://job-boards.greenhouse.io/starmind",
             "scraper": "GREENHOUSE",
-            "company_url": "https://www.starmind.ai",
+            "company_url": "https://www.starmind.com",
             "category": "ai",
             "enabled": true,
             "headless": true
@@ -2459,8 +2459,8 @@
         },
         {
             "name": "encord.com",
-            "jobs_url": "https://jobs.lever.co/CordTechnologies",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/encord",
+            "scraper": "ASHBYHQ",
             "company_url": "https://encord.com",
             "category": "ai",
             "enabled": true,
@@ -2468,8 +2468,8 @@
         },
         {
             "name": "applied_intuition",
-            "jobs_url": "https://www.appliedintuition.com/careers#job-listings",
-            "scraper": "APPLIED_INTUITION",
+            "jobs_url": "https://jobs.ashbyhq.com/applied",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.appliedintuition.com",
             "category": "ai",
             "enabled": true,
