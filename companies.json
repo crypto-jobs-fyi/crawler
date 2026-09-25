@@ -1558,15 +1558,6 @@
             "headless": true
         },
         {
-            "name": "aPriori",
-            "jobs_url": "https://job-boards.greenhouse.io/apr",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://www.apr.io",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "blockdaemon",
             "jobs_url": "https://jobs.ashbyhq.com/blockdaemon",
             "scraper": "ASHBYHQ",
