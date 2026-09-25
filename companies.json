@@ -740,8 +740,8 @@
         },
         {
             "name": "wormholefoundation",
-            "jobs_url": "https://boards.greenhouse.io/iftother",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/wormholelabs",
+            "scraper": "ASHBYHQ",
             "company_url": "https://wormhole.com",
             "category": "crypto",
             "enabled": true,
@@ -1508,15 +1508,6 @@
             "jobs_url": "https://world.org/careers",
             "scraper": "WORLDCOIN",
             "company_url": "https://world.org",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
-            "name": "solana",
-            "jobs_url": "https://job-boards.greenhouse.io/solana",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://solana.com",
             "category": "crypto",
             "enabled": true,
             "headless": true
