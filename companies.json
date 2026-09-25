@@ -2053,15 +2053,6 @@
             "headless": true
         },
         {
-            "name": "neptuneai",
-            "jobs_url": "https://job-boards.greenhouse.io/neptuneai",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://neptune.ai",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "n8n",
             "jobs_url": "https://jobs.ashbyhq.com/n8n",
             "scraper": "ASHBYHQ",
