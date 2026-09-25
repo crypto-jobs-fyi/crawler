@@ -766,15 +766,6 @@
             "headless": true
         },
         {
-            "name": "bitmex",
-            "jobs_url": "https://boards.greenhouse.io/bitmex",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://bitmex.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "bitgo",
             "jobs_url": "https://boards.greenhouse.io/bitgo",
             "scraper": "GREENHOUSE",
