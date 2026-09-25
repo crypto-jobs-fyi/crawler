@@ -190,4 +190,10 @@ The following companies are targeted for future integration:
 to be fixed:
 
 "name": "interactivebrokers",
-"jobs_url": "https://job-boards.greenhouse.io/ibkr"
+"jobs_url": "https://jobs.dayforcehcm.com/en-US/ibgllc/CANDIDATEPORTAL"
+
+"name": "RadicalAI",
+"jobs_url": "https://app.nodi.global/company/Radical%20AI"
+
+"name": "fireblocks",
+"jobs_url": "https://www.fireblocks.com/careers#open-roles"

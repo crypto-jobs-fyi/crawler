@@ -1459,15 +1459,6 @@
             "headless": true
         },
         {
-            "name": "noble",
-            "jobs_url": "https://job-boards.greenhouse.io/noble",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://www.noble.xyz",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "ramp.network",
             "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork",
             "scraper": "GREENHOUSE",
