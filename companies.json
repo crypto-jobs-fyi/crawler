@@ -774,6 +774,15 @@
             "enabled": true,
             "headless": true
         },
+         {
+            "name": "bybit",
+            "jobs_url": "https://boards.greenhouse.io/bybit",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bybit.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
         {
             "name": "bitpanda",
             "jobs_url": "https://boards.eu.greenhouse.io/bitpanda",

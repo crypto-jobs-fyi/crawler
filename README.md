@@ -90,7 +90,6 @@ If you find this project useful, please donate ETH/ERC-20 to:
 The following companies are targeted for future integration:
 - https://careers.smartrecruiters.com/MicroStrategy1
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://apply.workable.com/re7-capital/
 - https://careers.persistence.one/jobs
 - https://www.eotlabs.io/about-us#Vacancy-Section
@@ -124,7 +123,6 @@ The following companies are targeted for future integration:
 - https://changenow.io/jobs
 - https://chainsafe.github.io/protocol
 - https://www.sofi.com/careers
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://www.openzeppelin.com/jobs
 - https://careers.chorus.one/
 - https://staking-facilities-gmbh.jobs.personio.com/
@@ -163,7 +161,6 @@ The following companies are targeted for future integration:
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
 - https://jobs.dragonfly.xyz/jobs 
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/
 - https://www.ethswarm.org/jobs
 - https://cash.app/careers
 - https://edxmarkets.com/about/careers/
