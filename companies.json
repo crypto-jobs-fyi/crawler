@@ -3174,7 +3174,7 @@
             "scraper": "LEVER",
             "company_url": "https://ultra.io",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -3183,7 +3183,7 @@
             "scraper": "LEVER",
             "company_url": "https://glassnode.com",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -3290,15 +3290,6 @@
             "jobs_url": "https://apply.workable.com/distributedcrafts",
             "scraper": "WORKABLE",
             "company_url": "https://www.gobob.xyz/",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
-            "name": "prepo",
-            "jobs_url": "https://apply.workable.com/prepo",
-            "scraper": "WORKABLE",
-            "company_url": "https://prepo.io",
             "category": "crypto",
             "enabled": true,
             "headless": true
