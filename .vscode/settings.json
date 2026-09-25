@@ -25,6 +25,7 @@
         },
         "\"$PWD/venv/bin/python\"": true,
         "printf": true,
-        "git -C /Users/ydubinin/Documents/GitHub/crawler": true
+        "git -C /Users/ydubinin/Documents/GitHub/crawler": true,
+        "venv/bin/python": true
     }
 }

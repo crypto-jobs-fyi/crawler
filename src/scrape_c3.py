@@ -6,7 +6,7 @@ module_logger = get_logger(__name__)
 
 
 def to_records(driver, company) -> list:
-    group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-dept_id] > a[href*="c3"]')
+    group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/job-"]')
     result = []
     module_logger.info(
         "C3 jobs found",
@@ -14,8 +14,8 @@ def to_records(driver, company) -> list:
     )
     for elem in group_elements:
         job_url = elem.get_attribute('href')
-        title = elem.find_element(By.CSS_SELECTOR, 'h4[class="title"]').text
-        location = elem.find_element(By.CSS_SELECTOR, 'h6[class="location"]').text
+        title = elem.find_element(By.CSS_SELECTOR, 'h4').text
+        location = elem.find_element(By.CSS_SELECTOR, 'h5').text
         if title != '':
             job = {
             "company": company,
@@ -38,7 +38,10 @@ class ScrapeC3(ScrapeIt):
         )
         driver.implicitly_wait(5)
         driver.get(web_page)
-        button = driver.find_element(By.XPATH, '//div[@id="jobBtnHolder"]/button')
+        button = driver.find_element(
+            By.XPATH,
+            '//button[@type="button" and normalize-space()="View all"]',
+        )
         driver.execute_script("arguments[0].click();", button)
         result = to_records(driver, company)
         self.log_info(
