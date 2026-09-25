@@ -2585,8 +2585,8 @@
         },
         {
             "name": "fireworks.ai",
-            "jobs_url": "https://job-boards.greenhouse.io/fireworksai",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/fireworks",
+            "scraper": "ASHBYHQ",
             "company_url": "https://fireworks.ai",
             "category": "ai",
             "enabled": true,
@@ -2665,9 +2665,9 @@
             "headless": true
         },
         {
-            "name": "interfaceai",
-            "jobs_url": "https://job-boards.greenhouse.io/interfaceai",
-            "scraper": "GREENHOUSE",
+            "name": "interface.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/interface-ai",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.interface.ai",
             "category": "ai",
             "enabled": true,
