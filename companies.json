@@ -2224,6 +2224,15 @@
             "headless": true
         },
         {
+            "name": "imc.com",
+            "jobs_url": "https://job-boards.greenhouse.io/imc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.imc.com/us/",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "glean",
             "jobs_url": "https://job-boards.greenhouse.io/gleanwork",
             "scraper": "GREENHOUSE",
