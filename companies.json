@@ -3223,6 +3223,15 @@
             "headless": true
         },
         {
+            "name": "gsrmarkets",
+            "jobs_url": "https://boards.greenhouse.io/gsrmarkets",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.gsr.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "econetwork",
             "jobs_url": "https://job-boards.greenhouse.io/ecoinc",
             "scraper": "GREENHOUSE",
