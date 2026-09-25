@@ -189,4 +189,5 @@ The following companies are targeted for future integration:
 
 to be fixed:
 
-CompanyItem('Tenderly', 'https://careers.kula.ai/tenderly', custom, 'https://tenderly.co'),
+"name": "interactivebrokers",
+"jobs_url": "https://job-boards.greenhouse.io/ibkr"

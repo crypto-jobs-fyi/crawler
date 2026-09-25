@@ -3196,6 +3196,15 @@
             "headless": true
         },
         {
+            "name": "tenderly",
+            "jobs_url": "https://jobs.ashbyhq.com/tenderly",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://tenderly.co",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "pyth",
             "jobs_url": "https://jobs.ashbyhq.com/pythnetwork",
             "scraper": "ASHBYHQ",
