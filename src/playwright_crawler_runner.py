@@ -17,11 +17,15 @@ class PlaywrightCrawlerRunner:
         current_jobs_file: str,
         headless: bool = True,
         max_workers: int = 1,
+        max_attempts: int = 3,
     ):
+        if max_attempts < 1:
+            raise ValueError("max_attempts must be at least 1")
         self.jobs_file = jobs_file
         self.current_jobs_file = current_jobs_file
         self.headless = headless
         self.max_workers = max_workers
+        self.max_attempts = max_attempts
         self.file_lock = threading.Lock()
         self.logger = get_logger(self.__class__.__name__)
         self._initialize_files()
@@ -45,9 +49,8 @@ class PlaywrightCrawlerRunner:
             extra={"progress": progress_info, "company": company.company_name},
         )
         jobs_data = []
-        max_retries = 2
 
-        for attempt in range(max_retries + 1):
+        for attempt in range(self.max_attempts):
             context = browser.new_context()
             page: Page = context.new_page()
             try:
@@ -55,13 +58,13 @@ class PlaywrightCrawlerRunner:
                 jobs_data = crawler_type.getJobs(page, company.jobs_url, company.company_name)
                 if jobs_data:
                     break
-                if attempt < max_retries:
+                if attempt < self.max_attempts - 1:
                     self.logger.warning(
                         "No jobs returned",
                         extra={
                             "company": company.company_name,
                             "attempt": attempt + 1,
-                            "max_attempts": max_retries + 1,
+                            "max_attempts": self.max_attempts,
                         },
                     )
                     time.sleep(2)
@@ -72,10 +75,10 @@ class PlaywrightCrawlerRunner:
                     extra={
                         "company": company.company_name,
                         "attempt": attempt + 1,
-                        "max_attempts": max_retries + 1,
+                        "max_attempts": self.max_attempts,
                     },
                 )
-                if attempt < max_retries:
+                if attempt < self.max_attempts - 1:
                     self.logger.info(
                         "Retrying scrape",
                         extra={
@@ -110,7 +113,7 @@ class PlaywrightCrawlerRunner:
                 "Scrape failed",
                 extra={
                     "company": company.company_name,
-                    "attempts": max_retries + 1,
+                    "attempts": self.max_attempts,
                 },
             )
 

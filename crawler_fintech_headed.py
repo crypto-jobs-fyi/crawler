@@ -11,5 +11,10 @@ filtered_companies = Companies.filter_companies_by_name(category="fintech", comp
 for company in filtered_companies:
     company.scraper_type = ScrapeRevolutPeoplePlaywright
 
-runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file, headless=True)
+runner = PlaywrightCrawlerRunner(
+    jobs_file,
+    current_jobs_file,
+    headless=False,
+    max_attempts=2,
+)
 runner.run(filtered_companies)
