@@ -1,4 +1,4 @@
-from src.playwright_adapter import By
+from src.playwright_adapter import By, PlaywrightConditions as EC, PlaywrightWait
 from src.scrape_it import ScrapeIt
 
 
@@ -12,8 +12,10 @@ class ScrapeRipple(ScrapeIt):
             web_page=web_page,
         )
         page.get(web_page)
-        # use reverse strategy from a link to a title
-        group_elements = page.find_elements(By.XPATH, '//div/a[contains(@class, "body3")]')
+        job_locator = 'a[href*="/careers/all-jobs/job/"]'
+        group_elements = PlaywrightWait(page, 20).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_locator))
+        )
         result = []
         for elem in group_elements:
             link_elem = elem
