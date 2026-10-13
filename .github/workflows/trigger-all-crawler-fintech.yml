@@ -21,3 +21,11 @@ jobs:
       pull-requests: write
     with:
       script_name: crawler_fin_ashby.py
+
+  crawler-fintech-greenhouse:
+    uses: ./.github/workflows/crawler-fintech.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crawler_fin_greenhouse.py

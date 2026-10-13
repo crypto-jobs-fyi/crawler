@@ -2860,7 +2860,7 @@
             "company_url": "https://www.affirm.com",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "huspy",

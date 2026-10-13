@@ -44,6 +44,12 @@ To run only the FinTech companies that use Ashby:
 python crawler_fin_ashby.py
 ```
 
+To run only the FinTech companies that use Greenhouse:
+
+```bash
+python crawler_fin_greenhouse.py
+```
+
 All crawlers use Playwright. The headed crypto crawler is useful for sites that
 need a visible browser session:
 

@@ -17,6 +17,7 @@ on:
         options:
           - crawler_fin.py
           - crawler_fin_ashby.py
+          - crawler_fin_greenhouse.py
 
 permissions: {}
 
@@ -42,6 +43,11 @@ jobs:
               echo "output_json=fin_current_jobs_ashby.json" >> "$GITHUB_OUTPUT"
               echo "branch_name=auto/crawler-fin-ashby-update" >> "$GITHUB_OUTPUT"
               echo "pr_title=Automated update from crawler_fin_ashby.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crawler_fin_greenhouse.py)
+              echo "output_json=fin_current_jobs_greenhouse.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-fin-greenhouse-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_fin_greenhouse.py" >> "$GITHUB_OUTPUT"
               ;;
             *)
               echo "Unknown script_name: ${{ inputs.script_name }}" >&2

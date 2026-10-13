@@ -44,6 +44,7 @@ def read_jobs(file_name):
 job_json_list = [
     'fin_jobs_mix.json',
     'fin_jobs_ashby.json',
+    'fin_jobs_greenhouse.json',
     'headed_fintech_jobs.json'
 ]
 
