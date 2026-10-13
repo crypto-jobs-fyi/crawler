@@ -107,7 +107,13 @@ python -m playwright install chromium
 1.  Create `src/scrape_<name>.py` inheriting from `ScrapeIt`.
 2.  Implement `getJobs(self, page, web_page, company)`.
 3.  Use the Playwright adapter or native Playwright locators.
-4.  Register the new scraper in `src/scrapers.py`.
+4.  Ensure it works in headless Chromium; new scrapers must not require a
+    headed entry point.
+5.  Add `test/test_<name>_scraper.py` with the pytest-playwright `page`
+    fixture. Live scraper tests must navigate to the real target page rather
+    than mocking network responses. Run them with `--run-live`, for example:
+    `pytest --run-live test/test_dayforce_scraper.py`.
+6.  Register the new scraper in `src/scrapers.py`.
 
 ## Roadmap
 - [x] Automate scraping from popular HR platforms
@@ -223,9 +229,6 @@ The following companies are targeted for future integration:
 - https://plaid.com/careers/openings
 
 to be fixed:
-
-"name": "interactivebrokers",
-"jobs_url": "https://jobs.dayforcehcm.com/en-US/ibgllc/CANDIDATEPORTAL"
 
 "name": "RadicalAI",
 "jobs_url": "https://app.nodi.global/company/Radical%20AI"

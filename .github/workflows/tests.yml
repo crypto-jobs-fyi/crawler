@@ -31,6 +31,7 @@ jobs:
               test/test_base_scraper.py
               test/test_btcsuisse.py
               test/test_c3_scraper.py
+              test/test_dayforce_scraper.py
               test/test_playwright_headed_scrapers.py
           - shard: 2
             runner: ubuntu-latest

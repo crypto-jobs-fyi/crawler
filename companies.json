@@ -2180,8 +2180,8 @@
         },
         {
             "name": "interactivebrokers",
-            "jobs_url": "https://job-boards.greenhouse.io/ibkr",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.dayforcehcm.com/en-US/ibgllc/CANDIDATEPORTAL",
+            "scraper": "DAYFORCE",
             "company_url": "https://www.interactivebrokers.com/en",
             "category": "fintech",
             "enabled": true,

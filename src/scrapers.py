@@ -26,6 +26,7 @@ from src.scrape_avara import ScrapeAvara
 from src.scrape_recruitee import ScrapeRecruitee
 from src.scrape_helsing import ScrapeHelsing
 from src.scrape_cursor import ScrapeCursor
+from src.scrape_dayforce import ScrapeDayforce
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -54,3 +55,4 @@ class Scrapers:
     RECRUITEE = ScrapeRecruitee
     HELSING = ScrapeHelsing
     CURSOR = ScrapeCursor
+    DAYFORCE = ScrapeDayforce

@@ -52,7 +52,12 @@ Tests are located in the `test/` directory and use `pytest`.
 2.  Define a class inheriting from `ScrapeIt`.
 3.  Implement the `getJobs` method.
 4.  Use the Playwright page adapter or native Playwright locators to navigate and extract data.
-5.  **Example Pattern**:
+5.  Make the scraper work in headless Chromium. Do not add a headed-only
+    scraper or set `headless=False` for a new company.
+6.  Add a test in `test/test_<name>_scraper.py` using the pytest-playwright
+    `page` fixture. Live scraper tests must use the real target page and must
+    not mock network responses; run them with `--run-live`.
+7.  **Example Pattern**:
     ```python
     from src.scrape_it import ScrapeIt
     from src.playwright_adapter import By

@@ -46,6 +46,8 @@ Root-level `crawler_*.py` and `crypto_crawler*.py` files configure:
 
 The normal crawlers use headless Chromium. The headed entry points are useful
 for sites that require a visible browser session, and for local debugging.
+New scrapers must remain compatible with the normal headless crawlers and must
+not introduce a headed-only requirement.
 
 ### `PlaywrightCrawlerRunner`
 
@@ -142,8 +144,12 @@ sharing dependency installation, execution, validation, and PR creation.
 3. Implement `getJobs` using Playwright adapter locators or native Playwright.
 4. Return the normalized four-field job dictionary.
 5. Register the class in `src/scrapers.py`.
-6. Add a deterministic contract test and, when useful, an opt-in live smoke
-   test.
+6. Add `test/test_<name>_scraper.py` with the pytest-playwright `page` fixture.
+   Live scraper tests must navigate to the real target page rather than mock
+   network responses.
+7. Run the dedicated live test directly, for example
+   `pytest --run-live test/test_dayforce_scraper.py`.
+8. Add an opt-in live smoke test when useful.
 
 Prefer stable attributes and explicit waits for dynamic content. Keep
 site-specific work in its scraper and keep browser lifecycle concerns in the
