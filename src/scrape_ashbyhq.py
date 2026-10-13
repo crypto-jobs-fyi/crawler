@@ -39,7 +39,7 @@ class ScrapeAshbyhq(ScrapeIt):
             link_elem: PlaywrightElement = elem
             job_name_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, 'h3')
             location_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, job_location_locator)
-            job_url: str = link_elem.get_attribute('href')
+            job_url: str = link_elem.get_attribute('href') or ''
             job_name: str = job_name_elem.text
             location: str = location_elem.text
             cleaned_location: str = location.replace('\n', ', ')
