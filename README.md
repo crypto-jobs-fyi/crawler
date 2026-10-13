@@ -66,9 +66,9 @@ For the fintech headed workflow:
 python crawler_fintech_headed.py
 ```
 
-The fintech entry point uses two attempts per company. Huspy is marked
-headless in `companies.json`, but its provider may challenge headless Chromium;
-use this headed entry point when a live run is blocked.
+The fintech entry point uses two attempts per company. It runs Huspy and
+Revolut with a visible browser because their providers may challenge headless
+Chromium. Revolut is configured with `headless: false` in `companies.json`.
 
 ### Docker
 - `docker build --tag scrap:latest .`

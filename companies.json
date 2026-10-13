@@ -2863,6 +2863,15 @@
             "headless": true
         },
         {
+            "name": "revolut",
+            "jobs_url": "https://www.revolut.com/careers/",
+            "scraper": "REVOLUT",
+            "company_url": "https://www.revolut.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": false
+        },
+        {
             "name": "momentmarkets",
             "jobs_url": "https://jobs.ashbyhq.com/moment",
             "scraper": "ASHBYHQ",

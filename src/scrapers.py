@@ -28,6 +28,7 @@ from src.scrape_helsing import ScrapeHelsing
 from src.scrape_cursor import ScrapeCursor
 from src.scrape_google_careers import ScrapeGoogleCareers
 from src.scrape_dayforce import ScrapeDayforce
+from src.scrape_revolut import ScrapeRevolut
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -58,3 +59,4 @@ class Scrapers:
     CURSOR = ScrapeCursor
     GOOGLE_CAREERS = ScrapeGoogleCareers
     DAYFORCE = ScrapeDayforce
+    REVOLUT = ScrapeRevolut
