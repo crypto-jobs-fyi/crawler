@@ -6,7 +6,7 @@ from playwright.sync_api import Browser, Page, sync_playwright
 
 from src.company_item import CompanyItem
 from src.logging_utils import get_logger
-from src.playwright_scrape_it import PlaywrightScrapeIt
+from src.playwright_adapter import PlaywrightPageAdapter
 from src.scrape_it import ScrapeIt
 
 
@@ -54,8 +54,12 @@ class PlaywrightCrawlerRunner:
             context = browser.new_context()
             page: Page = context.new_page()
             try:
-                crawler_type: PlaywrightScrapeIt = company.scraper_type()
-                jobs_data = crawler_type.getJobs(page, company.jobs_url, company.company_name)
+                crawler_type: ScrapeIt = company.scraper_type()
+                jobs_data = crawler_type.getJobs(
+                    PlaywrightPageAdapter(page),
+                    company.jobs_url,
+                    company.company_name,
+                )
                 if jobs_data:
                     break
                 if attempt < self.max_attempts - 1:
@@ -84,7 +88,7 @@ class PlaywrightCrawlerRunner:
                         extra={
                             "company": company.company_name,
                             "attempt": attempt + 1,
-                            "max_attempts": max_retries + 1,
+                            "max_attempts": self.max_attempts,
                         },
                     )
                     time.sleep(2)

@@ -1,11 +1,12 @@
 import pytest
 
-from src.playwright_scrape_avara import ScrapeAvaraPlaywright
-from src.playwright_scrape_coinbase import ScrapeCoinbasePlaywright
-from src.playwright_scrape_kula import ScrapeKulaPlaywright
-from src.playwright_scrape_revolut_people import ScrapeRevolutPeoplePlaywright
-from src.playwright_scrape_robinhood import ScrapeRobinhoodPlaywright
-from src.playwright_scrape_sygnum import ScrapeSygnumPlaywright
+from src.playwright_adapter import PlaywrightPageAdapter
+from src.scrape_avara import ScrapeAvara
+from src.scrape_coinbase import ScrapeCoinbase
+from src.scrape_kula import ScrapeKula
+from src.scrape_revolut_people import ScrapeRevolutPeople
+from src.scrape_robinhood import ScrapeRobinhood
+from src.scrape_sygnum import ScrapeSygnum
 
 
 def serve_html(page, html: str) -> None:
@@ -31,7 +32,7 @@ def assert_job(job: dict, company: str) -> None:
     ("scraper", "company", "html"),
     [
         (
-            ScrapeCoinbasePlaywright,
+            ScrapeCoinbase,
             "coinbase",
             """
             <div data-testid="positions-department">
@@ -43,7 +44,7 @@ def assert_job(job: dict, company: str) -> None:
             """,
         ),
         (
-            ScrapeSygnumPlaywright,
+            ScrapeSygnum,
             "sygnum",
             """
             <button>Accept</button>
@@ -56,7 +57,7 @@ def assert_job(job: dict, company: str) -> None:
             """,
         ),
         (
-            ScrapeKulaPlaywright,
+            ScrapeKula,
             "paradigm.co",
             """
             <div class="chakra-card">
@@ -69,7 +70,7 @@ def assert_job(job: dict, company: str) -> None:
             """,
         ),
         (
-            ScrapeAvaraPlaywright,
+            ScrapeAvara,
             "avara",
             """
             <button>Accept All</button>
@@ -79,7 +80,7 @@ def assert_job(job: dict, company: str) -> None:
             """,
         ),
         (
-            ScrapeRobinhoodPlaywright,
+            ScrapeRobinhood,
             "robinhood",
             """
             <div data-filter="engineering" class="accordion">Engineering</div>
@@ -93,7 +94,7 @@ def assert_job(job: dict, company: str) -> None:
             """,
         ),
         (
-            ScrapeRevolutPeoplePlaywright,
+            ScrapeRevolutPeople,
             "huspy",
             """
             <button><span>Allow all cookies</span></button>
@@ -109,7 +110,11 @@ def assert_job(job: dict, company: str) -> None:
 def test_headed_scraper_contract(page, scraper, company, html):
     serve_html(page, html)
 
-    jobs = scraper().getJobs(page, "https://playwright.test/jobs", company)
+    jobs = scraper().getJobs(
+        PlaywrightPageAdapter(page),
+        "https://playwright.test/jobs",
+        company,
+    )
 
     assert len(jobs) == 1
     assert_job(jobs[0], company)
@@ -131,8 +136,8 @@ def test_coinbase_extracts_location_from_combined_card_text(page):
         """,
     )
 
-    jobs = ScrapeCoinbasePlaywright().getJobs(
-        page,
+    jobs = ScrapeCoinbase().getJobs(
+        PlaywrightPageAdapter(page),
         "https://playwright.test/jobs",
         "coinbase",
     )

@@ -38,14 +38,25 @@ The crawler supports major HR platforms including:
     ```
     *Note: Crawlers run in headless mode by default. To debug visually, disable headless mode in the crawler script.*
 
-The headed crypto crawler uses Playwright for the initial migration slice:
+All crawlers use Playwright. The headed crypto crawler is useful for sites that
+need a visible browser session:
 
 ```bash
 python crypto_crawler_headed.py
 ```
 
-It launches visible Chromium and currently migrates Coinbase, Sygnum, Paradigm,
-Avara, and Robinhood. The remaining crawlers continue to use Selenium.
+It launches visible Chromium and runs the same migrated scraper classes as the
+normal crawlers.
+
+For the fintech headed workflow:
+
+```bash
+python crawler_fintech_headed.py
+```
+
+The fintech entry point uses two attempts per company. Huspy is marked
+headless in `companies.json`, but its provider may challenge headless Chromium;
+use this headed entry point when a live run is blocked.
 
 ### Docker
 - `docker build --tag scrap:latest .`
@@ -67,7 +78,20 @@ The UI will automatically fetch and combine job listings from all available vert
 
 ## Testing
 
-Tests are located in the `test/` directory and use `pytest`.
+Tests are located in the `test/` directory and use `pytest-playwright`.
+Deterministic contract tests run by default. Company-specific tests that call
+external job sites are opt-in:
+
+```bash
+pytest
+pytest --run-live
+```
+
+Install Chromium once before running tests:
+
+```bash
+python -m playwright install chromium
+```
 
 
 ## Development
@@ -81,8 +105,9 @@ Tests are located in the `test/` directory and use `pytest`.
 
 ### Creating a Custom Scraper
 1.  Create `src/scrape_<name>.py` inheriting from `ScrapeIt`.
-2.  Implement `getJobs(self, driver, web_page, company)`.
-3.  Register the new scraper in `src/scrapers.py`.
+2.  Implement `getJobs(self, page, web_page, company)`.
+3.  Use the Playwright adapter or native Playwright locators.
+4.  Register the new scraper in `src/scrapers.py`.
 
 ## Roadmap
 - [x] Automate scraping from popular HR platforms

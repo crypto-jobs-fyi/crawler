@@ -31,6 +31,7 @@ jobs:
               test/test_base_scraper.py
               test/test_btcsuisse.py
               test/test_c3_scraper.py
+              test/test_playwright_headed_scrapers.py
           - shard: 2
             runner: ubuntu-latest
             tests: >-
@@ -77,19 +78,20 @@ jobs:
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
-          sudo apt-get install -y xvfb
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m playwright install --with-deps chromium
 
       - name: Install dependencies (macOS)
         if: runner.os == 'macOS'
         run: |
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m playwright install chromium
 
       - name: Run tests (shard ${{ matrix.shard }}, Linux)
         if: runner.os == 'Linux'
         run: |
           export PYTHONPATH=$PYTHONPATH:.
-          xvfb-run pytest --reruns 2 ${{ matrix.tests }}
+          pytest --reruns 2 ${{ matrix.tests }}
 
       - name: Run tests (shard ${{ matrix.shard }}, macOS)
         if: runner.os == 'macOS'

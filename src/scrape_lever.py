@@ -1,7 +1,7 @@
 import time
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightElement
 from src.scrape_it import ScrapeIt
 
 
@@ -23,12 +23,12 @@ class ScrapeLever(ScrapeIt):
         driver.get(web_page)
         if company in ['binance', 'crypto']:
             time.sleep(5)
-        group_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
+        group_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
         result: list = []
         for elem in group_elements:
-            link_elem: WebElement = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')
-            location_elem: list[WebElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="location"]')
-            workplace_elem: list[WebElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="workplaceTypes"]')
+            link_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')
+            location_elem: list[PlaywrightElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="location"]')
+            workplace_elem: list[PlaywrightElement] = elem.find_elements(By.CSS_SELECTOR, '[class*="workplaceTypes"]')
             job_url: str = elem.get_attribute('href')
             if len(location_elem) > 0:
                 location: str = location_elem[0].text

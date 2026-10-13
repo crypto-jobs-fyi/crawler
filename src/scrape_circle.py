@@ -1,5 +1,5 @@
 import time
-from selenium.webdriver.common.by import By
+from src.playwright_adapter import By
 from src.scrape_it import ScrapeIt
 from src.logging_utils import get_logger
 
