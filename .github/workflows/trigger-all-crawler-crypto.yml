@@ -37,3 +37,9 @@ jobs:
       pull-requests: write
     with:
       script_name: crypto_crawler_lever.py
+
+  crawler-crypto-headed:
+    uses: ./.github/workflows/crawler-crypto-headed.yml
+    permissions:
+      contents: write
+      pull-requests: write

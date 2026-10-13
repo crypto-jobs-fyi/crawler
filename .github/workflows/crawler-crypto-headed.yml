@@ -1,6 +1,7 @@
 name: Run Headed Crypto Playwright Crawler
 
 on:
+  workflow_call:
   schedule:
     - cron: '30 8 * * 2,6'
   workflow_dispatch:
