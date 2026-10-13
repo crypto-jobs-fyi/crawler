@@ -38,6 +38,12 @@ The crawler supports major HR platforms including:
     ```
     *Note: Crawlers run in headless mode by default. To debug visually, disable headless mode in the crawler script.*
 
+To run only the FinTech companies that use Ashby:
+
+```bash
+python crawler_fin_ashby.py
+```
+
 All crawlers use Playwright. The headed crypto crawler is useful for sites that
 need a visible browser session:
 

@@ -1,0 +1,23 @@
+name: Run All Crawler FinTech Workflows
+
+on:
+  schedule:
+    - cron: '0 8 * * 2,6'
+  workflow_dispatch:
+
+jobs:
+  crawler-fintech:
+    uses: ./.github/workflows/crawler-fintech.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crawler_fin.py
+
+  crawler-fintech-ashby:
+    uses: ./.github/workflows/crawler-fintech.yml
+    permissions:
+      contents: write
+      pull-requests: write
+    with:
+      script_name: crawler_fin_ashby.py

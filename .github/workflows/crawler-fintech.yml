@@ -1,18 +1,63 @@
-name: Run Crawler FinTech Mix
+name: Run Crawler FinTech
+run-name: Run Crawler FinTech - ${{ inputs.script_name }}
 
 on:
-  schedule:
-    - cron: '0 8 * * 2,6'
+  workflow_call:
+    inputs:
+      script_name:
+        description: 'FinTech crawler script to run'
+        required: true
+        type: string
   workflow_dispatch:
+    inputs:
+      script_name:
+        description: 'FinTech crawler script to run'
+        required: true
+        type: choice
+        options:
+          - crawler_fin.py
+          - crawler_fin_ashby.py
+
+permissions: {}
 
 jobs:
+  configure:
+    name: Configure (${{ inputs.script_name }})
+    runs-on: ubuntu-latest
+    outputs:
+      output_json: ${{ steps.map.outputs.output_json }}
+      branch_name: ${{ steps.map.outputs.branch_name }}
+      pr_title: ${{ steps.map.outputs.pr_title }}
+    steps:
+      - name: Map script name to run config
+        id: map
+        run: |
+          case "${{ inputs.script_name }}" in
+            crawler_fin.py)
+              echo "output_json=fin_current_jobs_mix.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-fin-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_fin.py" >> "$GITHUB_OUTPUT"
+              ;;
+            crawler_fin_ashby.py)
+              echo "output_json=fin_current_jobs_ashby.json" >> "$GITHUB_OUTPUT"
+              echo "branch_name=auto/crawler-fin-ashby-update" >> "$GITHUB_OUTPUT"
+              echo "pr_title=Automated update from crawler_fin_ashby.py" >> "$GITHUB_OUTPUT"
+              ;;
+            *)
+              echo "Unknown script_name: ${{ inputs.script_name }}" >&2
+              exit 1
+              ;;
+          esac
+
   run-crawler:
+    name: Run ${{ inputs.script_name }}
+    needs: configure
     uses: ./.github/workflows/reusable-crawler-run.yml
     permissions:
       contents: write
       pull-requests: write
     with:
-      script_names: 'crawler_fin.py write_fin_jobs_age.py get_new_fin_jobs.py'
-      output_json: 'fin_current_jobs_mix.json'
-      branch_name: 'auto/crawler-fin-update'
-      pr_title: 'Automated update from crawler_fin.py'
+      script_names: ${{ inputs.script_name }}
+      output_json: ${{ needs.configure.outputs.output_json }}
+      branch_name: ${{ needs.configure.outputs.branch_name }}
+      pr_title: ${{ needs.configure.outputs.pr_title }}

@@ -43,6 +43,7 @@ def read_jobs(file_name):
 # List of files to merge into the main fin_jobs.json
 job_json_list = [
     'fin_jobs_mix.json',
+    'fin_jobs_ashby.json',
     'headed_fintech_jobs.json'
 ]
 
@@ -70,4 +71,3 @@ logger.info(
 )
 
 write_jobs(all_merged_jobs, file_name=jobs_file)
-
