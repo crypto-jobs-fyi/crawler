@@ -10,7 +10,6 @@ from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.scrape_circle import ScrapeCircle
 from src.scrape_greenhouse import ScrapeGreenhouse
 from src.scrape_lever import ScrapeLever
-from src.scrape_paxos import ScrapePaxos
 from src.scrape_robinhood import ScrapeRobinhood
 from src.scrape_sygnum import ScrapeSygnum
 from src.scrape_lmax import ScrapeLmax
@@ -32,7 +31,6 @@ from src.scrape_dayforce import ScrapeDayforce
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
     CIRCLE = ScrapeCircle
-    PAXOS = ScrapePaxos
     GEMINI = ScrapeGemini
     SYGNUM = ScrapeSygnum
     LEVER = ScrapeLever

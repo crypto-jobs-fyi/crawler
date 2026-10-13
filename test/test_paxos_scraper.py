@@ -1,5 +1,5 @@
 import pytest
-from src.scrape_paxos import ScrapePaxos
+from src.scrape_ashbyhq import ScrapeAshbyhq
 from src.company_item import CompanyItem
 from src.scrapers import Scrapers
 
@@ -8,14 +8,19 @@ from src.scrapers import Scrapers
 
 @pytest.fixture
 def scraper():
-    """Fixture to create a ScrapePaxos instance."""
-    return ScrapePaxos()
+    """Fixture to create an Ashby scraper for Paxos."""
+    return ScrapeAshbyhq()
 
 
 @pytest.fixture
 def company():
     """Fixture to create a Paxos CompanyItem."""
-    return CompanyItem("paxos", "https://www.paxos.com/careers#open-roles", Scrapers.PAXOS, "https://www.paxos.com")
+    return CompanyItem(
+        "paxos",
+        "https://jobs.ashbyhq.com/paxos",
+        Scrapers.ASHBYHQ,
+        "https://www.paxos.com",
+    )
 
 
 def test_paxos_scraper(page_adapter, scraper, company):

@@ -92,8 +92,8 @@
         },
         {
             "name": "paxos",
-            "jobs_url": "https://www.paxos.com/jobs",
-            "scraper": "PAXOS",
+            "jobs_url": "https://jobs.ashbyhq.com/paxos",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.paxos.com",
             "category": "crypto",
             "enabled": true,
