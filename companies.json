@@ -2116,15 +2116,6 @@
             "headless": true
         },
         {
-            "name": "leonardo.ai",
-            "jobs_url": "https://careers.smartrecruiters.com/leonardoai",
-            "scraper": "SMARTRECRUITERS",
-            "company_url": "https://leonardo.ai",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "amilabs",
             "jobs_url": "https://jobs.ashbyhq.com/ami",
             "scraper": "ASHBYHQ",
