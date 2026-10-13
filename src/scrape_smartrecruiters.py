@@ -14,32 +14,32 @@ def clean_location(location):
     return joined.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
 
 
-def show_more(driver, locator):
+def show_more(page, locator):
     module_logger.info(
         "SmartRecruiters show more",
         extra={"locator": locator},
     )
-    show_more_button = driver.find_elements(By.XPATH, locator)
+    show_more_button = page.find_elements(By.XPATH, locator)
     if len(show_more_button) > 0:
-        driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
+        page.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
         time.sleep(5)
-        driver.execute_script("arguments[0].click();", show_more_button[0])
+        page.execute_script("arguments[0].click();", show_more_button[0])
         time.sleep(5)
-        show_more(driver, locator)
+        show_more(page, locator)
 
 
 class ScrapeSmartrecruiters(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
+        page.get(web_page)
         more_links = '//a[.="Show more jobs"]'
-        show_more(driver, more_links)
+        show_more(page, more_links)
         elements_locator = '//li[contains(@class,"opening-job") and not(contains(@class,"js-more-container"))]'
-        group_elements = driver.find_elements(By.XPATH, elements_locator)
+        group_elements = page.find_elements(By.XPATH, elements_locator)
         result = []
         for elem in group_elements:
             link_elem = elem.find_element(By.CSS_SELECTOR, 'a')

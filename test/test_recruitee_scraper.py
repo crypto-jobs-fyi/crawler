@@ -18,10 +18,10 @@ def company():
     return CompanyItem("bitfinex", "https://bitfinex.recruitee.com", Scrapers.RECRUITEE, "https://www.bitfinex.com")
 
 
-def test_recruitee_scraper(driver, scraper, company):
+def test_recruitee_scraper(page_adapter, scraper, company):
     """Test Recruitee scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

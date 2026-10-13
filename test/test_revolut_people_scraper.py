@@ -18,10 +18,10 @@ def company():
     return CompanyItem('huspy', 'https://revolutpeople.com/huspy/public/careers', Scrapers.REVOLUT_PEOPLE, 'https://www.huspy.com')
 
 
-def test_revolut_people_scraper(driver, scraper, company):
+def test_revolut_people_scraper(page_adapter, scraper, company):
     """Test RevolutPeople scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

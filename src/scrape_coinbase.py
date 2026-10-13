@@ -9,13 +9,13 @@ from src.scrape_it import ScrapeIt
 class ScrapeCoinbase(ScrapeIt):
     name = 'Coinbase'
 
-    def getJobs(self, driver, web_page, company='coinbase') -> list:
+    def getJobs(self, page, web_page, company='coinbase') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
+        page.get(web_page)
         time.sleep(2)
         
         # Handle cookie consent banner with multiple strategies
@@ -24,7 +24,7 @@ class ScrapeCoinbase(ScrapeIt):
             
             # Strategy 1: Remove the cookie banner dialog entirely
             try:
-                driver.execute_script("""
+                page.execute_script("""
                     // Try to find and close cookie banner
                     var banners = document.querySelectorAll('[id*="cookie"], [class*="cookie"], [id*="consent"], [class*="consent"], [role="dialog"]');
                     banners.forEach(function(el) { 
@@ -42,7 +42,7 @@ class ScrapeCoinbase(ScrapeIt):
             if not banner_closed:
                 try:
                     # Find and click Accept button
-                    driver.execute_script("""
+                    page.execute_script("""
                         var buttons = document.querySelectorAll('button');
                         for (var i = 0; i < buttons.length; i++) {
                             if (buttons[i].textContent.includes('Accept') || buttons[i].textContent.includes('Agree')) {
@@ -58,7 +58,7 @@ class ScrapeCoinbase(ScrapeIt):
             
             # Strategy 3: Disable body overflow to show content
             try:
-                driver.execute_script("document.body.style.overflow='auto'; document.body.style.height='auto';")
+                page.execute_script("document.body.style.overflow='auto'; document.body.style.height='auto';")
                 self.log_info("Enabled body overflow", company=company)
             except:
                 pass
@@ -70,7 +70,7 @@ class ScrapeCoinbase(ScrapeIt):
         
         # Remove any overlays that might be blocking interaction
         try:
-            driver.execute_script("""
+            page.execute_script("""
                 // Remove modal overlays
                 var overlays = document.querySelectorAll('[role="dialog"], .modal, .overlay, [aria-modal="true"], [id*="modal"], [class*="modal"]');
                 overlays.forEach(function(el) { 
@@ -97,12 +97,12 @@ class ScrapeCoinbase(ScrapeIt):
         # Expand all departments to populate job listings
         try:
             # Get department buttons (the actual clickable elements)
-            department_buttons = driver.find_elements(By.XPATH, '//div[@data-testid="positions-department"]//button')
+            department_buttons = page.find_elements(By.XPATH, '//div[@data-testid="positions-department"]//button')
             
             if not department_buttons:
                 self.log_info("No department buttons found, trying direct div click", company=company)
                 # Fallback to clicking the div directly
-                departments = driver.find_elements(By.XPATH, '//div[@data-testid="positions-department"]')
+                departments = page.find_elements(By.XPATH, '//div[@data-testid="positions-department"]')
                 department_buttons = departments
             else:
                 self.log_info(
@@ -116,11 +116,11 @@ class ScrapeCoinbase(ScrapeIt):
                 for idx, button in enumerate(department_buttons):
                     try:
                         # Scroll into view before clicking
-                        driver.execute_script("arguments[0].scrollIntoView(true);", button)
+                        page.execute_script("arguments[0].scrollIntoView(true);", button)
                         time.sleep(0.3)
                         
                         # Click using JavaScript to expand the department
-                        driver.execute_script("arguments[0].click();", button)
+                        page.execute_script("arguments[0].click();", button)
                         self.log_info(f"Clicked department button {idx + 1}/{len(department_buttons)}", company=company)
                         
                         # Wait for jobs to load for this department
@@ -139,12 +139,12 @@ class ScrapeCoinbase(ScrapeIt):
         # DIAGNOSTIC: Check what elements are on the page after clicking departments
         try:
             # Count various element types to understand page structure
-            all_links = driver.find_elements(By.TAG_NAME, 'a')
-            all_divs = driver.find_elements(By.TAG_NAME, 'div')
+            all_links = page.find_elements(By.TAG_NAME, 'a')
+            all_divs = page.find_elements(By.TAG_NAME, 'div')
             
             # Look for elements with data attributes that might indicate jobs
-            job_test_ids = driver.find_elements(By.XPATH, '//*[@data-testid and contains(@data-testid, "job")]')
-            position_elements = driver.find_elements(By.XPATH, '//*[@data-testid="positions-job"]')
+            job_test_ids = page.find_elements(By.XPATH, '//*[@data-testid and contains(@data-testid, "job")]')
+            position_elements = page.find_elements(By.XPATH, '//*[@data-testid="positions-job"]')
             
             self.log_info(
                 "Diagnostic info after department expansion",
@@ -166,7 +166,7 @@ class ScrapeCoinbase(ScrapeIt):
         
         # Find job links with pattern /careers/positions/{id}
         try:
-            job_links = driver.find_elements(By.XPATH, '//a[contains(@href, "/careers/positions/")]')
+            job_links = page.find_elements(By.XPATH, '//a[contains(@href, "/careers/positions/")]')
             self.log_info(f"Found {len(job_links)} job links total", company=company)
             
             # Filter to only actual job links (not navigation)

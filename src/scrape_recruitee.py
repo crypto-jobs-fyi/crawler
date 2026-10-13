@@ -11,16 +11,16 @@ def clean_location(location):
 
 
 class ScrapeRecruitee(ScrapeIt):
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(5)
+        page.get(web_page)
+        page.implicitly_wait(5)
         time.sleep(3)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div [data-testid="offer-list-cards-desktop-display"] a[class*="-1"]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'div [data-testid="offer-list-cards-desktop-display"] a[class*="-1"]')
         result = []
         for elem in group_elements:
             job_url = elem.get_attribute('href')

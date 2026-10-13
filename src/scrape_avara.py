@@ -6,21 +6,21 @@ import time
 class ScrapeAvara(ScrapeIt):
     name = 'Avara'
 
-    def getJobs(self, driver, web_page, company = 'avara') -> list:
+    def getJobs(self, page, web_page, company = 'avara') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(9)
-        driver.get(web_page)
+        page.implicitly_wait(9)
+        page.get(web_page)
         time.sleep(3)
-        cookie_buttons = driver.find_elements(By.XPATH, '//button[.="Accept All"]')
+        cookie_buttons = page.find_elements(By.XPATH, '//button[.="Accept All"]')
         if cookie_buttons:
             cookie_buttons[0].click()
             time.sleep(1)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//li/a[contains(@href, "/careers/")]')
+        group_elements = page.find_elements(By.XPATH, '//li/a[contains(@href, "/careers/")]')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.XPATH, './div')

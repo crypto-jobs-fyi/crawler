@@ -18,10 +18,10 @@ def company():
     return CompanyItem("base", "https://www.base.org/jobs#open-roles", Scrapers.BASE, "https://www.base.org")
 
 
-def test_base_scraper(driver, scraper, company):
+def test_base_scraper(page_adapter, scraper, company):
     """Test Base scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

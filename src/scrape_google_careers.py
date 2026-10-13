@@ -20,17 +20,17 @@ class ScrapeGoogleCareers(ScrapeIt):
         has_location = 0 if job.get("location") == "Unknown" else 1
         return has_specific_title, has_location
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(10)
-        driver.get(web_page)
+        page.implicitly_wait(10)
+        page.get(web_page)
 
         try:
-            PlaywrightWait(driver, 20).until(
+            PlaywrightWait(page, 20).until(
                 EC.presence_of_element_located(
                     (By.CSS_SELECTOR, self.JOB_LINK_SELECTOR)
                 )
@@ -43,7 +43,7 @@ class ScrapeGoogleCareers(ScrapeIt):
             )
             return []
 
-        job_data = driver.execute_script("""
+        job_data = page.execute_script("""
             const linkSelector = arguments[0];
             const links = Array.from(document.querySelectorAll(linkSelector));
             return links.map((a) => {

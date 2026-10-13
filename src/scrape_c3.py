@@ -5,8 +5,8 @@ from src.logging_utils import get_logger
 module_logger = get_logger(__name__)
 
 
-def to_records(driver, company) -> list:
-    group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[href*="/job-"]')
+def to_records(page, company) -> list:
+    group_elements = page.find_elements(By.CSS_SELECTOR, 'a[href*="/job-"]')
     result = []
     module_logger.info(
         "C3 jobs found",
@@ -30,20 +30,20 @@ def to_records(driver, company) -> list:
 class ScrapeC3(ScrapeIt):
     name = 'c3.ai'
 
-    def getJobs(self, driver, web_page, company='c3.ai') -> list:
+    def getJobs(self, page, web_page, company='c3.ai') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
-        button = driver.find_element(
+        page.implicitly_wait(5)
+        page.get(web_page)
+        button = page.find_element(
             By.XPATH,
             '//button[@type="button" and normalize-space()="View all"]',
         )
-        driver.execute_script("arguments[0].click();", button)
-        result = to_records(driver, company)
+        page.execute_script("arguments[0].click();", button)
+        result = to_records(page, company)
         self.log_info(
             "Scrape summary",
             company=company,

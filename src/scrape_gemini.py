@@ -13,22 +13,22 @@ def clean_location(location):
 class ScrapeGemini(ScrapeIt):
     name = 'gemini'
 
-    def getJobs(self, driver, web_page, company='gemini') -> list:
+    def getJobs(self, page, web_page, company='gemini') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
+        page.get(web_page)
         time.sleep(5)
-        driver.implicitly_wait(9)
-        accept: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'button[data-testid="cookie-accept-all"]')
+        page.implicitly_wait(9)
+        accept: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, 'button[data-testid="cookie-accept-all"]')
         if len(accept) > 0:
             accept[0].click()
         result = []
         
         # open all departments 1 by 1
-        departments = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="team-dropdown"]')
+        departments = page.find_elements(By.CSS_SELECTOR, 'div[data-testid="team-dropdown"]')
         self.log_info(
             "Departments found",
             company=company,
@@ -36,11 +36,11 @@ class ScrapeGemini(ScrapeIt):
             web_page=web_page,
         )
         for department in departments:
-            driver.execute_script("arguments[0].scrollIntoView();", department)
+            page.execute_script("arguments[0].scrollIntoView();", department)
             time.sleep(2)
             department.click()
             time.sleep(1)
-            group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[aria-expanded="true"] div[data-testid="job-element"]')
+            group_elements = page.find_elements(By.CSS_SELECTOR, 'div[aria-expanded="true"] div[data-testid="job-element"]')
             for elem in group_elements:
                 job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')
                 location_elem = elem.find_element(By.CSS_SELECTOR, 'p[color="secondary"]')

@@ -18,10 +18,10 @@ def company():
     return CompanyItem("robinhood", "https://careers.robinhood.com", Scrapers.ROBINHOOD, "https://www.robinhood.com")
 
 
-def test_robinhood_scraper(driver, scraper, company):
+def test_robinhood_scraper(page_adapter, scraper, company):
     """Test Robinhood scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

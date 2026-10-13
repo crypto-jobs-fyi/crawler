@@ -5,15 +5,15 @@ from src.scrape_it import ScrapeIt
 class ScrapeBitcoinSuisse(ScrapeIt):
     name = 'BitcoinSuisse'
 
-    def getJobs(self, driver, web_page, company = 'bitcoinsuisse') -> list:
+    def getJobs(self, page, web_page, company = 'bitcoinsuisse') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(3)
-        driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, '[data-testid="jobs-list"] li')
+        page.implicitly_wait(3)
+        page.get(web_page)
+        group_elements = page.find_elements(By.CSS_SELECTOR, '[data-testid="jobs-list"] li')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'a')

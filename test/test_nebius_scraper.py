@@ -18,10 +18,10 @@ def company():
     return CompanyItem("nebius", "https://careers.nebius.com", Scrapers.NEBIUS, "https://nebius.com")
 
 
-def test_nebius_scraper(driver, scraper, company):
+def test_nebius_scraper(page_adapter, scraper, company):
     """Test Nebius scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

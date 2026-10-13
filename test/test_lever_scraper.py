@@ -19,10 +19,10 @@ def company():
     return CompanyItem("oxylabs", "https://jobs.lever.co/oxylabs", Scrapers.LEVER, "https://www.oxylabs.io")
 
 
-def test_lever_scraper(driver, scraper, company):
+def test_lever_scraper(page_adapter, scraper, company):
     """Test Lever scraper with Oxylabs to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

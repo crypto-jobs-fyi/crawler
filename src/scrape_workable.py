@@ -11,18 +11,18 @@ from src.logging_utils import get_logger
 module_logger = get_logger(__name__)
 
 
-def show_more(driver, locator: str) -> None:
+def show_more(page, locator: str) -> None:
     module_logger.info(
         "Workable show more",
         extra={"locator": locator},
     )
-    show_more_button: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, locator)
+    show_more_button: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, locator)
     if len(show_more_button) > 0:
-        driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
+        page.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
         time.sleep(5)
-        driver.execute_script("arguments[0].click();", show_more_button[0])
+        page.execute_script("arguments[0].click();", show_more_button[0])
         time.sleep(5)
-        show_more(driver, locator)
+        show_more(page, locator)
 
 
 def clean_location(location: str) -> str:
@@ -32,43 +32,43 @@ def clean_location(location: str) -> str:
 class ScrapeWorkable(ScrapeIt):
     name = 'workable'.upper()
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(5)
+        page.get(web_page)
+        page.implicitly_wait(5)
         time.sleep(4)
-        acceptAll = driver.find_elements(By.XPATH, '//*[contains(text(), "Accept")]')
+        acceptAll = page.find_elements(By.XPATH, '//*[contains(text(), "Accept")]')
         if len(acceptAll) > 0:
             acceptAll[0].click()
             time.sleep(3)
         clear_filters_locator: str = 'a[data-ui="clear-filters"]'
-        clear_filters: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
+        clear_filters: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, clear_filters_locator)
         if len(clear_filters) > 0:
             self.log_info(
                 "Clear filters",
                 company=company,
                 web_page=web_page,
             )
-            driver.execute_script("arguments[0].click();", clear_filters[0])
-        driver.implicitly_wait(15)
-        wait: PlaywrightWait = PlaywrightWait(driver, 10)
+            page.execute_script("arguments[0].click();", clear_filters[0])
+        page.implicitly_wait(15)
+        wait: PlaywrightWait = PlaywrightWait(page, 10)
         result: list = []
         show_more_locator: str = 'button[data-ui="load-more-button"]'
         job_root_locator: str = 'li[data-ui^="job"]'
-        show_more_buttons: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, show_more_locator)
+        show_more_buttons: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, show_more_locator)
         if len(show_more_buttons) > 0:
             self.log_info(
                 "Show more button",
                 company=company,
                 web_page=web_page,
             )
-            show_more(driver, show_more_locator)
+            show_more(page, show_more_locator)
         # just try to find elements and exit if none
-        temp_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, job_root_locator)
+        temp_elements: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, job_root_locator)
         if len(temp_elements) == 0:
             self.log_info(
                 "No jobs found",
@@ -77,7 +77,7 @@ class ScrapeWorkable(ScrapeIt):
             )
             return result
         group_elements: list[PlaywrightElement] = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_root_locator)))
-        driver.implicitly_wait(5)
+        page.implicitly_wait(5)
         for elem in group_elements:
             link_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, 'a')
             remote_elem: list[PlaywrightElement] = elem.find_elements(By.CSS_SELECTOR, '[data-ui="job-remote"]')

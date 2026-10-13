@@ -13,17 +13,17 @@ def clean_location(location):
 class ScrapeLever(ScrapeIt):
     name = 'LEVER'
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(7)
-        driver.get(web_page)
+        page.implicitly_wait(7)
+        page.get(web_page)
         if company in ['binance', 'crypto']:
             time.sleep(5)
-        group_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
+        group_elements: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, 'a[class="posting-title"]')
         result: list = []
         for elem in group_elements:
             link_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, '[data-qa="posting-name"]')

@@ -5,15 +5,15 @@ from src.scrape_it import ScrapeIt
 class ScrapeRipple(ScrapeIt):
     name = 'RIPPLE'
 
-    def getJobs(self, driver, web_page, company='ripple') -> list:
+    def getJobs(self, page, web_page, company='ripple') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
+        page.get(web_page)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@class, "body3")]')
+        group_elements = page.find_elements(By.XPATH, '//div/a[contains(@class, "body3")]')
         result = []
         for elem in group_elements:
             link_elem = elem

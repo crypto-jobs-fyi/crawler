@@ -18,10 +18,10 @@ def company():
     return CompanyItem("paxos", "https://www.paxos.com/careers#open-roles", Scrapers.PAXOS, "https://www.paxos.com")
 
 
-def test_paxos_scraper(driver, scraper, company):
+def test_paxos_scraper(page_adapter, scraper, company):
     """Test Paxos scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

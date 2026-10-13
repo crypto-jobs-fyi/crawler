@@ -20,10 +20,10 @@ def company():
 
 
 # pytest test/test_coinbase_scraper.py::test_coinbase_scraper
-def test_coinbase_scraper(driver, scraper, company):
+def test_coinbase_scraper(page_adapter, scraper, company):
     """Test Coinbase scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     with open("coinbase_jobs.json", "w") as f:
         json.dump(jobs, f, indent=2)
     

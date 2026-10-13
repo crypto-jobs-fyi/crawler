@@ -19,10 +19,10 @@ def company():
                 'https://www.dragonfly.xyz')
 
 
-def test_gem_scraper(driver, scraper, company):
+def test_gem_scraper(page_adapter, scraper, company):
     """Test Gem scraper with Soundhound to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

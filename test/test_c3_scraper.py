@@ -19,10 +19,10 @@ def company():
     return CompanyItem('c3.ai', 'https://c3.ai/careers', Scrapers.C3, 'https://c3.ai')
 
 
-def test_c3_scraper(driver, scraper, company):
+def test_c3_scraper(page_adapter, scraper, company):
     """Test C3.ai scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     print(f"Found {len(jobs)} jobs for {company.company_name}")
     
     # Assert

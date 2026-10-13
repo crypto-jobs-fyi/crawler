@@ -10,15 +10,15 @@ class ScrapeLmax(ScrapeIt):
         loc = loc.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE')
         return loc.strip()
 
-    def getJobs(self, driver, web_page, company='lmax') -> list:
+    def getJobs(self, page, web_page, company='lmax') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
+        page.get(web_page)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-dept]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'div[data-dept]')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'div[class="JobTitle"] a')

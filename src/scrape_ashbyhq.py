@@ -14,15 +14,15 @@ def clean_location(location: str) -> str:
 class ScrapeAshbyhq(ScrapeIt):
     name = 'ashbyhq'.upper()
 
-    def getJobs(self, driver: PlaywrightPageAdapter, web_page: str, company: str) -> list:
+    def getJobs(self, page: PlaywrightPageAdapter, web_page: str, company: str) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(7)
-        group_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
+        page.get(web_page)
+        page.implicitly_wait(7)
+        group_elements: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
         self.log_info(
             "Job elements found",
             company=company,

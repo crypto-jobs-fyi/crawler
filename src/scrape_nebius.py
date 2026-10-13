@@ -6,8 +6,8 @@ from src.logging_utils import get_logger
 module_logger = get_logger(__name__)
 
 
-def to_records(driver, company) -> list:
-    group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*="JobsBlock_jobLink"]')
+def to_records(page, company) -> list:
+    group_elements = page.find_elements(By.CSS_SELECTOR, 'a[class*="JobsBlock_jobLink"]')
     result = []
     module_logger.info(
         "Nebius jobs found",
@@ -31,19 +31,19 @@ def to_records(driver, company) -> list:
 class ScrapeNebius(ScrapeIt):
     name = 'NEBIUS'
 
-    def getJobs(self, driver, web_page, company='nebius') -> list:
+    def getJobs(self, page, web_page, company='nebius') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
+        page.implicitly_wait(5)
+        page.get(web_page)
         time.sleep(3)
-        accept_cookies = driver.find_elements(By.XPATH, '//button[.="Required only"]')
+        accept_cookies = page.find_elements(By.XPATH, '//button[.="Required only"]')
         for button in accept_cookies:
             button.click()
-        result = to_records(driver, company)
+        result = to_records(page, company)
         self.log_info(
             "Scrape summary",
             company=company,

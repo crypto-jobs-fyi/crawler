@@ -5,15 +5,15 @@ from src.scrape_it import ScrapeIt
 class ScrapeHelsing(ScrapeIt):
     name = 'Helsing'
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(15)
-        driver.get(web_page)
-        group_elements = driver.find_elements(By.XPATH, '//div/a[contains(@href, "/jobs/")]')
+        page.implicitly_wait(15)
+        page.get(web_page)
+        group_elements = page.find_elements(By.XPATH, '//div/a[contains(@href, "/jobs/")]')
         result = []
         for elem in group_elements:
             title_elem = elem.find_element(By.XPATH, './/div[@data-label="Position"]')

@@ -10,17 +10,17 @@ def clean_location(location):
 class ScrapeKula(ScrapeIt):
     name = 'Kula'
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
+        page.implicitly_wait(5)
+        page.get(web_page)
         time.sleep(3)
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[class*="chakra-card"]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'div[class*="chakra-card"]')
         result = []
         for elem in group_elements:
             job_name_elems = elem.find_elements(By.CSS_SELECTOR, 'div[class*="chakra-stack"] p[class*="chakra-text"]')

@@ -18,10 +18,10 @@ def company():
     return CompanyItem('crypto-finance', 'https://apply.workable.com/crypto-finance', Scrapers.WORKABLE, 'https://www.crypto-finance.com')
 
 
-def test_workable_scraper(driver, scraper, company):
+def test_workable_scraper(page_adapter, scraper, company):
     """Test Workable scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

@@ -13,7 +13,7 @@ def pytest_addoption(parser):
 
 
 @pytest.fixture
-def driver(request, page):
+def page_adapter(request, page):
     if not request.config.getoption("--run-live"):
         pytest.skip("Live scraper test; pass --run-live to execute it.")
     return PlaywrightPageAdapter(page)

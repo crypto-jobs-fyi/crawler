@@ -18,10 +18,10 @@ def company():
     return CompanyItem("nethermind", "https://jobs.ashbyhq.com/nethermind", Scrapers.ASHBYHQ, "https://nethermind.io")
 
 
-def test_ashbyhq_scraper_nethermind(driver, scraper, company):
+def test_ashbyhq_scraper_nethermind(page_adapter, scraper, company):
     """Test AshbyHQ scraper with Nethermind to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

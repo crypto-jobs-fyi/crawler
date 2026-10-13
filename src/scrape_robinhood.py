@@ -7,21 +7,21 @@ from src.scrape_it import ScrapeIt
 class ScrapeRobinhood(ScrapeIt):
     name = 'robinhood'
 
-    def getJobs(self, driver, web_page, company='robinhood') -> list:
+    def getJobs(self, page, web_page, company='robinhood') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(5)
+        page.get(web_page)
+        page.implicitly_wait(5)
         time.sleep(5)
         # open all departments
-        acceptAll = driver.find_elements(By.ID, 'ip-user-consent-accept')
+        acceptAll = page.find_elements(By.ID, 'ip-user-consent-accept')
         if len(acceptAll) > 0:
             acceptAll[0].click()
             time.sleep(1)
-        departments = driver.find_elements(By.XPATH, '//div[@data-filter and contains(@class, "accordion")]')
+        departments = page.find_elements(By.XPATH, '//div[@data-filter and contains(@class, "accordion")]')
         self.log_info(
             "Departments found",
             company=company,
@@ -31,7 +31,7 @@ class ScrapeRobinhood(ScrapeIt):
         for department in departments:
             department.click()
             time.sleep(1)
-        group_elements = driver.find_elements(By.XPATH, '//div[@id="jobs-data"]//p[@class="job"]')
+        group_elements = page.find_elements(By.XPATH, '//div[@id="jobs-data"]//p[@class="job"]')
         result = []
         for elem in group_elements:
             job_elem = elem.find_element(By.XPATH, './a')

@@ -7,19 +7,19 @@ from src.scrape_it import ScrapeIt
 class ScrapeConsensys(ScrapeIt):
     name = 'CONSENSYS'
 
-    def getJobs(self, driver, web_page, company='consensys') -> list:
+    def getJobs(self, page, web_page, company='consensys') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(9)
+        page.get(web_page)
+        page.implicitly_wait(9)
         time.sleep(2)
         # scroll to bottom to load all jobs
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        page.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(3)
-        group_elements = driver.find_elements(By.XPATH, '//a[contains(@class, "card-job")]')
+        group_elements = page.find_elements(By.XPATH, '//a[contains(@class, "card-job")]')
         result = []
         for elem in group_elements:
             link_elem = elem

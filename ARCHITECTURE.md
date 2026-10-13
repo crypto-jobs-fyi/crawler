@@ -111,7 +111,7 @@ serve deterministic HTML through Playwright routes and verify scraper output,
 including delayed rendering and Coinbase location parsing.
 
 The older company-specific tests are retained as opt-in live smoke tests. They
-use the adapter-backed `driver` fixture and are skipped by default because
+use the adapter-backed `page_adapter` fixture and are skipped by default because
 external job pages can change or block automated traffic:
 
 ```bash

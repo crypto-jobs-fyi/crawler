@@ -7,16 +7,16 @@ from src.scrape_it import ScrapeIt
 class ScrapeWorld(ScrapeIt):
     name = 'Worldcoin'
 
-    def getJobs(self, driver, web_page, company='worldcoin') -> list:
+    def getJobs(self, page, web_page, company='worldcoin') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.get(web_page)
-        driver.implicitly_wait(5)
+        page.get(web_page)
+        page.implicitly_wait(5)
         time.sleep(4)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div[data-testid="job-card"]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'div[data-testid="job-card"]')
         result = []
         for elem in group_elements:
             job_url_elem = elem.find_element(By.CSS_SELECTOR, 'a')

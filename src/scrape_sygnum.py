@@ -6,9 +6,9 @@ from src.scrape_it import ScrapeIt
 class ScrapeSygnum(ScrapeIt):
     name = 'Sygnum'
 
-    def tryAcceptCookies(self, driver):
+    def tryAcceptCookies(self, page):
         try:
-            acceptCookies = driver.find_elements(By.XPATH, '//button[.="Accept"]')
+            acceptCookies = page.find_elements(By.XPATH, '//button[.="Accept"]')
             if len(acceptCookies) > 0:
                 acceptCookies[0].click()
         except Exception as e:
@@ -19,9 +19,9 @@ class ScrapeSygnum(ScrapeIt):
             )
         return
     
-    def tryAcceptGeo(self, driver):
+    def tryAcceptGeo(self, page):
         try:
-            acceptGeo = driver.find_elements(By.XPATH, '//a[.="CONTINUE"]')
+            acceptGeo = page.find_elements(By.XPATH, '//a[.="CONTINUE"]')
             if len(acceptGeo) > 0:
                 acceptGeo[0].click()
         except Exception as e:
@@ -32,9 +32,9 @@ class ScrapeSygnum(ScrapeIt):
             )
         return
 
-    def tryClickClose(self, driver):
+    def tryClickClose(self, page):
         try:
-            closeBtn = driver.find_elements(By.XPATH, '//a[.="Close"]')
+            closeBtn = page.find_elements(By.XPATH, '//a[.="Close"]')
             if len(closeBtn) > 0:
                 closeBtn[0].click()
         except Exception as e:
@@ -45,21 +45,21 @@ class ScrapeSygnum(ScrapeIt):
             )
         return
 
-    def getJobs(self, driver, web_page, company = 'sygnum') -> list:
+    def getJobs(self, page, web_page, company = 'sygnum') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
+        page.implicitly_wait(5)
+        page.get(web_page)
         time.sleep(5) # wait for page to load after interactions
-        self.tryAcceptCookies(driver)
-        self.tryAcceptGeo(driver)
-        self.tryClickClose(driver)
+        self.tryAcceptCookies(page)
+        self.tryAcceptGeo(page)
+        self.tryClickClose(page)
         time.sleep(3) # wait for page to load after interactions
         # use reverse strategy from a link to a title
-        group_elements = driver.find_elements(By.XPATH, '//ul/li[@class="results-list__item result-item"]')
+        group_elements = page.find_elements(By.XPATH, '//ul/li[@class="results-list__item result-item"]')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.XPATH, './/h3/a')

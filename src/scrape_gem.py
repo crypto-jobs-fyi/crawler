@@ -10,16 +10,16 @@ class ScrapeGem(ScrapeIt):
         return location.strip().replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE').replace('\n', ' ')
 
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(9)
-        driver.get(web_page)
+        page.implicitly_wait(9)
+        page.get(web_page)
         time.sleep(5)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[class*=jobPostingLink]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'a[class*=jobPostingLink]')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'div[class*=jobTitle]')

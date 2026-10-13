@@ -8,7 +8,7 @@ from src.playwright_adapter import PlaywrightWait
 from src.scrape_google_careers import ScrapeGoogleCareers
 
 
-class FakeDriver:
+class FakePage:
     def __init__(self, script_result):
         self.script_result = script_result
         self.wait_seconds = None
@@ -32,26 +32,26 @@ class FakeDriver:
 def test_google_careers_scraper_deduplicates_and_filters(monkeypatch):
     monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
-    driver = FakeDriver([
+    page_adapter = FakePage([
         {"href": "https://careers.google.com/jobs/1", "title": "Research Engineer", "location": "London, UK"},
         {"href": "https://careers.google.com/jobs/1", "title": "Research Engineer", "location": "London, UK"},
         {"href": "https://careers.google.com/jobs/2", "title": "", "location": "Paris, France"},
         {"href": "https://careers.google.com/jobs/3", "title": "Research Scientist", "location": ""},
     ])
 
-    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+    jobs = scraper.getJobs(page_adapter, "https://example.com/jobs", "deepmind")
 
-    assert driver.wait_seconds == 10
-    assert driver.loaded_url == "https://example.com/jobs"
+    assert page_adapter.wait_seconds == 10
+    assert page_adapter.loaded_url == "https://example.com/jobs"
     assert len(jobs) == 2
     assert jobs[0]["title"] == "Research Engineer"
     assert jobs[0]["location"] == "London, UK"
     assert jobs[1]["title"] == "Research Scientist"
     assert jobs[1]["location"] == "Unknown"
-    assert driver.execute_script_calls == 1
-    assert "querySelectorAll(linkSelector)" in driver.last_script
-    assert "h2, h3, h4" in driver.last_script
-    assert '[aria-label*="location"]' in driver.last_script
+    assert page_adapter.execute_script_calls == 1
+    assert "querySelectorAll(linkSelector)" in page_adapter.last_script
+    assert "h2, h3, h4" in page_adapter.last_script
+    assert '[aria-label*="location"]' in page_adapter.last_script
 
 
 def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
@@ -60,25 +60,25 @@ def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
 
     monkeypatch.setattr(PlaywrightWait, "until", _raise_timeout)
     scraper = ScrapeGoogleCareers()
-    driver = FakeDriver([
+    page_adapter = FakePage([
         {"href": "https://careers.google.com/jobs/1", "title": "Should Not Be Used", "location": "Remote"},
     ])
 
-    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+    jobs = scraper.getJobs(page_adapter, "https://example.com/jobs", "deepmind")
 
     assert jobs == []
-    assert driver.execute_script_calls == 0
+    assert page_adapter.execute_script_calls == 0
 
 
 def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypatch):
     monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
-    driver = FakeDriver([
+    page_adapter = FakePage([
         {"href": "https://careers.google.com/jobs/9", "title": "", "location": "Remote"},
         {"href": "https://careers.google.com/jobs/9", "title": "Research Lead", "location": "Remote"},
     ])
 
-    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+    jobs = scraper.getJobs(page_adapter, "https://example.com/jobs", "deepmind")
 
     assert len(jobs) == 1
     assert jobs[0]["title"] == "Research Lead"
@@ -88,12 +88,12 @@ def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypa
 def test_google_careers_scraper_prefers_specific_title_for_duplicate(monkeypatch):
     monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
-    driver = FakeDriver([
+    page_adapter = FakePage([
         {"href": "https://careers.google.com/jobs/7", "title": "Apply", "location": "Unknown"},
         {"href": "https://careers.google.com/jobs/7", "title": "Senior Research Engineer", "location": "Unknown"},
     ])
 
-    jobs = scraper.getJobs(driver, "https://example.com/jobs", "deepmind")
+    jobs = scraper.getJobs(page_adapter, "https://example.com/jobs", "deepmind")
 
     assert len(jobs) == 1
     assert jobs[0]["title"] == "Senior Research Engineer"

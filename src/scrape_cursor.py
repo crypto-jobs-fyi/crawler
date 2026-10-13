@@ -7,20 +7,20 @@ from src.scrape_it import ScrapeIt
 class ScrapeCursor(ScrapeIt):
     name = 'Cursor'
 
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(15)
-        driver.get(web_page)
-        PlaywrightWait(driver, 15).until(
+        page.implicitly_wait(15)
+        page.get(web_page)
+        PlaywrightWait(page, 15).until(
             EC.presence_of_element_located((By.XPATH, '//article/a[contains(@href, "/careers/")]'))
         )
         # Extract all data via JavaScript in one call to avoid stale element
         # issues caused by Next.js re-rendering after initial load.
-        job_data = driver.execute_script("""
+        job_data = page.execute_script("""
             const links = Array.from(document.querySelectorAll('article a[href*="/careers/"]'));
             return links.map(a => {
                 const titleElem = a.querySelector('p');

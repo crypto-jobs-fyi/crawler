@@ -21,10 +21,10 @@ def company():
 
 
 # pytest test/test_cursor_scraper.py::test_cursor_scraper
-def test_cursor_scraper(driver, scraper, company):
+def test_cursor_scraper(page_adapter, scraper, company):
     """Test Cursor scraper to verify job extraction."""
     # Act
-    jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    jobs = scraper.getJobs(page_adapter, company.jobs_url, company.company_name)
     with open("cursor_jobs.json", "w") as f:
         json.dump(jobs, f, indent=2)
 

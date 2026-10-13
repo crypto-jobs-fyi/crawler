@@ -14,16 +14,16 @@ class ScrapeRevolutPeople(ScrapeIt):
             return self.clean_location(locations[len(locations) - 1].text)
         return 'UK'
 
-    def getJobs(self, driver, web_page, company = 'Cleo') -> list:
+    def getJobs(self, page, web_page, company = 'Cleo') -> list:
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
+        page.implicitly_wait(5)
+        page.get(web_page)
         time.sleep(3)
-        cookie_banners = driver.find_elements(By.XPATH, '//button/span[text()="Allow all cookies"]')
+        cookie_banners = page.find_elements(By.XPATH, '//button/span[text()="Allow all cookies"]')
         if len(cookie_banners) > 0:
             self.log_info(
                 "Accept cookies",
@@ -32,7 +32,7 @@ class ScrapeRevolutPeople(ScrapeIt):
             )
             cookie_banners[0].click()
             time.sleep(2)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'a[aria-label="position-link"]')
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'a[aria-label="position-link"]')
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'span span')

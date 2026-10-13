@@ -21,15 +21,15 @@ def to_records(group_elements, company):
 class ScrapePaxos(ScrapeIt):
     name = 'PAXOS'
 
-    def getJobs(self, driver, web_page, company='paxos'):
+    def getJobs(self, page, web_page, company='paxos'):
         self.log_info(
             "Scrape page",
             company=company,
             web_page=web_page,
         )
-        driver.implicitly_wait(5)
-        driver.get(web_page)
-        group_elements = driver.find_elements(By.CSS_SELECTOR, 'div a[class*="_container"]')
+        page.implicitly_wait(5)
+        page.get(web_page)
+        group_elements = page.find_elements(By.CSS_SELECTOR, 'div a[class*="_container"]')
         ## logging the number of job elements found
         self.log_info(
             "Found job elements",
