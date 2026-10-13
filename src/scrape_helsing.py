@@ -18,8 +18,8 @@ class ScrapeHelsing(ScrapeIt):
         for elem in group_elements:
             title_elem = elem.find_element(By.XPATH, './/div[@data-label="Position"]')
             location_elem = elem.find_element(By.XPATH, './/div[@data-label="Location"]')
-            job_name = (title_elem.get_attribute('textContent') or '').strip()
-            location = (location_elem.get_attribute('textContent') or '').strip()
+            job_name = title_elem.text.strip()
+            location = location_elem.text.strip()
             if not job_name:
                 continue
             job_url = elem.get_attribute('href')

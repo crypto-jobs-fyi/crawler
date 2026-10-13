@@ -2068,7 +2068,7 @@
             "company_url": "https://helsing.ai",
             "category": "ai",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "cursor",

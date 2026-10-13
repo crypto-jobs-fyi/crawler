@@ -16,5 +16,9 @@ logger.info(
     extra={"company_count": len(filtered_companies), "jobs_file": jobs_file},
 )
 
-runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file)
+runner = PlaywrightCrawlerRunner(
+    jobs_file,
+    current_jobs_file,
+    headless=True,
+)
 runner.run(filtered_companies)
