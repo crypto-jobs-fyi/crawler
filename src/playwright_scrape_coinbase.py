@@ -7,6 +7,30 @@ from src.playwright_scrape_it import PlaywrightScrapeIt
 class ScrapeCoinbasePlaywright(PlaywrightScrapeIt):
     name = "Coinbase"
 
+    def _extract_location(self, link, job_name: str) -> str:
+        try:
+            parent_lines = link.locator("xpath=..").inner_text().splitlines()
+        except PlaywrightError:
+            return "Remote"
+
+        for line in parent_lines:
+            candidate = line.strip()
+            if not candidate or candidate == job_name:
+                continue
+            if candidate.startswith(job_name):
+                location = candidate
+                while location.startswith(job_name):
+                    location = location[len(job_name) :].strip()
+                location = location.strip(" -|")
+                if location:
+                    return location
+            if job_name in candidate:
+                location = candidate.replace(job_name, "", 1).strip(" -|")
+                if location:
+                    return location
+            return candidate
+        return "Remote"
+
     def getJobs(self, page: Page, web_page: str, company: str = "coinbase") -> list[dict]:
         self.log_info("Scrape page", company=company, web_page=web_page)
         page.goto(web_page, wait_until="domcontentloaded", timeout=60_000)
@@ -73,19 +97,7 @@ class ScrapeCoinbasePlaywright(PlaywrightScrapeIt):
             ):
                 continue
 
-            location = "Remote"
-            try:
-                parent_lines = link.locator("xpath=..").inner_text().splitlines()
-                location = next(
-                    (
-                        line.strip()
-                        for line in parent_lines
-                        if line.strip() and line.strip() != job_name and len(line.strip()) < 100
-                    ),
-                    location,
-                )
-            except PlaywrightError:
-                pass
+            location = self._extract_location(link, job_name)
 
             result.append(
                 {

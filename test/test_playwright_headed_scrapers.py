@@ -100,3 +100,29 @@ def test_headed_scraper_contract(page, scraper, company, html):
 
     assert len(jobs) == 1
     assert_job(jobs[0], company)
+
+
+def test_coinbase_extracts_location_from_combined_card_text(page):
+    serve_html(
+        page,
+        """
+        <div data-testid="positions-department">
+            <button>Operations</button>
+        </div>
+        <div class="job-card">
+            <a href="/careers/positions/7980600">
+                Business Operations Senior Associate, Institutional
+            </a>
+            <span>Business Operations Senior Associate, InstitutionalRemote - USA</span>
+        </div>
+        """,
+    )
+
+    jobs = ScrapeCoinbasePlaywright().getJobs(
+        page,
+        "https://playwright.test/jobs",
+        "coinbase",
+    )
+
+    assert jobs[0]["title"] == "Business Operations Senior Associate, Institutional"
+    assert jobs[0]["location"] == "Remote - USA"
