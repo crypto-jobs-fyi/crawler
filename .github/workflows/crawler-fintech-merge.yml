@@ -1,4 +1,4 @@
-name: Run Crawler Fintech Merge Jobs
+name: Merge FinTech Jobs
 
 on:
   workflow_dispatch:

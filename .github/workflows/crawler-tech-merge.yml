@@ -1,4 +1,4 @@
-name: Run Crawler Tech Merge Jobs
+name: Merge Tech Jobs
 
 on:
   workflow_dispatch:

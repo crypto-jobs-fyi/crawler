@@ -1,4 +1,4 @@
-name: Run Crawler AI Merge Jobs
+name: Merge AI Jobs
 
 on:
   workflow_dispatch:

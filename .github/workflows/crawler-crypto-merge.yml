@@ -1,4 +1,4 @@
-name: Run Crawler Crypto Merge Jobs
+name: Merge Crypto Jobs
 
 on:
   workflow_dispatch:
