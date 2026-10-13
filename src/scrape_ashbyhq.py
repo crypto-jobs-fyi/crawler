@@ -1,4 +1,5 @@
-from src.playwright_adapter import By, PlaywrightPageAdapter
+from src.playwright_adapter import By, PlaywrightConditions as EC
+from src.playwright_adapter import PlaywrightPageAdapter, PlaywrightWait
 from src.playwright_adapter import PlaywrightElement
 from src.scrape_it import ScrapeIt
 
@@ -13,6 +14,7 @@ def clean_location(location: str) -> str:
 
 class ScrapeAshbyhq(ScrapeIt):
     name = 'ashbyhq'.upper()
+    _job_locator = 'a:has(h3.ashby-job-posting-brief-title)'
 
     def getJobs(self, page: PlaywrightPageAdapter, web_page: str, company: str) -> list:
         self.log_info(
@@ -20,9 +22,11 @@ class ScrapeAshbyhq(ScrapeIt):
             company=company,
             web_page=web_page,
         )
-        page.get(web_page)
         page.implicitly_wait(7)
-        group_elements: list[PlaywrightElement] = page.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
+        page.get(web_page)
+        group_elements: list[PlaywrightElement] = PlaywrightWait(page, 20).until(
+            EC.presence_of_all_elements_located((By.CSS_SELECTOR, self._job_locator))
+        )
         self.log_info(
             "Job elements found",
             company=company,
