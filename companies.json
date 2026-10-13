@@ -2981,8 +2981,8 @@
         },
         {
             "name": "getrecharge.com",
-            "jobs_url": "https://job-boards.greenhouse.io/recharge",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/recharge",
+            "scraper": "ASHBYHQ",
             "company_url": "https://getrecharge.com",
             "category": "fintech",
             "enabled": true,
