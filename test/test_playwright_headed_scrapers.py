@@ -3,6 +3,7 @@ import pytest
 from src.playwright_scrape_avara import ScrapeAvaraPlaywright
 from src.playwright_scrape_coinbase import ScrapeCoinbasePlaywright
 from src.playwright_scrape_kula import ScrapeKulaPlaywright
+from src.playwright_scrape_revolut_people import ScrapeRevolutPeoplePlaywright
 from src.playwright_scrape_robinhood import ScrapeRobinhoodPlaywright
 from src.playwright_scrape_sygnum import ScrapeSygnumPlaywright
 
@@ -89,6 +90,18 @@ def assert_job(job: dict, company: str) -> None:
                         '<p class="job" data-location="Remote"><a href="/jobs/123">Staff Engineer</a></p>';
                 }, 50);
             </script>
+            """,
+        ),
+        (
+            ScrapeRevolutPeoplePlaywright,
+            "huspy",
+            """
+            <button><span>Allow all cookies</span></button>
+            <a aria-label="position-link" href="/jobs/123">
+                <span><span>Senior Product Manager</span></span>
+                <div data-testid="location-row">Dubai, UAE</div>
+                <div data-testid="location-row">United Arab Emirates</div>
+            </a>
             """,
         ),
     ],

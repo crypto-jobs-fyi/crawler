@@ -2869,7 +2869,7 @@
             "company_url": "https://www.huspy.com",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "momentmarkets",
