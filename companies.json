@@ -2864,8 +2864,8 @@
         },
         {
             "name": "momentmarkets",
-            "jobs_url": "https://job-boards.greenhouse.io/momentmarkets",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/moment",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.moment.com",
             "category": "fintech",
             "enabled": true,
