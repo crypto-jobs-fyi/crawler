@@ -32,7 +32,6 @@ jobs:
               test/test_btcsuisse.py
               test/test_c3_scraper.py
               test/test_dayforce_scraper.py
-              test/test_playwright_headed_scrapers.py
           - shard: 2
             runner: ubuntu-latest
             tests: >-
@@ -61,11 +60,12 @@ jobs:
               test/test_world.py
               test/test_cursor_scraper.py
           - shard: 5
-            runner: macos-latest
+            runner: ubuntu-latest
             tests: >-
               test/test_helsing_scraper.py
               test/test_circle_scraper.py
               test/test_ripple_scraper.py
+              test/test_playwright_headed_scrapers.py
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
