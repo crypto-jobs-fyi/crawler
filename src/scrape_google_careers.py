@@ -1,8 +1,6 @@
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightWait
+from src.playwright_adapter import PlaywrightConditions as EC
 from src.scrape_it import ScrapeIt
 
 
@@ -31,12 +29,12 @@ class ScrapeGoogleCareers(ScrapeIt):
         driver.get(web_page)
 
         try:
-            WebDriverWait(driver, 20).until(
+            PlaywrightWait(driver, 20).until(
                 EC.presence_of_element_located(
                     (By.CSS_SELECTOR, self.JOB_LINK_SELECTOR)
                 )
             )
-        except TimeoutException:
+        except TimeoutError:
             self.log_warning(
                 "No Google Careers job links found before timeout",
                 company=company,

@@ -1,7 +1,6 @@
 import pytest
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.support.ui import WebDriverWait
 
+from src.playwright_adapter import PlaywrightWait
 from src.scrape_google_careers import ScrapeGoogleCareers
 
 
@@ -27,7 +26,7 @@ class FakeDriver:
 
 
 def test_google_careers_scraper_deduplicates_and_filters(monkeypatch):
-    monkeypatch.setattr(WebDriverWait, "until", lambda self, condition: True)
+    monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
     driver = FakeDriver([
         {"href": "https://careers.google.com/jobs/1", "title": "Research Engineer", "location": "London, UK"},
@@ -53,9 +52,9 @@ def test_google_careers_scraper_deduplicates_and_filters(monkeypatch):
 
 def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
     def _raise_timeout(self, condition):
-        raise TimeoutException("timed out")
+        raise TimeoutError("timed out")
 
-    monkeypatch.setattr(WebDriverWait, "until", _raise_timeout)
+    monkeypatch.setattr(PlaywrightWait, "until", _raise_timeout)
     scraper = ScrapeGoogleCareers()
     driver = FakeDriver([
         {"href": "https://careers.google.com/jobs/1", "title": "Should Not Be Used", "location": "Remote"},
@@ -68,7 +67,7 @@ def test_google_careers_scraper_returns_empty_on_timeout(monkeypatch):
 
 
 def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypatch):
-    monkeypatch.setattr(WebDriverWait, "until", lambda self, condition: True)
+    monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
     driver = FakeDriver([
         {"href": "https://careers.google.com/jobs/9", "title": "", "location": "Remote"},
@@ -83,7 +82,7 @@ def test_google_careers_scraper_keeps_valid_duplicate_after_empty_title(monkeypa
 
 
 def test_google_careers_scraper_prefers_specific_title_for_duplicate(monkeypatch):
-    monkeypatch.setattr(WebDriverWait, "until", lambda self, condition: True)
+    monkeypatch.setattr(PlaywrightWait, "until", lambda self, condition: True)
     scraper = ScrapeGoogleCareers()
     driver = FakeDriver([
         {"href": "https://careers.google.com/jobs/7", "title": "Apply", "location": "Unknown"},
