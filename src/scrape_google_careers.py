@@ -1,0 +1,101 @@
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightWait
+from src.playwright_adapter import PlaywrightConditions as EC
+from src.scrape_it import ScrapeIt
+
+
+class ScrapeGoogleCareers(ScrapeIt):
+    name = 'GOOGLE_CAREERS'
+    JOB_LINK_SELECTOR = (
+        'a[href*="/about/careers/applications/jobs/details/"], '
+        'a[href*="/careers/applications/jobs/details/"], '
+        'a[href*="jobs/results/"]'
+    )
+    GENERIC_TITLES = {"apply", "view", "learn more", "details"}
+
+    @classmethod
+    def _job_quality(cls, job: dict) -> tuple[int, int]:
+        title = job.get("title", "").strip().lower()
+        has_specific_title = 0 if title in cls.GENERIC_TITLES else 1
+        has_location = 0 if job.get("location") == "Unknown" else 1
+        return has_specific_title, has_location
+
+    def getJobs(self, driver, web_page, company) -> list:
+        self.log_info(
+            "Scrape page",
+            company=company,
+            web_page=web_page,
+        )
+        driver.implicitly_wait(10)
+        driver.get(web_page)
+
+        try:
+            PlaywrightWait(driver, 20).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, self.JOB_LINK_SELECTOR)
+                )
+            )
+        except TimeoutError:
+            self.log_warning(
+                "No Google Careers job links found before timeout",
+                company=company,
+                web_page=web_page,
+            )
+            return []
+
+        job_data = driver.execute_script("""
+            const linkSelector = arguments[0];
+            const links = Array.from(document.querySelectorAll(linkSelector));
+            return links.map((a) => {
+              let card = a.parentElement;
+              while (card && !card.querySelector('h2, h3, h4')) {
+                card = card.parentElement;
+              }
+              const titleFromHeading = card ? card.querySelector('h2, h3, h4') : null;
+              const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
+              const headingText = titleFromHeading ? titleFromHeading.textContent : '';
+              const title = (headingText || titleFromLink || '').trim();
+              const locationNode = card
+                ? card.querySelector('[aria-label*="Location"], [aria-label*="location"], [data-testid*="location"], [class*="location"]')
+                : null;
+              const googleLocation = card ? card.querySelector('.r0wTof') : null;
+              const resolvedLocation = locationNode || googleLocation;
+              const locationText = resolvedLocation ? resolvedLocation.textContent : '';
+              const location = (locationText || '').trim();
+              return {
+                href: a.href,
+                title,
+                location,
+              };
+            });
+        """, self.JOB_LINK_SELECTOR) or []
+
+        jobs_by_url = {}
+        for item in job_data:
+            job_url = item.get("href", "")
+            if not job_url:
+                continue
+            job_name = item.get("title", "").strip()
+            if not job_name:
+                continue
+            location = item.get("location", "").strip() or "Unknown"
+            job = {
+                "company": company,
+                "title": job_name,
+                "location": location,
+                "link": job_url,
+            }
+            existing = jobs_by_url.get(job_url)
+            if existing is None or self._job_quality(job) > self._job_quality(existing):
+                jobs_by_url[job_url] = job
+
+        result = list(jobs_by_url.values())
+
+        self.log_info(
+            "Scrape summary",
+            company=company,
+            web_page=web_page,
+            jobs_found=len(job_data),
+            jobs_scraped=len(result),
+        )
+        return result

@@ -26,6 +26,7 @@ from src.scrape_avara import ScrapeAvara
 from src.scrape_recruitee import ScrapeRecruitee
 from src.scrape_helsing import ScrapeHelsing
 from src.scrape_cursor import ScrapeCursor
+from src.scrape_google_careers import ScrapeGoogleCareers
 from src.scrape_dayforce import ScrapeDayforce
 
 class Scrapers:
@@ -55,4 +56,5 @@ class Scrapers:
     RECRUITEE = ScrapeRecruitee
     HELSING = ScrapeHelsing
     CURSOR = ScrapeCursor
+    GOOGLE_CAREERS = ScrapeGoogleCareers
     DAYFORCE = ScrapeDayforce

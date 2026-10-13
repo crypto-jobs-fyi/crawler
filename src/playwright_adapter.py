@@ -90,11 +90,14 @@ class PlaywrightPageAdapter:
 
     def execute_script(self, script: str, *args):
         if args:
-            element = args[0]
-            if not isinstance(element, PlaywrightElement):
-                raise TypeError("Script arguments must be Playwright elements")
-            body = script.replace("arguments[0]", "element")
-            return element._locator.evaluate(f"(element) => {{ {body} }}")
+            if all(isinstance(argument, PlaywrightElement) for argument in args):
+                element = args[0]
+                body = script.replace("arguments[0]", "element")
+                return element._locator.evaluate(f"(element) => {{ {body} }}")
+            return self._context.evaluate(
+                f"(args) => {{ return (function() {{ {script} }}).apply(null, args); }}",
+                list(args),
+            )
         return self._context.evaluate(f"() => {{ {script} }}")
 
     def close(self) -> None:
