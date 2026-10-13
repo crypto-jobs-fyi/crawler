@@ -153,6 +153,17 @@
 ### 3.3 Scrapers Registry (`src/scrapers.py`)
 **Purpose**: Centralized enum-like registry of all scrapers.
 
+#### Playwright headed migration
+
+The headed crypto entry point (`crypto_crawler_headed.py`) uses
+`PlaywrightCrawlerRunner` and Playwright scraper implementations for Coinbase,
+Sygnum, Paradigm/Kula, Avara, and Robinhood. The Selenium `CrawlerRunner` and
+existing scrapers remain in place while the rest of the crawler is migrated.
+
+`pytest-playwright` is used for isolated scraper contract tests; production
+crawlers create their own Playwright browser and context rather than depending
+on pytest fixtures.
+
 **Current Implementation**:
 ```python
 class Scrapers:

@@ -30,12 +30,22 @@ The crawler supports major HR platforms including:
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
+    playwright install chromium
     ```
 2.  **Run Crawler**:
     ```bash
     python crawler_ai.py
     ```
     *Note: Crawlers run in headless mode by default. To debug visually, disable headless mode in the crawler script.*
+
+The headed crypto crawler uses Playwright for the initial migration slice:
+
+```bash
+python crypto_crawler_headed.py
+```
+
+It launches visible Chromium and currently migrates Coinbase, Sygnum, Paradigm,
+Avara, and Robinhood. The remaining crawlers continue to use Selenium.
 
 ### Docker
 - `docker build --tag scrap:latest .`

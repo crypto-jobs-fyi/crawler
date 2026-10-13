@@ -1,5 +1,7 @@
 jsonschema==4.26.0
 selenium==4.48.0
+playwright==1.63.0
+pytest-playwright==0.10.0
 urllib3==2.7.0
 userpath==1.9.2
 pytest==9.1.1
