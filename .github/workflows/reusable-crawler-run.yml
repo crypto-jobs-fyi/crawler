@@ -56,6 +56,10 @@ jobs:
       - name: Run crawler scripts
         run: |
           for script in ${{ inputs.script_names }}; do
+            if [ ! -f "$script" ]; then
+              echo "::error::Crawler script not found: $script"
+              exit 1
+            fi
             echo "Running $script"
             python "$script"
           done
@@ -65,8 +69,13 @@ jobs:
         id: set-output
         run: |
           ls -l
-          echo "current=$(jq -c . ${{ inputs.output_json }})" >> $GITHUB_OUTPUT
-          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' ${{ inputs.output_json }})" >> $GITHUB_OUTPUT
+          output_json="${{ inputs.output_json }}"
+          if [ ! -f "$output_json" ]; then
+            echo "::error::Crawler did not produce the expected output file: $output_json. Check the Run crawler scripts step for the original failure."
+            exit 1
+          fi
+          echo "current=$(jq -c . "$output_json")" >> "$GITHUB_OUTPUT"
+          echo "after_total=$(jq -r '(.total_jobs // .["Total Jobs"] // 0)' "$output_json")" >> "$GITHUB_OUTPUT"
 
       - name: Create Pull Request
         id: create-pr
