@@ -1,5 +1,5 @@
 from src.companies import Companies
-from src.crawler_runner import CrawlerRunner
+from src.playwright_crawler_runner import PlaywrightCrawlerRunner
 from src.logging_utils import get_logger
 
 
@@ -17,6 +17,6 @@ logger.info(
 # No exclusion as requested
 filtered_companies = company_list
 
-runner = CrawlerRunner(jobs_file, current_jobs_file)
+runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file)
 runner.run(filtered_companies)
 

@@ -2,6 +2,7 @@ import json
 from abc import ABC, abstractmethod
 import os
 from src.logging_utils import get_logger
+from src.playwright_adapter import PlaywrightPageAdapter
 
 
 class ScrapeIt(ABC):
@@ -10,7 +11,7 @@ class ScrapeIt(ABC):
         self.logger = get_logger(logger_name)
 
     @abstractmethod
-    def getJobs(self, driver, web_page, company) -> list:
+    def getJobs(self, page: PlaywrightPageAdapter, web_page: str, company: str) -> list:
         pass
 
     def log_info(self, message: str, **extra) -> None:

@@ -1,4 +1,5 @@
 name: Run Crawler AI
+run-name: Run Crawler AI - ${{ inputs.script_name }}
 
 on:
   workflow_call:
@@ -21,6 +22,7 @@ on:
 
 jobs:
   configure:
+    name: Configure (${{ inputs.script_name }})
     runs-on: ubuntu-latest
     outputs:
       output_json: ${{ steps.map.outputs.output_json }}
@@ -58,6 +60,7 @@ jobs:
           esac
 
   run-crawler:
+    name: Run ${{ inputs.script_name }}
     needs: configure
     uses: ./.github/workflows/reusable-crawler-run.yml
     permissions:

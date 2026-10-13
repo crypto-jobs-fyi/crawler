@@ -25,6 +25,11 @@
         },
         "\"$PWD/venv/bin/python\"": true,
         "printf": true,
-        "git -C /Users/ydubinin/Documents/GitHub/crawler": true
+        "git -C /Users/ydubinin/Documents/GitHub/crawler": true,
+        "venv/bin/python": true,
+        "/^source /Users/ydubinin/Documents/GitHub/crawler/venv/bin/activate && pytest test/test_btcsuisse\\.py -q -s$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
     }
 }

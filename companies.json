@@ -740,8 +740,8 @@
         },
         {
             "name": "wormholefoundation",
-            "jobs_url": "https://boards.greenhouse.io/iftother",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/wormholelabs",
+            "scraper": "ASHBYHQ",
             "company_url": "https://wormhole.com",
             "category": "crypto",
             "enabled": true,
@@ -766,19 +766,19 @@
             "headless": true
         },
         {
-            "name": "bitmex",
-            "jobs_url": "https://boards.greenhouse.io/bitmex",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://bitmex.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "bitgo",
             "jobs_url": "https://boards.greenhouse.io/bitgo",
             "scraper": "GREENHOUSE",
             "company_url": "https://bitgo.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+         {
+            "name": "bybit",
+            "jobs_url": "https://boards.greenhouse.io/bybit",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://bybit.com",
             "category": "crypto",
             "enabled": true,
             "headless": true
@@ -797,6 +797,15 @@
             "jobs_url": "https://jobs.ashbyhq.com/uniswap",
             "scraper": "ASHBYHQ",
             "company_url": "https://uniswap.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "zodl",
+            "jobs_url": "https://jobs.ashbyhq.com/zodl",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://zodl.com",
             "category": "crypto",
             "enabled": true,
             "headless": true
@@ -1450,15 +1459,6 @@
             "headless": true
         },
         {
-            "name": "noble",
-            "jobs_url": "https://job-boards.greenhouse.io/noble",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://www.noble.xyz",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "ramp.network",
             "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork",
             "scraper": "GREENHOUSE",
@@ -1513,15 +1513,6 @@
             "headless": true
         },
         {
-            "name": "solana",
-            "jobs_url": "https://job-boards.greenhouse.io/solana",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://solana.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "ondo-finance",
             "jobs_url": "https://job-boards.greenhouse.io/ondofinance",
             "scraper": "GREENHOUSE",
@@ -1562,15 +1553,6 @@
             "jobs_url": "https://job-boards.greenhouse.io/mesh",
             "scraper": "GREENHOUSE",
             "company_url": "https://meshpay.com",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
-            "name": "aPriori",
-            "jobs_url": "https://job-boards.greenhouse.io/apr",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://www.apr.io",
             "category": "crypto",
             "enabled": true,
             "headless": true
@@ -1644,7 +1626,7 @@
             "scraper": "CONSENSYS",
             "company_url": "https://consensys.io",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -1689,7 +1671,7 @@
             "scraper": "GEM",
             "company_url": "https://www.dydx.xyz",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -1730,8 +1712,8 @@
         },
         {
             "name": "genspark.ai",
-            "jobs_url": "https://jobs.gem.com/genspark",
-            "scraper": "GEM",
+            "jobs_url": "https://jobs.ashbyhq.com/genspark",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.genspark.ai",
             "category": "ai",
             "enabled": true,
@@ -1769,6 +1751,15 @@
             "jobs_url": "https://jobs.ashbyhq.com/poolside",
             "scraper": "ASHBYHQ",
             "company_url": "https://poolside.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "typesafe.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/typesafe-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://typesafe.ai",
             "category": "ai",
             "enabled": true,
             "headless": true
@@ -1955,8 +1946,8 @@
         },
         {
             "name": "blackforestlabs",
-            "jobs_url": "https://job-boards.greenhouse.io/blackforestlabs",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/black-forest-labs",
+            "scraper": "ASHBYHQ",
             "company_url": "https://bfl.ai",
             "category": "ai",
             "enabled": true,
@@ -1973,8 +1964,8 @@
         },
         {
             "name": "mistral",
-            "jobs_url": "https://jobs.lever.co/mistral",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/mistral.ai",
+            "scraper": "ASHBYHQ",
             "company_url": "https://mistral.ai",
             "category": "ai",
             "enabled": true,
@@ -2035,15 +2026,6 @@
             "headless": true
         },
         {
-            "name": "neptuneai",
-            "jobs_url": "https://job-boards.greenhouse.io/neptuneai",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://neptune.ai",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "n8n",
             "jobs_url": "https://jobs.ashbyhq.com/n8n",
             "scraper": "ASHBYHQ",
@@ -2062,9 +2044,18 @@
             "headless": true
         },
         {
+            "name": "pigment",
+            "jobs_url": "https://jobs.lever.co/pigment",
+            "scraper": "LEVER",
+            "company_url": "https://www.pigment.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "machinify",
-            "jobs_url": "https://jobs.ashbyhq.com/machinify",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://job-boards.greenhouse.io/machinifyinc",
+            "scraper": "GREENHOUSE",
             "company_url": "https://www.machinify.com",
             "category": "ai",
             "enabled": true,
@@ -2126,8 +2117,8 @@
         },
         {
             "name": "leonardo.ai",
-            "jobs_url": "https://jobs.ashbyhq.com/leonardo.ai",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://careers.smartrecruiters.com/leonardoai",
+            "scraper": "SMARTRECRUITERS",
             "company_url": "https://leonardo.ai",
             "category": "ai",
             "enabled": true,
@@ -2189,9 +2180,18 @@
         },
         {
             "name": "interactivebrokers",
-            "jobs_url": "https://job-boards.greenhouse.io/ibkr",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.dayforcehcm.com/en-US/ibgllc/CANDIDATEPORTAL",
+            "scraper": "DAYFORCE",
             "company_url": "https://www.interactivebrokers.com/en",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "imc.com",
+            "jobs_url": "https://job-boards.greenhouse.io/imc",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.imc.com/us/",
             "category": "fintech",
             "enabled": true,
             "headless": true
@@ -2315,8 +2315,8 @@
         },
         {
             "name": "cerebras.ai",
-            "jobs_url": "https://job-boards.greenhouse.io/cerebrassystems",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/cerebras",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.cerebras.ai",
             "category": "ai",
             "enabled": true,
@@ -2389,7 +2389,7 @@
             "name": "starmind",
             "jobs_url": "https://job-boards.greenhouse.io/starmind",
             "scraper": "GREENHOUSE",
-            "company_url": "https://www.starmind.ai",
+            "company_url": "https://www.starmind.com",
             "category": "ai",
             "enabled": true,
             "headless": true
@@ -2432,8 +2432,8 @@
         },
         {
             "name": "encord.com",
-            "jobs_url": "https://jobs.lever.co/CordTechnologies",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/encord",
+            "scraper": "ASHBYHQ",
             "company_url": "https://encord.com",
             "category": "ai",
             "enabled": true,
@@ -2441,8 +2441,8 @@
         },
         {
             "name": "applied_intuition",
-            "jobs_url": "https://www.appliedintuition.com/careers#job-listings",
-            "scraper": "APPLIED_INTUITION",
+            "jobs_url": "https://jobs.ashbyhq.com/applied",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.appliedintuition.com",
             "category": "ai",
             "enabled": true,
@@ -2558,8 +2558,8 @@
         },
         {
             "name": "fireworks.ai",
-            "jobs_url": "https://job-boards.greenhouse.io/fireworksai",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/fireworks",
+            "scraper": "ASHBYHQ",
             "company_url": "https://fireworks.ai",
             "category": "ai",
             "enabled": true,
@@ -2638,9 +2638,9 @@
             "headless": true
         },
         {
-            "name": "interfaceai",
-            "jobs_url": "https://job-boards.greenhouse.io/interfaceai",
-            "scraper": "GREENHOUSE",
+            "name": "interface.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/interface-ai",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.interface.ai",
             "category": "ai",
             "enabled": true,
@@ -2747,8 +2747,8 @@
         },
         {
             "name": "zushealth",
-            "jobs_url": "https://jobs.lever.co/zushealth",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/zus-health",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.zushealth.com",
             "category": "ai",
             "enabled": true,
@@ -2827,10 +2827,10 @@
             "headless": true
         },
         {
-            "name": "Ivy",
-            "jobs_url": "https://jobs.ashbyhq.com/get-ivy",
+            "name": "Augustus",
+            "jobs_url": "https://jobs.ashbyhq.com/Augustus",
             "scraper": "ASHBYHQ",
-            "company_url": "https://www.getivy.io",
+            "company_url": "https://augustus.com",
             "category": "fintech",
             "enabled": true,
             "headless": true
@@ -2860,7 +2860,7 @@
             "company_url": "https://www.affirm.com",
             "category": "fintech",
             "enabled": true,
-            "headless": true
+            "headless": false
         },
         {
             "name": "huspy",
@@ -2869,7 +2869,7 @@
             "company_url": "https://www.huspy.com",
             "category": "fintech",
             "enabled": true,
-            "headless": false
+            "headless": true
         },
         {
             "name": "momentmarkets",
@@ -3138,7 +3138,7 @@
             "scraper": "LEVER",
             "company_url": "https://ultra.io",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -3147,7 +3147,7 @@
             "scraper": "LEVER",
             "company_url": "https://glassnode.com",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -3155,6 +3155,15 @@
             "jobs_url": "https://jobs.ashbyhq.com/Boost",
             "scraper": "ASHBYHQ",
             "company_url": "https://Boost.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "tenderly",
+            "jobs_url": "https://jobs.ashbyhq.com/tenderly",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://tenderly.co",
             "category": "crypto",
             "enabled": true,
             "headless": true
@@ -3174,7 +3183,7 @@
             "scraper": "LEVER",
             "company_url": "https://www.autonomys.xyz",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         },
         {
@@ -3214,6 +3223,15 @@
             "headless": true
         },
         {
+            "name": "gsrmarkets",
+            "jobs_url": "https://boards.greenhouse.io/gsrmarkets",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.gsr.io",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "econetwork",
             "jobs_url": "https://job-boards.greenhouse.io/ecoinc",
             "scraper": "GREENHOUSE",
@@ -3245,15 +3263,6 @@
             "jobs_url": "https://apply.workable.com/distributedcrafts",
             "scraper": "WORKABLE",
             "company_url": "https://www.gobob.xyz/",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
-            "name": "prepo",
-            "jobs_url": "https://apply.workable.com/prepo",
-            "scraper": "WORKABLE",
-            "company_url": "https://prepo.io",
             "category": "crypto",
             "enabled": true,
             "headless": true
@@ -3300,7 +3309,7 @@
             "scraper": "LEVER",
             "company_url": "https://multiversx.com",
             "category": "crypto",
-            "enabled": true,
+            "enabled": false,
             "headless": true
         }
     ]

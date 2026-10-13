@@ -1,22 +1,10 @@
 import pytest
-from selenium import webdriver
 from src.scrape_c3 import ScrapeC3
 from src.company_item import CompanyItem
 from src.scrapers import Scrapers
 
 
-@pytest.fixture
-def driver():
-    """Fixture to create and tear down a Chrome WebDriver."""
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--disable-extensions')
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    yield driver
-    driver.quit()
+# Run with: pytest test/test_c3_scraper.py -q
 
 
 @pytest.fixture
@@ -35,6 +23,7 @@ def test_c3_scraper(driver, scraper, company):
     """Test C3.ai scraper to verify job extraction."""
     # Act
     jobs = scraper.getJobs(driver, company.jobs_url, company.company_name)
+    print(f"Found {len(jobs)} jobs for {company.company_name}")
     
     # Assert
     assert isinstance(jobs, list), "getJobs should return a list"

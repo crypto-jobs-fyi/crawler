@@ -1,22 +1,9 @@
 import pytest
-from selenium import webdriver
 from src.scrape_base import ScrapeBase
 from src.company_item import CompanyItem
 from src.scrapers import Scrapers
 
 
-@pytest.fixture
-def driver():
-    """Fixture to create and tear down a Chrome WebDriver."""
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--disable-extensions')
-    
-    driver = webdriver.Chrome(options=chrome_options)
-    yield driver
-    driver.quit()
 
 
 @pytest.fixture
@@ -28,7 +15,7 @@ def scraper():
 @pytest.fixture
 def company():
     """Fixture to create a Base CompanyItem."""
-    return CompanyItem("base", "https://www.base.org/jobs", Scrapers.BASE, "https://www.base.org")
+    return CompanyItem("base", "https://www.base.org/jobs#open-roles", Scrapers.BASE, "https://www.base.org")
 
 
 def test_base_scraper(driver, scraper, company):

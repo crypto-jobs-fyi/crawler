@@ -1,9 +1,9 @@
 import time
 
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.remote.webelement import WebElement
+from src.playwright_adapter import PlaywrightConditions as EC
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightWait
+from src.playwright_adapter import PlaywrightElement
 
 from src.scrape_it import ScrapeIt
 from src.logging_utils import get_logger
@@ -16,7 +16,7 @@ def show_more(driver, locator: str) -> None:
         "Workable show more",
         extra={"locator": locator},
     )
-    show_more_button: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, locator)
+    show_more_button: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, locator)
     if len(show_more_button) > 0:
         driver.execute_script("arguments[0].scrollIntoView(true);", show_more_button[0])
         time.sleep(5)
@@ -46,7 +46,7 @@ class ScrapeWorkable(ScrapeIt):
             acceptAll[0].click()
             time.sleep(3)
         clear_filters_locator: str = 'a[data-ui="clear-filters"]'
-        clear_filters: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
+        clear_filters: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, clear_filters_locator)
         if len(clear_filters) > 0:
             self.log_info(
                 "Clear filters",
@@ -55,11 +55,11 @@ class ScrapeWorkable(ScrapeIt):
             )
             driver.execute_script("arguments[0].click();", clear_filters[0])
         driver.implicitly_wait(15)
-        wait: WebDriverWait = WebDriverWait(driver, 10)
+        wait: PlaywrightWait = PlaywrightWait(driver, 10)
         result: list = []
         show_more_locator: str = 'button[data-ui="load-more-button"]'
         job_root_locator: str = 'li[data-ui^="job"]'
-        show_more_buttons: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, show_more_locator)
+        show_more_buttons: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, show_more_locator)
         if len(show_more_buttons) > 0:
             self.log_info(
                 "Show more button",
@@ -68,7 +68,7 @@ class ScrapeWorkable(ScrapeIt):
             )
             show_more(driver, show_more_locator)
         # just try to find elements and exit if none
-        temp_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, job_root_locator)
+        temp_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, job_root_locator)
         if len(temp_elements) == 0:
             self.log_info(
                 "No jobs found",
@@ -76,13 +76,13 @@ class ScrapeWorkable(ScrapeIt):
                 web_page=web_page,
             )
             return result
-        group_elements: list[WebElement] = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_root_locator)))
+        group_elements: list[PlaywrightElement] = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, job_root_locator)))
         driver.implicitly_wait(5)
         for elem in group_elements:
-            link_elem: WebElement = elem.find_element(By.CSS_SELECTOR, 'a')
-            remote_elem: list[WebElement] = elem.find_elements(By.CSS_SELECTOR, '[data-ui="job-remote"]')
-            job_name_elem: WebElement = elem.find_element(By.CSS_SELECTOR, '[data-ui="job-title"],[data-id="job-item"]')
-            location_elem: WebElement = elem.find_element(By.CSS_SELECTOR, 'span[data-ui="job-location"],span[data-ui="job-workplace"]')
+            link_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, 'a')
+            remote_elem: list[PlaywrightElement] = elem.find_elements(By.CSS_SELECTOR, '[data-ui="job-remote"]')
+            job_name_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, '[data-ui="job-title"],[data-id="job-item"]')
+            location_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, 'span[data-ui="job-location"],span[data-ui="job-workplace"]')
             job_url: str = link_elem.get_attribute('href')
             job_name: str = job_name_elem.text
             location: str = location_elem.text

@@ -1,7 +1,7 @@
 import time
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightElement
 
 from src.scrape_it import ScrapeIt
 
@@ -22,7 +22,7 @@ class ScrapeGemini(ScrapeIt):
         driver.get(web_page)
         time.sleep(5)
         driver.implicitly_wait(9)
-        accept: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'button[data-testid="cookie-accept-all"]')
+        accept: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'button[data-testid="cookie-accept-all"]')
         if len(accept) > 0:
             accept[0].click()
         result = []

@@ -30,12 +30,33 @@ The crawler supports major HR platforms including:
     python3 -m venv venv
     source venv/bin/activate
     pip install -r requirements.txt
+    playwright install chromium
     ```
 2.  **Run Crawler**:
     ```bash
     python crawler_ai.py
     ```
     *Note: Crawlers run in headless mode by default. To debug visually, disable headless mode in the crawler script.*
+
+All crawlers use Playwright. The headed crypto crawler is useful for sites that
+need a visible browser session:
+
+```bash
+python crypto_crawler_headed.py
+```
+
+It launches visible Chromium and runs the same migrated scraper classes as the
+normal crawlers.
+
+For the fintech headed workflow:
+
+```bash
+python crawler_fintech_headed.py
+```
+
+The fintech entry point uses two attempts per company. Huspy is marked
+headless in `companies.json`, but its provider may challenge headless Chromium;
+use this headed entry point when a live run is blocked.
 
 ### Docker
 - `docker build --tag scrap:latest .`
@@ -57,7 +78,20 @@ The UI will automatically fetch and combine job listings from all available vert
 
 ## Testing
 
-Tests are located in the `test/` directory and use `pytest`.
+Tests are located in the `test/` directory and use `pytest-playwright`.
+Deterministic contract tests run by default. Company-specific tests that call
+external job sites are opt-in:
+
+```bash
+pytest
+pytest --run-live
+```
+
+Install Chromium once before running tests:
+
+```bash
+python -m playwright install chromium
+```
 
 
 ## Development
@@ -71,8 +105,15 @@ Tests are located in the `test/` directory and use `pytest`.
 
 ### Creating a Custom Scraper
 1.  Create `src/scrape_<name>.py` inheriting from `ScrapeIt`.
-2.  Implement `getJobs(self, driver, web_page, company)`.
-3.  Register the new scraper in `src/scrapers.py`.
+2.  Implement `getJobs(self, page, web_page, company)`.
+3.  Use the Playwright adapter or native Playwright locators.
+4.  Ensure it works in headless Chromium; new scrapers must not require a
+    headed entry point.
+5.  Add `test/test_<name>_scraper.py` with the pytest-playwright `page`
+    fixture. Live scraper tests must navigate to the real target page rather
+    than mocking network responses. Run them with `--run-live`, for example:
+    `pytest --run-live test/test_dayforce_scraper.py`.
+6.  Register the new scraper in `src/scrapers.py`.
 
 ## Roadmap
 - [x] Automate scraping from popular HR platforms
@@ -90,7 +131,6 @@ If you find this project useful, please donate ETH/ERC-20 to:
 The following companies are targeted for future integration:
 - https://careers.smartrecruiters.com/MicroStrategy1
 - https://support.bitmart.com/hc/en-us/categories/10942109789723-Career-Opportunities
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://apply.workable.com/re7-capital/
 - https://careers.persistence.one/jobs
 - https://www.eotlabs.io/about-us#Vacancy-Section
@@ -124,7 +164,6 @@ The following companies are targeted for future integration:
 - https://changenow.io/jobs
 - https://chainsafe.github.io/protocol
 - https://www.sofi.com/careers
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/jobs?page=1&pageSize=50
 - https://www.openzeppelin.com/jobs
 - https://careers.chorus.one/
 - https://staking-facilities-gmbh.jobs.personio.com/
@@ -163,7 +202,6 @@ The following companies are targeted for future integration:
 - https://stake-capital-group.breezy.hr/
 - https://polygon.technology/ecosystem-jobs
 - https://jobs.dragonfly.xyz/jobs 
-- https://jobs.bybitglobal.com/social-recruitment/bybit/45685#/
 - https://www.ethswarm.org/jobs
 - https://cash.app/careers
 - https://edxmarkets.com/about/careers/
@@ -187,10 +225,13 @@ The following companies are targeted for future integration:
 - https://www.ambergroup.io/people?location=All&jobType=All
 - https://lightcurve.jobs.personio.de/?language=en
 - https://apply.workable.com/anza-xyz/
-- https://jobs.lever.co/pigment
 - https://jobs.lever.co/neednova
 - https://plaid.com/careers/openings
 
 to be fixed:
 
-CompanyItem('Tenderly', 'https://careers.kula.ai/tenderly', custom, 'https://tenderly.co'),
+"name": "RadicalAI",
+"jobs_url": "https://app.nodi.global/company/Radical%20AI"
+
+"name": "fireblocks",
+"jobs_url": "https://www.fireblocks.com/careers#open-roles"

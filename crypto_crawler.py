@@ -1,6 +1,6 @@
 from src.scrapers import Scrapers
 from src.companies import Companies
-from src.crawler_runner import CrawlerRunner
+from src.playwright_crawler_runner import PlaywrightCrawlerRunner
 from src.logging_utils import get_logger
 
 jobs_file = 'crypto_jobs_mix.json'
@@ -16,5 +16,5 @@ logger.info(
     extra={"company_count": len(filtered_companies), "jobs_file": jobs_file},
 )
 
-runner = CrawlerRunner(jobs_file, current_jobs_file)
+runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file)
 runner.run(filtered_companies)

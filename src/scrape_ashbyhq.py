@@ -1,6 +1,5 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.remote.webelement import WebElement
-from selenium import webdriver
+from src.playwright_adapter import By, PlaywrightPageAdapter
+from src.playwright_adapter import PlaywrightElement
 from src.scrape_it import ScrapeIt
 
 
@@ -15,7 +14,7 @@ def clean_location(location: str) -> str:
 class ScrapeAshbyhq(ScrapeIt):
     name = 'ashbyhq'.upper()
 
-    def getJobs(self, driver: webdriver.Chrome, web_page: str, company: str) -> list:
+    def getJobs(self, driver: PlaywrightPageAdapter, web_page: str, company: str) -> list:
         self.log_info(
             "Scrape page",
             company=company,
@@ -23,7 +22,7 @@ class ScrapeAshbyhq(ScrapeIt):
         )
         driver.get(web_page)
         driver.implicitly_wait(7)
-        group_elements: list[WebElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
+        group_elements: list[PlaywrightElement] = driver.find_elements(By.CSS_SELECTOR, 'a[class*="container_"]')
         self.log_info(
             "Job elements found",
             company=company,
@@ -33,9 +32,9 @@ class ScrapeAshbyhq(ScrapeIt):
         job_location_locator: str = 'div[class*="details_"] p'
         result: list = []
         for elem in group_elements:
-            link_elem: WebElement = elem
-            job_name_elem: WebElement = elem.find_element(By.CSS_SELECTOR, 'h3')
-            location_elem: WebElement = elem.find_element(By.CSS_SELECTOR, job_location_locator)
+            link_elem: PlaywrightElement = elem
+            job_name_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, 'h3')
+            location_elem: PlaywrightElement = elem.find_element(By.CSS_SELECTOR, job_location_locator)
             job_url: str = link_elem.get_attribute('href')
             job_name: str = job_name_elem.text
             location: str = location_elem.text

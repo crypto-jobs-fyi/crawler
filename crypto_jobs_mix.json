@@ -1,6 +1,12 @@
 {
     "data": [
         {
+            "company": "base",
+            "title": "Builder Operations Associate",
+            "location": "US or Canada - Remote",
+            "link": "https://job-boards.greenhouse.io/embed/job_app?token=7232431&for=basejobs"
+        },
+        {
             "company": "paxos",
             "title": "Corporate Development Lead",
             "location": "Corporate \u2022 New York - Hybrid \u2022 Full time",
@@ -20,27 +26,27 @@
         },
         {
             "company": "paxos",
-            "title": "GRC Analyst",
-            "location": "Engineering \u2022 Remote - India \u2022 Full time",
-            "link": "https://jobs.ashbyhq.com/paxos/8ce958f4-ddf4-4e48-95f4-7fe790381733"
-        },
-        {
-            "company": "paxos",
-            "title": "Security Operations Engineer",
+            "title": "Security Engineer, Detection and Response",
             "location": "Engineering & Data \u2022 Remote - US \u2022 Full time",
             "link": "https://jobs.ashbyhq.com/paxos/f0eece71-5927-4f49-bed2-9932af8edd9f"
         },
         {
             "company": "paxos",
-            "title": "Senior Security Operations Engineer",
+            "title": "Senior Security Engineer, Detection and Response",
             "location": "Engineering & Data \u2022 Tel Aviv - Hybrid \u2022 Full time",
             "link": "https://jobs.ashbyhq.com/paxos/5a8cdbba-8898-4882-b04b-cfe6f26c407c"
         },
         {
             "company": "paxos",
-            "title": "Senior Solutions Engineer",
-            "location": "Customer Success \u2022 Remote - US \u2022 Full time",
-            "link": "https://jobs.ashbyhq.com/paxos/ff0b2d69-4ecf-4b9b-80eb-6616ac11e82f"
+            "title": "Manager, International Accounting Operations",
+            "location": "Finance & Accounting \u2022 Remote - US \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/0085ddf5-379b-4e69-b5c6-37761abf3c97"
+        },
+        {
+            "company": "paxos",
+            "title": "Director, Strategic Accounts",
+            "location": "Business Development & Sales \u2022 New York - Hybrid \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/e58b7a1f-5092-4dc7-8dde-d217709ff3ba"
         },
         {
             "company": "paxos",
@@ -56,9 +62,9 @@
         },
         {
             "company": "paxos",
-            "title": "Global Head of Public Policy",
-            "location": "Marketing & Communications \u2022 Remote - US \u2022 Full time",
-            "link": "https://jobs.ashbyhq.com/paxos/f7c3d7cc-2e9f-43d5-89f5-debc44d006df"
+            "title": "Senior Commercial Counsel",
+            "location": "Legal \u2022 Remote - US \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/5d5a5382-c7bf-46c8-8a68-aad31d84154a"
         },
         {
             "company": "paxos",
@@ -68,15 +74,27 @@
         },
         {
             "company": "paxos",
-            "title": "Senior Manager of Global Total Rewards & Operations",
-            "location": "HR & Talent \u2022 Remote - US \u2022 Full time",
-            "link": "https://jobs.ashbyhq.com/paxos/996febc9-2c59-4292-a4bd-bf54e8a4b187"
+            "title": "Product Marketing Lead, Stablecoins",
+            "location": "Marketing & Communications \u2022 Remote - US \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/441355a9-635d-4230-ba61-56551fe2f057"
+        },
+        {
+            "company": "paxos",
+            "title": "Manager, People Operations",
+            "location": "HR & Talent \u2022 Remote - NYC, New York \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/4c505c39-1a0d-418c-bcf0-f0b3d8f7db5c"
         },
         {
             "company": "paxos",
             "title": "Senior Product Manager, Compliance & Platform Experience",
-            "location": "Product Management \u2022 New York - Hybrid \u2022 Full time",
+            "location": "Product Management \u2022 Remote - US (East Coast) \u2022 Full time",
             "link": "https://jobs.ashbyhq.com/paxos/bb9e53d1-341f-41a8-ab47-04d1c89425bf"
+        },
+        {
+            "company": "paxos",
+            "title": "Senior Product Manager, Liquidity & Money Movement",
+            "location": "Product Management \u2022 Remote - NYC, New York \u2022 Full time",
+            "link": "https://jobs.ashbyhq.com/paxos/24fab342-8162-4d64-890e-e771147c67ca"
         },
         {
             "company": "paxos",
@@ -98,21 +116,9 @@
         },
         {
             "company": "circle",
-            "title": "Senior Analyst, KYC Operations",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR101016/Senior-Analyst-KYC-Operations"
-        },
-        {
-            "company": "circle",
             "title": "Senior Director Of Ecosystem Growth, South East Asia",
             "location": "undefined:\nSingapore",
             "link": "https://careers.circle.com/us/en/job/JR101031/Senior-Director-of-Ecosystem-Growth-South-East-Asia"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Software Engineer",
-            "location": "undefined:\nTaiwan",
-            "link": "https://careers.circle.com/us/en/job/JR100650/Senior-Software-Engineer"
         },
         {
             "company": "circle",
@@ -122,15 +128,21 @@
         },
         {
             "company": "circle",
-            "title": "VP Of Ecosystem Growth, Brazil",
-            "location": "undefined:\nBrazil",
-            "link": "https://careers.circle.com/us/en/job/JR101089/VP-of-Ecosystem-Growth-Brazil"
+            "title": "Senior Analyst, KYC Operations",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101016/Senior-Analyst-KYC-Operations"
         },
         {
             "company": "circle",
-            "title": "Senior Customer Care Advisor",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR101097/Senior-Customer-Care-Advisor"
+            "title": "Senior Software Engineer",
+            "location": "undefined:\nTaiwan",
+            "link": "https://careers.circle.com/us/en/job/JR100650/Senior-Software-Engineer"
+        },
+        {
+            "company": "circle",
+            "title": "VP Of Ecosystem Growth, Brazil",
+            "location": "undefined:\nBrazil",
+            "link": "https://careers.circle.com/us/en/job/JR101089/VP-of-Ecosystem-Growth-Brazil"
         },
         {
             "company": "circle",
@@ -146,69 +158,15 @@
         },
         {
             "company": "circle",
-            "title": "Senior Analyst, Investigation Operations",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR101115/Senior-Analyst-Investigation-Operations"
-        },
-        {
-            "company": "circle",
             "title": "Director, Product & Technology Communications",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR101120/Director-Product-Technology-Communications"
         },
         {
             "company": "circle",
-            "title": "Lead HR Business Partner",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100975/Lead-HR-Business-Partner"
-        },
-        {
-            "company": "circle",
             "title": "Senior Finance Systems Analyst",
             "location": "undefined:\nIndia",
             "link": "https://careers.circle.com/us/en/job/JR101078/Senior-Finance-Systems-Analyst"
-        },
-        {
-            "company": "circle",
-            "title": "Hospitality & Operations Specialist (Temporary)",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101123/Hospitality-Operations-Specialist-Temporary"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Security Engineer, Executive & Endpoint Security",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101100/Senior-Security-Engineer-Executive-Endpoint-Security"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Software Engineer, Frontend",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101099/Senior-Software-Engineer-Frontend"
-        },
-        {
-            "company": "circle",
-            "title": "Principal Security Engineer, Detection & Response",
-            "location": "undefined:\nIreland",
-            "link": "https://careers.circle.com/us/en/job/JR101051/Principal-Security-Engineer-Detection-Response"
-        },
-        {
-            "company": "circle",
-            "title": "Manager, Know Your Customer (KYC)",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100895/Manager-Know-Your-Customer-KYC"
-        },
-        {
-            "company": "circle",
-            "title": "Strategic Finance Manager",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101114/Strategic-Finance-Manager"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Accountant, Regulatory Reporting",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101125/Senior-Accountant-Regulatory-Reporting"
         },
         {
             "company": "circle",
@@ -224,57 +182,9 @@
         },
         {
             "company": "circle",
-            "title": "Senior Director Product, Onboarding, Compliance & Risk",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101102/Senior-Director-Product-Onboarding-Compliance-Risk"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Product Manager",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR100931/Senior-Product-Manager"
-        },
-        {
-            "company": "circle",
-            "title": "Software Engineer II",
-            "location": "undefined:\nTaiwan",
-            "link": "https://careers.circle.com/us/en/job/JR101098/Software-Engineer-II"
-        },
-        {
-            "company": "circle",
-            "title": "Manager, Engineering - Payments",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR101126/Manager-Engineering-Payments"
-        },
-        {
-            "company": "circle",
             "title": "VP, Policy And Regulatory Strategy, Latin America",
             "location": "undefined:\nBrazil",
             "link": "https://careers.circle.com/us/en/job/JR101128/VP-Policy-and-Regulatory-Strategy-Latin-America"
-        },
-        {
-            "company": "circle",
-            "title": "Director, Internal Communications & Employer Brand",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101138/Director-Internal-Communications-Employer-Brand"
-        },
-        {
-            "company": "circle",
-            "title": "Principal Product Manager, Risk & Fraud",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100881/Principal-Product-Manager-Risk-Fraud"
-        },
-        {
-            "company": "circle",
-            "title": "Principal Product Manager, Onboarding",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100882/Principal-Product-Manager-Onboarding"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Analyst, Network Onboarding",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR101119/Senior-Analyst-Network-Onboarding"
         },
         {
             "company": "circle",
@@ -284,39 +194,9 @@
         },
         {
             "company": "circle",
-            "title": "Staff Software Engineer",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100014-EG/Staff-Software-Engineer"
-        },
-        {
-            "company": "circle",
             "title": "VP, Global Head Of Product Security And Risk",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR100878/VP-Global-Head-of-Product-Security-and-Risk"
-        },
-        {
-            "company": "circle",
-            "title": "Lead KYC Analyst, Specialized Diligence, APAC",
-            "location": "undefined:\nSingapore",
-            "link": "https://careers.circle.com/us/en/job/JR101045/Lead-KYC-Analyst-Specialized-Diligence-APAC"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Director, Enterprise Business Development, APAC",
-            "location": "undefined:\nSingapore",
-            "link": "https://careers.circle.com/us/en/job/JR101048/Senior-Director-Enterprise-Business-Development-APAC"
-        },
-        {
-            "company": "circle",
-            "title": "Staff Data Scientist - Digital Assets",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101068/Staff-Data-Scientist-Digital-Assets"
-        },
-        {
-            "company": "circle",
-            "title": "Director, Arc - Capital Markets Strategy & GTM",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101069/Director-Arc-Capital-Markets-Strategy-GTM"
         },
         {
             "company": "circle",
@@ -338,33 +218,9 @@
         },
         {
             "company": "circle",
-            "title": "Senior Software Engineer",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100013-EG/Senior-Software-Engineer"
-        },
-        {
-            "company": "circle",
             "title": "Corporate Development & Ventures, Senior Director",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR100591/Corporate-Development-Ventures-Senior-Director"
-        },
-        {
-            "company": "circle",
-            "title": "Business Development Director, Capital Markets, Repo And Derivatives",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100765/Business-Development-Director-Capital-Markets-Repo-and-Derivatives"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Smart Contract Engineer",
-            "location": "undefined:\nTaiwan",
-            "link": "https://careers.circle.com/us/en/job/JR100838/Senior-Smart-Contract-Engineer"
-        },
-        {
-            "company": "circle",
-            "title": "Senior Analyst, Payment Operations",
-            "location": "undefined:\nIndia",
-            "link": "https://careers.circle.com/us/en/job/JR100964/Senior-Analyst-Payment-Operations"
         },
         {
             "company": "circle",
@@ -374,21 +230,75 @@
         },
         {
             "company": "circle",
-            "title": "Senior Counsel, Transactions (Capital Markets)",
-            "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100970/Senior-Counsel-Transactions-Capital-Markets"
+            "title": "Principal Security Engineer, Detection & Response",
+            "location": "undefined:\nIreland",
+            "link": "https://careers.circle.com/us/en/job/JR101051/Principal-Security-Engineer-Detection-Response"
         },
         {
             "company": "circle",
-            "title": "Staff Data Scientist - Payments",
+            "title": "Principal Product Manager, Onboarding",
             "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101067/Staff-Data-Scientist-Payments"
+            "link": "https://careers.circle.com/us/en/job/JR100882/Principal-Product-Manager-Onboarding"
         },
         {
             "company": "circle",
-            "title": "Senior Counsel, Transactions, (Enterprise, Payments, And Ecosystem)",
+            "title": "Senior Security Engineer, Executive & Endpoint Security",
             "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR101071/Senior-Counsel-Transactions-Enterprise-Payments-and-Ecosystem"
+            "link": "https://careers.circle.com/us/en/job/JR101100/Senior-Security-Engineer-Executive-Endpoint-Security"
+        },
+        {
+            "company": "circle",
+            "title": "Principal Product Manager, Risk & Fraud",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100881/Principal-Product-Manager-Risk-Fraud"
+        },
+        {
+            "company": "circle",
+            "title": "Software Engineer II - Blockchain",
+            "location": "undefined:\nTaiwan",
+            "link": "https://careers.circle.com/us/en/job/JR101098/Software-Engineer-II-Blockchain"
+        },
+        {
+            "company": "circle",
+            "title": "Accountant",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101147/Accountant"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Accountant, Regulatory Reporting",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101125/Senior-Accountant-Regulatory-Reporting"
+        },
+        {
+            "company": "circle",
+            "title": "Principal Product Manager, Core Network",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101117/Principal-Product-Manager-Core-Network"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Product Manager",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR100931/Senior-Product-Manager"
+        },
+        {
+            "company": "circle",
+            "title": "Manager, Engineering - Payments",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101126/Manager-Engineering-Payments"
+        },
+        {
+            "company": "circle",
+            "title": "Manager, Payment Operations",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101141/Manager-Payment-Operations"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Analyst, Network Onboarding",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101119/Senior-Analyst-Network-Onboarding"
         },
         {
             "company": "circle",
@@ -398,9 +308,117 @@
         },
         {
             "company": "circle",
-            "title": "Lead Product Manager, Token",
+            "title": "Senior Software Engineer, Frontend",
             "location": "US",
-            "link": "https://careers.circle.com/us/en/job/JR100477/Lead-Product-Manager-Token"
+            "link": "https://careers.circle.com/us/en/job/JR101099/Senior-Software-Engineer-Frontend"
+        },
+        {
+            "company": "circle",
+            "title": "Lead Product Designer",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101140/Lead-Product-Designer"
+        },
+        {
+            "company": "circle",
+            "title": "Regulatory And Licensing Program Manager",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101161/Regulatory-and-Licensing-Program-Manager"
+        },
+        {
+            "company": "circle",
+            "title": "Lead HR Business Partner",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100975/Lead-HR-Business-Partner"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Site Reliability Engineer - Infra Ops",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101142/Senior-Site-Reliability-Engineer-Infra-Ops"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Accountant",
+            "location": "UK",
+            "link": "https://careers.circle.com/us/en/job/JR101146/Senior-Accountant"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Analyst, Fund Management",
+            "location": "undefined:\nBermuda",
+            "link": "https://careers.circle.com/us/en/job/JR101148/Senior-Analyst-Fund-Management"
+        },
+        {
+            "company": "circle",
+            "title": "Lead Analyst, Third Party Security",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101160/Lead-Analyst-Third-Party-Security"
+        },
+        {
+            "company": "circle",
+            "title": "Staff Data Scientist - Payments",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101067/Staff-Data-Scientist-Payments"
+        },
+        {
+            "company": "circle",
+            "title": "Investor Relations Manager",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100886/Investor-Relations-Manager"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Software Engineer",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100013-EG/Senior-Software-Engineer"
+        },
+        {
+            "company": "circle",
+            "title": "Staff Software Engineer",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100014-EG/Staff-Software-Engineer"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Analyst, Investigation Operations",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101115/Senior-Analyst-Investigation-Operations"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel, Transactions (Capital Markets)",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100970/Senior-Counsel-Transactions-Capital-Markets"
+        },
+        {
+            "company": "circle",
+            "title": "Manager, Know Your Customer (KYC)",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100895/Manager-Know-Your-Customer-KYC"
+        },
+        {
+            "company": "circle",
+            "title": "Partner Development Coordinator",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101167/Partner-Development-Coordinator"
+        },
+        {
+            "company": "circle",
+            "title": "Business Development Director, Capital Markets, Repo And Derivatives",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR100765/Business-Development-Director-Capital-Markets-Repo-and-Derivatives"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Counsel, Transactions, (Enterprise, Payments, And Ecosystem)",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101071/Senior-Counsel-Transactions-Enterprise-Payments-and-Ecosystem"
+        },
+        {
+            "company": "circle",
+            "title": "Partner Development Associate",
+            "location": "US",
+            "link": "https://careers.circle.com/us/en/job/JR101168/Partner-Development-Associate"
         },
         {
             "company": "Swissquote",
@@ -412,7 +430,19 @@
             "company": "Swissquote",
             "title": "Trade and Transaction Reporting Officer",
             "location": "Luxembourg",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000147859720-trade-and-transaction-reporting-officer"
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000154041759-trade-and-transaction-reporting-officer"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Operations Officer \u2013 Payments and Transfers",
+            "location": "Luxembourg",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000152839638-operations-officer-payments-and-transfers"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Fraud Officer",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000152604379-fraud-officer-"
         },
         {
             "company": "Swissquote",
@@ -434,9 +464,27 @@
         },
         {
             "company": "Swissquote",
-            "title": "Fraud Analyst Officer",
+            "title": "Existing Clients Manager",
             "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000140610467-fraud-analyst-officer-"
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000154594959-existing-clients-manager"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Quality Control & Remediations Manager",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000154594579-quality-control-remediations-manager"
+        },
+        {
+            "company": "Swissquote",
+            "title": "New Client Onboarding Manager",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000154592029-new-client-onboarding-manager"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Head of Controlling & Risk - Director",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000151299399-head-of-controlling-risk-director"
         },
         {
             "company": "Swissquote",
@@ -446,15 +494,21 @@
         },
         {
             "company": "Swissquote",
-            "title": "Head of Controlling & Risk - Director",
-            "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000148463680-head-of-controlling-risk-director"
+            "title": "Customer Care Representative",
+            "location": "Switzerland D\u00fcbendorf",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000153489345-customer-care-representative"
         },
         {
             "company": "Swissquote",
-            "title": "Internal Controlling Officer",
+            "title": "Kundenberater/in Customer Care 80 % - 100 %",
+            "location": "Switzerland D\u00fcbendorf",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000153489616-kundenberater-in-customer-care-80-100-"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Customer Care Representative",
             "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000141944059-internal-controlling-officer"
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000149006041-customer-care-representative-"
         },
         {
             "company": "Swissquote",
@@ -470,6 +524,18 @@
         },
         {
             "company": "Swissquote",
+            "title": "Financial Controller",
+            "location": "UAE Dubai",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000154364649-financial-controller-"
+        },
+        {
+            "company": "Swissquote",
+            "title": "Regulatory Reporting Specialist",
+            "location": "Switzerland Gland",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000152612120-regulatory-reporting-specialist"
+        },
+        {
+            "company": "Swissquote",
             "title": "Account Payable Officer (40-50%)",
             "location": "Switzerland Gland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000147164029-account-payable-officer-40-50-"
@@ -481,34 +547,10 @@
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000144750569-financial-accountant"
         },
         {
-            "company": "Swissquote",
-            "title": "Regulatory Reporting Specialist",
-            "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000143249589-regulatory-reporting-specialist"
-        },
-        {
-            "company": "Swissquote",
-            "title": "Senior Payroll Specialist",
-            "location": "Switzerland Gland",
-            "link": "https://jobs.smartrecruiters.com/Swissquote/744000143238590-senior-payroll-specialist"
-        },
-        {
-            "company": "io-global",
-            "title": "AI Developer Tools Engineer - Midnight Foundation",
-            "location": "Remote",
-            "link": "https://apply.workable.com/io-global/j/113446937B/"
-        },
-        {
-            "company": "io-global",
-            "title": "Chief Technology Officer",
-            "location": "On-site",
-            "link": "https://apply.workable.com/io-global/j/8D9A5058A6/"
-        },
-        {
             "company": "ripple",
-            "title": "Business Development Director - RippleX",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8042882/"
+            "title": "Business Development Manager",
+            "location": "Singapore",
+            "link": "https://ripple.com/careers/all-jobs/job/8225681/"
         },
         {
             "company": "ripple",
@@ -525,26 +567,14 @@
         {
             "company": "ripple",
             "title": "Client Support Analyst",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8142069/"
-        },
-        {
-            "company": "ripple",
-            "title": "Client Support Analyst",
             "location": "Toronto, Canada",
             "link": "https://ripple.com/careers/all-jobs/job/8142058/"
         },
         {
             "company": "ripple",
-            "title": "Director, Corporate & Product Communications",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8042723/"
-        },
-        {
-            "company": "ripple",
-            "title": "VP, Corporate Development",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7622908/"
+            "title": "Client Support Analyst",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8142069/"
         },
         {
             "company": "ripple",
@@ -560,6 +590,12 @@
         },
         {
             "company": "ripple",
+            "title": "VP, Corporate Development",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7622908/"
+        },
+        {
+            "company": "ripple",
             "title": "Customer Success Manager",
             "location": "London, UK",
             "link": "https://ripple.com/careers/all-jobs/job/8141304/"
@@ -567,20 +603,20 @@
         {
             "company": "ripple",
             "title": "Customer Success Senior Manager",
+            "location": "Miami, FL, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8241654/"
+        },
+        {
+            "company": "ripple",
+            "title": "Customer Success Senior Manager",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7622830/"
+            "link": "https://ripple.com/careers/all-jobs/job/8241656/"
         },
         {
             "company": "ripple",
-            "title": "Senior Customer Success Manager",
-            "location": "Toronto, Canada",
-            "link": "https://ripple.com/careers/all-jobs/job/8083666/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Customer Success Manager",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8083677/"
+            "title": "Customer Success Senior Manager",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8241644/"
         },
         {
             "company": "ripple",
@@ -591,14 +627,26 @@
         {
             "company": "ripple",
             "title": "Engineering Manager, Digital Assets",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8129106/"
+        },
+        {
+            "company": "ripple",
+            "title": "Engineering Manager, Digital Assets",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/8129139/"
         },
         {
             "company": "ripple",
-            "title": "Engineering Manager, Financial Platform",
+            "title": "Engineering Manager, Digital Assets",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8119994/"
+            "link": "https://ripple.com/careers/all-jobs/job/8129118/"
+        },
+        {
+            "company": "ripple",
+            "title": "Manager, AI Platform Engineering",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8129078/"
         },
         {
             "company": "ripple",
@@ -608,21 +656,33 @@
         },
         {
             "company": "ripple",
+            "title": "Manager, AI Platform Engineering",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8129066/"
+        },
+        {
+            "company": "ripple",
             "title": "Manager, Software Engineering",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/8106921/"
         },
         {
             "company": "ripple",
+            "title": "Manager, Software Engineering",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8209410/"
+        },
+        {
+            "company": "ripple",
             "title": "Manager, Software Engineering - Liquidity Management (C#/.NET)",
-            "location": "Chicago, Illinois, US; New York, NY, US",
+            "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/7944385/"
         },
         {
             "company": "ripple",
             "title": "Principal Technical Program Manager",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7904773/"
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/7904769/"
         },
         {
             "company": "ripple",
@@ -632,39 +692,15 @@
         },
         {
             "company": "ripple",
+            "title": "Principal Technical Program Manager",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7904773/"
+        },
+        {
+            "company": "ripple",
             "title": "Senior Data Scientist",
             "location": "San Francisco, CA, US",
             "link": "https://ripple.com/careers/all-jobs/job/8201766/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Deal Desk Manager",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8113601/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Director, Security Engineering",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7913402/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Director, Security Engineering",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7913381/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Director, Security Engineering",
-            "location": "Washington, D.C., US",
-            "link": "https://ripple.com/careers/all-jobs/job/7913393/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Director, Security Engineering",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7913369/"
         },
         {
             "company": "ripple",
@@ -677,6 +713,12 @@
             "title": "Senior GRC Program Manager, Ripple Treasury",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/8162394/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Security Engineer",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8240446/"
         },
         {
             "company": "ripple",
@@ -693,26 +735,14 @@
         {
             "company": "ripple",
             "title": "Senior Software Engineer",
-            "location": "Sydney, New South Wales, Australia",
-            "link": "https://ripple.com/careers/all-jobs/job/8069849/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Software Engineer",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/8106886/"
         },
         {
             "company": "ripple",
-            "title": "Senior Software Engineer, Banking Connectivity",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7729908/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Software Engineer, Full-Stack",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8069875/"
+            "title": "Senior Software Engineer",
+            "location": "Sydney, New South Wales, Australia",
+            "link": "https://ripple.com/careers/all-jobs/job/8069849/"
         },
         {
             "company": "ripple",
@@ -722,21 +752,9 @@
         },
         {
             "company": "ripple",
-            "title": "Senior Software Engineer, Liquidity Management (C#/.NET)",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7944478/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Software Engineer, Liquidity Management (C#/.NET)",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7944457/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Software Engineer, Payments",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8125912/"
+            "title": "Senior Software Engineer, Full-Stack",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/8069875/"
         },
         {
             "company": "ripple",
@@ -771,30 +789,30 @@
         {
             "company": "ripple",
             "title": "Senior Staff Security Engineer, AI Security",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7961914/"
-        },
-        {
-            "company": "ripple",
-            "title": "Senior Staff Security Engineer, AI Security",
             "location": "London, UK",
             "link": "https://ripple.com/careers/all-jobs/job/7961910/"
         },
         {
             "company": "ripple",
-            "title": "Senior Staff Security Engineer, Ripple Treasury",
+            "title": "Senior Staff Security Engineer, AI Security",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7961914/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Staff Security Engineer, Product Security",
             "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/7997246/"
         },
         {
             "company": "ripple",
-            "title": "Senior Staff Security Engineer, Ripple Treasury",
+            "title": "Senior Staff Security Engineer, Product Security",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/7997267/"
         },
         {
             "company": "ripple",
-            "title": "Senior Staff Security Engineer, Ripple Treasury",
+            "title": "Senior Staff Security Engineer, Product Security",
             "location": "San Francisco, CA, US",
             "link": "https://ripple.com/careers/all-jobs/job/7997234/"
         },
@@ -812,15 +830,9 @@
         },
         {
             "company": "ripple",
-            "title": "Site Reliability Engineer, Observability",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7947821/"
-        },
-        {
-            "company": "ripple",
-            "title": "Site Reliability Engineer, Observability",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7947800/"
+            "title": "Software Engineer II",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8241603/"
         },
         {
             "company": "ripple",
@@ -831,38 +843,20 @@
         {
             "company": "ripple",
             "title": "Staff Cloud Architect",
-            "location": "Singapore",
-            "link": "https://ripple.com/careers/all-jobs/job/7685310/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Cloud Architect",
             "location": "Sydney, New South Wales, Australia",
             "link": "https://ripple.com/careers/all-jobs/job/7685312/"
         },
         {
             "company": "ripple",
+            "title": "Staff Cloud Architect",
+            "location": "Singapore",
+            "link": "https://ripple.com/careers/all-jobs/job/7685310/"
+        },
+        {
+            "company": "ripple",
             "title": "Staff Data Scientist",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7791472/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Security Engineer",
-            "location": "Dublin, Ireland",
-            "link": "https://ripple.com/careers/all-jobs/job/8126238/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Security Engineer",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8126240/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Security Engineer, Secure Digital Asset Operations",
             "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7836928/"
+            "link": "https://ripple.com/careers/all-jobs/job/8260181/"
         },
         {
             "company": "ripple",
@@ -878,57 +872,39 @@
         },
         {
             "company": "ripple",
-            "title": "Staff Software Engineer - Authentication & Authorization",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7912314/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Software Engineer, Cash Forecasting",
-            "location": "Dublin, Ireland",
-            "link": "https://ripple.com/careers/all-jobs/job/8180204/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Software Engineer, Financial Crimes",
+            "title": "Staff Software Engineer",
             "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8088649/"
+            "link": "https://ripple.com/careers/all-jobs/job/8241212/"
         },
         {
             "company": "ripple",
-            "title": "Staff Software Engineer, Infrastructure",
-            "location": "Geneva, Switzerland",
-            "link": "https://ripple.com/careers/all-jobs/job/7930645/"
+            "title": "Staff Software Engineer, Liquidity Management",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7944369/"
         },
         {
             "company": "ripple",
-            "title": "Staff Software Engineer, Liquidity Management (C#/.NET)",
-            "location": "Chicago, Illinois, US; New York, NY, US",
+            "title": "Staff Software Engineer, Liquidity Management",
+            "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/7944348/"
         },
         {
             "company": "ripple",
-            "title": "Staff Technical Program Manager",
+            "title": "Staff Software Engineer, Liquidity Management (C#/.NET)",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/8107253/"
+        },
+        {
+            "company": "ripple",
+            "title": "Treasury Manager",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7997801/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Technical Program Manager",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7997789/"
-        },
-        {
-            "company": "ripple",
-            "title": "Vice President of Engineering, Fiat Infrastructure",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7624480/"
+            "link": "https://ripple.com/careers/all-jobs/job/8233618/"
         },
         {
             "company": "ripple",
             "title": "Treasury Manager, Global Treasury Operations",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7767552/"
+            "location": "Miami, FL, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7767529/"
         },
         {
             "company": "ripple",
@@ -939,14 +915,20 @@
         {
             "company": "ripple",
             "title": "Treasury Manager, Global Treasury Operations",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7767552/"
+        },
+        {
+            "company": "ripple",
+            "title": "Treasury Manager, Global Treasury Operations",
             "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/7767531/"
         },
         {
             "company": "ripple",
-            "title": "Treasury Manager, Global Treasury Operations",
-            "location": "Miami, FL, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7767529/"
+            "title": "Product Operations, Analyst",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8230821/"
         },
         {
             "company": "ripple",
@@ -968,27 +950,9 @@
         },
         {
             "company": "ripple",
-            "title": "Workplace Operations Specialist",
-            "location": "Toronto, Canada",
-            "link": "https://ripple.com/careers/all-jobs/job/8096495/"
-        },
-        {
-            "company": "ripple",
-            "title": "IT Support Specialist (12 Month Fixed Term Contract)",
-            "location": "Dublin, Ireland",
-            "link": "https://ripple.com/careers/all-jobs/job/8164504/"
-        },
-        {
-            "company": "ripple",
-            "title": "Staff Network Engineer",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7960183/"
-        },
-        {
-            "company": "ripple",
-            "title": "Corporate Counsel",
+            "title": "Workplace Project Manager",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7859047/"
+            "link": "https://ripple.com/careers/all-jobs/job/8241693/"
         },
         {
             "company": "ripple",
@@ -998,9 +962,9 @@
         },
         {
             "company": "ripple",
-            "title": "Privacy Senior Manager",
-            "location": "Luxembourg, Luxembourg",
-            "link": "https://ripple.com/careers/all-jobs/job/8200577/"
+            "title": "Corporate Counsel",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7859047/"
         },
         {
             "company": "ripple",
@@ -1010,15 +974,45 @@
         },
         {
             "company": "ripple",
-            "title": "Brand Designer",
+            "title": "Privacy Senior Manager",
+            "location": "Luxembourg, Luxembourg",
+            "link": "https://ripple.com/careers/all-jobs/job/8200577/"
+        },
+        {
+            "company": "ripple",
+            "title": "Specialist, Global KYC & Due Diligence",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/8220967/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Derivative Accountant",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8209342/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Derivative Accountant",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7462072/"
+            "link": "https://ripple.com/careers/all-jobs/job/8209354/"
+        },
+        {
+            "company": "ripple",
+            "title": "Director, Content Strategy",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8137311/"
         },
         {
             "company": "ripple",
             "title": "Lead Digital Designer",
-            "location": "Chicago, Illinois, US; Miami, FL, US; New York, NY, US",
+            "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/8008929/"
+        },
+        {
+            "company": "ripple",
+            "title": "Lead Digital Designer",
+            "location": "Miami, FL, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8008927/"
         },
         {
             "company": "ripple",
@@ -1028,9 +1022,45 @@
         },
         {
             "company": "ripple",
+            "title": "Program Manager, Employee Giving and Volunteering",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8054452/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Brand Designer",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7462072/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Field Marketing Specialist",
+            "location": "S\u00e3o Paulo, Brazil",
+            "link": "https://ripple.com/careers/all-jobs/job/8226863/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Manager, Marketing Analytics",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8257667/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Manager, Marketing Analytics",
+            "location": "London, UK",
+            "link": "https://ripple.com/careers/all-jobs/job/8257675/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Manager, Marketing Analytics",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8257700/"
+        },
+        {
+            "company": "ripple",
             "title": "Senior Manager, Marketing Analytics",
             "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7972221/"
+            "link": "https://ripple.com/careers/all-jobs/job/8257679/"
         },
         {
             "company": "ripple",
@@ -1040,9 +1070,33 @@
         },
         {
             "company": "ripple",
+            "title": "Physical Security Manager, APAC/MENA",
+            "location": "Sydney, New South Wales, Australia",
+            "link": "https://ripple.com/careers/all-jobs/job/8245077/"
+        },
+        {
+            "company": "ripple",
+            "title": "Physical Security Manager, APAC/MENA",
+            "location": "Singapore",
+            "link": "https://ripple.com/careers/all-jobs/job/8245075/"
+        },
+        {
+            "company": "ripple",
             "title": "Director, Product Management, Global Payouts",
             "location": "San Francisco, CA, US",
             "link": "https://ripple.com/careers/all-jobs/job/8129029/"
+        },
+        {
+            "company": "ripple",
+            "title": "Director, Product Planning",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8260349/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Staff Product Manager",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8260314/"
         },
         {
             "company": "ripple",
@@ -1058,9 +1112,9 @@
         },
         {
             "company": "ripple",
-            "title": "Senior Business Recruiter (12-Month Contract)",
+            "title": "Manager, Liquidity Management",
             "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8122926/"
+            "link": "https://ripple.com/careers/all-jobs/job/8142528/"
         },
         {
             "company": "ripple",
@@ -1070,9 +1124,21 @@
         },
         {
             "company": "ripple",
+            "title": "Lead Product Manager, On-chain Payments",
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8206128/"
+        },
+        {
+            "company": "ripple",
             "title": "Senior Ecosystem Growth Manager",
-            "location": "Miami, FL, US; New York, NY, US; S\u00e3o Paulo, Brazil",
-            "link": "https://ripple.com/careers/all-jobs/job/7646353/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7646349/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Ecosystem Growth Manager",
+            "location": "Miami, FL, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7646347/"
         },
         {
             "company": "ripple",
@@ -1100,9 +1166,15 @@
         },
         {
             "company": "ripple",
+            "title": "Senior Deal Desk Manager",
+            "location": "Chicago, Illinois, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8113601/"
+        },
+        {
+            "company": "ripple",
             "title": "Senior Sales Manager",
             "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8000052/"
+            "link": "https://ripple.com/careers/all-jobs/job/8257746/"
         },
         {
             "company": "ripple",
@@ -1112,21 +1184,9 @@
         },
         {
             "company": "ripple",
-            "title": "Senior Sales Manager - DACH",
+            "title": "Senior Sales Manager",
             "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/7972102/"
-        },
-        {
-            "company": "ripple",
-            "title": "Director, Global Transformation",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8096457/"
-        },
-        {
-            "company": "ripple",
-            "title": "Director, Global Transformation",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8096436/"
+            "link": "https://ripple.com/careers/all-jobs/job/8257711/"
         },
         {
             "company": "ripple",
@@ -1137,32 +1197,14 @@
         {
             "company": "ripple",
             "title": "Head of Managed Services",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8079221/"
-        },
-        {
-            "company": "ripple",
-            "title": "Head of Managed Services",
             "location": "Chicago, Illinois, US",
             "link": "https://ripple.com/careers/all-jobs/job/8079242/"
         },
         {
             "company": "ripple",
-            "title": "Professional Services Consultant",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7750208/"
-        },
-        {
-            "company": "ripple",
-            "title": "Professional Services Consultant",
-            "location": "Miami, FL, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7750218/"
-        },
-        {
-            "company": "ripple",
-            "title": "Professional Services Consultant",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7750241/"
+            "title": "Head of Managed Services",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8079221/"
         },
         {
             "company": "ripple",
@@ -1172,27 +1214,15 @@
         },
         {
             "company": "ripple",
-            "title": "Program Manager, Service and Delivery",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8054025/"
+            "title": "Program Manager",
+            "location": "Dubai, UAE",
+            "link": "https://ripple.com/careers/all-jobs/job/8224772/"
         },
         {
             "company": "ripple",
-            "title": "Program Manager, Service and Delivery",
-            "location": "Chicago, Illinois, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8054046/"
-        },
-        {
-            "company": "ripple",
-            "title": "RFP Specialist (12-Month Contract)",
-            "location": "London, UK",
-            "link": "https://ripple.com/careers/all-jobs/job/8173047/"
-        },
-        {
-            "company": "ripple",
-            "title": "RFP Specialist (12-Month Contract)",
-            "location": "Dublin, Ireland",
-            "link": "https://ripple.com/careers/all-jobs/job/8173045/"
+            "title": "Senior Professional Services Consultant",
+            "location": "S\u00e3o Paulo, Brazil",
+            "link": "https://ripple.com/careers/all-jobs/job/8247091/"
         },
         {
             "company": "ripple",
@@ -1209,14 +1239,14 @@
         {
             "company": "ripple",
             "title": "Staff Solutions Consultant",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7955235/"
+            "location": "San Francisco, CA, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7955223/"
         },
         {
             "company": "ripple",
             "title": "Staff Solutions Consultant",
-            "location": "San Francisco, CA, US",
-            "link": "https://ripple.com/careers/all-jobs/job/7955223/"
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/7955235/"
         },
         {
             "company": "ripple",
@@ -1244,12 +1274,6 @@
         },
         {
             "company": "lmax",
-            "title": "Head of Compliance - Dubai (6 Months FTC)",
-            "location": "Dubai | UAE",
-            "link": "https://careers.lmax.com/offers/?id=8DEC759EFF"
-        },
-        {
-            "company": "lmax",
             "title": "Software Developer (Java)",
             "location": "London | UK",
             "link": "https://careers.lmax.com/offers/?id=266F653A92"
@@ -1267,9 +1291,87 @@
             "link": "https://careers.lmax.com/offers/?id=537BB0C6F5"
         },
         {
+            "company": "lmax",
+            "title": "Payment and Settlements Analyst",
+            "location": "Singapore | Singapore",
+            "link": "https://careers.lmax.com/offers/?id=C6B5F07CD7"
+        },
+        {
+            "company": "lmax",
+            "title": "Head of Compliance - Dubai (CMA/SCA Accredited)",
+            "location": "Dubai | UAE",
+            "link": "https://careers.lmax.com/offers/?id=3AE4F8CF78"
+        },
+        {
+            "company": "lmax",
+            "title": "Security Engineer",
+            "location": "London | UK",
+            "link": "https://careers.lmax.com/offers/?id=67BB68A660"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Senior Backend Developer (.NET)\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/1skjgid6ppgdwx5x627veyvgxh3lfl5"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "AI Transformation Engineer\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/9ujjvma8k9scxiz8fongzrkpgo49vuy"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Account Manager\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/ljjizrgpcubegdv7yng2nyssc3bea7v"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Relation Management Specialist\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/6hpq8smr5u10ig249itkjw46iywp6bj"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Senior Custody Developer\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/chda8y0upc0il2yhk11ta6tyvpwl0lx"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Digital Asset Custody Specialist\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/vab40hgi1tgbxo5pz2dta8gqbeal9m4"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Custody Audit & Risk Management Specialist\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/qq2r2dt71r9hfqnb1wdc28bbglnspg7"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Reconciliation Specialist\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/4xaqj83jxlgrji7zfo5wtx5bmg25k6b"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "AI Solutions Engineer\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/5x3gxzv7ntbr3fyo8was2dv6cs86j5t"
+        },
+        {
+            "company": "BitcoinSuisse",
+            "title": "Executive Assistant\nBratislava | Full-time employee",
+            "location": "Bratislava | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/g2s78kth4q8revmdk06px69ntgjsqpm"
+        },
+        {
             "company": "dragonflycapital",
             "title": "AI/ML Engineer - Dragonfly Portfolio",
-            "location": "San Francisco, New York City, US (Remote) \u2022 Hybrid, Remote",
+            "location": "San Francisco, New York City \u2022 Hybrid",
             "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDqwI9hJ0s5akdVVEXpvyo_x"
         },
         {
@@ -1298,6 +1400,12 @@
         },
         {
             "company": "dragonflycapital",
+            "title": "Engineering Manager / Head of Engineering - Dragonfly Portfolio",
+            "location": "New York City \u2022 Remote",
+            "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDrNlLiY25L5Cycm7Xt81Dpi"
+        },
+        {
+            "company": "dragonflycapital",
             "title": "Enterprise Sales & Account Management - Dragonfly Portfolio",
             "location": "San Francisco, New York City, US (Remote) \u2022 Hybrid, Remote",
             "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDrUqPkN_uoMPsPl034KkQYt"
@@ -1316,9 +1424,9 @@
         },
         {
             "company": "dragonflycapital",
-            "title": "Founding Designer - Dragonfly Portfolio",
-            "location": "New York City \u2022 Hybrid",
-            "link": "https://jobs.gem.com/dragonfly-careers/4621632004"
+            "title": "Finance Operations - Dragonfly Portfolio",
+            "location": "US (Remote) \u2022 Remote",
+            "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDqxwnfhF0pLatAZc1_lw3km"
         },
         {
             "company": "dragonflycapital",
@@ -1370,6 +1478,12 @@
         },
         {
             "company": "dragonflycapital",
+            "title": "Product Designer - Dragonfly Portfolio",
+            "location": "San Francisco, New York City \u2022 Hybrid",
+            "link": "https://jobs.gem.com/dragonfly-careers/4621632004"
+        },
+        {
+            "company": "dragonflycapital",
             "title": "Senior Inference Optimization Engineer - Dragonfly Portfolio",
             "location": "US (Remote) \u2022 Remote",
             "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDrIPmNQGqaBsBaFEaHpj2xE"
@@ -1383,8 +1497,20 @@
         {
             "company": "dragonflycapital",
             "title": "Software Engineer - Dragonfly Portfolio",
-            "location": "Singapore \u2022 In office",
+            "location": "San Francisco, New York City, London, Los Angeles \u2022 Hybrid, Remote",
+            "link": "https://jobs.gem.com/dragonfly-careers/4621552004"
+        },
+        {
+            "company": "dragonflycapital",
+            "title": "Software Engineer - Dragonfly Portfolio",
+            "location": "Singapore \u2022 Hybrid",
             "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDq6Ct7iz6LSfOKUXB2ahCeo"
+        },
+        {
+            "company": "dragonflycapital",
+            "title": "Software Security Engineer - Dragonfly Portfolio",
+            "location": "New York City \u2022 In office",
+            "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDrNY0EmUlANgpb9NWb3LVx4"
         },
         {
             "company": "dragonflycapital",
@@ -1405,210 +1531,6 @@
             "link": "https://jobs.gem.com/dragonfly-careers/am9icG9zdDrBPEr3-ZMLYJUXRQe8KJAI"
         },
         {
-            "company": "gemini",
-            "title": "Associate Director, Customer Support (Operations Center)",
-            "location": "Tempe, Arizona",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8089812"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Data Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076827"
-        },
-        {
-            "company": "gemini",
-            "title": "Design Developer",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7951195"
-        },
-        {
-            "company": "gemini",
-            "title": "Junior Brand Designer (Social)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7955267"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Product Designer (Prediction Markets)",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7811967"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Accountant",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7977282"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Associate, Financial Planning & Analysis",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069413"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Associate, Trading Operations (Broker Dealer)",
-            "location": "New York; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8065583"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Data Platform Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8099895"
-        },
-        {
-            "company": "gemini",
-            "title": "Product Counsel",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8053939"
-        },
-        {
-            "company": "gemini",
-            "title": "Lead, Technical Compliance",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8159869"
-        },
-        {
-            "company": "gemini",
-            "title": "Associate, Growth Marketing (Advanced Trading Products)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7951043"
-        },
-        {
-            "company": "gemini",
-            "title": "Design Developer",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7951195"
-        },
-        {
-            "company": "gemini",
-            "title": "Junior Brand Designer (Social)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7955267"
-        },
-        {
-            "company": "gemini",
-            "title": "Predictions Partnerships Marketing Lead",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8091954"
-        },
-        {
-            "company": "gemini",
-            "title": "Lead, Operations & Growth",
-            "location": "Singapore",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069402"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Fraud Data Scientist (Credit Card)",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905301"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Associate, Risk Analytics",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8164168"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Associate, Institutional Sales",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8042281"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Application Security Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7833599"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Manager, Platform Security",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8074982"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Platform Security Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905052"
-        },
-        {
-            "company": "gemini",
-            "title": "Staff Application Security Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8074978"
-        },
-        {
-            "company": "gemini",
-            "title": "Staff Platform Security Engineer",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905050"
-        },
-        {
-            "company": "gemini",
-            "title": "Staff Security Engineer, Threat Detection & Response",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8142658"
-        },
-        {
-            "company": "gemini",
-            "title": "Principal Software Engineer, Tooling (Product)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076862"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Invest / Trade",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8144366"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Invest / Trade (Full Stack, React)",
-            "location": "Singapore",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8164166"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Money",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069411"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Predictions (Mobile)",
-            "location": "New York; Miami, Florida; Remote (USA)",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7846814"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Tooling (Product)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076853"
-        },
-        {
-            "company": "gemini",
-            "title": "Senior Software Engineer, Trading Systems (Mobile)",
-            "location": "Singapore",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8072662"
-        },
-        {
-            "company": "gemini",
-            "title": "Software Engineering Manager, Tooling (Product)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076880"
-        },
-        {
-            "company": "gemini",
-            "title": "Staff Software Engineer, Tooling (Product)",
-            "location": "New York",
-            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076855"
-        },
-        {
             "company": "worldcoin",
             "title": "Head of Product, Device",
             "location": "San Francisco",
@@ -1616,21 +1538,9 @@
         },
         {
             "company": "worldcoin",
-            "title": "Senior Android Application Software Engineer, OrbMini",
-            "location": "San Francisco",
-            "link": "https://world.org/job/6a443ccf-4133-4ba0-aa1a-521f0701e338"
-        },
-        {
-            "company": "worldcoin",
             "title": "Senior Android Framework Engineer",
             "location": "San Francisco",
             "link": "https://world.org/job/392e10be-5451-4fb1-bb0f-4a0bdab22110"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Tech Lead, Device Automation & QA",
-            "location": "San Francisco",
-            "link": "https://world.org/job/73771c91-eddd-4602-9195-91e11bbbbf71"
         },
         {
             "company": "worldcoin",
@@ -1670,15 +1580,9 @@
         },
         {
             "company": "worldcoin",
-            "title": "Commercial & Corporate Counsel",
+            "title": "Deputy General Counsel, Regulatory & Litigation",
             "location": "San Francisco",
-            "link": "https://world.org/job/29c015b7-0efa-4193-b920-ffb5d9e388fb"
-        },
-        {
-            "company": "worldcoin",
-            "title": "Product Counsel",
-            "location": "San Francisco",
-            "link": "https://world.org/job/d9681e43-55f6-4e0b-8cb5-8a64a72c4d35"
+            "link": "https://world.org/job/0e6f5c40-343f-46e3-906d-1daba9063214"
         },
         {
             "company": "worldcoin",
@@ -1759,46 +1663,220 @@
             "link": "https://jobs.gem.com/trojan-trading/am9icG9zdDrT7W4vSkgg-QQ4p2UNQRBe"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/8048308"
+            "company": "gemini",
+            "title": "Associate Director, Customer Support (Operations Center)",
+            "location": "Scottsdale, Arizona",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8089812"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/7743627"
+            "company": "gemini",
+            "title": "Senior Data Engineer",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076827"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/7256954"
+            "company": "gemini",
+            "title": "Senior Product Designer (Prediction Markets)",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7811967"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/8142118"
+            "company": "gemini",
+            "title": "Senior Associate, Financial Planning & Analysis",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069413"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/8068918"
+            "company": "gemini",
+            "title": "Senior Platform Engineer",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8099895"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/8138475"
+            "company": "gemini",
+            "title": "Staff Platform Engineer",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8186546"
         },
         {
-            "company": "consensys",
-            "title": "",
-            "location": "",
-            "link": "https://consensys.io/open-roles/7895311"
+            "company": "gemini",
+            "title": "Brand Design Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8243097"
+        },
+        {
+            "company": "gemini",
+            "title": "Content Production Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8247993"
+        },
+        {
+            "company": "gemini",
+            "title": "Prediction Markets Operations Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8240204"
+        },
+        {
+            "company": "gemini",
+            "title": "Product Design Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8240208"
+        },
+        {
+            "company": "gemini",
+            "title": "Product Management Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214332"
+        },
+        {
+            "company": "gemini",
+            "title": "Software Engineering Intern (Winter 2027)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214272"
+        },
+        {
+            "company": "gemini",
+            "title": "Head of Consumer and Lending Compliance",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8202118"
+        },
+        {
+            "company": "gemini",
+            "title": "Lead, Technical Compliance",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8159869"
+        },
+        {
+            "company": "gemini",
+            "title": "Associate, Growth Marketing (Advanced Trading Products)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7951043"
+        },
+        {
+            "company": "gemini",
+            "title": "Predictions Partnerships Marketing Lead",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8091954"
+        },
+        {
+            "company": "gemini",
+            "title": "Lead, Operations & Growth",
+            "location": "Singapore",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069402"
+        },
+        {
+            "company": "gemini",
+            "title": "Office Assistant",
+            "location": "Scottsdale, Arizona",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8202091"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Fraud Data Scientist (Credit Card)",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905301"
+        },
+        {
+            "company": "gemini",
+            "title": "People Operations Associate",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8112938"
+        },
+        {
+            "company": "gemini",
+            "title": "Product Manager, Invest / Trade",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8128687"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Associate, Risk Analytics",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8164168"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Associate, Institutional Sales",
+            "location": "New York; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8042281"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Principal, Institutional Sales",
+            "location": "New York; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8051408"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Manager, Platform Security",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8074982"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Platform Security Engineer",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905052"
+        },
+        {
+            "company": "gemini",
+            "title": "Staff Platform Security Engineer",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7905050"
+        },
+        {
+            "company": "gemini",
+            "title": "Staff Security Engineer, Threat Detection & Response",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8142658"
+        },
+        {
+            "company": "gemini",
+            "title": "Principal Software Engineer, Tooling (Product)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076862"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Software Engineer, Invest / Trade (Full Stack, React)",
+            "location": "Singapore",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8164166"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Software Engineer, Money",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8069411"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Software Engineer, Predictions (Mobile)",
+            "location": "New York; Miami, Florida; Remote (USA)",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=7846814"
+        },
+        {
+            "company": "gemini",
+            "title": "Senior Software Engineer, Tooling (Product)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076853"
+        },
+        {
+            "company": "gemini",
+            "title": "Software Engineering Manager, Tooling (Product)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076880"
+        },
+        {
+            "company": "gemini",
+            "title": "Staff Software Engineer, Tooling (Product)",
+            "location": "New York",
+            "link": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8076855"
+        },
+        {
+            "company": "bitfinex",
+            "title": "Transaction Monitoring Analyst - (100% remote Worldwide - LATAM OR APAC timezone)",
+            "location": "REMOTE",
+            "link": "https://careers.bitfinex.com/o/transaction-monitoring-analyst-100-remote-worldwide-latam-or-apac-timezone"
         },
         {
             "company": "freedx",
@@ -1826,6 +1904,18 @@
         },
         {
             "company": "crypto-finance",
+            "title": "Strategy & Projects - Intern",
+            "location": "Hybrid",
+            "link": "https://apply.workable.com/crypto-finance/j/731A52B873/"
+        },
+        {
+            "company": "crypto-finance",
+            "title": "HR Specialist",
+            "location": "Hybrid",
+            "link": "https://apply.workable.com/crypto-finance/j/538EA96252/"
+        },
+        {
+            "company": "crypto-finance",
             "title": "AI Engineer",
             "location": "Hybrid",
             "link": "https://apply.workable.com/crypto-finance/j/85ED63C40E/"
@@ -1844,33 +1934,9 @@
         },
         {
             "company": "crypto-finance",
-            "title": "Application Manager - Wallet Infrastructure",
-            "location": "Hybrid",
-            "link": "https://apply.workable.com/crypto-finance/j/BDB4F724FF/"
-        },
-        {
-            "company": "crypto-finance",
             "title": "Senior Quality Assurance Engineer",
             "location": "Hybrid",
             "link": "https://apply.workable.com/crypto-finance/j/375CA9458A/"
-        },
-        {
-            "company": "crypto-finance",
-            "title": "Intern - Application Management",
-            "location": "On-site",
-            "link": "https://apply.workable.com/crypto-finance/j/C0D3CFE35F/"
-        },
-        {
-            "company": "crypto-finance",
-            "title": "Control Functions Specialist",
-            "location": "Hybrid",
-            "link": "https://apply.workable.com/crypto-finance/j/18A493B8BF/"
-        },
-        {
-            "company": "crypto-finance",
-            "title": "Linux System Engineer",
-            "location": "Hybrid",
-            "link": "https://apply.workable.com/crypto-finance/j/CC933BBD7A/"
         },
         {
             "company": "crypto-finance",

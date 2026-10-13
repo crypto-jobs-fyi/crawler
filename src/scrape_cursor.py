@@ -1,6 +1,6 @@
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightWait
+from src.playwright_adapter import PlaywrightConditions as EC
 from src.scrape_it import ScrapeIt
 
 
@@ -15,7 +15,7 @@ class ScrapeCursor(ScrapeIt):
         )
         driver.implicitly_wait(15)
         driver.get(web_page)
-        WebDriverWait(driver, 15).until(
+        PlaywrightWait(driver, 15).until(
             EC.presence_of_element_located((By.XPATH, '//article/a[contains(@href, "/careers/")]'))
         )
         # Extract all data via JavaScript in one call to avoid stale element

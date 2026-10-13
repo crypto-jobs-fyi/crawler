@@ -1,8 +1,8 @@
 import time
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from src.playwright_adapter import By
+from src.playwright_adapter import PlaywrightWait
+from src.playwright_adapter import PlaywrightConditions as EC
 from src.scrape_it import ScrapeIt
 
 # https://www.coinbase.com/careers/positions
@@ -229,7 +229,11 @@ class ScrapeCoinbase(ScrapeIt):
                     lines = parent_text.split('\n')
                     for line in lines:
                         line = line.strip()
-                        if line and line != job_name and not line.startswith('http') and len(line) < 100:
+                        if not line or line.startswith('http'):
+                            continue
+                        while line.startswith(job_name):
+                            line = line[len(job_name):].strip()
+                        if line and line != job_name and len(line) < 100:
                             location = line
                             break
                 except:
