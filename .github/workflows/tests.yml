@@ -42,6 +42,7 @@ jobs:
               test/test_gem.py
               test/test_gemini_scraper.py
               test/test_greenhouse_scraper.py
+              test/test_google_careers_scraper.py
           - shard: 3
             runner: ubuntu-latest
             tests: >-

@@ -8,7 +8,8 @@ class ScrapeGoogleCareers(ScrapeIt):
     name = 'GOOGLE_CAREERS'
     JOB_LINK_SELECTOR = (
         'a[href*="/about/careers/applications/jobs/details/"], '
-        'a[href*="/careers/applications/jobs/details/"]'
+        'a[href*="/careers/applications/jobs/details/"], '
+        'a[href*="jobs/results/"]'
     )
     GENERIC_TITLES = {"apply", "view", "learn more", "details"}
 
@@ -46,7 +47,10 @@ class ScrapeGoogleCareers(ScrapeIt):
             const linkSelector = arguments[0];
             const links = Array.from(document.querySelectorAll(linkSelector));
             return links.map((a) => {
-              const card = a.closest('li, article, section, [role="listitem"]');
+              let card = a.parentElement;
+              while (card && !card.querySelector('h2, h3, h4')) {
+                card = card.parentElement;
+              }
               const titleFromHeading = card ? card.querySelector('h2, h3, h4') : null;
               const titleFromLink = a.getAttribute('aria-label') || a.textContent || '';
               const headingText = titleFromHeading ? titleFromHeading.textContent : '';
@@ -54,7 +58,9 @@ class ScrapeGoogleCareers(ScrapeIt):
               const locationNode = card
                 ? card.querySelector('[aria-label*="Location"], [aria-label*="location"], [data-testid*="location"], [class*="location"]')
                 : null;
-              const locationText = locationNode ? locationNode.textContent : '';
+              const googleLocation = card ? card.querySelector('.r0wTof') : null;
+              const resolvedLocation = locationNode || googleLocation;
+              const locationText = resolvedLocation ? resolvedLocation.textContent : '';
               const location = (locationText || '').trim();
               return {
                 href: a.href,

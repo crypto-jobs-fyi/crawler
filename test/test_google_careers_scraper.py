@@ -1,5 +1,9 @@
+# Run: pytest -q -s --run-live test/test_google_careers_scraper.py
+import json
+
 import pytest
 
+from src.playwright_adapter import PlaywrightPageAdapter
 from src.playwright_adapter import PlaywrightWait
 from src.scrape_google_careers import ScrapeGoogleCareers
 
@@ -93,3 +97,19 @@ def test_google_careers_scraper_prefers_specific_title_for_duplicate(monkeypatch
 
     assert len(jobs) == 1
     assert jobs[0]["title"] == "Senior Research Engineer"
+
+
+def test_google_careers_scraper_live(page, request):
+    if not request.config.getoption("--run-live"):
+        pytest.skip("Live Google Careers test; pass --run-live to execute it.")
+
+    jobs = ScrapeGoogleCareers().getJobs(
+        PlaywrightPageAdapter(page),
+        "https://www.google.com/about/careers/applications/jobs/results"
+        "?company=DeepMind",
+        "deepmind",
+    )
+
+    print(json.dumps({"job_cards": len(jobs), "jobs": jobs}, indent=2))
+    assert jobs
+    assert all(job["company"] == "deepmind" for job in jobs)
