@@ -569,8 +569,8 @@
         },
         {
             "name": "plume",
-            "jobs_url": "https://jobs.ashbyhq.com/plume-network",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://ats.rippling.com/en-US/plume-network/jobs",
+            "scraper": "RIPPLING",
             "company_url": "https://plume.org",
             "category": "crypto",
             "enabled": true,

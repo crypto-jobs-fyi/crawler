@@ -23,6 +23,7 @@ from src.scrape_kula import ScrapeKula
 from src.scrape_world import ScrapeWorld
 from src.scrape_avara import ScrapeAvara
 from src.scrape_recruitee import ScrapeRecruitee
+from src.scrape_rippling import ScrapeRippling
 from src.scrape_helsing import ScrapeHelsing
 from src.scrape_cursor import ScrapeCursor
 from src.scrape_google_careers import ScrapeGoogleCareers
@@ -52,6 +53,7 @@ class Scrapers:
     AVARA = ScrapeAvara
     CONSENSYS = ScrapeConsensys
     RECRUITEE = ScrapeRecruitee
+    RIPPLING = ScrapeRippling
     HELSING = ScrapeHelsing
     CURSOR = ScrapeCursor
     GOOGLE_CAREERS = ScrapeGoogleCareers
