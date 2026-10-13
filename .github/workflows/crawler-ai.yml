@@ -20,6 +20,8 @@ on:
           - crawler_ai_greenhouse.py
           - crawler_ai_lever.py
 
+permissions: {}
+
 jobs:
   configure:
     name: Configure (${{ inputs.script_name }})

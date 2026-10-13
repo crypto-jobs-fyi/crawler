@@ -20,6 +20,8 @@ on:
           - crypto_crawler_greenhouse.py
           - crypto_crawler_lever.py
 
+permissions: {}
+
 jobs:
   configure:
     name: Configure (${{ inputs.script_name }})
