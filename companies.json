@@ -154,6 +154,15 @@
             "headless": true
         },
         {
+            "name": "drw.com",
+            "jobs_url": "https://job-boards.greenhouse.io/drweng",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.drw.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "ninjatrader",
             "jobs_url": "https://job-boards.greenhouse.io/ninjatrader",
             "scraper": "GREENHOUSE",
