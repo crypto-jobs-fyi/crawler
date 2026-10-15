@@ -3331,6 +3331,42 @@
             "headless": true
         },
         {
+            "name": "clay.com",
+            "jobs_url": "https://jobs.ashbyhq.com/claylabs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://clay.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "fal.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/fal-ai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://fal.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "superhuman.com",
+            "jobs_url": "https://jobs.ashbyhq.com/Superhuman%20Platform%20Inc",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://superhuman.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
+            "name": "usepylon.com",
+            "jobs_url": "https://jobs.ashbyhq.com/pylon-labs",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://usepylon.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "multiversx",
             "jobs_url": "https://jobs.lever.co/multiversx",
             "scraper": "LEVER",
