@@ -64,6 +64,15 @@
             "headless": true
         },
         {
+            "name": "morpho",
+            "jobs_url": "https://jobs.ashbyhq.com/morpho",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://morpho.org",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "swanbitcoin",
             "jobs_url": "https://job-boards.greenhouse.io/swanbitcoin",
             "scraper": "GREENHOUSE",
