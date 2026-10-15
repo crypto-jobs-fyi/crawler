@@ -109,11 +109,14 @@ python -m playwright install chromium
 ## Development
 
 ### Adding a New Company
-1.  Identify the ATS used by the company.
-2.  Add a `CompanyItem` to the relevant list in `src/company_*_list.py`:
-    ```python
-    CompanyItem('CompanyName', 'https://jobs.url', Scrapers.GREENHOUSE, 'https://company.url')
-    ```
+1. Add the company to `companies.json` with its name, company URL, jobs URL,
+   scraper, and category (`ai`, `crypto`, `fintech`, or `tech`).
+2. Reuse a scraper already registered in `src/scrapers.py` when the company uses
+   a supported job-board provider.
+3. In Copilot Chat, use the
+   [Add company prompt](.github/prompts/add-company.prompt.md) to handle the
+   config-only addition. For an unsupported provider that needs a new scraper,
+   use the [Add Playwright scraper prompt](.github/prompts/add-playwright-scraper.prompt.md).
 
 ### Creating a Custom Scraper
 1.  Create `src/scrape_<name>.py` inheriting from `ScrapeIt`.

@@ -2125,6 +2125,15 @@
             "headless": true
         },
         {
+            "name": "turbopuffer",
+            "jobs_url": "https://jobs.ashbyhq.com/turbopuffer",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://turbopuffer.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "cognition",
             "jobs_url": "https://jobs.ashbyhq.com/cognition",
             "scraper": "ASHBYHQ",
