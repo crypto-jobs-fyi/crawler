@@ -48,4 +48,4 @@ class ScrapeIt(ABC):
         total_jobs += number_of_jobs
         jobs_json['total_jobs'] = total_jobs
         with open(file_name, 'w') as file:
-            json.dump(jobs_json, file, indent=4)
+            json.dump(jobs_json, file, indent=4, sort_keys=True)
