@@ -1,10 +1,9 @@
 ---
-name: "Add Playwright scraper"
+name: add-playwright-scraper
 description: "Add a new headless Playwright job scraper, company configuration, live test, and registry wiring."
+disable-model-invocation: true
 argument-hint: "Company name, jobs URL, scraper details, and any selectors or example job URLs"
-agent: "agent"
 ---
-
 Add a new Playwright scraper for the requested company and job site.
 
 Requirements:

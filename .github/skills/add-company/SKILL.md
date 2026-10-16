@@ -1,10 +1,9 @@
 ---
-name: "Add company"
+name: add-company
 description: "Quickly add one or more companies that use an existing job-board scraper."
+disable-model-invocation: true
 argument-hint: "Company name, company URL, jobs URL, and category (ai, crypto, fintech, or tech)"
-agent: "agent"
 ---
-
 Add the requested company or companies to [`companies.json`](../../companies.json)
 using the repository's existing scraper configuration.
 
