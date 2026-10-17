@@ -13,8 +13,10 @@ or API key; search uses Fast mode. Free access has rate limits.
 
 1. Open the Command Palette and run **MCP: Open User Configuration**. Add the
    `parallel-search` entry below to the existing `servers` object, preserving
-   your other servers. This uses VS Code's user-profile configuration, so you
-   do not need to commit an MCP configuration to this repository.
+   your other servers. If you already have a Parallel server, reuse it without
+   replacing its settings. For a new entry, choose an unused server ID and use
+   that ID in the steps below. This uses VS Code's user-profile configuration,
+   so you do not need to commit an MCP configuration to this repository.
 
    ```json
    {
