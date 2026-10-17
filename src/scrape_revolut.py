@@ -38,9 +38,19 @@ class ScrapeRevolut(ScrapeIt):
         self.log_info("Scrape page", company=company, web_page=web_page)
         page.implicitly_wait(10)
         page.get(web_page)
-        PlaywrightWait(page, 20).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, self._next_data_locator))
-        )
+        try:
+            PlaywrightWait(page, 30).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, self._next_data_locator))
+            )
+        except TimeoutError:
+            self.log_warning(
+                "Next.js data not found",
+                company=company,
+                web_page=web_page,
+                page_title=page.execute_script("return document.title;"),
+                page_url=page.execute_script("return location.href;"),
+            )
+            raise
         raw_data = page.execute_script(
             "return document.querySelector('#__NEXT_DATA__').textContent;"
         )
