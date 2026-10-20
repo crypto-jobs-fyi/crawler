@@ -2,6 +2,24 @@
     "data": [
         {
             "company": "eve.legal",
+            "title": "Customer Success Manager",
+            "location": "Remote - US",
+            "link": "https://job-boards.greenhouse.io/eve/jobs/4204233009"
+        },
+        {
+            "company": "eve.legal",
+            "title": "Enterprise Customer Success Manager",
+            "location": "Remote - US",
+            "link": "https://job-boards.greenhouse.io/eve/jobs/4204244009"
+        },
+        {
+            "company": "eve.legal",
+            "title": "Renewals Manager",
+            "location": "Remote - US",
+            "link": "https://job-boards.greenhouse.io/eve/jobs/4243070009"
+        },
+        {
+            "company": "eve.legal",
             "title": "Machine Learning Engineer",
             "location": "San Francisco (Hybrid); San Mateo, CA (Hybrid)",
             "link": "https://job-boards.greenhouse.io/eve/jobs/4204170009"
@@ -17,12 +35,6 @@
             "title": "Product Engineer",
             "location": "San Francisco (Hybrid); San Mateo, CA (Hybrid)",
             "link": "https://job-boards.greenhouse.io/eve/jobs/4350147009"
-        },
-        {
-            "company": "eve.legal",
-            "title": "Staff Analytics Engineer",
-            "location": "Remote - US",
-            "link": "https://job-boards.greenhouse.io/eve/jobs/4406926009"
         },
         {
             "company": "eve.legal",
@@ -143,12 +155,6 @@
             "title": "Customer Engineer, APAC",
             "location": "Australia (Remote)",
             "link": "https://job-boards.greenhouse.io/cresta/jobs/5389409008"
-        },
-        {
-            "company": "cresta",
-            "title": "Data Science Intern (Customer Success)",
-            "location": "US (Remote)",
-            "link": "https://job-boards.greenhouse.io/cresta/jobs/5213417008"
         },
         {
             "company": "cresta",
@@ -380,7 +386,7 @@
         },
         {
             "company": "cresta",
-            "title": "Growth EngineerNew",
+            "title": "Growth Engineer",
             "location": "US (Remote)",
             "link": "https://job-boards.greenhouse.io/cresta/jobs/5448328008"
         },
@@ -434,12 +440,6 @@
         },
         {
             "company": "cresta",
-            "title": "Associate Forward Deployed Product Manager",
-            "location": "US (Remote)",
-            "link": "https://job-boards.greenhouse.io/cresta/jobs/4992510008"
-        },
-        {
-            "company": "cresta",
             "title": "Forward Deployed Product Manager, AI Agent",
             "location": "US (Remote)",
             "link": "https://job-boards.greenhouse.io/cresta/jobs/4738837008"
@@ -485,12 +485,6 @@
             "title": "Customer Strategy Director",
             "location": "US (Remote)",
             "link": "https://job-boards.greenhouse.io/cresta/jobs/4951656008"
-        },
-        {
-            "company": "cresta",
-            "title": "Deal Strategy & Operations Manager",
-            "location": "US (Remote)",
-            "link": "https://job-boards.greenhouse.io/cresta/jobs/5398116008"
         },
         {
             "company": "cresta",
@@ -975,7 +969,7 @@
         {
             "company": "anthropic",
             "title": "Software Engineer, Sandboxing",
-            "location": "San Francisco, CA | New York City, NY",
+            "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5440427008"
         },
         {
@@ -1070,6 +1064,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Applied AI Architect, Cyber Specialist New",
+            "location": "San Francisco, CA | New York City, NY",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5445806008"
+        },
+        {
+            "company": "anthropic",
             "title": "Applied AI Architect, Digital Natives Business",
             "location": "Munich, Germany",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5226862008"
@@ -1148,12 +1148,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Applied AI Architect, Security Specialist New",
-            "location": "San Francisco, CA | New York City, NY",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5445806008"
-        },
-        {
-            "company": "anthropic",
             "title": "Applied AI Architects, Partner",
             "location": "Seoul, South Korea",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5432554008"
@@ -1184,6 +1178,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Applied AI Demo EngineerNew",
+            "location": "San Francisco, CA | New York City, NY",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5455961008"
+        },
+        {
+            "company": "anthropic",
             "title": "Applied AI Engineer",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5390799008"
@@ -1196,7 +1196,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)New",
+            "title": "Applied AI Engineer, Beneficial Deployments (Lab Automation)",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5440821008"
         },
@@ -1205,12 +1205,6 @@
             "title": "Applied AI Engineer, Beneficial Deployments (Life Sciences)",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5437172008"
-        },
-        {
-            "company": "anthropic",
-            "title": "Applied AI Engineer, DNB",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5435282008"
         },
         {
             "company": "anthropic",
@@ -1304,7 +1298,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Manager, Applied AI ArchitectNew",
+            "title": "Manager, Applied AI Architect",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5443331008"
         },
@@ -1355,6 +1349,12 @@
             "title": "Manager of Applied AI Architecture, Commercial",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5390865008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Manager of Applied AI Architecture, Industries New",
+            "location": "Paris, France",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456581008"
         },
         {
             "company": "anthropic",
@@ -1574,7 +1574,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Data Engineer, Billing & PaymentsNew",
+            "title": "Data Engineer, Billing & Payments",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5450099008"
         },
@@ -1589,6 +1589,12 @@
             "title": "Data Engineer, Product",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5448481008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Data Scientist, Growth",
+            "location": "New York City, NY | Seattle, WA; San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5161402008"
         },
         {
             "company": "anthropic",
@@ -1679,12 +1685,6 @@
             "title": "Front End Engineer, Marketing",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5386971008"
-        },
-        {
-            "company": "anthropic",
-            "title": "Manager, Web Engineering",
-            "location": "San Francisco, CA | New York City, NY",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5287926008"
         },
         {
             "company": "anthropic",
@@ -1928,6 +1928,12 @@
         },
         {
             "company": "anthropic",
+            "title": "3P Revenue Accounting & ReportingNew",
+            "location": "San Francisco, CA | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456619008"
+        },
+        {
+            "company": "anthropic",
             "title": "APAC Tax Lead",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5358148008"
@@ -2132,6 +2138,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Program Manager, Accounting Operations & StrategyNew",
+            "location": "San Francisco, CA | New York City, NY",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5448194008"
+        },
+        {
+            "company": "anthropic",
             "title": "Risk & Insurance SpecialistNew",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5432425008"
@@ -2276,12 +2288,6 @@
         },
         {
             "company": "anthropic",
-            "title": "IP Counsel, Patents",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5387829008"
-        },
-        {
-            "company": "anthropic",
             "title": "IP Counsel, Trademarks & Domains",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5398360008"
@@ -2303,12 +2309,6 @@
             "title": "Legal Specialist, Law Enforcement",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5409191008"
-        },
-        {
-            "company": "anthropic",
-            "title": "Life Sciences Counsel",
-            "location": "New York City, NY",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5286008008"
         },
         {
             "company": "anthropic",
@@ -2492,12 +2492,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Onboarding Program Manager",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5443902008"
-        },
-        {
-            "company": "anthropic",
             "title": "People Research Scientist, Recruiting",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5362838008"
@@ -2615,6 +2609,12 @@
             "title": "Product Manager, Claude",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5448167008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Product Manager, Claude MarketplaceNew",
+            "location": "San Francisco, CA | New York City, NY",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5457043008"
         },
         {
             "company": "anthropic",
@@ -2750,6 +2750,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Community Engagement Manager, Data Centers (Indiana & Kentucky)New",
+            "location": "Remote-Friendly, US",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5454535008"
+        },
+        {
+            "company": "anthropic",
             "title": "Community Engagement Manager, Data Centers (Louisiana)New",
             "location": "Remote-Friendly, US",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5452691008"
@@ -2867,6 +2873,12 @@
             "title": "Policy Design Manager, Integrity and AuthenticityNew",
             "location": "San Francisco, CA | New York City, NY | Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5453573008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Policy Program Manager, Safeguards Regulatory New",
+            "location": "San Francisco, CA | New York City, NY | Washington, DC",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5453564008"
         },
         {
             "company": "anthropic",
@@ -3068,12 +3080,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Threat Intelligence Engineer",
-            "location": "Remote-Friendly (Travel-Required) | San Francisco, CA | Washington, DC",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5074937008"
-        },
-        {
-            "company": "anthropic",
             "title": "Threat Intel Manager, CBRN-E & Advanced Weapons",
             "location": "San Francisco, CA | New York City, NY | Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5305631008"
@@ -3200,6 +3206,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Customer Success ManagerNew",
+            "location": "Tokyo, Japan",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456491008"
+        },
+        {
+            "company": "anthropic",
             "title": "Customer Success Manager, Beneficial Deployments - Life Sciences",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5416026008"
@@ -3272,13 +3284,13 @@
         },
         {
             "company": "anthropic",
-            "title": "Enterprise Account Executive, BankingNew",
+            "title": "Enterprise Account Executive, Banking",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5426602008"
         },
         {
             "company": "anthropic",
-            "title": "Enterprise Account Executive - CEENew",
+            "title": "Enterprise Account Executive - CEE",
             "location": "Munich, Germany",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5449831008"
         },
@@ -3290,9 +3302,21 @@
         },
         {
             "company": "anthropic",
+            "title": "Enterprise Account Executive, Digital Native Business - Munich",
+            "location": "Munich, Germany",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5227904008"
+        },
+        {
+            "company": "anthropic",
             "title": "Enterprise Account Executive - DNB",
             "location": "Seoul, South Korea",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391340008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Enterprise Account Executive, DNBNew",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5440855008"
         },
         {
             "company": "anthropic",
@@ -3308,7 +3332,7 @@
         },
         {
             "company": "anthropic",
-            "title": "Enterprise Account Executive, Energy & UtilitiesNew",
+            "title": "Enterprise Account Executive, Energy & Utilities",
             "location": "Munich, Germany",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5446414008"
         },
@@ -3386,12 +3410,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Enterprise Account Executive, Manufacturing",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5237973008"
-        },
-        {
-            "company": "anthropic",
             "title": "Enterprise Account Executive, Materials & Industrial",
             "location": "Munich, Germany",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391301008"
@@ -3431,12 +3449,6 @@
             "title": "Enterprise Account Executive, System Integrators",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5104756008"
-        },
-        {
-            "company": "anthropic",
-            "title": "Enterprise Sales ManagerNew",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5452316008"
         },
         {
             "company": "anthropic",
@@ -3488,6 +3500,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Head of GTM Programs EMEANew",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5390992008"
+        },
+        {
+            "company": "anthropic",
             "title": "Head of National Security Sales (DoW/IC)",
             "location": "Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391504008"
@@ -3524,6 +3542,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Manager, Account ExecutiveNew",
+            "location": "Tokyo, Japan",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391356008"
+        },
+        {
+            "company": "anthropic",
             "title": "Manager, Account Executive - Hedge Funds",
             "location": "New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5282833008"
@@ -3545,6 +3569,12 @@
             "title": "Manager, Customer Success \u2013 Strategic Consumer Tech",
             "location": "Boston, MA; San Francisco, CA | New York City, NY; San Francisco, CA | Seattle, WA; Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5421539008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Manager, Cybersecurity Sales SpecialistNew",
+            "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456812008"
         },
         {
             "company": "anthropic",
@@ -3644,12 +3674,6 @@
         },
         {
             "company": "anthropic",
-            "title": "Revenue Strategy & Operations",
-            "location": "Seoul, South Korea",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5199633008"
-        },
-        {
-            "company": "anthropic",
             "title": "Sales Director, Enterprise",
             "location": "Seoul, South Korea",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5391344008"
@@ -3674,15 +3698,15 @@
         },
         {
             "company": "anthropic",
-            "title": "Sales Manager, Nonprofit, EMEA",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5221916008"
+            "title": "Sales Manager, Enterprise IndustriesNew",
+            "location": "Paris, France",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456481008"
         },
         {
             "company": "anthropic",
-            "title": "Sales Strategy, Operational Excellence",
-            "location": "San Francisco, CA | New York City, NY",
-            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5414793008"
+            "title": "Sales Manager, Nonprofit, EMEA",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5221916008"
         },
         {
             "company": "anthropic",
@@ -3794,6 +3818,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Audit, Security GRCNew",
+            "location": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5457137008"
+        },
+        {
+            "company": "anthropic",
             "title": "AV Engineer, Builds and Design",
             "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5385588008"
@@ -3890,13 +3920,19 @@
         },
         {
             "company": "anthropic",
+            "title": "IT Systems Engineer, Client Platform Engineer, ChromeOSNew",
+            "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456018008"
+        },
+        {
+            "company": "anthropic",
             "title": "IT Systems Engineer, Client Platform Engineer, macOS",
             "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5445625008"
         },
         {
             "company": "anthropic",
-            "title": "IT Systems Engineer, M&ANew",
+            "title": "IT Systems Engineer, M&A",
             "location": "Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5450479008"
         },
@@ -4136,6 +4172,24 @@
         },
         {
             "company": "anthropic",
+            "title": "Principal Engineer Capacity/ComputeNew",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456039008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Principal Engineer Capacity/ComputeNew",
+            "location": "New York City, NY",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456405008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Principal Engineer Capacity/ComputeNew",
+            "location": "Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456406008"
+        },
+        {
+            "company": "anthropic",
             "title": "Senior Engineering Manager, Capacity Engineering",
             "location": "San Francisco, CA | New York City, NY | Seattle, WA",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5363210008"
@@ -4316,6 +4370,12 @@
         },
         {
             "company": "anthropic",
+            "title": "Staff+ Software Engineer, Memory & SearchNew",
+            "location": "New York City, NY; New York City, NY | Seattle, WA; Remote-Friendly, US; San Francisco, CA | New York City, NY | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5456453008"
+        },
+        {
+            "company": "anthropic",
             "title": "Staff Software Engineer, Node Infra",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5211498008"
@@ -4343,6 +4403,12 @@
             "title": "Staff+ Software Engineer, Storage + Transfer",
             "location": "San Francisco, CA | New York City, NY",
             "link": "https://job-boards.greenhouse.io/anthropic/jobs/5428950008"
+        },
+        {
+            "company": "anthropic",
+            "title": "Staff+ Software Engineer, VectorDBNew",
+            "location": "New York City, NY | Seattle, WA; San Francisco, CA | New York City, NY | Seattle, WA",
+            "link": "https://job-boards.greenhouse.io/anthropic/jobs/5458044008"
         },
         {
             "company": "anthropic",
@@ -4778,6 +4844,12 @@
         },
         {
             "company": "invisibletech",
+            "title": "Director of Engineering, Data LabsNew",
+            "location": "US - Remote",
+            "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/5010072101"
+        },
+        {
+            "company": "invisibletech",
             "title": "People Experience Manager",
             "location": "New York - Hybrid",
             "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/5002180101"
@@ -4802,12 +4874,6 @@
         },
         {
             "company": "invisibletech",
-            "title": "Enterprise Solutions Manager - Data Labs",
-            "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
-            "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4649449101"
-        },
-        {
-            "company": "invisibletech",
             "title": "Head of Frontier AINew",
             "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
             "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/5009192101"
@@ -4817,12 +4883,6 @@
             "title": "Senior Enterprise Solutions Manager",
             "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
             "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4948744101"
-        },
-        {
-            "company": "invisibletech",
-            "title": "Senior Enterprise Solutions Manager - Data Labs",
-            "location": "New York - Hybrid; San Francisco Bay Area - Hybrid",
-            "link": "https://job-boards.eu.greenhouse.io/invisibletech/jobs/4812639101"
         },
         {
             "company": "invisibletech",
@@ -4922,9 +4982,21 @@
         },
         {
             "company": "scaleai",
+            "title": "Infrastructure Software Engineer, Apps Platformtags.new",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4745021005"
+        },
+        {
+            "company": "scaleai",
             "title": "Infrastructure Software Engineer, Enterprise GenAI",
             "location": "San Francisco, CA; New York, NY",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4665557005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Senior Infrastructure Software Engineer, Apps Platform",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4729979005"
         },
         {
             "company": "scaleai",
@@ -4989,25 +5061,25 @@
         {
             "company": "scaleai",
             "title": "Frontier Agents Engineer (Applied AI)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4720573005"
         },
         {
             "company": "scaleai",
             "title": "Frontier Agents Engineer (Forward Deployed Engineering)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4694861005"
         },
         {
             "company": "scaleai",
             "title": "Senior Frontier Agents Engineer (Applied AI)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4720478005"
         },
         {
             "company": "scaleai",
             "title": "Senior Frontier Agents Engineer (Forward Deployed Engineering)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4694863005"
         },
         {
@@ -5019,13 +5091,13 @@
         {
             "company": "scaleai",
             "title": "Staff Frontier Agents Engineer (Applied AI)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4720487005"
         },
         {
             "company": "scaleai",
             "title": "Staff Frontier Agents Engineer (Forward Deployed Engineering)",
-            "location": "San Francisco, CA; New York, NY",
+            "location": "San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4694865005"
         },
         {
@@ -5228,7 +5300,7 @@
         },
         {
             "company": "scaleai",
-            "title": "Field Marketing & Events Manager, Frontier DataNew",
+            "title": "Field Marketing & Events Manager, Frontier Data",
             "location": "San Francisco, CA; New York, NY",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4741462005"
         },
@@ -5540,15 +5612,15 @@
         },
         {
             "company": "scaleai",
-            "title": "Enterprise Account Executive, Defence & Security",
+            "title": "Public Sector Lead, Central & Local Government",
             "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4736243005"
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4740975005"
         },
         {
             "company": "scaleai",
-            "title": "Enterprise Account Executive, Public Sector",
+            "title": "Public Sector Lead, Defence & Security",
             "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4740975005"
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4736243005"
         },
         {
             "company": "scaleai",
@@ -5636,7 +5708,7 @@
         },
         {
             "company": "scaleai",
-            "title": "Engagement Manager, Public Sector (Miami, FL)New",
+            "title": "Engagement Manager, Public Sector (Miami, FL)",
             "location": "Miami, FL",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4742967005"
         },
@@ -5651,6 +5723,12 @@
             "title": "Solutions Engineer (Clearance Required)",
             "location": "Washington, DC",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4663481005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Strategic Contracts Lead, Public SectorNew",
+            "location": "Washington, DC",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4745295005"
         },
         {
             "company": "scaleai",
@@ -5780,12 +5858,6 @@
         },
         {
             "company": "scaleai",
-            "title": "Senior Software Engineer, Public Sector",
-            "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4674911005"
-        },
-        {
-            "company": "scaleai",
             "title": "Software Engineer, ARC Team",
             "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4673771005"
@@ -5801,12 +5873,6 @@
             "title": "Software Engineering Manager, Public Sector",
             "location": "Washington, DC",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4715325005"
-        },
-        {
-            "company": "scaleai",
-            "title": "Software Engineer, Public Sector",
-            "location": "San Francisco, CA; St. Louis, MO; New York, NY; Washington, DC",
-            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4302243005"
         },
         {
             "company": "scaleai",
@@ -5963,6 +6029,12 @@
             "title": "SWE Fellow - Human Frontier Collective (US)",
             "location": "US",
             "link": "https://job-boards.greenhouse.io/scaleai/jobs/4689947005"
+        },
+        {
+            "company": "scaleai",
+            "title": "Machine Learning Research Intern (Summer 2027)New",
+            "location": "New York, NY; San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/scaleai/jobs/4735665005"
         },
         {
             "company": "scaleai",
@@ -6203,6 +6275,12 @@
             "title": "Civil Engineer, SpaceXAI Battery Storage - Memphis",
             "location": "Memphis, TN",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5215355007"
+        },
+        {
+            "company": "xai",
+            "title": "Combo Welder - MemphisNew",
+            "location": "Southaven, MS; Memphis, TN",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/5269037007"
         },
         {
             "company": "xai",
@@ -7190,6 +7268,12 @@
         },
         {
             "company": "xai",
+            "title": "Evaluation Infrastructure",
+            "location": "Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/5252714007"
+        },
+        {
+            "company": "xai",
             "title": "Exceptional Software Engineer",
             "location": "Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/4956028007"
@@ -7205,12 +7289,6 @@
             "title": "Machine Learning Engineer - Recommendation Systems",
             "location": "Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/4703144007"
-        },
-        {
-            "company": "xai",
-            "title": "Member of Technical Staff - Evaluation Infrastructure",
-            "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/5252714007"
         },
         {
             "company": "xai",
@@ -7454,12 +7532,6 @@
         },
         {
             "company": "xai",
-            "title": "Member of Technical Staff - Mid-training",
-            "location": "Palo Alto, CA",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/4965893007"
-        },
-        {
-            "company": "xai",
             "title": "Member of Technical Staff - Model Training",
             "location": "Palo Alto, CA; Austin, TX; New York, NY; Seattle, WA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5086324007"
@@ -7472,19 +7544,25 @@
         },
         {
             "company": "xai",
-            "title": "Member of Technical Staff - Post-Training and RL",
+            "title": "Mid-training",
+            "location": "Palo Alto, CA",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/4965893007"
+        },
+        {
+            "company": "xai",
+            "title": "Post-Training and RL",
             "location": "Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5114737007"
         },
         {
             "company": "xai",
-            "title": "Member of Technical Staff - RL Inference",
+            "title": "RL Inference",
             "location": "Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5180223007"
         },
         {
             "company": "xai",
-            "title": "Member of Technical Staff - RL Training Framework",
+            "title": "RL Training Framework",
             "location": "Palo Alto, CA",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5186992007"
         },
@@ -7580,12 +7658,6 @@
         },
         {
             "company": "xai",
-            "title": "Growth Marketing Manager",
-            "location": "Palo Alto, CA; New York, NY",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/5238756007"
-        },
-        {
-            "company": "xai",
             "title": "Spring 2027 Business Operations Internship/Co-op",
             "location": "Palo Alto, CA; New York, NY",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5255113007"
@@ -7664,13 +7736,13 @@
         },
         {
             "company": "xai",
-            "title": "Regulatory Legal CounselNew",
+            "title": "Regulatory Legal Counsel",
             "location": "London, England, UK",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5263296007"
         },
         {
             "company": "xai",
-            "title": "Regulatory Legal CounselNew",
+            "title": "Regulatory Legal Counsel",
             "location": "Dublin, Ireland",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5263377007"
         },
@@ -7688,13 +7760,13 @@
         },
         {
             "company": "xai",
-            "title": "Events LeadNew",
+            "title": "Events Lead",
             "location": "San Francisco, California",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5251158007"
         },
         {
             "company": "xai",
-            "title": "Events LeadNew",
+            "title": "Events Lead",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5263495007"
         },
@@ -7772,6 +7844,12 @@
         },
         {
             "company": "xai",
+            "title": "Supervisor, Child Safety OperationsNew",
+            "location": "Austin, TX",
+            "link": "https://job-boards.greenhouse.io/xai/jobs/5268262007"
+        },
+        {
+            "company": "xai",
             "title": "Support Agent, X Money",
             "location": "Bastrop, TX",
             "link": "https://job-boards.greenhouse.io/xai/jobs/4940364007"
@@ -7823,12 +7901,6 @@
             "title": "Client Partner \u2013 Global Brands APAC",
             "location": "Singapore",
             "link": "https://job-boards.greenhouse.io/xai/jobs/5239616007"
-        },
-        {
-            "company": "xai",
-            "title": "GCR Agency Development Manager",
-            "location": "Singapore",
-            "link": "https://job-boards.greenhouse.io/xai/jobs/5240554007"
         },
         {
             "company": "xai",
@@ -7994,6 +8066,18 @@
         },
         {
             "company": "machinify",
+            "title": "Data Mining AnalystNew",
+            "location": "US",
+            "link": "https://job-boards.greenhouse.io/machinifyinc/jobs/4456213009"
+        },
+        {
+            "company": "machinify",
+            "title": "Data Mining Sr. AnalystNew",
+            "location": "US",
+            "link": "https://job-boards.greenhouse.io/machinifyinc/jobs/4456358009"
+        },
+        {
+            "company": "machinify",
             "title": "Senior Healthcare Data Analyst",
             "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/machinifyinc/jobs/4421572009"
@@ -8147,6 +8231,12 @@
             "title": "Product Marketing Manager",
             "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/machinifyinc/jobs/4188035009"
+        },
+        {
+            "company": "machinify",
+            "title": "Proposal Manager",
+            "location": "Remote - US",
+            "link": "https://job-boards.greenhouse.io/machinifyinc/jobs/4172798009"
         },
         {
             "company": "machinify",
@@ -8360,6 +8450,24 @@
         },
         {
             "company": "assemblyai",
+            "title": "Digital Native AI Account ExecutiveNew",
+            "location": "San Francisco",
+            "link": "https://job-boards.greenhouse.io/assemblyai/jobs/4743063005"
+        },
+        {
+            "company": "assemblyai",
+            "title": "Digital Native AI Account ExecutiveNew",
+            "location": "New York",
+            "link": "https://job-boards.greenhouse.io/assemblyai/jobs/4744900005"
+        },
+        {
+            "company": "assemblyai",
+            "title": "Digital Native AI Account ExecutiveNew",
+            "location": "London, England",
+            "link": "https://job-boards.greenhouse.io/assemblyai/jobs/4744907005"
+        },
+        {
+            "company": "assemblyai",
             "title": "Enterprise Account Executive",
             "location": "San Francisco",
             "link": "https://job-boards.greenhouse.io/assemblyai/jobs/4738490005"
@@ -8444,7 +8552,7 @@
         },
         {
             "company": "isomorphiclabs",
-            "title": "Head of External Drug Discovery Operations, LondonNew",
+            "title": "Head of External Drug Discovery Operations, London",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/isomorphiclabs/jobs/6222901004"
         },
@@ -8552,6 +8660,12 @@
         },
         {
             "company": "polyai",
+            "title": "Senior Marketing Manager, EMEANew",
+            "location": "UK",
+            "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/5010878101"
+        },
+        {
+            "company": "polyai",
             "title": "Field Marketing Manager (6 month contract)",
             "location": "US",
             "link": "https://job-boards.eu.greenhouse.io/polyai/jobs/4965884101"
@@ -8619,7 +8733,7 @@
         {
             "company": "glean",
             "title": "Resident Solutions Architect",
-            "location": "Remote",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4717716005"
         },
         {
@@ -8642,33 +8756,21 @@
         },
         {
             "company": "glean",
-            "title": "Senior Data Engineer - Internal Data Platform & Analytics",
+            "title": "Senior Data Engineer, Internal Data Platform & Analytics",
             "location": "Bangalore, India",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4739975005"
         },
         {
             "company": "glean",
             "title": "Senior Data Scientist, Growth",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4723427005"
         },
         {
             "company": "glean",
-            "title": "Senior Data Scientist, Growth",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4723663005"
-        },
-        {
-            "company": "glean",
             "title": "Senior/Staff Applied Scientist",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4740088005"
-        },
-        {
-            "company": "glean",
-            "title": "Senior/Staff Applied Scientist",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4740092005"
         },
         {
             "company": "glean",
@@ -8679,7 +8781,7 @@
         {
             "company": "glean",
             "title": "Application Security Engineer",
-            "location": "US, Remote",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4728513005"
         },
         {
@@ -8703,24 +8805,18 @@
         {
             "company": "glean",
             "title": "Machine Learning Engineer, Search Quality",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4006735005"
         },
         {
             "company": "glean",
-            "title": "Machine Learning Engineer, Search Quality",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4738120005"
-        },
-        {
-            "company": "glean",
             "title": "Platform Security Engineer",
-            "location": "United Sates, Remote",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4728507005"
         },
         {
             "company": "glean",
-            "title": "Software Engineer, Agentic Runtime New",
+            "title": "Software Engineer, Agentic Runtime",
             "location": "Mountain View, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4742953005"
         },
@@ -8823,14 +8919,8 @@
         {
             "company": "glean",
             "title": "Software Engineer, Tech Lead, Admin Console",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4740921005"
-        },
-        {
-            "company": "glean",
-            "title": "Software Engineer, Tech Lead, Admin Console",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4740930005"
         },
         {
             "company": "glean",
@@ -8840,7 +8930,7 @@
         },
         {
             "company": "glean",
-            "title": "Tech Lead Manager, AI EvaluationsNew",
+            "title": "Tech Lead Manager, AI Evaluations",
             "location": "Mountain View, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4742957005"
         },
@@ -8855,6 +8945,12 @@
             "title": "Accountant",
             "location": "Bangalore, India",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4739201005"
+        },
+        {
+            "company": "glean",
+            "title": "IT Leader",
+            "location": "Bangalore, India",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4720634005"
         },
         {
             "company": "glean",
@@ -8877,7 +8973,7 @@
         {
             "company": "glean",
             "title": "Sales Recruiter",
-            "location": "San Francisco",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4725515005"
         },
         {
@@ -8888,14 +8984,8 @@
         },
         {
             "company": "glean",
-            "title": "Talent Sourcer, GTM (Contract)",
-            "location": "Bangalore, India",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4730545005"
-        },
-        {
-            "company": "glean",
-            "title": "Content Marketing Manager, Japan",
-            "location": "Tokyo, Japan",
+            "title": "Content Marketing Manager, Tokyo",
+            "location": "Remote - Japan",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4724225005"
         },
         {
@@ -8912,39 +9002,21 @@
         },
         {
             "company": "glean",
-            "title": "Principal Product Marketing Manager (Enterprise Context)",
-            "location": "Mountain View, CA",
+            "title": "Principal Product Marketing Manager, Enterprise Context",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4736348005"
         },
         {
             "company": "glean",
-            "title": "Principal Product Marketing Manager, Enterprise Context",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4736358005"
-        },
-        {
-            "company": "glean",
-            "title": "Principal Product Marketing Manager (Glean Agents)",
-            "location": "San Francisco, CA",
+            "title": "Principal Product Marketing Manager, Glean Agents",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4731850005"
         },
         {
             "company": "glean",
-            "title": "Principal Product Marketing Manager (Glean Agents)",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4732997005"
-        },
-        {
-            "company": "glean",
-            "title": "Principal Product Marketing Manager (Glean Intelligence)",
-            "location": "Mountain View, CA",
+            "title": "Principal Product Marketing Manager, Glean Intelligence",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4729392005"
-        },
-        {
-            "company": "glean",
-            "title": "Principal Product Marketing Manager (Glean Intelligence)",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4729400005"
         },
         {
             "company": "glean",
@@ -8955,19 +9027,13 @@
         {
             "company": "glean",
             "title": "Senior Demand Generation Manager",
-            "location": "Mountain view, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4533468005"
         },
         {
             "company": "glean",
-            "title": "Senior Demand Generation Manager",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4730945005"
-        },
-        {
-            "company": "glean",
             "title": "Senior Field Marketing Manager, West",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; Remote - US; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4727092005"
         },
         {
@@ -9003,37 +9069,19 @@
         {
             "company": "glean",
             "title": "Product Manager, Agent Security & Governance",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4525297005"
         },
         {
             "company": "glean",
-            "title": "Product Manager, Agent Security & Governance",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4694761005"
-        },
-        {
-            "company": "glean",
             "title": "Product Manager, AI Quality",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4525518005"
         },
         {
             "company": "glean",
-            "title": "Product Manager, AI Quality",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4694764005"
-        },
-        {
-            "company": "glean",
             "title": "Product Manager, API Platform",
-            "location": "San Francisco Bay Area",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4731372005"
-        },
-        {
-            "company": "glean",
-            "title": "Product Manager, API Platform",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4731388005"
         },
         {
@@ -9045,26 +9093,14 @@
         {
             "company": "glean",
             "title": "Product Manager, Core Experience",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4702147005"
         },
         {
             "company": "glean",
-            "title": "Product Manager, Core Experience",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4702368005"
-        },
-        {
-            "company": "glean",
             "title": "Product Manager, Enterprise Intelligence",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4701912005"
-        },
-        {
-            "company": "glean",
-            "title": "Product Manager, Enterprise Intelligence",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4702369005"
         },
         {
             "company": "glean",
@@ -9074,45 +9110,21 @@
         },
         {
             "company": "glean",
-            "title": "Product Manager, Growth",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4702151005"
-        },
-        {
-            "company": "glean",
-            "title": "Product Manager, Growth",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4702367005"
-        },
-        {
-            "company": "glean",
             "title": "Product Operations",
-            "location": "Mountain View, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4530062005"
         },
         {
             "company": "glean",
             "title": "Senior Technical Program Manager",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4628879005"
         },
         {
             "company": "glean",
-            "title": "Senior Technical Program Manager",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4695590005"
-        },
-        {
-            "company": "glean",
             "title": "Senior Technical Program Manager, Infrastructure",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4628714005"
-        },
-        {
-            "company": "glean",
-            "title": "Senior Technical Program Manager, Infrastructure",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4694770005"
         },
         {
             "company": "glean",
@@ -9135,8 +9147,20 @@
         {
             "company": "glean",
             "title": "Commercial Account Executive, Central",
-            "location": "Austin, TX",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4735493005"
+        },
+        {
+            "company": "glean",
+            "title": "Enterprise Account Executive",
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4619072005"
+        },
+        {
+            "company": "glean",
+            "title": "Enterprise Account Executive",
+            "location": "Mountain View, CA",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4695585005"
         },
         {
             "company": "glean",
@@ -9147,13 +9171,13 @@
         {
             "company": "glean",
             "title": "Enterprise Account Executive, Denver",
-            "location": "Denver, CO",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4726168005"
         },
         {
             "company": "glean",
             "title": "Enterprise Account Executive, Japan",
-            "location": "Japan",
+            "location": "Remote - Japan",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4672064005"
         },
         {
@@ -9164,14 +9188,8 @@
         },
         {
             "company": "glean",
-            "title": "Enterprise Account Executive - Mountain View",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4695585005"
-        },
-        {
-            "company": "glean",
-            "title": "Enterprise Account Executive, NYC",
-            "location": "New York, NY",
+            "title": "Enterprise Account Executive, New York City",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4615117005"
         },
         {
@@ -9182,21 +9200,15 @@
         },
         {
             "company": "glean",
-            "title": "Enterprise Account Executive - Oregon",
+            "title": "Enterprise Account Executive, Oregon",
             "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4707231005"
         },
         {
             "company": "glean",
-            "title": "Enterprise Account Executive - Sacramento",
-            "location": "Sacramento, CA",
+            "title": "Enterprise Account Executive, Sacramento",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4693862005"
-        },
-        {
-            "company": "glean",
-            "title": "Enterprise Account Executive - San Francisco",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4619072005"
         },
         {
             "company": "glean",
@@ -9207,12 +9219,12 @@
         {
             "company": "glean",
             "title": "Enterprise Account Executive, Texas",
-            "location": "Texas",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4725320005"
         },
         {
             "company": "glean",
-            "title": "Enterprise Account Executive - Washington",
+            "title": "Enterprise Account Executive, Washington",
             "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4694661005"
         },
@@ -9224,8 +9236,8 @@
         },
         {
             "company": "glean",
-            "title": "Partner Sales Manager",
-            "location": "Amsterdam",
+            "title": "Partner Sales Manager, EMEA",
+            "location": "Remote - Netherlands",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4741742005"
         },
         {
@@ -9243,19 +9255,13 @@
         {
             "company": "glean",
             "title": "Product Enablement Lead",
-            "location": "San Francisco, CA",
+            "location": "Mountain View, CA; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4696203005"
         },
         {
             "company": "glean",
             "title": "Product Enablement Lead",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4718547005"
-        },
-        {
-            "company": "glean",
-            "title": "Product Enablement Lead",
-            "location": "NYC",
+            "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4718549005"
         },
         {
@@ -9278,38 +9284,44 @@
         },
         {
             "company": "glean",
-            "title": "Solutions Engineering Manager New",
-            "location": "Nashville",
+            "title": "Solutions Engineering Manager, CentralNew",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4743056005"
         },
         {
             "company": "glean",
-            "title": "Solutions Engineer, UK",
-            "location": "London",
+            "title": "Solutions Engineer, London",
+            "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4729652005"
         },
         {
             "company": "glean",
             "title": "Strategic Account Executive",
-            "location": "Mumbai, India",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4673995005"
+            "location": "San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4706212005"
         },
         {
             "company": "glean",
             "title": "Strategic Account Executive, Dallas",
-            "location": "Dallas, TX",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4588653005"
         },
         {
             "company": "glean",
             "title": "Strategic Account Executive, Japan",
-            "location": "Tokyo, Japan",
+            "location": "Remote - Japan",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4721393005"
         },
         {
             "company": "glean",
+            "title": "Strategic Account Executive, Mumbai",
+            "location": "Remote - India",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4673995005"
+        },
+        {
+            "company": "glean",
             "title": "Strategic Account Executive, Nashville",
-            "location": "Nashville",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4730794005"
         },
         {
@@ -9320,20 +9332,14 @@
         },
         {
             "company": "glean",
-            "title": "Strategic Account Executive, San Francisco",
-            "location": "San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4706212005"
-        },
-        {
-            "company": "glean",
             "title": "Strategic Account Executive, Southern California",
-            "location": "Los Angeles, CA",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4725753005"
         },
         {
             "company": "glean",
             "title": "Strategic Account Executive, STL/KC",
-            "location": "St. Louis",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4733352005"
         },
         {
@@ -9345,18 +9351,24 @@
         {
             "company": "glean",
             "title": "Strategic Federal Account Executive, SLED",
-            "location": "New York, New York",
+            "location": "Remote - US",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4736294005"
         },
         {
             "company": "glean",
-            "title": "Designated Technical Support Engineer - Central/East",
+            "title": "Designated Technical Support Engineer",
+            "location": "Mountain View, CA; San Francisco, CA",
+            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4734005005"
+        },
+        {
+            "company": "glean",
+            "title": "Designated Technical Support Engineer",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4735022005"
         },
         {
             "company": "glean",
-            "title": "Designated Technical Support Engineer - Central/East",
+            "title": "Designated Technical Support Engineer",
             "location": "Nashville, TN",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4737707005"
         },
@@ -9365,12 +9377,6 @@
             "title": "Designated Technical Support Engineer, Ops",
             "location": "Mountain View, CA",
             "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4671775005"
-        },
-        {
-            "company": "glean",
-            "title": "Designated Technical Support Engineer - West",
-            "location": "Mountain View, CA",
-            "link": "https://job-boards.greenhouse.io/gleanwork/jobs/4734005005"
         },
         {
             "company": "glean",
@@ -9389,12 +9395,6 @@
             "title": "Machine Learning Applied Scientist (Co-op)",
             "location": "Vancouver, British Columbia",
             "link": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5239440007"
-        },
-        {
-            "company": "aperaai",
-            "title": "Software Developer - C++ (Co-op)",
-            "location": "Vancouver, British Columbia",
-            "link": "https://job-boards.greenhouse.io/aperaaiinc/jobs/5239394007"
         },
         {
             "company": "aperaai",
@@ -9542,6 +9542,12 @@
         },
         {
             "company": "snorkelai",
+            "title": "Engineering Manager, Federal & Regulated InfrastructureNew",
+            "location": "San Francisco, CA (Hybrid); US (Remote)",
+            "link": "https://job-boards.greenhouse.io/snorkelai/jobs/6229274004"
+        },
+        {
+            "company": "snorkelai",
             "title": "Head of Security",
             "location": "San Francisco, CA (Hybrid)",
             "link": "https://job-boards.greenhouse.io/snorkelai/jobs/6193568004"
@@ -9674,7 +9680,7 @@
         },
         {
             "company": "snorkelai",
-            "title": "Director of Expert Supply Growth",
+            "title": "Director of Growth, AI Network",
             "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid)",
             "link": "https://job-boards.greenhouse.io/snorkelai/jobs/6211057004"
         },
@@ -9764,6 +9770,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate Machine Learning Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894041002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Senior Machine Learning Engineer (Large Systems)",
             "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8564387002"
@@ -9806,6 +9818,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "AI Technology PhD Research InternshipNew",
+            "location": "Bristol, UK; Cambridge, UK; London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894738002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Staff Data Analyst",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8816382002"
@@ -9836,6 +9854,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate Infrastructure Solutions Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894042002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Component Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8215495002"
@@ -9854,6 +9878,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate, Manufacturing Operations 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894054002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "PLM System Administrator",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8773657002"
@@ -9866,13 +9896,13 @@
         },
         {
             "company": "graphcore.io",
-            "title": "Senior Manufacturing Product EngineerNew",
+            "title": "Senior Manufacturing Product Engineer",
             "location": "\u81fa\u5357\u5e02, Tainan, Taiwan",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8884722002"
         },
         {
             "company": "graphcore.io",
-            "title": "Staff Manufacturing Product EngineerNew",
+            "title": "Staff Manufacturing Product Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8885090002"
         },
@@ -9890,9 +9920,21 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate, Manufacturing Operations (Product Test) 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894081002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Lead Bring-up & Characterisation Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8653358002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Manufacturing Operations (Product Test) Summer Intern 2027 New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894363002"
         },
         {
             "company": "graphcore.io",
@@ -9962,6 +10004,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Manufacturing Operations Summer Intern 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894375002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Senior Integrated Management System Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8642355002"
@@ -10016,6 +10064,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Supply Chain Specialist New",
+            "location": "Taipei, Taipei City, Taiwan",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8901864002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Trade Compliance & Logistics Specialist",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8842267002"
@@ -10028,15 +10082,15 @@
         },
         {
             "company": "graphcore.io",
-            "title": "Senior SoC Architect",
+            "title": "Graduate SoC Architecture Engineer 2027New",
             "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8471161002"
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894348002"
         },
         {
             "company": "graphcore.io",
-            "title": "SoC Architect",
+            "title": "Senior SoC ArchitectNew",
             "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8632544002"
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8901818002"
         },
         {
             "company": "graphcore.io",
@@ -10055,6 +10109,12 @@
             "title": "Director, Silicon Logical Design",
             "location": "Bristol, UK; Cambridge, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8491411002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Silicon Engineer 2027New",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8843258002"
         },
         {
             "company": "graphcore.io",
@@ -10238,6 +10298,12 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Silicon Summer Intern 2027 New",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8879329002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Silicon Verification Engineer",
             "location": "Bristol, UK; Cambridge, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8617852002"
@@ -10280,6 +10346,30 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate Software Engineer, Accelerator Modelling 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894310002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, AI Compute Libraries & Performance 2027 New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894177002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, Analysis Tools 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894145002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate UX Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894323002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Principal Software Architect",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8392083002"
@@ -10298,9 +10388,21 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Software Engineer Summer Intern, AI Compute Libraries & Performance 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894868002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Staff Software Engineer - AI Compute Libraries & Performance",
             "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8551935002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "UX Design Summer Intern 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894797002"
         },
         {
             "company": "graphcore.io",
@@ -10310,9 +10412,9 @@
         },
         {
             "company": "graphcore.io",
-            "title": "PyTorch Engineer",
+            "title": "Graduate Software Engineer, Frameworks 2027New",
             "location": "Bristol, UK",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8491548002"
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894466002"
         },
         {
             "company": "graphcore.io",
@@ -10328,7 +10430,7 @@
         },
         {
             "company": "graphcore.io",
-            "title": "Technical Product OwnerNew",
+            "title": "Technical Product Owner",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8883127002"
         },
@@ -10337,6 +10439,18 @@
             "title": "Technology Owner",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8785332002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, AI/ ML Test Systems 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894364002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, DevOps 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894377002"
         },
         {
             "company": "graphcore.io",
@@ -10373,6 +10487,24 @@
             "title": "Senior Software Engineer in Build Engineering",
             "location": "London, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8755487002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer (ML QA)New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902106002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer (ML QA)New",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902107002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Senior Software Engineer (ML QA)New",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902108002"
         },
         {
             "company": "graphcore.io",
@@ -10436,9 +10568,51 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Staff Software Engineer (ML QA)New",
+            "location": "London, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902111002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Software Engineer (ML QA)New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902112002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Staff Software Engineer (ML QA)New",
+            "location": "Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8902113002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Firmware Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894608002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, Drivers and Utilities 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894887002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Software Engineer, System Software QA 2027New",
+            "location": "Bristol, UK; Cambridge, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894574002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Senior System Software Engineer - Bengaluru, multiple vacancies",
             "location": "Bengaluru, India",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8632472002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Software Engineering Summer Intern, Drivers and Utilities 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894376002"
         },
         {
             "company": "graphcore.io",
@@ -10550,6 +10724,18 @@
         },
         {
             "company": "graphcore.io",
+            "title": "Graduate Hardware Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894149002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Hardware Design Team Lead New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8899468002"
+        },
+        {
+            "company": "graphcore.io",
             "title": "Hardware Development Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8644810002"
@@ -10559,6 +10745,12 @@
             "title": "Hardware Development Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8879181002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Hardware Summer Intern 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894753002"
         },
         {
             "company": "graphcore.io",
@@ -10583,6 +10775,12 @@
             "title": "Signal Integrity Engineer",
             "location": "Bristol, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8645077002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Signal & Power Integrity Team Lead New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8899466002"
         },
         {
             "company": "graphcore.io",
@@ -10731,12 +10929,6 @@
         {
             "company": "graphcore.io",
             "title": "Senior Systems Engineer - Commissioning and Characterisation",
-            "location": "Gda\u0144sk, Pomeranian Voivodeship, Poland",
-            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8533895002"
-        },
-        {
-            "company": "graphcore.io",
-            "title": "Senior Systems Engineer - Commissioning and Characterisation",
             "location": "Bristol, UK; London, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8533904002"
         },
@@ -10769,6 +10961,18 @@
             "title": "Senior Linux Distribution & Validation Engineer",
             "location": "Cambridge, UK",
             "link": "https://job-boards.greenhouse.io/graphcore/jobs/8704676002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Cloud Platform Summer Intern 2027 New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894965002"
+        },
+        {
+            "company": "graphcore.io",
+            "title": "Graduate Cloud Platform Engineer 2027New",
+            "location": "Bristol, UK",
+            "link": "https://job-boards.greenhouse.io/graphcore/jobs/8894977002"
         },
         {
             "company": "graphcore.io",
@@ -10970,6 +11174,12 @@
         },
         {
             "company": "Box",
+            "title": "Senior Software Engineer, Box ObjectsNew",
+            "location": "Warsaw, Poland",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8258842"
+        },
+        {
+            "company": "Box",
             "title": "Engineering Manager II, Extract",
             "location": "Wroclaw",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7835383"
@@ -11024,24 +11234,6 @@
         },
         {
             "company": "Box",
-            "title": "Full-Stack Engineer",
-            "location": "Warsaw, Poland",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8163987"
-        },
-        {
-            "company": "Box",
-            "title": "Java/React Developer",
-            "location": "Warsaw, Poland",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8163988"
-        },
-        {
-            "company": "Box",
-            "title": "Software Engineer III, Automate",
-            "location": "Warsaw, Poland",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8147796"
-        },
-        {
-            "company": "Box",
             "title": "Product Manager II, AI ResearchNew",
             "location": "Redwood City, CA, US",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/8265442"
@@ -11090,18 +11282,6 @@
         },
         {
             "company": "Box",
-            "title": "Value Org Intelligence & Operations Senior Team Manager",
-            "location": "US Remote",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8224026"
-        },
-        {
-            "company": "Box",
-            "title": "Value Org Intelligence & Operations Senior Team Manager",
-            "location": "Redwood City, Chicago, IL",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8230570"
-        },
-        {
-            "company": "Box",
             "title": "Business Systems Analyst III (Marketing)",
             "location": "Chicago, Illinois, US, New York, NY, US, Redwood City, CA, US, San Francisco, CA, US, US",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/8068833"
@@ -11123,12 +11303,6 @@
             "title": "Senior IT Support Engineer II",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/8120902"
-        },
-        {
-            "company": "Box",
-            "title": "Senior UCC Engineer",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8175064"
         },
         {
             "company": "Box",
@@ -11318,6 +11492,12 @@
         },
         {
             "company": "Box",
+            "title": "Product Support Specialist",
+            "location": "Chicago, Illinois, US",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8223627"
+        },
+        {
+            "company": "Box",
             "title": "Technical Account Manager",
             "location": "Tokyo, Japan",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/7955916"
@@ -11333,6 +11513,12 @@
             "title": "Drupal Frontend Developer (with React)",
             "location": "Warsaw, Poland",
             "link": "https://job-boards.greenhouse.io/boxinc/jobs/8256310"
+        },
+        {
+            "company": "Box",
+            "title": "Head of Demand and Growth Marketing, EMEA",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/boxinc/jobs/8187023"
         },
         {
             "company": "Box",
@@ -11879,12 +12065,6 @@
             "title": "Payroll & People Ops Coordinator",
             "location": "San Mateo, CA",
             "link": "https://job-boards.greenhouse.io/skildai-careers/jobs/5442963008"
-        },
-        {
-            "company": "skildai",
-            "title": "Senior Accountant",
-            "location": "San Mateo, CA",
-            "link": "https://job-boards.greenhouse.io/skildai-careers/jobs/5397677008"
         },
         {
             "company": "skildai",
