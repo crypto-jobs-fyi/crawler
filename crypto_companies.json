@@ -97,7 +97,7 @@
     {
         "company_name": "binance",
         "company_url": "https://www.binance.com",
-        "jobs_url": "https://jobs.lever.co/binance"
+        "jobs_url": "https://www.binance.com/en/careers/job-openings"
     },
     {
         "company_name": "ethglobal",
@@ -963,5 +963,10 @@
         "company_name": "messari",
         "company_url": "https://messari.io",
         "jobs_url": "https://boards.greenhouse.io/messari"
+    },
+    {
+        "company_name": "CertiK",
+        "company_url": "https://www.certik.com",
+        "jobs_url": "https://jobs.lever.co/certik"
     }
 ]
