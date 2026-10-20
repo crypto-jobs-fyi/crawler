@@ -209,8 +209,8 @@
         },
         {
             "name": "binance",
-            "jobs_url": "https://jobs.lever.co/binance",
-            "scraper": "LEVER",
+            "jobs_url": "https://www.binance.com/en/careers/job-openings",
+            "scraper": "BINANCE",
             "company_url": "https://www.binance.com",
             "category": "crypto",
             "enabled": true,

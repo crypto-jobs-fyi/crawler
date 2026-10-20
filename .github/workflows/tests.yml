@@ -1,4 +1,4 @@
-name: CI Tests
+name: CI Crawler Tests
 
 on:
   push:
@@ -29,6 +29,7 @@ jobs:
               test/test_ashbyhq_scraper.py
               test/test_avara_scraper.py
               test/test_base_scraper.py
+              test/test_binance_scraper.py
               test/test_btcsuisse.py
               test/test_c3_scraper.py
               test/test_dayforce_scraper.py
@@ -42,7 +43,6 @@ jobs:
               test/test_gem.py
               test/test_gemini_scraper.py
               test/test_greenhouse_scraper.py
-              test/test_google_careers_scraper.py
           - shard: 3
             runner: ubuntu-latest
             tests: >-
@@ -67,6 +67,8 @@ jobs:
               test/test_circle_scraper.py
               test/test_ripple_scraper.py
               test/test_playwright_headed_scrapers.py
+              test/test_google_careers_scraper.py
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6

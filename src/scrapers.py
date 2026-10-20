@@ -29,6 +29,7 @@ from src.scrape_cursor import ScrapeCursor
 from src.scrape_google_careers import ScrapeGoogleCareers
 from src.scrape_dayforce import ScrapeDayforce
 from src.scrape_revolut import ScrapeRevolut
+from src.scrape_binance import ScrapeBinance
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -60,3 +61,4 @@ class Scrapers:
     GOOGLE_CAREERS = ScrapeGoogleCareers
     DAYFORCE = ScrapeDayforce
     REVOLUT = ScrapeRevolut
+    BINANCE = ScrapeBinance
