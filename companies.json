@@ -3367,6 +3367,15 @@
             "headless": true
         },
         {
+            "name": "CertiK",
+            "jobs_url": "https://jobs.lever.co/certik",
+            "scraper": "LEVER",
+            "company_url": "https://www.certik.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "multiversx",
             "jobs_url": "https://jobs.lever.co/multiversx",
             "scraper": "LEVER",
