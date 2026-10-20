@@ -109,6 +109,10 @@ python -m playwright install chromium
 ## Development
 
 ### Adding a New Company
+If you need to find or confirm a company's careers URL, use the
+[company research guide](docs/company-research.md), including optional web
+research with Parallel Search MCP in VS Code.
+
 1. Add the company to `companies.json` with its name, company URL, jobs URL,
    scraper, and category (`ai`, `crypto`, `fintech`, or `tech`).
 2. Reuse a scraper already registered in `src/scrapers.py` when the company uses
