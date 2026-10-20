@@ -1783,6 +1783,15 @@
             "headless": true
         },
         {
+            "name": "parallel.ai",
+            "jobs_url": "https://jobs.ashbyhq.com/parallel",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://parallel.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "flocksafety.com",
             "jobs_url": "https://jobs.ashbyhq.com/Flock%20Safety",
             "scraper": "ASHBYHQ",
