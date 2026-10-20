@@ -4,7 +4,6 @@ from src.scrape_it import ScrapeIt
 
 
 class ScrapeRevolutPeople(ScrapeIt):
-    name = 'Cleo'
 
     def clean_location(self, location: str) -> str:
         return location.strip().replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE').replace('\n', ' ')
@@ -14,7 +13,7 @@ class ScrapeRevolutPeople(ScrapeIt):
             return self.clean_location(locations[len(locations) - 1].text)
         return 'UK'
 
-    def getJobs(self, page, web_page, company = 'Cleo') -> list:
+    def getJobs(self, page, web_page, company) -> list:
         self.log_info(
             "Scrape page",
             company=company,
@@ -37,7 +36,7 @@ class ScrapeRevolutPeople(ScrapeIt):
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'span span')
             job_name: str = job_name_elem.text.split('\n')[0]
-            job_url: str = elem.get_attribute('href')
+            job_url: str = elem.get_attribute('href') or ''
             locations: list = elem.find_elements(By.CSS_SELECTOR, 'div[data-testid="location-row"]')
             self.log_info(
                 "Job location candidates",
