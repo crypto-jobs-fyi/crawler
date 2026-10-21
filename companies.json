@@ -614,8 +614,8 @@
         },
         {
             "name": "ethenalabs",
-            "jobs_url": "https://jobs.lever.co/ethenalabs",
-            "scraper": "LEVER",
+            "jobs_url": "https://careers.ethena.fi/jobs",
+            "scraper": "ETHENA_LABS",
             "company_url": "https://www.ethena.fi",
             "category": "crypto",
             "enabled": true,
