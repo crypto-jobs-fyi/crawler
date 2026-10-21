@@ -60,6 +60,7 @@ jobs:
               test/test_workable_scraper.py
               test/test_world.py
               test/test_cursor_scraper.py
+              test/test_fireblocks_scraper.py
           - shard: 5
             runner: ubuntu-latest
             tests: >-
