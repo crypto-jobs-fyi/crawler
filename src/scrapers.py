@@ -32,6 +32,7 @@ from src.scrape_revolut import ScrapeRevolut
 from src.scrape_binance import ScrapeBinance
 from src.scrape_gate import ScrapeGate
 from src.scrape_ethena_labs import ScrapeEthenaLabs
+from src.scrape_fireblocks import ScrapeFireblocks
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -66,3 +67,4 @@ class Scrapers:
     BINANCE = ScrapeBinance
     GATE = ScrapeGate
     ETHENA_LABS = ScrapeEthenaLabs
+    FIREBLOCKS = ScrapeFireblocks

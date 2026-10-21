@@ -47,8 +47,8 @@
         },
         {
             "name": "fireblocks",
-            "jobs_url": "https://job-boards.greenhouse.io/fireblocks",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://www.fireblocks.com/careers#open-roles",
+            "scraper": "FIREBLOCKS",
             "company_url": "https://www.fireblocks.com",
             "category": "crypto",
             "enabled": true,
