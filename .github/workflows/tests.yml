@@ -69,6 +69,7 @@ jobs:
               test/test_ripple_scraper.py
               test/test_playwright_headed_scrapers.py
               test/test_google_careers_scraper.py
+              test/test_radical_ai_scraper.py
 
     steps:
       - name: Checkout repository

@@ -2765,8 +2765,8 @@
         },
         {
             "name": "RadicalAI",
-            "jobs_url": "https://jobs.lever.co/RadicalAI",
-            "scraper": "LEVER",
+            "jobs_url": "https://app.nodi.global/company/radical%20ai",
+            "scraper": "RADICAL_AI",
             "company_url": "https://www.radical-ai.com",
             "category": "ai",
             "enabled": true,
