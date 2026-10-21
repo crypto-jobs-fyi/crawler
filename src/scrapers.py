@@ -30,6 +30,7 @@ from src.scrape_google_careers import ScrapeGoogleCareers
 from src.scrape_dayforce import ScrapeDayforce
 from src.scrape_revolut import ScrapeRevolut
 from src.scrape_binance import ScrapeBinance
+from src.scrape_gate import ScrapeGate
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -62,3 +63,4 @@ class Scrapers:
     DAYFORCE = ScrapeDayforce
     REVOLUT = ScrapeRevolut
     BINANCE = ScrapeBinance
+    GATE = ScrapeGate

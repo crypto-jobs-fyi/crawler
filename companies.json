@@ -470,8 +470,8 @@
         },
         {
             "name": "gate.io",
-            "jobs_url": "https://jobs.lever.co/gate",
-            "scraper": "LEVER",
+            "jobs_url": "https://www.gate.com/careers/jobs",
+            "scraper": "GATE",
             "company_url": "https://gate.io",
             "category": "crypto",
             "enabled": true,
