@@ -1477,15 +1477,6 @@
             "headless": true
         },
         {
-            "name": "ramp.network",
-            "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork",
-            "scraper": "GREENHOUSE",
-            "company_url": "https://ramp.network",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "RWA.xyz",
             "jobs_url": "https://jobs.ashbyhq.com/RWA.xyz",
             "scraper": "ASHBYHQ",
