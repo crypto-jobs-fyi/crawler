@@ -2818,6 +2818,15 @@
             "headless": true
         },
         {
+            "name": "ramp.com",
+            "jobs_url": "https://jobs.ashbyhq.com/ramp",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://ramp.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "flex",
             "jobs_url": "https://job-boards.greenhouse.io/flex",
             "scraper": "GREENHOUSE",
