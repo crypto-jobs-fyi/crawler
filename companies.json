@@ -3392,6 +3392,15 @@
             "category": "crypto",
             "enabled": false,
             "headless": true
+        },
+        {
+            "name": "walrus",
+            "jobs_url": "https://jobs.ashbyhq.com/walrus",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://walrus.xyz",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
         }
     ]
 }
