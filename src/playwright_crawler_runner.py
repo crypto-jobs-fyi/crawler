@@ -18,6 +18,7 @@ class PlaywrightCrawlerRunner:
         headless: bool = True,
         max_workers: int = 1,
         max_attempts: int = 3,
+        stealth: bool = False,
     ):
         if max_attempts < 1:
             raise ValueError("max_attempts must be at least 1")
@@ -26,6 +27,7 @@ class PlaywrightCrawlerRunner:
         self.headless = headless
         self.max_workers = max_workers
         self.max_attempts = max_attempts
+        self.stealth = stealth
         self.file_lock = threading.Lock()
         self.logger = get_logger(self.__class__.__name__)
         self._initialize_files()
@@ -37,10 +39,27 @@ class PlaywrightCrawlerRunner:
             current_jobs_file.write("{}")
 
     def _launch_browser(self, playwright) -> Browser:
-        return playwright.chromium.launch(
-            headless=self.headless,
-            args=["--no-sandbox", "--disable-dev-shm-usage", "--disable-extensions"],
+        args = ["--no-sandbox", "--disable-dev-shm-usage", "--disable-extensions"]
+        if self.stealth:
+            args.append("--disable-blink-features=AutomationControlled")
+        return playwright.chromium.launch(headless=self.headless, args=args)
+
+    def _new_context(self, browser: Browser):
+        if not self.stealth:
+            return browser.new_context()
+        context = browser.new_context(
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+            ),
+            viewport={"width": 1920, "height": 1080},
+            locale="en-GB",
+            timezone_id="Europe/London",
         )
+        context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
+        )
+        return context
 
     def _scrape_company(self, browser: Browser, company: CompanyItem, progress_info: str) -> None:
         started_at = time.time()
@@ -51,7 +70,7 @@ class PlaywrightCrawlerRunner:
         jobs_data = []
 
         for attempt in range(self.max_attempts):
-            context = browser.new_context()
+            context = self._new_context(browser)
             page: Page = context.new_page()
             try:
                 crawler_type: ScrapeIt = company.scraper_type()
