@@ -22,7 +22,7 @@
     {
         "company_name": "fireblocks",
         "company_url": "https://www.fireblocks.com",
-        "jobs_url": "https://job-boards.greenhouse.io/fireblocks"
+        "jobs_url": "https://www.fireblocks.com/careers#open-roles"
     },
     {
         "company_name": "blockstream",
@@ -237,7 +237,7 @@
     {
         "company_name": "gate.io",
         "company_url": "https://gate.io",
-        "jobs_url": "https://jobs.lever.co/gate"
+        "jobs_url": "https://www.gate.com/careers/jobs"
     },
     {
         "company_name": "auroralabs",
@@ -317,7 +317,7 @@
     {
         "company_name": "ethenalabs",
         "company_url": "https://www.ethena.fi",
-        "jobs_url": "https://jobs.lever.co/ethenalabs"
+        "jobs_url": "https://careers.ethena.fi/jobs"
     },
     {
         "company_name": "SeiLabs",
@@ -785,11 +785,6 @@
         "jobs_url": "https://jobs.ashbyhq.com/Symbiotic"
     },
     {
-        "company_name": "ramp.network",
-        "company_url": "https://ramp.network",
-        "jobs_url": "https://job-boards.eu.greenhouse.io/rampnetwork"
-    },
-    {
         "company_name": "RWA.xyz",
         "company_url": "https://rwa.xyz",
         "jobs_url": "https://jobs.ashbyhq.com/RWA.xyz"
@@ -968,5 +963,10 @@
         "company_name": "CertiK",
         "company_url": "https://www.certik.com",
         "jobs_url": "https://jobs.lever.co/certik"
+    },
+    {
+        "company_name": "walrus",
+        "company_url": "https://walrus.xyz",
+        "jobs_url": "https://jobs.ashbyhq.com/walrus"
     }
 ]
