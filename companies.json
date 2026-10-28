@@ -163,6 +163,15 @@
             "headless": true
         },
         {
+            "name": "Bridgewater Associates",
+            "jobs_url": "https://job-boards.greenhouse.io/bridgewater89",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://www.bridgewater.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "ninjatrader",
             "jobs_url": "https://job-boards.greenhouse.io/ninjatrader",
             "scraper": "GREENHOUSE",
