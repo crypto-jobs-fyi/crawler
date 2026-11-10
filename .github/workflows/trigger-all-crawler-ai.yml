@@ -2,7 +2,7 @@ name: Run All Crawler AI Workflows
 
 on:
   schedule:
-    - cron: '0 8 * * 2,6'
+    - cron: '30 6 * * 2,6'
   workflow_dispatch:
 
 jobs:
