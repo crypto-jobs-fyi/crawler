@@ -3428,6 +3428,15 @@
             "category": "ai",
             "enabled": true,
             "headless": true
+        },
+        {
+            "name": "Firmus.co",
+            "jobs_url": "https://job-boards.greenhouse.io/firmus",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://firmus.co",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
         }
     ]
 }
