@@ -3419,6 +3419,15 @@
             "category": "crypto",
             "enabled": true,
             "headless": true
+        },
+        {
+            "name": "WisprFlow",
+            "jobs_url": "https://jobs.ashbyhq.com/wispr-flow",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://wisprflow.ai",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
         }
     ]
 }
