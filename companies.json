@@ -3358,6 +3358,15 @@
             "headless": true
         },
         {
+            "name": "G-20.Group",
+            "jobs_url": "https://apply.workable.com/g-20-advisors-ag",
+            "scraper": "WORKABLE",
+            "company_url": "https://g20.group",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "clay.com",
             "jobs_url": "https://jobs.ashbyhq.com/claylabs",
             "scraper": "ASHBYHQ",
