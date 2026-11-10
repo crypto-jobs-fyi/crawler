@@ -1640,11 +1640,11 @@
         },
         {
             "name": "consensys",
-            "jobs_url": "https://consensys.io/open-roles",
-            "scraper": "CONSENSYS",
+            "jobs_url": "https://jobs.ashbyhq.com/consensys",
+            "scraper": "ASHBYHQ",
             "company_url": "https://consensys.io",
             "category": "crypto",
-            "enabled": false,
+            "enabled": true,
             "headless": true
         },
         {
