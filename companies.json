@@ -3178,6 +3178,15 @@
             "headless": true
         },
         {
+            "name": "Oura",
+            "jobs_url": "https://job-boards.greenhouse.io/oura",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://ouraring.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "pony.ai",
             "jobs_url": "https://apply.workable.com/pony-dot-ai/",
             "scraper": "WORKABLE",
