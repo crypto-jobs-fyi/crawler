@@ -1,6 +1,15 @@
 {
     "companies": [
         {
+            "name": "Auterion",
+            "jobs_url": "https://auterion.com/company/careers",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://auterion.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "ethena",
             "jobs_url": "https://jobs.lever.co/ethena",
             "scraper": "LEVER",
