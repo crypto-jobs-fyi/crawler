@@ -3367,6 +3367,15 @@
             "headless": true
         },
         {
+            "name": "tem.energy",
+            "jobs_url": "https://jobs.ashbyhq.com/tem",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.tem.energy",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "G-20.Group",
             "jobs_url": "https://apply.workable.com/g-20-advisors-ag",
             "scraper": "WORKABLE",
