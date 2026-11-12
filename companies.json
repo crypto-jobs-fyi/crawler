@@ -3464,6 +3464,15 @@
             "category": "ai",
             "enabled": true,
             "headless": true
+        },
+        {
+            "name": "Havoc AI",
+            "jobs_url": "https://jobs.ashbyhq.com/havocai",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.havocai.com",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
         }
     ]
 }
