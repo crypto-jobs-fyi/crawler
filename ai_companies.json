@@ -1,5 +1,10 @@
 [
     {
+        "company_name": "Auterion",
+        "company_url": "https://auterion.com",
+        "jobs_url": "https://auterion.com/company/careers"
+    },
+    {
         "company_name": "ethena",
         "company_url": "https://www.goethena.com",
         "jobs_url": "https://jobs.lever.co/ethena"
@@ -287,12 +292,17 @@
     {
         "company_name": "shieldai",
         "company_url": "https://shield.ai",
-        "jobs_url": "https://jobs.lever.co/shieldai"
+        "jobs_url": "https://jobs.ashbyhq.com/shield"
     },
     {
         "company_name": "polyai",
         "company_url": "https://www.poly.ai",
         "jobs_url": "https://job-boards.greenhouse.io/polyai"
+    },
+    {
+        "company_name": "aechelontechnology",
+        "company_url": "https://shield.ai/aechelon",
+        "jobs_url": "https://job-boards.greenhouse.io/aechelontechnology"
     },
     {
         "company_name": "glean",
@@ -658,5 +668,20 @@
         "company_name": "usepylon.com",
         "company_url": "https://usepylon.com",
         "jobs_url": "https://jobs.ashbyhq.com/pylon-labs"
+    },
+    {
+        "company_name": "WisprFlow",
+        "company_url": "https://wisprflow.ai",
+        "jobs_url": "https://jobs.ashbyhq.com/wispr-flow"
+    },
+    {
+        "company_name": "Firmus.co",
+        "company_url": "https://firmus.co",
+        "jobs_url": "https://job-boards.greenhouse.io/firmus"
+    },
+    {
+        "company_name": "Havoc AI",
+        "company_url": "https://www.havocai.com",
+        "jobs_url": "https://jobs.ashbyhq.com/havocai"
     }
 ]
