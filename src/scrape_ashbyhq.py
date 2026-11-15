@@ -24,6 +24,21 @@ class ScrapeAshbyhq(ScrapeIt):
         )
         page.implicitly_wait(7)
         page.get(web_page)
+        ashby_iframe = next(
+            (
+                iframe
+                for iframe in page.find_elements(By.TAG_NAME, 'iframe')
+                if 'ashbyhq.com' in (iframe.get_attribute('src') or '')
+            ),
+            None,
+        )
+        if ashby_iframe is not None:
+            self.log_info(
+                "Ashby iframe detected",
+                company=company,
+                web_page=web_page,
+            )
+            page.switch_to.frame(ashby_iframe)
         group_elements: list[PlaywrightElement] = PlaywrightWait(page, 20).until(
             EC.presence_of_all_elements_located((By.CSS_SELECTOR, self._job_locator))
         )
