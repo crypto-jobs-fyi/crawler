@@ -2206,6 +2206,15 @@
             "headless": true
         },
         {
+            "name": "aechelontechnology",
+            "jobs_url": "https://job-boards.greenhouse.io/aechelontechnology",
+            "scraper": "GREENHOUSE",
+            "company_url": "https://shield.ai/aechelon",
+            "category": "ai",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "Cleo",
             "jobs_url": "https://jobs.ashbyhq.com/cleo-2",
             "scraper": "ASHBYHQ",
