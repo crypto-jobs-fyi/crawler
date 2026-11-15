@@ -15,6 +15,9 @@ The crawler supports major HR platforms including:
 - **Gem**
 - And many custom company-specific scrapers (Coinbase, Ripple, Gemini, etc.)
 
+Greenhouse scrapes are limited to 25 pages per company and log a warning if
+more pages remain or pagination fails to advance.
+
 ## Architecture
 
 - **Orchestration**: Entry points like `crawler_ai.py`, `crypto_crawler.py`, and `crawler_tech.py` manage the scraping process.
