@@ -1973,8 +1973,8 @@
         },
         {
             "name": "temporal.io",
-            "jobs_url": "https://job-boards.greenhouse.io/temporaltechnologies",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/temporal",
+            "scraper": "ASHBYHQ",
             "company_url": "https://temporal.io",
             "category": "ai",
             "enabled": true,
