@@ -2233,10 +2233,10 @@
             "headless": true
         },
         {
-            "name": "augmentcode.com",
-            "jobs_url": "https://job-boards.greenhouse.io/augmentcomputing",
+            "name": "harness.io",
+            "jobs_url": "https://job-boards.greenhouse.io/embed/job_board?for=harnessinc",
             "scraper": "GREENHOUSE",
-            "company_url": "https://www.augmentcode.com",
+            "company_url": "https://www.harness.io",
             "category": "ai",
             "enabled": true,
             "headless": true
