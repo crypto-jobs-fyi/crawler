@@ -50,6 +50,11 @@ To run only the FinTech companies that use Greenhouse:
 python crawler_fin_greenhouse.py
 ```
 
+The AI Greenhouse crawler (`python crawler_ai_greenhouse.py`) runs up to three
+companies in parallel, each with its own Playwright browser. Other crawlers
+run sequentially by default; `PlaywrightCrawlerRunner` accepts a positive
+`max_workers` value to configure concurrency.
+
 All crawlers use Playwright. The headed crypto crawler is useful for sites that
 need a visible browser session:
 
