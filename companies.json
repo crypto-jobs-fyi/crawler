@@ -199,15 +199,6 @@
             "headless": true
         },
         {
-            "name": "aragon",
-            "jobs_url": "https://jobs.lever.co/aragon",
-            "scraper": "LEVER",
-            "company_url": "https://aragon.org",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "nomina.io",
             "jobs_url": "https://job-boards.greenhouse.io/nomina",
             "scraper": "GREENHOUSE",
