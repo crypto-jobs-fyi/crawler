@@ -2882,8 +2882,8 @@
         },
         {
             "name": "qonto",
-            "jobs_url": "https://jobs.lever.co/qonto",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/qonto",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.qonto.com",
             "category": "fintech",
             "enabled": true,
