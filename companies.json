@@ -1721,8 +1721,8 @@
         },
         {
             "name": "quo.com",
-            "jobs_url": "https://jobs.gem.com/quo",
-            "scraper": "GEM",
+            "jobs_url": "https://jobs.ashbyhq.com/quo",
+            "scraper": "ASHBYHQ",
             "company_url": "https://quo.com",
             "category": "ai",
             "enabled": true,
