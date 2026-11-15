@@ -60,7 +60,7 @@ python crypto_crawler_headed.py
 It launches visible Chromium and runs the same migrated scraper classes as the
 normal crawlers.
 
-For the fintech headed workflow:
+To run the FinTech headed crawler manually:
 
 ```bash
 python crawler_fintech_headed.py
