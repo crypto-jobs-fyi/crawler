@@ -7,6 +7,5 @@ current_jobs_file = 'ai_current_jobs_greenhouse.json'
 
 filtered_companies = Companies.filter_companies(category="ai", scraper_type=Scrapers.GREENHOUSE)
 
-runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file)
+runner = PlaywrightCrawlerRunner(jobs_file, current_jobs_file, max_workers=3)
 runner.run(filtered_companies)
-
