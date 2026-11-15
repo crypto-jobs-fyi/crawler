@@ -2251,15 +2251,6 @@
             "headless": true
         },
         {
-            "name": "console",
-            "jobs_url": "https://jobs.ashbyhq.com/console",
-            "scraper": "ASHBYHQ",
-            "company_url": "https://www.console.com",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "rivr",
             "jobs_url": "https://jobs.lever.co/rivr",
             "scraper": "LEVER",
