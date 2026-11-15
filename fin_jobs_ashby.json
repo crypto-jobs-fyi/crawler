@@ -2,6 +2,12 @@
     "data": [
         {
             "company": "trading212",
+            "title": "CDD Analyst",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/3ca3c6f6-ab6b-4ad4-b329-60babfe5cf96"
+        },
+        {
+            "company": "trading212",
             "title": "Motion Designer",
             "location": "Sofia",
             "link": "https://jobs.ashbyhq.com/trading212/a5edd5bc-0936-4b17-a374-df9d07f5e4f1"
@@ -21,19 +27,19 @@
         {
             "company": "trading212",
             "title": "Junior Frontend Engineer",
-            "location": "Bulgaria",
+            "location": "Sofia",
             "link": "https://jobs.ashbyhq.com/trading212/ba789615-ee3c-477b-8fe6-1974c480c2da"
         },
         {
             "company": "trading212",
             "title": "Mid Backend Engineer",
-            "location": "Bulgaria",
+            "location": "Sofia",
             "link": "https://jobs.ashbyhq.com/trading212/ab06e0c4-acc1-4ede-862d-1630efeefcd3"
         },
         {
             "company": "trading212",
             "title": "Mid Frontend Engineer",
-            "location": "Bulgaria",
+            "location": "Sofia",
             "link": "https://jobs.ashbyhq.com/trading212/bd9e8f64-77e6-4fc8-93f8-bcd27ac834d3"
         },
         {
@@ -81,24 +87,6 @@
         {
             "company": "trading212",
             "title": "Senior Frontend Engineer",
-            "location": "Germany",
-            "link": "https://jobs.ashbyhq.com/trading212/ed63bdfe-7a73-424e-ad8c-1b4086adc058"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Frontend Engineer",
-            "location": "Spain",
-            "link": "https://jobs.ashbyhq.com/trading212/bfc55935-e412-4725-8e15-fdfe57522505"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Frontend Engineer",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/trading212/b1938271-0536-4136-ac8f-1de1484910ef"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Frontend Engineer",
             "location": "Romania",
             "link": "https://jobs.ashbyhq.com/trading212/86e40e1c-f276-40f8-8dfc-91f7710447cd"
         },
@@ -110,15 +98,21 @@
         },
         {
             "company": "trading212",
-            "title": "Staff Backend Engineer",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/trading212/922aaafc-df5e-4a5c-a821-9f3c93c82d56"
+            "title": "Senior Frontend Engineer",
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/b1938271-0536-4136-ac8f-1de1484910ef"
         },
         {
             "company": "trading212",
-            "title": "Staff Backend Engineer",
+            "title": "Senior Frontend Engineer",
             "location": "Germany",
-            "link": "https://jobs.ashbyhq.com/trading212/79e7656b-cca0-4c32-8afb-6e58ca333cf5"
+            "link": "https://jobs.ashbyhq.com/trading212/ed63bdfe-7a73-424e-ad8c-1b4086adc058"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Frontend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/bfc55935-e412-4725-8e15-fdfe57522505"
         },
         {
             "company": "trading212",
@@ -135,32 +129,26 @@
         {
             "company": "trading212",
             "title": "Staff Backend Engineer",
-            "location": "Spain",
-            "link": "https://jobs.ashbyhq.com/trading212/a9467677-4ced-4743-971e-e14320f1d35d"
-        },
-        {
-            "company": "trading212",
-            "title": "Staff Backend Engineer",
             "location": "Poland",
             "link": "https://jobs.ashbyhq.com/trading212/b3cda5f6-f04f-4e12-b4f1-5fc55f2020cc"
         },
         {
             "company": "trading212",
-            "title": "Staff Frontend Engineer",
-            "location": "Poland",
-            "link": "https://jobs.ashbyhq.com/trading212/2c88e577-7e24-43c7-a979-242961aa3eb6"
+            "title": "Staff Backend Engineer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/922aaafc-df5e-4a5c-a821-9f3c93c82d56"
         },
         {
             "company": "trading212",
-            "title": "Staff Frontend Engineer",
-            "location": "Romania",
-            "link": "https://jobs.ashbyhq.com/trading212/12915c6c-c217-4afb-9bfc-17e1f115d6cd"
+            "title": "Staff Backend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/79e7656b-cca0-4c32-8afb-6e58ca333cf5"
         },
         {
             "company": "trading212",
-            "title": "Staff Frontend Engineer",
+            "title": "Staff Backend Engineer",
             "location": "Spain",
-            "link": "https://jobs.ashbyhq.com/trading212/58243576-ca1f-4622-ae7c-5ac66afb48e5"
+            "link": "https://jobs.ashbyhq.com/trading212/a9467677-4ced-4743-971e-e14320f1d35d"
         },
         {
             "company": "trading212",
@@ -171,14 +159,44 @@
         {
             "company": "trading212",
             "title": "Staff Frontend Engineer",
-            "location": "Germany",
-            "link": "https://jobs.ashbyhq.com/trading212/a1c0117e-323c-40c8-88c8-dc09bb7eafdf"
+            "location": "Poland",
+            "link": "https://jobs.ashbyhq.com/trading212/2c88e577-7e24-43c7-a979-242961aa3eb6"
         },
         {
             "company": "trading212",
             "title": "Staff Frontend Engineer",
             "location": "Bulgaria",
             "link": "https://jobs.ashbyhq.com/trading212/65caa567-e403-4f44-8306-8617c9aabacc"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/58243576-ca1f-4622-ae7c-5ac66afb48e5"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Germany",
+            "link": "https://jobs.ashbyhq.com/trading212/a1c0117e-323c-40c8-88c8-dc09bb7eafdf"
+        },
+        {
+            "company": "trading212",
+            "title": "Staff Frontend Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/12915c6c-c217-4afb-9bfc-17e1f115d6cd"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Product Designer",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/62892313-ee6c-4eeb-a14e-444c0861e104"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Product Designer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/trading212/a57b55f8-0b68-4c06-b018-6f3b7a420e45"
         },
         {
             "company": "trading212",
@@ -191,24 +209,6 @@
             "title": "Senior DevOps Engineer",
             "location": "Sofia",
             "link": "https://jobs.ashbyhq.com/trading212/862dbc1d-d6f1-4845-853f-a8d234e0a7d7"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Quality Assurance Engineer",
-            "location": "Romania",
-            "link": "https://jobs.ashbyhq.com/trading212/727fb035-3175-485f-b999-ca9c6d6064f1"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Quality Assurance Engineer",
-            "location": "Spain",
-            "link": "https://jobs.ashbyhq.com/trading212/7754bb24-44ac-40ec-ab8e-c0106341c695"
-        },
-        {
-            "company": "trading212",
-            "title": "Senior Quality Assurance Engineer",
-            "location": "Sofia",
-            "link": "https://jobs.ashbyhq.com/trading212/22281ae0-a0bf-44dc-84bd-623d075d693b"
         },
         {
             "company": "trading212",
@@ -227,6 +227,24 @@
             "title": "Senior Quality Assurance Engineer",
             "location": "Berlin",
             "link": "https://jobs.ashbyhq.com/trading212/c0611415-1559-45af-a429-e483e1d6c823"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Romania",
+            "link": "https://jobs.ashbyhq.com/trading212/727fb035-3175-485f-b999-ca9c6d6064f1"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Spain",
+            "link": "https://jobs.ashbyhq.com/trading212/7754bb24-44ac-40ec-ab8e-c0106341c695"
+        },
+        {
+            "company": "trading212",
+            "title": "Senior Quality Assurance Engineer",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/22281ae0-a0bf-44dc-84bd-623d075d693b"
         },
         {
             "company": "trading212",
@@ -302,6 +320,12 @@
         },
         {
             "company": "trading212",
+            "title": "Transfers Customer Experience Specialist",
+            "location": "Sofia",
+            "link": "https://jobs.ashbyhq.com/trading212/a4a9207c-5c10-4421-9d65-b6838a97ab8e"
+        },
+        {
+            "company": "trading212",
             "title": "Technical Recruiter",
             "location": "Poland",
             "link": "https://jobs.ashbyhq.com/trading212/bfe8e62e-df74-4933-9c6f-fd1fc862447c"
@@ -347,6 +371,24 @@
             "title": "Senior Product Manager",
             "location": "London; Berlin; Bulgaria; Germany; Poland; Portugal; Spain; UK",
             "link": "https://jobs.ashbyhq.com/trading212/9d03f2de-ed06-47a5-9f71-6374b377fd19"
+        },
+        {
+            "company": "Kalshi",
+            "title": "Institutional Communications",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/7fb2facf-33c8-4bad-b351-cc2b20996934"
+        },
+        {
+            "company": "Kalshi",
+            "title": "State Communications",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/35f9afab-6d39-4d56-b6e5-90c27a5b18ab"
+        },
+        {
+            "company": "Kalshi",
+            "title": "Product Analyst",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/30675a37-75df-4c2d-8641-3c19a9ade9f7"
         },
         {
             "company": "Kalshi",
@@ -416,6 +458,12 @@
         },
         {
             "company": "Kalshi",
+            "title": "Accounting Operations",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/0b8ed946-7643-4696-ae89-24d2c0affd91"
+        },
+        {
+            "company": "Kalshi",
             "title": "Corporate Development",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/03d04c94-cdc5-4edf-89f7-c6c946a81911"
@@ -431,6 +479,12 @@
             "title": "Growth - Perps",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/043e65ba-22cf-447c-92fa-80c6b9750297"
+        },
+        {
+            "company": "Kalshi",
+            "title": "GTA VI Researcher",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/kalshi/7b05ecd1-9db2-4f91-84fd-baa48b594b33"
         },
         {
             "company": "Kalshi",
@@ -470,6 +524,12 @@
         },
         {
             "company": "Kalshi",
+            "title": "Trading Systems Analyst",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/95c9e8d7-493b-4dcf-91b5-02e47732a626"
+        },
+        {
+            "company": "Kalshi",
             "title": "Trading Systems Engineer (Affiliated Trading)",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/2f849e14-a1b8-4fae-b983-67a29407dde0"
@@ -491,12 +551,6 @@
             "title": "Market Operations - Sports",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/4261d62f-dcc4-481d-9f74-efee86665330"
-        },
-        {
-            "company": "Kalshi",
-            "title": "Account Executive / Account Manager, Data Sales at Kalshi",
-            "location": "New York Office",
-            "link": "https://jobs.ashbyhq.com/kalshi/aff3381c-aeef-40a1-a27e-21c88a897057"
         },
         {
             "company": "Kalshi",
@@ -554,6 +608,12 @@
         },
         {
             "company": "Kalshi",
+            "title": "Institutional Sales",
+            "location": "New York Office",
+            "link": "https://jobs.ashbyhq.com/kalshi/2dd9436f-d1c6-4ef8-a9b2-9ca87e715437"
+        },
+        {
+            "company": "Kalshi",
             "title": "Strategic Partner Manager",
             "location": "New York Office",
             "link": "https://jobs.ashbyhq.com/kalshi/803c20da-29aa-4aa9-b9ad-0ee04c3f8dd0"
@@ -572,21 +632,9 @@
         },
         {
             "company": "Cleo",
-            "title": "Head of Treasury",
-            "location": "UK (Hybrid); UK (Remote); US",
-            "link": "https://jobs.ashbyhq.com/cleo-2/e6324ec0-6e76-463d-8e4f-5f6c914bd40c"
-        },
-        {
-            "company": "Cleo",
             "title": "Chief of Staff to the Founder",
             "location": "UK (Hybrid)",
             "link": "https://jobs.ashbyhq.com/cleo-2/11db3815-227d-4b06-bd15-92f23f006dfb"
-        },
-        {
-            "company": "Cleo",
-            "title": "EA to Founder",
-            "location": "UK (Hybrid)",
-            "link": "https://jobs.ashbyhq.com/cleo-2/2b5c38bb-474f-4180-889c-1625c8f35343"
         },
         {
             "company": "Cleo",
@@ -776,12 +824,6 @@
         },
         {
             "company": "ramp.com",
-            "title": "Design Engineer",
-            "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/b68aca53-16c0-4ced-ab1d-e8beb2940b4f"
-        },
-        {
-            "company": "ramp.com",
             "title": "Director, Product Design",
             "location": "New York, NY (HQ)",
             "link": "https://jobs.ashbyhq.com/ramp/78b98c66-af59-4fa8-a5ae-d8af8d737976"
@@ -854,21 +896,27 @@
         },
         {
             "company": "ramp.com",
-            "title": "Security Engineer, Cloud",
-            "location": "New York, NY (HQ); Miami, FL; Remote (Canada); Remote (US)",
-            "link": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245"
+            "title": "Senior Design Systems Engineer",
+            "location": "Remote (US); New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/b7fd55f4-6c5a-42f5-be04-aa09a4d5b7a9"
         },
         {
             "company": "ramp.com",
-            "title": "Security Engineer, Privacy",
-            "location": "New York, NY (HQ); Remote (US); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36"
-        },
-        {
-            "company": "ramp.com",
-            "title": "Security Engineer, Product",
+            "title": "Senior Engineer, Backend, Bill Pay",
             "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/7c26780b-7923-42d5-8111-9825ff996966"
+            "link": "https://jobs.ashbyhq.com/ramp/26855617-1697-4fd2-8c33-a5fb11fc4c77"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Senior Engineer, Backend, Procurement",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/8101bdeb-69ff-4797-838b-7344842b85a4"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Senior Engineer, Backend, Vendor Management",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/415997bf-a1c2-472d-ad54-04bd0d95259b"
         },
         {
             "company": "ramp.com",
@@ -920,21 +968,15 @@
         },
         {
             "company": "ramp.com",
+            "title": "Software Engineer, Backend, Fraud & Identity",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/8fa367de-71ba-409e-befd-175a163acb1b"
+        },
+        {
+            "company": "ramp.com",
             "title": "Software Engineer, Backend, Growth",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/428f41e2-48e8-409d-b5e3-8053f7fc7a27"
-        },
-        {
-            "company": "ramp.com",
-            "title": "Software Engineer, Bill Pay & Procurement",
-            "location": "New York, NY (HQ); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/2a4968ae-220c-471b-b890-a011de570bbb"
-        },
-        {
-            "company": "ramp.com",
-            "title": "Software Engineer, Engineering Platform",
-            "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/198150d6-789a-4ef8-999f-93a49656d4f1"
         },
         {
             "company": "ramp.com",
@@ -950,12 +992,6 @@
         },
         {
             "company": "ramp.com",
-            "title": "Software Engineer, Fraud & Identity",
-            "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/8fa367de-71ba-409e-befd-175a163acb1b"
-        },
-        {
-            "company": "ramp.com",
             "title": "Software Engineer, Frontend",
             "location": "New York, NY (HQ); Miami, FL; Remote (Canada); Remote (US); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/6511d68f-b65d-4499-962f-7e2f75eabe3f"
@@ -965,6 +1001,12 @@
             "title": "Software Engineer, Frontend, Growth",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/7cd46077-05fe-4cd7-816f-5528638342f1"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Software Engineer, Fullstack, Spend Controls",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/6e717b06-6613-42ad-a1ee-f852a305fa37"
         },
         {
             "company": "ramp.com",
@@ -983,6 +1025,24 @@
             "title": "Software Engineer, Production Engineering",
             "location": "New York, NY (HQ); Remote (Canada); Remote (US); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/be496b52-cfbf-494e-b862-61fb4a188b24"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Software Engineer, Security, Cloud",
+            "location": "New York, NY (HQ); Miami, FL; Remote (Canada); Remote (US)",
+            "link": "https://jobs.ashbyhq.com/ramp/34413f8d-26bf-4bbc-8ade-eb309a0e2245"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Software Engineer, Security, Privacy",
+            "location": "New York, NY (HQ); Remote (US); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/95f450a1-0d38-4d58-9aac-9d7e655adc36"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Software Engineer, Security, Product",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/7c26780b-7923-42d5-8111-9825ff996966"
         },
         {
             "company": "ramp.com",
@@ -1058,27 +1118,21 @@
         },
         {
             "company": "ramp.com",
-            "title": "Senior Corporate Paralegal",
-            "location": "New York, NY (HQ); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/314d4881-e8f2-4e61-a102-3469f9566759"
-        },
-        {
-            "company": "ramp.com",
             "title": "Brand Partnerships Manager",
             "location": "New York, NY (HQ); Miami, FL; Remote (US); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/83e5a0bb-c7c4-4118-9526-0215f260bfc2"
         },
         {
             "company": "ramp.com",
-            "title": "Director, Brand Operations",
-            "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/2c101be9-f4b8-4a63-a634-9798d9a09eaa"
+            "title": "Customer Marketing Lead, Strategic Programs",
+            "location": "New York, NY (HQ); Miami, FL; San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/657dedaa-a828-4f4f-ae67-9e976127d907"
         },
         {
             "company": "ramp.com",
-            "title": "Growth Creative Designer, International",
-            "location": "London, UK",
-            "link": "https://jobs.ashbyhq.com/ramp/566c4ad0-03ea-4022-8f11-04f0d8969f97"
+            "title": "Director, Brand Operations",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/2c101be9-f4b8-4a63-a634-9798d9a09eaa"
         },
         {
             "company": "ramp.com",
@@ -1094,7 +1148,7 @@
         },
         {
             "company": "ramp.com",
-            "title": "Senior Product Marketing Manager - New Products",
+            "title": "Product Marketing Manager - General (All Levels)",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/cdc3cb5a-8c6d-4820-86cf-5f9daa2b41fc"
         },
@@ -1131,7 +1185,7 @@
         {
             "company": "ramp.com",
             "title": "Recruiting Coordinator (Fixed Term)",
-            "location": "New York, NY (HQ)",
+            "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/af262319-1c4f-4a36-93bd-ef260cb02aed"
         },
         {
@@ -1169,6 +1223,12 @@
             "title": "Technical Sourcer | Engineering (Contract)",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/e8e96e0c-3780-42ed-8297-1ccfa505cd94"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Product Manager | Bill Pay",
+            "location": "New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/a84ae1e2-8c88-4e05-9cb6-fa3e11b55aeb"
         },
         {
             "company": "ramp.com",
@@ -1220,9 +1280,15 @@
         },
         {
             "company": "ramp.com",
-            "title": "Senior Credit Underwriter | UK",
-            "location": "London, UK",
-            "link": "https://jobs.ashbyhq.com/ramp/397d2098-59c4-4987-9ca9-ec019c37000e"
+            "title": "Risk Operations Specialist, Onboarding",
+            "location": "New York, NY (HQ); Remote (US); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/55bd9ab4-8edc-4493-b577-4277ad2f9ae6"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Risk Strategy Intern",
+            "location": "New York, NY (HQ)",
+            "link": "https://jobs.ashbyhq.com/ramp/b87e898f-8d8b-447d-b3d5-9073ccf7d109"
         },
         {
             "company": "ramp.com",
@@ -1265,6 +1331,12 @@
             "title": "Account Executive | Strategic",
             "location": "San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/707d5f91-bcf7-42b2-a0e6-8130bf13e56b"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Account Executive, Federal",
+            "location": "Washington, D.C.; New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/658e1d19-65ee-4ca7-a087-33ab1f455107"
         },
         {
             "company": "ramp.com",
@@ -1364,18 +1436,6 @@
         },
         {
             "company": "ramp.com",
-            "title": "Customer Activation Manager | AI Spend",
-            "location": "New York, NY (HQ)",
-            "link": "https://jobs.ashbyhq.com/ramp/a0a26a90-7c9a-4a45-a042-ae646911930a"
-        },
-        {
-            "company": "ramp.com",
-            "title": "Customer Activation Manager | Commercial",
-            "location": "New York, NY (HQ); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/a4ecdd59-e379-4841-9bd3-c3f1f86da008"
-        },
-        {
-            "company": "ramp.com",
             "title": "Customer Activation Manager | Enterprise",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/09a9381c-677b-40a5-9ff1-027bd4302c13"
@@ -1388,12 +1448,6 @@
         },
         {
             "company": "ramp.com",
-            "title": "Customer Activation Manager | Scaled",
-            "location": "New York, NY (HQ); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/94d79eed-34db-42c8-b47c-5edef335b7f2"
-        },
-        {
-            "company": "ramp.com",
             "title": "Customer Activation Manager | Stack Accounting",
             "location": "New York, NY (HQ)",
             "link": "https://jobs.ashbyhq.com/ramp/aa0c645d-7aa0-40b0-bdfa-9b3fb19da404"
@@ -1403,6 +1457,36 @@
             "title": "Customer Activation Manager | Strategic Enterprise",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/f330ccd7-59f5-4032-82b0-4448482769e4"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Customer Activation Manager, Commercial",
+            "location": "New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/a4ecdd59-e379-4841-9bd3-c3f1f86da008"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Customer Activation Manager, Public Sector",
+            "location": "San Francisco, CA; Remote (US)",
+            "link": "https://jobs.ashbyhq.com/ramp/574f46a4-42b2-46be-ba5c-de07c5e173c5"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Customer Activation Manager, Scaled",
+            "location": "New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/94d79eed-34db-42c8-b47c-5edef335b7f2"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Customer Success Manager, Enterprise",
+            "location": "New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/4727e0b5-eafa-41ab-89ce-f6a1d19d3f0e"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Customer Success Manager, Mid-Market",
+            "location": "New York, NY (HQ); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/498d0fa0-d6e2-4755-9004-736dcae47d81"
         },
         {
             "company": "ramp.com",
@@ -1502,7 +1586,7 @@
         },
         {
             "company": "ramp.com",
-            "title": "Manager, Scaled Customer Success Strategy & Operations",
+            "title": "Manager, Scaled Customer Activation Strategy & Operations",
             "location": "San Francisco, CA; New York, NY (HQ)",
             "link": "https://jobs.ashbyhq.com/ramp/afe866c3-3725-4416-9e5f-530ed89b295d"
         },
@@ -1610,12 +1694,6 @@
         },
         {
             "company": "ramp.com",
-            "title": "Senior Manager, Account Manager | Mid-Market",
-            "location": "New York, NY (HQ); San Francisco, CA",
-            "link": "https://jobs.ashbyhq.com/ramp/baf0a4d2-e07e-4f76-af85-d85c91f479a4"
-        },
-        {
-            "company": "ramp.com",
             "title": "Senior Manager, Account Manager, Enterprise",
             "location": "New York, NY (HQ); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/96250bac-465c-4524-bc7c-ba0f0b05310f"
@@ -1643,6 +1721,24 @@
             "title": "Solutions Consultant, Enterprise",
             "location": "New York, NY (HQ); Miami, FL; Remote (US); San Francisco, CA",
             "link": "https://jobs.ashbyhq.com/ramp/29b679a8-9990-48c1-b91e-001c566ced27"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Solutions Consultant, Post Sales, Commercial",
+            "location": "Remote (US); Miami, FL; New York, NY (HQ); Remote (Canada); San Francisco, CA; Toronto, ON",
+            "link": "https://jobs.ashbyhq.com/ramp/8ca5c32b-e6c7-47e3-af23-291f122fa0f8"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Solutions Consultant, Post Sales, Enterprise",
+            "location": "Remote (US); Miami, FL; New York, NY (HQ); Remote (Canada); San Francisco, CA; Toronto, ON",
+            "link": "https://jobs.ashbyhq.com/ramp/971abc99-f20b-43f0-91d6-90bcbfa2c8d9"
+        },
+        {
+            "company": "ramp.com",
+            "title": "Solutions Consultant, Post Sales, Mid-Market",
+            "location": "Remote (US); Miami, FL; New York, NY (HQ); Remote (Canada); San Francisco, CA; Toronto, ON",
+            "link": "https://jobs.ashbyhq.com/ramp/492823d8-9651-46cf-9d33-a632ef706879"
         },
         {
             "company": "ramp.com",
@@ -1688,9 +1784,9 @@
         },
         {
             "company": "ramp.com",
-            "title": "Technical Consultant, Strategic, Oracle Cloud",
-            "location": "Remote (US); Miami, FL; New York, NY (HQ); Remote (Canada); San Francisco, CA; Toronto, ON",
-            "link": "https://jobs.ashbyhq.com/ramp/13fe8467-b624-4f30-8aad-af441dfb1797"
+            "title": "Technical Consultant, Strategic",
+            "location": "New York, NY (HQ); Miami, FL; Remote (Canada); Remote (US); San Francisco, CA",
+            "link": "https://jobs.ashbyhq.com/ramp/e45a8b6a-5029-4ca5-ac6f-5af940843c72"
         },
         {
             "company": "ramp.com",
@@ -1760,9 +1856,21 @@
         },
         {
             "company": "atticus.com",
+            "title": "Attorney, New Verticals",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/atticus/96d2ad3b-f577-485e-a4f4-8dcaa407c863"
+        },
+        {
+            "company": "atticus.com",
             "title": "Lead Attorney, Injury",
             "location": "Remote; Los Angeles",
             "link": "https://jobs.ashbyhq.com/atticus/de6b539a-83d0-455a-8f78-89477d104144"
+        },
+        {
+            "company": "atticus.com",
+            "title": "Legal Assistant",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/atticus/39bcaf16-b37c-445a-85ba-154bef468bcb"
         },
         {
             "company": "atticus.com",
@@ -1874,6 +1982,12 @@
         },
         {
             "company": "Augustus",
+            "title": "CFO Associate",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/Augustus/e6effd71-f7cd-490e-aecd-f4ea0bedc037"
+        },
+        {
+            "company": "Augustus",
             "title": "Commercial & Product Counsel",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/Augustus/a3a86e42-88aa-49b7-9ce7-dac880f67d18"
@@ -1898,6 +2012,18 @@
         },
         {
             "company": "Augustus",
+            "title": "Deputy Chief Risk Officer",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/Augustus/177266d0-96e6-4078-a7b9-ef1faf41bc8c"
+        },
+        {
+            "company": "Augustus",
+            "title": "Third Party Risk Manager",
+            "location": "New York City",
+            "link": "https://jobs.ashbyhq.com/Augustus/ce95404a-7d89-44b3-a03d-f39b866fe53e"
+        },
+        {
+            "company": "Augustus",
             "title": "Counterparty/Credit Risk Manager",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/Augustus/83c125fb-85fb-41b2-83d2-528d85a66354"
@@ -1913,12 +2039,6 @@
             "title": "Financial Crimes Analyst",
             "location": "New York City",
             "link": "https://jobs.ashbyhq.com/Augustus/fb6f26dd-dd60-4625-a746-7d2b9ae47534"
-        },
-        {
-            "company": "Augustus",
-            "title": "Third Party Risk Manager",
-            "location": "New York City",
-            "link": "https://jobs.ashbyhq.com/Augustus/ce95404a-7d89-44b3-a03d-f39b866fe53e"
         },
         {
             "company": "momentmarkets",
@@ -2003,12 +2123,6 @@
             "title": "Senior AI Engineer",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/9fin/f19f80c7-fadb-4e77-9087-6ab15a8de8bf"
-        },
-        {
-            "company": "9fin",
-            "title": "Senior AI Engineer - Legal AI",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/9fin/01140ffd-b8fe-4933-8d80-af96c6db5cdf"
         },
         {
             "company": "9fin",
@@ -2102,9 +2216,9 @@
         },
         {
             "company": "9fin",
-            "title": "Director of Product Marketing",
-            "location": "New York",
-            "link": "https://jobs.ashbyhq.com/9fin/ccf3d9ff-38b1-4a71-85f0-bb8879f469a5"
+            "title": "Senior Product Designer",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/fbfb0578-11c7-46bd-b935-33fd1e6db7d0"
         },
         {
             "company": "9fin",
@@ -2115,20 +2229,14 @@
         {
             "company": "9fin",
             "title": "Forward Deployed Investor",
-            "location": "London",
-            "link": "https://jobs.ashbyhq.com/9fin/7dbed4f2-c857-4ec3-b1de-1cf885ae7ee4"
-        },
-        {
-            "company": "9fin",
-            "title": "Forward Deployed Investor",
             "location": "New York",
             "link": "https://jobs.ashbyhq.com/9fin/39f53248-1eb6-47fe-a95a-031073f85c70"
         },
         {
             "company": "9fin",
-            "title": "Senior AI Product Manager",
+            "title": "Forward Deployed Investor",
             "location": "London",
-            "link": "https://jobs.ashbyhq.com/9fin/1d21a527-7d81-412c-9088-e8c358a301e6"
+            "link": "https://jobs.ashbyhq.com/9fin/7dbed4f2-c857-4ec3-b1de-1cf885ae7ee4"
         },
         {
             "company": "9fin",
@@ -2138,15 +2246,21 @@
         },
         {
             "company": "9fin",
-            "title": "Account Executive",
-            "location": "New York",
-            "link": "https://jobs.ashbyhq.com/9fin/5e5808da-1d09-4b05-8d2f-9cc29c88a814"
+            "title": "Senior Product Manager (Platform & Developer Experience)",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/9b631c55-3d7d-4848-9eff-04f5edf2e41c"
         },
         {
             "company": "9fin",
             "title": "Account Executive",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/9fin/33913f63-d531-488b-9c11-648a9e95e3a5"
+        },
+        {
+            "company": "9fin",
+            "title": "Account Executive",
+            "location": "New York",
+            "link": "https://jobs.ashbyhq.com/9fin/5e5808da-1d09-4b05-8d2f-9cc29c88a814"
         },
         {
             "company": "9fin",
@@ -2165,6 +2279,12 @@
             "title": "Head of Strategic Accounts",
             "location": "New York",
             "link": "https://jobs.ashbyhq.com/9fin/f585cf19-142f-4eea-8dc2-d2c312bc4fa4"
+        },
+        {
+            "company": "9fin",
+            "title": "Regional Director, Client Engagement",
+            "location": "London",
+            "link": "https://jobs.ashbyhq.com/9fin/6e285348-5384-4fc2-8176-a36b50e69b4f"
         },
         {
             "company": "9fin",
@@ -2300,12 +2420,6 @@
         },
         {
             "company": "onepay.com",
-            "title": "Quality Platform Engineer",
-            "location": "US (Remote)",
-            "link": "https://jobs.ashbyhq.com/oneapp/946f0192-9c64-4b86-8fbd-5ff107cbf88f"
-        },
-        {
-            "company": "onepay.com",
             "title": "Security and Threat Operations Engineer",
             "location": "US (Remote)",
             "link": "https://jobs.ashbyhq.com/oneapp/39659b3e-4a94-4b17-98e9-fdc94460f8ee"
@@ -2360,15 +2474,15 @@
         },
         {
             "company": "onepay.com",
-            "title": "Corporate Finance",
+            "title": "Business Systems Analyst, Finance Systems & Transformation",
             "location": "US (Remote)",
-            "link": "https://jobs.ashbyhq.com/oneapp/c60a060b-bb45-4891-bdd9-bb9aefcacd51"
+            "link": "https://jobs.ashbyhq.com/oneapp/63ff015b-f3ec-4c2d-a925-9bf23d8d92b5"
         },
         {
             "company": "onepay.com",
-            "title": "Finance Intern",
-            "location": "New York Office",
-            "link": "https://jobs.ashbyhq.com/oneapp/07c0a56b-f130-4055-9ccd-f200883d9a5c"
+            "title": "Corporate Finance",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/c60a060b-bb45-4891-bdd9-bb9aefcacd51"
         },
         {
             "company": "onepay.com",
@@ -2384,15 +2498,15 @@
         },
         {
             "company": "onepay.com",
-            "title": "Legal & Compliance Intern",
-            "location": "New York Office",
-            "link": "https://jobs.ashbyhq.com/oneapp/f641bb45-b779-4a71-a775-9ee8e43bc8c2"
-        },
-        {
-            "company": "onepay.com",
             "title": "AEO/SEO Content Writer",
             "location": "US (Remote)",
             "link": "https://jobs.ashbyhq.com/oneapp/2c4da9b5-30c0-46fd-aae4-2b31f02ee9f4"
+        },
+        {
+            "company": "onepay.com",
+            "title": "Social Search & Experimentation Manager",
+            "location": "US (Remote)",
+            "link": "https://jobs.ashbyhq.com/oneapp/be33ed56-653c-4574-bd2e-6ed010cc437f"
         },
         {
             "company": "onepay.com",
@@ -2402,7 +2516,7 @@
         },
         {
             "company": "onepay.com",
-            "title": "Product Manager, Banking/Cash Advance",
+            "title": "Product Manager, Banking",
             "location": "US (Remote)",
             "link": "https://jobs.ashbyhq.com/oneapp/0ec0993d-bf24-4712-a122-e074f83a1baf"
         },
@@ -2420,39 +2534,9 @@
         },
         {
             "company": "onepay.com",
-            "title": "Product Manager, Payment Split",
-            "location": "US (Remote)",
-            "link": "https://jobs.ashbyhq.com/oneapp/1dac9106-c6b9-4826-9449-06f051b5da00"
-        },
-        {
-            "company": "onepay.com",
-            "title": "Product Manager, Subscriptions",
-            "location": "US (Remote)",
-            "link": "https://jobs.ashbyhq.com/oneapp/9db02c98-6bfe-4d9c-a23f-52e78c7f4cfb"
-        },
-        {
-            "company": "onepay.com",
             "title": "Fraud Strategy - Authentication",
             "location": "US (Remote)",
             "link": "https://jobs.ashbyhq.com/oneapp/16ae2f5a-4bbe-4d92-9395-472c7545de5e"
-        },
-        {
-            "company": "getrecharge.com",
-            "title": "Customer Success Manager",
-            "location": "US & Canada",
-            "link": "https://jobs.ashbyhq.com/recharge/e03f9317-b8c3-4ae2-9edf-ad3ac45ad2e6"
-        },
-        {
-            "company": "getrecharge.com",
-            "title": "Customer Success Manager (Toronto)",
-            "location": "Toronto",
-            "link": "https://jobs.ashbyhq.com/recharge/682a8ec3-e262-4742-b39d-393f2264d34d"
-        },
-        {
-            "company": "getrecharge.com",
-            "title": "Senior Customer Success Manager",
-            "location": "US & Canada",
-            "link": "https://jobs.ashbyhq.com/recharge/166afa05-baf0-4fb2-b0e3-9877646e2dc7"
         },
         {
             "company": "getrecharge.com",
@@ -2522,6 +2606,12 @@
         },
         {
             "company": "rillet.com",
+            "title": "Staff Software Engineer, Revenue & Billing",
+            "location": "San Francisco",
+            "link": "https://jobs.ashbyhq.com/rillet/f731c59e-bba1-4328-9b4a-d7dce3b10e2f"
+        },
+        {
+            "company": "rillet.com",
             "title": "Applied AI Engineer",
             "location": "San Francisco; New York City",
             "link": "https://jobs.ashbyhq.com/rillet/fa5a733f-84aa-41af-8b4d-0b5be16d1e64"
@@ -2582,9 +2672,9 @@
         },
         {
             "company": "rillet.com",
-            "title": "Brand Designer",
-            "location": "New York City",
-            "link": "https://jobs.ashbyhq.com/rillet/fa6c2625-1e3d-4707-9efd-786f89aa5984"
+            "title": "Director, Demand Generation",
+            "location": "San Francisco; New York City",
+            "link": "https://jobs.ashbyhq.com/rillet/20272c4d-c623-48b5-96ce-aff8deddebb0"
         },
         {
             "company": "rillet.com",
@@ -2648,6 +2738,12 @@
         },
         {
             "company": "rillet.com",
+            "title": "Solution Consulting Manager",
+            "location": "Remote",
+            "link": "https://jobs.ashbyhq.com/rillet/f5fac07f-a10b-4447-ada0-15d858278f4b"
+        },
+        {
+            "company": "rillet.com",
             "title": "Solutions Consultant",
             "location": "Remote; Chicago; New York City; San Francisco",
             "link": "https://jobs.ashbyhq.com/rillet/fe9df85a-6494-47de-9a3f-d6686488ceaf"
@@ -2678,12 +2774,6 @@
         },
         {
             "company": "rillet.com",
-            "title": "Lead HR Business Partner",
-            "location": "San Francisco",
-            "link": "https://jobs.ashbyhq.com/rillet/7cd42080-b64a-4410-801e-7861be4a8a7a"
-        },
-        {
-            "company": "rillet.com",
             "title": "GTM Recruiter",
             "location": "New York City; San Francisco",
             "link": "https://jobs.ashbyhq.com/rillet/d6b20982-0ae6-453a-8b81-36897280ad81"
@@ -2711,6 +2801,150 @@
             "title": "Product Manager",
             "location": "San Francisco",
             "link": "https://jobs.ashbyhq.com/rillet/a182464e-76c1-4f0b-af78-76ba8a611281"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Baseload Originator",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/a7f84ce9-ffc3-4ae5-b8b2-88039dee5701"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Partner Account Manager",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/62f03ec0-edbd-49ca-8023-d70b67584d8b"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Sales Manager - Buy Side",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/1d9249fc-5125-413c-abf4-de3f0da38845"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Data Engineer",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/9d3b99f8-8b01-4bd9-99e0-a037aadc0b2e"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Staff Machine Learning Engineer - ML Platform",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/e96a753b-1002-411f-aa61-f38540e6b530"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Staff Machine Learning Engineer - Pricing",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/7a447b12-48df-4113-96fa-0fe479c8033f"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Data Analyst",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/a025fb07-7f68-4172-9d6f-0c650c31aefc"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Machine Learning Engineer - Pricing",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/0a7d63ec-7839-4e27-8667-3fca942a4e00"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Creative Lead",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/57b6a1a5-06e6-495b-b5f6-44df0c423178"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Backend Engineer - Pricing",
+            "location": "Europe; UK",
+            "link": "https://jobs.ashbyhq.com/tem/1dbe845c-a1ec-4005-92c6-44dec63b2e44"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Staff Engineer - Agentic",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/f4d4fad4-532f-4a99-b39e-02d5cc7d4c14"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Staff Engineer - Payments",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/ab5e67c4-170f-4068-96d0-81a1cf728bd9"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Senior Staff Full Stack Engineer - Sell Side",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/30faab11-ba78-42bc-8e0a-6e7315b3f538"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Backend Engineer - Pricing",
+            "location": "Europe; UK",
+            "link": "https://jobs.ashbyhq.com/tem/374debf0-9651-49bb-88e2-7cf16cd352cf"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Full Stack Engineer - Buy-Side Growth",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/dfbd9711-af85-4dfa-a50a-f08ea9eb738b"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Full Stack Engineer - Sell Side",
+            "location": "Europe; UK",
+            "link": "https://jobs.ashbyhq.com/tem/41749b32-a8eb-41d3-b57a-5689925e9b70"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff QA Automation Engineer",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/3a06f371-9731-4f2c-96e0-f5664ed13b54"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Tech Lead - Payments and Billing",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/0716c0e0-a4ae-4c6c-9d5e-ca9aa1b3076f"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Portfolio Risk and Treasury Manager",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/bceba575-3ec2-4df4-805d-aa278625da08"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Campaign Manager",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/df267b27-dd61-4e06-8ff9-f9f5aa6d7057"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Growth Lead - Sell Side",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/6ee9acf0-80ef-4dbd-8657-b6260df8f1b5"
+        },
+        {
+            "company": "tem.energy",
+            "title": "GTM Product Marketing Lead",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/98ab1a3d-9ee3-4de0-9010-6cef5cb84760"
+        },
+        {
+            "company": "tem.energy",
+            "title": "People Operations Partner",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/324f8b84-c086-4922-a6b9-8585c2bdabb7"
+        },
+        {
+            "company": "tem.energy",
+            "title": "Staff Product Manager - Rosso",
+            "location": "UK",
+            "link": "https://jobs.ashbyhq.com/tem/6be75144-8335-475b-a7c3-2e9ca68ae48f"
         }
     ]
 }
