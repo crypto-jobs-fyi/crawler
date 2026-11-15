@@ -2891,8 +2891,8 @@
         },
         {
             "name": "moneybox",
-            "jobs_url": "https://jobs.lever.co/moneyboxapp",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/moneybox",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.moneyboxapp.com",
             "category": "fintech",
             "enabled": true,
