@@ -1,4 +1,4 @@
-from src.playwright_adapter import By
+from src.playwright_adapter import By, PlaywrightWait
 from src.scrape_it import ScrapeIt
 import time
 from src.logging_utils import get_logger
@@ -35,17 +35,42 @@ def get_jobs(page, company):
 
 class ScrapeGreenhouse(ScrapeIt):
     name = 'GREENHOUSE'
+    _next_page_selector = '//button[@aria-label="Next page" and @aria-disabled="false"]'
+    _max_pages = 25
 
-    def has_next_page(self, page):
-        next_page = page.find_elements(By.XPATH, '//button[@aria-label="Next page" and @aria-disabled="false"]')
-        if len(next_page) > 0:
-            self.log_info(
-                "Pagination next",
-                company=self.name,
+    @staticmethod
+    def _page_signature(page):
+        return page.execute_script(
+            """
+            return Array.from(document.querySelectorAll('div [class="job-post"]'))
+              .map((card) => card.querySelector('a')?.href || '')
+              .filter(Boolean)
+              .join('|');
+            """
+        )
+
+    def has_next_page(self, page, company=None):
+        next_page = page.find_elements(By.XPATH, self._next_page_selector)
+        if not next_page:
+            return False
+
+        previous_signature = self._page_signature(page)
+        self.log_info("Pagination next", company=company or self.name)
+        page.execute_script("arguments[0].click();", next_page[0])
+        try:
+            PlaywrightWait(page, 20).until(
+                lambda current_page: (
+                    (signature := self._page_signature(current_page))
+                    and signature != previous_signature
+                )
             )
-            page.execute_script("arguments[0].click();", next_page[0])
-            time.sleep(3)
-        return len(next_page) > 0
+        except TimeoutError:
+            self.log_warning(
+                "Pagination did not load a new Greenhouse job page",
+                company=company or self.name,
+            )
+            return False
+        return True
 
     def getJobs(self, page, web_page, company: str) -> list:
         self.log_info(
@@ -67,13 +92,27 @@ class ScrapeGreenhouse(ScrapeIt):
             time.sleep(3)
             page.switch_to.frame(iframe[0])
             time.sleep(5)
-        result = get_jobs(page, company)
-        while self.has_next_page(page):
+        result = []
+        pages_scraped = 0
+        while pages_scraped < self._max_pages:
             result += get_jobs(page, company)
+            pages_scraped += 1
+            if pages_scraped == self._max_pages:
+                if page.find_elements(By.XPATH, self._next_page_selector):
+                    self.log_warning(
+                        "Greenhouse page limit reached; more jobs may be available",
+                        company=company,
+                        web_page=web_page,
+                        pages_scraped=pages_scraped,
+                    )
+                break
+            if not self.has_next_page(page, company):
+                break
         self.log_info(
             "Scrape summary",
             company=company,
             web_page=web_page,
             jobs_scraped=len(result),
+            pages_scraped=pages_scraped,
         )
         return result
