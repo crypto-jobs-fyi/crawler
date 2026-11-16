@@ -3088,6 +3088,15 @@
             "headless": true
         },
         {
+            "name": "hims-and-hers",
+            "jobs_url": "https://jobs.ashbyhq.com/hims-and-hers",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.hims.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "snaplogic",
             "jobs_url": "https://jobs.lever.co/snaplogic",
             "scraper": "LEVER",
