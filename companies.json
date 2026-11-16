@@ -2944,6 +2944,15 @@
             "headless": true
         },
         {
+            "name": "xtb",
+            "jobs_url": "https://jobs.eu.lever.co/xtb",
+            "scraper": "LEVER",
+            "company_url": "https://www.xtb.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "addepar",
             "jobs_url": "https://job-boards.greenhouse.io/addepar1",
             "scraper": "GREENHOUSE",
