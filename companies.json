@@ -613,15 +613,6 @@
             "headless": true
         },
         {
-            "name": "connext-network",
-            "jobs_url": "https://jobs.lever.co/connext-network",
-            "scraper": "LEVER",
-            "company_url": "https://www.connext.network",
-            "category": "crypto",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "ethenalabs",
             "jobs_url": "https://careers.ethena.fi/jobs",
             "scraper": "ETHENA_LABS",
