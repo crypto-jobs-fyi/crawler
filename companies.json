@@ -560,10 +560,10 @@
         },
         {
             "name": "wyndlabs",
-            "jobs_url": "https://boards.greenhouse.io/wyndlabs",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/wynd-labs",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.wyndlabs.ai",
-            "category": "crypto",
+            "category": "ai",
             "enabled": true,
             "headless": true
         },
