@@ -3098,8 +3098,8 @@
         },
         {
             "name": "runpod",
-            "jobs_url": "https://job-boards.greenhouse.io/runpod",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://jobs.ashbyhq.com/runpod",
+            "scraper": "ASHBYHQ",
             "company_url": "https://runpod.io",
             "category": "tech",
             "enabled": true,
@@ -3143,8 +3143,8 @@
         },
         {
             "name": "frontify",
-            "jobs_url": "https://jobs.lever.co/frontify",
-            "scraper": "LEVER",
+            "jobs_url": "https://jobs.ashbyhq.com/frontify",
+            "scraper": "ASHBYHQ",
             "company_url": "https://www.frontify.com",
             "category": "tech",
             "enabled": true,
