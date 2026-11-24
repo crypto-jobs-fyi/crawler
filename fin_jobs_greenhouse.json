@@ -80,12 +80,6 @@
         },
         {
             "company": "drw.com",
-            "title": "Senior Software Engineer (Options)",
-            "location": "Chicago",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8223295"
-        },
-        {
-            "company": "drw.com",
             "title": "Quantitative AI Strategist",
             "location": "New York",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/7701691"
@@ -284,6 +278,12 @@
         },
         {
             "company": "drw.com",
+            "title": "Senior Software Engineer (Options)",
+            "location": "Chicago",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8223295"
+        },
+        {
+            "company": "drw.com",
             "title": "Senior Software Engineer, Trading Platform, C++",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/7976003"
@@ -398,8 +398,8 @@
         },
         {
             "company": "drw.com",
-            "title": "Senior Software Engineer, Treasury and Reference Data (Java/Ruby/Python)",
-            "location": "Chicago",
+            "title": "Senior Software Engineer, Treasury (Java/Ruby/Python)",
+            "location": "Chicago, New York",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/8095481"
         },
         {
@@ -422,12 +422,6 @@
         },
         {
             "company": "drw.com",
-            "title": "Fundamental Researcher - Compute Markets",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8260867"
-        },
-        {
-            "company": "drw.com",
             "title": "AML Officer - NA & Carribean",
             "location": "Chicago, New York",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/8174847"
@@ -437,6 +431,18 @@
             "title": "Surveillance Analyst",
             "location": "Chicago, Greenwich, New York",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/8313342"
+        },
+        {
+            "company": "drw.com",
+            "title": "Fundamental Researcher - Compute Markets",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8260867"
+        },
+        {
+            "company": "drw.com",
+            "title": "Quant Researcher - Compute Markets",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/7996648"
         },
         {
             "company": "drw.com",
@@ -464,12 +470,6 @@
         },
         {
             "company": "drw.com",
-            "title": "Corporate Actions Associate",
-            "location": "Chicago",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8204565"
-        },
-        {
-            "company": "drw.com",
             "title": "Senior HR Technology Analyst",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/8367450"
@@ -482,7 +482,7 @@
         },
         {
             "company": "drw.com",
-            "title": "University Talent Acquisition AnalystNew",
+            "title": "University Talent Acquisition Analyst",
             "location": "Chicago",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/8394092"
         },
@@ -497,30 +497,6 @@
             "title": "Crypto Business Development Manager",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/7835658"
-        },
-        {
-            "company": "drw.com",
-            "title": "Equity Index Options TraderNew",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8392316"
-        },
-        {
-            "company": "drw.com",
-            "title": "Equity Trader",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8223253"
-        },
-        {
-            "company": "drw.com",
-            "title": "Senior Software Engineer - FICC Options Execution (Crypto)",
-            "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8359461"
-        },
-        {
-            "company": "drw.com",
-            "title": "Trader",
-            "location": "Chicago",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/8302917"
         },
         {
             "company": "drw.com",
@@ -692,15 +668,27 @@
         },
         {
             "company": "drw.com",
-            "title": "Macro Analyst - Event Driven",
+            "title": "Equity Index Options TraderNew",
             "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/7480652"
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8392316"
         },
         {
             "company": "drw.com",
             "title": "Equity Dispersion Trader",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/drweng/jobs/7912433"
+        },
+        {
+            "company": "drw.com",
+            "title": "Equity Trader",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8223253"
+        },
+        {
+            "company": "drw.com",
+            "title": "Trader",
+            "location": "Chicago",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8302917"
         },
         {
             "company": "drw.com",
@@ -747,14 +735,20 @@
         {
             "company": "drw.com",
             "title": "Research Engineer (Options)",
-            "location": "Chicago",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/7377915"
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/7377981"
         },
         {
             "company": "drw.com",
-            "title": "Research Engineer (Options)",
+            "title": "Research Engineer (Options)New",
+            "location": "Chicago",
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8414528"
+        },
+        {
+            "company": "drw.com",
+            "title": "Senior Software Engineer - FICC Options Execution (Crypto)",
             "location": "London",
-            "link": "https://job-boards.greenhouse.io/drweng/jobs/7377981"
+            "link": "https://job-boards.greenhouse.io/drweng/jobs/8359461"
         },
         {
             "company": "drw.com",
@@ -944,12 +938,6 @@
         },
         {
             "company": "Bridgewater Associates",
-            "title": "Client Investment Research Analyst, Investor Relations Team",
-            "location": "New York City",
-            "link": "https://job-boards.greenhouse.io/bridgewater89/jobs/8937950002"
-        },
-        {
-            "company": "Bridgewater Associates",
             "title": "Creative Designer",
             "location": "New York City",
             "link": "https://job-boards.greenhouse.io/bridgewater89/jobs/8906496002"
@@ -1064,7 +1052,7 @@
         },
         {
             "company": "imc.com",
-            "title": "Senior Tax ManagerNew",
+            "title": "Senior Tax Manager",
             "location": "Sydney, Australia",
             "link": "https://job-boards.eu.greenhouse.io/imc/jobs/5028059101"
         },
@@ -1115,6 +1103,12 @@
             "title": "Trading Recruiter\u00a0",
             "location": "Amsterdam, Netherlands",
             "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4814983101"
+        },
+        {
+            "company": "imc.com",
+            "title": "AML/KYC Officer - Digital Assets",
+            "location": "Zug, Switzerland",
+            "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4895334101"
         },
         {
             "company": "imc.com",
@@ -1418,12 +1412,6 @@
         },
         {
             "company": "imc.com",
-            "title": "Software Engineer - Risk Technology",
-            "location": "Chicago, US",
-            "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4908708101"
-        },
-        {
-            "company": "imc.com",
             "title": "Working Student - Tech",
             "location": "Aarhus, Central Denmark Region, Denmark",
             "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4685421101"
@@ -1541,6 +1529,12 @@
             "title": "Network Engineer",
             "location": "Mumbai, India",
             "link": "https://job-boards.eu.greenhouse.io/imc/jobs/5012013101"
+        },
+        {
+            "company": "imc.com",
+            "title": "Network Engineer - ExecutionNew",
+            "location": "Chicago, US",
+            "link": "https://job-boards.eu.greenhouse.io/imc/jobs/5045048101"
         },
         {
             "company": "imc.com",
@@ -1880,7 +1874,7 @@
         },
         {
             "company": "imc.com",
-            "title": "2027 ANZ Chess Academy Interest FormNew",
+            "title": "2027 ANZ Chess Academy Interest Form",
             "location": "Sydney, Australia",
             "link": "https://job-boards.eu.greenhouse.io/imc/jobs/5036428101"
         },
@@ -1988,6 +1982,12 @@
         },
         {
             "company": "flex",
+            "title": "Senior Director, Strategy & OperationsNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4757757005"
+        },
+        {
+            "company": "flex",
             "title": "Senior Manager, Strategy & Operations (Consumer Protection Team)",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4747374005"
@@ -2012,7 +2012,7 @@
         },
         {
             "company": "flex",
-            "title": "Commercial CommercialNew",
+            "title": "Commercial Commercial",
             "location": "New York, NY; Salt Lake City, UT; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4754816005"
         },
@@ -2042,13 +2042,13 @@
         },
         {
             "company": "flex",
-            "title": "Senior Manager Testing & MonitoringNew",
+            "title": "Senior Manager Testing & Monitoring",
             "location": "New York, NY; Salt Lake City, UT; San Francisco, CA",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4754468005"
         },
         {
             "company": "flex",
-            "title": "Executive AssistantNew",
+            "title": "Executive Assistant",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4755060005"
         },
@@ -2060,7 +2060,13 @@
         },
         {
             "company": "flex",
-            "title": "Principal Product Manager, PaymentsNew",
+            "title": "Principal Product Manager, BillsNew",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4757963005"
+        },
+        {
+            "company": "flex",
+            "title": "Principal Product Manager, Payments",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4754523005"
         },
@@ -2072,13 +2078,7 @@
         },
         {
             "company": "flex",
-            "title": "Director, Account Management",
-            "location": "New York, NY; Salt Lake City, UT; San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/flex/jobs/4751633005"
-        },
-        {
-            "company": "flex",
-            "title": "Sales Development Representative INew",
+            "title": "Sales Development Representative I",
             "location": "Salt Lake City, UT",
             "link": "https://job-boards.greenhouse.io/flex/jobs/4754618005"
         },
@@ -2120,9 +2120,9 @@
         },
         {
             "company": "flex",
-            "title": "Vice President, Business Development & Strategic Partnerships",
-            "location": "New York, NY; San Francisco, CA",
-            "link": "https://job-boards.greenhouse.io/flex/jobs/4681915005"
+            "title": "Senior Strategic Account ManagerNew",
+            "location": "USA",
+            "link": "https://job-boards.greenhouse.io/flex/jobs/4758115005"
         },
         {
             "company": "flex",
@@ -2144,6 +2144,12 @@
         },
         {
             "company": "affirm",
+            "title": "Internal Auditor I (2027 Early Career Program)New",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8206173003"
+        },
+        {
+            "company": "affirm",
             "title": "Senior Manager, Narrative Intelligence",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8043259003"
@@ -2159,6 +2165,12 @@
             "title": "Senior Manager, Policy & Communications Campaigns",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8045293003"
+        },
+        {
+            "company": "affirm",
+            "title": "Capital Markets Specialist I (2027 Early Career Program)New",
+            "location": "New York, New York, US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8205833003"
         },
         {
             "company": "affirm",
@@ -2270,27 +2282,21 @@
         },
         {
             "company": "affirm",
-            "title": "Manager, Software Engineering (Identity)",
-            "location": "Remote UK",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8012584003"
-        },
-        {
-            "company": "affirm",
             "title": "Senior Machine Learning Engineer (Fraud)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/7806920003"
         },
         {
             "company": "affirm",
-            "title": "Senior Software Engineer, Back-end (Fraud)",
-            "location": "Remote Spain",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7806679003"
+            "title": "Senior Software Engineer, Back-end (Fraud)New",
+            "location": "Remote Poland",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8201459003"
         },
         {
             "company": "affirm",
-            "title": "Senior Software Engineer, Back-end (Fraud)",
-            "location": "Remote Poland",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7806681003"
+            "title": "Senior Software Engineer, Back-end, (Fraud)New",
+            "location": "Remote Spain",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8213907003"
         },
         {
             "company": "affirm",
@@ -2546,18 +2552,6 @@
         },
         {
             "company": "affirm",
-            "title": "Staff Software Engineer, Backend (Search)",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8005406003"
-        },
-        {
-            "company": "affirm",
-            "title": "Staff Software Engineer, Backend (Search)",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8005408003"
-        },
-        {
-            "company": "affirm",
             "title": "Staff Software Engineer, Fullstack (Card Experiences)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8040271003"
@@ -2606,24 +2600,6 @@
         },
         {
             "company": "affirm",
-            "title": "Senior Software Engineer, Fullstack (International)",
-            "location": "Remote UK",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7827039003"
-        },
-        {
-            "company": "affirm",
-            "title": "Senior Software Engineer, Fullstack (International)",
-            "location": "Remote Spain",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8200178003"
-        },
-        {
-            "company": "affirm",
-            "title": "Senior Software Engineer, Fullstack (International)",
-            "location": "Remote Poland",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8200180003"
-        },
-        {
-            "company": "affirm",
             "title": "Senior Software Engineer, Fullstack (Repayments UX)",
             "location": "Remote Poland",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8040378003"
@@ -2669,24 +2645,6 @@
             "title": "Software Engineer II, Fullstack (Contact Channels)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8042371003"
-        },
-        {
-            "company": "affirm",
-            "title": "Software Engineer II, Fullstack (International)",
-            "location": "Remote UK",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7854835003"
-        },
-        {
-            "company": "affirm",
-            "title": "Software Engineer II, Fullstack (International)",
-            "location": "Remote Poland",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8202545003"
-        },
-        {
-            "company": "affirm",
-            "title": "Software Engineer II, Fullstack (International)",
-            "location": "Remote Spain",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8202548003"
         },
         {
             "company": "affirm",
@@ -2739,14 +2697,14 @@
         {
             "company": "affirm",
             "title": "Lead, Technical Account Management (SMB Merchants)",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7849657003"
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7849659003"
         },
         {
             "company": "affirm",
             "title": "Lead, Technical Account Management (SMB Merchants)",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/7849659003"
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/7849657003"
         },
         {
             "company": "affirm",
@@ -2756,13 +2714,13 @@
         },
         {
             "company": "affirm",
-            "title": "Manager, Software Engineering (Code Standards)New",
+            "title": "Manager, Software Engineering (Code Standards)",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8197742003"
         },
         {
             "company": "affirm",
-            "title": "Manager, Software Engineering (Code Standards)New",
+            "title": "Manager, Software Engineering (Code Standards)",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8197744003"
         },
@@ -2978,6 +2936,12 @@
         },
         {
             "company": "affirm",
+            "title": "Technical Account Manager INew",
+            "location": "Remote Canada",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8206243003"
+        },
+        {
+            "company": "affirm",
             "title": "Accounting Manager",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8161169003"
@@ -2987,12 +2951,6 @@
             "title": "Affirm Bank Strategic Finance LeadNew",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8202709003"
-        },
-        {
-            "company": "affirm",
-            "title": "Analytics Lead, Deposit Fraud Risk",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8004096003"
         },
         {
             "company": "affirm",
@@ -3116,6 +3074,18 @@
         },
         {
             "company": "affirm",
+            "title": "Senior Counsel MarketingNew",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8207048003"
+        },
+        {
+            "company": "affirm",
+            "title": "Licensing Lead",
+            "location": "Remote US",
+            "link": "https://job-boards.greenhouse.io/affirm/jobs/8195963003"
+        },
+        {
+            "company": "affirm",
             "title": "Partner Marketing Lead",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8038925003"
@@ -3194,12 +3164,6 @@
         },
         {
             "company": "affirm",
-            "title": "Product Support Specialist I (Merchant Care)",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8013700003"
-        },
-        {
-            "company": "affirm",
             "title": "Operations Enablement Lead",
             "location": "Remote US",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/7860703003"
@@ -3233,18 +3197,6 @@
             "title": "Senior Manager, Programs - Global Expansion and New Initiatives",
             "location": "Remote Canada",
             "link": "https://job-boards.greenhouse.io/affirm/jobs/8001623003"
-        },
-        {
-            "company": "affirm",
-            "title": "Leadership Development Manager",
-            "location": "Remote US",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8043921003"
-        },
-        {
-            "company": "affirm",
-            "title": "Leadership Development Manager",
-            "location": "Remote Canada",
-            "link": "https://job-boards.greenhouse.io/affirm/jobs/8043923003"
         },
         {
             "company": "affirm",
@@ -3488,12 +3440,6 @@
         },
         {
             "company": "addepar",
-            "title": "Senior Product Marketing Manager",
-            "location": "London, UK",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8827908002"
-        },
-        {
-            "company": "addepar",
             "title": "Ecosystem Marketing Manager",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8594227002"
@@ -3533,12 +3479,6 @@
             "title": "Data Projects Analyst",
             "location": "Edinburgh, UK",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8802892002"
-        },
-        {
-            "company": "addepar",
-            "title": "Portfolio Data Operations Analyst",
-            "location": "Poland",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8511171002"
         },
         {
             "company": "addepar",
@@ -3728,9 +3668,9 @@
         },
         {
             "company": "addepar",
-            "title": "Portfolio Data Analyst Intern - Summer 2027",
+            "title": "Sr. Full-Stack Software Engineer - Feed & Workflow Intelligence (EDI)New",
             "location": "Edinburgh, UK",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8910310002"
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8951128002"
         },
         {
             "company": "addepar",
@@ -3752,12 +3692,6 @@
         },
         {
             "company": "addepar",
-            "title": "Sr. Software Engineer, Identity Management & Authentication",
-            "location": "Poland",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8709076002"
-        },
-        {
-            "company": "addepar",
             "title": "Sr. Software Engineer - Reference Data",
             "location": "Edinburgh, UK",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8682653002"
@@ -3770,15 +3704,27 @@
         },
         {
             "company": "addepar",
-            "title": "Staff Infrastructure EngineerNew",
+            "title": "Staff Infrastructure Engineer",
             "location": "Poland",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8895825002"
+        },
+        {
+            "company": "addepar",
+            "title": "Staff Software Engineer - Developer Experience",
+            "location": "New York, NY; Remote, USA",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8918935002"
         },
         {
             "company": "addepar",
             "title": "Staff Software Engineer - Files Platform",
             "location": "Remote, USA",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8853147002"
+        },
+        {
+            "company": "addepar",
+            "title": "Staff Software Engineer - PrecomputeNew",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8937793002"
         },
         {
             "company": "addepar",
@@ -3842,6 +3788,12 @@
         },
         {
             "company": "addepar",
+            "title": "Portfolio Data Analyst Intern - Summer 2027",
+            "location": "Edinburgh, UK",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8910310002"
+        },
+        {
+            "company": "addepar",
             "title": "Product Design Intern - Summer 2027",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8927595002"
@@ -3857,6 +3809,12 @@
             "title": "Software Engineering Intern - Summer 2027",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8927531002"
+        },
+        {
+            "company": "addepar",
+            "title": "Technical Product Management Intern (ADX) - Summer 2027",
+            "location": "New York, NY",
+            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8910324002"
         },
         {
             "company": "addepar",
@@ -3911,12 +3869,6 @@
             "title": "Sr. Product Manager - Trading",
             "location": "Pune, India",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8852930002"
-        },
-        {
-            "company": "addepar",
-            "title": "Technical Product Management Intern (ADX) - Summer 2027 New",
-            "location": "New York, NY",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8910324002"
         },
         {
             "company": "addepar",
@@ -4054,12 +4006,6 @@
             "company": "addepar",
             "title": "Data Client Support Analyst",
             "location": "Pune, India",
-            "link": "https://job-boards.greenhouse.io/addepar1/jobs/8680328002"
-        },
-        {
-            "company": "addepar",
-            "title": "Data Client Support Analyst",
-            "location": "Pune, India",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8852963002"
         },
         {
@@ -4166,7 +4112,7 @@
         },
         {
             "company": "addepar",
-            "title": "Sr. Enterprise Solutions ConsultantNew",
+            "title": "Sr. Enterprise Solutions Consultant",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/addepar1/jobs/8938450002"
         },
@@ -4190,13 +4136,31 @@
         },
         {
             "company": "capitalontap",
+            "title": "Customer Service Advisor - DaysNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8956193002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Customer Service Advisor - Midnights TeamNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8956681002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Customer Service Advisor - WeekendsNew",
+            "location": "Cardiff",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8956655002"
+        },
+        {
+            "company": "capitalontap",
             "title": "Tax Manager",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8936047002"
         },
         {
             "company": "capitalontap",
-            "title": "US FinCrime AnalystNew",
+            "title": "US FinCrime Analyst",
             "location": "New York",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8936143002"
         },
@@ -4328,21 +4292,15 @@
         },
         {
             "company": "capitalontap",
-            "title": "Product Operations ManagerNew",
+            "title": "Product Operations Manager",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8944354002"
         },
         {
             "company": "capitalontap",
-            "title": "Senior Product Operations AssociateNew",
+            "title": "Senior Product Operations Associate",
             "location": "London",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8944342002"
-        },
-        {
-            "company": "capitalontap",
-            "title": "Business Development Manager",
-            "location": "Remote",
-            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8931541002"
         },
         {
             "company": "capitalontap",
@@ -4367,6 +4325,12 @@
             "title": "Junior Business Development ManagerNew",
             "location": "Brighton",
             "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8923213002"
+        },
+        {
+            "company": "capitalontap",
+            "title": "Sales AnalystNew",
+            "location": "London",
+            "link": "https://job-boards.greenhouse.io/capitalontap/jobs/8958302002"
         },
         {
             "company": "clearstreet",
@@ -4496,12 +4460,6 @@
         },
         {
             "company": "clearstreet",
-            "title": "Associate - Tax Operations",
-            "location": "New York, NY",
-            "link": "https://job-boards.greenhouse.io/clearstreet/jobs/8249141"
-        },
-        {
-            "company": "clearstreet",
             "title": "Associate Counsel, Commercial Retail",
             "location": "New York, NY",
             "link": "https://job-boards.greenhouse.io/clearstreet/jobs/8256730"
@@ -4532,7 +4490,7 @@
         },
         {
             "company": "clearstreet",
-            "title": "Prime Brokerage and Clearing Risk Manager New",
+            "title": "Prime Brokerage and Clearing Risk Manager",
             "location": "Chicago, IL",
             "link": "https://job-boards.greenhouse.io/clearstreet/jobs/8385859"
         },
@@ -4583,6 +4541,12 @@
             "title": "Advisor Marketing Senior Manager",
             "location": "US",
             "link": "https://job-boards.greenhouse.io/smartasset/jobs/8659747002"
+        },
+        {
+            "company": "earnin",
+            "title": "Staff Analytics EngineerNew",
+            "location": "Vancouver, Canada",
+            "link": "https://job-boards.greenhouse.io/earnin/jobs/8404449"
         },
         {
             "company": "earnin",
