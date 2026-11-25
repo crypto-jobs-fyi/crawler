@@ -36,6 +36,7 @@ from src.scrape_fireblocks import ScrapeFireblocks
 from src.scrape_radical_ai import ScrapeRadicalAI
 from src.scrape_workato import ScrapeWorkato
 from src.scrape_oxylabs import ScrapeOxylabs
+from src.scrape_fundamental_labs import ScrapeFundamentalLabs
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -74,3 +75,4 @@ class Scrapers:
     RADICAL_AI = ScrapeRadicalAI
     WORKATO = ScrapeWorkato
     OXYLABS = ScrapeOxylabs
+    FUNDAMENTAL_LABS = ScrapeFundamentalLabs

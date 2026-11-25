@@ -2387,8 +2387,8 @@
         },
         {
             "name": "FundamentalLabs",
-            "jobs_url": "https://jobs.ashbyhq.com/fundamentalresearchlabs",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://fundamentalresearchlabs.com/careers",
+            "scraper": "FUNDAMENTAL_LABS",
             "company_url": "https://fundamentalresearchlabs.com",
             "category": "ai",
             "enabled": true,
