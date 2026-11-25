@@ -2450,8 +2450,8 @@
         },
         {
             "name": "browserbase",
-            "jobs_url": "https://jobs.ashbyhq.com/browserbase",
-            "scraper": "ASHBYHQ",
+            "jobs_url": "https://job-boards.greenhouse.io/browserbaseinc",
+            "scraper": "GREENHOUSE",
             "company_url": "https://browserbase.com",
             "category": "ai",
             "enabled": true,
