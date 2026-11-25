@@ -4,14 +4,23 @@ import time
 from src.logging_utils import get_logger
 
 module_logger = get_logger(__name__)
+JOB_POST_SELECTOR = 'div [class="job-post"], tr.job-post'
 
 
 def clean_location(location):
     location = location.replace('United States', 'US').replace('United Kingdom', 'UK').replace('United Arab Emirates', 'UAE').replace('Tel Aviv-Yafo, Tel Aviv District', 'Tel Aviv').replace('Hong Kong, Hong Kong SAR', 'Hong Kong')
     return location.strip().strip('-')
 
+
+def find_greenhouse_iframe(page):
+    for iframe in page.find_elements(By.TAG_NAME, 'iframe'):
+        if 'greenhouse.io' in (iframe.get_attribute('src') or ''):
+            return iframe
+    return None
+
+
 def get_jobs(page, company):
-    group_elements = page.find_elements(By.CSS_SELECTOR, 'div [class="job-post"]')
+    group_elements = page.find_elements(By.CSS_SELECTOR, JOB_POST_SELECTOR)
     result = []
     module_logger.info(
         "Greenhouse jobs found",
@@ -42,7 +51,7 @@ class ScrapeGreenhouse(ScrapeIt):
     def _page_signature(page):
         return page.execute_script(
             """
-            return Array.from(document.querySelectorAll('div [class="job-post"]'))
+            return Array.from(document.querySelectorAll('div [class="job-post"], tr.job-post'))
               .map((card) => card.querySelector('a')?.href || '')
               .filter(Boolean)
               .join('|');
@@ -82,16 +91,26 @@ class ScrapeGreenhouse(ScrapeIt):
         page.get(web_page)
         if company.lower() in ['bitcoin', 'okx']:
             time.sleep(5)
-        iframe = page.find_elements(By.TAG_NAME, 'iframe')
-        if len(iframe) > 0:
+        PlaywrightWait(page, 20).until(
+            lambda current_page: (
+                current_page.find_elements(By.CSS_SELECTOR, JOB_POST_SELECTOR)
+                or find_greenhouse_iframe(current_page)
+            )
+        )
+        iframe = find_greenhouse_iframe(page)
+        if iframe is not None:
             self.log_info(
                 "Iframe detected",
                 company=company,
                 web_page=web_page,
             )
-            time.sleep(3)
-            page.switch_to.frame(iframe[0])
-            time.sleep(5)
+            page.switch_to.frame(iframe)
+        PlaywrightWait(page, 20).until(
+            lambda current_page: current_page.find_elements(
+                By.CSS_SELECTOR,
+                JOB_POST_SELECTOR,
+            )
+        )
         result = []
         pages_scraped = 0
         while pages_scraped < self._max_pages:
