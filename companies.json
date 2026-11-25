@@ -3070,6 +3070,15 @@
             "headless": true
         },
         {
+            "name": "skydio",
+            "jobs_url": "https://jobs.ashbyhq.com/skydio",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://www.skydio.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "snaplogic",
             "jobs_url": "https://jobs.lever.co/snaplogic",
             "scraper": "LEVER",
