@@ -38,6 +38,7 @@ from src.scrape_workato import ScrapeWorkato
 from src.scrape_oxylabs import ScrapeOxylabs
 from src.scrape_fundamental_labs import ScrapeFundamentalLabs
 from src.scrape_hightouch import ScrapeHightouch
+from src.scrape_rentec import ScrapeRentec
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -78,3 +79,4 @@ class Scrapers:
     OXYLABS = ScrapeOxylabs
     FUNDAMENTAL_LABS = ScrapeFundamentalLabs
     HIGHTOUCH = ScrapeHightouch
+    RENTEC = ScrapeRentec

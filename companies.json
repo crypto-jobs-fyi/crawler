@@ -2584,6 +2584,15 @@
             "headless": true
         },
         {
+            "name": "Renaissance Tech",
+            "jobs_url": "https://www.rentec.com/Careers.action?jobs=true",
+            "scraper": "RENTEC",
+            "company_url": "https://www.rentec.com",
+            "category": "fintech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "you.com",
             "jobs_url": "https://job-boards.greenhouse.io/youcom",
             "scraper": "GREENHOUSE",
