@@ -35,6 +35,7 @@ from src.scrape_ethena_labs import ScrapeEthenaLabs
 from src.scrape_fireblocks import ScrapeFireblocks
 from src.scrape_radical_ai import ScrapeRadicalAI
 from src.scrape_workato import ScrapeWorkato
+from src.scrape_oxylabs import ScrapeOxylabs
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -72,3 +73,4 @@ class Scrapers:
     FIREBLOCKS = ScrapeFireblocks
     RADICAL_AI = ScrapeRadicalAI
     WORKATO = ScrapeWorkato
+    OXYLABS = ScrapeOxylabs

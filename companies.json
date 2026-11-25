@@ -2441,8 +2441,8 @@
         },
         {
             "name": "oxylabs",
-            "jobs_url": "https://jobs.lever.co/oxylabs",
-            "scraper": "LEVER",
+            "jobs_url": "https://career.oxylabs.io/#jobs",
+            "scraper": "OXYLABS",
             "company_url": "https://www.oxylabs.io",
             "category": "ai",
             "enabled": true,
