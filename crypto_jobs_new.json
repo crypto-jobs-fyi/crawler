@@ -20,7 +20,13 @@
         },
         {
             "company": "fireblocks",
-            "title": "Sales Engineer",
+            "title": "Sales Director",
+            "location": "New York",
+            "link": "https://www.fireblocks.com/careers/positions/4701706006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "Sales Engineer, Banking",
             "location": "Singapore",
             "link": "https://www.fireblocks.com/careers/positions/4727541006"
         },
@@ -37,6 +43,48 @@
             "link": "https://www.fireblocks.com/careers/positions/4725485006"
         },
         {
+            "company": "fireblocks",
+            "title": "SecOps Expert",
+            "location": "New York",
+            "link": "https://www.fireblocks.com/careers/positions/4352196006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "Information Security Engineer",
+            "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+            "link": "https://www.fireblocks.com/careers/positions/4701826006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "Security Operations Team Lead",
+            "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+            "link": "https://www.fireblocks.com/careers/positions/4655907006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "SecOps Expert",
+            "location": "Singapore",
+            "link": "https://www.fireblocks.com/careers/positions/4681268006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "GRC Operations Specialist",
+            "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+            "link": "https://www.fireblocks.com/careers/positions/4620939006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "Director, Security Engineering",
+            "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+            "link": "https://www.fireblocks.com/careers/positions/4713010006"
+        },
+        {
+            "company": "fireblocks",
+            "title": "AI Security Engineer",
+            "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+            "link": "https://www.fireblocks.com/careers/positions/4713012006"
+        },
+        {
             "company": "circle",
             "title": "VP, Agentic Partnerships & GTM",
             "location": "US",
@@ -44,9 +92,39 @@
         },
         {
             "company": "circle",
+            "title": "Senior Software Engineer, Arc",
+            "location": "undefined:\nTaiwan",
+            "link": "https://careers.circle.com/us/en/job/JR100793/Senior-Software-Engineer-Arc"
+        },
+        {
+            "company": "circle",
+            "title": "Business Development Manager, DeFi Liquidity",
+            "location": "undefined:\nSingapore",
+            "link": "https://careers.circle.com/us/en/job/JR101216/Business-Development-Manager-DeFi-Liquidity"
+        },
+        {
+            "company": "circle",
             "title": "Principal AI & HR Systems Partner",
             "location": "US",
             "link": "https://careers.circle.com/us/en/job/JR101218/Principal-AI-HR-Systems-Partner"
+        },
+        {
+            "company": "circle",
+            "title": "Senior Software Engineer, Payments",
+            "location": "undefined:\nIndia",
+            "link": "https://careers.circle.com/us/en/job/JR101222/Senior-Software-Engineer-Payments"
+        },
+        {
+            "company": "binance",
+            "title": "AI Engineer \uff08internal tool)",
+            "location": "Hong Kong; Singapore",
+            "link": "https://www.binance.com/en/careers/job?id=5041060101"
+        },
+        {
+            "company": "binance",
+            "title": "Senior Infrastructure Security Engineer(DevSecOps) - APAC Remote",
+            "location": "Australia; Hong Kong; Malaysia; New Zealand; Singapore; Taiwan",
+            "link": "https://www.binance.com/en/careers/job?id=5041041101"
         },
         {
             "company": "binance",
@@ -56,15 +134,27 @@
         },
         {
             "company": "binance",
-            "title": "VIP & Institutional Product Manager",
-            "location": "APAC; Hong Kong",
-            "link": "https://www.binance.com/en/careers/job?id=5029375101"
+            "title": "AI Security Engineer (APAC Remote)",
+            "location": "Hong Kong; Singapore; Taiwan",
+            "link": "https://www.binance.com/en/careers/job?id=5030531101"
+        },
+        {
+            "company": "binance",
+            "title": "Chief Information Security Officer - Japan",
+            "location": "Japan",
+            "link": "https://www.binance.com/en/careers/job?id=5030535101"
         },
         {
             "company": "binance",
             "title": "Android Engineer (APAC Remote)",
             "location": "Hong Kong",
             "link": "https://www.binance.com/en/careers/job?id=5036439101"
+        },
+        {
+            "company": "binance",
+            "title": "Recommendation Engine & Audio Backend Engineer (Golang) (APAC Remote)",
+            "location": "Hong Kong; Singapore; Taiwan",
+            "link": "https://www.binance.com/en/careers/job?id=5021408101"
         },
         {
             "company": "binance",
@@ -104,6 +194,18 @@
         },
         {
             "company": "binance",
+            "title": "PR & Communications Manager (Turkey)",
+            "location": "Turkey",
+            "link": "https://www.binance.com/en/careers/job?id=5044155101"
+        },
+        {
+            "company": "binance",
+            "title": "Control Monitoring & Testing (CMAT) Analyst - 1 Year Contractor",
+            "location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+            "link": "https://www.binance.com/en/careers/job?id=5029235101"
+        },
+        {
+            "company": "binance",
             "title": "Binance Accelerator Program - Growth Operations (BigPay)",
             "location": "Hong Kong; Malaysia; Singapore; Taiwan",
             "link": "https://www.binance.com/en/careers/job?id=5033076101"
@@ -122,9 +224,9 @@
         },
         {
             "company": "binance",
-            "title": "Chief Information Security Officer - Japan",
-            "location": "Japan",
-            "link": "https://www.binance.com/en/careers/job?id=5030535101"
+            "title": "Case Investigation Specialist - 1yr contract",
+            "location": "United Arab Emirates",
+            "link": "https://www.binance.com/en/careers/job?id=5033032101"
         },
         {
             "company": "binance",
@@ -137,24 +239,6 @@
             "title": "Head of Remediation - ANZ - Fixed Term contract",
             "location": "Australia",
             "link": "https://www.binance.com/en/careers/job?id=5028150101"
-        },
-        {
-            "company": "binance",
-            "title": "DevOps Engineer, Blockchain Infra (Fully Remote)",
-            "location": "Australia; Europe; Hong Kong; Malaysia; Singapore; Taiwan; United Arab Emirates; United Kingdom",
-            "link": "https://www.binance.com/en/careers/job?id=5002663101"
-        },
-        {
-            "company": "binance",
-            "title": "Senior Infrastructure Security Engineer(DevSecOps) - APAC Remote",
-            "location": "Australia; Hong Kong; Malaysia; New Zealand; Singapore; Taiwan",
-            "link": "https://www.binance.com/en/careers/job?id=5041041101"
-        },
-        {
-            "company": "binance",
-            "title": "Finance Systems Analyst (6 month contractor)",
-            "location": "Hong Kong; Malaysia; Singapore; Taiwan",
-            "link": "https://www.binance.com/en/careers/job?id=5040861101"
         },
         {
             "company": "binance",
@@ -194,6 +278,12 @@
         },
         {
             "company": "binance",
+            "title": "Product Manager, AI Agent & Harness",
+            "location": "Hong Kong; Singapore",
+            "link": "https://www.binance.com/en/careers/job?id=5025842101"
+        },
+        {
+            "company": "binance",
             "title": "Risk Operations Agent (AMER, US Timezone) - 8-months Contract",
             "location": "Argentina; Costa Rica; Mexico",
             "link": "https://www.binance.com/en/careers/job?id=5036391101"
@@ -211,10 +301,10 @@
             "link": "https://www.binance.com/en/careers/job?id=5040021101"
         },
         {
-            "company": "ethenalabs",
-            "title": "Head of Marketing",
-            "location": "Fully Remote",
-            "link": "https://careers.ethena.fi/jobs/8764242-head-of-marketing"
+            "company": "Swissquote",
+            "title": "Operations Officer \u2013 Payments and Transfers",
+            "location": "Luxembourg",
+            "link": "https://jobs.smartrecruiters.com/Swissquote/744000163399099-operations-officer-payments-and-transfers"
         },
         {
             "company": "Swissquote",
@@ -225,8 +315,20 @@
         {
             "company": "Swissquote",
             "title": "Quality Control & Remediations Manager",
-            "location": "Switzerland Z\u00fcrich",
+            "location": "Z\u00fcrich Switzerland",
             "link": "https://jobs.smartrecruiters.com/Swissquote/744000162767529-quality-control-remediations-manager"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Security Engineer, Incident Response",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8240458/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Software Engineer",
+            "location": "Toronto, Canada",
+            "link": "https://ripple.com/careers/all-jobs/job/8405899/"
         },
         {
             "company": "ripple",
@@ -236,9 +338,21 @@
         },
         {
             "company": "ripple",
-            "title": "Staff Software Engineer",
+            "title": "Staff Software Engineer (Multiple Positions)",
             "location": "Miami, FL, US",
             "link": "https://ripple.com/careers/all-jobs/job/8407049/"
+        },
+        {
+            "company": "ripple",
+            "title": "Product Operations Specialist",
+            "location": "Singapore",
+            "link": "https://ripple.com/careers/all-jobs/job/8393086/"
+        },
+        {
+            "company": "ripple",
+            "title": "Senior Legal Counsel",
+            "location": "New York, NY, US",
+            "link": "https://ripple.com/careers/all-jobs/job/8406726/"
         },
         {
             "company": "ripple",
@@ -251,12 +365,6 @@
             "title": "Senior Manager, HR Business Partner, Sales & Prime Brokerage",
             "location": "New York, NY, US",
             "link": "https://ripple.com/careers/all-jobs/job/8396624/"
-        },
-        {
-            "company": "ripple",
-            "title": "Lead Business Recruiter",
-            "location": "New York, NY, US",
-            "link": "https://ripple.com/careers/all-jobs/job/8381695/"
         },
         {
             "company": "ripple",
@@ -278,13 +386,19 @@
         },
         {
             "company": "BitcoinSuisse",
+            "title": "Platform Manager Trading & Lending Systems\nAbu Dhabi | Full-time employee\nDetails",
+            "location": "Abu Dhabi | Full-time employee",
+            "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/pukg0j91u64lsuwqe85y9v8f0nwph6j"
+        },
+        {
+            "company": "BitcoinSuisse",
             "title": "Chief Compliance Officer - Liechtenstein\nVaduz | Full-time employee\nDetails",
             "location": "Vaduz | Full-time employee",
             "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/tim3abu6zwloxmrk7p1229pjupdf854"
         },
         {
             "company": "BitcoinSuisse",
-            "title": "Senior Software Engineer Trading\nBratislava | Full-time employee\nDetails",
+            "title": "Senior Developer - Digital Wealth & Brokerage\nBratislava | Full-time employee\nDetails",
             "location": "Bratislava | Full-time employee",
             "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/sgeicxl9k474r9e1lmb9dtuhyt4dc29"
         },
@@ -319,6 +433,12 @@
             "link": "https://bitcoin-suisse.onlyfy.jobs/en/job/91i0gvffqweqs2nz7pigncxsq28kdp2"
         },
         {
+            "company": "worldcoin",
+            "title": "People Operations Manager",
+            "location": "San Francisco",
+            "link": "https://world.org/job/f5f82811-a5ac-4f9d-9120-dee38ccc41b1"
+        },
+        {
             "company": "robinhood",
             "title": "Crypto Compliance Senior Lead",
             "location": "Denver, CO; Menlo Park, CA; New York, NY; Westlake, TX",
@@ -338,15 +458,15 @@
         },
         {
             "company": "robinhood",
-            "title": "Senior Software Developer, Kubernetes Compute",
-            "location": "Toronto, Canada",
-            "link": "https://boards.greenhouse.io/robinhood/jobs/7871254?gh_src=NaN&gh_jid=7871254"
-        },
-        {
-            "company": "robinhood",
             "title": "Events Marketing Manager",
             "location": "Menlo Park, CA; New York, NY",
             "link": "https://boards.greenhouse.io/robinhood/jobs/8400286?gh_src=NaN&gh_jid=8400286"
+        },
+        {
+            "company": "robinhood",
+            "title": "Marketing Program Manager",
+            "location": "New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8400293?gh_src=NaN&gh_jid=8400293"
         },
         {
             "company": "robinhood",
@@ -374,8 +494,14 @@
         },
         {
             "company": "robinhood",
+            "title": "Senior Product Manager, Brokerage Platform",
+            "location": "Chicago, IL; Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/8346658?gh_src=NaN&gh_jid=8346658"
+        },
+        {
+            "company": "robinhood",
             "title": "Staff Product Manager, AI",
-            "location": "Menlo Park, CA",
+            "location": "Bellevue, WA; Menlo Park, CA",
             "link": "https://boards.greenhouse.io/robinhood/jobs/8241579?gh_src=NaN&gh_jid=8241579"
         },
         {
@@ -389,6 +515,12 @@
             "title": "Senior Client Platform Engineer",
             "location": "Menlo Park, CA",
             "link": "https://boards.greenhouse.io/robinhood/jobs/8354333?gh_src=NaN&gh_jid=8354333"
+        },
+        {
+            "company": "robinhood",
+            "title": "Senior Full Stack Engineer, Credit Cards & Banking",
+            "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
+            "link": "https://boards.greenhouse.io/robinhood/jobs/7950769?gh_src=NaN&gh_jid=7950769"
         },
         {
             "company": "robinhood",
@@ -488,6 +620,12 @@
         },
         {
             "company": "coinbase",
+            "title": "Executive Assistant",
+            "location": "Remote - USA",
+            "link": "https://www.coinbase.com/careers/positions/8412539"
+        },
+        {
+            "company": "coinbase",
             "title": "Institutional Sales Manager, Hedge Funds",
             "location": "Remote - USA",
             "link": "https://www.coinbase.com/careers/positions/8311332"
@@ -535,6 +673,18 @@
             "link": "https://jobs.lever.co/moonpay/9b550d84-65ec-48c8-bfa4-e64eaaf0eca4"
         },
         {
+            "company": "moonpay",
+            "title": "Software Engineer, Agents",
+            "location": "US - REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/moonpay/6e864b20-6e5b-4918-b0b5-a7ec5a3e65ca"
+        },
+        {
+            "company": "moonpay",
+            "title": "Staff Engineer, Agents",
+            "location": "US - REMOTE,REMOTE",
+            "link": "https://jobs.lever.co/moonpay/1891b692-26f1-4bc0-81df-74e753b1e3a3"
+        },
+        {
             "company": "coinspaid",
             "title": "Travel and Event Coordinator",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
@@ -545,6 +695,12 @@
             "title": "Senior Golang Engineer",
             "location": "REMOTE - EUROPEAN REGION,HYBRID",
             "link": "https://jobs.eu.lever.co/coinspaid/5804732d-5bee-49dc-9039-757db1352321"
+        },
+        {
+            "company": "coinspaid",
+            "title": "Senior Legal Counsel (Technology & AI)",
+            "location": "REMOTE - EUROPEAN REGION,HYBRID",
+            "link": "https://jobs.eu.lever.co/coinspaid/2f32cf00-27fd-4e9e-ac77-6930f24f5439"
         },
         {
             "company": "coinspaid",
@@ -575,6 +731,12 @@
             "title": "Cybersecurity Intern",
             "location": "LAUSANNE,ON-SITE",
             "link": "https://jobs.lever.co/swissborg/00a8d5ba-8822-46d9-9581-c7a387c925bb"
+        },
+        {
+            "company": "crypto",
+            "title": "Senior Director of Communications \u2013 Americas",
+            "location": "US,HYBRID",
+            "link": "https://jobs.lever.co/crypto/82779647-b426-4018-beb9-4d33657637ac"
         },
         {
             "company": "crypto",
@@ -620,6 +782,12 @@
         },
         {
             "company": "crypto",
+            "title": "U.S. Financial Controller",
+            "location": "CHICAGO,IL,HYBRID",
+            "link": "https://jobs.lever.co/crypto/6fd7116b-ee7e-401c-9b22-4f0ddbc2747a"
+        },
+        {
+            "company": "crypto",
             "title": "Regulatory Affairs Manager (EEA)",
             "location": "MALTA / SAINT JULIAN'S, MALTA / VALLETTA,HYBRID",
             "link": "https://jobs.lever.co/crypto/71fd9b65-656b-4b82-96ae-ca71008ddec4"
@@ -635,6 +803,12 @@
             "title": "Recruiter",
             "location": "SAN FRANCISCO / CHICAGO,IL,HYBRID",
             "link": "https://jobs.lever.co/crypto/534f6d2f-f865-4048-9d2b-436aac8376dd"
+        },
+        {
+            "company": "crypto",
+            "title": "Administrative Associate (Finance & Treasury Team Support)",
+            "location": "HONG KONG,HYBRID",
+            "link": "https://jobs.lever.co/crypto/045ee728-2cfe-4e32-84fc-059c3fbb67a0"
         },
         {
             "company": "crypto",
@@ -656,7 +830,7 @@
         },
         {
             "company": "crypto",
-            "title": "Director, Digital Trust and Resilience",
+            "title": "[Security Governance] Director, Digital Trust and Resilience",
             "location": "SEOUL,HYBRID",
             "link": "https://jobs.lever.co/crypto/ba7c8355-8d3b-4c4b-bd8d-c1a5db5c89e0"
         },
@@ -679,6 +853,12 @@
             "link": "https://jobs.lever.co/1inch/6d94cd07-e9e6-4230-a107-25fe4f3a5c9b"
         },
         {
+            "company": "iftother",
+            "title": "Register your interest: future rolesNew",
+            "location": "Remote (Worldwide)",
+            "link": "https://job-boards.greenhouse.io/iftother/jobs/8411082"
+        },
+        {
             "company": "figure",
             "title": "Portfolio & Investment Operations Manager",
             "location": "Remote; Reno, NV; Charlotte, NC; Dallas, TX; San Francisco, CA",
@@ -686,9 +866,27 @@
         },
         {
             "company": "figure",
+            "title": "Contract Recruiter (3+ months)New",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8956184002"
+        },
+        {
+            "company": "figure",
             "title": "Team ManagerNew",
             "location": "Dallas, TX",
             "link": "https://job-boards.greenhouse.io/figure/jobs/8951011002"
+        },
+        {
+            "company": "figure",
+            "title": "Team ManagerNew",
+            "location": "Reno, NV",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8951015002"
+        },
+        {
+            "company": "figure",
+            "title": "UnderwriterNew",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8940597002"
         },
         {
             "company": "figure",
@@ -701,6 +899,18 @@
             "title": "Borrower AdvocateNew",
             "location": "Remote",
             "link": "https://job-boards.greenhouse.io/figure/jobs/8934107002"
+        },
+        {
+            "company": "figure",
+            "title": "Servicing Operations SpecialistNew",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8955918002"
+        },
+        {
+            "company": "figure",
+            "title": "Channel Account Executive",
+            "location": "New York (Hybrid)",
+            "link": "https://job-boards.greenhouse.io/figure/jobs/8872914002"
         },
         {
             "company": "figure",
@@ -728,7 +938,7 @@
         },
         {
             "company": "blockchain",
-            "title": "Travel Rule Compliance AssociateNew",
+            "title": "Travel Rule Compliance Associate",
             "location": "Buenos Aires",
             "link": "https://job-boards.greenhouse.io/blockchain/jobs/8392680"
         },
@@ -764,19 +974,25 @@
         },
         {
             "company": "OKX",
-            "title": "Senior/Staff Engineer, Core InfrastructureNew",
+            "title": "Senior/Staff Engineer, Core Infrastructure",
             "location": "Hong Kong; Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8204648003"
         },
         {
             "company": "OKX",
-            "title": "Staff Engineer, Machine Learning & Data InfrastructureNew",
+            "title": "Senior/Staff Engineer, Data Governance",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7535733003"
+        },
+        {
+            "company": "OKX",
+            "title": "Staff Engineer, Machine Learning & Data Infrastructure",
             "location": "APAC; Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8206913003"
         },
         {
             "company": "OKX",
-            "title": "Staff / Senior Engineer - Compliance, AccountNew",
+            "title": "Staff / Senior Engineer - Compliance, Account",
             "location": "Hong Kong; Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8204703003"
         },
@@ -788,7 +1004,25 @@
         },
         {
             "company": "OKX",
-            "title": "Senior Compliance Lead, Compliance & EthicsNew",
+            "title": "Senior Product Manager, Risk Intelligence Product",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6588964003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Product Manager - Risk Platform",
+            "location": "Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/6498663003"
+        },
+        {
+            "company": "OKX",
+            "title": "Structured Products TraderNew",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/8213863003"
+        },
+        {
+            "company": "OKX",
+            "title": "Senior Compliance Lead, Compliance & Ethics",
             "location": "US (US)",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8206155003"
         },
@@ -800,9 +1034,21 @@
         },
         {
             "company": "OKX",
-            "title": "Product Director - Finance / Governance Risk Compliance Domain New",
+            "title": "Product Director - Finance / Governance Risk Compliance Domain",
             "location": "Hong Kong; Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8204646003"
+        },
+        {
+            "company": "OKX",
+            "title": "Global Tax Business PartnerNew",
+            "location": "Hong Kong; Singapore, Singapore",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/8215100003"
+        },
+        {
+            "company": "OKX",
+            "title": "Operations & Control SpecialistNew",
+            "location": "Hong Kong",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/8214672003"
         },
         {
             "company": "OKX",
@@ -818,6 +1064,12 @@
         },
         {
             "company": "OKX",
+            "title": "Senior Business Development Manager (Romania)",
+            "location": "Bucharest, Bucharest, Romania",
+            "link": "https://job-boards.greenhouse.io/okx/jobs/7805822003"
+        },
+        {
+            "company": "OKX",
             "title": "Senior Business Operations Manager, OKX SGNew",
             "location": "Singapore, Singapore",
             "link": "https://job-boards.greenhouse.io/okx/jobs/8209040003"
@@ -830,7 +1082,7 @@
         },
         {
             "company": "bitgo",
-            "title": "Associate, Customer Success Manager New",
+            "title": "Associate, Customer Success Manager",
             "location": "New York, US",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/8938218002"
         },
@@ -848,7 +1100,7 @@
         },
         {
             "company": "bitgo",
-            "title": "Recruitment Coordinator - Intern (6 Months)New",
+            "title": "Recruitment Coordinator - Intern (6 Months)",
             "location": "India",
             "link": "https://job-boards.greenhouse.io/bitgo/jobs/8944293002"
         },
@@ -866,19 +1118,25 @@
         },
         {
             "company": "bybit",
-            "title": "AI Product ManagerNew",
+            "title": "AI Agent Architecttags.new",
+            "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
+            "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5047220101"
+        },
+        {
+            "company": "bybit",
+            "title": "AI Product Manager",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/4958451101"
         },
         {
             "company": "bybit",
-            "title": "AI Strategy EngineerNew",
+            "title": "AI Strategy Engineer",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/4987105101"
         },
         {
             "company": "bybit",
-            "title": "AMLO - MiCARNew",
+            "title": "AMLO New",
             "location": "Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5035471101"
         },
@@ -902,19 +1160,13 @@
         },
         {
             "company": "bybit",
-            "title": "Compliance Officer/MLRONew",
+            "title": "Compliance Officer/MLRO",
             "location": "Pakistan - Remote",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5039766101"
         },
         {
             "company": "bybit",
-            "title": "Data Analyst Lead New",
-            "location": "Abu Dhabi, UAE",
-            "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5013475101"
-        },
-        {
-            "company": "bybit",
-            "title": "Database Development EngineerNew",
+            "title": "Database Development Engineer",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/4948701101"
         },
@@ -938,7 +1190,7 @@
         },
         {
             "company": "bybit",
-            "title": "Lead Backend Development EngineerNew",
+            "title": "Lead Backend Development Engineer",
             "location": "Abu Dhabi, UAE",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5027374101"
         },
@@ -950,43 +1202,55 @@
         },
         {
             "company": "bybit",
-            "title": "Principal Backend Development EngineerNew",
+            "title": "Payment BD ManagerNew",
+            "location": "Vienna, Austria",
+            "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016234101"
+        },
+        {
+            "company": "bybit",
+            "title": "Principal Backend Development Engineer",
             "location": "Abu Dhabi, UAE",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5034314101"
         },
         {
             "company": "bybit",
-            "title": "Principal Backend Development EngineerNew",
+            "title": "Principal Backend Development Engineer",
             "location": "Abu Dhabi, UAE; Hong Kong SAR; Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5026150101"
         },
         {
             "company": "bybit",
-            "title": "Principal Database Development EngineerNew",
+            "title": "Principal Database Development Engineer",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5015355101"
         },
         {
             "company": "bybit",
-            "title": "Principal DevOps EngineerNew",
+            "title": "Principal DevOps Engineer",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5008561101"
         },
         {
             "company": "bybit",
-            "title": "Principal DevOps Engineer (Cloud Network)New",
+            "title": "Principal DevOps Engineer (Cloud Network)",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5001784101"
         },
         {
             "company": "bybit",
-            "title": "Principal SRE Engineer New",
+            "title": "Principal Frontend EngineerNew",
+            "location": "Abu Dhabi, UAE",
+            "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5044371101"
+        },
+        {
+            "company": "bybit",
+            "title": "Principal SRE Engineer",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/4948669101"
         },
         {
             "company": "bybit",
-            "title": "Project Management ExpertNew",
+            "title": "Project Management Expert",
             "location": "Kuala Lumpur, Malaysia",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/4944123101"
         },
@@ -998,19 +1262,19 @@
         },
         {
             "company": "bybit",
-            "title": "Security Compliance EngineerNew",
+            "title": "Security Compliance Engineer",
             "location": "Dubai, UAE",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5019120101"
         },
         {
             "company": "bybit",
-            "title": "Security Management EngineerNew",
+            "title": "Security Management Engineer",
             "location": "Dubai, UAE",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5019129101"
         },
         {
             "company": "bybit",
-            "title": "Security Operations EngineerNew",
+            "title": "Security Operations Engineer",
             "location": "Dubai, UAE",
             "link": "https://job-boards.eu.greenhouse.io/bybit/jobs/5019167101"
         },
@@ -1034,25 +1298,37 @@
         },
         {
             "company": "bitpanda",
-            "title": "Senior Engineer, GolangNew",
+            "title": "Senior Engineer, Golang",
             "location": "Bucure\u0219ti, Bucharest, Romania",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4979476101"
         },
         {
             "company": "bitpanda",
-            "title": "Senior Software Engineer, Java New",
+            "title": "Senior Product ManagerNew",
+            "location": "Bucure\u0219ti, Bucharest, Romania",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5047561101"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Product ManagerNew",
+            "location": "Barcelona, Spain",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5047568101"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Software Engineer, Java",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5039100101"
         },
         {
             "company": "bitpanda",
-            "title": "Software Engineer, GolangNew",
+            "title": "Software Engineer, Golang",
             "location": "Bucure\u0219ti, Bucharest, Romania",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5036928101"
         },
         {
             "company": "bitpanda",
-            "title": "Software Engineer, Java New",
+            "title": "Software Engineer, Java",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/4963196101"
         },
@@ -1076,25 +1352,25 @@
         },
         {
             "company": "bitpanda",
-            "title": "Senior Specialist, Business Operations (Crypto)New",
+            "title": "Senior Manager - Global Markets OperationsNew",
+            "location": "Dubai, UAE",
+            "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5043362101"
+        },
+        {
+            "company": "bitpanda",
+            "title": "Senior Specialist, Business Operations (Crypto)",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5036740101"
         },
         {
             "company": "bitpanda",
-            "title": "Senior Specialist, Business Operations (Fusion)New",
+            "title": "Senior Specialist, Business Operations (Fusion)",
             "location": "Vienna, Vienna, Austria",
             "link": "https://job-boards.eu.greenhouse.io/bitpanda/jobs/5036744101"
         },
         {
             "company": "galaxydigital",
-            "title": "Analyst, Client Services & Operations",
-            "location": "New York, NY",
-            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6223511004"
-        },
-        {
-            "company": "galaxydigital",
-            "title": "2027 Environmental Health & Safety Engineer Intern-Afton Texas New",
+            "title": "2027 Environmental Health & Safety Engineer Intern-Afton Texas",
             "location": "Afton, Texas",
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6262681004"
         },
@@ -1129,10 +1405,52 @@
             "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6266798004"
         },
         {
+            "company": "galaxydigital",
+            "title": "Associate, Vendor Management & Procurement SpecialistNew",
+            "location": "India",
+            "link": "https://job-boards.greenhouse.io/galaxydigitalservices/jobs/6268371004"
+        },
+        {
+            "company": "brave",
+            "title": "Software Development Intern - Waterloo University - Web3 CoreNew",
+            "location": "Canada",
+            "link": "https://job-boards.greenhouse.io/brave/jobs/8412532"
+        },
+        {
+            "company": "brave",
+            "title": "Systems Build Intern - Waterloo University year 4+ onlyNew",
+            "location": "Canada",
+            "link": "https://job-boards.greenhouse.io/brave/jobs/8412598"
+        },
+        {
             "company": "ondo-finance",
-            "title": "Legal CounselNew",
+            "title": "Private Client Relationship LeadNew",
+            "location": "APAC",
+            "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4518537009"
+        },
+        {
+            "company": "ondo-finance",
+            "title": "Senior Onboarding AssociateNew",
+            "location": "APAC",
+            "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4518536009"
+        },
+        {
+            "company": "ondo-finance",
+            "title": "Senior Product Designer, Consumer MobileNew",
+            "location": "Remote",
+            "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4520498009"
+        },
+        {
+            "company": "ondo-finance",
+            "title": "Legal Counsel",
             "location": "Remote, US",
             "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4508819009"
+        },
+        {
+            "company": "ondo-finance",
+            "title": "Data ScientistNew",
+            "location": "Remote (US)",
+            "link": "https://job-boards.greenhouse.io/ondofinance/jobs/4520365009"
         },
         {
             "company": "ondo-finance",
@@ -1148,13 +1466,13 @@
         },
         {
             "company": "bvnk",
-            "title": "Account Manager - EMEANew",
+            "title": "Account Manager - EMEA",
             "location": "London / Malta / Barcelona",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5039554101"
         },
         {
             "company": "bvnk",
-            "title": "Customer Success Manager - EUNew",
+            "title": "Customer Success Manager - EU",
             "location": "Cape Town / London",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5039557101"
         },
@@ -1166,9 +1484,21 @@
         },
         {
             "company": "bvnk",
+            "title": "Senior Financial ControllerNew",
+            "location": "South Africa",
+            "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5044596101"
+        },
+        {
+            "company": "bvnk",
             "title": "Treasury Operations Analyst",
             "location": "Malta",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5025877101"
+        },
+        {
+            "company": "bvnk",
+            "title": "Governance & Reporting ManagerNew",
+            "location": "South Africa",
+            "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5047296101"
         },
         {
             "company": "bvnk",
@@ -1178,7 +1508,7 @@
         },
         {
             "company": "bvnk",
-            "title": "Senior Product Manager - CollectionsNew",
+            "title": "Senior Product Manager - Collections",
             "location": "London",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5036629101"
         },
@@ -1196,21 +1526,45 @@
         },
         {
             "company": "bvnk",
-            "title": "Senior Software Engineer (Backend): Fiat - CollectionsNew",
+            "title": "Senior Software Engineer (Backend): Fiat - Collections",
             "location": "Bulgaria, South Africa, Poland, Spain",
             "link": "https://job-boards.eu.greenhouse.io/bvnk/jobs/5035964101"
         },
         {
+            "company": "meshpay",
+            "title": "Solutions Engineer",
+            "location": "US - Remote",
+            "link": "https://job-boards.greenhouse.io/mesh/jobs/5308969008"
+        },
+        {
+            "company": "meshpay",
+            "title": "Software Development Engineer in TestNew",
+            "location": "Europe",
+            "link": "https://job-boards.greenhouse.io/mesh/jobs/5480572008"
+        },
+        {
             "company": "gsrmarkets",
-            "title": "Information Security LeadNew",
+            "title": "Information Security Leadtags.new",
             "location": "London",
             "link": "https://job-boards.eu.greenhouse.io/gsrmarkets/jobs/5017672101"
         },
         {
             "company": "gsrmarkets",
-            "title": "SRE Team LeadNew",
+            "title": "SRE Team Leadtags.new",
             "location": "London",
             "link": "https://job-boards.eu.greenhouse.io/gsrmarkets/jobs/5043209101"
+        },
+        {
+            "company": "gsrmarkets",
+            "title": "Operations Analyst - SingaporeNew",
+            "location": "Singapore",
+            "link": "https://job-boards.eu.greenhouse.io/gsrmarkets/jobs/5040312101"
+        },
+        {
+            "company": "kraken",
+            "title": "Capital Formation lead",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/29690857-a858-4b1d-9bf6-07b2022b48ee"
         },
         {
             "company": "kraken",
@@ -1244,26 +1598,62 @@
         },
         {
             "company": "kraken",
-            "title": "Affiliate Specialist - Kraken Pro (US)",
+            "title": "Treasury Program Manager - Capital Allocation",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/c4193604-e952-4203-a691-fa4c51d7701b"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr. Director, Enterprise Risk",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/4ebdb89e-2c37-4a1c-be4b-739ec48ee8d8"
+        },
+        {
+            "company": "kraken",
+            "title": "Marketing Operations Specialist, SEO/AEO",
+            "location": "UK; Argentina; Brazil; Bulgaria; Canada; Chile; Colombia; Cyprus; Czech Republic; Hungary; Ireland; Lithuania; Mexico; Peru; Poland; Portugal; Romania; South Africa; Spain; Sweden; Switzerland; UAE",
+            "link": "https://jobs.ashbyhq.com/kraken.com/fe8ccd40-5fcb-4bd1-bc40-3d145d35121c"
+        },
+        {
+            "company": "kraken",
+            "title": "Marketing Operations Specialist, SEO/AEO",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/aa7356bf-95da-4554-bcb1-346663b2e836"
+        },
+        {
+            "company": "kraken",
+            "title": "Affiliate & Influencer Marketing Specialist - Kraken Pro (US)",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/kraken.com/685cbfbd-2fa7-49c0-83d5-2f555c9e774b"
         },
         {
             "company": "kraken",
-            "title": "Creative Strategist & Producer - Consumer",
-            "location": "US",
-            "link": "https://jobs.ashbyhq.com/kraken.com/cd686ea6-c076-410d-b6d0-e6215a75c710"
-        },
-        {
-            "company": "kraken",
-            "title": "Creative Strategist & Producer - Consumer",
+            "title": "Creative Strategist & Copywriter - Consumer",
             "location": "UK; Argentina; Brazil; Bulgaria; Canada; Chile; Colombia; Cyprus; Czech Republic; Hungary; Ireland; Lithuania; Mexico; Peru; Poland; Portugal; Romania; South Africa; Spain; Sweden; Switzerland; UAE",
             "link": "https://jobs.ashbyhq.com/kraken.com/e0230515-9bbe-4fbd-a183-9444bcd8c56f"
         },
         {
             "company": "kraken",
+            "title": "Creative Strategist & Copywriter - Consumer",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/kraken.com/cd686ea6-c076-410d-b6d0-e6215a75c710"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr. MarTech Specialist, Attribution & Performance",
+            "location": "UK; Brazil; Cyprus; Czech Republic; Ireland; Lithuania; Poland; Portugal; UAE",
+            "link": "https://jobs.ashbyhq.com/kraken.com/f2ac4af3-11d5-4579-b98d-1076ea9c3eed"
+        },
+        {
+            "company": "kraken",
+            "title": "Sr. MarTech Specialist, Attribution & Performance",
+            "location": "US; Canada",
+            "link": "https://jobs.ashbyhq.com/kraken.com/01818370-ec67-471f-b9e8-e401969258d9"
+        },
+        {
+            "company": "kraken",
             "title": "Tech Recruiter",
-            "location": "Brazil; Poland; Portugal",
+            "location": "Brazil; Argentina; Poland; Portugal",
             "link": "https://jobs.ashbyhq.com/kraken.com/5b87c3ae-888a-4170-a9f0-cb8385c3f941"
         },
         {
@@ -1277,6 +1667,18 @@
             "title": "Talent Operations Specialist",
             "location": "US",
             "link": "https://jobs.ashbyhq.com/trm-labs/9df4a53e-b30f-4811-a03e-da5abb52f110"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Business Development Executive, NA Private Sector",
+            "location": "US",
+            "link": "https://jobs.ashbyhq.com/trm-labs/5aaf200b-7964-48fe-bc5e-dd359d95215b"
+        },
+        {
+            "company": "trmlabs",
+            "title": "Solutions Architect, Onchain Compliance - EMEA",
+            "location": "EMEA",
+            "link": "https://jobs.ashbyhq.com/trm-labs/a96388b0-9e55-40f2-9f02-1979d4be5955"
         },
         {
             "company": "trmlabs",
@@ -1351,6 +1753,30 @@
             "link": "https://jobs.ashbyhq.com/zodl/ef14e188-a626-42cd-a72a-6b11139a2bcd"
         },
         {
+            "company": "OpenSea",
+            "title": "Staff Security Engineer",
+            "location": "Remote US or Remote EU",
+            "link": "https://jobs.ashbyhq.com/OpenSea/07818fcf-d1b9-49f0-b10a-42618d2ef235"
+        },
+        {
+            "company": "OpenSea",
+            "title": "Growth Marketer",
+            "location": "NYC",
+            "link": "https://jobs.ashbyhq.com/OpenSea/3f57893b-b674-46e2-949e-286e97a84b69"
+        },
+        {
+            "company": "cointracker",
+            "title": "Tax Lead, Nino",
+            "location": "US; Canada",
+            "link": "https://jobs.ashbyhq.com/cointracker/cd2844ac-1f52-4feb-8b9c-a55d922c152a"
+        },
+        {
+            "company": "rain",
+            "title": "Strategy and Operations, Europe",
+            "location": "Madrid, Spain",
+            "link": "https://jobs.ashbyhq.com/rain/31fa8a2c-cd3b-44d1-adff-327ac7362d13"
+        },
+        {
             "company": "rain",
             "title": "Senior Blockchain Security Engineer",
             "location": "New York, NY",
@@ -1382,9 +1808,21 @@
         },
         {
             "company": "chainalysis",
+            "title": "Senior Threat Detection Engineer",
+            "location": "Virginia; D.C.; Florida; Georgia; Maryland; Massachusetts; New York; North Carolina; Ohio",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/d5239a5d-5c16-47e1-a0ba-fa4a103af2fb"
+        },
+        {
+            "company": "chainalysis",
             "title": "Third-Party Risk Management (TPRM) Analyst",
             "location": "California; Colorado; Nevada; Oregon; Washington",
             "link": "https://jobs.ashbyhq.com/chainalysis-careers/24a142de-4b42-43fb-8372-c8d2a22e5d7b"
+        },
+        {
+            "company": "chainalysis",
+            "title": "Senior Office Coordinator",
+            "location": "Tel Aviv Office",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/681aa9eb-248a-4481-9f3c-f90c7b44b56d"
         },
         {
             "company": "chainalysis",
@@ -1409,6 +1847,12 @@
             "title": "Client Account Executive - Financial Services",
             "location": "London",
             "link": "https://jobs.ashbyhq.com/chainalysis-careers/89351eb5-2d24-4c64-aef9-abc48fcfa7a8"
+        },
+        {
+            "company": "chainalysis",
+            "title": "Senior Account Executive, Public Sector \u2014 Mediterranean",
+            "location": "Rome",
+            "link": "https://jobs.ashbyhq.com/chainalysis-careers/43b9572d-35ae-4979-8d1f-0144a9f1f9bc"
         },
         {
             "company": "stellar",
@@ -1436,9 +1880,21 @@
         },
         {
             "company": "trust-wallet",
+            "title": "QA Lead",
+            "location": "Remote - Global",
+            "link": "https://jobs.ashbyhq.com/trust-wallet/c29f1da7-9c89-4950-bee5-ad490708ace1"
+        },
+        {
+            "company": "trust-wallet",
             "title": "Senior QA Engineer",
             "location": "Remote - Global",
             "link": "https://jobs.ashbyhq.com/trust-wallet/7891e33d-fd9b-4caf-8bb2-442dd4fc4466"
+        },
+        {
+            "company": "trust-wallet",
+            "title": "Global KOL Manager",
+            "location": "Remote - Global",
+            "link": "https://jobs.ashbyhq.com/trust-wallet/f6e6cb95-a8ac-4924-9646-5759171788a7"
         },
         {
             "company": "ledger",
@@ -1448,9 +1904,21 @@
         },
         {
             "company": "ledger",
+            "title": "Head of GRC & Assurance",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/1b09c6a3-98ce-4c45-8ae4-7fed697acf06"
+        },
+        {
+            "company": "ledger",
             "title": "Head of Security Engineering",
             "location": "Paris, France",
             "link": "https://jobs.ashbyhq.com/ledger/91b4ef76-0f1c-4847-bb10-a26b4514e73b"
+        },
+        {
+            "company": "ledger",
+            "title": "Manufacturing Security Lead",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/b1e3029f-162a-4854-a6db-85da4b26c353"
         },
         {
             "company": "ledger",
@@ -1460,15 +1928,33 @@
         },
         {
             "company": "ledger",
+            "title": "Senior Security Architect - Enterprise & SaaS",
+            "location": "Paris, France",
+            "link": "https://jobs.ashbyhq.com/ledger/4e640d7c-0e93-4a67-a607-52889be85003"
+        },
+        {
+            "company": "ledger",
             "title": "Senior Security Architect - Product & Cloud",
             "location": "Paris, France",
             "link": "https://jobs.ashbyhq.com/ledger/f703339e-2790-4d16-b30a-87da14e3ca4d"
+        },
+        {
+            "company": "talos.com",
+            "title": "Senior Security Engineer",
+            "location": "London, NYC",
+            "link": "https://jobs.ashbyhq.com/Talos-Trading/2061fc88-d144-4c93-bb3b-54913a23551f"
         },
         {
             "company": "tenderly",
             "title": "Legal Manager",
             "location": "Belgrade, Serbia",
             "link": "https://jobs.ashbyhq.com/tenderly/673c3adf-dc19-4a06-9b68-083f1e8a731d"
+        },
+        {
+            "company": "plasma",
+            "title": "Head of Compliance and Licensing",
+            "location": "US; UK",
+            "link": "https://jobs.ashbyhq.com/plasma/4672b218-b858-4a34-a5c4-44abef5550e5"
         }
     ]
 }
