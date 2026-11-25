@@ -39,6 +39,7 @@ from src.scrape_oxylabs import ScrapeOxylabs
 from src.scrape_fundamental_labs import ScrapeFundamentalLabs
 from src.scrape_hightouch import ScrapeHightouch
 from src.scrape_rentec import ScrapeRentec
+from src.scrape_zcash_names import ScrapeZcashNames
 
 class Scrapers:
     ROBINHOOD = ScrapeRobinhood
@@ -80,3 +81,4 @@ class Scrapers:
     FUNDAMENTAL_LABS = ScrapeFundamentalLabs
     HIGHTOUCH = ScrapeHightouch
     RENTEC = ScrapeRentec
+    ZCASH_NAMES = ScrapeZcashNames

@@ -2593,6 +2593,15 @@
             "headless": true
         },
         {
+            "name": "zcashnames",
+            "jobs_url": "https://www.zcashnames.com/careers",
+            "scraper": "ZCASH_NAMES",
+            "company_url": "https://www.zcashnames.com",
+            "category": "crypto",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "you.com",
             "jobs_url": "https://job-boards.greenhouse.io/youcom",
             "scraper": "GREENHOUSE",
