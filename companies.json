@@ -3097,6 +3097,15 @@
             "headless": true
         },
         {
+            "name": "goteleport",
+            "jobs_url": "https://jobs.ashbyhq.com/goteleport",
+            "scraper": "ASHBYHQ",
+            "company_url": "https://goteleport.com",
+            "category": "tech",
+            "enabled": true,
+            "headless": true
+        },
+        {
             "name": "snaplogic",
             "jobs_url": "https://jobs.lever.co/snaplogic",
             "scraper": "LEVER",
