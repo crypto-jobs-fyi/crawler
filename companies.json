@@ -3331,15 +3331,6 @@
             "headless": true
         },
         {
-            "name": "edisyl.com",
-            "jobs_url": "https://jobs.ashbyhq.com/edisyl",
-            "scraper": "ASHBYHQ",
-            "company_url": "https://www.edisyl.com",
-            "category": "ai",
-            "enabled": true,
-            "headless": true
-        },
-        {
             "name": "rillet.com",
             "jobs_url": "https://jobs.ashbyhq.com/rillet",
             "scraper": "ASHBYHQ",
