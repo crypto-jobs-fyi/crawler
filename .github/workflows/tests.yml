@@ -33,6 +33,7 @@ jobs:
               test/test_btcsuisse.py
               test/test_c3_scraper.py
               test/test_dayforce_scraper.py
+              test/test_fundamental_labs_scraper.py
           - shard: 2
             runner: ubuntu-latest
             tests: >-
@@ -43,6 +44,7 @@ jobs:
               test/test_gem.py
               test/test_gemini_scraper.py
               test/test_greenhouse_scraper.py
+              test/test_hightouch_scraper.py
           - shard: 3
             runner: ubuntu-latest
             tests: >-
@@ -52,6 +54,7 @@ jobs:
               test/test_nebius_scraper.py
               test/test_paxos_scraper.py
               test/test_recruitee_scraper.py
+              test/test_rentec_scraper.py
           - shard: 4
             runner: ubuntu-latest
             tests: >-
@@ -61,6 +64,7 @@ jobs:
               test/test_world.py
               test/test_cursor_scraper.py
               test/test_fireblocks_scraper.py
+              test/test_oxylabs_scraper.py
           - shard: 5
             runner: ubuntu-latest
             tests: >-
@@ -70,6 +74,8 @@ jobs:
               test/test_playwright_headed_scrapers.py
               test/test_google_careers_scraper.py
               test/test_radical_ai_scraper.py
+              test/test_workato_scraper.py
+              test/test_zcash_names_scraper.py
 
     steps:
       - name: Checkout repository
