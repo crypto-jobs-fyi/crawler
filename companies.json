@@ -2288,8 +2288,8 @@
         },
         {
             "name": "workato",
-            "jobs_url": "https://job-boards.greenhouse.io/workato",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://www.workato.com/careers#open-roles",
+            "scraper": "WORKATO",
             "company_url": "https://www.workato.com",
             "category": "ai",
             "enabled": true,
