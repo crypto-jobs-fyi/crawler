@@ -2576,8 +2576,8 @@
         },
         {
             "name": "hightouch",
-            "jobs_url": "https://job-boards.greenhouse.io/hightouch",
-            "scraper": "GREENHOUSE",
+            "jobs_url": "https://hightouch.com/careers#open-positions",
+            "scraper": "HIGHTOUCH",
             "company_url": "https://hightouch.com",
             "category": "ai",
             "enabled": true,
