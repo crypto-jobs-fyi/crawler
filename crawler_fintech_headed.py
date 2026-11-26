@@ -20,5 +20,6 @@ runner = PlaywrightCrawlerRunner(
     current_jobs_file,
     headless=False,
     max_attempts=2,
+    stealth=True,
 )
 runner.run(filtered_companies)

@@ -32,6 +32,16 @@ class ScrapeRevolutPeople(ScrapeIt):
             cookie_banners[0].click()
             time.sleep(2)
         group_elements = page.find_elements(By.CSS_SELECTOR, 'a[aria-label="position-link"]')
+        if not group_elements:
+            self.log_warning(
+                "No position links found",
+                company=company,
+                page_title=page.execute_script("return document.title;"),
+                page_url=page.execute_script("return location.href;"),
+                body_start=page.execute_script(
+                    "return (document.body.innerText || '').slice(0, 300);"
+                ),
+            )
         result = []
         for elem in group_elements:
             job_name_elem = elem.find_element(By.CSS_SELECTOR, 'span span')
